@@ -64,6 +64,7 @@ window.CROCamiManufacturerData = {
     noteFabricant:"Énergie calculée : 3,47 kcal/g. Données minérales et vitaminiques issues de la fiche technique Purina (2024)."
   },
   d08: {
+    imageProduit:"https://media.zooplus.com/bilder/1/800/105933_pla_hill_s_scienceplan_adult_small_min_perfectweight_chicken_6kg_hs_01_1.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.hillspet.fr/dog-food/science-plan-adult-perfect-weight-mini-chicken-dry",
     proteines:26.2, matieresGrasses:11, fibres:12.2, cendres:5.3, calcium:0.79, phosphore:0.64, sodium:0.27, potassium:0.8, magnesium:0.13,
@@ -71,12 +72,14 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 10 014 UI/kg ; vitamine D3 714 UI/kg ; vitamine E 730 mg/kg ; vitamine C 121 mg/kg ; bêta-carotène 1,6 mg/kg ; fer 75,2 mg/kg ; iode 1,9 mg/kg ; cuivre 7,4 mg/kg ; manganèse 7,8 mg/kg ; zinc 132 mg/kg ; sélénium 0,2 mg/kg ; antioxydant naturel."
   },
   d09: {
+    imageProduit:"https://petco.cl/medias/1200ftw-603996.jpg?context=bWFzdGVyfHJvb3R8NTY1NTY1fGltYWdlL2pwZWd8YURWaUwyZ3haQzh4TURreE1ETTJOalUyTkRNNE1pOHhNakF3Wm5SM1h6WXdNems1Tmk1cWNHY3xmZGJhMjljMGY5MGNjMWI1ZDNhOWFkZWVjM2EwZjhmYTAwMjI2YzBjN2I4ZWYxYzEwNWRjNTVhZGEyOWMwZDBl",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-light-vital.html",
     proteines:29, matieresGrasses:7.5, fibres:7, cendres:6.7, calcium:1.3, phosphore:0.9, sodium:0.35, energie:3162,
     compositionComplete:"Protéines de volaille déshydratées 29 % (dont poulet 40 %), farine de pois, orge complète, lignocellulose, pulpe de betterave, protéines de volaille hydrolysées, graisse de volailles, caroube moulue déshydratée, levure partiellement hydrolysée, substances minérales, fines herbes, fruits, psyllium, chair séchée de moule verte de Nouvelle-Zélande.",
     additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 400 mg/kg ; C 150 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; L-carnitine 500 mg/kg ; fer 110 mg/kg ; zinc 120 mg/kg ; manganèse 9 mg/kg ; cuivre 12 mg/kg ; iode 1,4 mg/kg ; sélénium 0,10 mg/kg."
   },
   d10: {
+    imageProduit:"https://images.onlinepets.com/product-images/catalog/ogS9mM14IlvbFyti3vR4LrWuuOr7TC-metaMTJrZy13ZWlnaHQtbG9zcy5qcGc%3D-.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://brit-petfood.com/en/brit-care-dog-hypoallergenic-2022",
     proteines:27, matieresGrasses:9, fibres:9.5, cendres:5.5, humiditeFabricant:10, humidite:10, calcium:1.2, phosphore:0.8, sodium:0.3, omega3:0.3, omega6:1.5, energie:3110,
@@ -92,6 +95,7 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine B1 9,4 mg/kg ; B2 16 mg/kg ; D3 1 406 UI/kg ; E 100 mg/kg ; biotine 0,22 mg/kg ; cuivre 3,9 mg/kg ; iode 0,98 mg/kg ; manganèse 20,3 mg/kg ; méthionine 1,5 g/kg ; sélénium 0,33 mg/kg ; zinc 57,4 mg/kg ; antioxygènes."
   },
   d12: {
+    imageProduit:"https://a.allegroimg.com/original/1107dc/4c2de32247479c03604d7014db35/PURINA-Dog-Chow-Adult-Lamb-2-5kg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/dog-chow-adult-agneau",
     proteines:25, matieresGrasses:12, fibres:3.5, cendres:8, omega3:0.1, omega6:1.8,
@@ -122,6 +126,7 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 47 360 UI/kg ; C 59 mg/kg ; D3 1 571 UI/kg ; E 263 mg/kg ; bêta-carotène 5,2 mg/kg ; L-carnitine 50 mg/kg ; cuivre 8 mg/kg ; iode 1 mg/kg ; manganèse 3,6 mg/kg ; zinc 89 mg/kg ; sélénium 0,07 mg/kg ; antioxydants naturels, romarin et extrait de thé."
   },
   d16: {
+    imageProduit:"https://www.pets-lifestyle.com/cdn/shop/products/RoyalCaninPetFood_3_75cf7c64-9949-4cee-83f5-eaf4cf81a706.png?v=1755786277",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001",
     proteines:27, matieresGrasses:16, fibres:1.4, cendres:6.7, energie:3916,
@@ -129,6 +134,7 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 15 800 UI/kg ; D3 1 000 UI/kg ; fer 34 mg/kg ; iode 3,4 mg/kg ; cuivre 10,5 mg/kg ; manganèse 44 mg/kg ; zinc 125 mg/kg ; sélénium 0,09 mg/kg ; conservateurs et antioxygènes."
   },
   d17: {
+    imageProduit:"https://www-leshop-ch-cld-res.cloudinary.com/image/upload/w_1000%2Ch_1000%2Cc_pad%2Cg_center%2Cfl_lossy%2Cb_rgb%3Afff/f_auto/e_unsharp_mask%3A100/q_auto/v2/prod/catalog/product/product-3614577.png",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/proplan-croquettes-adulte-mini-poulet",
     proteines:28, matieresGrasses:17, fibres:2, cendres:7.5, energie:3950,
@@ -137,12 +143,14 @@ window.CROCamiManufacturerData = {
     ration:"Apport calorique fabricant : 395 kcal/100 g. Ration détaillée selon poids et activité sur le guide fabricant."
   },
   d19: {
+    imageProduit:"https://ahlanpet.ae/images/josera-minwell-10kg-50012748-1741790453.webp",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-miniwell.html",
     proteines:27, matieresGrasses:16, fibres:2, cendres:7.2, calcium:1.5, phosphore:1.15, sodium:0.4, energie:3872,
     compositionComplete:"Protéines de volaille déshydratées 31 % (dont poulet 40 %), grains de maïs entier, riz 15 %, graisse de volailles, pulpe de betterave, protéines de volaille hydrolysées, substances minérales (tripolyphosphate de sodium 0,35 %), protéines animales hydrolysées, levure, poudre de chicorée.",
     additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 220 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; fer 110 mg/kg ; zinc 130 mg/kg ; manganèse 9 mg/kg ; cuivre 12 mg/kg ; iode 1,4 mg/kg ; sélénium 0,10 mg/kg."
   },
   d18: {
+    imageProduit:"https://a2.soysuper.com/2d26dba3224adcefd5d218e1c341a7eb.1200.0.0.0.wmark.7c32ec08.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.advance-affinity.com/fr/chien/nourriture-chien/adult-mini-1000404.html",
     proteines:26, matieresGrasses:17, fibres:3, cendres:6.5, omega3:0.3, omega6:3.1,
@@ -165,6 +173,7 @@ window.CROCamiManufacturerData = {
     ration:"2 kg : 35 g ; 4 kg : 55 g ; 6 kg : 70 g ; 8 kg : 85 g/jour."
   },
   c14: {
+    imageProduit:"https://www.twidox.at/media/image/product/114431/lg/katzen-trockenfutter-josera-senior.png",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/media/datatransfer/import/product/images/FR_SENIOR_20260128.pdf",
     proteines:27, matieresGrasses:20, fibres:2.7, cendres:4.6, calcium:0.6, phosphore:0.45, magnesium:0.07, sodium:0.3, potassium:0.65, energie:4086,
     compositionComplete:"Résidu gras déshydraté, graisse de volailles, riz, grains de maïs entier, pulpe de betterave, pommes de terre séchées, protéine de pomme de terre, protéines animales hydrolysées, substances minérales, foie de volaille séché, huile de saumon, fines herbes et fruits.",
@@ -180,6 +189,7 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 29 000 UI/kg ; D3 1 000 UI/kg ; E 640 mg/kg ; taurine 1 000 mg/kg ; DL-méthionine 250 mg/kg ; iode 1 mg/kg ; fer 50 mg/kg ; zinc 100 mg/kg ; manganèse 50 mg/kg ; cuivre 5 mg/kg ; antioxydants (extraits de tocophérols) ; sépiolite 300 mg/kg ; extrait de romarin."
   },
   c16: {
+    imageProduit:"https://www.petsense.com/cdn/shop/products/12213-1533068253_2000x.png?v=1739292710",
     verificationFabricant:"à recouper", sourceFabricant:"https://www.tasteofthewild.com.au/portfolio-view/rocky-mountain/",
     proteines:42, matieresGrasses:18, fibres:3, cendres:8.3, humiditeFabricant:10, humidite:10, calcium:1.9, phosphore:1.2, omega3:0.3, omega6:2.8, energie:3745,
     compositionComplete:"Formule féline Rocky Mountain : cerf rôti et saumon fumé. La page officielle consultée concerne le marché australien ; la composition détaillée et les valeurs doivent être recoupées avec le sac vendu en France.",
@@ -188,6 +198,7 @@ window.CROCamiManufacturerData = {
     ration:"Chat adulte : 1–2,25 kg 35–53 g ; 2,25–4,5 kg 53–70 g ; 4,5–6,8 kg 70–106 g ; 6,8–9 kg 106–133 g/jour."
   },
   d20: {
+    imageProduit:"https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202604/15/00149510063594____10__1200x1200.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.edgardcooper.com/fr/products/dog-dry-food-chicken/",
     compositionComplete:"Liste visible sur la fiche officielle actuelle : poulet frais 40 %, patate douce séchée 13,2 %, pommes de terre séchées, protéine de pois, pois séchés, graisse de poulet, protéine de pomme de terre, sauce de poulet. La liste complète doit être relevée sur l’étiquette du sac correspondant au lot.",
@@ -230,18 +241,21 @@ window.CROCamiManufacturerData = {
     noteFabricant:"La fiche officielle consultée fournit la composition et la ration, mais ne publie pas les constituants analytiques dans la page récupérée."
   },
   c05: {
+    imageProduit:"https://static.delhaize.be/medias/sys_master/products/ha5/h5f/13021674176542.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.perfect-fit.fr/products/cat-dry/perfect-fit-adult-1-croquettes-riche-en-poulet-chat-adulte-sterilise-28kg",
     proteines:34, matieresGrasses:14.5, fibres:3, cendres:8, calcium:0.88, phosphore:0.88, energie:3860,
     compositionComplete:"Viandes et sous-produits animaux (dont poulet 14 %), blé, maïs, extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, substances minérales, levures (dont levure de bière naturelle 0,2 %).",
     additifs:"Vitamines B1 13,5 mg/kg ; B2 23,1 mg/kg ; B6 6 mg/kg ; C 210 mg/kg ; D3 750 UI/kg ; E 100 mg/kg ; taurine 950 mg/kg ; cuivre 1,7 mg/kg ; iode 0,41 mg/kg ; fer 37,5 mg/kg ; manganèse 24,8 mg/kg ; sélénium 0,18 mg/kg ; zinc 70,1 mg/kg ; antioxygènes et colorants."
   },
   c06: {
+    imageProduit:"https://cdn.manomano.com/images/images_products/2800851/P/135091511_1.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://iams.eu/fr-fr/chat/croquettes/aliments-secs-au-poulet-frais-adultes",
     proteines:35, matieresGrasses:14, fibres:1.9, cendres:6.7, calcium:1.3, phosphore:1.1, magnesium:0.096, omega3:0.29, omega6:2.8,
     compositionComplete:"Poulet et dinde déshydratés 38 % (poulet 23 %), maïs, poulet frais 10 %, sorgho, graisse de porc, pulpe de betterave déshydratée 1,6 %, jus au poulet, fructo-oligosaccharides 0,67 %, huile de poisson, chlorure de potassium.",
     ration:"2 kg : 30–40 g ; 3 kg : 40–55 g ; 4 kg : 50–65 g ; 5 kg : 55–75 g ; 6 kg : 65–85 g ; 7 kg : 70–95 g/jour."
   },
   c07: {
+    imageProduit:"https://www.purina.rs/sites/default/files/2026-01/7613033923586_friskies_pisica_pui_1.5kg_1.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chat/alimentation/friskies-croquettes-adulte-poulet",
     proteines:30, matieresGrasses:11, fibres:3, cendres:7.5,
     compositionComplete:"Céréales, viandes et sous-produits animaux (dont poulet 3 % et lapin 1 % dans certaines croquettes ; teneur totale du produit : poulet 2,4 % et lapin 0,8 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, substances minérales, légumes (pois et carottes séchés), levures.",
@@ -249,6 +263,7 @@ window.CROCamiManufacturerData = {
     ration:"3 kg : 45 g ; 4 kg : 60 g ; 5 kg : 75 g/jour."
   },
   c08: {
+    imageProduit:"https://media.zooplus.com/bilder/6/800/74086_pla_whiskas_1plus_huhn_14kg_hs_01_6.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.whiskas.fr/nos-produits/croquettes/classique/whiskas-croquettes-au-poulet-pour-chat-adulte-3-8kg-7kg",
     proteines:30, matieresGrasses:12.4, fibres:1.8, cendres:8.2, omega6:2.6,
@@ -257,6 +272,7 @@ window.CROCamiManufacturerData = {
     ration:"3 kg : 35 g ; 4 kg : 45 g ; 5 kg : 55 g par jour (croquettes seules)."
   },
   c20: {
+    imageProduit:"https://www.vetzoo.no/dw/image/v2/BLRV_PRD/on/demandware.static/-/Sites-musti-master-catalog/default/dw7af4aa3e/images/products/P216129/shared/216129_Carnilove_Cat_Adult_Active_Salmon_%26_Turkey_6kg.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://carnilove.com/en/products/active-dry-food-made-with-salmon-and-turkey-for-adult-cats",
     energie:3875,
     compositionComplete:"Saumon frais 26 %, protéines de dinde 24 %, pois jaunes, protéines de dinde hydrolysées 12 %, graisse de bœuf 8 %, foie hydrolysé 4 %, pois chiches, protéine de pois, citrouille, graines de lin, huile de saumon 1 %, chlorure de potassium, farine de pois, carottes, argousier séché 0,1 %, gingembre 0,05 %, myrtilles 0,05 %, romarin 0,05 %, canneberges 0,05 %, thym 0,05 %, levure de bière, racine de chicorée et yucca.",
@@ -264,12 +280,14 @@ window.CROCamiManufacturerData = {
     noteFabricant:"Énergie métabolisable annoncée : 3 875 kcal/kg. Les constituants analytiques complets doivent encore être recoupés avec l’étiquette du lot commercialisé en France."
   },
   c19: {
+    imageProduit:"https://d3nyg2dwdichmn.cloudfront.net/production/files/public/media/0e/f5/b1/1713551580/688614.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.farmina.com/ch_fr/eshop/alimentation-pour-chat/n%26d-prime-chats/145-prime-poulet-%26-grenade-chat-adulte.html",
     proteines:44, matieresGrasses:20, fibres:1.8, cendres:8.5, humiditeFabricant:8, humidite:8, calcium:1.1, phosphore:0.9, magnesium:0.08, omega3:0.9, omega6:3.3, dha:0.5, epa:0.3, energie:4204,
     compositionComplete:"Poulet désossé 30 %, protéine de poulet déshydratée 28 %, patate douce, graisse de poulet, œuf séché, hareng, protéine de hareng déshydratée, huile de poisson (hareng), fibre de pois, carotte séchée, farine de luzerne, inuline, FOS, extrait de levure (MOS), grenade séchée 0,5 %, pomme séchée, épinard séché, psyllium 0,3 %, orange douce séchée, myrtille séchée, chlorure de sodium, levure de bière séchée, curcuma 0,2 %, extrait d’aloe vera.",
     additifs:"Vitamine A 18 000 UI/kg ; D3 1 200 UI/kg ; E 600 mg/kg ; C 300 mg/kg ; niacine 150 mg/kg ; pantothénate de calcium 50 mg/kg ; B2 20 mg/kg ; B6 8,1 mg/kg ; B1 10 mg/kg ; biotine 1,5 mg/kg ; acide folique 1,5 mg/kg ; B12 0,1 mg/kg ; choline 2 500 mg/kg ; bêta-carotène 1,5 mg/kg ; zinc 163,8 mg/kg ; manganèse 64,6 mg/kg ; fer 58,3 mg/kg ; cuivre 15,8 mg/kg ; DL-méthionine 5 000 mg/kg ; taurine 4 000 mg/kg ; L-carnitine 300 mg/kg ; extrait de thé vert, romarin et tocophérols."
   },
   c17: {
+    imageProduit:"https://images.onlinepets.com/product-images/catalog/6HnWPIPskx31AG9D2fDZXoc7EPK4vC-metaQXBwbGF3cy1LYXQtLS1BZHVsdC1LYXQtS2lwLTcsNS1rZy5qcGc%3D-.jpg?auto=format",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://applaws.com/uk/products/chicken-adult-dry-cat-food-4/",
     proteines:37, matieresGrasses:16.5, fibres:2, cendres:8, omega3:0.5, omega6:3.85, calcium:2.2, phosphore:1.4, energie:4046,
@@ -277,12 +295,14 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 29 000 UI/kg ; D3 1 000 UI/kg ; E 640 mg/kg ; taurine 1 000 mg/kg ; DL-méthionine 250 mg/kg ; iode 1 mg/kg ; fer 50 mg/kg ; zinc 100 mg/kg ; manganèse 50 mg/kg ; cuivre 5 mg/kg ; antioxydants (extraits de tocophérols) ; sépiolite 300 mg/kg ; extrait de romarin."
   },
   c18: {
+    imageProduit:"https://www.cdiscount.com/pdt2/4/0/6/1/700x700/aabux67406/rw/croquettes-pour-chat-adulte.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://eukanuba.eu/fr-fr/chat/croquettes/chat-sans-cereales-adulte",
     proteines:38, matieresGrasses:14, fibres:2.5, cendres:7, calcium:1.3, phosphore:1.1, magnesium:0.08, omega3:1.04, omega6:2.58,
     compositionComplete:"Poulet et dinde déshydratés 33 % (poulet 20 %), saumon frais congelé 20 %, pomme de terre, pois entiers, graisse de volaille, pulpe de betterave déshydratée 1,7 %, jus au poulet, fructo-oligosaccharides 0,65 %, levure de bière déshydratée.",
     additifs:"Vitamine A 50 000 UI/kg ; D3 1 438 UI/kg ; E 124 mg/kg ; cuivre 7,7 mg/kg ; iode 1 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; taurine 0,21 %."
   },
   c09: {
+    imageProduit:"https://i.ebayimg.com/images/g/9XoAAOSw2ktj5OTy/s-l1200.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.bosch-tiernahrung.de/bosch_de_en/adult-huhn-blaubeeren.html",
     proteines:31, matieresGrasses:16, fibres:2, cendres:6.9, humiditeFabricant:10, humidite:10, calcium:1.15, phosphore:1, sodium:0.4, potassium:0.5, magnesium:0.07, energie:3910,
     compositionComplete:"Viande fraîche de poulet 25 %, maïs, orge, protéines de volaille (déshydratées), graisse animale, protéines de maïs, hydrolysat de protéines, graines de lin, carbonate de calcium, riz 1 %, farine de foie, pois séchés 0,4 %, airelles 0,1 %, myrtilles 0,1 %, persil séché 0,1 %, levure séchée 0,1 %, chlorure de potassium, fleurs de souci 0,05 %.",
