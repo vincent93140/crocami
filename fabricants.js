@@ -111,6 +111,7 @@ window.CROCamiManufacturerData = {
   c02: {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chat/alimentation/proplan-croquette-adulte-dinde",
+    sourceComplementaire:"https://vetcenter.purina.fr/sites/default/files/vet_materials/gamme_pro_plan_chat.pdf",
     proteines:41, matieresGrasses:12, fibres:4, cendres:7.5, humiditeFabricant:6,
     compositionComplete:"Dinde de haute qualité 20 % (dont dos et coffre), protéines de volaille déshydratées, riz, farine de protéines de maïs, maïs, gluten de blé, farine basse de blé, fibres végétales séchées, œufs déshydratés, substances minérales, huile de poisson, graisses animales, hydrolysat, levure.",
     additifs:"Vitamine A 32 000 UI/kg ; D3 1 000 UI/kg ; E 670 UI/kg ; C 140 mg/kg ; fer 120 mg/kg ; iode 1,9 mg/kg ; cuivre 13 mg/kg ; manganèse 45 mg/kg ; zinc 110 mg/kg ; sélénium 0,13 mg/kg."
