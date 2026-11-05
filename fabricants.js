@@ -10,6 +10,13 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 15 500 UI/kg ; vitamine D3 1 000 UI/kg ; fer 38 mg/kg ; iode 3,8 mg/kg ; cuivre 12 mg/kg ; manganèse 50 mg/kg ; zinc 132 mg/kg ; sélénium 0,06 mg/kg ; clinoptilolite 10 g/kg ; vitamine E 510 mg/kg ; vitamine C 400 mg/kg.",
     ration:"Tableau fabricant selon le poids adulte estimé et l’âge du chiot (2 à 14 mois)."
   },
+  d02: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chien/alimentation/proplan-croquettes-chiot-medium", sourceComplementaire:"https://eleveurs.chiens-de-france.com/media/purina/2023-gamme-proplan-chiens.pdf",
+    proteines:30, matieresGrasses:19, fibres:2, cendres:7.5, humiditeFabricant:8, humidite:8, glucides:33.5, calcium:1.5, phosphore:1.02, sodium:0.39, potassium:0.69, magnesium:0.13, omega3:0.3, omega6:2.3, dha:0.07, epaDha:0.17, energie:3838,
+    compositionComplete:"Poulet de haute qualité 20 % (dont dos et coffre), blé, protéines de volaille déshydratées, graisses animales, riz 8 %, farine de soja, farine de protéines de maïs, maïs, hydrolysat, pulpe de betterave déshydratée, huile de poisson, œufs déshydratés, substances minérales, colostrum déshydraté 0,1 %.",
+    additifs:"Vitamine A 18 129 UI/kg ; D3 1 037 UI/kg ; E 207 UI/kg ; K 0,15 mg/kg ; C 60 mg/kg ; B1 27 mg/kg ; B2 14 mg/kg ; B3 162 mg/kg ; B5 45 mg/kg ; B6 16 mg/kg ; B8 0,22 mg/kg ; B9 4,56 mg/kg ; B12 0,25 mg/kg ; choline 2 016 mg/kg ; taurine 913 mg/kg ; fer 25,7 mg/100 g ; zinc 17,2 mg/100 g ; cuivre 2,1 mg/100 g ; manganèse 6,2 mg/100 g ; iode 0,256 mg/100 g ; sélénium 0,041 mg/100 g.",
+    ration:"Tableau fabricant selon poids adulte attendu et âge du chiot, de 1,5 à 24 mois ; voir la fiche technique liée."
+  },
   d03: {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-kids.html",
     proteines:25, matieresGrasses:12, fibres:2.3, cendres:6.7, calcium:1.3, phosphore:1, sodium:0.4, magnesium:0.1, energie:3675,
@@ -70,6 +77,12 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 23 000 UI/kg ; D3 1 700 UI/kg ; E 550 mg/kg ; C 350 mg/kg ; taurine 1 500 mg/kg ; choline 1 800 mg/kg ; L-carnitine 300 mg/kg ; vitamines B1, B2, B6, B12, biotine, acide folique, acide pantothénique et niacinamide ; fer 88 mg/kg ; iode 0,9 mg/kg ; zinc 100 mg/kg ; manganèse 45 mg/kg ; cuivre 20 mg/kg ; sélénium 0,18 mg/kg ; antioxydants (tocophérols, palmitate d’ascorbyle, romarin).",
     ration:"Perte de poids / maintien : 5 kg 80/90 g ; 10 kg 130/160 g ; 15 kg 180/210 g ; 20 kg 220/260 g ; 25 kg 260/310 g ; 30 kg 310/350 g ; 40 kg 380/430 g ; 50 kg 450/510 g ; 60 kg 510/580 g ; 70 kg 570/660 g ; 80 kg 630/720 g ; 90 kg 690/790 g par jour."
   },
+  d11: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.pedigree.fr/nourriture-pour-chien/croquettes-pour-adulte-chien/pedigree-professional-nutrition-croquettes-au-boeuf-et-aux-legumes-pour-chien-adulte-12kg",
+    proteines:20, matieresGrasses:9, fibres:2.9, cendres:7, calcium:1.2, phosphore:0.74,
+    compositionComplete:"Céréales (dont blé complet 47 %), viandes et sous-produits animaux (dont bœuf 4 %), huiles et graisses, sous-produits d’origine végétale (dont pulpe de betterave déshydratée 3 %), substances minérales, légumes (mélange de petits pois et carottes déshydratés 0,7 %), levure (dont levure de bière 0,4 %).",
+    additifs:"Vitamine B1 9,4 mg/kg ; B2 16 mg/kg ; D3 1 406 UI/kg ; E 100 mg/kg ; biotine 0,22 mg/kg ; cuivre 3,9 mg/kg ; iode 0,98 mg/kg ; manganèse 20,3 mg/kg ; méthionine 1,5 g/kg ; sélénium 0,33 mg/kg ; zinc 57,4 mg/kg ; antioxygènes."
+  },
   d12: {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/dog-chow-adult-agneau",
@@ -124,6 +137,12 @@ window.CROCamiManufacturerData = {
     proteines:26, matieresGrasses:17, fibres:3, cendres:6.5, omega3:0.3, omega6:3.1,
     compositionComplete:"Poulet 20 %, protéines déshydratées de volaille, blé complet 10 %, riz 10 %, maïs complet, graisse de volaille, pois déshydratés 4 %, farine de maïs, protéines déshydratées de porc, protéine de maïs, protéines animales hydrolysées (volaille, porc, poisson), pulpe de betterave 2 %, fibre de pois, farines basses de blé, inuline de chicorée 0,8 %, substances minérales, protéines plasmatiques de porc 0,4 %.",
     additifs:"Vitamine A 27 000 UI/kg ; D3 1 200 UI/kg ; E 500 mg/kg ; C 70 mg/kg ; fer 86 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 148 mg/kg ; sélénium 0,1 mg/kg ; Bacillus velezensis DSM 1 1×10⁹ ; antioxygènes."
+  },
+  c12: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://iams.eu/fr-fr/chat/croquettes/aliments-secs-au-poulet-frais-seniors",
+    proteines:35, matieresGrasses:12.5, fibres:2, cendres:6.8, calcium:1.3, phosphore:1.1, magnesium:0.098, omega3:0.27, omega6:2.67,
+    compositionComplete:"Poulet et dinde déshydratés 37 % (poulet 22 %), maïs, poulet frais 10 %, sorgho, graisse de porc, pulpe de betterave déshydratée 1,6 %, jus au poulet, fructo-oligosaccharides 0,67 %, huile de poisson, chlorure de potassium, glucosamine d’origine animale 0,04 %.",
+    ration:"2 kg : 30–40 g ; 3 kg : 40–55 g ; 4 kg : 50–65 g ; 5 kg : 55–75 g ; 6 kg : 65–85 g ; 7 kg : 70–95 g/jour."
   },
   c13: {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.advance-affinity.com/fr/chat/nourriture-chat/senior-sterilized-1000392.html",
@@ -183,6 +202,12 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Viandes et sous-produits animaux (dont poulet 14 %), blé, maïs, extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, substances minérales, levures (dont levure de bière naturelle 0,2 %).",
     additifs:"Vitamines B1 13,5 mg/kg ; B2 23,1 mg/kg ; B6 6 mg/kg ; C 210 mg/kg ; D3 750 UI/kg ; E 100 mg/kg ; taurine 950 mg/kg ; cuivre 1,7 mg/kg ; iode 0,41 mg/kg ; fer 37,5 mg/kg ; manganèse 24,8 mg/kg ; sélénium 0,18 mg/kg ; zinc 70,1 mg/kg ; antioxygènes et colorants."
   },
+  c06: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://iams.eu/fr-fr/chat/croquettes/aliments-secs-au-poulet-frais-adultes",
+    proteines:35, matieresGrasses:14, fibres:1.9, cendres:6.7, calcium:1.3, phosphore:1.1, magnesium:0.096, omega3:0.29, omega6:2.8,
+    compositionComplete:"Poulet et dinde déshydratés 38 % (poulet 23 %), maïs, poulet frais 10 %, sorgho, graisse de porc, pulpe de betterave déshydratée 1,6 %, jus au poulet, fructo-oligosaccharides 0,67 %, huile de poisson, chlorure de potassium.",
+    ration:"2 kg : 30–40 g ; 3 kg : 40–55 g ; 4 kg : 50–65 g ; 5 kg : 55–75 g ; 6 kg : 65–85 g ; 7 kg : 70–95 g/jour."
+  },
   c07: {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chat/alimentation/friskies-croquettes-adulte-poulet",
     proteines:30, matieresGrasses:11, fibres:3, cendres:7.5,
@@ -216,6 +241,13 @@ window.CROCamiManufacturerData = {
     proteines:38, matieresGrasses:14, fibres:2.5, cendres:7, calcium:1.3, phosphore:1.1, magnesium:0.08, omega3:1.04, omega6:2.58,
     compositionComplete:"Poulet et dinde déshydratés 33 % (poulet 20 %), saumon frais congelé 20 %, pomme de terre, pois entiers, graisse de volaille, pulpe de betterave déshydratée 1,7 %, jus au poulet, fructo-oligosaccharides 0,65 %, levure de bière déshydratée.",
     additifs:"Vitamine A 50 000 UI/kg ; D3 1 438 UI/kg ; E 124 mg/kg ; cuivre 7,7 mg/kg ; iode 1 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; taurine 0,21 %."
+  },
+  c09: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.bosch-tiernahrung.de/bosch_de_en/adult-huhn-blaubeeren.html",
+    proteines:31, matieresGrasses:16, fibres:2, cendres:6.9, humiditeFabricant:10, humidite:10, calcium:1.15, phosphore:1, sodium:0.4, potassium:0.5, magnesium:0.07, energie:3910,
+    compositionComplete:"Viande fraîche de poulet 25 %, maïs, orge, protéines de volaille (déshydratées), graisse animale, protéines de maïs, hydrolysat de protéines, graines de lin, carbonate de calcium, riz 1 %, farine de foie, pois séchés 0,4 %, airelles 0,1 %, myrtilles 0,1 %, persil séché 0,1 %, levure séchée 0,1 %, chlorure de potassium, fleurs de souci 0,05 %.",
+    additifs:"Vitamine A 17 000 UI/kg ; D3 1 500 UI/kg ; B1 20 mg/kg ; B2 20 mg/kg ; B6 20 mg/kg ; B12 40 µg/kg ; biotine 275 µg/kg ; acide pantothénique 20 mg/kg ; niacine 80 mg/kg ; taurine 2 000 mg/kg ; acide folique 2 mg/kg ; choline 2 450 mg/kg ; E 150 mg/kg ; zinc 40 mg/kg (chélate) et 30 mg/kg (oxyde) ; cuivre 10 mg/kg ; iode 2 mg/kg ; sélénium 0,2 mg/kg.",
+    ration:"2–3 kg : 40–55 g ; 4–5 kg : 65–75 g ; 6–7 kg : 85–95 g ; 8 kg : 105 g/jour."
   },
   c10: {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chat/alimentation/cat-chow-adulte-poulet",
