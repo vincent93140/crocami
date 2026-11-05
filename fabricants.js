@@ -53,6 +53,13 @@ window.CROCamiManufacturerData = {
     proteines:25, matieresGrasses:12, fibres:3.5, cendres:8, omega3:0.1, omega6:1.8,
     compositionComplete:"Céréales (céréales complètes 48 %), viandes et sous-produits animaux (20 %, dont agneau 4 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 1,1 %, pois séchés 0,08 %, carottes séchées 0,08 %), substances minérales."
   },
+  d13: {
+    verificationFabricant:"confirmée_partielle",
+    sourceFabricant:"https://www.ultima-affinity.com/fr/fr/chien/nourriture-chien/seche-medium-maxi-adult-poulet-1000297.html",
+    compositionComplete:"Poulet 18 % (dont os, viande, peau), blé complet 15 %, maïs complet 11 %, protéines déshydratées de porc, pois déshydratés 9 %, farines basses de blé, graisse animale (volaille, porc), protéines animales hydrolysées (volaille, porc, poisson), orge complète 4 %, protéines déshydratées de volaille, pulpe de betterave 2,1 %, substances minérales.",
+    ration:"10–20 kg : 140–240 g (activité +) ou 175–290 g (activité ++) ; 20–30 kg : 240–325 ou 290–395 g ; 30–40 kg : 325–405 ou 395–490 g ; 40–55 kg : 405–515 ou 490–625 g/jour.",
+    noteFabricant:"La fiche officielle consultée publie la composition et le guide de ration, mais pas les constituants analytiques détaillés."
+  },
   d14: {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/purina-one-medium-maxi-adult-boeuf",
@@ -105,6 +112,13 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Poulet 17 % (dont os, viande, peau), protéines de volaille déshydratées, blé 15 %, farine de soja, maïs, farine de protéines de maïs, gluten de blé, graisses animales, pulpe de betterave déshydratée, racine de chicorée séchée 2 %, fibres végétales séchées, substances minérales, hydrolysat avec Lactobacillus delbrueckii et fermentum traités thermiquement, levures déshydratées.",
     additifs:"Vitamine A 34 000 UI/kg ; D3 1 100 UI/kg ; E 400 UI/kg ; C 140 mg/kg ; taurine 700 mg/kg ; fer 110 mg/kg ; iode 1,7 mg/kg ; cuivre 11 mg/kg ; manganèse 40 mg/kg ; zinc 100 mg/kg ; sélénium 0,12 mg/kg.",
     ration:"2–4 kg : 30–60 g ; 4–6 kg : 60–85 g ; 6–8 kg : 85–115 g par jour."
+  },
+  c04: {
+    verificationFabricant:"confirmée_partielle",
+    sourceFabricant:"https://www.ultima-affinity.com/fr/fr/chat/nourriture-chat/seche-sterilise-adult-poulet-1000260.html",
+    compositionComplete:"Poulet 17 % (dont os, viande, peau), protéine de maïs, blé complet 13 %, pois déshydratés 11 %, protéines déshydratées de volaille, orge complète 6 %, protéines animales hydrolysées (volaille, porc, poisson), maïs complet 4 %, protéines déshydratées de porc, graisse animale (volaille, porc), protéines déshydratées de bœuf, substances minérales, poudre de cellulose, fibre de pois, pulpe de betterave.",
+    ration:"2–4 kg : 30–50 g (activité +) ou 35–60 g (activité ++) ; 4–6 kg : 50–65 ou 60–75 g ; 6–8 kg : 65–75 ou 75–90 g/jour.",
+    noteFabricant:"La fiche officielle consultée fournit la composition et la ration, mais ne publie pas les constituants analytiques dans la page récupérée."
   },
   c11: {
     verificationFabricant:"confirmée_partielle",
