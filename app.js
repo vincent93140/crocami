@@ -75,8 +75,12 @@ function setAnimal(v){animal=v;tabs.forEach(t=>t.classList.toggle("active",t.dat
  if(v==="chat"){$("#size").innerHTML='<option value="">Tous les gabarits</option><option value="Toutes">Toutes les tailles</option>';$("#sizeField").querySelector("span")?.remove();$("#sizeHelp").textContent="Les gabarits sont peu discriminants chez le chat ; privilégiez âge et besoins.";}
  else{$("#size").innerHTML='<option value="">Toutes les tailles</option><option value="Petite">Petit</option><option value="Moyenne">Moyen</option><option value="Grande">Grand</option><option value="Géante">Géant</option>';$("#sizeHelp").textContent="Repère basé sur le poids adulte idéal.";}
  selected.clear();render();}
-function filtered(){let q=$("#search").value.trim().toLocaleLowerCase("fr"),age=$("#age").value,need=$("#need").value,size=$("#size").value,brand=$("#brand")?.value||"";
- return data.filter(p=>p.espece===animal&&(!q||[p.marque,p.recette,p.premierIngredient,p.besoins.join(" ")].join(" ").toLocaleLowerCase("fr").includes(q))&&(!age||p.age===age)&&(!need||p.besoins.includes(need))&&(!size||p.gabarit==="Toutes"||p.gabarit.split("|").includes(size))&&(!brand||p.marque===brand));}
+function filtered(){let q=$("#search").value.trim().toLocaleLowerCase("fr"),age=$("#age").value,need=$("#need").value,size=$("#size").value,brand=$("#brand")?.value||"",sort=$("#sortBy")?.value||"";
+ const rows=data.filter(p=>p.espece===animal&&(!q||[p.marque,p.recette,p.premierIngredient,(p.besoins||[]).join(" ")].join(" ").toLocaleLowerCase("fr").includes(q))&&(!age||p.age===age)&&(!need||(p.besoins||[]).includes(need))&&(!size||p.gabarit==="Toutes"||p.gabarit.split("|").includes(size))&&(!brand||p.marque===brand));
+ const score=p=>globalNutritionScore(p).score;
+ const keys={"prix-asc":p=>p.prixSac,"prix-desc":p=>p.prixSac,"kg-asc":p=>p.prixKg,"kg-desc":p=>p.prixKg,"note-desc":score,"note-asc":score,"marque":p=>p.marque};
+ const key=keys[sort];if(key)rows.sort((x,y)=>{const a=key(x),b=key(y);if(a==null&&b==null)return 0;if(a==null)return 1;if(b==null)return -1;const cmp=typeof a==="string"?a.localeCompare(b,"fr"):a-b;return sort.endsWith("desc")?-cmp:cmp;});
+ return rows;}
 function metricStatus(value,min,max){
  if(value==null||!Number.isFinite(value))return "unknown";
  if(min!=null&&max!=null){
