@@ -34,7 +34,7 @@ window.CROCamiManufacturerData = {
     proteines:33, matieresGrasses:20, fibres:5, cendres:7, energie:3660, glucides:22,
     compositionComplete:"Poulet frais 18 %, poulet déshydraté 18 %, lentilles rouges entières, petits pois entiers, abats de poulet frais (foie, cœur) 7 %, gras de poulet 7 %, dinde déshydratée 4 %, œufs 4 %, plie crue 4 %, hareng déshydraté 4 %, huile de poisson 3 %, lentilles vertes entières, pois chiches entiers, pois jaunes entiers, fibres de pois, amidon de pois, foie de dinde cru 1 %, sel, varech, citrouille, courge musquée, carottes, pommes, poires, courgettes, racine de chicorée, chou frisé, épinards, feuilles de navet et de betterave, canneberges, myrtilles, baies de Saskatoon, curcuma, chardon-marie, lavande, racine de guimauve et églantier.",
     additifs:"Chlorure de choline 700 mg/kg ; zinc 112,5 mg/kg ; cuivre 11 mg/kg ; vitamine B1 25 mg/kg ; B5 8 mg/kg ; B6 7,5 mg/kg ; vitamine A 7 500 UI/kg ; D3 1 000 UI/kg ; E 100 UI/kg ; Enterococcus faecium NCIMB 10415 2,2×10⁶ UFC/kg ; tocophérols, acide citrique et extrait de romarin.",
-    noteFabricant:"Énergie : 32 % des calories issues des protéines, 46 % des matières grasses et 22 % des glucides, selon le fabricant."
+    noteFabricant:"Énergie : 32 % des calories issues des protéines, 46 % des matières grasses et 22 % des glucides, selon le fabricant.",
     humiditeFabricant:12,
     calcium:1.5,
     phosphore:1.1,
@@ -76,7 +76,7 @@ window.CROCamiManufacturerData = {
     sourceFabricant:"https://www.hillspet.fr/dog-food/science-plan-adult-perfect-weight-mini-chicken-dry",
     proteines:26.2, matieresGrasses:11, fibres:12.2, cendres:5.3, calcium:0.79, phosphore:0.64, sodium:0.27, potassium:0.8, magnesium:0.13,
     compositionComplete:"Froment, farine de protéines de maïs, protéines déshydratées de poulet et de dinde (poulet 9 %, volaille totale 14 %), farine de son de pois, maïs, hydrolysat, marc de tomate déshydraté, cellulose, graines de lin, graisses animales, pulpe de betterave séchée, huile de noix de coco, matières minérales, carottes déshydratées.",
-    additifs:"Vitamine A 10 014 UI/kg ; vitamine D3 714 UI/kg ; vitamine E 730 mg/kg ; vitamine C 121 mg/kg ; bêta-carotène 1,6 mg/kg ; fer 75,2 mg/kg ; iode 1,9 mg/kg ; cuivre 7,4 mg/kg ; manganèse 7,8 mg/kg ; zinc 132 mg/kg ; sélénium 0,2 mg/kg ; antioxydant naturel."
+    additifs:"Vitamine A 10 014 UI/kg ; vitamine D3 714 UI/kg ; vitamine E 730 mg/kg ; vitamine C 121 mg/kg ; bêta-carotène 1,6 mg/kg ; fer 75,2 mg/kg ; iode 1,9 mg/kg ; cuivre 7,4 mg/kg ; manganèse 7,8 mg/kg ; zinc 132 mg/kg ; sélénium 0,2 mg/kg ; antioxydant naturel.",
     humiditeFabricant:8,
     glucides:37.3,
     omega3:0.67,
@@ -97,7 +97,7 @@ window.CROCamiManufacturerData = {
     proteines:27, matieresGrasses:9, fibres:9.5, cendres:5.5, humiditeFabricant:10, humidite:10, calcium:1.2, phosphore:0.8, sodium:0.3, omega3:0.3, omega6:1.5, energie:3110,
     compositionComplete:"Lapin déshydraté 36 %, riz 35 %, pulpe de pomme séchée 12 %, lignocellulose 10 %, graisse de poulet, arôme naturel, levure de bière, huile de saumon 1 %, téguments et graines de psyllium 0,5 %, farine de pois, glucosamine 300 mg/kg, FOS 230 mg/kg, chondroïtine 230 mg/kg, MOS 180 mg/kg, yucca 180 mg/kg, chardon-marie 110 mg/kg, bêta-glucanes 60 mg/kg, agripaume 60 mg/kg, argousier 60 mg/kg, Lactobacillus helveticus HA-122 inactivé.",
     additifs:"Vitamine A 23 000 UI/kg ; D3 1 700 UI/kg ; E 550 mg/kg ; C 350 mg/kg ; taurine 1 500 mg/kg ; choline 1 800 mg/kg ; L-carnitine 300 mg/kg ; vitamines B1, B2, B6, B12, biotine, acide folique, acide pantothénique et niacinamide ; fer 88 mg/kg ; iode 0,9 mg/kg ; zinc 100 mg/kg ; manganèse 45 mg/kg ; cuivre 20 mg/kg ; sélénium 0,18 mg/kg ; antioxydants (tocophérols, palmitate d’ascorbyle, romarin).",
-    ration:"Perte de poids / maintien : 5 kg 80/90 g ; 10 kg 130/160 g ; 15 kg 180/210 g ; 20 kg 220/260 g ; 25 kg 260/310 g ; 30 kg 310/350 g ; 40 kg 380/430 g ; 50 kg 450/510 g ; 60 kg 510/580 g ; 70 kg 570/660 g ; 80 kg 630/720 g ; 90 kg 690/790 g par jour."
+    ration:"Perte de poids / maintien : 5 kg 80/90 g ; 10 kg 130/160 g ; 15 kg 180/210 g ; 20 kg 220/260 g ; 25 kg 260/310 g ; 30 kg 310/350 g ; 40 kg 380/430 g ; 50 kg 450/510 g ; 60 kg 510/580 g ; 70 kg 570/660 g ; 80 kg 630/720 g ; 90 kg 690/790 g par jour.",
     epa:0.02,
     dha:0.05
   },
@@ -169,7 +169,7 @@ window.CROCamiManufacturerData = {
     sourceFabricant:"https://www.advance-affinity.com/fr/chien/nourriture-chien/adult-mini-1000404.html",
     proteines:26, matieresGrasses:17, fibres:3, cendres:6.5, omega3:0.3, omega6:3.1,
     compositionComplete:"Poulet 20 %, protéines déshydratées de volaille, blé complet 10 %, riz 10 %, maïs complet, graisse de volaille, pois déshydratés 4 %, farine de maïs, protéines déshydratées de porc, protéine de maïs, protéines animales hydrolysées (volaille, porc, poisson), pulpe de betterave 2 %, fibre de pois, farines basses de blé, inuline de chicorée 0,8 %, substances minérales, protéines plasmatiques de porc 0,4 %.",
-    additifs:"Vitamine A 27 000 UI/kg ; D3 1 200 UI/kg ; E 500 mg/kg ; C 70 mg/kg ; fer 86 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 148 mg/kg ; sélénium 0,1 mg/kg ; Bacillus velezensis DSM 1 1×10⁹ ; antioxygènes."
+    additifs:"Vitamine A 27 000 UI/kg ; D3 1 200 UI/kg ; E 500 mg/kg ; C 70 mg/kg ; fer 86 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 148 mg/kg ; sélénium 0,1 mg/kg ; Bacillus velezensis DSM 1 1×10⁹ ; antioxygènes.",
     ration:"1 kg : 25/30/40 g ; 3 kg : 55/65/90 g ; 5 kg : 80/100/130 g ; 7 kg : 105/125/165 g ; 10 kg : 135/165/215 g/jour selon activité (+/++/+++)."
   },
   c12: {
@@ -236,7 +236,7 @@ window.CROCamiManufacturerData = {
     sourceComplementaire:"https://vetcenter.purina.fr/sites/default/files/vet_materials/gamme_pro_plan_chat.pdf",
     proteines:41, matieresGrasses:12, fibres:4, cendres:7.5, humiditeFabricant:6,
     compositionComplete:"Dinde de haute qualité 20 % (dont dos et coffre), protéines de volaille déshydratées, riz, farine de protéines de maïs, maïs, gluten de blé, farine basse de blé, fibres végétales séchées, œufs déshydratés, substances minérales, huile de poisson, graisses animales, hydrolysat, levure.",
-    additifs:"Vitamine A 32 000 UI/kg ; D3 1 000 UI/kg ; E 670 UI/kg ; C 140 mg/kg ; fer 120 mg/kg ; iode 1,9 mg/kg ; cuivre 13 mg/kg ; manganèse 45 mg/kg ; zinc 110 mg/kg ; sélénium 0,13 mg/kg."
+    additifs:"Vitamine A 32 000 UI/kg ; D3 1 000 UI/kg ; E 670 UI/kg ; C 140 mg/kg ; fer 120 mg/kg ; iode 1,9 mg/kg ; cuivre 13 mg/kg ; manganèse 45 mg/kg ; zinc 110 mg/kg ; sélénium 0,13 mg/kg.",
     ration:"Guide fabricant : ration adaptée au poids, à l’âge, à l’activité et à la condition corporelle ; tableau à consulter sur la fiche officielle."
   },
   c03: {
@@ -293,7 +293,7 @@ window.CROCamiManufacturerData = {
     energie:3875,
     compositionComplete:"Saumon frais 26 %, protéines de dinde 24 %, pois jaunes, protéines de dinde hydrolysées 12 %, graisse de bœuf 8 %, foie hydrolysé 4 %, pois chiches, protéine de pois, citrouille, graines de lin, huile de saumon 1 %, chlorure de potassium, farine de pois, carottes, argousier séché 0,1 %, gingembre 0,05 %, myrtilles 0,05 %, romarin 0,05 %, canneberges 0,05 %, thym 0,05 %, levure de bière, racine de chicorée et yucca.",
     ration:"2–3 kg : 40–45 g ; 3–5 kg : 50–70 g ; 5–7 kg : 70–85 g ; 7–9 kg : 85–100 g/jour.",
-    noteFabricant:"Énergie métabolisable annoncée : 3 875 kcal/kg. Les constituants analytiques complets doivent encore être recoupés avec l’étiquette du lot commercialisé en France."
+    noteFabricant:"Énergie métabolisable annoncée : 3 875 kcal/kg. Les constituants analytiques complets doivent encore être recoupés avec l’étiquette du lot commercialisé en France.",
     proteines:37,
     matieresGrasses:17,
     fibres:2.2,
@@ -326,7 +326,7 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://eukanuba.eu/fr-fr/chat/croquettes/chat-sans-cereales-adulte",
     proteines:38, matieresGrasses:14, fibres:2.5, cendres:7, calcium:1.3, phosphore:1.1, magnesium:0.08, omega3:1.04, omega6:2.58,
     compositionComplete:"Poulet et dinde déshydratés 33 % (poulet 20 %), saumon frais congelé 20 %, pomme de terre, pois entiers, graisse de volaille, pulpe de betterave déshydratée 1,7 %, jus au poulet, fructo-oligosaccharides 0,65 %, levure de bière déshydratée.",
-    additifs:"Vitamine A 50 000 UI/kg ; D3 1 438 UI/kg ; E 124 mg/kg ; cuivre 7,7 mg/kg ; iode 1 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; taurine 0,21 %."
+    additifs:"Vitamine A 50 000 UI/kg ; D3 1 438 UI/kg ; E 124 mg/kg ; cuivre 7,7 mg/kg ; iode 1 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; taurine 0,21 %.",
     ration:"2 kg : 25–40 g ; 4 kg : 55–75 g ; 6 kg : 80–115 g ; 8 kg : 100–150 g ; 10 kg : 135–190 g/jour."
   },
   c09: {
