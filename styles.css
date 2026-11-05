@@ -111,3 +111,12 @@
 .global-score-big{font:800 38px/1.1 Manrope,sans-serif;letter-spacing:-1.5px;color:#365c3e;margin-top:5px}.global-score-big small{font-size:13px;letter-spacing:0;color:#788475;margin-left:3px}.global-score-reliability{display:flex;flex-direction:column;gap:5px;text-align:right}.global-score-reliability b{font:800 11px Manrope;color:#405a42}.global-score-reliability span{font-size:9px;color:#778174}
 .global-score-explain,.global-score-foot{font-size:9px;line-height:1.65;color:#727b6e}.global-score-criteria{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:12px}.global-score-criteria>div{display:grid;grid-template-columns:1fr auto;gap:5px 8px;padding:10px;background:#fff;border:1px solid #e9ede5;border-radius:8px}.global-score-criteria>div>span{font-size:9px;font-weight:700;color:#4c5949}.global-score-criteria>div>b{font:800 10px Manrope;color:#42684a}.global-score-criteria>div>small{grid-column:1/-1;font-size:8px;line-height:1.5;color:#81887d}.global-score-foot{margin:12px 0 0}
 @media(max-width:600px){.global-score-detail{padding:12px}.global-score-criteria{grid-template-columns:1fr}.global-score-top{align-items:flex-start}}
+
+
+/* Pastille de note Crocami superposée en haut à droite du sac */
+.product-visual{position:relative;overflow:visible}
+.product-visual img{max-width:100%;max-height:100%}
+.score-bubble{position:absolute;top:-9px;right:-9px;width:43px;height:43px;border:3px solid #fff;border-radius:50%;background:var(--score-color,#85877f);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 2px 8px #17251b30;z-index:2;line-height:1}
+.score-bubble strong{font:800 15px/1 Manrope,sans-serif;letter-spacing:-.5px}
+.score-bubble small{font:700 7px/1.1 "DM Sans",sans-serif;opacity:.95;margin-top:2px}
+@media(max-width:600px){.score-bubble{width:39px;height:39px;top:-7px;right:-7px}.score-bubble strong{font-size:14px}}
