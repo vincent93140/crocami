@@ -22,7 +22,7 @@ function globalNutritionScore(p){
   if(taurine==null&&p.additifs){const match=String(p.additifs).match(/taurine\s*([\d\s,\.]+)\s*(mg\s*\/\s*kg|%)/i);if(match){const amount=Number(match[1].replace(/\s/g,"").replace(",", "."));taurine=match[2].includes("%")?amount*10000:amount;}}
   if(taurine!=null)add("Taurine",taurine>=1000?100:band(taurine,1000,100000,1000),10,"Nutriment essentiel chez le chat. Valeur interprétée à partir de la déclaration fabricant lorsqu’elle est disponible.");
  }
- const totalWeight=criteria.reduce((s,x)=>s+x.weight,0),score=totalWeight?Math.round(criteria.reduce((s,x)=>s+x.value*x.weight,0)/totalWeight):null;
+ const totalWeight=criteria.reduce((s,x)=>s+x.weight,0),rawScore=totalWeight?criteria.reduce((s,x)=>s+x.value*x.weight,0)/totalWeight:null,score=rawScore==null?null:Math.round(10+rawScore*0.75);
  const confidence=Math.round(totalWeight),reliability=confidence>=80?"Bonne":confidence>=60?"Moyenne":"Limitée";
  return {score,confidence,reliability,criteria};
 }
