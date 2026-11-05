@@ -132,3 +132,22 @@
 }
 
 @media(max-width:600px){.product-names{gap:7px}.product-names .score-bubble{flex-basis:50px;width:50px;height:50px}.product-names .score-bubble strong{font-size:17px}}
+
+/* Barre de tri indépendante des filtres de recherche */
+.results-head{align-items:center}
+.results-tools{display:flex;align-items:center;justify-content:flex-end;gap:18px}
+.sort-control{display:flex;align-items:center;gap:9px;color:#52654f;font-size:11px;font-weight:800;white-space:nowrap}
+.sort-control select{min-width:205px;padding:10px 34px 10px 12px;border:1px solid #dfe4d9;border-radius:9px;background:#f8faf6;color:#315c45;font:700 11px 'DM Sans',sans-serif;cursor:pointer}
+.sort-control select:focus{outline:2px solid #9eb99e;outline-offset:2px}
+.result-count{font-size:12px;font-weight:700;white-space:nowrap}
+.score-bubble strong{font:800 17px/1 Manrope,sans-serif;letter-spacing:-.35px;text-shadow:0 1px 1px #0002}
+.score-bubble small{font:800 8px/1 "DM Sans",sans-serif;letter-spacing:.25px;opacity:1;margin-top:3px}
+.product-names .score-bubble strong{font-size:21px}
+.product-names .score-bubble small{font-size:9px}
+@media(max-width:600px){
+ .results-head{align-items:flex-start;gap:12px;flex-wrap:wrap}
+ .results-tools{width:100%;justify-content:space-between;gap:10px}
+ .sort-control{flex:1;min-width:0}
+ .sort-control select{min-width:0;width:100%;max-width:230px}
+ .result-count{font-size:11px}
+}
