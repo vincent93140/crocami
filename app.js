@@ -1,44 +1,22 @@
-const tabs = [...document.querySelectorAll(".animal-tab")];
-let animal = "chien";
-const title = document.querySelector("#resultsTitle");
-const search = document.querySelector("#search");
-const count = document.querySelector("#resultCount");
-const empty = document.querySelector("#emptyState");
-const sizeSelect = document.querySelector("#size");
-const sizeLabel = document.querySelector("#sizeField");
-const sizeHelp = document.querySelector("#sizeHelp");
-document.querySelector("#year").textContent = new Date().getFullYear();
-
-function setAnimal(value) {
-  animal = value;
-  tabs.forEach(tab => tab.classList.toggle("active", tab.dataset.animal === value));
-  title.textContent = value === "chien" ? "Les croquettes pour chien" : "Les croquettes pour chat";
-  search.placeholder = value === "chien" ? "Ex. : saumon, digestion sensible, marque…" : "Ex. : chat stérilisé, saumon, digestion…";
-  count.textContent = "Catalogue en préparation";
-  if (value === "chat") {
-    sizeSelect.innerHTML = '<option value="">Tous les poids</option><option value="Moins de 3 kg">Moins de 3 kg</option><option value="3 à 5 kg">3 à 5 kg</option><option value="Plus de 5 kg">Plus de 5 kg</option>';
-    sizeHelp.textContent = "Repères indicatifs pour un chat adulte ; le poids idéal dépend de sa morphologie.";
-    sizeLabel.childNodes[0].textContent = "Poids adulte";
-  } else {
-    sizeSelect.innerHTML = '<option value="">Toutes les tailles</option><option value="Petite">Petit · moins de 10 kg</option><option value="Moyenne">Moyen · 10 à 25 kg</option><option value="Grande">Grand · 25 à 45 kg</option><option value="Géante">Géant · plus de 45 kg</option>';
-    sizeHelp.textContent = "Repère basé sur le poids adulte idéal.";
-    sizeLabel.childNodes[0].textContent = "Taille / poids adulte";
-  }
-}
-tabs.forEach(tab => tab.addEventListener("click", () => setAnimal(tab.dataset.animal)));
-function runSearch() {
-  const query = search.value.trim();
-  const age = document.querySelector("#age").value;
-  const size = sizeSelect.value;
-  const need = document.querySelector("#need").value;
-  const activeFilters = [age, size, need].filter(Boolean);
-  count.textContent = query || activeFilters.length ? "Recherche prête — données à intégrer" : "Catalogue en préparation";
-  empty.querySelector("h3").textContent = query || activeFilters.length ? "Votre recherche est prête à être connectée au catalogue" : "Un catalogue en préparation, avec du sérieux !";
-  empty.querySelector("p").textContent = "Le catalogue de références vérifiées est la prochaine étape. Les résultats, les notes nutritionnelles et les prix marchands seront affichés uniquement lorsque leurs sources auront été contrôlées.";
-}
-document.querySelector("#searchBtn").addEventListener("click", runSearch);
-search.addEventListener("keydown", event => { if (event.key === "Enter") runSearch(); });
-document.querySelectorAll(".filter-row select").forEach(select => select.addEventListener("change", runSearch));
-document.querySelectorAll("[data-jump-animal]").forEach(link => {
-  link.addEventListener("click", () => setAnimal(link.dataset.jumpAnimal));
-});
+const tabs=[...document.querySelectorAll(".animal-tab")];let animal="chien";let selected=new Set();
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const data=window.CROCamiCatalog||[];
+$("#year").textContent=new Date().getFullYear();
+const fmt=n=>n==null?"Non communiqué":String(n).replace(".",",");
+function setAnimal(v){animal=v;tabs.forEach(t=>t.classList.toggle("active",t.dataset.animal===v));$("#resultsTitle").textContent=v==="chien"?"Les croquettes pour chien":"Les croquettes pour chat";$("#search").placeholder=v==="chien"?"Ex. : saumon, digestion sensible, marque…":"Ex. : chat stérilisé, saumon, digestion…";
+ if(v==="chat"){$("#size").innerHTML='<option value="">Tous les gabarits</option><option value="Toutes">Toutes les tailles</option>';$("#sizeField").querySelector("span")?.remove();$("#sizeHelp").textContent="Les gabarits sont peu discriminants chez le chat ; privilégiez âge et besoins.";}
+ else{$("#size").innerHTML='<option value="">Toutes les tailles</option><option value="Petite">Petit</option><option value="Moyenne">Moyen</option><option value="Grande">Grand</option><option value="Géante">Géant</option>';$("#sizeHelp").textContent="Repère basé sur le poids adulte idéal.";}
+ selected.clear();render();}
+function filtered(){let q=$("#search").value.trim().toLocaleLowerCase("fr"),age=$("#age").value,need=$("#need").value,size=$("#size").value,brand=$("#brand")?.value||"";
+ return data.filter(p=>p.espece===animal&&(!q||[p.marque,p.recette,p.premierIngredient,p.besoins.join(" ")].join(" ").toLocaleLowerCase("fr").includes(q))&&(!age||p.age===age)&&(!need||p.besoins.includes(need))&&(!size||p.gabarit==="Toutes"||p.gabarit.split("|").includes(size))&&(!brand||p.marque===brand));}
+function card(p){let checked=selected.has(p.id);return `<article class="product-card"><div class="product-top"><span class="product-animal">${p.espece==="chien"?"🐶 CHIEN":"🐱 CHAT"}</span><label class="compare-check"><input type="checkbox" data-compare="${p.id}" ${checked?"checked":""}> Comparer</label></div><p class="product-brand">${p.marque}</p><h3>${p.recette}</h3><div class="product-metrics"><div><b>${fmt(p.proteines)} %</b><small>Protéines</small></div><div><b>${fmt(p.matieresGrasses)} %</b><small>Matières grasses</small></div><div><b>${fmt(p.fibres)} %</b><small>Fibres</small></div></div><div class="product-price"><strong>${fmt(p.prixSac)} €</strong><span>${fmt(p.formatKg)} kg · ${fmt(p.prixKg)} €/kg</span></div><p class="product-date">Prix indicatif relevé le ${p.datePrix} chez ${p.vendeur}, hors livraison.</p><details class="product-details"><summary>Voir la fiche nutritionnelle détaillée</summary><div class="detail-grid">
+ <div><span>Premier ingrédient</span><b>${p.premierIngredient||"Non communiqué"}</b></div><div><span>Protéines</span><b>${fmt(p.proteines)} %</b></div><div><span>Matières grasses</span><b>${fmt(p.matieresGrasses)} %</b></div><div><span>Fibres brutes</span><b>${fmt(p.fibres)} %</b></div><div><span>Humidité</span><b>${fmt(p.humidite)} ${p.humidite==null?"":"%"}</b></div><div><span>Cendres brutes</span><b>${fmt(p.cendres)} ${p.cendres==null?"":"%"}</b></div><div><span>Glucides estimés</span><b>${fmt(p.glucides)} ${p.glucides==null?"":"%"}</b></div><div><span>Calcium / phosphore / magnésium</span><b>${fmt(p.calcium)} / ${fmt(p.phosphore)} / ${fmt(p.magnesium)}</b></div><div><span>Énergie métabolisable</span><b>${fmt(p.energie)} ${p.energie==null?"":"kcal/kg"}</b></div><div><span>Composition complète</span><b>${p.compositionComplete||"À relever sur l'étiquette fabricant"}</b></div><div><span>Additifs et vitamines</span><b>${p.additifs||"À relever sur l'étiquette fabricant"}</b></div><div><span>Ration journalière</span><b>${p.ration||"À relever sur le guide fabricant"}</b></div>
+ </div><p class="detail-note">Note de composition issue de la source de données : <b>${fmt(p.noteComposition)} / 5</b>. Ce n'est pas une note Crocami. Les données non communiquées restent volontairement vides.</p><p class="source-line">Source : <a href="https://www.data.gouv.fr/datasets/prix-au-kilo-et-composition-des-croquettes-pour-chiens-et-chats-en-france" target="_blank" rel="noopener">jeu de données ouvert data.gouv.fr</a> · <a href="${p.sourceFiche}" target="_blank" rel="noopener">fiche marque de la base</a>.</p></details><a class="merchant-link" href="${p.urlVendeur}" target="_blank" rel="noopener">Voir le marchand ↗</a></article>`;}
+function render(){let rows=filtered();$("#resultCount").textContent=rows.length+" références";$("#emptyState").hidden=rows.length>0;$("#results").innerHTML=rows.map(card).join("");$("#results").querySelectorAll("[data-compare]").forEach(el=>el.addEventListener("change",()=>{if(el.checked){if(selected.size>=4){el.checked=false;alert("Vous pouvez comparer 4 produits maximum.");return;}selected.add(el.dataset.compare);}else selected.delete(el.dataset.compare);renderCompare();}));renderCompare();}
+function renderCompare(){let ps=data.filter(p=>selected.has(p.id));$("#compareCount").textContent=ps.length+"/4 sélectionnées";$("#comparison").hidden=ps.length<2;$("#comparisonTable").innerHTML=ps.length<2?"":`<div class="comparison-scroll"><table><thead><tr><th>Critère</th>${ps.map(p=>`<th>${p.marque}<br>${p.recette}<button data-remove="${p.id}" aria-label="Retirer">×</button></th>`).join("")}</tr></thead><tbody>${[["Prix du sac",p=>fmt(p.prixSac)+" €"],["Format",p=>fmt(p.formatKg)+" kg"],["Prix au kg",p=>fmt(p.prixKg)+" €/kg"],["Protéines",p=>fmt(p.proteines)+" %"],["Matières grasses",p=>fmt(p.matieresGrasses)+" %"],["Fibres",p=>fmt(p.fibres)+" %"],["Humidité",p=>fmt(p.humidite)+" %"],["Cendres",p=>fmt(p.cendres)+" %"],["Glucides",p=>fmt(p.glucides)+" %"],["Premier ingrédient",p=>p.premierIngredient],["Note source /5",p=>fmt(p.noteComposition)]].map(([k,f])=>`<tr><th>${k}</th>${ps.map(p=>`<td>${f(p)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;$$("[data-remove]").forEach(b=>b.addEventListener("click",()=>{selected.delete(b.dataset.remove);render();}));}
+tabs.forEach(t=>t.addEventListener("click",()=>setAnimal(t.dataset.animal)));
+$("#searchBtn").addEventListener("click",render);$("#search").addEventListener("keydown",e=>{if(e.key==="Enter")render();});
+$$(".filter-row select").forEach(s=>s.addEventListener("change",render));
+$$("[data-jump-animal]").forEach(a=>a.addEventListener("click",()=>setAnimal(a.dataset.jumpAnimal)));
+const brands=[...new Set(data.map(p=>p.marque))].sort();$("#brand").innerHTML='<option value="">Toutes les marques</option>'+brands.map(b=>'<option>'+b+'</option>').join("");
+render();
