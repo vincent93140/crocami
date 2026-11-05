@@ -34,7 +34,7 @@ Aucun produit, prix ou score fictif n'est présenté comme réel dans cette vers
 ## Audit du catalogue — 6 novembre 2026
 
 Contrôle structurel effectué sur les fichiers publiés :
-- 228 fiches au total : 40 références de départ, 8 références Chronovet, 170 références Macroquette et 10 références Virbac Veterinary HPM pour chiens.
+- 228 fiches au total : 40 références de départ, 8 références Chronovet, 170 références Macroquette et 10 références Virbac Veterinary HPM pour chiens (7 physiologiques et 3 diététiques).
 - Les 40 références de départ disposent d'une image produit déclarée dans `fabricants.js` ; les 8 fiches Chronovet ont maintenant chacune une photo ajoutée et une fiche fabricant officielle liée.
 - Les 228 fiches disposent chacune d'une image produit déclarée. Les 10 nouveaux produits Virbac ont une photo de leur conditionnement ; les images proviennent du fabricant Virbac lorsque disponibles, ou de fiches de revendeurs pour les autres références.
 - La fiche Animalis `mq-dog-026` (chien de grande taille au poulet), dont la photo exacte n'était pas disponible, a été retirée du catalogue à la demande de l'utilisateur.
