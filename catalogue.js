@@ -54,6 +54,6 @@ window.CROCamiCatalog = [
 window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
  const official = (window.CROCamiManufacturerData || {})[p.id] || {};
  const merged = {...p, verificationFabricant:"à vérifier", ...official};
- merged.proteinesMS = merged.humidite != null && official.sourceFabricant ? Math.round((merged.proteines/(1-merged.humidite/100))*10)/10 : null;
+ merged.proteinesMS = official.humiditeFabricant != null ? Math.round((merged.proteines/(1-official.humiditeFabricant/100))*10)/10 : null;
  return merged;
 });
