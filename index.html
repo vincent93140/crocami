@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://images.unsplash.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="catalogue.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -40,13 +41,17 @@
         <div class="filter-row">
           <label>Âge<select id="age"><option value="">Tous les âges</option><option>Junior</option><option>Adulte</option><option>Senior</option></select></label>
           <label id="sizeField">Taille / poids adulte<select id="size"><option value="">Toutes les tailles</option><option value="Petite">Petit · moins de 10 kg</option><option value="Moyenne">Moyen · 10 à 25 kg</option><option value="Grande">Grand · 25 à 45 kg</option><option value="Géante">Géant · plus de 45 kg</option></select><small id="sizeHelp">Repère basé sur le poids adulte idéal.</small></label>
+          <label>Marque<select id="brand"><option value="">Toutes les marques</option></select></label>
           <label>Besoin<select id="need"><option value="">Tous les besoins</option><option>Stérilisé</option><option>Digestion sensible</option><option>Contrôle du poids</option></select></label>
         </div>
         <div class="finder-tip"><span>💡</span><p><b>Un doute sur sa taille ?</b> Reportez-vous aux repères ci-dessus. Pour un chiot, choisissez sa future taille adulte estimée.</p></div>
       </div>
+      <div class="compare-toolbar"><span id="compareCount">0/4 sélectionnées</span><span>Sélectionnez 2 à 4 recettes pour les comparer.</span></div>
+      <section id="comparison" class="comparison" hidden><div class="results-head"><div><p class="eyebrow">COMPARAISON</p><h3>Les recettes côte à côte</h3></div></div><div id="comparisonTable"></div></section>
       <div class="results-head"><div><p class="eyebrow">LE CATALOGUE</p><h3 id="resultsTitle">Les croquettes pour chien</h3></div><span class="result-count" id="resultCount">Catalogue en préparation</span></div>
       <div class="empty-state" id="emptyState"><div class="empty-icon">🦴</div><h3>Un catalogue en préparation, avec du sérieux !</h3><p>Les références, compositions et tarifs seront ajoutés après vérification auprès des fabricants et des marchands. Pas de fausses notes ni de prix inventés.</p></div>
       <div id="results" class="results" aria-live="polite"></div>
+      <p class="catalog-attribution">Données de départ : <a href="https://www.data.gouv.fr/datasets/prix-au-kilo-et-composition-des-croquettes-pour-chiens-et-chats-en-france" target="_blank" rel="noopener">MeilleuresCroquettes / data.gouv.fr (CC BY 4.0)</a>. Prix relevés au 1er novembre 2026, à vérifier au moment de l’achat. Les compositions complètes, cendres, minéraux, glucides et énergie seront complétés à partir des étiquettes officielles.</p>
     </section>
 
     <section class="trust-strip"><div><strong>🐕</strong><span>Pour les chiens</span></div><i></i><div><strong>🐈</strong><span>Pour les chats</span></div><i></i><div><strong>🔎</strong><span>Des critères expliqués</span></div><i></i><div><strong>♡</strong><span>Un choix plus éclairé</span></div></section>
