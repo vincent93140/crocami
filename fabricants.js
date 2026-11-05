@@ -53,12 +53,28 @@ window.CROCamiManufacturerData = {
     proteines:25, matieresGrasses:12, fibres:3.5, cendres:8, omega3:0.1, omega6:1.8,
     compositionComplete:"Céréales (céréales complètes 48 %), viandes et sous-produits animaux (20 %, dont agneau 4 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 1,1 %, pois séchés 0,08 %, carottes séchées 0,08 %), substances minérales."
   },
+  d14: {
+    verificationFabricant:"confirmée_partielle",
+    sourceFabricant:"https://www.purina.fr/chien/alimentation/purina-one-medium-maxi-adult-boeuf",
+    proteines:25, matieresGrasses:15, fibres:2.5, cendres:7, omega3:0.2, omega6:2.5,
+    compositionComplete:"Abats de bœuf 17 %, maïs 16,5 %, protéines de volaille déshydratées, blé 16 %, graisses animales, gruau de maïs, riz 4,6 %, pulpe de betterave à sucre déshydratée 4,5 %, gluten de blé, hydrolysat, substances minérales, glycérol, farine de protéines de maïs, farine de malt torréfiée, huile de poisson.",
+    additifs:"Vitamine A 18 200 UI/kg ; D3 590 UI/kg ; E 520 UI/kg ; C 140 mg/kg ; fer 90 mg/kg ; iode 1,5 mg/kg ; cuivre 10 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; sélénium 0,10 mg/kg.",
+    ration:"10–15 kg : 170–225 g ; 15–25 kg : 225–315 g ; 25–35 kg : 315–400 g ; 35–45 kg : 400–470 g ; 45–55 kg : 470–540 g/jour."
+  },
   d16: {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001",
     proteines:27, matieresGrasses:16, fibres:1.4, cendres:6.7, energie:3916,
     compositionComplete:"Farine de blé, protéines de volaille déshydratées, farine de maïs, graisses animales, protéines animales hydrolysées, protéines de porc déshydratées, maïs, orge, blé, gluten de maïs, protéine de pois, substances minérales, pulpe de betterave, huile de soja, produits de levures, fructo-oligosaccharides, huile de poissons, huile d’algues Schizochytrium sp.",
     additifs:"Vitamine A 15 800 UI/kg ; D3 1 000 UI/kg ; fer 34 mg/kg ; iode 3,4 mg/kg ; cuivre 10,5 mg/kg ; manganèse 44 mg/kg ; zinc 125 mg/kg ; sélénium 0,09 mg/kg ; conservateurs et antioxygènes."
+  },
+  d17: {
+    verificationFabricant:"confirmée_partielle",
+    sourceFabricant:"https://www.purina.fr/chien/alimentation/proplan-croquettes-adulte-mini-poulet",
+    proteines:28, matieresGrasses:17, fibres:2, cendres:7.5, energie:3950,
+    compositionComplete:"Poulet de haute qualité 20 % (dont dos et coffre), blé, protéines de volaille déshydratées, maïs, riz 7 %, graisses animales, farine de soja, pulpe de betterave déshydratée, farine de protéines de maïs, gluten de blé, substances minérales, œufs déshydratés, huile de poisson, hydrolysat, levures.",
+    additifs:"Vitamine A 34 000 UI/kg ; D3 1 100 UI/kg ; E 550 UI/kg ; vitamine C 140 mg/kg ; fer 130 mg/kg ; iode, cuivre, manganèse, zinc et sélénium selon la fiche fabricant.",
+    ration:"Apport calorique fabricant : 395 kcal/100 g. Ration détaillée selon poids et activité sur le guide fabricant."
   },
   d18: {
     verificationFabricant:"confirmée_partielle",
@@ -74,6 +90,13 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Protéines de volaille déshydratées, maïs, isolat de protéines végétales, fibres végétales, graisses animales, hydrolysat de protéines animales, riz, blé, pulpe de betterave, gluten de maïs, levures et composants de levures, sels minéraux, huile de poisson, fructo-oligosaccharides, huile de soja.",
     additifs:"Vitamine A 19 000 UI/kg ; D3 1 000 UI/kg ; fer 31 mg/kg ; iode 3,1 mg/kg ; cuivre 10 mg/kg ; manganèse 41 mg/kg ; zinc 122 mg/kg ; sélénium 0,05 mg/kg ; L-carnitine 100 mg/kg ; clinoptilolite 10 g/kg ; chlorure d’ammonium 5 g/kg ; conservateurs et antioxygènes.",
     ration:"Poids idéal : 3 kg 47 g, 4 kg 57 g, 5 kg 67 g, 6 kg 76 g/jour. Embonpoint : 3 kg 37 g, 4 kg 46 g, 5 kg 54 g, 6 kg 61 g/jour."
+  },
+  c02: {
+    verificationFabricant:"confirmée_partielle",
+    sourceFabricant:"https://www.purina.fr/chat/alimentation/proplan-croquette-adulte-dinde",
+    proteines:41, matieresGrasses:12, fibres:4, cendres:7.5, humiditeFabricant:6,
+    compositionComplete:"Dinde de haute qualité 20 % (dont dos et coffre), protéines de volaille déshydratées, riz, farine de protéines de maïs, maïs, gluten de blé, farine basse de blé, fibres végétales séchées, œufs déshydratés, substances minérales, huile de poisson, graisses animales, hydrolysat, levure.",
+    additifs:"Vitamine A 32 000 UI/kg ; D3 1 000 UI/kg ; E 670 UI/kg ; C 140 mg/kg ; fer 120 mg/kg ; iode 1,9 mg/kg ; cuivre 13 mg/kg ; manganèse 45 mg/kg ; zinc 110 mg/kg ; sélénium 0,13 mg/kg."
   },
   c03: {
     verificationFabricant:"confirmée_partielle",
