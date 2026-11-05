@@ -31,14 +31,14 @@ Premier socle du comparateur français de croquettes pour chiens et chats.
 ## Fiabilité des données
 Aucun produit, prix ou score fictif n'est présenté comme réel dans cette version. Les recommandations alimentaires ne remplacent pas un avis vétérinaire.
 
-## Audit du catalogue — 5 novembre 2026
+## Audit du catalogue — 6 novembre 2026
 
 Contrôle structurel effectué sur les fichiers publiés :
-- 228 fiches au total : 40 références de départ, 8 références Chronovet et 170 références ajoutées depuis Macroquette.
+- 228 fiches au total : 40 références de départ, 8 références Chronovet, 170 références Macroquette et 10 références Virbac Veterinary HPM pour chiens.
 - Les 40 références de départ disposent d'une image produit déclarée dans `fabricants.js` ; les 8 fiches Chronovet ont maintenant chacune une photo ajoutée et une fiche fabricant officielle liée.
-- Les 228 fiches restantes disposent chacune d'une image produit déclarée : 40 références de départ, 8 références Chronovet et 170 références Macroquette.
+- Les 228 fiches disposent chacune d'une image produit déclarée. Les 10 nouveaux produits Virbac ont une photo de leur conditionnement ; les images proviennent du fabricant Virbac lorsque disponibles, ou de fiches de revendeurs pour les autres références.
 - La fiche Animalis `mq-dog-026` (chien de grande taille au poulet), dont la photo exacte n'était pas disponible, a été retirée du catalogue à la demande de l'utilisateur.
 - Les champs nutritionnels non publiés par les sources restent non renseignés. Les compositions et valeurs disponibles ne sont pas complétées par estimation.
 - Couverture des 170 fiches Macroquette : composition complète 170/170 ; protéines, matières grasses, fibres et cendres 170/170 ; glucides 164/170 ; humidité 6/170 ; calcium et phosphore 11/170 ; magnésium 3/170 ; énergie 6/170 ; additifs 1/170 ; rations 1/170. 16/170 ont un lien fabricant enregistré ; 154 restent à recouper avec une source fabricant ou revendeur fiable. Ces écarts signalent les informations à rechercher, pas des valeurs à inventer.
 
-Cet audit vérifie la présence et la cohérence des données et des références d'images dans le catalogue. Il ne constitue pas une validation visuelle manuelle de chaque image distante ni une nouvelle mesure des prix en temps réel.
+Les 10 fiches Virbac ajoutées couvrent Puppy Small & Toy, Adult Small & Toy, Senior Small & Toy, Adult Large & Medium, Adult Neutered Large & Medium, Senior Large & Medium, Adult Sensitive Digest, D1 Dermatology Support, J1 Joint & Mobility et W2 Weight Loss & Control. Les compositions et constituants analytiques sont repris des fiches officielles Virbac France ; les prix n'ont pas été inventés et restent non renseignés lorsque non relevés.\n\nCet audit vérifie la présence et la cohérence des données et des références d'images dans le catalogue. Il ne constitue pas une validation visuelle manuelle de chaque image distante ni une nouvelle mesure des prix en temps réel.
