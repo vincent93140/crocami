@@ -21,20 +21,32 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-dot"></span> LE COMPAGNON DES BONNES GAMELLES</p>
-        <h1>Ils comptent sur nous.<br><em>Faisons le bon choix.</em></h1>
-        <p class="hero-intro">La composition, la qualité nutritionnelle et le prix des croquettes enfin plus faciles à comparer. Pour votre chien ou votre chat, choisissez avec des informations claires.</p>
-        <a class="primary-btn" href="#comprendre">Comprendre ses besoins <span>→</span></a>
-        <div class="hero-proof"><span>♥</span> Parce qu'ils méritent mieux qu'un joli paquet.</div>
+    <section class="intro-compact">
+      <div><p class="eyebrow"><span class="eyebrow-dot"></span> LE COMPARATEUR DE CROQUETTES CHIEN & CHAT</p>
+      <h1>La bonne croquette,<br><em>au bon prix.</em></h1>
+      <p>Comparez les compositions, les qualités nutritionnelles et les prix pour choisir une alimentation adaptée à votre animal.</p></div>
+      <div class="intro-pets"><span>🐶</span><span>🐱</span></div>
+    </section>
+
+    <section class="search-section" id="comparateur">
+      <div class="section-heading"><div><p class="eyebrow">MAINTENANT, PLACE AU COMPARATEUR</p><h2>Trouvons la recette<br><em>adaptée à son profil.</em></h2></div><p>Indiquez quelques informations sur votre compagnon. Les résultats devront ensuite être comparés selon ses besoins, pas uniquement selon le marketing des emballages.</p></div>
+      <div class="finder">
+        <div class="animal-tabs" role="group" aria-label="Type d'animal">
+          <button class="animal-tab active" data-animal="chien" type="button"><span>🐶</span> Chien</button>
+          <button class="animal-tab" data-animal="chat" type="button"><span>🐱</span> Chat</button>
+        </div>
+        <label class="field-label" for="search">Marque, recette ou besoin particulier</label>
+        <div class="search-row"><span class="search-icon">⌕</span><input id="search" type="search" placeholder="Ex. : saumon, digestion sensible, marque…"><button id="searchBtn" type="button">Rechercher <span>→</span></button></div>
+        <div class="filter-row">
+          <label>Âge<select id="age"><option value="">Tous les âges</option><option>Junior</option><option>Adulte</option><option>Senior</option></select></label>
+          <label id="sizeField">Taille / poids adulte<select id="size"><option value="">Toutes les tailles</option><option value="Petite">Petit · moins de 10 kg</option><option value="Moyenne">Moyen · 10 à 25 kg</option><option value="Grande">Grand · 25 à 45 kg</option><option value="Géante">Géant · plus de 45 kg</option></select><small id="sizeHelp">Repère basé sur le poids adulte idéal.</small></label>
+          <label>Besoin<select id="need"><option value="">Tous les besoins</option><option>Stérilisé</option><option>Digestion sensible</option><option>Contrôle du poids</option></select></label>
+        </div>
+        <div class="finder-tip"><span>💡</span><p><b>Un doute sur sa taille ?</b> Reportez-vous aux repères ci-dessus. Pour un chiot, choisissez sa future taille adulte estimée.</p></div>
       </div>
-      <div class="hero-visual">
-        <div class="hero-photo hero-dog"><img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1000&q=85" alt="Golden retriever heureux dans l'herbe"><span class="photo-tag">Côté chien <b>🐶</b></span></div>
-        <div class="hero-photo hero-cat"><img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=800&q=85" alt="Chat au regard curieux"><span class="photo-tag">Côté chat <b>🐱</b></span></div>
-        <div class="floating-note"><span>✦</span> Le meilleur pour eux</div>
-        <div class="hero-stamp">MIEUX<br>CHOISIR<br><b>♥</b></div>
-      </div>
+      <div class="results-head"><div><p class="eyebrow">LE CATALOGUE</p><h3 id="resultsTitle">Les croquettes pour chien</h3></div><span class="result-count" id="resultCount">Catalogue en préparation</span></div>
+      <div class="empty-state" id="emptyState"><div class="empty-icon">🦴</div><h3>Un catalogue en préparation, avec du sérieux !</h3><p>Les références, compositions et tarifs seront ajoutés après vérification auprès des fabricants et des marchands. Pas de fausses notes ni de prix inventés.</p></div>
+      <div id="results" class="results" aria-live="polite"></div>
     </section>
 
     <section class="trust-strip"><div><strong>🐕</strong><span>Pour les chiens</span></div><i></i><div><strong>🐈</strong><span>Pour les chats</span></div><i></i><div><strong>🔎</strong><span>Des critères expliqués</span></div><i></i><div><strong>♡</strong><span>Un choix plus éclairé</span></div></section>
@@ -58,27 +70,6 @@
         </div>
         <p class="weight-disclaimer">Ces catégories sont des repères pratiques, pas des normes vétérinaires strictes. Certaines races se situent à la frontière de deux tailles : le poids adulte et le gabarit réel restent prioritaires.</p>
       </div>
-    </section>
-
-    <section class="search-section" id="comparateur">
-      <div class="section-heading"><div><p class="eyebrow">MAINTENANT, PLACE AU COMPARATEUR</p><h2>Trouvons la recette<br><em>adaptée à son profil.</em></h2></div><p>Indiquez quelques informations sur votre compagnon. Les résultats devront ensuite être comparés selon ses besoins, pas uniquement selon le marketing des emballages.</p></div>
-      <div class="finder">
-        <div class="animal-tabs" role="group" aria-label="Type d'animal">
-          <button class="animal-tab active" data-animal="chien" type="button"><span>🐶</span> Chien</button>
-          <button class="animal-tab" data-animal="chat" type="button"><span>🐱</span> Chat</button>
-        </div>
-        <label class="field-label" for="search">Marque, recette ou besoin particulier</label>
-        <div class="search-row"><span class="search-icon">⌕</span><input id="search" type="search" placeholder="Ex. : saumon, digestion sensible, marque…"><button id="searchBtn" type="button">Rechercher <span>→</span></button></div>
-        <div class="filter-row">
-          <label>Âge<select id="age"><option value="">Tous les âges</option><option>Junior</option><option>Adulte</option><option>Senior</option></select></label>
-          <label id="sizeField">Taille / poids adulte<select id="size"><option value="">Toutes les tailles</option><option value="Petite">Petit · moins de 10 kg</option><option value="Moyenne">Moyen · 10 à 25 kg</option><option value="Grande">Grand · 25 à 45 kg</option><option value="Géante">Géant · plus de 45 kg</option></select><small id="sizeHelp">Repère basé sur le poids adulte idéal.</small></label>
-          <label>Besoin<select id="need"><option value="">Tous les besoins</option><option>Stérilisé</option><option>Digestion sensible</option><option>Contrôle du poids</option></select></label>
-        </div>
-        <div class="finder-tip"><span>💡</span><p><b>Un doute sur sa taille ?</b> Reportez-vous aux repères ci-dessus. Pour un chiot, choisissez sa future taille adulte estimée.</p></div>
-      </div>
-      <div class="results-head"><div><p class="eyebrow">LE CATALOGUE</p><h3 id="resultsTitle">Les croquettes pour chien</h3></div><span class="result-count" id="resultCount">Catalogue en préparation</span></div>
-      <div class="empty-state" id="emptyState"><div class="empty-icon">🦴</div><h3>Un catalogue en préparation, avec du sérieux !</h3><p>Les références, compositions et tarifs seront ajoutés après vérification auprès des fabricants et des marchands. Pas de fausses notes ni de prix inventés.</p></div>
-      <div id="results" class="results" aria-live="polite"></div>
     </section>
 
     <section class="pets-section" id="nos-compagnons">
