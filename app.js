@@ -77,17 +77,37 @@ function setAnimal(v){animal=v;tabs.forEach(t=>t.classList.toggle("active",t.dat
  selected.clear();render();}
 function filtered(){let q=$("#search").value.trim().toLocaleLowerCase("fr"),age=$("#age").value,need=$("#need").value,size=$("#size").value,brand=$("#brand")?.value||"";
  return data.filter(p=>p.espece===animal&&(!q||[p.marque,p.recette,p.premierIngredient,p.besoins.join(" ")].join(" ").toLocaleLowerCase("fr").includes(q))&&(!age||p.age===age)&&(!need||p.besoins.includes(need))&&(!size||p.gabarit==="Toutes"||p.gabarit.split("|").includes(size))&&(!brand||p.marque===brand));}
+function metricStatus(value,min,max){
+ if(value==null||!Number.isFinite(value))return "unknown";
+ if(min!=null&&max!=null){
+  if(value>=min&&value<=max)return "good";
+  const tolerance=(max-min)*0.10;
+  return value<min?(min-value<=tolerance?"near":"poor"):(value-max<=tolerance?"near":"poor");
+ }
+ if(min!=null)return value>=min?"good":(min-value<=min*0.10?"near":"poor");
+ if(max!=null)return value<=max?"good":(value-max<=max*0.10?"near":"poor");
+ return "unknown";
+}
 function cardMetricsMarkup(p){
  const dog=p.espece==="chien",junior=p.age==="Junior",sterilised=(p.besoins||[]).includes("Stérilisé"),weight=(p.besoins||[]).includes("Contrôle du poids");
+ const protein=dog?(junior?[28,35]:(p.age==="Senior"?[25,32]:[25,32])):(p.age==="Senior"?[32,45]:[35,45]);
+ const fat=dog?(junior?[13,20]:weight?[7,12]:[10,16]):(sterilised?[10,16]:[12,18]);
+ const fiber=dog?(weight?[3,10]:[1,4]):[2,5];
+ const caP=p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null;
+ const omega=p.omega3>0&&p.omega6!=null?p.omega6/p.omega3:null;
  const items=[
-  ["Protéines",p.proteines==null?null:fmt(p.proteines)+" %",dog?(junior?"28–35 %":"25–32 %"):(p.age==="Senior"?"32–45 %":"35–45 %")],
-  ["Matières grasses",p.matieresGrasses==null?null:fmt(p.matieresGrasses)+" %",dog?(junior?"13–20 %":weight?"7–12 %":"10–16 %"):(sterilised?"10–16 %":"12–18 %")],
-  ["Fibres",p.fibres==null?null:fmt(p.fibres)+" %",dog?(weight?"3–10 %":"1–4 %"):"2–5 %"],
-  ["Ratio calcium / phosphore",p.calcium!=null&&p.phosphore>0?(p.calcium/p.phosphore).toFixed(2).replace(".",","):null,dog?"1–2":"1–1,5"],
-  ["Oméga 6 / 3",p.omega3>0&&p.omega6!=null?(p.omega6/p.omega3).toFixed(1).replace(".",","):null,"5–10"]
+  ["Protéines",p.proteines,protein[0],protein[1],"%"],
+  ["Matières grasses",p.matieresGrasses,fat[0],fat[1],"%"],
+  ["Fibres",p.fibres,fiber[0],fiber[1],"%"],
+  ["Ratio calcium / phosphore",caP,1,dog?2:1.5,"ratio"],
+  ["Oméga 6 / 3",omega,5,10,"ratio"]
  ];
- if(!dog)items.push(["Taurine",p.taurine==null?null:fmt(p.taurine)+" mg/kg","≥ 1 000 mg/kg"]);
- return '<div class="product-metrics">'+items.map(([name,value,target])=>'<div><small>'+name+'</small><b>'+(value||"Non communiqué")+'</b><span>Attendu : '+target+'</span></div>').join("")+'</div>';
+ if(!dog)items.push(["Taurine",p.taurine,1000,null,"mg/kg"]);
+ return '<div class="product-metrics">'+items.map(([name,raw,min,max,unit])=>{
+  const value=raw==null?null:fmt(raw)+(unit==="%"?" %":unit==="mg/kg"?" mg/kg":"");
+  const target=max==null?"≥ "+fmt(min)+(unit==="mg/kg"?" mg/kg":""):fmt(min)+"–"+fmt(max)+(unit==="%"?" %":"");
+  return '<div class="metric-'+metricStatus(raw,min,max)+'"><small>'+name+'</small><b>'+(value||"Non communiqué")+'</b><span>Attendu : '+target+'</span></div>';
+ }).join("")+'</div>';
 }
 function card(p){let checked=selected.has(p.id);const pack=p.imageProduit?'<img src="'+p.imageProduit+'" alt="Sac de '+p.marque+' — '+p.recette+'" loading="lazy" onerror="this.remove();this.parentElement.classList.add(\'pack-missing\')">':'<span class="pack-fallback">'+(p.espece==="chien"?"🐶":"🐱")+'</span>';return `<article class="product-card"><div class="product-top"><span class="product-animal">${p.espece==="chien"?"🐶 CHIEN":"🐱 CHAT"}</span><label class="compare-check"><input type="checkbox" data-compare="${p.id}" ${checked?"checked":""}> Comparer</label></div><div class="product-identity"><div class="product-visual">${pack}</div><div class="product-names"><div class="product-name-copy"><p class="product-brand">${p.marque}</p><h3>${p.recette}</h3></div>${scoreBubbleMarkup(p)}</div></div>${cardMetricsMarkup(p)}${p.espece==="chien"?auditMarkup(p,true):""}<div class="product-price"><strong>${fmt(p.prixSac)} €</strong><span>${fmt(p.formatKg)} kg · ${fmt(p.prixKg)} €/kg</span></div><details class="product-details"><summary>Voir la fiche nutritionnelle détaillée</summary><div class="detail-grid">
  <div><span>Premier ingrédient</span><b>${p.premierIngredient||"Non communiqué"}</b></div><div><span>Protéines brutes</span><b>${fmt(p.proteines)} %</b></div><div><span>Matières grasses</span><b>${fmt(p.matieresGrasses)} %</b></div><div><span>Fibres brutes</span><b>${fmt(p.fibres)} %</b></div><div><span>Humidité</span><b>${fmt(p.humidite)} ${p.humidite==null?"":"%"}</b></div><div><span>Cendres brutes</span><b>${fmt(p.cendres)} ${p.cendres==null?"":"%"}</b></div><div><span>Glucides estimés</span><b>${fmt(p.glucides)} ${p.glucides==null?"":"%"}</b></div><div><span>Calcium / phosphore / magnésium</span><b>${fmt(p.calcium)} / ${fmt(p.phosphore)} / ${fmt(p.magnesium)}</b></div><div><span>Énergie métabolisable</span><b>${fmt(p.energie)} ${p.energie==null?"":"kcal/kg"}</b></div><div><span>Sodium / potassium</span><b>${fmt(p.sodium)} / ${fmt(p.potassium)} ${p.sodium==null&&p.potassium==null?"":"%"}</b></div><div><span>Oméga 3 / oméga 6</span><b>${fmt(p.omega3)} / ${fmt(p.omega6)} ${p.omega3==null&&p.omega6==null?"":"%"}</b></div><div><span>EPA / DHA</span><b>${fmt(p.epaDha??p.dha)} ${p.epaDha==null&&p.dha==null?"":"%"}</b></div><div><span>Composition complète</span><b>${p.compositionComplete||"À relever sur l'étiquette fabricant"}</b></div><div><span>Additifs et vitamines</span><b>${p.additifs||"À relever sur l'étiquette fabricant"}</b></div><div><span>Ration journalière</span><b>${p.ration||"À relever sur le guide fabricant"}</b></div>
