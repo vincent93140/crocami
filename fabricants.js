@@ -177,6 +177,12 @@ window.CROCamiManufacturerData = {
     ration:"2–4 kg : 30–50 g (activité +) ou 35–60 g (activité ++) ; 4–6 kg : 50–65 ou 60–75 g ; 6–8 kg : 65–75 ou 75–90 g/jour.",
     noteFabricant:"La fiche officielle consultée fournit la composition et la ration, mais ne publie pas les constituants analytiques dans la page récupérée."
   },
+  c05: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.perfect-fit.fr/products/cat-dry/perfect-fit-adult-1-croquettes-riche-en-poulet-chat-adulte-sterilise-28kg",
+    proteines:34, matieresGrasses:14.5, fibres:3, cendres:8, calcium:0.88, phosphore:0.88, energie:3860,
+    compositionComplete:"Viandes et sous-produits animaux (dont poulet 14 %), blé, maïs, extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, substances minérales, levures (dont levure de bière naturelle 0,2 %).",
+    additifs:"Vitamines B1 13,5 mg/kg ; B2 23,1 mg/kg ; B6 6 mg/kg ; C 210 mg/kg ; D3 750 UI/kg ; E 100 mg/kg ; taurine 950 mg/kg ; cuivre 1,7 mg/kg ; iode 0,41 mg/kg ; fer 37,5 mg/kg ; manganèse 24,8 mg/kg ; sélénium 0,18 mg/kg ; zinc 70,1 mg/kg ; antioxygènes et colorants."
+  },
   c07: {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chat/alimentation/friskies-croquettes-adulte-poulet",
     proteines:30, matieresGrasses:11, fibres:3, cendres:7.5,
@@ -199,11 +205,24 @@ window.CROCamiManufacturerData = {
     ration:"2–3 kg : 40–45 g ; 3–5 kg : 50–70 g ; 5–7 kg : 70–85 g ; 7–9 kg : 85–100 g/jour.",
     noteFabricant:"Énergie métabolisable annoncée : 3 875 kcal/kg. Les constituants analytiques complets doivent encore être recoupés avec l’étiquette du lot commercialisé en France."
   },
+  c19: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.farmina.com/ch_fr/eshop/alimentation-pour-chat/n%26d-prime-chats/145-prime-poulet-%26-grenade-chat-adulte.html",
+    proteines:44, matieresGrasses:20, fibres:1.8, cendres:8.5, humiditeFabricant:8, humidite:8, calcium:1.1, phosphore:0.9, magnesium:0.08, omega3:0.9, omega6:3.3, dha:0.5, epa:0.3, energie:4204,
+    compositionComplete:"Poulet désossé 30 %, protéine de poulet déshydratée 28 %, patate douce, graisse de poulet, œuf séché, hareng, protéine de hareng déshydratée, huile de poisson (hareng), fibre de pois, carotte séchée, farine de luzerne, inuline, FOS, extrait de levure (MOS), grenade séchée 0,5 %, pomme séchée, épinard séché, psyllium 0,3 %, orange douce séchée, myrtille séchée, chlorure de sodium, levure de bière séchée, curcuma 0,2 %, extrait d’aloe vera.",
+    additifs:"Vitamine A 18 000 UI/kg ; D3 1 200 UI/kg ; E 600 mg/kg ; C 300 mg/kg ; niacine 150 mg/kg ; pantothénate de calcium 50 mg/kg ; B2 20 mg/kg ; B6 8,1 mg/kg ; B1 10 mg/kg ; biotine 1,5 mg/kg ; acide folique 1,5 mg/kg ; B12 0,1 mg/kg ; choline 2 500 mg/kg ; bêta-carotène 1,5 mg/kg ; zinc 163,8 mg/kg ; manganèse 64,6 mg/kg ; fer 58,3 mg/kg ; cuivre 15,8 mg/kg ; DL-méthionine 5 000 mg/kg ; taurine 4 000 mg/kg ; L-carnitine 300 mg/kg ; extrait de thé vert, romarin et tocophérols."
+  },
   c18: {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://eukanuba.eu/fr-fr/chat/croquettes/chat-sans-cereales-adulte",
     proteines:38, matieresGrasses:14, fibres:2.5, cendres:7, calcium:1.3, phosphore:1.1, magnesium:0.08, omega3:1.04, omega6:2.58,
     compositionComplete:"Poulet et dinde déshydratés 33 % (poulet 20 %), saumon frais congelé 20 %, pomme de terre, pois entiers, graisse de volaille, pulpe de betterave déshydratée 1,7 %, jus au poulet, fructo-oligosaccharides 0,65 %, levure de bière déshydratée.",
     additifs:"Vitamine A 50 000 UI/kg ; D3 1 438 UI/kg ; E 124 mg/kg ; cuivre 7,7 mg/kg ; iode 1 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; taurine 0,21 %."
+  },
+  c10: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chat/alimentation/cat-chow-adulte-poulet",
+    proteines:32, matieresGrasses:11, fibres:2.5, cendres:8,
+    compositionComplete:"Céréales (céréales complètes 48 %), viandes et sous-produits animaux 25 % (dont poulet 14 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 2 %, carottes et pois séchés), substances minérales, levures 0,3 %.",
+    additifs:"Vitamine A 18 200 UI/kg ; D3 1 060 UI/kg ; E 85 UI/kg ; fer 230 mg/kg ; iode 2,8 mg/kg ; cuivre 33 mg/kg ; manganèse 17 mg/kg ; zinc 305 mg/kg ; sélénium 0,40 mg/kg ; antioxygènes.",
+    ration:"2–4 kg : 30–60 g ; 4–6 kg : 60–90 g/jour."
   },
   c11: {
     verificationFabricant:"confirmée_partielle",
