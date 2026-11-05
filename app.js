@@ -8,7 +8,7 @@ function globalNutritionScore(p){
  const needs=p.besoins||[],weightControl=needs.includes("Contrôle du poids"),sterilised=needs.includes("Stérilisé");
  const criteria=[];
  const add=(name,value,weight,detail)=>{if(value!=null&&Number.isFinite(value))criteria.push({name,value:Math.max(0,Math.min(100,value)),weight,detail});};
- const band=(v,min,max,margin)=>v<min?Math.max(0,100-((min-v)/margin)*100):v>max?Math.max(0,100-((v-max)/margin)*100):100;
+ const band=(v,min,max,margin)=>{const mid=(min+max)/2,half=(max-min)/2;if(v>=min&&v<=max)return 85+15*(1-Math.abs(v-mid)/half);return v<min?Math.max(0,85-((min-v)/margin)*85):Math.max(0,85-((v-max)/margin)*85);};
  const protein=p.proteines,proteinRange=isDog?(junior?[28,35]:[25,32]):(p.age==="Senior"?[32,45]:[35,45]);
  if(protein!=null)add("Protéines",band(protein,proteinRange[0],proteinRange[1],8),isDog?35:30,"Teneur brute comparée à une plage indicative selon l’espèce et l’âge. Le pourcentage seul ne mesure ni le RPC ni la qualité des protéines.");
  const fat=p.matieresGrasses,fatRange=isDog?(junior?[13,20]:weightControl?[7,12]:[10,16]):(sterilised?[10,16]:[12,18]);
@@ -22,7 +22,7 @@ function globalNutritionScore(p){
   if(taurine==null&&p.additifs){const match=String(p.additifs).match(/taurine\s*([\d\s,\.]+)\s*(mg\s*\/\s*kg|%)/i);if(match){const amount=Number(match[1].replace(/\s/g,"").replace(",", "."));taurine=match[2].includes("%")?amount*10000:amount;}}
   if(taurine!=null)add("Taurine",taurine>=1000?100:band(taurine,1000,100000,1000),10,"Nutriment essentiel chez le chat. Valeur interprétée à partir de la déclaration fabricant lorsqu’elle est disponible.");
  }
- const totalWeight=criteria.reduce((s,x)=>s+x.weight,0),rawScore=totalWeight?criteria.reduce((s,x)=>s+x.value*x.weight,0)/totalWeight:null,score=rawScore==null?null:Math.min(75,Math.round(10+rawScore*0.65));
+ const totalWeight=criteria.reduce((s,x)=>s+x.weight,0),rawScore=totalWeight?criteria.reduce((s,x)=>s+x.value*x.weight,0)/totalWeight:null,score=rawScore==null?null:Math.min(90,Math.round(5+rawScore*0.85));
  const confidence=Math.round(totalWeight),reliability=confidence>=80?"Bonne":confidence>=60?"Moyenne":"Limitée";
  return {score,confidence,reliability,criteria};
 }
@@ -38,7 +38,7 @@ function globalScoreMarkup(p,compact=false){
  const targets={"Protéines":dog?(junior?"28–35 %":"25–32 %"):(p.age==="Senior"?"32–45 %":"35–45 %"),"Matières grasses":dog?(junior?"13–20 %":weight?"7–12 %":"10–16 %"):(sterilised?"10–16 %":"12–18 %"),"Fibres":dog?(weight?"3–10 %":"1–4 %"):"2–5 %","Équilibre calcium / phosphore":dog?"1–2": "1–1,5","Rapport oméga 6 / 3":"5–10","Taurine":"≥ 1 000 mg/kg"};
  const actual={"Protéines":p.proteines==null?null:fmt(p.proteines)+" %","Matières grasses":p.matieresGrasses==null?null:fmt(p.matieresGrasses)+" %","Fibres":p.fibres==null?null:fmt(p.fibres)+" %","Équilibre calcium / phosphore":p.calcium!=null&&p.phosphore>0?(p.calcium/p.phosphore).toFixed(2).replace(".",","):null,"Rapport oméga 6 / 3":p.omega3>0&&p.omega6!=null?(p.omega6/p.omega3).toFixed(1).replace(".",","):null,"Taurine":p.taurine==null?null:fmt(p.taurine)+" mg/kg"};
  const criteria=a.criteria.map(x=>'<div><span>'+x.name+'</span><b>'+(actual[x.name]||"Non communiqué")+'</b><small>Repère : '+(targets[x.name]||"selon profil")+'</small></div>').join("");
- return '<section class="global-score-detail"><div class="global-score-top"><div><span>NOTE CROCAMI</span><div class="global-score-big">'+score+'<small>/100</small></div></div><div class="global-score-reliability"><b>Fiabilité : '+a.reliability+'</b><span>Données : '+a.confidence+' %</span></div></div><div class="global-score-criteria">'+criteria+'</div><p class="global-score-foot">Repères indicatifs, à adapter à l’animal. Note plafonnée à 75/100.</p></section>';
+ return '<section class="global-score-detail"><div class="global-score-top"><div><span>NOTE CROCAMI</span><div class="global-score-big">'+score+'<small>/100</small></div></div><div class="global-score-reliability"><b>Fiabilité : '+a.reliability+'</b><span>Données : '+a.confidence+' %</span></div></div><div class="global-score-criteria">'+criteria+'</div><p class="global-score-foot">Repères indicatifs, à adapter à l’animal. Note plafonnée à 90/100.</p></section>';
 }
 function nutritionAudit(p){
  if(p.espece!=="chien")return null;
