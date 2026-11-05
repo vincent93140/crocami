@@ -57,3 +57,72 @@ window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
  merged.proteinesMS = official.humiditeFabricant != null ? Math.round((merged.proteines/(1-official.humiditeFabricant/100))*10)/10 : null;
  return merged;
 });
+/* Références ajoutées depuis les fiches Chronovet.
+   Prix non renseignés lorsqu'ils ne figurent pas sur la fiche consultée.
+   Les valeurs nutritionnelles sont recopiées telles que publiées par le revendeur. */
+window.CROCamiCatalog.push(
+{
+ id:"ch-dog-specific-cad-activ",espece:"chien",marque:"SPECIFIC",recette:"CAD Activ — chien actif",age:"Adulte",besoins:["Adulte"],gabarit:"Toutes",
+ formatKg:null,prixSac:null,prixKg:null,proteines:29,matieresGrasses:26,fibres:1.3,humidite:null,cendres:7.1,glucides:27.5,
+ calcium:1.20,phosphore:0.95,magnesium:null,omega3:1.11,omega6:null,energie:null,taurine:1500,
+ premierIngredient:"Blé",noteComposition:null,scoreCrocami:null,compositionComplete:"Blé, graisse de porc, farine de poisson, protéine de maïs, poudre d'œuf, protéine de pomme de terre, riz, minéraux, dextrose, hydrolysat de protéines animales, huile de poisson, levure, cellulose, psyllium.",
+ additifs:"Vitamine D3 1 420 UI/kg ; cuivre 7,1 mg/kg ; fer 78 mg/kg ; zinc 150 mg/kg ; iode 3 mg/kg ; taurine 1,5 g/kg ; L-carnitine 250 mg/kg.",
+ vendeur:"Chronovet",datePrix:null,sourceDonnees:"Fiche produit Chronovet",sourceFiche:"https://www.chronovet.fr/croquettes-specific-chien/6654-specific-cad-activ-chien-actif.html",urlVendeur:"https://www.chronovet.fr/croquettes-specific-chien/6654-specific-cad-activ-chien-actif.html"
+},
+{
+ id:"ch-dog-specific-cxd-xl",espece:"chien",marque:"SPECIFIC",recette:"CXD-XL Adult Large & Giant Breed",age:"Adulte",besoins:["Adulte"],gabarit:"Grande|Géante",
+ formatKg:null,prixSac:null,prixKg:null,proteines:23.6,matieresGrasses:10.9,fibres:2.9,humidite:null,cendres:5.5,glucides:47.8,
+ calcium:0.70,phosphore:0.62,magnesium:null,omega3:0.62,omega6:null,energie:null,taurine:500,
+ premierIngredient:"Blé",noteComposition:null,scoreCrocami:null,compositionComplete:"Blé, protéine de maïs, farine de poisson, pulpe de betterave (7 %), graisse de porc, maïs, hydrolysat de protéines animales, huile de poisson, minéraux, poudre d'œuf, psyllium.",
+ additifs:"Vitamine D3 1 044 UI/kg ; cuivre 10,1 mg/kg ; fer 108 mg/kg ; zinc 129 mg/kg ; manganèse 7,4 mg/kg ; iode 2,5 mg/kg ; taurine 0,5 g/kg ; L-carnitine 300 mg/kg.",
+ vendeur:"Chronovet",datePrix:null,sourceDonnees:"Fiche produit Chronovet",sourceFiche:"https://www.chronovet.fr/croquettes-specific-chien/6648-specific-cxd-xl-adult-large-giant-breed-grand-chien.html",urlVendeur:"https://www.chronovet.fr/croquettes-specific-chien/6648-specific-cxd-xl-adult-large-giant-breed-grand-chien.html"
+},
+{
+ id:"ch-dog-hills-adult-medium",espece:"chien",marque:"Hill's Science Plan",recette:"Adult Medium au poulet",age:"Adulte",besoins:["Adulte"],gabarit:"Moyenne",
+ formatKg:null,prixSac:null,prixKg:null,proteines:21.5,matieresGrasses:14.9,fibres:1.7,humidite:null,cendres:null,glucides:48.7,
+ calcium:0.71,phosphore:0.63,magnesium:0.09,omega3:0.49,omega6:3.52,energie:3720,
+ premierIngredient:"Maïs",noteComposition:null,scoreCrocami:null,compositionComplete:"Maïs, froment, protéines déshydratées de poulet (26 %) et de dinde, graisses animales, hydrolysat, farine de gluten de maïs, huile de soja, minéraux, pulpe de betterave séchée, graines de lin, vitamines et oligo-éléments.",
+ additifs:"Vitamines A, D3, E et C ; bêta-carotène ; fer, iode, cuivre, manganèse, zinc et sélénium.",
+ vendeur:"Chronovet",datePrix:null,sourceDonnees:"Fiche produit Chronovet",sourceFiche:"https://www.chronovet.fr/croquettes-hills-chien/3070-canine-adult-medium-poulet.html",urlVendeur:"https://www.chronovet.fr/croquettes-hills-chien/3070-canine-adult-medium-poulet.html"
+},
+{
+ id:"ch-dog-hills-light-large",espece:"chien",marque:"Hill's Science Plan",recette:"Light Large Breed au poulet",age:"Adulte",besoins:["Contrôle du poids"],gabarit:"Grande|Géante",
+ formatKg:null,prixSac:null,prixKg:null,proteines:22.3,matieresGrasses:10.4,fibres:11.9,humidite:null,cendres:5.2,glucides:null,
+ calcium:0.85,phosphore:0.60,magnesium:0.13,omega3:null,omega6:2.8,energie:null,
+ premierIngredient:"Maïs",noteComposition:null,scoreCrocami:null,compositionComplete:"Maïs, farine de son de pois, protéines déshydratées de poulet et de dinde, farine de gluten de maïs, hydrolysat, pulpe de betterave, graisse animale, cellulose, huile de soja, minéraux, graines de lin, L-carnitine, vitamines et oligo-éléments.",
+ additifs:"Fer, iode, cuivre, manganèse, zinc, sélénium, vitamines A, D3, E et C, bêta-carotène, L-carnitine.",
+ vendeur:"Chronovet",datePrix:null,sourceDonnees:"Fiche produit Chronovet",sourceFiche:"https://www.chronovet.fr/croquettes-hills-chien/3650-chien-adult-light-large-poulet.html",urlVendeur:"https://www.chronovet.fr/croquettes-hills-chien/3650-chien-adult-light-large-poulet.html"
+},
+{
+ id:"ch-dog-hills-adult-mini",espece:"chien",marque:"Hill's Science Plan",recette:"Adult Small & Mini au poulet",age:"Adulte",besoins:["Adulte"],gabarit:"Petite",
+ formatKg:null,prixSac:null,prixKg:null,proteines:22.7,matieresGrasses:14.3,fibres:1.3,humidite:null,cendres:4.9,glucides:null,
+ calcium:0.80,phosphore:0.68,magnesium:0.08,omega3:null,omega6:3.5,energie:null,
+ premierIngredient:"Poulet (13 %)",noteComposition:null,scoreCrocami:null,compositionComplete:"Poulet (13 %) et protéines déshydratées de dinde, maïs, froment, riz de brasserie, graisses animales, hydrolysat de protéines animales, huile végétale, minéraux, graines de lin, marc de tomate, épinard et pulpe d'agrumes.",
+ additifs:"Vitamines A, D3 et E ; vitamine C ; bêta-carotène ; minéraux et oligo-éléments.",
+ vendeur:"Chronovet",datePrix:null,sourceDonnees:"Fiche produit Chronovet",sourceFiche:"https://www.chronovet.fr/croquettes-hills-chien/4181-canine-adult-mini-poulet.html",urlVendeur:"https://www.chronovet.fr/croquettes-hills-chien/4181-canine-adult-mini-poulet.html"
+},
+{
+ id:"ch-cat-specific-fxd-adult",espece:"chat",marque:"SPECIFIC",recette:"FXD Adult",age:"Adulte",besoins:["Adulte"],gabarit:"Toutes",
+ formatKg:2,prixSac:null,prixKg:null,proteines:32,matieresGrasses:9.4,fibres:4.9,humidite:null,cendres:6.3,glucides:null,
+ calcium:0.72,phosphore:0.66,magnesium:0.09,omega3:0.59,omega6:null,energie:null,taurine:1700,
+ premierIngredient:"Farine de poisson",noteComposition:null,scoreCrocami:null,compositionComplete:"Farine de poisson, protéine de maïs, maïs, blé, riz, protéine de pomme de terre, cellulose, graisse de porc, hydrolysat de protéines animales, pulpe de betterave, poudre d'œuf, minéraux, huile de poisson, psyllium et yucca.",
+ additifs:"Vitamine D3 1 583 UI/kg ; cuivre 9,9 mg/kg ; fer 106 mg/kg ; zinc 126 mg/kg ; manganèse 7,2 mg/kg ; iode 2,5 mg/kg ; taurine 1,7 g/kg.",
+ vendeur:"Chronovet",datePrix:null,sourceDonnees:"Fiche produit Chronovet",sourceFiche:"https://www.chronovet.fr/croquettes-specific-chat/6586-specific-fxd-adult-chat.html",urlVendeur:"https://www.chronovet.fr/croquettes-specific-chat/6586-specific-fxd-adult-chat.html"
+},
+{
+ id:"ch-cat-specific-fcd-crystal",espece:"chat",marque:"SPECIFIC",recette:"FCD Crystal Management",age:"Adulte",besoins:["Santé urinaire"],gabarit:"Toutes",
+ formatKg:2,prixSac:null,prixKg:null,proteines:32,matieresGrasses:20,fibres:1.7,humidite:null,cendres:6.1,glucides:null,
+ calcium:0.70,phosphore:0.63,magnesium:0.06,sodium:0.42,potassium:1.10,omega3:0.98,omega6:null,energie:4180,taurine:1000,
+ premierIngredient:"Farine de poisson",noteComposition:null,scoreCrocami:null,compositionComplete:"Farine de poisson, protéine de maïs, graisse de porc, maïs, blé, protéine de pomme de terre, poudre d'œuf, riz, amidon de maïs, hydrolysat de protéines animales, minéraux, vitamines, huile de poisson, cellulose, psyllium et sulfate de chondroïtine.",
+ additifs:"Taurine 1 g/kg ; vitamines A et D3 ; cuivre, fer, zinc, manganèse, sélénium et iode.",
+ vendeur:"Chronovet",datePrix:null,sourceDonnees:"Fiche produit Chronovet",sourceFiche:"https://www.chronovet.fr/croquettes-specific-chat/3366-chat-fcd-crystal-management.html",urlVendeur:"https://www.chronovet.fr/croquettes-specific-chat/3366-chat-fcd-crystal-management.html"
+},
+{
+ id:"ch-cat-specific-fcd-light",espece:"chat",marque:"SPECIFIC",recette:"FCD-L Crystal Management Light",age:"Adulte",besoins:["Santé urinaire","Contrôle du poids"],gabarit:"Toutes",
+ formatKg:2,prixSac:null,prixKg:null,proteines:32,matieresGrasses:9.5,fibres:5.1,humidite:null,cendres:6.1,glucides:null,
+ calcium:0.67,phosphore:0.61,magnesium:0.07,sodium:0.27,potassium:0.90,omega3:0.85,omega6:null,energie:3550,taurine:1300,
+ premierIngredient:"Farine de poisson",noteComposition:null,scoreCrocami:null,compositionComplete:"Farine de poisson, protéine de maïs, maïs, blé, riz, protéine de pomme de terre, amidon de maïs, cellulose, graisse de porc, hydrolysat de protéines animales, vitamines, minéraux, huile de poisson, poudre d'œuf, psyllium et pulpe de betterave.",
+ additifs:"Taurine 1,3 g/kg ; vitamines A et D3 ; cuivre, fer, zinc, manganèse, sélénium et iode.",
+ vendeur:"Chronovet",datePrix:null,sourceDonnees:"Fiche produit Chronovet",sourceFiche:"https://www.chronovet.fr/croquettes-specific-chat/3372-chat-fcd-l-crystal-management-light.html",urlVendeur:"https://www.chronovet.fr/croquettes-specific-chat/3372-chat-fcd-l-crystal-management-light.html"
+}
+);
