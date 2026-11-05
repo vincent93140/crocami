@@ -243,6 +243,13 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Poulet désossé 30 %, protéine de poulet déshydratée 28 %, patate douce, graisse de poulet, œuf séché, hareng, protéine de hareng déshydratée, huile de poisson (hareng), fibre de pois, carotte séchée, farine de luzerne, inuline, FOS, extrait de levure (MOS), grenade séchée 0,5 %, pomme séchée, épinard séché, psyllium 0,3 %, orange douce séchée, myrtille séchée, chlorure de sodium, levure de bière séchée, curcuma 0,2 %, extrait d’aloe vera.",
     additifs:"Vitamine A 18 000 UI/kg ; D3 1 200 UI/kg ; E 600 mg/kg ; C 300 mg/kg ; niacine 150 mg/kg ; pantothénate de calcium 50 mg/kg ; B2 20 mg/kg ; B6 8,1 mg/kg ; B1 10 mg/kg ; biotine 1,5 mg/kg ; acide folique 1,5 mg/kg ; B12 0,1 mg/kg ; choline 2 500 mg/kg ; bêta-carotène 1,5 mg/kg ; zinc 163,8 mg/kg ; manganèse 64,6 mg/kg ; fer 58,3 mg/kg ; cuivre 15,8 mg/kg ; DL-méthionine 5 000 mg/kg ; taurine 4 000 mg/kg ; L-carnitine 300 mg/kg ; extrait de thé vert, romarin et tocophérols."
   },
+  c17: {
+    verificationFabricant:"confirmée_partielle",
+    sourceFabricant:"https://applaws.com/uk/products/chicken-adult-dry-cat-food-4/",
+    proteines:37, matieresGrasses:16.5, fibres:2, cendres:8, omega3:0.5, omega6:3.85, calcium:2.2, phosphore:1.4, energie:4046,
+    compositionComplete:"Poulet 49,5 % (farine de poulet 46 %, poulet fraîchement préparé 3,5 %), pomme de terre, graisse de volaille 8 %, pulpe de betterave, levure de bière séchée, vitamines et minéraux, jus de volaille 1,5 %, huile de saumon, poudre d’œuf, extrait de chicorée 0,2 % (source de FOS), algues, extrait de yucca, poudre de canneberge.",
+    additifs:"Vitamine A 29 000 UI/kg ; D3 1 000 UI/kg ; E 640 mg/kg ; taurine 1 000 mg/kg ; DL-méthionine 250 mg/kg ; iode 1 mg/kg ; fer 50 mg/kg ; zinc 100 mg/kg ; manganèse 50 mg/kg ; cuivre 5 mg/kg ; antioxydants (extraits de tocophérols) ; sépiolite 300 mg/kg ; extrait de romarin."
+  },
   c18: {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://eukanuba.eu/fr-fr/chat/croquettes/chat-sans-cereales-adulte",
     proteines:38, matieresGrasses:14, fibres:2.5, cendres:7, calcium:1.3, phosphore:1.1, magnesium:0.08, omega3:1.04, omega6:2.58,
