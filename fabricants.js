@@ -131,6 +131,14 @@ window.CROCamiManufacturerData = {
     ration:"2–4 kg : 30–50 g (activité +) ou 35–60 g (activité ++) ; 4–6 kg : 50–65 ou 60–75 g ; 6–8 kg : 65–75 ou 75–90 g/jour.",
     noteFabricant:"La fiche officielle consultée fournit la composition et la ration, mais ne publie pas les constituants analytiques dans la page récupérée."
   },
+  c08: {
+    verificationFabricant:"confirmée_partielle",
+    sourceFabricant:"https://www.whiskas.fr/nos-produits/croquettes/classique/whiskas-croquettes-au-poulet-pour-chat-adulte-3-8kg-7kg",
+    proteines:30, matieresGrasses:12.4, fibres:1.8, cendres:8.2, omega6:2.6,
+    compositionComplete:"Céréales, viandes et sous-produits animaux 29 % (dont poulet 4 % dans les croquettes marron clair), huiles et graisses, sous-produits d’origine végétale, substances minérales, extraits de protéines végétales, légumes (carottes déshydratées 0,5 % et petits pois déshydratés 1 % dans certaines croquettes).",
+    additifs:"Vitamine A 4 910 UI/kg ; D3 542 UI/kg ; E 97,2 mg/kg ; taurine 1 850 mg/kg ; cuivre 4 mg/kg ; iode 1 mg/kg ; manganèse 21,6 mg/kg ; sélénium 0,18 mg/kg ; zinc 61,1 mg/kg ; antioxygènes et colorants.",
+    ration:"3 kg : 35 g ; 4 kg : 45 g ; 5 kg : 55 g par jour (croquettes seules)."
+  },
   c11: {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2B-2560",
