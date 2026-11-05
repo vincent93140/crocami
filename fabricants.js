@@ -32,6 +32,16 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Maïs, protéines de volaille déshydratées, blé, fibres végétales, protéines animales hydrolysées, graisses animales, gluten de maïs, gluten de blé, pulpe de betterave, produits de levures, huile de poissons, huile de soja, sels minéraux, téguments et graines de psyllium, fructo-oligosaccharides, levures (source de MOS), huile de bourrache, farine de tagète.",
     additifs:"Vitamine A 21 000 UI/kg ; vitamine D3 1 000 UI/kg ; fer 37 mg/kg ; iode 3,7 mg/kg ; cuivre 11 mg/kg ; manganèse 48 mg/kg ; zinc 135 mg/kg ; sélénium 0,06 mg/kg ; L-carnitine 200 mg/kg ; clinoptilolite 5 g/kg."
   },
+  d07: {
+    verificationFabricant:"confirmée_partielle",
+    sourceFabricant:"https://www.purina.fr/chien/alimentation/proplan-adulte-sterilise-poulet",
+    sourceComplementaire:"https://vetcenter.purina.fr/sites/default/files/vet_materials/ppchien_planche_de_gammes_2024.pdf",
+    proteines:27, matieresGrasses:9, fibres:3.5, cendres:7.5, humiditeFabricant:8, humidite:8, glucides:45, calcium:1.36, phosphore:0.91, sodium:0.56, potassium:0.71, magnesium:0.13, omega3:0.3, omega6:1.5, dha:0.1, epaDha:0.23, energie:3470,
+    compositionComplete:"Poulet de haute qualité 15 % (dont dos et coffre), blé, protéines de volaille déshydratées, maïs, riz 9 %, pulpe de betterave déshydratée, farine de soja, hydrolysat, farine de protéines de maïs, gruau de maïs, gluten de blé, substances minérales, huile de poisson, graisses animales.",
+    additifs:"Vitamine A 23 179 UI/kg ; D3 1 246 UI/kg ; E 474 UI/kg ; K 0,20 mg/kg ; C 60 mg/kg ; B1 35 mg/kg ; B2 16 mg/kg ; B3 190 mg/kg ; B5 55 mg/kg ; B6 19 mg/kg ; B8 0,22 mg/kg ; B9 5,61 mg/kg ; B12 0,31 mg/kg ; choline 2 075 mg/kg ; taurine 1 430 mg/kg ; minéraux : fer, zinc, cuivre, manganèse, iode et sélénium selon la fiche technique.",
+    ration:"Maintien / stérilisé / perte de poids : 10 kg 185/165/140 g ; 25 kg 345/300/260 g ; 35 kg 435/380/325 g ; 45 kg 515/445/385 g ; 70 kg 690/600/515 g par jour.",
+    noteFabricant:"Énergie calculée : 3,47 kcal/g. Données minérales et vitaminiques issues de la fiche technique Purina (2024)."
+  },
   d08: {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.hillspet.fr/dog-food/science-plan-adult-perfect-weight-mini-chicken-dry",
