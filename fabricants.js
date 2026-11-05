@@ -158,6 +158,13 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 450 mg/kg ; C 100 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9, biotine ; taurine 1 600 mg/kg ; L-carnitine 500 mg/kg ; fer 120 mg/kg ; zinc 110 mg/kg ; manganèse 10 mg/kg ; cuivre 10 mg/kg ; iode 1,9 mg/kg ; sélénium 0,10 mg/kg ; antioxydant naturel à base de tocophérols.",
     ration:"2–3 kg : 30–50 g ; 3–4 kg : 40–60 g ; 4–5 kg : 45–70 g ; 5–7 kg : 55–90 g ; 7–10 kg : 70–115 g/jour."
   },
+  c15: {
+    verificationFabricant:"confirmée_partielle",
+    sourceFabricant:"https://applaws.com/uk/products/chicken-senior-dry-cat-food-3/",
+    proteines:36.5, matieresGrasses:14.5, fibres:2, cendres:8, omega3:0.4, omega6:3.05, calcium:1.8, phosphore:1.2, energie:3952,
+    compositionComplete:"Poulet 48 % (farine de poulet 45 %, poulet fraîchement préparé 3 %), pomme de terre, graisse de volaille 6 %, pulpe de betterave, levure de bière séchée, vitamines et minéraux, jus de volaille 1,5 %, poudre d’œuf, huile de saumon, extrait de chicorée 0,2 % (source de FOS), algues, extrait de yucca.",
+    additifs:"Vitamine A 29 000 UI/kg ; D3 1 000 UI/kg ; E 640 mg/kg ; taurine 1 000 mg/kg ; DL-méthionine 250 mg/kg ; iode 1 mg/kg ; fer 50 mg/kg ; zinc 100 mg/kg ; manganèse 50 mg/kg ; cuivre 5 mg/kg ; antioxydants (extraits de tocophérols) ; sépiolite 300 mg/kg ; extrait de romarin."
+  },
   c16: {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.tasteofthewild.com.au/portfolio-view/rocky-mountain/",
     proteines:42, matieresGrasses:18, fibres:3, cendres:8.3, humiditeFabricant:10, humidite:10, calcium:1.9, phosphore:1.2, omega3:0.3, omega6:2.8, energie:3745,
