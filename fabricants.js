@@ -71,8 +71,8 @@ window.CROCamiManufacturerData = {
   },
   d10: {
     verificationFabricant:"confirmée_partielle",
-    sourceFabricant:"https://brit-petfood.com/fr/node/991648",
-    proteines:27, matieresGrasses:9, fibres:9.5, cendres:5.5, humidite:10, calcium:1.2, phosphore:0.8, sodium:0.3, omega3:0.3, omega6:1.5, energie:3110,
+    sourceFabricant:"https://brit-petfood.com/en/brit-care-dog-hypoallergenic-2022",
+    proteines:27, matieresGrasses:9, fibres:9.5, cendres:5.5, humiditeFabricant:10, humidite:10, calcium:1.2, phosphore:0.8, sodium:0.3, omega3:0.3, omega6:1.5, energie:3110,
     compositionComplete:"Lapin déshydraté 36 %, riz 35 %, pulpe de pomme séchée 12 %, lignocellulose 10 %, graisse de poulet, arôme naturel, levure de bière, huile de saumon 1 %, téguments et graines de psyllium 0,5 %, farine de pois, glucosamine 300 mg/kg, FOS 230 mg/kg, chondroïtine 230 mg/kg, MOS 180 mg/kg, yucca 180 mg/kg, chardon-marie 110 mg/kg, bêta-glucanes 60 mg/kg, agripaume 60 mg/kg, argousier 60 mg/kg, Lactobacillus helveticus HA-122 inactivé.",
     additifs:"Vitamine A 23 000 UI/kg ; D3 1 700 UI/kg ; E 550 mg/kg ; C 350 mg/kg ; taurine 1 500 mg/kg ; choline 1 800 mg/kg ; L-carnitine 300 mg/kg ; vitamines B1, B2, B6, B12, biotine, acide folique, acide pantothénique et niacinamide ; fer 88 mg/kg ; iode 0,9 mg/kg ; zinc 100 mg/kg ; manganèse 45 mg/kg ; cuivre 20 mg/kg ; sélénium 0,18 mg/kg ; antioxydants (tocophérols, palmitate d’ascorbyle, romarin).",
     ration:"Perte de poids / maintien : 5 kg 80/90 g ; 10 kg 130/160 g ; 15 kg 180/210 g ; 20 kg 220/260 g ; 25 kg 260/310 g ; 30 kg 310/350 g ; 40 kg 380/430 g ; 50 kg 450/510 g ; 60 kg 510/580 g ; 70 kg 570/660 g ; 80 kg 630/720 g ; 90 kg 690/790 g par jour."
@@ -166,9 +166,10 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 29 000 UI/kg ; D3 1 000 UI/kg ; E 640 mg/kg ; taurine 1 000 mg/kg ; DL-méthionine 250 mg/kg ; iode 1 mg/kg ; fer 50 mg/kg ; zinc 100 mg/kg ; manganèse 50 mg/kg ; cuivre 5 mg/kg ; antioxydants (extraits de tocophérols) ; sépiolite 300 mg/kg ; extrait de romarin."
   },
   c16: {
-    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.tasteofthewild.com.au/portfolio-view/rocky-mountain/",
+    verificationFabricant:"à recouper", sourceFabricant:"https://www.tasteofthewild.com.au/portfolio-view/rocky-mountain/",
     proteines:42, matieresGrasses:18, fibres:3, cendres:8.3, humiditeFabricant:10, humidite:10, calcium:1.9, phosphore:1.2, omega3:0.3, omega6:2.8, energie:3745,
-    compositionComplete:"Formule féline Rocky Mountain : cerf rôti et saumon fumé. La page fabricant/distributeur consultée donne les constituants et le guide de ration ; composition détaillée à relever sur l’étiquette du marché français.",
+    compositionComplete:"Formule féline Rocky Mountain : cerf rôti et saumon fumé. La page officielle consultée concerne le marché australien ; la composition détaillée et les valeurs doivent être recoupées avec le sac vendu en France.",
+    noteFabricant:"Données de référence marché australien uniquement : ne pas considérer comme validées pour un sac vendu en France."
     additifs:"Vitamine A 10 000 UI/kg ; D 750 UI/kg ; E 150 UI/kg ; taurine minimum 0,15 % ; fer, cuivre, iode, manganèse, zinc et sélénium selon l’étiquette fabricant.",
     ration:"Chat adulte : 1–2,25 kg 35–53 g ; 2,25–4,5 kg 53–70 g ; 4,5–6,8 kg 70–106 g ; 6,8–9 kg 106–133 g/jour."
   },
