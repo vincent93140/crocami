@@ -3,6 +3,7 @@
    Les champs absents restent null. Vérification initiale : 05/11/2026. */
 window.CROCamiManufacturerData = {
   d01: {
+    imageProduit:"https://swaggle.com.au/cdn/shop/files/0-royal-canin-medium-puppy-dry-dog-food.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003",
     proteines:32, matieresGrasses:20.4, fibres:1.6, cendres:8.3, energie:4125, omega3:0.18,
@@ -11,6 +12,7 @@ window.CROCamiManufacturerData = {
     ration:"Tableau fabricant selon le poids adulte estimé et l’âge du chiot (2 à 14 mois)."
   },
   d02: {
+    imageProduit:"https://www.purina.fr/sites/default/files/styles/nppe_article_listing_home_930/public/2026-01/07613035114869_c1n1_44365895.jpg?itok=b97PHIbd",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chien/alimentation/proplan-croquettes-chiot-medium", sourceComplementaire:"https://eleveurs.chiens-de-france.com/media/purina/2023-gamme-proplan-chiens.pdf",
     proteines:30, matieresGrasses:19, fibres:2, cendres:7.5, humiditeFabricant:8, humidite:8, glucides:33.5, calcium:1.5, phosphore:1.02, sodium:0.39, potassium:0.69, magnesium:0.13, omega3:0.3, omega6:2.3, dha:0.07, epaDha:0.17, energie:3838,
     compositionComplete:"Poulet de haute qualité 20 % (dont dos et coffre), blé, protéines de volaille déshydratées, graisses animales, riz 8 %, farine de soja, farine de protéines de maïs, maïs, hydrolysat, pulpe de betterave déshydratée, huile de poisson, œufs déshydratés, substances minérales, colostrum déshydraté 0,1 %.",
@@ -18,6 +20,7 @@ window.CROCamiManufacturerData = {
     ration:"Tableau fabricant selon poids adulte attendu et âge du chiot, de 1,5 à 24 mois ; voir la fiche technique liée."
   },
   d03: {
+    imageProduit:"https://content.e-zoo.ua/files/Prods/prod_1267_64243818.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-kids.html",
     proteines:25, matieresGrasses:12, fibres:2.3, cendres:6.7, calcium:1.3, phosphore:1, sodium:0.4, magnesium:0.1, energie:3675,
     compositionComplete:"Protéines de volaille déshydratées 27,5 % (dont poulet 40 %), grains de maïs entier, riz 25 %, pulpe de betterave, graisse de volailles, protéines de volaille hydrolysées, substances minérales, huile de saumon 0,8 %, levure, poudre de chicorée, chair séchée de moule verte de Nouvelle-Zélande.",
@@ -25,6 +28,7 @@ window.CROCamiManufacturerData = {
     noteFabricant:"Énergie métabolisable : 15,4 MJ/kg, soit 3 675 kcal/kg."
   },
   d04: {
+    imageProduit:"https://hardypaw.com/cdn/shop/files/F1B201432K02000-IMG2.jpg?v=1758149338&width=1024",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://emea.acana.com/fr-FR/pour-chiens/eu-aca-puppy-junior.html",
     proteines:33, matieresGrasses:20, fibres:5, cendres:7, energie:3660, glucides:22,
@@ -33,6 +37,7 @@ window.CROCamiManufacturerData = {
     noteFabricant:"Énergie : 32 % des calories issues des protéines, 46 % des matières grasses et 22 % des glucides, selon le fabricant."
   },
   d05: {
+    imageProduit:"https://www.purina.fr/sites/default/files/2022-04/07613034487919_C1N1_44108853_0.png",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/dog-chow-junior-large-breed-dinde",
     proteines:28, matieresGrasses:12, fibres:3, cendres:7.5, omega3:null, dha:0.05,
@@ -40,6 +45,7 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 22 600 UI/kg ; vitamine D3 1 300 UI/kg ; vitamine E 100 UI/kg ; fer 93 mg/kg ; iode 2,3 mg/kg ; cuivre 10 mg/kg ; manganèse 7,1 mg/kg ; zinc 130 mg/kg ; sélénium 0,22 mg/kg."
   },
   d06: {
+    imageProduit:"https://petsi.eu/cdn/shop/files/00117526.jpg?crop=center&v=1746465700&width=600",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/sterilised-medium-3034",
     proteines:28, matieresGrasses:13, fibres:6.4, cendres:4.9,
@@ -47,6 +53,7 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 21 000 UI/kg ; vitamine D3 1 000 UI/kg ; fer 37 mg/kg ; iode 3,7 mg/kg ; cuivre 11 mg/kg ; manganèse 48 mg/kg ; zinc 135 mg/kg ; sélénium 0,06 mg/kg ; L-carnitine 200 mg/kg ; clinoptilolite 5 g/kg."
   },
   d07: {
+    imageProduit:"https://static.petness.pt/media/10/photos/products/504956/07613035123779-C1N1-44152684-63eea322a6f4c.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/proplan-adulte-sterilise-poulet",
     sourceComplementaire:"https://vetcenter.purina.fr/sites/default/files/vet_materials/ppchien_planche_de_gammes_2024.pdf",
@@ -78,6 +85,7 @@ window.CROCamiManufacturerData = {
     ration:"Perte de poids / maintien : 5 kg 80/90 g ; 10 kg 130/160 g ; 15 kg 180/210 g ; 20 kg 220/260 g ; 25 kg 260/310 g ; 30 kg 310/350 g ; 40 kg 380/430 g ; 50 kg 450/510 g ; 60 kg 510/580 g ; 70 kg 570/660 g ; 80 kg 630/720 g ; 90 kg 690/790 g par jour."
   },
   d11: {
+    imageProduit:"https://cdn.shopify.com/s/files/1/0485/8576/9112/products/pedigree-adult-dry-dog-food-real-beef-and-vegies_580x.png?v=1678211551",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.pedigree.fr/nourriture-pour-chien/croquettes-pour-adulte-chien/pedigree-professional-nutrition-croquettes-au-boeuf-et-aux-legumes-pour-chien-adulte-12kg",
     proteines:20, matieresGrasses:9, fibres:2.9, cendres:7, calcium:1.2, phosphore:0.74,
     compositionComplete:"Céréales (dont blé complet 47 %), viandes et sous-produits animaux (dont bœuf 4 %), huiles et graisses, sous-produits d’origine végétale (dont pulpe de betterave déshydratée 3 %), substances minérales, légumes (mélange de petits pois et carottes déshydratés 0,7 %), levure (dont levure de bière 0,4 %).",
@@ -90,6 +98,7 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Céréales (céréales complètes 48 %), viandes et sous-produits animaux (20 %, dont agneau 4 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 1,1 %, pois séchés 0,08 %, carottes séchées 0,08 %), substances minérales."
   },
   d13: {
+    imageProduit:"https://media.zooplus.com/bilder/4/400/391896_pla_ultima_medium_maxiadult_huhnreis_6kg_hs_01_4.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.ultima-affinity.com/fr/fr/chien/nourriture-chien/seche-medium-maxi-adult-poulet-1000297.html",
     compositionComplete:"Poulet 18 % (dont os, viande, peau), blé complet 15 %, maïs complet 11 %, protéines déshydratées de porc, pois déshydratés 9 %, farines basses de blé, graisse animale (volaille, porc), protéines animales hydrolysées (volaille, porc, poisson), orge complète 4 %, protéines déshydratées de volaille, pulpe de betterave 2,1 %, substances minérales.",
@@ -97,6 +106,7 @@ window.CROCamiManufacturerData = {
     noteFabricant:"La fiche officielle consultée publie la composition et le guide de ration, mais pas les constituants analytiques détaillés."
   },
   d14: {
+    imageProduit:"https://shop-cdn-m.mediazs.com/bilder/purina/one/mediummaxi/adult/beef/rice/0/400/253397_pla_nestle_purinaone_mediummaxi_adult_rindreis_7kg_hs_01_0.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/purina-one-medium-maxi-adult-boeuf",
     proteines:25, matieresGrasses:15, fibres:2.5, cendres:7, omega3:0.2, omega6:2.5,
@@ -105,6 +115,7 @@ window.CROCamiManufacturerData = {
     ration:"10–15 kg : 170–225 g ; 15–25 kg : 225–315 g ; 25–35 kg : 315–400 g ; 35–45 kg : 400–470 g ; 45–55 kg : 470–540 g/jour."
   },
   d15: {
+    imageProduit:"https://assets.petco.com/petco/image/upload/f_auto%2Cq_auto/2468563-center-1",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://eukanuba.eu/fr-fr/chien/croquettes/adulte-grandes-races-poulet-frais",
     proteines:24, matieresGrasses:13, fibres:2.1, cendres:6.3, calcium:1.25, phosphore:1.04, omega3:0.35, omega6:2.9,
     compositionComplete:"Poulet frais 18 %, poulet et dinde déshydratés 18 % (dont poulet 11 %), maïs, blé, avoine, orge, sorgho, graisse de volaille, pulpe de betterave déshydratée 2,5 %, jus au poulet, gruau de maïs, substances minérales (dont hexamétaphosphate de sodium 0,34 %), farine de poisson, œuf entier en poudre, FOS 0,25 %, levure de bière déshydratée, glucosamine 0,04 %.",
@@ -139,12 +150,14 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 27 000 UI/kg ; D3 1 200 UI/kg ; E 500 mg/kg ; C 70 mg/kg ; fer 86 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 148 mg/kg ; sélénium 0,1 mg/kg ; Bacillus velezensis DSM 1 1×10⁹ ; antioxygènes."
   },
   c12: {
+    imageProduit:"https://iams.eu/fileadmin/product_images/T90003509_192614.png",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://iams.eu/fr-fr/chat/croquettes/aliments-secs-au-poulet-frais-seniors",
     proteines:35, matieresGrasses:12.5, fibres:2, cendres:6.8, calcium:1.3, phosphore:1.1, magnesium:0.098, omega3:0.27, omega6:2.67,
     compositionComplete:"Poulet et dinde déshydratés 37 % (poulet 22 %), maïs, poulet frais 10 %, sorgho, graisse de porc, pulpe de betterave déshydratée 1,6 %, jus au poulet, fructo-oligosaccharides 0,67 %, huile de poisson, chlorure de potassium, glucosamine d’origine animale 0,04 %.",
     ration:"2 kg : 30–40 g ; 3 kg : 40–55 g ; 4 kg : 50–65 g ; 5 kg : 55–75 g ; 6 kg : 65–85 g ; 7 kg : 70–95 g/jour."
   },
   c13: {
+    imageProduit:"https://gomagcdn.ro/domains/vetpet-shop.ro/files/product/large/advance-cat-sterilised-10-ani-878759.png",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.advance-affinity.com/fr/chat/nourriture-chat/senior-sterilized-1000392.html",
     proteines:37, matieresGrasses:16.5, fibres:3.4, cendres:6.3, phosphore:0.7, omega3:0.6, omega6:3, energie:4040,
     compositionComplete:"Poulet 17 %, maïs complet, protéine de maïs, protéines déshydratées de volaille, orge complète 8 %, protéine de blé, saindoux, protéines déshydratées de porc, blé complet 4 %, collagène hydrolysé 2,5 %, protéines animales hydrolysées (volaille, porc, poisson), pulpe de betterave 1,5 %, fibre de pois, farines basses de blé, huile de poisson, œuf déshydraté, substances minérales, inuline de chicorée 0,6 %, protéines plasmatiques de porc 0,4 %, acide hyaluronique 25 mg/kg.",
@@ -159,6 +172,7 @@ window.CROCamiManufacturerData = {
     ration:"2–3 kg : 30–50 g ; 3–4 kg : 40–60 g ; 4–5 kg : 45–70 g ; 5–7 kg : 55–90 g ; 7–10 kg : 70–115 g/jour."
   },
   c15: {
+    imageProduit:"https://images.onlinepets.com/product-images/catalog/67n3MHdapWYeLS4fltMYAzIN7PRujd-metaQXBwbGF3cy1LYXQtLS1TZW5pb3ItS2F0LUtpcC00MDAtZ3IuanBn-.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://applaws.com/uk/products/chicken-senior-dry-cat-food-3/",
     proteines:36.5, matieresGrasses:14.5, fibres:2, cendres:8, omega3:0.4, omega6:3.05, calcium:1.8, phosphore:1.2, energie:3952,
@@ -181,6 +195,7 @@ window.CROCamiManufacturerData = {
     noteFabricant:"La fiche officielle actuelle ne publie pas les constituants analytiques dans le texte consulté. Les valeurs analytiques déjà présentes dans Crocami restent celles du relevé tiers et ne sont pas validées par le fabricant."
   },
   c01: {
+    imageProduit:"https://www.zooroyal.de/cdn-cgi/image/format%3Davif%2Cfit%3Dcover%2Cgravity%3Dauto%2Cheight%3D600/media/image/royal_canin_sterilised_37_web.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/--2537",
     proteines:37, matieresGrasses:12, fibres:6.2, cendres:8.2,
@@ -189,6 +204,7 @@ window.CROCamiManufacturerData = {
     ration:"Poids idéal : 3 kg 47 g, 4 kg 57 g, 5 kg 67 g, 6 kg 76 g/jour. Embonpoint : 3 kg 37 g, 4 kg 46 g, 5 kg 54 g, 6 kg 61 g/jour."
   },
   c02: {
+    imageProduit:"https://shop.purina.de/thumbnail/91/f7/7f/1773313073/07613033560033_C1N1_44184592_1920x1920.jpg?ts=1773313134",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chat/alimentation/proplan-croquette-adulte-dinde",
     sourceComplementaire:"https://vetcenter.purina.fr/sites/default/files/vet_materials/gamme_pro_plan_chat.pdf",
@@ -197,6 +213,7 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 32 000 UI/kg ; D3 1 000 UI/kg ; E 670 UI/kg ; C 140 mg/kg ; fer 120 mg/kg ; iode 1,9 mg/kg ; cuivre 13 mg/kg ; manganèse 45 mg/kg ; zinc 110 mg/kg ; sélénium 0,13 mg/kg."
   },
   c03: {
+    imageProduit:"https://dam.elcorteingles.es/producto/www-001021910301981-00.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chat/alimentation/purina-one-sterilise-poulet",
     proteines:37, matieresGrasses:13, fibres:4, cendres:7.5, omega3:0.1, omega6:2,
@@ -205,6 +222,7 @@ window.CROCamiManufacturerData = {
     ration:"2–4 kg : 30–60 g ; 4–6 kg : 60–85 g ; 6–8 kg : 85–115 g par jour."
   },
   c04: {
+    imageProduit:"https://www.ultima-affinity.com/dw/image/v2/BDGX_PRD/on/demandware.static/-/Sites-ULTIMA-m-catalog/default/dwbd2bc51a/images/catalog/3700260417774/3d-Pack/largeImage.png?q=100",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.ultima-affinity.com/fr/fr/chat/nourriture-chat/seche-sterilise-adult-poulet-1000260.html",
     compositionComplete:"Poulet 17 % (dont os, viande, peau), protéine de maïs, blé complet 13 %, pois déshydratés 11 %, protéines déshydratées de volaille, orge complète 6 %, protéines animales hydrolysées (volaille, porc, poisson), maïs complet 4 %, protéines déshydratées de porc, graisse animale (volaille, porc), protéines déshydratées de bœuf, substances minérales, poudre de cellulose, fibre de pois, pulpe de betterave.",
@@ -272,6 +290,7 @@ window.CROCamiManufacturerData = {
     ration:"2–3 kg : 40–55 g ; 4–5 kg : 65–75 g ; 6–7 kg : 85–95 g ; 8 kg : 105 g/jour."
   },
   c10: {
+    imageProduit:"https://www.purina.fr/sites/default/files/2022-01/PURINA%20CAT%20CHOW%C2%AE%20ADULT%20-%20Croquettes%20pour%20chats%20adultes_4.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chat/alimentation/cat-chow-adulte-poulet",
     proteines:32, matieresGrasses:11, fibres:2.5, cendres:8,
     compositionComplete:"Céréales (céréales complètes 48 %), viandes et sous-produits animaux 25 % (dont poulet 14 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 2 %, carottes et pois séchés), substances minérales, levures 0,3 %.",
@@ -279,6 +298,7 @@ window.CROCamiManufacturerData = {
     ration:"2–4 kg : 30–60 g ; 4–6 kg : 60–90 g/jour."
   },
   c11: {
+    imageProduit:"https://www.auberdog.com/api/uploads/public/products/108176/chats-royal-canin-croquettes-sterilised-7-10711719143-180x_-quality%2890%29.jpeg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2B-2560",
     proteines:36, matieresGrasses:12, fibres:5.3, cendres:8, phosphore:0.7, epaDha:0.3,
