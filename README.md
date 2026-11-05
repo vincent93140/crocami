@@ -30,3 +30,14 @@ Premier socle du comparateur français de croquettes pour chiens et chats.
 
 ## Fiabilité des données
 Aucun produit, prix ou score fictif n'est présenté comme réel dans cette version. Les recommandations alimentaires ne remplacent pas un avis vétérinaire.
+
+## Audit du catalogue — 5 novembre 2026
+
+Contrôle structurel effectué sur les fichiers publiés :
+- 219 fiches au total : 40 références de départ, 8 références Chronovet et 171 références ajoutées depuis Macroquette.
+- Les 40 références de départ disposent d'une image produit déclarée dans `fabricants.js`.
+- Parmi les 171 références Macroquette, 170 disposent d'une URL d'image ; la référence `mq-dog-026` (Animalis, chien de grande taille au poulet) reste sans photo exacte.
+- L'image affichée sur sa page Macroquette correspond visuellement à une recette stérilisée/allégée : elle n'a donc pas été réutilisée pour éviter une photo trompeuse. La fiche conserve le visuel de remplacement chien prévu par l'interface.
+- Les champs nutritionnels non publiés par les sources restent non renseignés. Les compositions et valeurs disponibles ne sont pas complétées par estimation.
+
+Cet audit vérifie la présence et la cohérence des données et des références d'images dans le catalogue. Il ne constitue pas une validation visuelle manuelle de chaque image distante ni une nouvelle mesure des prix en temps réel.
