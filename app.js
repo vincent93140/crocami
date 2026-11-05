@@ -3,6 +3,7 @@ const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const data=window.CROCamiCatalog||[];
 const yearNode=$("#year");if(yearNode)yearNode.textContent=new Date().getFullYear();
 const fmt=n=>n==null?"Non communiqué":String(n).replace(".",",");
+const fmtRatio=n=>n==null?"Non communiqué":Number(n).toFixed(2).replace(".",",");
 function globalNutritionScore(p){
  const isDog=p.espece==="chien",junior=p.age==="Junior";
  const needs=p.besoins||[],weightControl=needs.includes("Contrôle du poids"),sterilised=needs.includes("Stérilisé");
@@ -36,7 +37,7 @@ function globalScoreMarkup(p,compact=false){
  if(compact)return '<div class="global-score-card '+cls+'"><div class="global-score-number"><strong>'+score+'</strong><span>/100</span></div><div class="global-score-copy"><b>Note nutritionnelle Crocami</b><small>Fiabilité de la note : '+a.reliability.toLowerCase()+' · couverture '+a.confidence+' %</small></div></div>';
  const dog=p.espece==="chien",junior=p.age==="Junior",sterilised=(p.besoins||[]).includes("Stérilisé"),weight=(p.besoins||[]).includes("Contrôle du poids");
  const targets={"Protéines":dog?(junior?"28–35 %":"25–32 %"):(p.age==="Senior"?"32–45 %":"35–45 %"),"Matières grasses":dog?(junior?"13–20 %":weight?"7–12 %":"10–16 %"):(sterilised?"10–16 %":"12–18 %"),"Fibres":dog?(weight?"3–10 %":"1–4 %"):"2–5 %","Équilibre calcium / phosphore":dog?"1–2": "1–1,5","Rapport oméga 6 / 3":"5–10","Taurine":"≥ 1 000 mg/kg"};
- const actual={"Protéines":p.proteines==null?null:fmt(p.proteines)+" %","Matières grasses":p.matieresGrasses==null?null:fmt(p.matieresGrasses)+" %","Fibres":p.fibres==null?null:fmt(p.fibres)+" %","Équilibre calcium / phosphore":p.calcium!=null&&p.phosphore>0?(p.calcium/p.phosphore).toFixed(2).replace(".",","):null,"Rapport oméga 6 / 3":p.omega3>0&&p.omega6!=null?(p.omega6/p.omega3).toFixed(1).replace(".",","):null,"Taurine":p.taurine==null?null:fmt(p.taurine)+" mg/kg"};
+ const actual={"Protéines":p.proteines==null?null:fmt(p.proteines)+" %","Matières grasses":p.matieresGrasses==null?null:fmt(p.matieresGrasses)+" %","Fibres":p.fibres==null?null:fmt(p.fibres)+" %","Équilibre calcium / phosphore":p.calcium!=null&&p.phosphore>0?fmtRatio(p.calcium/p.phosphore):null,"Rapport oméga 6 / 3":p.omega3>0&&p.omega6!=null?fmtRatio(p.omega6/p.omega3):null,"Taurine":p.taurine==null?null:fmt(p.taurine)+" mg/kg"};
  const criteria=a.criteria.map(x=>'<div><span>'+x.name+'</span><b>'+(actual[x.name]||"Non communiqué")+'</b><small>Repère : '+(targets[x.name]||"selon profil")+'</small></div>').join("");
  return '<section class="global-score-detail"><div class="global-score-top"><div><span>NOTE CROCAMI</span><div class="global-score-big">'+score+'<small>/100</small></div></div><div class="global-score-reliability"><b>Fiabilité : '+a.reliability+'</b><span>Données : '+a.confidence+' %</span></div></div><div class="global-score-criteria">'+criteria+'</div><p class="global-score-foot">Repères indicatifs, à adapter à l’animal. Note plafonnée à 90/100.</p></section>';
 }
@@ -56,9 +57,9 @@ function nutritionAudit(p){
  add("Fibres",fiber==null?null:Math.round(fiber*10)/10,"% matière sèche","≤ 5 % MS",fiber==null?"missing":fiber<=5?"good":"watch","Repère de lecture repris de l’analyse Macroquette.");
  const ca=dry(p.calcium),ph=dry(p.phosphore),ratio=p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null;
  const mineralOk=ca!=null&&ratio!=null&&ca>=1&&ca<=1.7&&ratio>=1&&ratio<=2;
- add("Équilibre minéral Ca/P",ratio==null?null:Math.round(ratio*100)/100,"ratio", "Ca : 1–1,7 % MS ; Ca/P : 1–2",ratio==null||ca==null?"missing":mineralOk?"good":"bad","Comparaison indicative ; le phosphore doit également être interprété selon l’âge et la densité énergétique.");
+ add("Équilibre minéral Ca/P",ratio,"ratio", "Ca : 1–1,7 % MS ; Ca/P : 1–2",ratio==null||ca==null?"missing":mineralOk?"good":"bad","Comparaison indicative ; le phosphore doit également être interprété selon l’âge et la densité énergétique.");
  const omega=p.omega3>0&&p.omega6!=null?p.omega6/p.omega3:null;
- add("Rapport oméga 6 / 3",omega==null?null:Math.round(omega*10)/10,"ratio","Repère indicatif : 5 à 10",omega==null?"missing":omega>=5&&omega<=10?"good":"watch","Les deux valeurs doivent être publiées pour calculer ce rapport.");
+ add("Rapport oméga 6 / 3",omega,"ratio","Repère indicatif : 5 à 10",omega==null?"missing":omega>=5&&omega<=10?"good":"watch","Les deux valeurs doivent être publiées pour calculer ce rapport.");
  const proteinPhosphorus=p.phosphore>0&&p.proteines>0?p.phosphore/p.proteines:null;
  add("Indicateur phosphore / protéines",proteinPhosphorus==null?null:Math.round(proteinPhosphorus*100)/100,"ratio","À interpréter avec la composition et les sources protéiques",proteinPhosphorus==null?"missing":"info","Cet indicateur ne permet pas à lui seul de certifier la qualité ou la digestibilité des protéines.");
  const known=rows.filter(x=>x.status!=="missing"),good=rows.filter(x=>x.status==="good").length,bad=rows.filter(x=>x.status==="bad").length;
@@ -69,7 +70,7 @@ function auditMarkup(p,compact=false){
  const label=a.known===0?"Analyse incomplète":a.bad?"Points à surveiller":a.missing?"Bilan partiel":"Repères couverts";
  const cls=a.bad?"watch":a.known===0?"missing":a.missing?"partial":"good";
  if(compact)return `<div class="audit-summary ${cls}"><b>${label}</b><span>${a.good} repères satisfaisants · ${a.bad} à surveiller · ${a.missing} données manquantes</span></div>`;
- return `<section class="nutrition-audit"><div class="audit-heading"><div><b>Analyse nutritionnelle Crocami</b><small>Comparaison indicative à des repères de lecture, pas un diagnostic vétérinaire.</small></div><strong class="audit-status ${cls}">${label}</strong></div><div class="audit-list">${a.rows.map(x=>`<div class="audit-row"><div class="audit-row-main"><b>${x.name}</b><span class="audit-value ${x.status}">${x.value==null?"Donnée manquante":x.value+" "+x.unit}</span></div><small>Repère : ${x.reference}</small><p>${x.detail}</p><em class="audit-tag ${x.status}">${x.status==="good"?"SATISFAISANT":x.status==="bad"?"NON SATISFAISANT":x.status==="watch"?"À SURVEILLER":x.status==="info"?"INDICATEUR À INTERPRÉTER":"DONNÉE MANQUANTE"}</em></div>`).join("")}</div><p class="audit-foot">Calculs établis uniquement à partir des données disponibles sur cette fiche. Les seuils sont des repères de comparaison inspirés des critères décrits par Macroquette ; ils ne reproduisent pas son algorithme propriétaire. Les besoins réels varient selon le poids, l’activité, l’état physiologique et la santé du chien.</p></section>`;
+ return `<section class="nutrition-audit"><div class="audit-heading"><div><b>Analyse nutritionnelle Crocami</b><small>Comparaison indicative à des repères de lecture, pas un diagnostic vétérinaire.</small></div><strong class="audit-status ${cls}">${label}</strong></div><div class="audit-list">${a.rows.map(x=>`<div class="audit-row"><div class="audit-row-main"><b>${x.name}</b><span class="audit-value ${x.status}">${x.value==null?"Donnée manquante":(x.unit==="ratio"?fmtRatio(x.value):x.value)+" "+x.unit}</span></div><small>Repère : ${x.reference}</small><p>${x.detail}</p><em class="audit-tag ${x.status}">${x.status==="good"?"SATISFAISANT":x.status==="bad"?"NON SATISFAISANT":x.status==="watch"?"À SURVEILLER":x.status==="info"?"INDICATEUR À INTERPRÉTER":"DONNÉE MANQUANTE"}</em></div>`).join("")}</div><p class="audit-foot">Calculs établis uniquement à partir des données disponibles sur cette fiche. Les seuils sont des repères de comparaison inspirés des critères décrits par Macroquette ; ils ne reproduisent pas son algorithme propriétaire. Les besoins réels varient selon le poids, l’activité, l’état physiologique et la santé du chien.</p></section>`;
 }
 function setAnimal(v){animal=v;tabs.forEach(t=>t.classList.toggle("active",t.dataset.animal===v));$("#resultsTitle").textContent=v==="chien"?"Les croquettes pour chien":"Les croquettes pour chat";$("#search").placeholder=v==="chien"?"Ex. : saumon, digestion sensible, marque…":"Ex. : chat stérilisé, saumon, digestion…";
  if(v==="chat"){$("#size").innerHTML='<option value="">Tous les gabarits</option><option value="Toutes">Toutes les tailles</option>';$("#sizeField").querySelector("span")?.remove();$("#sizeHelp").textContent="Les gabarits sont peu discriminants chez le chat ; privilégiez âge et besoins.";}
@@ -108,7 +109,7 @@ function cardMetricsMarkup(p){
  ];
  if(!dog)items.push(["Taurine",p.taurine,1000,null,"mg/kg"]);
  return '<div class="product-metrics">'+items.map(([name,raw,min,max,unit])=>{
-  const value=raw==null?null:fmt(raw)+(unit==="%"?" %":unit==="mg/kg"?" mg/kg":"");
+  const value=raw==null?null:(unit==="ratio"?fmtRatio(raw):fmt(raw))+(unit==="%"?" %":unit==="mg/kg"?" mg/kg":"");
   const target=max==null?"≥ "+fmt(min)+(unit==="mg/kg"?" mg/kg":""):fmt(min)+"–"+fmt(max)+(unit==="%"?" %":"");
   return '<div class="metric-'+metricStatus(raw,min,max)+'"><small>'+name+'</small><b>'+(value||"Non communiqué")+'</b><span>Attendu : '+target+'</span></div>';
  }).join("")+'</div>';
