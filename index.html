@@ -10,10 +10,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://images.unsplash.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script src="fabricants.js" defer></script>
-  <script src="catalogue.js" defer></script>
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261105-2">
+  <script src="fabricants.js?v=20261105-2" defer></script>
+  <script src="catalogue.js?v=20261105-2" defer></script>
+  <script src="app.js?v=20261105-2" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -49,8 +49,8 @@
       </div>
       <div class="compare-toolbar"><span id="compareCount">0/4 sélectionnées</span><span>Sélectionnez 2 à 4 recettes pour les comparer.</span></div>
       <section id="comparison" class="comparison" hidden><div class="results-head"><div><p class="eyebrow">COMPARAISON</p><h3>Les recettes côte à côte</h3></div></div><div id="comparisonTable"></div></section>
-      <div class="results-head"><div><p class="eyebrow">LE CATALOGUE</p><h3 id="resultsTitle">Les croquettes pour chien</h3></div><span class="result-count" id="resultCount">Catalogue en préparation</span></div>
-      <div class="empty-state" id="emptyState"><div class="empty-icon">🦴</div><h3>Un catalogue en préparation, avec du sérieux !</h3><p>Les références, compositions et tarifs seront ajoutés après vérification auprès des fabricants et des marchands. Pas de fausses notes ni de prix inventés.</p></div>
+      <div class="results-head"><div><p class="eyebrow">LE CATALOGUE</p><h3 id="resultsTitle">Les croquettes pour chien</h3></div><span class="result-count" id="resultCount">Chargement du catalogue…</span></div>
+      <div class="empty-state" id="emptyState"><div class="empty-icon">🦴</div><h3>Le catalogue Crocami</h3><p>Les fiches présentent les données disponibles, une évaluation nutritionnelle indicative sur 100 et les informations manquantes lorsqu’elles ne sont pas publiées.</p></div>
       <div id="results" class="results" aria-live="polite"></div>
       <p class="catalog-attribution">Données de départ : <a href="https://www.data.gouv.fr/datasets/prix-au-kilo-et-composition-des-croquettes-pour-chiens-et-chats-en-france" target="_blank" rel="noopener">MeilleuresCroquettes / data.gouv.fr (CC BY 4.0)</a>. Prix relevés au 1er novembre 2026, à vérifier au moment de l’achat. Les compositions complètes, cendres, minéraux, glucides et énergie seront complétés à partir des étiquettes officielles.</p>
     </section>
@@ -118,7 +118,7 @@
       </div>
     </section>
 
-    <section class="promise" id="engagements"><div class="promise-art" aria-label="Illustration décorative d'un chien et d'un chat"><div class="promise-art-circle"></div><span class="promise-paw">✦</span><div class="promise-animal promise-dog">🐶</div><div class="promise-animal promise-cat">🐱</div><span class="promise-label">LEUR BIEN-ÊTRE<br>AVANT TOUT</span></div><div class="promise-copy"><p class="eyebrow">NOTRE PROMESSE</p><h2>Pas de classement magique.<br><em>De la transparence.</em></h2><p>Une note sur 100 sera publiée uniquement avec une méthode expliquée, des données vérifiables et des critères adaptés aux chiens ou aux chats. Les informations manquantes resteront signalées.</p><a href="#comparateur">Découvrir notre approche <b>→</b></a></div></section>
+    <section class="promise" id="engagements"><div class="promise-art" aria-label="Illustration décorative d'un chien et d'un chat"><div class="promise-art-circle"></div><span class="promise-paw">✦</span><div class="promise-animal promise-dog">🐶</div><div class="promise-animal promise-cat">🐱</div><span class="promise-label">LEUR BIEN-ÊTRE<br>AVANT TOUT</span></div><div class="promise-copy"><p class="eyebrow">NOTRE PROMESSE</p><h2>Pas de classement magique.<br><em>De la transparence.</em></h2><p>Une note nutritionnelle indicative sur 100, calculée selon des critères adaptés aux chiens ou aux chats. Les données manquantes restent signalées et influencent la fiabilité de la note.</p><a href="#comparateur">Découvrir notre approche <b>→</b></a></div></section>
   </main>
   <footer><a class="brand" href="#"><span class="brand-mark">🐾</span><span>Crocami<span class="brand-dot">.</span></span></a><p>Bien choisir aujourd'hui, pour leurs beaux jours.</p><span>© <span id="year"></span> Crocami</span></footer>
 </body>
