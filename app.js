@@ -16,10 +16,9 @@ function setAnimal(value) {
   search.placeholder = value === "chien" ? "Ex. : saumon, digestion sensible, marque…" : "Ex. : chat stérilisé, saumon, digestion…";
   count.textContent = "Catalogue en préparation";
   if (value === "chat") {
-    sizeLabel.querySelector(".field-label");
-    sizeSelect.innerHTML = '<option value="">Tous les gabarits</option><option value="Standard">Gabarit standard</option><option value="Grand">Grand chat (type Maine Coon)</option>';
-    sizeHelp.textContent = "Le gabarit du chat est indicatif ; le poids idéal dépend notamment de sa morphologie.";
-    sizeLabel.childNodes[0].textContent = "Gabarit";
+    sizeSelect.innerHTML = '<option value="">Tous les poids</option><option value="Moins de 3 kg">Moins de 3 kg</option><option value="3 à 5 kg">3 à 5 kg</option><option value="Plus de 5 kg">Plus de 5 kg</option>';
+    sizeHelp.textContent = "Repères indicatifs pour un chat adulte ; le poids idéal dépend de sa morphologie.";
+    sizeLabel.childNodes[0].textContent = "Poids adulte";
   } else {
     sizeSelect.innerHTML = '<option value="">Toutes les tailles</option><option value="Petite">Petit · moins de 10 kg</option><option value="Moyenne">Moyen · 10 à 25 kg</option><option value="Grande">Grand · 25 à 45 kg</option><option value="Géante">Géant · plus de 45 kg</option>';
     sizeHelp.textContent = "Repère basé sur le poids adulte idéal.";
