@@ -34,9 +34,9 @@ Aucun produit, prix ou score fictif n'est présenté comme réel dans cette vers
 ## Audit du catalogue — 5 novembre 2026
 
 Contrôle structurel effectué sur les fichiers publiés :
-- 218 fiches au total : 40 références de départ, 8 références Chronovet et 170 références ajoutées depuis Macroquette.
+- 228 fiches au total : 40 références de départ, 8 références Chronovet et 170 références ajoutées depuis Macroquette.
 - Les 40 références de départ disposent d'une image produit déclarée dans `fabricants.js` ; les 8 fiches Chronovet ont maintenant chacune une photo ajoutée et une fiche fabricant officielle liée.
-- Les 218 fiches restantes disposent chacune d'une image produit déclarée : 40 références de départ, 8 références Chronovet et 170 références Macroquette.
+- Les 228 fiches restantes disposent chacune d'une image produit déclarée : 40 références de départ, 8 références Chronovet et 170 références Macroquette.
 - La fiche Animalis `mq-dog-026` (chien de grande taille au poulet), dont la photo exacte n'était pas disponible, a été retirée du catalogue à la demande de l'utilisateur.
 - Les champs nutritionnels non publiés par les sources restent non renseignés. Les compositions et valeurs disponibles ne sont pas complétées par estimation.
 - Couverture des 170 fiches Macroquette : composition complète 170/170 ; protéines, matières grasses, fibres et cendres 170/170 ; glucides 164/170 ; humidité 6/170 ; calcium et phosphore 11/170 ; magnésium 3/170 ; énergie 6/170 ; additifs 1/170 ; rations 1/170. 16/170 ont un lien fabricant enregistré ; 154 restent à recouper avec une source fabricant ou revendeur fiable. Ces écarts signalent les informations à rechercher, pas des valeurs à inventer.
