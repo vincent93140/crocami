@@ -125,6 +125,20 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Poulet 20 %, protéines déshydratées de volaille, blé complet 10 %, riz 10 %, maïs complet, graisse de volaille, pois déshydratés 4 %, farine de maïs, protéines déshydratées de porc, protéine de maïs, protéines animales hydrolysées (volaille, porc, poisson), pulpe de betterave 2 %, fibre de pois, farines basses de blé, inuline de chicorée 0,8 %, substances minérales, protéines plasmatiques de porc 0,4 %.",
     additifs:"Vitamine A 27 000 UI/kg ; D3 1 200 UI/kg ; E 500 mg/kg ; C 70 mg/kg ; fer 86 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 148 mg/kg ; sélénium 0,1 mg/kg ; Bacillus velezensis DSM 1 1×10⁹ ; antioxygènes."
   },
+  c13: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.advance-affinity.com/fr/chat/nourriture-chat/senior-sterilized-1000392.html",
+    proteines:37, matieresGrasses:16.5, fibres:3.4, cendres:6.3, phosphore:0.7, omega3:0.6, omega6:3, energie:4040,
+    compositionComplete:"Poulet 17 %, maïs complet, protéine de maïs, protéines déshydratées de volaille, orge complète 8 %, protéine de blé, saindoux, protéines déshydratées de porc, blé complet 4 %, collagène hydrolysé 2,5 %, protéines animales hydrolysées (volaille, porc, poisson), pulpe de betterave 1,5 %, fibre de pois, farines basses de blé, huile de poisson, œuf déshydraté, substances minérales, inuline de chicorée 0,6 %, protéines plasmatiques de porc 0,4 %, acide hyaluronique 25 mg/kg.",
+    additifs:"Vitamine A 43 200 UI/kg ; D3 720 UI/kg ; E 750 mg/kg ; C 150 mg/kg ; taurine 1 700 mg/kg ; L-carnitine 500 mg/kg ; fer 86 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 148 mg/kg ; sélénium 0,1 mg/kg ; chlorure d’ammonium 5 g/kg ; antioxygènes.",
+    ration:"2 kg : 35 g ; 4 kg : 55 g ; 6 kg : 70 g ; 8 kg : 85 g/jour."
+  },
+  c14: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/media/datatransfer/import/product/images/FR_SENIOR_20260128.pdf",
+    proteines:27, matieresGrasses:20, fibres:2.7, cendres:4.6, calcium:0.6, phosphore:0.45, magnesium:0.07, sodium:0.3, potassium:0.65, energie:4086,
+    compositionComplete:"Résidu gras déshydraté, graisse de volailles, riz, grains de maïs entier, pulpe de betterave, pommes de terre séchées, protéine de pomme de terre, protéines animales hydrolysées, substances minérales, foie de volaille séché, huile de saumon, fines herbes et fruits.",
+    additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 450 mg/kg ; C 100 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9, biotine ; taurine 1 600 mg/kg ; L-carnitine 500 mg/kg ; fer 120 mg/kg ; zinc 110 mg/kg ; manganèse 10 mg/kg ; cuivre 10 mg/kg ; iode 1,9 mg/kg ; sélénium 0,10 mg/kg ; antioxydant naturel à base de tocophérols.",
+    ration:"2–3 kg : 30–50 g ; 3–4 kg : 40–60 g ; 4–5 kg : 45–70 g ; 5–7 kg : 55–90 g ; 7–10 kg : 70–115 g/jour."
+  },
   c16: {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.tasteofthewild.com.au/portfolio-view/rocky-mountain/",
     proteines:42, matieresGrasses:18, fibres:3, cendres:8.3, humiditeFabricant:10, humidite:10, calcium:1.9, phosphore:1.2, omega3:0.3, omega6:2.8, energie:3745,
@@ -163,6 +177,13 @@ window.CROCamiManufacturerData = {
     ration:"2–4 kg : 30–50 g (activité +) ou 35–60 g (activité ++) ; 4–6 kg : 50–65 ou 60–75 g ; 6–8 kg : 65–75 ou 75–90 g/jour.",
     noteFabricant:"La fiche officielle consultée fournit la composition et la ration, mais ne publie pas les constituants analytiques dans la page récupérée."
   },
+  c07: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chat/alimentation/friskies-croquettes-adulte-poulet",
+    proteines:30, matieresGrasses:11, fibres:3, cendres:7.5,
+    compositionComplete:"Céréales, viandes et sous-produits animaux (dont poulet 3 % et lapin 1 % dans certaines croquettes ; teneur totale du produit : poulet 2,4 % et lapin 0,8 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, substances minérales, légumes (pois et carottes séchés), levures.",
+    additifs:"Vitamine A 12 500 UI/kg ; D3 1 000 UI/kg ; E 89 UI/kg ; fer 47 mg/kg ; iode 1,5 mg/kg ; cuivre 8,9 mg/kg ; manganèse 5,1 mg/kg ; zinc 66 mg/kg ; sélénium 0,10 mg/kg ; taurine 870 mg/kg.",
+    ration:"3 kg : 45 g ; 4 kg : 60 g ; 5 kg : 75 g/jour."
+  },
   c08: {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.whiskas.fr/nos-produits/croquettes/classique/whiskas-croquettes-au-poulet-pour-chat-adulte-3-8kg-7kg",
@@ -170,6 +191,13 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Céréales, viandes et sous-produits animaux 29 % (dont poulet 4 % dans les croquettes marron clair), huiles et graisses, sous-produits d’origine végétale, substances minérales, extraits de protéines végétales, légumes (carottes déshydratées 0,5 % et petits pois déshydratés 1 % dans certaines croquettes).",
     additifs:"Vitamine A 4 910 UI/kg ; D3 542 UI/kg ; E 97,2 mg/kg ; taurine 1 850 mg/kg ; cuivre 4 mg/kg ; iode 1 mg/kg ; manganèse 21,6 mg/kg ; sélénium 0,18 mg/kg ; zinc 61,1 mg/kg ; antioxygènes et colorants.",
     ration:"3 kg : 35 g ; 4 kg : 45 g ; 5 kg : 55 g par jour (croquettes seules)."
+  },
+  c20: {
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://carnilove.com/en/products/active-dry-food-made-with-salmon-and-turkey-for-adult-cats",
+    energie:3875,
+    compositionComplete:"Saumon frais 26 %, protéines de dinde 24 %, pois jaunes, protéines de dinde hydrolysées 12 %, graisse de bœuf 8 %, foie hydrolysé 4 %, pois chiches, protéine de pois, citrouille, graines de lin, huile de saumon 1 %, chlorure de potassium, farine de pois, carottes, argousier séché 0,1 %, gingembre 0,05 %, myrtilles 0,05 %, romarin 0,05 %, canneberges 0,05 %, thym 0,05 %, levure de bière, racine de chicorée et yucca.",
+    ration:"2–3 kg : 40–45 g ; 3–5 kg : 50–70 g ; 5–7 kg : 70–85 g ; 7–9 kg : 85–100 g/jour.",
+    noteFabricant:"Énergie métabolisable annoncée : 3 875 kcal/kg. Les constituants analytiques complets doivent encore être recoupés avec l’étiquette du lot commercialisé en France."
   },
   c18: {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://eukanuba.eu/fr-fr/chat/croquettes/chat-sans-cereales-adulte",
