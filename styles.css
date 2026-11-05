@@ -70,3 +70,17 @@
 .comparison tbody th{background:#f8f7f1}
 @media(max-width:900px){.results{grid-template-columns:repeat(2,1fr)}.filter-row{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.results{grid-template-columns:1fr}.filter-row{grid-template-columns:1fr}.compare-toolbar{display:block;line-height:1.8}.product-card h3{min-height:0}.product-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.comparison{padding:12px}}
+
+
+/* Visuels de sacs : visibles dès les résultats et conservés sur la fiche détaillée */
+.product-identity{display:flex;align-items:center;gap:15px;min-height:138px;margin:12px 0 16px}
+.product-visual{width:112px;height:132px;flex:0 0 112px;display:flex;align-items:center;justify-content:center;background:#faf9f5;border:1px solid #eeeae0;border-radius:10px;overflow:hidden;padding:7px}
+.product-visual img{display:block;width:100%;height:100%;object-fit:contain}
+.product-visual.pack-missing{background:linear-gradient(145deg,#f5f3eb,#edf1e9)}
+.pack-fallback{font-size:38px;opacity:.55}
+.product-names{min-width:0;flex:1}
+.product-brand{font:800 19px/1.12 Manrope,sans-serif;letter-spacing:-.5px;color:var(--green);margin:0 0 7px;overflow-wrap:anywhere}
+.product-card h3{font:600 12px/1.4 "DM Sans",sans-serif;color:#77796f;margin:0;min-height:0}
+.compare-brand{font:800 13px Manrope,sans-serif}
+.compare-recipe{font:500 10px "DM Sans",sans-serif;color:#777}
+@media(max-width:600px){.product-identity{min-height:122px;gap:12px}.product-visual{width:96px;height:116px;flex-basis:96px}.product-brand{font-size:17px}.product-card h3{font-size:11px}}
