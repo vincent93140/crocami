@@ -172,6 +172,13 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 10 000 UI/kg ; D 750 UI/kg ; E 150 UI/kg ; taurine minimum 0,15 % ; fer, cuivre, iode, manganèse, zinc et sélénium selon l’étiquette fabricant.",
     ration:"Chat adulte : 1–2,25 kg 35–53 g ; 2,25–4,5 kg 53–70 g ; 4,5–6,8 kg 70–106 g ; 6,8–9 kg 106–133 g/jour."
   },
+  d20: {
+    verificationFabricant:"confirmée_partielle",
+    sourceFabricant:"https://www.edgardcooper.com/fr/products/dog-dry-food-chicken/",
+    compositionComplete:"Liste visible sur la fiche officielle actuelle : poulet frais 40 %, patate douce séchée 13,2 %, pommes de terre séchées, protéine de pois, pois séchés, graisse de poulet, protéine de pomme de terre, sauce de poulet. La liste complète doit être relevée sur l’étiquette du sac correspondant au lot.",
+    ration:"Guide fabricant petites croquettes : 0–5 kg 14–77 g/jour ; 5–10 kg 77–129 g/jour. La quantité varie selon le poids et l’activité.",
+    noteFabricant:"La fiche officielle actuelle ne publie pas les constituants analytiques dans le texte consulté. Les valeurs analytiques déjà présentes dans Crocami restent celles du relevé tiers et ne sont pas validées par le fabricant."
+  },
   c01: {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/--2537",
