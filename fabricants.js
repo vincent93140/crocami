@@ -35,6 +35,13 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Poulet frais 18 %, poulet déshydraté 18 %, lentilles rouges entières, petits pois entiers, abats de poulet frais (foie, cœur) 7 %, gras de poulet 7 %, dinde déshydratée 4 %, œufs 4 %, plie crue 4 %, hareng déshydraté 4 %, huile de poisson 3 %, lentilles vertes entières, pois chiches entiers, pois jaunes entiers, fibres de pois, amidon de pois, foie de dinde cru 1 %, sel, varech, citrouille, courge musquée, carottes, pommes, poires, courgettes, racine de chicorée, chou frisé, épinards, feuilles de navet et de betterave, canneberges, myrtilles, baies de Saskatoon, curcuma, chardon-marie, lavande, racine de guimauve et églantier.",
     additifs:"Chlorure de choline 700 mg/kg ; zinc 112,5 mg/kg ; cuivre 11 mg/kg ; vitamine B1 25 mg/kg ; B5 8 mg/kg ; B6 7,5 mg/kg ; vitamine A 7 500 UI/kg ; D3 1 000 UI/kg ; E 100 UI/kg ; Enterococcus faecium NCIMB 10415 2,2×10⁶ UFC/kg ; tocophérols, acide citrique et extrait de romarin.",
     noteFabricant:"Énergie : 32 % des calories issues des protéines, 46 % des matières grasses et 22 % des glucides, selon le fabricant."
+    humiditeFabricant:12,
+    calcium:1.5,
+    phosphore:1.1,
+    omega3:1,
+    omega6:2.7,
+    dha:0.3,
+    epa:0.3
   },
   d05: {
     imageProduit:"https://www.purina.fr/sites/default/files/2022-04/07613034487919_C1N1_44108853_0.png",
@@ -70,6 +77,11 @@ window.CROCamiManufacturerData = {
     proteines:26.2, matieresGrasses:11, fibres:12.2, cendres:5.3, calcium:0.79, phosphore:0.64, sodium:0.27, potassium:0.8, magnesium:0.13,
     compositionComplete:"Froment, farine de protéines de maïs, protéines déshydratées de poulet et de dinde (poulet 9 %, volaille totale 14 %), farine de son de pois, maïs, hydrolysat, marc de tomate déshydraté, cellulose, graines de lin, graisses animales, pulpe de betterave séchée, huile de noix de coco, matières minérales, carottes déshydratées.",
     additifs:"Vitamine A 10 014 UI/kg ; vitamine D3 714 UI/kg ; vitamine E 730 mg/kg ; vitamine C 121 mg/kg ; bêta-carotène 1,6 mg/kg ; fer 75,2 mg/kg ; iode 1,9 mg/kg ; cuivre 7,4 mg/kg ; manganèse 7,8 mg/kg ; zinc 132 mg/kg ; sélénium 0,2 mg/kg ; antioxydant naturel."
+    humiditeFabricant:8,
+    glucides:37.3,
+    omega3:0.67,
+    omega6:2.11,
+    energie:3159
   },
   d09: {
     imageProduit:"https://media.zooplus.com/bilder/4/800/607617_pla_josera_adult_lightvital_900g_4.jpg",
@@ -86,6 +98,8 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Lapin déshydraté 36 %, riz 35 %, pulpe de pomme séchée 12 %, lignocellulose 10 %, graisse de poulet, arôme naturel, levure de bière, huile de saumon 1 %, téguments et graines de psyllium 0,5 %, farine de pois, glucosamine 300 mg/kg, FOS 230 mg/kg, chondroïtine 230 mg/kg, MOS 180 mg/kg, yucca 180 mg/kg, chardon-marie 110 mg/kg, bêta-glucanes 60 mg/kg, agripaume 60 mg/kg, argousier 60 mg/kg, Lactobacillus helveticus HA-122 inactivé.",
     additifs:"Vitamine A 23 000 UI/kg ; D3 1 700 UI/kg ; E 550 mg/kg ; C 350 mg/kg ; taurine 1 500 mg/kg ; choline 1 800 mg/kg ; L-carnitine 300 mg/kg ; vitamines B1, B2, B6, B12, biotine, acide folique, acide pantothénique et niacinamide ; fer 88 mg/kg ; iode 0,9 mg/kg ; zinc 100 mg/kg ; manganèse 45 mg/kg ; cuivre 20 mg/kg ; sélénium 0,18 mg/kg ; antioxydants (tocophérols, palmitate d’ascorbyle, romarin).",
     ration:"Perte de poids / maintien : 5 kg 80/90 g ; 10 kg 130/160 g ; 15 kg 180/210 g ; 20 kg 220/260 g ; 25 kg 260/310 g ; 30 kg 310/350 g ; 40 kg 380/430 g ; 50 kg 450/510 g ; 60 kg 510/580 g ; 70 kg 570/660 g ; 80 kg 630/720 g ; 90 kg 690/790 g par jour."
+    epa:0.02,
+    dha:0.05
   },
   d11: {
     imageProduit:"https://cdn.shopify.com/s/files/1/0485/8576/9112/products/pedigree-adult-dry-dog-food-real-beef-and-vegies_580x.png?v=1678211551",
@@ -222,6 +236,7 @@ window.CROCamiManufacturerData = {
     proteines:41, matieresGrasses:12, fibres:4, cendres:7.5, humiditeFabricant:6,
     compositionComplete:"Dinde de haute qualité 20 % (dont dos et coffre), protéines de volaille déshydratées, riz, farine de protéines de maïs, maïs, gluten de blé, farine basse de blé, fibres végétales séchées, œufs déshydratés, substances minérales, huile de poisson, graisses animales, hydrolysat, levure.",
     additifs:"Vitamine A 32 000 UI/kg ; D3 1 000 UI/kg ; E 670 UI/kg ; C 140 mg/kg ; fer 120 mg/kg ; iode 1,9 mg/kg ; cuivre 13 mg/kg ; manganèse 45 mg/kg ; zinc 110 mg/kg ; sélénium 0,13 mg/kg."
+    ration:"Guide fabricant : ration adaptée au poids, à l’âge, à l’activité et à la condition corporelle ; tableau à consulter sur la fiche officielle."
   },
   c03: {
     imageProduit:"https://dam.elcorteingles.es/producto/www-001021910301981-00.jpg",
@@ -300,6 +315,7 @@ window.CROCamiManufacturerData = {
     proteines:38, matieresGrasses:14, fibres:2.5, cendres:7, calcium:1.3, phosphore:1.1, magnesium:0.08, omega3:1.04, omega6:2.58,
     compositionComplete:"Poulet et dinde déshydratés 33 % (poulet 20 %), saumon frais congelé 20 %, pomme de terre, pois entiers, graisse de volaille, pulpe de betterave déshydratée 1,7 %, jus au poulet, fructo-oligosaccharides 0,65 %, levure de bière déshydratée.",
     additifs:"Vitamine A 50 000 UI/kg ; D3 1 438 UI/kg ; E 124 mg/kg ; cuivre 7,7 mg/kg ; iode 1 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; taurine 0,21 %."
+    ration:"2 kg : 25–40 g ; 4 kg : 55–75 g ; 6 kg : 80–115 g ; 8 kg : 100–150 g ; 10 kg : 135–190 g/jour."
   },
   c09: {
     imageProduit:"https://i.ebayimg.com/images/g/9XoAAOSw2ktj5OTy/s-l1200.jpg",
