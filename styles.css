@@ -78,7 +78,7 @@
 .product-visual img{display:block;width:100%;height:100%;object-fit:contain}
 .product-visual.pack-missing{background:linear-gradient(145deg,#f5f3eb,#edf1e9)}
 .pack-fallback{font-size:38px;opacity:.55}
-.product-names{min-width:0;flex:1}
+.product-names{min-width:0;flex:1;display:flex;align-items:center;justify-content:space-between;gap:10px}.product-name-copy{min-width:0;flex:1}.product-names .score-bubble{position:static;flex:0 0 54px;width:54px;height:54px;margin-right:1px}.product-names .score-bubble strong{font-size:18px}.product-names .score-bubble small{font-size:8px}
 .product-brand{font:800 19px/1.12 Manrope,sans-serif;letter-spacing:-.5px;color:var(--green);margin:0 0 7px;overflow-wrap:anywhere}
 .product-card h3{font:600 12px/1.4 "DM Sans",sans-serif;color:#77796f;margin:0;min-height:0}
 .compare-brand{font:800 13px Manrope,sans-serif}
@@ -133,3 +133,5 @@
  .comparison thead th{font-size:8px;line-height:1.3}
  .comparison thead button{width:19px;height:19px;padding:0}
 }
+
+@media(max-width:600px){.product-names{gap:7px}.product-names .score-bubble{flex-basis:50px;width:50px;height:50px}.product-names .score-bubble strong{font-size:17px}}
