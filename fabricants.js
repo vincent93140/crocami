@@ -170,6 +170,7 @@ window.CROCamiManufacturerData = {
     proteines:26, matieresGrasses:17, fibres:3, cendres:6.5, omega3:0.3, omega6:3.1,
     compositionComplete:"Poulet 20 %, protéines déshydratées de volaille, blé complet 10 %, riz 10 %, maïs complet, graisse de volaille, pois déshydratés 4 %, farine de maïs, protéines déshydratées de porc, protéine de maïs, protéines animales hydrolysées (volaille, porc, poisson), pulpe de betterave 2 %, fibre de pois, farines basses de blé, inuline de chicorée 0,8 %, substances minérales, protéines plasmatiques de porc 0,4 %.",
     additifs:"Vitamine A 27 000 UI/kg ; D3 1 200 UI/kg ; E 500 mg/kg ; C 70 mg/kg ; fer 86 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 148 mg/kg ; sélénium 0,1 mg/kg ; Bacillus velezensis DSM 1 1×10⁹ ; antioxygènes."
+    ration:"1 kg : 25/30/40 g ; 3 kg : 55/65/90 g ; 5 kg : 80/100/130 g ; 7 kg : 105/125/165 g ; 10 kg : 135/165/215 g/jour selon activité (+/++/+++)."
   },
   c12: {
     imageProduit:"https://iams.eu/fileadmin/product_images/T90003509_192614.png",
@@ -293,6 +294,17 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Saumon frais 26 %, protéines de dinde 24 %, pois jaunes, protéines de dinde hydrolysées 12 %, graisse de bœuf 8 %, foie hydrolysé 4 %, pois chiches, protéine de pois, citrouille, graines de lin, huile de saumon 1 %, chlorure de potassium, farine de pois, carottes, argousier séché 0,1 %, gingembre 0,05 %, myrtilles 0,05 %, romarin 0,05 %, canneberges 0,05 %, thym 0,05 %, levure de bière, racine de chicorée et yucca.",
     ration:"2–3 kg : 40–45 g ; 3–5 kg : 50–70 g ; 5–7 kg : 70–85 g ; 7–9 kg : 85–100 g/jour.",
     noteFabricant:"Énergie métabolisable annoncée : 3 875 kcal/kg. Les constituants analytiques complets doivent encore être recoupés avec l’étiquette du lot commercialisé en France."
+    proteines:37,
+    matieresGrasses:17,
+    fibres:2.2,
+    cendres:8.1,
+    humiditeFabricant:10,
+    calcium:1.3,
+    phosphore:1,
+    sodium:0.5,
+    omega3:0.5,
+    omega6:3,
+    additifs:"Vitamine A 23 000 UI/kg ; D3 920 UI/kg ; E 720 mg/kg ; choline 4 200 mg/kg ; taurine 2 500 mg/kg ; vitamines B1 8,2 mg/kg, B2 3,6 mg/kg, B6 22,8 mg/kg, B12 0,12 mg/kg ; biotine 1,6 mg/kg ; acide folique 0,72 mg/kg ; acide pantothénique 5,2 mg/kg ; niacinamide 40 mg/kg ; zinc 98,4 mg/kg ; fer 40,8 mg/kg ; manganèse 48 mg/kg ; iode 3,2 mg/kg ; cuivre 7,4 mg/kg ; L-méthionine 5 000 mg/kg."
   },
   c19: {
     imageProduit:"https://d3nyg2dwdichmn.cloudfront.net/production/files/public/media/0e/f5/b1/1713551580/688614.jpg",
