@@ -34,11 +34,11 @@ Aucun produit, prix ou score fictif n'est présenté comme réel dans cette vers
 ## Audit du catalogue — 5 novembre 2026
 
 Contrôle structurel effectué sur les fichiers publiés :
-- 219 fiches au total : 40 références de départ, 8 références Chronovet et 171 références ajoutées depuis Macroquette.
+- 218 fiches au total : 40 références de départ, 8 références Chronovet et 170 références ajoutées depuis Macroquette.
 - Les 40 références de départ disposent d'une image produit déclarée dans `fabricants.js` ; les 8 fiches Chronovet ont maintenant chacune une photo ajoutée et une fiche fabricant officielle liée.
-- Au total, 218 fiches sur 219 disposent d'une image produit déclarée. Parmi les 171 références Macroquette, 170 ont une image ; la seule photo toujours manquante est celle de `mq-dog-026` (Animalis, chien de grande taille au poulet).
-- L'image affichée sur sa page Macroquette correspond visuellement à une recette stérilisée/allégée : elle n'a donc pas été réutilisée pour éviter une photo trompeuse. La fiche conserve le visuel de remplacement chien prévu par l'interface.
+- Les 218 fiches restantes disposent chacune d'une image produit déclarée : 40 références de départ, 8 références Chronovet et 170 références Macroquette.
+- La fiche Animalis `mq-dog-026` (chien de grande taille au poulet), dont la photo exacte n'était pas disponible, a été retirée du catalogue à la demande de l'utilisateur.
 - Les champs nutritionnels non publiés par les sources restent non renseignés. Les compositions et valeurs disponibles ne sont pas complétées par estimation.
-- Couverture des 171 fiches Macroquette : composition complète 171/171 ; protéines, matières grasses, fibres et cendres 171/171 ; glucides 164/171 ; humidité 6/171 ; calcium et phosphore 11/171 ; magnésium 3/171 ; énergie 6/171 ; additifs 1/171 ; rations 1/171. 15/171 ont déjà un lien fabricant enregistré ; 156 restent à recouper avec une source fabricant ou revendeur fiable. Ces écarts signalent les informations à rechercher, pas des valeurs à inventer.
+- Couverture des 170 fiches Macroquette : composition complète 170/170 ; protéines, matières grasses, fibres et cendres 170/170 ; glucides 164/170 ; humidité 6/170 ; calcium et phosphore 11/170 ; magnésium 3/170 ; énergie 6/170 ; additifs 1/170 ; rations 1/170. 16/170 ont un lien fabricant enregistré ; 154 restent à recouper avec une source fabricant ou revendeur fiable. Ces écarts signalent les informations à rechercher, pas des valeurs à inventer.
 
 Cet audit vérifie la présence et la cohérence des données et des références d'images dans le catalogue. Il ne constitue pas une validation visuelle manuelle de chaque image distante ni une nouvelle mesure des prix en temps réel.
