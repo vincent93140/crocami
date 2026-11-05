@@ -39,5 +39,6 @@ Contrôle structurel effectué sur les fichiers publiés :
 - Parmi les 171 références Macroquette, 170 disposent d'une URL d'image ; la référence `mq-dog-026` (Animalis, chien de grande taille au poulet) reste sans photo exacte.
 - L'image affichée sur sa page Macroquette correspond visuellement à une recette stérilisée/allégée : elle n'a donc pas été réutilisée pour éviter une photo trompeuse. La fiche conserve le visuel de remplacement chien prévu par l'interface.
 - Les champs nutritionnels non publiés par les sources restent non renseignés. Les compositions et valeurs disponibles ne sont pas complétées par estimation.
+- Couverture des 171 fiches Macroquette : composition complète 171/171 ; protéines, matières grasses, fibres et cendres 171/171 ; glucides 164/171 ; humidité 6/171 ; calcium et phosphore 11/171 ; magnésium 3/171 ; énergie 6/171 ; additifs 1/171 ; rations 1/171. Ces écarts signalent les informations à rechercher dans les documents fabricants/revendeurs, pas des valeurs à inventer.
 
 Cet audit vérifie la présence et la cohérence des données et des références d'images dans le catalogue. Il ne constitue pas une validation visuelle manuelle de chaque image distante ni une nouvelle mesure des prix en temps réel.
