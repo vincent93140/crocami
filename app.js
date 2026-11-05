@@ -9,11 +9,11 @@ function globalNutritionScore(p){
  const criteria=[];
  const add=(name,value,weight,detail)=>{if(value!=null&&Number.isFinite(value))criteria.push({name,value:Math.max(0,Math.min(100,value)),weight,detail});};
  const band=(v,min,max,margin)=>v<min?Math.max(0,100-((min-v)/margin)*100):v>max?Math.max(0,100-((v-max)/margin)*100):100;
- const protein=p.proteines,proteinRange=isDog?(junior?[25,32]:[22,30]):[32,45];
+ const protein=p.proteines,proteinRange=isDog?(junior?[28,35]:[25,32]):(p.age==="Senior"?[32,45]:[35,45]);
  if(protein!=null)add("Protéines",band(protein,proteinRange[0],proteinRange[1],8),isDog?35:30,"Teneur brute comparée à une plage indicative selon l’espèce et l’âge. Le pourcentage seul ne mesure ni le RPC ni la qualité des protéines.");
- const fat=p.matieresGrasses,fatRange=isDog?(junior?[12,20]:weightControl?[7,13]:[9,18]):(sterilised?[10,16]:[10,20]);
+ const fat=p.matieresGrasses,fatRange=isDog?(junior?[13,20]:weightControl?[7,12]:[10,16]):(sterilised?[10,16]:[12,18]);
  if(fat!=null)add("Matières grasses",band(fat,fatRange[0],fatRange[1],7),isDog?25:20,"Plage indicative adaptée au stade de vie et au contrôle du poids lorsqu’il est indiqué.");
- const fiber=p.fibres,fiberRange=isDog?(weightControl?[3,10]:[1,6]):[1.5,5];
+ const fiber=p.fibres,fiberRange=isDog?(weightControl?[3,10]:[1,4]):[2,5];
  if(fiber!=null)add("Fibres",band(fiber,fiberRange[0],fiberRange[1],5),10,"Teneur brute comparée à une plage indicative ; le type de fibres et la tolérance digestive comptent aussi.");
  if(p.calcium!=null&&p.phosphore>0){const ratio=p.calcium/p.phosphore,range=isDog?[1,2]:[1,1.5];add("Équilibre calcium / phosphore",band(ratio,range[0],range[1],0.8),20,"Rapport calculé à partir des valeurs publiées. Les teneurs absolues et les besoins liés à la croissance doivent aussi être vérifiés.");}
  if(p.omega3>0&&p.omega6!=null){const ratio=p.omega6/p.omega3;add("Rapport oméga 6 / 3",band(ratio,5,10,8),10,"Rapport calculé uniquement si les deux teneurs sont communiquées.");}
