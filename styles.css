@@ -84,3 +84,20 @@
 .compare-brand{font:800 13px Manrope,sans-serif}
 .compare-recipe{font:500 10px "DM Sans",sans-serif;color:#777}
 @media(max-width:600px){.product-identity{min-height:122px;gap:12px}.product-visual{width:96px;height:116px;flex-basis:96px}.product-brand{font-size:17px}.product-card h3{font-size:11px}}
+
+/* Analyse nutritionnelle comparative des croquettes pour chien */
+.audit-summary{margin:0 0 13px;padding:10px 12px;border-radius:9px;display:flex;flex-direction:column;gap:4px;background:#f4f3ec;border:1px solid #e9e5d9}
+.audit-summary b{font:800 11px Manrope,sans-serif;color:#425d43}
+.audit-summary span{font-size:9px;color:#73786e;line-height:1.5}
+.audit-summary.watch{background:#fbf2e8;border-color:#f0dfca}.audit-summary.watch b{color:#9a6232}
+.audit-summary.partial{background:#f3f3ed}.audit-summary.missing b{color:#777}
+.nutrition-audit{margin:18px 0 8px;padding:16px;border:1px solid #e7e5dc;border-radius:11px;background:#fcfcf8}
+.audit-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:12px}
+.audit-heading>div{display:flex;flex-direction:column;gap:4px}.audit-heading>div>b{font:800 13px Manrope,sans-serif;color:#304e39}.audit-heading small{font-size:9px;line-height:1.5;color:#7b8176}
+.audit-status{font-size:8px;letter-spacing:.5px;border-radius:20px;padding:6px 8px;background:#edf1e8;color:#426449;white-space:nowrap}
+.audit-status.watch{background:#f8eadb;color:#98612e}.audit-status.partial,.audit-status.missing{background:#efefe9;color:#777}
+.audit-list{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.audit-row{background:#fff;border:1px solid #eeece5;border-radius:8px;padding:10px;min-width:0}
+.audit-row-main{display:flex;justify-content:space-between;align-items:flex-start;gap:6px}.audit-row-main>b{font-size:9px;line-height:1.4;color:#4c5149}.audit-value{font:800 11px Manrope,sans-serif;color:#3e6848;text-align:right;white-space:nowrap}.audit-value.bad,.audit-value.watch{color:#a46c37}.audit-value.missing{color:#8a8d84}.audit-row>small{display:block;margin-top:5px;font-size:8px;color:#777e72;line-height:1.4}.audit-row p{font-size:8px;color:#85897f;line-height:1.5;margin:5px 0 7px}.audit-tag{font-style:normal;font-size:7px;letter-spacing:.6px;font-weight:800;color:#4d7653}.audit-tag.bad,.audit-tag.watch{color:#a36b36}.audit-tag.missing{color:#85877f}.audit-tag.info{color:#6e7180}
+.audit-foot{font-size:8px;line-height:1.6;color:#85897f;margin:12px 0 0}
+@media(max-width:600px){.nutrition-audit{padding:12px}.audit-list{grid-template-columns:1fr}.audit-heading{display:block}.audit-status{display:inline-block;margin-top:8px}}
