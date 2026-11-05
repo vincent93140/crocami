@@ -43,9 +43,9 @@ window.CROCamiCatalog = [
 ["c19","chat","Farmina N&D","Prime Adult (poulet, grenade)","Adulte","Adulte","Toutes",5,57.99,11.60,44,20,1.8,8,"viande de poulet fraîche désossée (30 %)",4.5],
 ["c20","chat","Carnilove","Active Adult (saumon, dinde)","Adulte","Adulte","Toutes",6,55.49,9.25,37,17,2.2,10,"saumon frais (26 %)",3.5]
 ].map(([id,espece,marque,recette,age,besoins,gabarit,formatKg,prixSac,prixKg,proteines,matieresGrasses,fibres,humidite,premierIngredient,noteComposition])=>({
- id,espece,marque,recette,age,besoins:besoins.split("|"),gabarit,formatKg,prixSac,prixKg,proteines,matieresGrasses,fibres,humidite,premierIngredient,noteComposition,
+ id,espece,marque,recette,age,besoins:besoins.split("|"),gabarit,formatKg,prixSac,prixKg,proteines,proteinesMS:Math.round((proteines/(1-(humidite??10)/100))*10)/10,matieresGrasses,fibres,humidite,premierIngredient,noteComposition,scoreCrocami:null,
  cendres:null,glucides:null,calcium:null,phosphore:null,magnesium:null,energie:null,compositionComplete:null,additifs:null,ration:null,
- vendeur:"zooplus.fr",datePrix:"2026-11-01",sourceDonnees:"MeilleuresCroquettes — jeu de données ouvert CC BY 4.0",
+ vendeur:"zooplus.fr",datePrix:"2026-11-01",sourceDonnees:"MeilleuresCroquettes — baromètre mensuel publié sur data.gouv.fr (CC BY 4.0)",sourceDataset:"https://www.data.gouv.fr/datasets/prix-au-kilo-et-composition-des-croquettes-pour-chiens-et-chats-en-france",
  sourceFiche:espece==="chien"?"https://meilleurescroquettes.com/":"https://meilleurescroquettes.com/",
  urlVendeur:"https://www.zooplus.fr/"
 }));
