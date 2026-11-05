@@ -173,7 +173,7 @@ window.CROCamiManufacturerData = {
     ration:"2 kg : 35 g ; 4 kg : 55 g ; 6 kg : 70 g ; 8 kg : 85 g/jour."
   },
   c14: {
-    imageProduit:"https://www.twidox.at/media/image/product/114431/lg/katzen-trockenfutter-josera-senior.png",
+    imageProduit:"https://www.futterfreund.de/media/catalog/product/cache/aac628c4cf80a069ddc502d666d4c8ff/j/o/josera-katze-senior-2kg.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/media/datatransfer/import/product/images/FR_SENIOR_20260128.pdf",
     proteines:27, matieresGrasses:20, fibres:2.7, cendres:4.6, calcium:0.6, phosphore:0.45, magnesium:0.07, sodium:0.3, potassium:0.65, energie:4086,
     compositionComplete:"Résidu gras déshydraté, graisse de volailles, riz, grains de maïs entier, pulpe de betterave, pommes de terre séchées, protéine de pomme de terre, protéines animales hydrolysées, substances minérales, foie de volaille séché, huile de saumon, fines herbes et fruits.",
@@ -287,7 +287,7 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 18 000 UI/kg ; D3 1 200 UI/kg ; E 600 mg/kg ; C 300 mg/kg ; niacine 150 mg/kg ; pantothénate de calcium 50 mg/kg ; B2 20 mg/kg ; B6 8,1 mg/kg ; B1 10 mg/kg ; biotine 1,5 mg/kg ; acide folique 1,5 mg/kg ; B12 0,1 mg/kg ; choline 2 500 mg/kg ; bêta-carotène 1,5 mg/kg ; zinc 163,8 mg/kg ; manganèse 64,6 mg/kg ; fer 58,3 mg/kg ; cuivre 15,8 mg/kg ; DL-méthionine 5 000 mg/kg ; taurine 4 000 mg/kg ; L-carnitine 300 mg/kg ; extrait de thé vert, romarin et tocophérols."
   },
   c17: {
-    imageProduit:"https://images.onlinepets.com/product-images/catalog/6HnWPIPskx31AG9D2fDZXoc7EPK4vC-metaQXBwbGF3cy1LYXQtLS1BZHVsdC1LYXQtS2lwLTcsNS1rZy5qcGc%3D-.jpg?auto=format",
+    imageProduit:"https://media.farmaciatei.ro/gallery/121297/medium_2x/hrana-uscata-cu-pui-pentru-pisici-2-kg-applaws-1432.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://applaws.com/uk/products/chicken-adult-dry-cat-food-4/",
     proteines:37, matieresGrasses:16.5, fibres:2, cendres:8, omega3:0.5, omega6:3.85, calcium:2.2, phosphore:1.4, energie:4046,
@@ -318,7 +318,7 @@ window.CROCamiManufacturerData = {
     ration:"2–4 kg : 30–60 g ; 4–6 kg : 60–90 g/jour."
   },
   c11: {
-    imageProduit:"https://www.auberdog.com/api/uploads/public/products/108176/chats-royal-canin-croquettes-sterilised-7-10711719143-180x_-quality%2890%29.jpeg",
+    imageProduit:"https://www.kiwoko.pt/on/demandware.static/-/Sites-kiwoko-master-catalog/default/dw6c9447fc/images/pienso_gatos_royal_canin_sterilised_7%2B_ROYR445049.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2B-2560",
     proteines:36, matieresGrasses:12, fibres:5.3, cendres:8, phosphore:0.7, epaDha:0.3,
