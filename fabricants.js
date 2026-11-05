@@ -169,7 +169,7 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"à recouper", sourceFabricant:"https://www.tasteofthewild.com.au/portfolio-view/rocky-mountain/",
     proteines:42, matieresGrasses:18, fibres:3, cendres:8.3, humiditeFabricant:10, humidite:10, calcium:1.9, phosphore:1.2, omega3:0.3, omega6:2.8, energie:3745,
     compositionComplete:"Formule féline Rocky Mountain : cerf rôti et saumon fumé. La page officielle consultée concerne le marché australien ; la composition détaillée et les valeurs doivent être recoupées avec le sac vendu en France.",
-    noteFabricant:"Données de référence marché australien uniquement : ne pas considérer comme validées pour un sac vendu en France."
+    noteFabricant:"Données de référence marché australien uniquement : ne pas considérer comme validées pour un sac vendu en France.",
     additifs:"Vitamine A 10 000 UI/kg ; D 750 UI/kg ; E 150 UI/kg ; taurine minimum 0,15 % ; fer, cuivre, iode, manganèse, zinc et sélénium selon l’étiquette fabricant.",
     ration:"Chat adulte : 1–2,25 kg 35–53 g ; 2,25–4,5 kg 53–70 g ; 4,5–6,8 kg 70–106 g ; 6,8–9 kg 106–133 g/jour."
   },
