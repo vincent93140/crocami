@@ -27,3 +27,6 @@ function runSearch() {
 document.querySelector("#searchBtn").addEventListener("click", runSearch);
 search.addEventListener("keydown", event => { if (event.key === "Enter") runSearch(); });
 document.querySelectorAll(".filter-row select").forEach(select => select.addEventListener("change", runSearch));
+document.querySelectorAll("[data-jump-animal]").forEach(link => {
+  link.addEventListener("click", () => setAnimal(link.dataset.jumpAnimal));
+});
