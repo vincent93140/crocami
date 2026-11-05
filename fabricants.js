@@ -3,7 +3,7 @@
    Les champs absents restent null. Vérification initiale : 05/11/2026. */
 window.CROCamiManufacturerData = {
   d01: {
-    imageProduit:"https://swaggle.com.au/cdn/shop/files/0-royal-canin-medium-puppy-dry-dog-food.jpg",
+    imageProduit:"https://www.brekz.fr/66550/large_default.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003",
     proteines:32, matieresGrasses:20.4, fibres:1.6, cendres:8.3, energie:4125, omega3:0.18,
@@ -28,7 +28,7 @@ window.CROCamiManufacturerData = {
     noteFabricant:"Énergie métabolisable : 15,4 MJ/kg, soit 3 675 kcal/kg."
   },
   d04: {
-    imageProduit:"https://hardypaw.com/cdn/shop/files/F1B201432K02000-IMG2.jpg?v=1758149338&width=1024",
+    imageProduit:"https://cdn11.bigcommerce.com/s-iakwzr7rs7/images/stencil/1280x1280/attribute_rule_images/16974_source_1633534467.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://emea.acana.com/fr-FR/pour-chiens/eu-aca-puppy-junior.html",
     proteines:33, matieresGrasses:20, fibres:5, cendres:7, energie:3660, glucides:22,
@@ -72,7 +72,7 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 10 014 UI/kg ; vitamine D3 714 UI/kg ; vitamine E 730 mg/kg ; vitamine C 121 mg/kg ; bêta-carotène 1,6 mg/kg ; fer 75,2 mg/kg ; iode 1,9 mg/kg ; cuivre 7,4 mg/kg ; manganèse 7,8 mg/kg ; zinc 132 mg/kg ; sélénium 0,2 mg/kg ; antioxydant naturel."
   },
   d09: {
-    imageProduit:"https://petco.cl/medias/1200ftw-603996.jpg?context=bWFzdGVyfHJvb3R8NTY1NTY1fGltYWdlL2pwZWd8YURWaUwyZ3haQzh4TURreE1ETTJOalUyTkRNNE1pOHhNakF3Wm5SM1h6WXdNems1Tmk1cWNHY3xmZGJhMjljMGY5MGNjMWI1ZDNhOWFkZWVjM2EwZjhmYTAwMjI2YzBjN2I4ZWYxYzEwNWRjNTVhZGEyOWMwZDBl",
+    imageProduit:"https://media.zooplus.com/bilder/4/800/607617_pla_josera_adult_lightvital_900g_4.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-light-vital.html",
     proteines:29, matieresGrasses:7.5, fibres:7, cendres:6.7, calcium:1.3, phosphore:0.9, sodium:0.35, energie:3162,
     compositionComplete:"Protéines de volaille déshydratées 29 % (dont poulet 40 %), farine de pois, orge complète, lignocellulose, pulpe de betterave, protéines de volaille hydrolysées, graisse de volailles, caroube moulue déshydratée, levure partiellement hydrolysée, substances minérales, fines herbes, fruits, psyllium, chair séchée de moule verte de Nouvelle-Zélande.",
@@ -119,7 +119,7 @@ window.CROCamiManufacturerData = {
     ration:"10–15 kg : 170–225 g ; 15–25 kg : 225–315 g ; 25–35 kg : 315–400 g ; 35–45 kg : 400–470 g ; 45–55 kg : 470–540 g/jour."
   },
   d15: {
-    imageProduit:"https://assets.petco.com/petco/image/upload/f_auto%2Cq_auto/2468563-center-1",
+    imageProduit:"https://www.petscience.ca/img/product/121-63535_2-Z.jpg?fv=13AF6E296C43D8EDA6C293ACA4C8DF0E",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://eukanuba.eu/fr-fr/chien/croquettes/adulte-grandes-races-poulet-frais",
     proteines:24, matieresGrasses:13, fibres:2.1, cendres:6.3, calcium:1.25, phosphore:1.04, omega3:0.35, omega6:2.9,
     compositionComplete:"Poulet frais 18 %, poulet et dinde déshydratés 18 % (dont poulet 11 %), maïs, blé, avoine, orge, sorgho, graisse de volaille, pulpe de betterave déshydratée 2,5 %, jus au poulet, gruau de maïs, substances minérales (dont hexamétaphosphate de sodium 0,34 %), farine de poisson, œuf entier en poudre, FOS 0,25 %, levure de bière déshydratée, glucosamine 0,04 %.",
@@ -206,7 +206,7 @@ window.CROCamiManufacturerData = {
     noteFabricant:"La fiche officielle actuelle ne publie pas les constituants analytiques dans le texte consulté. Les valeurs analytiques déjà présentes dans Crocami restent celles du relevé tiers et ne sont pas validées par le fabricant."
   },
   c01: {
-    imageProduit:"https://www.zooroyal.de/cdn-cgi/image/format%3Davif%2Cfit%3Dcover%2Cgravity%3Dauto%2Cheight%3D600/media/image/royal_canin_sterilised_37_web.jpg",
+    imageProduit:"https://static.ticimax.cloud/cdn-cgi/image/width%3D0%2Cquality%3D90/14166/uploads/urunresimleri/buyuk/royal-canin-fhn-sterilised-37-kisirlasti-5f7a.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/--2537",
     proteines:37, matieresGrasses:12, fibres:6.2, cendres:8.2,
@@ -241,7 +241,7 @@ window.CROCamiManufacturerData = {
     noteFabricant:"La fiche officielle consultée fournit la composition et la ration, mais ne publie pas les constituants analytiques dans la page récupérée."
   },
   c05: {
-    imageProduit:"https://static.delhaize.be/medias/sys_master/products/ha5/h5f/13021674176542.jpg",
+    imageProduit:"https://media.zooplus.com/bilder/4/800/382910_pla_perfectfit_sterile_1plus_reichhuhn_hs_01_4.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.perfect-fit.fr/products/cat-dry/perfect-fit-adult-1-croquettes-riche-en-poulet-chat-adulte-sterilise-28kg",
     proteines:34, matieresGrasses:14.5, fibres:3, cendres:8, calcium:0.88, phosphore:0.88, energie:3860,
     compositionComplete:"Viandes et sous-produits animaux (dont poulet 14 %), blé, maïs, extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, substances minérales, levures (dont levure de bière naturelle 0,2 %).",
