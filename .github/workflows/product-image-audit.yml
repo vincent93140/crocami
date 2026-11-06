@@ -6,6 +6,9 @@ on:
     paths:
       - "catalogue.js"
       - "fabricants.js"
+      - "app.js"
+      - "styles.css"
+      - "index.html"
       - ".github/workflows/product-image-audit.yml"
       - "scripts/audit-product-images.mjs"
   workflow_dispatch:
