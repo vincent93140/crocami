@@ -300,9 +300,9 @@ window.CROCamiManufacturerData = {
     sourceFabricant:"https://www.purina.fr/chat/alimentation/proplan-croquette-adulte-dinde",
     sourceComplementaire:"https://vetcenter.purina.fr/sites/default/files/vet_materials/gamme_pro_plan_chat.pdf",
     sourceMacroquette:"https://macroquette.com/avis-purina-pro-plan-sterilised-adult-dinde-chat/",
-    proteines:41, matieresGrasses:12, fibres:4, cendres:7.5, humiditeFabricant:6,
+    proteines:41, matieresGrasses:12, fibres:4, cendres:7.5, humiditeFabricant:6, calcium:1.43, phosphore:1.14, sodium:0.41, potassium:0.81, omega3:0.39, omega6:1.87, epaDha:0.26, energie:3690,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Protéines, matières grasses, fibres, cendres, composition, additifs et ration vérifiés sur la fiche officielle Purina PRO PLAN Sterilised Adult riche en dinde. Macroquette confirme 41 % de protéines et 12 % de matières grasses mais indique fibres 5 % et cendres 7 % ; les valeurs fabricant (4 % et 7,5 %) sont conservées. Énergie, calcium, phosphore et taurine chiffrée non publiés par le fabricant.",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres et humidité confirmées sur la fiche officielle Purina PRO PLAN Sterilised Adult riche en dinde. La fiche technique officielle Purina 2023 complète les données : calcium 1,43 %, phosphore 1,14 %, sodium 0,41 %, potassium 0,81 %, oméga-3 0,39 %, oméga-6 1,87 %, EPA+DHA 0,26 % et énergie métabolisable 3 690 kcal/kg. Macroquette indique fibres 5 % et cendres 7 % contre 4 % et 7,5 % chez Purina ; les valeurs fabricant sont conservées. Magnésium et taurine chiffrée non publiés.",
     compositionComplete:"Dinde de haute qualité 20 % (dont dos et coffre), protéines de volaille déshydratées, riz, farine de protéines de maïs, maïs, gluten de blé, farine basse de blé, fibres végétales séchées, œufs déshydratés, substances minérales, huile de poisson, graisses animales, hydrolysat, levure.",
     additifs:"Vitamine A 32 000 UI/kg ; D3 1 000 UI/kg ; E 670 UI/kg ; C 140 mg/kg ; fer 120 mg/kg ; iode 1,9 mg/kg ; cuivre 13 mg/kg ; manganèse 45 mg/kg ; zinc 110 mg/kg ; sélénium 0,13 mg/kg.",
     ration:"Guide fabricant : ration adaptée au poids, à l’âge, à l’activité et à la condition corporelle ; tableau à consulter sur la fiche officielle."
