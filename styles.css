@@ -239,3 +239,73 @@ footer .brand{height:auto}
   footer .brand img{width:82px;height:56px}
 }
 /* Fin de l’identité visuelle Croc’Ami */
+
+
+/* Nouvelle répartition des couleurs : davantage de bleu et d’orange, blanc en accent */
+:root{
+  --ink:#183653;
+  --muted:#536d84;
+  --cream:#fff7e9;
+  --paper:#fffdf8;
+  --green:#1266ad;
+  --green2:#dcecf9;
+  --orange:#f39a24;
+  --line:#cbddec;
+}
+body{background:#fff7e9;color:#183653}
+.topbar{background:#1266ad;border-bottom:3px solid #f39a24;box-shadow:0 5px 18px #103e6520}
+.topbar nav{color:#fff}
+.topbar nav a:hover{color:#ffd18a}
+.topbar .nav-cta{background:#f39a24;color:#173b5b;box-shadow:0 5px 15px #082f502c}
+.topbar .nav-cta:hover{background:#ffb64e}
+.topbar .brand img{background:#fffdf8;border-color:#f39a24}
+.intro-compact{background:linear-gradient(112deg,#0f5d9f 0%,#1978bd 72%,#f39a24 72%,#f39a24 100%);color:#fff;border-radius:0 0 22px 22px;padding-left:max(6vw,24px);padding-right:max(6vw,24px)}
+.intro-compact .eyebrow{color:#ffe0ae}
+.intro-compact .eyebrow-dot{background:#ffb13b}
+.intro-compact h1,.intro-compact h1 em,.intro-compact p:not(.eyebrow){color:#fff}
+.intro-pets span{background:#fffdf8;color:#1768b3;border:2px solid #f39a24}
+.search-section{background:#e2effa}
+.section-heading .eyebrow,.results-head .eyebrow{color:#1266ad}
+.finder{background:#fffdf8;border:1px solid #c7dced;box-shadow:0 12px 30px #174e7820}
+.animal-tab.active,.animal-tab[aria-pressed=true]{background:#1266ad;color:#fff;border-color:#1266ad}
+.search-row button,.primary-btn{background:#1266ad;color:#fff}
+.search-row button:hover,.primary-btn:hover{background:#0d4e85}
+.finder-tip{background:#fff0d8;border-color:#f3c47f}
+.finder-tip b{color:#a85e08}
+.compare-toolbar{background:#1266ad;color:#fff;border-left:5px solid #f39a24}
+.results-head h3{color:#183653}
+.sort-control select{background:#fffdf8;border-color:#9fc4e2;color:#125d9d}
+.product-card{background:#fffdf8;border-color:#cbddec;box-shadow:0 9px 24px #174e7815}
+.product-visual{background:#fff7e9;border-color:#ead8bb}
+.product-brand{color:#1266ad}
+.product-details summary,.merchant-link{color:#1266ad}
+.trust-strip{background:#1266ad;color:#fff;border-top:4px solid #f39a24;border-bottom:4px solid #f39a24}
+.trust-strip i{background:#ffffff55}
+.understand-section{background:#fff7e9}
+.need-card,.species-note,.weight-guide{border-color:#d7e5f0}
+.need-icon,.weight-paw{color:#f39a24}
+.species-note-title{color:#1266ad}
+.pets-section{background:#e2effa}
+.pet-card.pet-illustration{background:#fff0d8;border-color:#f2c47e}
+.pet-illustration.cat-card{background:#dcecf9;border-color:#a9cbe5}
+.pet-card-copy>span{color:#1266ad}
+.pet-card-copy a{color:#1266ad;border-color:#f39a24}
+.how-section{background:#10558f;color:#fff}
+.how-section .eyebrow,.how-section h2,.how-section h2 em,.how-grid h3,.how-grid p{color:#fff}
+.how-section h2 em{ text-decoration:underline;text-decoration-color:#f39a24;text-decoration-thickness:3px;text-underline-offset:6px}
+.how-grid article{background:#176daf;border:1px solid #4a91c4;border-radius:14px;padding:20px}
+.how-grid .step,.how-icon{color:#ffbd59}
+.promise{background:#fff0d8;border-top:5px solid #f39a24;border-bottom:5px solid #f39a24}
+.promise-art{background:linear-gradient(135deg,#1266ad 0%,#1c7fbe 58%,#f39a24 58%,#f39a24 100%)}
+.promise-label{color:#fff}
+.promise-copy .eyebrow{color:#1266ad}
+.promise-copy h2 em{color:#1266ad}
+.promise-copy a{color:#1266ad}
+footer{background:#1266ad;color:#fff;border-top:4px solid #f39a24}
+footer p,footer>span{color:#fff}
+footer .brand img{background:#fffdf8;border:2px solid #f39a24}
+@media(max-width:700px){
+ .intro-compact{background:linear-gradient(145deg,#0f5d9f,#1978bd 78%,#f39a24 78%);padding-left:20px;padding-right:20px}
+ .topbar nav{color:#fff}
+ .how-grid article{padding:16px}
+}
