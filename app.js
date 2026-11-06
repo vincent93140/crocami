@@ -134,9 +134,9 @@ function setAnimal(v){animal=v;tabs.forEach(t=>t.classList.toggle("active",t.dat
  if(v==="chat"){$("#size").innerHTML='<option value="">Tous les gabarits</option><option value="Toutes">Toutes les tailles</option>';$("#sizeField").querySelector("span")?.remove();$("#sizeHelp").textContent="Les gabarits sont peu discriminants chez le chat ; privilégiez âge et besoins.";}
  else{$("#size").innerHTML='<option value="">Toutes les tailles</option><option value="Petite">Petit</option><option value="Moyenne">Moyen</option><option value="Grande">Grand</option><option value="Géante">Géant</option>';$("#sizeHelp").textContent="Repère basé sur le poids adulte idéal.";}
  selected.clear();render();}
-function filtered(){let q=$("#search").value.trim().toLocaleLowerCase("fr"),age=$("#age").value,need=$("#need").value,size=$("#size").value,brand=$("#brand")?.value||"",sort=$("#sortBy")?.value||"note-desc";
- const rows=data.filter(p=>p.espece===animal&&(!q||[p.marque,p.recette,p.premierIngredient,(p.besoins||[]).join(" ")].join(" ").toLocaleLowerCase("fr").includes(q))&&(!age||p.age===age)&&(!need||(p.besoins||[]).includes(need))&&(!size||p.gabarit==="Toutes"||p.gabarit.split("|").includes(size))&&(!brand||p.marque===brand));
+function filtered(){let q=$("#search").value.trim().toLocaleLowerCase("fr"),age=$("#age").value,need=$("#need").value,size=$("#size").value,brand=$("#brand")?.value||"",sort=$("#sortBy")?.value||"note-desc",maxKg=Number($("#maxPriceKg")?.value)||null,minScore=Number($("#minScore")?.value)||null,quality=$("#dataQuality")?.value||"";
  const score=p=>globalNutritionScore(p).score;
+ const rows=data.filter(p=>p.espece===animal&&(!q||[p.marque,p.recette,p.premierIngredient,(p.besoins||[]).join(" "),p.composition||""].join(" ").toLocaleLowerCase("fr").includes(q))&&(!age||p.age===age)&&(!need||(p.besoins||[]).includes(need))&&(!size||p.gabarit==="Toutes"||p.gabarit.split("|").includes(size))&&(!brand||p.marque===brand)&&(!maxKg||(p.prixKg!=null&&p.prixKg<=maxKg))&&(!minScore||(score(p)!=null&&score(p)>=minScore))&&(!quality||(quality==="prix"?p.prixKg!=null:quality==="note"?score(p)!=null:quality==="fabricant"?!!p.sourceFabricant:false)));
  const keys={"prix-asc":p=>p.prixSac,"prix-desc":p=>p.prixSac,"kg-asc":p=>p.prixKg,"kg-desc":p=>p.prixKg,"note-desc":score,"note-asc":score,"marque":p=>p.marque};
  const key=keys[sort];if(key)rows.sort((x,y)=>{const a=key(x),b=key(y);if(a==null&&b==null)return 0;if(a==null)return 1;if(b==null)return -1;const cmp=typeof a==="string"?a.localeCompare(b,"fr"):a-b;return sort.endsWith("desc")?-cmp:cmp;});
  return rows;}
@@ -196,7 +196,7 @@ function cardMetricsMarkup(p){
  return links.length||review||currentReview?'<div class="product-sources"><small>Sources</small>'+links.join("")+review+currentReview+'</div>':"";
 }
 function card(p){let checked=selected.has(p.id);const pack=p.imageProduit?'<img src="'+p.imageProduit+'" alt="Sac de '+p.marque+' — '+p.recette+'" loading="lazy" onerror="this.remove();this.parentElement.classList.add(\'pack-missing\')">':'<span class="pack-fallback">'+(p.espece==="chien"?"🐶":"🐱")+'</span>';return `<article class="product-card"><div class="product-top"><span class="product-animal">${p.espece==="chien"?"🐶 CHIEN":"🐱 CHAT"}</span><label class="compare-check"><input type="checkbox" data-compare="${p.id}" ${checked?"checked":""}> Comparer</label></div><div class="product-identity"><div class="product-visual">${pack}</div><div class="product-names"><div class="product-name-copy"><p class="product-brand">${p.marque}</p><h3>${p.recette}</h3></div>${scoreStackMarkup(p)}</div></div>${cardMetricsMarkup(p)}${sourcesMarkup(p)}<div class="product-price"><strong>${p.prixSac!=null?fmt(p.prixSac)+" €":p.prixKg!=null?fmt(p.prixKg)+" €/kg":"Prix non communiqué"}</strong><span>${p.prixSac!=null?(p.formatKg!=null?fmt(p.formatKg)+" kg · ":"")+"Prix au kg : "+fmt(p.prixKg)+" €/kg":p.prixKg!=null?"Prix moyen indicatif au kg":"Prix non communiqué"}</span></div></article>`;}
-function render(){let rows=filtered();$("#resultCount").textContent=rows.length+" références";$("#emptyState").hidden=rows.length>0;$("#results").innerHTML=rows.map(card).join("");$("#results").querySelectorAll("[data-compare]").forEach(el=>el.addEventListener("change",()=>{if(el.checked){if(selected.size>=4){el.checked=false;alert("Vous pouvez comparer 4 produits maximum.");return;}selected.add(el.dataset.compare);}else selected.delete(el.dataset.compare);renderCompare();}));renderCompare();}
+function render(){let rows=filtered();$("#resultCount").textContent=rows.length+" / "+data.filter(p=>p.espece===animal).length+" références";$("#emptyState").hidden=rows.length>0;$("#results").innerHTML=rows.map(card).join("");$("#results").querySelectorAll("[data-compare]").forEach(el=>el.addEventListener("change",()=>{if(el.checked){if(selected.size>=4){el.checked=false;alert("Vous pouvez comparer 4 produits maximum.");return;}selected.add(el.dataset.compare);}else selected.delete(el.dataset.compare);renderCompare();}));renderCompare();}
 function renderCompare(){
  let ps=data.filter(p=>selected.has(p.id));
  $("#compareCount").textContent=ps.length+"/4 sélectionnées";
@@ -238,8 +238,9 @@ function renderCompare(){
  $$("[data-remove]").forEach(b=>b.addEventListener("click",()=>{selected.delete(b.dataset.remove);render();}));
 }
 tabs.forEach(t=>t.addEventListener("click",()=>setAnimal(t.dataset.animal)));
-$("#searchBtn").addEventListener("click",render);$("#search").addEventListener("keydown",e=>{if(e.key==="Enter")render();});
-$$(".filter-row select, #sortBy").forEach(s=>s.addEventListener("change",render));
+$("#searchBtn").addEventListener("click",render);$("#search").addEventListener("input",render);$("#search").addEventListener("keydown",e=>{if(e.key==="Enter")render();});
+$(".filter-row select, #sortBy, #maxPriceKg, #minScore, #dataQuality").forEach(s=>s.addEventListener("change",render));
+$("#resetFilters")?.addEventListener("click",()=>{$("#search").value="";["age","size","brand","need","sortBy","maxPriceKg","minScore","dataQuality"].forEach(id=>{const el=$("#"+id);if(el)el.value=id==="sortBy"?"note-desc":"";});render();});
 $$("[data-jump-animal]").forEach(a=>a.addEventListener("click",()=>setAnimal(a.dataset.jumpAnimal)));
 const brands=[...new Set(data.map(p=>p.marque))].sort();$("#brand").innerHTML='<option value="">Toutes les marques</option>'+brands.map(b=>'<option>'+b+'</option>').join("");
 render();
