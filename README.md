@@ -54,7 +54,7 @@ Sur les 170 fiches Macroquette :
 - Oméga 3 et oméga 6 : 13/170.
 - Taurine : 8/170.
 - Additifs : 6/170.
-- Rations journalières : 1/170.
+- Rations journalières : 3/170.
 - Lien fabricant enregistré : 15/170.\n- Lien fiche revendeur enregistré : 15/170.
 
 Les données publiées par les fabricants priment lorsqu'une fiche officielle actuelle et identifiable est disponible. Lorsqu'une donnée n'est publiée que par un revendeur, la fiche le précise. Les variantes de formule et les écarts entre sources sont signalés; ils ne sont pas fusionnés silencieusement.
