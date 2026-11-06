@@ -222,11 +222,10 @@ window.CROCamiManufacturerData = {
   c12: {
     imageProduit:"https://iams.eu/fileadmin/product_images/T90003509_192614.png",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://iams.eu/fr-fr/chat/croquettes/aliments-secs-au-poulet-frais-seniors",
-    sourceRevendeur:"https://www.lacompagniedesanimaux.com/chat/alimentation-chat/tranches-d-age/alimentation-chat-age-senior/iams-vitality-croquettes-chat-senior-poulet-1-5-kg.html",
-    proteines:36, matieresGrasses:12.5, fibres:1.9, cendres:7.3, calcium:1.4, phosphore:1.2, magnesium:0.095, omega3:0.27, omega6:2.5, taurine:2000,
+    proteines:35, matieresGrasses:12.5, fibres:2, cendres:6.8, calcium:1.3, phosphore:1.1, magnesium:0.098, omega3:0.27, omega6:2.67, taurine:2000,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Formule IAMS Senior actuelle vérifiée : protéines 36 %, matières grasses 12,5 %, fibres 1,9 %, cendres 7,3 %, calcium 1,4 %, phosphore 1,2 %, magnésium 0,095 %, oméga-3 0,27 %, oméga-6 2,5 % et taurine 2 000 mg/kg. La composition précédente (37 % de viandes déshydratées, 10 % de poulet frais) correspondait à une ancienne recette ; elle est remplacée par la formule actuelle (42 % de poulet/dinde déshydratés, 4,1 % de poulet frais). Énergie métabolisable non publiée.",
-    compositionComplete:"Poulet et dinde séchés 42 % (poulet 25 %, source naturelle de taurine), maïs, sorgho, poulet frais 4,1 %, gras de porc, pulpe de betterave déshydratée 2,4 %, sauce au poulet, gruau de maïs, fructo-oligosaccharides 0,69 %, chlorure de potassium, huile de poisson, levure de bière déshydratée, glucosamine d’origine animale 0,04 %.",
+    noteFabricant:"Fiche officielle IAMS Senior au poulet frais contrôlée le 6 novembre 2026 : protéines 35 %, matières grasses 12,5 %, cellulose 2 %, cendres 6,8 %, calcium 1,3 %, phosphore 1,1 %, magnésium 0,098 %, oméga-3 0,27 %, oméga-6 2,67 % et taurine 0,2 % (2 000 mg/kg). La composition actuelle publiée est 37 % de poulet/dinde déshydratés (dont poulet 22 %) et 10 % de poulet frais. L’énergie métabolisable n’est pas publiée.",
+    compositionComplete:"Poulet et dinde déshydratés 37 % (poulet 22 %, source naturelle de taurine), maïs, poulet frais 10 %, sorgho, graisse de porc, pulpe de betterave déshydratée 1,6 %, jus au poulet, fructo-oligosaccharides 0,67 %, huile de poisson, chlorure de potassium, glucosamine d’origine animale 0,04 %.",
     ration:"2 kg : 30–40 g ; 3 kg : 40–55 g ; 4 kg : 50–65 g ; 5 kg : 55–75 g ; 6 kg : 65–85 g ; 7 kg : 70–95 g/jour."
   },
   c13: {
