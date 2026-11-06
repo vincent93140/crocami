@@ -540,3 +540,27 @@ footer .brand img{display:block!important;width:120px!important;height:72px!impo
 .current-formula-values span{color:var(--muted)}
 .current-formula-values b{white-space:nowrap;color:var(--text)}
 @media(max-width:420px){.current-formula-values{grid-template-columns:1fr}}
+
+
+/* Comparateur avancé : filtres lisibles et actions */
+.filter-row input{display:block;width:100%;margin-top:8px;padding:12px;border:1px solid #b8cfe2;border-radius:8px;background:#fff;color:#173b59;font:12px 'DM Sans',sans-serif;min-width:0}
+.filter-row input:focus,.filter-row select:focus,.search-row:focus-within{outline:2px solid #f39a24;outline-offset:1px}
+.filter-actions{display:flex;justify-content:flex-end;margin-top:12px}
+.reset-filters{border:1px solid #b8cfe2;border-radius:8px;background:#fff7eb;color:#1769a8;padding:9px 13px;font:700 11px 'DM Sans',sans-serif;cursor:pointer}
+.reset-filters:hover:not(:disabled){background:#dceaf5;border-color:#1769a8}
+.reset-filters:disabled{opacity:.45;cursor:not-allowed}
+.compare-toolbar>span{display:flex;flex-direction:column;gap:3px}
+.compare-toolbar>span>span{font-size:10px;font-weight:500}
+.compare-toolbar .reset-filters{flex:0 0 auto}
+.results-tools .sort-control select{max-width:260px}
+@media(max-width:900px){.filter-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.filter-row{grid-template-columns:1fr}.filter-actions{justify-content:stretch}.filter-actions .reset-filters{width:100%}.compare-toolbar{display:flex;align-items:center;justify-content:space-between;gap:8px}.compare-toolbar .reset-filters{font-size:10px;padding:8px}.results-head{align-items:flex-start;flex-direction:column}.results-tools{align-items:flex-start;flex-wrap:wrap}.results-tools .sort-control{width:100%}.results-tools .sort-control select{width:100%;max-width:none}}
+/* Sur mobile, conserver tous les critères : défilement horizontal plutôt que masquer des lignes */
+@media(max-width:600px){
+ .comparison-scroll{overflow-x:auto!important;-webkit-overflow-scrolling:touch}
+ .comparison table{width:max-content!important;min-width:680px!important;table-layout:auto!important;font-size:10px!important}
+ .comparison th,.comparison td{min-width:118px!important;width:auto!important;padding:9px 8px!important;overflow-wrap:normal!important}
+ .comparison thead th:first-child,.comparison tbody th{min-width:145px!important;width:145px!important}
+ .comparison thead th:not(:first-child),.comparison tbody td{min-width:135px!important;width:135px!important}
+ .comparison tbody tr{display:table-row!important}
+}
