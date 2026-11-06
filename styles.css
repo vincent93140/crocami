@@ -180,3 +180,9 @@
 .comparison-row-hint{display:block;margin-top:3px;color:#81877b;font-size:8px;font-weight:500;line-height:1.35}
 .comparison-neutral-row th{color:#666d62}
 @media(max-width:600px){.comparison-legend{font-size:9px;gap:5px 10px}.comparison-row-hint{font-size:7px}.comparison-best-label{font-size:6px;padding:2px 3px}}
+
+
+/* Logo Croc’Ami dans l’en-tête principal */
+.topbar .brand{min-width:112px;justify-content:flex-start}
+.topbar .brand img{width:104px;height:72px;object-fit:contain;object-position:left center}
+@media(max-width:600px){.topbar .brand{min-width:88px}.topbar .brand img{width:84px;height:64px}}
