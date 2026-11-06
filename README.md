@@ -37,10 +37,10 @@ La note Crocami est un indice comparatif propre au site, distinct de la note Mac
 - Les seuils sont des repères de comparaison indicatifs, pas des recommandations médicales ou vétérinaires. Le score ne remplace pas l'avis d'un vétérinaire et doit être lu avec le profil de l'animal.
 
 ## Note Macroquette (référence externe)
-- 162 notes Macroquette ont été relevées sur des fiches produit individuelles et enregistrées séparément de la note Crocami, avec la date de consultation du 6 novembre 2026.
-- 8 références Macroquette ne disposent pas d'une note individuelle exploitable dans les sources consultées : liens génériques retirés ou fiche individuelle absente. Aucune note Macroquette n'est inventée.
+- 161 notes Macroquette ont été relevées sur des fiches produit individuelles et enregistrées séparément de la note Crocami, avec la date de consultation du 6 novembre 2026.
+- 9 références Macroquette ne disposent pas d'une note individuelle exploitable dans les sources consultées : liens génériques retirés ou fiche individuelle absente. Aucune note Macroquette n'est inventée.
 - La note publiée sur une fiche Macroquette peut être une moyenne indicative et peut différer du résultat de leur outil personnalisé. Elle ne doit pas être confondue avec le score Crocami.
-- Sept liens génériques Macroquette menant seulement à une page générale d'analyses ont été retirés; trois autres produits ont retrouvé leur fiche individuelle exacte au lieu d'être présentés comme des fiches produit.
+- Huit liens génériques Macroquette menant seulement à une page générale d'analyses ou à une recette différente ont été retirés; deux produits ont retrouvé leur fiche individuelle exacte au lieu d'être présentés comme des fiches produit.
 
 ## État des données Macroquette — audit du 6 novembre 2026
 Sur les 170 fiches Macroquette :
