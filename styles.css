@@ -469,3 +469,47 @@ footer .brand img{background:transparent!important;border:0!important}
 .topbar .brand{display:flex;align-items:center;flex:0 0 auto}
 .topbar .brand img{display:block;width:104px;height:62px;object-fit:contain;object-position:left center;background:transparent;border:0;border-radius:0;padding:0;box-shadow:none}
 footer .brand img{display:block;max-width:150px;height:auto;object-fit:contain;background:transparent;border:0;padding:0;box-shadow:none}
+
+/* Croc'Ami — palette officielle harmonisée avec le logo */
+:root{
+ --ink:#173b59;
+ --muted:#536b80;
+ --cream:#eaf1f7;
+ --paper:#fff7eb;
+ --green:#1769a8;
+ --green2:#dceaf5;
+ --orange:#f39a24;
+ --line:#cbdbea;
+}
+body{background:#eaf1f7;color:#173b59}
+.topbar{background:rgba(237,244,250,.97);border-bottom:2px solid #f39a24}
+.topbar nav{color:#315d7e}
+.topbar nav a:hover{color:#f39a24}
+.topbar .brand img{width:112px;height:70px;object-fit:contain;object-position:left center;background:transparent}
+.search-section{background:#e4edf6}
+.finder{background:#fff7eb;border-color:#cbdbea}
+.filter-row select,.search-row{border-color:#b8cfe2}
+.search-row button,.nav-cta,.primary-btn{background:#f39a24;color:#173b59}
+.search-row button:hover,.nav-cta:hover,.primary-btn:hover{background:#ffb347;color:#173b59}
+.animal-tab.active{background:#dceaf5;color:#125b91;border-color:#f39a24}
+.results-head h3{color:#fff}
+.results-head .eyebrow{color:#ffb347}
+.product-card{background:#fff7eb;border-color:#cbdbea;color:#173b59}
+.product-brand{color:#1769a8}
+.product-price strong{color:#d87912}
+.product-visual{background:#f5e7d2;border-color:#e8c99c}
+.product-metrics>div{background:#e9f0f6;border-color:#cbdbea}
+.trust-strip,.how-section,footer{background:#07375e;color:#fff;border-color:#f39a24}
+.trust-strip strong,.how-section .eyebrow,.how-intro h2 em,.how-grid .step,.how-icon{color:#ffb347}
+.understand-section,.pets-section{background:#10558d;color:#fff}
+.pets-heading h2,.pets-heading>p,.how-intro h2,.how-grid h3,.how-grid p{color:#fff}
+.pet-card-copy,.need-card,.species-note,.weight-guide{background:#fff7eb;color:#173b59}
+.promise{background:#fff1dc;color:#173b59}
+.promise-copy h2,.promise-copy p{color:#173b59}
+.promise-copy h2 em,.promise-copy .eyebrow,.promise-copy a{color:#1769a8}
+footer .brand img{width:120px;height:auto;max-height:82px;object-fit:contain;background:transparent;border:0;box-shadow:none}
+@media(max-width:700px){
+ .topbar .brand img{width:88px;height:62px}
+ .search-section{background:#e4edf6}
+ .finder{background:#fff7eb}
+}
