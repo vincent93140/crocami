@@ -972,10 +972,10 @@ for (const product of window.CROCamiCatalog) {
    Les champs *_Minimum / *_Maximum conservent explicitement le statut de garantie.
    Les valeurs de cette section appartiennent exclusivement aux formules actuelles nommées. */
 const crocamiCurrentManufacturerComplements20261106 = {
- "mq-dog-001": {fibresMaximum:4.5,humiditeMaximum:10,cendresMaximum:9.5,sodiumMinimum:0.3,dhaMinimum:0.03},
- "mq-dog-002": {fibresMaximum:7.5,humiditeMaximum:10,cendresMaximum:8,sodiumMinimum:0.2,dhaMinimum:0.07,epaMinimum:0.08},
- "mq-dog-003": {matieresGrassesMaximum:12,fibresMaximum:3.5,humiditeMaximum:10,cendresMaximum:6.5,sodiumMinimum:0.2,lCarnitineMinimum:150},
- "mq-dog-004": {fibresMaximum:6,humiditeMaximum:10,cendresMaximum:9,sodiumMinimum:0.15,glucosamineMinimum:500,chondroitineMinimum:300},
+ "mq-dog-001": {proteinesMinimum:30,matieresGrassesMinimum:18,fibresMaximum:4.5,humiditeMaximum:10,cendresMaximum:9.5,sodiumMinimum:0.3,dhaMinimum:0.03},
+ "mq-dog-002": {proteinesMinimum:22,matieresGrassesMinimum:12,fibresMaximum:7.5,humiditeMaximum:10,cendresMaximum:8,sodiumMinimum:0.2,dhaMinimum:0.07,epaMinimum:0.08},
+ "mq-dog-003": {proteinesMinimum:24,matieresGrassesMinimum:9,matieresGrassesMaximum:12,fibresMaximum:3.5,humiditeMaximum:10,cendresMaximum:6.5,sodiumMinimum:0.2,lCarnitineMinimum:150},
+ "mq-dog-004": {proteinesMinimum:24,matieresGrassesMinimum:14,fibresMaximum:6,humiditeMaximum:10,cendresMaximum:9,sodiumMinimum:0.15,glucosamineMinimum:500,chondroitineMinimum:300},
  "mq-dog-015": {glucosamine:390,chondroitine:335,taurine:1200},
  "mq-dog-019": {amidon:20,sodium:0.5,dha:0.7,epa:0.4,glucosamine:1300,chondroitine:1100,taurineAjoutee:1000},
  "mq-cat-010": {amidon:19,sodium:0.55,magnesium:0.09,dha:0.6,epa:0.4,glucosamine:1300,chondroitine:1100,taurineAjoutee:4000},
