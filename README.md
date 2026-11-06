@@ -53,7 +53,7 @@ Sur les 170 fiches Macroquette :
 - Énergie métabolisable : 9/170.
 - Oméga 3 et oméga 6 : 13/170.
 - Taurine : 8/170.
-- Additifs : 6/170.
+- Additifs : 7/170.
 - Rations journalières : 3/170.
 - Lien fabricant enregistré : 15/170.\n- Lien fiche revendeur enregistré : 15/170.
 
