@@ -526,3 +526,8 @@ footer .brand img{width:120px;height:auto;max-height:82px;object-fit:contain;bac
 .topbar .brand img{display:block!important;width:132px!important;height:66px!important;max-width:none!important;max-height:none!important;object-fit:contain!important;object-position:left center!important;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important}
 footer .brand img{display:block!important;width:120px!important;height:72px!important;max-width:none!important;object-fit:contain!important;object-position:left center!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important}
 @media(max-width:700px){.topbar .brand{flex-basis:108px!important;width:108px!important;min-width:108px!important}.topbar .brand img{width:102px!important;height:56px!important}}
+
+.product-source-review{flex-basis:100%;min-width:0;margin-top:2px;font-size:10px;line-height:1.5;color:var(--muted)}
+.product-source-review summary{cursor:pointer;font-weight:700;color:#8a5a18;text-decoration:underline;text-underline-offset:2px}
+.product-source-review[open] summary{margin-bottom:5px}
+.product-source-review p{margin:4px 0 2px;line-height:1.55;color:var(--muted)}
