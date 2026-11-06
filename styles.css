@@ -164,3 +164,6 @@
 .external-score-card a{color:#4b684d;font-weight:700;text-decoration:underline;text-underline-offset:2px}
 .external-score-card.missing b{font-size:13px;color:#777d72}
 @media(max-width:600px){.external-score-card{align-items:flex-start;flex-direction:column}.score-stack{flex-basis:58px;min-width:58px}}
+
+.external-score-copy{flex:1;min-width:0}
+.external-score-warning{margin:7px 0 0;padding-left:9px;border-left:2px solid #d5c9a8;font:500 9px/1.5 "DM Sans",sans-serif;color:#777d72}
