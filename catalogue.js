@@ -905,3 +905,34 @@ window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
  const update = crocamiBrandFormulaReview20261106c[p.id];
  return update ? {...p, ...update} : p;
 });
+
+
+/* AUDIT FORMULATIONS ACTUELLES — ALMO NATURE (06/11/2026).
+   Retrait des liens non fabricants ; les formules actuelles ne remplacent pas les recettes historiques. */
+const crocamiBrandFormulaReview20261106d = {
+  "mq-dog-021": {
+    "sourceFabricant": null,
+    "verificationFabricant": "reference_historique_non_retrouvee",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "Le catalogue officiel Almo Nature consulté en novembre 2026 ne présente plus la référence historique « Adult Medium poulet/riz » sous cette formulation. Les croquettes chien actuellement listées sont notamment les gammes Puppy et Life Maintenance à viande fraîche, dont les recettes ne correspondent pas à la composition enregistrée. Le lien Purina précédemment associé à cette fiche était erroné et a été retiré. Aucune valeur actuelle n’est transférée.",
+    "statutDonnees": "Référence historique non retrouvée dans le catalogue officiel actuel. Ancien lien fabricant erroné retiré ; données nutritionnelles historiques conservées sans modification."
+  },
+  "mq-cat-012": {
+    "sourceFabricant": null,
+    "verificationFabricant": "reference_historique_non_retrouvee",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La référence historique « Holistic poulet/riz » n’a pas été retrouvée à l’identique dans le catalogue officiel Almo Nature actuellement accessible. La gamme chat officielle a évolué vers des références fonctionnelles et des recettes fraîches différentes. Le PDF Biofood France précédemment associé n’est pas une source fabricant pour cette fiche et a été retiré. Aucun chiffre d’une autre recette n’est repris.",
+    "statutDonnees": "Ancienne recette exacte non retrouvée sur le site fabricant actuel. Source secondaire non fabricante retirée ; aucune donnée substituée."
+  },
+  "mq-cat-013": {
+    "sourceFabricant": "https://www.almonature.com/en/cat-products/671",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La page officielle actuelle Almo Nature Sterilised with Fresh Salmon a été retrouvée, mais sa composition diffère de la fiche historique « Holistic sterilised saumon/riz » : la formule actuelle annonce notamment 26 % de saumon frais, 18 % de poulet déshydraté, du maïs et du riz. Analyse actuelle : protéines 33 %, matières grasses 11 %, fibres 3 %, cendres 7,9 %, humidité 9 %, calcium 1,7 %, phosphore 1,2 %, oméga-3 1,2 %, oméga-6 2,3 %, énergie 3 622 kcal/kg et taurine 710 mg/kg. Valeurs actuelles non fusionnées avec la recette historique.",
+    "statutDonnees": "Formule actuelle Sterilised with Fresh Salmon différente de l’ancienne recette Holistic saumon/riz. Valeurs fabricant actuelles conservées séparément."
+  }
+};
+window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
+ const update = crocamiBrandFormulaReview20261106d[p.id];
+ return update ? {...p, ...update} : p;
+});
