@@ -586,3 +586,33 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiFollowingBrandUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* JAMES WELLBELOVED, MONGE ET NUTRIVET : vérification des références suivantes. */
+const crocamiNextAuditUpdates = {
+ "mq-dog-058": {
+  sourceFabricant:"https://wellbeloved.com/p/adult-lamb-and-rice-dry-dog-food/15843891/",
+  sourceComplementaire:"https://www.zooplus.co.uk/shop/dogs/dry_dog_food/james_wellbeloved/wellbeloved_adult/108440",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_actuelle_différente",
+  statutDonnees:"La fiche officielle James Wellbeloved actuelle Adult Lamb & Rice publie une formule différente : agneau séché 19 %, orge, avoine nue, riz brun 13 % et riz blanc 13 %, avec 22,7 % de protéines, 11,6 % de matières grasses, 3 % de fibres, 5,9 % de cendres, oméga-3 1,2 %, oméga-6 3 % et énergie 3 640 kcal/kg. La fiche Macroquette décrit l'ancienne formule (farine d'agneau 23,5 %, riz brun 20 %, riz blanc 19,7 %) : aucune donnée actuelle n'est fusionnée avec cette recette historique."
+ },
+ "mq-dog-061": {
+  proteines:25, matieresGrasses:14, fibres:2.5, cendres:6.5, calcium:1.2, phosphore:0.9,
+  omega3:0.9, omega6:4, energie:4020,
+  sourceFabricant:"https://www.monge.it/wp-content/uploads/2023/09/Monge-Natural-Superpremium-All-breeds-Adult-Monoprotein-Salmon-with-Rice-EN.pdf",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée",
+  compositionComplete:"Poisson (saumon déshydraté 26 %, saumon frais 10 %), riz (15 %), pulpe de betterave séchée, levure de bière inactivée, huile de poisson (huile de saumon), protéines animales hydrolysées (foie), minéraux, produits de levures (MOS 1 %), xylo-oligosaccharides (XOS 0,3 %), yucca schidigera (0,3 %), spiruline (0,3 %), racine d'échinacée (0,2 %), origan (0,1 %), ail séché (0,2 %), glucosamine (0,057 %) et sulfate de chondroïtine (0,04 %).",
+  additifs:"Vitamine A 30 770 UI/kg ; vitamine D3 1 610 UI/kg ; vitamine E 72 mg/kg ; sélénium 0,2 mg/kg ; manganèse 30 mg/kg ; zinc 140 mg/kg ; cuivre 12 mg/kg ; fer 100 mg/kg ; iode 1,6 mg/kg ; L-carnitine 100 mg/kg ; DL-méthionine 1 500 mg/kg.",
+  statutDonnees:"Fiche technique officielle Monge Natural Superpremium All Breeds Adult Monoprotein Salmon with Rice : composition concordante avec la référence Macroquette. Valeurs confirmées : protéines 25 %, matières grasses 14 %, fibres 2,5 %, cendres 6,5 %, calcium 1,2 %, phosphore 0,9 %, oméga-3 0,9 %, oméga-6 4 % et énergie 4 020 kcal/kg."
+ },
+ "mq-dog-063": {
+  sourceRevendeur:"https://www.zooplus.com/shop/dogs/dry_dog_food/nutrivet/2109023",
+  sourceComplementaire:"https://www.wouafmiaou.com/nutrivet-inne-dog-balance-677.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_actuelle_à_confirmer",
+  statutDonnees:"La fiche Zooplus actuelle Inne Dog Balance reprend une composition générale proche (poulet, agneau, dinde, pommes de terre, petits pois, saumon, œuf, huile de saumon et prébiotiques) et confirme protéines 35 %, matières grasses 15 %, fibres 3 % et cendres 7 %. Wouafmiaou confirme une humidité estimée à 10 % pour une version antérieure. La fiche Macroquette affiche 39 % de protéines, 15 % de matières grasses, 2 % de fibres et 5 % de cendres : les écarts indiquent une formulation ou une analyse différente. Les valeurs actuelles ne sont pas fusionnées dans la fiche historique ; calcium, phosphore et énergie non publiés sur la fiche Zooplus consultée."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiNextAuditUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
