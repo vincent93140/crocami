@@ -1123,3 +1123,23 @@ window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
   if (!update) return p;
   return {...p, ...update};
 });
+
+
+/* COMPLÉMENT FABRICANT — 1ST CHOICE HEALTHY START CHATON (06/11/2026). */
+for (const product of window.CROCamiCatalog) {
+  if (product.id === "mq-cat-002") {
+    product.sourceFabricant = "https://www.1stchoice.ca/en-ca/products/1st/cat/kitten/all-breeds/chicken/healthy-start/";
+    product.verificationFabricant = "confirmée_partielle";
+    product.dateVerificationFabricant = "2026-11-06";
+    product.noteFabricant = "Fiche officielle 1st Choice Healthy Start Kitten consultée. Valeurs garanties : protéines 30 % min., matières grasses 20 % min., fibres 3,5 % max., humidité 10 % max., cendres 9 % max., calcium 1,1 % min., phosphore 0,9 % min., magnésium 0,1 % max. Énergie métabolisable 3 762 kcal/kg. Taurine 2 300 mg/kg, DHA 1 200 mg/kg (soit 0,12 %), mannan-oligosaccharides 2 000 mg/kg et fructo-oligosaccharides 1 000 mg/kg. Les minima/maxima sont des garanties fabricant et non des teneurs mesurées.";
+    product.statutDonnees = "Fiche fabricant actuelle retrouvée ; analyse garantie, énergie et additifs structurés séparément des valeurs mesurées.";
+    product.donneesFabricantActuelles = {
+      formule: "1st Choice Healthy Start Kitten — formule actuelle",
+      proteinesMinimum: 30, matieresGrassesMinimum: 20,
+      fibresMaximum: 3.5, humiditeMaximum: 10, cendresMaximum: 9,
+      calciumMinimum: 1.1, phosphoreMinimum: 0.9, magnesiumMaximum: 0.1,
+      energie: 3762, taurine: 2300, dhaMinimum: 0.12,
+      mannanOligosaccharides: 2000, fructoOligosaccharides: 1000
+    };
+  }
+}
