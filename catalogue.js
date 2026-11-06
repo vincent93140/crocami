@@ -1045,3 +1045,41 @@ for (const product of window.CROCamiCatalog) {
     };
   }
 }
+
+
+/* AUDIT FABRICANT — CARNILOVE (06/11/2026).
+   Les recettes historiques chien ne correspondent plus aux formules ACTIVE actuelles.
+   Les données de ces nouvelles formules sont conservées à part ; aucun recalcul des fiches historiques. */
+const crocamiCarniloveCurrent20261106 = {
+  "mq-dog-047": {
+    sourceFabricant: "https://carnilove.com/en/products/active-dry-dog-food-made-with-lamb-and-wild-boar?variant=100173681",
+    verificationFabricant: "formule_actuelle_différente",
+    dateVerificationFabricant: "2026-11-06",
+    noteFabricant: "La formule officielle actuelle ACTIVE Lamb & Wild Boar diffère de l’ancienne recette Macroquette « Adult agneau sanglier » : elle est composée de 26 % d’agneau frais, 26 % de protéines d’agneau, pois jaunes, graisse de bœuf 10 %, protéines de sanglier 4 % et foie hydrolysé 3 %. Constituants analytiques actuels : protéines 35 %, matières grasses 18 %, fibres 3,6 %, cendres 8,4 %, humidité 10 %, calcium 1,4 %, phosphore 1,2 %, sodium 0,2 %, oméga-3 0,2 %, oméga-6 3,4 %. Énergie métabolisable : 3 790 kcal/kg. Additifs nutritionnels : taurine 1 500 mg/kg ; glucosamine et chondroïtine présentes via les ingrédients, sans dosage en mg publié. Les valeurs de la nouvelle formule ne remplacent pas celles de l’ancienne fiche.",
+    statutDonnees: "Formule officielle actuelle différente de la recette historique. Analyse et énergie actuelles structurées séparément ; quantités de glucosamine/chondroïtine non publiées."
+  },
+  "mq-dog-048": {
+    sourceFabricant: "https://carnilove.com/en/products/active-dry-food-made-with-salmon-for-adult-dogs",
+    verificationFabricant: "formule_actuelle_différente",
+    dateVerificationFabricant: "2026-11-06",
+    noteFabricant: "La formule officielle actuelle ACTIVE Salmon for Adult Dogs a été retrouvée, mais elle ne doit pas être confondue avec l’ancienne recette Macroquette « Adult saumon » (ancienne composition à base de farine de saumon 25 %, farine de hareng 10 % et graisse de poulet 9 %). Analyse actuelle : protéines 34 %, matières grasses 15 %, fibres 2,8 %, cendres 8,7 %, humidité 10 %, calcium 1,5 %, phosphore 1,2 %, sodium 0,5 %, oméga-3 1,1 %, oméga-6 1,9 %. Énergie métabolisable : 3 700 kcal/kg. Taurine ajoutée : 1 500 mg/kg. Les valeurs actuelles sont conservées séparément et ne remplacent pas les valeurs historiques.",
+    statutDonnees: "Formule ACTIVE actuelle distincte de l’ancienne recette Adult saumon. Analyse et énergie fabricant enregistrées séparément."
+  },
+  "mq-cat-033": {
+    sourceFabricant: "https://carnilove.com/fr/produits/active-dry-food-made-with-salmon-and-turkey-for-adult-cats",
+    verificationFabricant: "confirmée",
+    dateVerificationFabricant: "2026-11-06",
+    noteFabricant: "La fiche officielle ACTIVE Chat adulte Saumon & Dinde correspond à la recette référencée. Composition confirmée : saumon frais 26 %, protéines de dinde 24 %, pois jaunes, protéines de dinde hydrolysées 12 %, graisse de bœuf 8 %, foie hydrolysé 4 %, pois chiches, protéines de pois, potiron, lin et huile de saumon 1 %. Constituants analytiques : protéines 37 %, matières grasses 17 %, fibres 2,2 %, cendres 8,1 %, humidité 10 %, calcium 1,3 %, phosphore 1 %, sodium 0,5 %, oméga-3 0,5 %, oméga-6 3 %. Énergie 3 875 kcal/kg. Taurine ajoutée 2 500 mg/kg ; L-méthionine 5 000 mg/kg. Les glucides par différence sont estimés à 25,7 % et ne constituent pas une valeur analytique directement publiée.",
+    statutDonnees: "Formule et analyse concordantes avec la fiche officielle actuelle. Glucides calculés par différence ; les autres constituants sont recopiés depuis le fabricant.",
+    donneesFabricantActuelles: {
+      formule: "Carnilove ACTIVE Adult Cat Salmon & Turkey — formule actuelle",
+      proteines: 37, matieresGrasses: 17, fibres: 2.2, cendres: 8.1, humidite: 10,
+      calcium: 1.3, phosphore: 1, sodium: 0.5, omega3: 0.5, omega6: 3,
+      energie: 3875, taurine: 2500
+    }
+  }
+};
+window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
+  const update = crocamiCarniloveCurrent20261106[p.id];
+  return update ? {...p, ...update} : p;
+});
