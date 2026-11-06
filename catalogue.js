@@ -999,3 +999,30 @@ for (const product of window.CROCamiCatalog) {
   product.noteFabricant = "Fiche officielle Alleva Holistic Adult Chicken & Duck consultée : la recette actuelle est composée de poulet déshydraté (44 %), poulet frais désossé (20 %) et canard déshydraté (12 %), contre 45 %, 25 % et 15 % dans la fiche historique. Analyses actuelles : protéines 42 %, matières grasses 18 %, fibres 2 %, cendres 8,3 %, humidité 7 %, amidon 19 %, calcium 1,5 %, phosphore 1,2 %, sodium 0,55 %, magnésium 0,09 %, oméga-6 4 %, oméga-3 1,2 %, DHA 0,6 %, EPA 0,4 %, énergie 4 045 kcal/kg. Taurine ajoutée 4 000 mg/kg. Valeurs actuelles conservées séparément de la recette historique.";
  }
 }
+
+
+/* COMPLÉMENT FABRICANT — ALLEVA NATURAL ADULT CHICKEN & PUMPKIN MAXI (06/11/2026).
+   Valeurs analytiques de la formule actuelle ; ne pas fusionner avec la recette historique. */
+const crocamiAllevaNaturalMaxi20261106 = {
+  "mq-dog-020": {
+    sourceFabricant: "https://allevastore.com/en/products/crocchette-per-cani-natural-adult-mini-pollo-zucca-2-kg",
+    verificationFabricant: "formule_actuelle_différente",
+    dateVerificationFabricant: "2026-11-06",
+    noteFabricant: "Fiche officielle Alleva Natural Adult Chicken & Pumpkin consultée. Composition Maxi actuelle : poulet déshydraté 32 %, poulet frais désossé 20 %, riz brun 20 %, potiron séché 5 %. Analyse actuelle : protéines 28 %, matières grasses 17 %, fibres 2 %, cendres 6,5 %, humidité 9 %, calcium 1,4 %, phosphore 0,9 %, oméga-6 4,3 %, oméga-3 0,6 %, énergie métabolisable 3 930 kcal/kg. Additifs : taurine 1 000 mg/kg, L-carnitine 500 mg/kg, glucosamine 1 000 mg/kg et chondroïtine 800 mg/kg. Données de la formule actuelle, distinctes de l'analyse historique Crocami.",
+    statutDonnees: "Analyse complète de la formule fabricant actuelle retrouvée. Composition Maxi actuelle différente de la référence historique ; valeurs conservées séparément, sans recalcul de la fiche historique."
+  }
+};
+for (const product of window.CROCamiCatalog) {
+  const current = crocamiAllevaNaturalMaxi20261106[product.id];
+  if (current) Object.assign(product, current);
+  if (product.id === "mq-dog-020") {
+    product.donneesFabricantActuelles = {
+      ...(product.donneesFabricantActuelles || {}),
+      formule: "Alleva Natural Adult Chicken & Pumpkin Maxi — formule actuelle",
+      proteines: 28, matieresGrasses: 17, fibres: 2, cendres: 6.5,
+      humidite: 9, calcium: 1.4, phosphore: 0.9,
+      omega3: 0.6, omega6: 4.3, energie: 3930,
+      glucosamine: 1000, chondroitine: 800, taurine: 1000, lCarnitine: 500
+    };
+  }
+}
