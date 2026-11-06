@@ -3,6 +3,7 @@ import { setTimeout as delay } from "node:timers/promises";
 
 const files = ["catalogue.js", "fabricants.js"];
 const records = [];
+const missingImages = [];
 for (const file of files) {
   const source = fs.readFileSync(file, "utf8");
   const regexes = [
@@ -12,6 +13,28 @@ for (const file of files) {
   for (const re of regexes) {
     for (const m of source.matchAll(re)) {
       records.push({ id: m[1], url: m[2], file });
+    }
+  }
+  if (file === "catalogue.js") {
+    const pushes = /window\.CROCamiCatalog\.push\(\.\.\.\[([\s\S]*?)\]\);/g;
+    for (const m of source.matchAll(pushes)) {
+      try {
+        const products = JSON.parse("[" + m[1] + "]");
+        for (const product of products) {
+          if (!product.imageProduit) missingImages.push(product.id);
+        }
+      } catch (e) {
+        console.warn("Impossible d'analyser un bloc catalogue pour les images :", e.message);
+      }
+    }
+  }
+  if (file === "fabricants.js") {
+    const keys = [...source.matchAll(/^\s{2}([a-z0-9-]+)\s*:\s*\{/gm)];
+    for (let i = 0; i < keys.length; i++) {
+      const start = keys[i].index;
+      const end = i + 1 < keys.length ? keys[i + 1].index : source.length;
+      const block = source.slice(start, end);
+      if (!/imageProduit\s*:\s*"https?:\/\//.test(block)) missingImages.push(keys[i][1]);
     }
   }
   const generic = /(?:imageProduit)\s*:\s*"(https?:\/\/[^"]+)"/g;
@@ -95,7 +118,9 @@ const summary = {
   nonImageResponses: results.filter(r => r.verdict === "TYPE_NON_IMAGE").length,
   blockedOrRateLimited: results.filter(r => r.verdict === "BLOQUE_A_VERIFIER").length,
   httpErrors: results.filter(r => r.verdict === "ERREUR_HTTP").length,
-  notVerified: results.filter(r => r.verdict === "NON_VERIFIE").length
+  notVerified: results.filter(r => r.verdict === "NON_VERIFIE").length,
+  productRecordsWithoutImage: [...new Set(missingImages)].length,
+  missingImageIds: [...new Set(missingImages)]
 };
 fs.writeFileSync("reports/product-image-audit-summary.json", JSON.stringify(summary, null, 2) + "\n");
 console.log(JSON.stringify(summary, null, 2));
