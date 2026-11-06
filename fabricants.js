@@ -203,8 +203,10 @@ window.CROCamiManufacturerData = {
   c12: {
     imageProduit:"https://iams.eu/fileadmin/product_images/T90003509_192614.png",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://iams.eu/fr-fr/chat/croquettes/aliments-secs-au-poulet-frais-seniors",
-    proteines:35, matieresGrasses:12.5, fibres:2, cendres:6.8, calcium:1.3, phosphore:1.1, magnesium:0.098, omega3:0.27, omega6:2.67,
-    compositionComplete:"Poulet et dinde déshydratés 37 % (poulet 22 %), maïs, poulet frais 10 %, sorgho, graisse de porc, pulpe de betterave déshydratée 1,6 %, jus au poulet, fructo-oligosaccharides 0,67 %, huile de poisson, chlorure de potassium, glucosamine d’origine animale 0,04 %.",
+    proteines:35, matieresGrasses:12.5, fibres:2, cendres:6.8, calcium:1.3, phosphore:1.1, magnesium:0.098, omega3:0.27, omega6:2.67, taurine:2000,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Données nutritionnelles vérifiées sur la fiche officielle IAMS : protéines 35 %, matières grasses 12,5 %, fibres 2 %, cendres 6,8 %, calcium 1,3 %, phosphore 1,1 %, magnésium 0,098 %, oméga-3 0,27 %, oméga-6 2,67 % et taurine 0,2 % (2 000 mg/kg). L’énergie métabolisable n’est pas publiée sur la page consultée.",
+    compositionComplete:"Poulet et dinde déshydratés 37 % (poulet 22 %, source naturelle de taurine), maïs, poulet frais 10 %, sorgho, graisse de porc, pulpe de betterave déshydratée 1,6 %, jus au poulet, fructo-oligosaccharides 0,67 %, huile de poisson, chlorure de potassium, glucosamine d’origine animale 0,04 %.",
     ration:"2 kg : 30–40 g ; 3 kg : 40–55 g ; 4 kg : 50–65 g ; 5 kg : 55–75 g ; 6 kg : 65–85 g ; 7 kg : 70–95 g/jour."
   },
   c13: {
@@ -228,13 +230,17 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://applaws.com/uk/products/chicken-senior-dry-cat-food-3/",
     proteines:36.5, matieresGrasses:14.5, fibres:2, cendres:8, omega3:0.4, omega6:3.05, calcium:1.8, phosphore:1.2, energie:3952,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Constituants analytiques, oméga-3/6, calcium, phosphore, énergie (3 952 kcal/kg) et taurine (1 000 mg/kg) vérifiés sur la fiche officielle Applaws Senior Chicken. La page fabricant consultée est la version britannique ; la correspondance avec le sac vendu en France reste à confirmer sur l’étiquette.",
     compositionComplete:"Poulet 48 % (farine de poulet 45 %, poulet fraîchement préparé 3 %), pomme de terre, graisse de volaille 6 %, pulpe de betterave, levure de bière séchée, vitamines et minéraux, jus de volaille 1,5 %, poudre d’œuf, huile de saumon, extrait de chicorée 0,2 % (source de FOS), algues, extrait de yucca.",
     additifs:"Vitamine A 29 000 UI/kg ; D3 1 000 UI/kg ; E 640 mg/kg ; taurine 1 000 mg/kg ; DL-méthionine 250 mg/kg ; iode 1 mg/kg ; fer 50 mg/kg ; zinc 100 mg/kg ; manganèse 50 mg/kg ; cuivre 5 mg/kg ; antioxydants (extraits de tocophérols) ; sépiolite 300 mg/kg ; extrait de romarin."
   },
   c16: {
     imageProduit:"https://www.petsense.com/cdn/shop/products/12213-1533068253_2000x.png?v=1739292710",
     verificationFabricant:"à recouper", sourceFabricant:"https://www.tasteofthewild.com.au/portfolio-view/rocky-mountain/",
-    proteines:42, matieresGrasses:18, fibres:3, cendres:8.3, humiditeFabricant:10, humidite:10, calcium:1.9, phosphore:1.2, omega3:0.3, omega6:2.8, energie:3745,
+    proteines:42, matieresGrasses:18, fibres:3, cendres:8.3, humiditeFabricant:10, humidite:10, calcium:1.9, phosphore:1.2, omega3:0.3, omega6:2.8, energie:3745, taurine:1500,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Toutes les valeurs sont recoupées avec la fiche officielle Taste of the Wild Rocky Mountain Feline pour le marché australien : énergie 3 745 kcal/kg, taurine minimum 0,15 % (1 500 mg/kg), calcium 1,9 %, phosphore 1,2 %, oméga-3 0,3 % et oméga-6 2,8 %. La recette et l’étiquetage australiens ne constituent pas une validation du sac commercialisé en France.",
     compositionComplete:"Formule féline Rocky Mountain : cerf rôti et saumon fumé. La page officielle consultée concerne le marché australien ; la composition détaillée et les valeurs doivent être recoupées avec le sac vendu en France.",
     noteFabricant:"Données de référence marché australien uniquement : ne pas considérer comme validées pour un sac vendu en France.",
     additifs:"Vitamine A 10 000 UI/kg ; D 750 UI/kg ; E 150 UI/kg ; taurine minimum 0,15 % ; fer, cuivre, iode, manganèse, zinc et sélénium selon l’étiquette fabricant.",
