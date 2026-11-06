@@ -326,9 +326,10 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://www.ultima-affinity.com/dw/image/v2/BDGX_PRD/on/demandware.static/-/Sites-ULTIMA-m-catalog/default/dwbd2bc51a/images/catalog/3700260417774/3d-Pack/largeImage.png?q=100",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.ultima-affinity.com/fr/fr/chat/nourriture-chat/seche-sterilise-adult-poulet-1000260.html",
-    taurine:1100,
+    proteines:35, matieresGrasses:12, fibres:4, cendres:7.6, taurine:1100,
+    sourceRevendeur:"https://www.chronodrive.com/ultima--croquettes-au-poulet-et-orge-pour-chat-adulte-sterilise-P45449",
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Composition et ration vérifiées sur la fiche officielle Ultima. La page fabricant ne publie pas les constituants analytiques chiffrés ; taurine à 1 100 mg/kg relevée chez Match pour la même référence (EAN 8410650162065). Les autres valeurs ne sont pas ajoutées faute de données suffisamment vérifiables.",
+    noteFabricant:"Composition et ration vérifiées sur la fiche officielle Ultima. Protéines 35 %, matières grasses 12 %, cellulose 4 %, cendres 7,6 % et taurine 1 100 mg/kg ajoutés depuis Chronodrive/Match pour la même référence EAN 8410650162065. La page fabricant ne publie pas ces constituants analytiques chiffrés ; énergie, calcium, phosphore et oméga restent non communiqués.",
     compositionComplete:"Poulet 17 % (dont os, viande, peau), protéine de maïs, blé complet 13 %, pois déshydratés 11 %, protéines déshydratées de volaille, orge complète 6 %, protéines animales hydrolysées (volaille, porc, poisson), maïs complet 4 %, protéines déshydratées de porc, graisse animale (volaille, porc), protéines déshydratées de bœuf, substances minérales, poudre de cellulose, fibre de pois, pulpe de betterave.",
     ration:"2–4 kg : 30–50 g (activité +) ou 35–60 g (activité ++) ; 4–6 kg : 50–65 ou 60–75 g ; 6–8 kg : 65–75 ou 75–90 g/jour.",
     // La provenance des valeurs et les limites de publication sont précisées dans la note de vérification précédente.
