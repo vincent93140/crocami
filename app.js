@@ -81,7 +81,7 @@ function globalScoreMarkup(p,compact=false){
  const dog=p.espece==="chien",junior=p.age==="Junior";
  const rpcMin=dog?(junior?62.5:52):(junior?95:83);
  const actual={
-  "Rapport protido-calorique":a.rpc==null?null:fmtRatio(a.rpc)+" g/Mcal",
+  "Rapport protido-calorique":a.rpc==null?null:fmtRatio(a.rpc)+" g/Mcal"+(p.energie>0?"":" · Macroquette"),
   "Indice protéines / phosphore":a.proteinPhosphorus==null?null:fmtRatio(a.proteinPhosphorus),
   "Ratio calcium / phosphore":a.caP==null?null:fmtRatio(a.caP),
   "Rapport oméga 6 / 3":a.omega==null?null:fmtRatio(a.omega),
@@ -161,7 +161,7 @@ function cardMetricsMarkup(p){
  const omega=p.omega3>0&&p.omega6!=null?p.omega6/p.omega3:null;
  const items=[
   {name:"Protéines",raw:p.proteines,unit:"%",target:rpc!=null?"couleur basée sur le RPC (≥ "+fmt(rpcMin)+" g/Mcal)":(dog?"repère sans RPC : ≥ 28 %":"repère sans RPC : ≥ "+(junior?35:30)+" %"),status:rpc!=null?metricStatus(rpc,rpcMin,null):metricStatus(p.proteines,dog?28:(junior?35:30),null)},
-  {name:"RPC",raw:rpc,unit:"g/Mcal",target:"≥ "+fmt(rpcMin)+" g/Mcal",status:metricStatus(rpc,rpcMin,null)},
+  {name:"RPC",raw:rpc,unit:"g/Mcal",target:p.energie>0?"calculé depuis l’énergie fabricant":"publié par Macroquette",status:metricStatus(rpc,rpcMin,null)},
   {name:"Matières grasses",raw:p.matieresGrasses,unit:"%",target:fmt(fat[0])+"–"+fmt(fat[1])+" %",status:metricStatus(p.matieresGrasses,fat[0],fat[1])},
   {name:"Fibres",raw:p.fibres,unit:"%",target:fmt(fiber[0])+"–"+fmt(fiber[1])+" %",status:metricStatus(p.fibres,fiber[0],fiber[1])},
   {name:"Ratio calcium / phosphore",raw:caP,unit:"ratio",target:dog?"1–2":"1–1,5",status:metricStatus(caP,1,dog?2:1.5)},
@@ -181,7 +181,7 @@ function renderCompare(){
  const comparisonRows=[
   {label:"Note Crocami",value:p=>globalNutritionScore(p).score,display:p=>{const n=globalNutritionScore(p);return n.score==null?"Données insuffisantes":n.score+"/100 · couverture "+n.confidence+" %";},better:"high"},
   {label:"Note Macroquette (externe)",value:p=>p.scoreMacroquette,display:p=>p.scoreMacroquette==null?"Non disponible":fmt(p.scoreMacroquette)+"/100",better:"high"},
-  {label:"RPC calculé Crocami",value:p=>p.energie>0&&p.proteines!=null?p.proteines*10000/p.energie:null,display:p=>p.energie>0&&p.proteines!=null?fmtRatio(p.proteines*10000/p.energie)+" g/Mcal":"Non communiqué",better:"high"},
+  {label:"RPC (énergie fabricant ou Macroquette)",value:p=>p.energie>0&&p.proteines!=null?p.proteines*10000/p.energie:(p.rpcMacroquette>0?p.rpcMacroquette:null),display:p=>p.energie>0&&p.proteines!=null?fmtRatio(p.proteines*10000/p.energie)+" g/Mcal":p.rpcMacroquette>0?fmtRatio(p.rpcMacroquette)+" g/Mcal (Macroquette)":"Non communiqué",better:"high"},
   {label:"Prix du sac",value:p=>p.prixSac,display:p=>p.prixSac==null?"Non communiqué":fmt(p.prixSac)+" €",better:"low"},
   {label:"Format",value:p=>p.formatKg,display:p=>p.formatKg==null?"Non communiqué":fmt(p.formatKg)+" kg",better:"neutral"},
   {label:"Prix au kg",value:p=>p.prixKg,display:p=>p.prixKg==null?"Non communiqué":fmt(p.prixKg)+" €/kg",better:"low"},
