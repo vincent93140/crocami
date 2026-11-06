@@ -490,3 +490,32 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiApplawsUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* CARNILOVE : données analytiques et recettes vérifiées sur les pages officielles de la marque. */
+const crocamiCarniloveUpdates = {
+ "mq-dog-047": {
+  proteines:38, matieresGrasses:20, fibres:3.2, cendres:8, humidite:10, calcium:1.6, phosphore:1.3, sodium:0.25,
+  omega3:0.35, omega6:2.4, energie:3950,
+  sourceFabricant:"https://www.carnilove.co.uk/p/dog-food/dry-dog/lamb-wild-boar-2/",
+  sourceRevendeur:"https://www.zoolini.com/carnilove/dry-pet-food-lamb-wild-boar-adult",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée",
+  compositionComplete:"Farine de viande de sanglier (30 %), farine de viande d’agneau élevé en plein air (25 %), pois jaunes (20 %), graisse de poulet conservée avec des tocophérols (10 %), foie de poulet (3 %), pommes (3 %), amidon de tapioca (3 %), huile de saumon (2 %), carottes (1 %), graines de lin (1 %), pois chiches (1 %), coquilles de crustacés hydrolysées (source de glucosamine, 0,026 %), extrait de cartilage (source de chondroïtine, 0,016 %), levure de bière (source de MOS, 0,015 %), racine de chicorée (source de FOS, 0,01 %), yucca, algues, psyllium, thym, romarin, origan, canneberges, myrtilles et framboises.",
+  additifs:"Vitamine A 20 000 UI/kg ; vitamine D3 1 500 UI/kg ; vitamine E 400 mg/kg ; zinc 85 mg/kg ; fer 70 mg/kg ; manganèse 35 mg/kg ; iode 0,65 mg/kg ; cuivre 15 mg/kg ; sélénium 0,25 mg/kg.",
+  statutDonnees:"Fiche officielle Carnilove et revendeur concordants : protéines 38 %, matières grasses 20 %, fibres 3,2 %, cendres 8 %, humidité 10 %, calcium 1,6 %, phosphore 1,3 %, sodium 0,25 %, énergie 3 950 kcal/kg, oméga-3 0,35 % et oméga-6 2,4 %. Taurine chiffrée non publiée."
+ },
+ "mq-dog-048": {
+  proteines:33, matieresGrasses:16, fibres:2.5, cendres:8.5, humidite:10, calcium:1.4, phosphore:1.1, sodium:1,
+  omega3:0.7, omega6:1.98, energie:3800, taurine:1500,
+  sourceFabricant:"https://www.carnilove.co.uk/p/dog-food/dry-dog/salmon/",
+  sourceRevendeur:"https://jmt-alimentation-animale.com/produits/carnilove-adult-salmon/",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée_partielle",
+  compositionComplete:"Farine de saumon (25 %), saumon hydrolysé (20 %), pois jaunes (20 %), farine de hareng (10 %), graisse de poulet conservée avec des tocophérols (9 %), foie de poulet (3 %), pommes (3 %), potiron (3 %), huile de saumon (3 %), carottes (1 %), graines de lin (1 %), pois chiches (1 %), coquilles de crustacés hydrolysées (source de glucosamine, 0,026 %), extrait de cartilage (source de chondroïtine, 0,016 %), levure de bière (source de MOS, 0,015 %), racine de chicorée (source de FOS, 0,01 %), yucca, algues, psyllium, thym, romarin, origan, canneberges, myrtilles et framboises.",
+  additifs:"Vitamine A 20 000 UI/kg ; vitamine D3 1 500 UI/kg ; vitamine E 400 mg/kg ; taurine 1 500 mg/kg ; zinc 85 mg/kg ; fer 70 mg/kg ; manganèse 35 mg/kg ; iode 0,65 mg/kg ; cuivre 15 mg/kg ; sélénium 0,25 mg/kg.",
+  statutDonnees:"Analyse officielle Carnilove confirmée par JMT : protéines 33 %, matières grasses 16 %, fibres 2,5 %, cendres 8,5 %, humidité 10 %, calcium 1,4 %, phosphore 1,1 %, sodium 1 %, énergie 3 800 kcal/kg, oméga-3 0,7 %, oméga-6 1,98 % et taurine 1 500 mg/kg. La liste d'ingrédients officielle actuelle précise le saumon hydrolysé et le potiron ; cette version remplace la composition Macroquette plus ancienne."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiCarniloveUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
