@@ -212,7 +212,9 @@ window.CROCamiManufacturerData = {
   c13: {
     imageProduit:"https://gomagcdn.ro/domains/vetpet-shop.ro/files/product/large/advance-cat-sterilised-10-ani-878759.png",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.advance-affinity.com/fr/chat/nourriture-chat/senior-sterilized-1000392.html",
-    proteines:37, matieresGrasses:16.5, fibres:3.4, cendres:6.3, phosphore:0.7, omega3:0.6, omega6:3, energie:4040,
+    proteines:37, matieresGrasses:16.5, fibres:3.4, cendres:6.3, phosphore:0.7, omega3:0.6, omega6:3, energie:4040, taurine:1700,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Composition, additifs, taurine (1 700 mg/kg), constituants analytiques, phosphore (0,7 %), oméga-3 (0,6 %), oméga-6 (3 %), énergie (4 040 kcal/kg) et ration vérifiés sur la fiche officielle Advance Vitality Sterilized Senior +10. Le calcium n’est pas publié sur la page consultée.",
     compositionComplete:"Poulet 17 %, maïs complet, protéine de maïs, protéines déshydratées de volaille, orge complète 8 %, protéine de blé, saindoux, protéines déshydratées de porc, blé complet 4 %, collagène hydrolysé 2,5 %, protéines animales hydrolysées (volaille, porc, poisson), pulpe de betterave 1,5 %, fibre de pois, farines basses de blé, huile de poisson, œuf déshydraté, substances minérales, inuline de chicorée 0,6 %, protéines plasmatiques de porc 0,4 %, acide hyaluronique 25 mg/kg.",
     additifs:"Vitamine A 43 200 UI/kg ; D3 720 UI/kg ; E 750 mg/kg ; C 150 mg/kg ; taurine 1 700 mg/kg ; L-carnitine 500 mg/kg ; fer 86 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 148 mg/kg ; sélénium 0,1 mg/kg ; chlorure d’ammonium 5 g/kg ; antioxygènes.",
     ration:"2 kg : 35 g ; 4 kg : 55 g ; 6 kg : 70 g ; 8 kg : 85 g/jour."
@@ -220,7 +222,9 @@ window.CROCamiManufacturerData = {
   c14: {
     imageProduit:"https://www.futterfreund.de/media/catalog/product/cache/aac628c4cf80a069ddc502d666d4c8ff/j/o/josera-katze-senior-2kg.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/media/datatransfer/import/product/images/FR_SENIOR_20260128.pdf",
-    proteines:27, matieresGrasses:20, fibres:2.7, cendres:4.6, calcium:0.6, phosphore:0.45, magnesium:0.07, sodium:0.3, potassium:0.65, energie:4086,
+    proteines:27, matieresGrasses:20, fibres:2.7, cendres:4.6, calcium:0.6, phosphore:0.45, magnesium:0.07, sodium:0.3, potassium:0.65, energie:4086, taurine:1600,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, calcium, phosphore, magnésium, sodium, potassium, taurine (1 600 mg/kg) et énergie (4 086 kcal/kg) vérifiés sur la fiche technique officielle Josera Senior datée de janvier 2026.",
     compositionComplete:"Résidu gras déshydraté, graisse de volailles, riz, grains de maïs entier, pulpe de betterave, pommes de terre séchées, protéine de pomme de terre, protéines animales hydrolysées, substances minérales, foie de volaille séché, huile de saumon, fines herbes et fruits.",
     additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 450 mg/kg ; C 100 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9, biotine ; taurine 1 600 mg/kg ; L-carnitine 500 mg/kg ; fer 120 mg/kg ; zinc 110 mg/kg ; manganèse 10 mg/kg ; cuivre 10 mg/kg ; iode 1,9 mg/kg ; sélénium 0,10 mg/kg ; antioxydant naturel à base de tocophérols.",
     ration:"2–3 kg : 30–50 g ; 3–4 kg : 40–60 g ; 4–5 kg : 45–70 g ; 5–7 kg : 55–90 g ; 7–10 kg : 70–115 g/jour."
@@ -411,8 +415,10 @@ window.CROCamiManufacturerData = {
   c11: {
     imageProduit:"https://www.kiwoko.pt/on/demandware.static/-/Sites-kiwoko-master-catalog/default/dw6c9447fc/images/pienso_gatos_royal_canin_sterilised_7%2B_ROYR445049.jpg",
     verificationFabricant:"confirmée_partielle",
-    sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2B-2560",
+    sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/castrados-7%2B-2560",
     proteines:36, matieresGrasses:12, fibres:5.3, cendres:8, phosphore:0.7, epaDha:0.3,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, phosphore (0,7 %), EPA/DHA (0,3 %), composition, additifs et ration confirmés sur la fiche officielle Royal Canin Sterilised 7+. La page ne publie pas l’énergie métabolisable, le calcium ni le magnésium.",
     compositionComplete:"Maïs, gluten de blé, protéines de volaille déshydratées, protéines animales hydrolysées, gluten de maïs, fibres végétales, graisses animales, blé, riz, substances minérales, produits de levures, pulpe de betterave, huile de poissons, fructo-oligosaccharides, psyllium, huile de soja, glucosamine issue de la fermentation, farine de tagète, cartilage hydrolysé (source de chondroïtine).",
     additifs:"Vitamine A 18 000 UI/kg ; D3 950 UI/kg ; C 190 mg/kg ; fer 37 mg/kg ; iode 3,7 mg/kg ; cuivre 11 mg/kg ; manganèse 48 mg/kg ; zinc 142 mg/kg ; sélénium 0,06 mg/kg ; clinoptilolite 10 g/kg ; antioxygènes.",
     ration:"Poids idéal : 3 kg 46 g, 4 kg 56 g, 5 kg 66 g, 6 kg 75 g/jour. Embonpoint : 3 kg 37 g, 4 kg 45 g, 5 kg 53 g, 6 kg 60 g/jour."
