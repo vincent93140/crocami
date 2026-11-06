@@ -1143,3 +1143,76 @@ for (const product of window.CROCamiCatalog) {
     };
   }
 }
+
+
+/* OWNAT — références supplémentaires documentées depuis les fiches et documents officiels (06/11/2026).
+   Les glucides sont calculés par différence à partir des constituants analytiques publiés ;
+   ils ne sont pas présentés comme une valeur directement déclarée par OWNAT. */
+window.CROCamiCatalog.push(
+{
+ id:"ownat-dog-classic-complet",espece:"chien",marque:"Ownat",recette:"Classic Complet",age:"Adulte",besoins:["Adulte"],gabarit:"Toutes",
+ formatKg:null,prixSac:null,prixKg:null,proteines:25,matieresGrasses:12,fibres:3,humidite:8,cendres:7.5,glucides:44.5,
+ calcium:1.5,phosphore:1.1,magnesium:0.22,sodium:0.34,omega3:null,omega6:null,energie:3650,energieMethode:"NRC 2006",taurine:null,
+ premierIngredient:"Viande 32 % (viande déshydratée 22 %, poulet frais 10 % avant extrusion)",
+ compositionComplete:"Viande 32 % (viande déshydratée 22 %, poulet frais 10 % avant extrusion), blé complet (18 %), graisse de poulet, maïs (9 %), orge (8 %), pois (5 %), son de blé (5 %), riz complet (5 %), gousse de caroube (2 %), pomme (1 %), huile de saumon, graines de lin (1 %), pulpe de betterave, FOS, MOS, levure de bière inactivée (0,5 %), plantes aromatiques (fenouil, échinacée, thym), yucca schidigera.",
+ additifs:"Vitamine A 18 000 UI/kg; vitamine D3 1 500 UI/kg; vitamine E 90 UI/kg; vitamine C 100 mg/kg; cuivre 4 mg/kg; manganèse 38 mg/kg; zinc 100 mg/kg + chélate de zinc 7,5 mg/kg; fer 30 mg/kg; iode 3 mg/kg; sélénium 0,2 mg/kg.",
+ sourceFabricant:"https://www.ownat.com/classic-complet-chien",sourceDocumentFabricant:"https://www.ownat.com/cdnassets/pdf/Classic/ownat-new-classic-fr-pdf.pdf",
+ verificationFabricant:"confirmée",dateVerificationFabricant:"2026-11-06",
+ statutDonnees:"Fiche officielle OWNAT Classic Complet vérifiée : protéines 25 %, matières grasses 12 %, fibres 3 %, cendres 7,5 %, humidité 8 %, calcium 1,5 %, phosphore 1,1 % et énergie 3 650 kcal/kg. Sodium et magnésium repris du tableau analytique officiel. Glucides 44,5 % calculés par différence, non publiés comme valeur indépendante. Composition et additifs recopiés de la fiche fabricant."
+},
+{
+ id:"ownat-dog-classic-junior",espece:"chien",marque:"Ownat",recette:"Classic Junior",age:"Junior",besoins:["Croissance"],gabarit:"Toutes",
+ formatKg:null,prixSac:null,prixKg:null,proteines:28,matieresGrasses:14,fibres:2.5,humidite:8,cendres:7,glucides:40.5,
+ calcium:1.5,phosphore:1.1,magnesium:0.22,sodium:0.33,omega3:null,omega6:null,energie:3810,energieMethode:"NRC 2006",taurine:null,
+ premierIngredient:"Viande 39 % (viande déshydratée 29 %, poulet frais 10 % avant extrusion)",
+ compositionComplete:"Viande 39 % (viande déshydratée 29 %, poulet frais 10 % avant extrusion), riz (12 %), blé (9 %), graisse de poulet, maïs (8 %), son de blé (8 %), orge (7 %), pois (2 %), pomme (1 %), huile de saumon, graines de lin (1 %), pulpe de betterave, FOS, MOS, levures de bière inactivées (0,5 %), plantes aromatiques (fenouil, échinacée, thym), yucca schidigera.",
+ additifs:"Vitamine A 18 000 UI/kg; vitamine D3 1 500 UI/kg; vitamine E 90 UI/kg; vitamine C 100 mg/kg; cuivre 4 mg/kg; manganèse 38 mg/kg; zinc 100 mg/kg + chélate de zinc 7,5 mg/kg; fer 30 mg/kg; iode 3 mg/kg; sélénium 0,2 mg/kg.",
+ sourceFabricant:"https://www.ownat.com/classic-junior-chien",sourceDocumentFabricant:"https://www.ownat.com/cdnassets/pdf/Classic/ownat-new-classic-fr-pdf.pdf",
+ verificationFabricant:"confirmée",dateVerificationFabricant:"2026-11-06",
+ statutDonnees:"Fiche officielle OWNAT Classic Junior vérifiée : protéines 28 %, matières grasses 14 %, fibres 2,5 %, cendres 7 %, humidité 8 %, calcium 1,5 %, phosphore 1,1 % et énergie 3 810 kcal/kg. Sodium et magnésium issus du tableau analytique officiel. Glucides 40,5 % calculés par différence. Composition et additifs détaillés selon la fiche fabricant."
+},
+{
+ id:"ownat-dog-classic-energy",espece:"chien",marque:"Ownat",recette:"Classic Energy",age:"Adulte",besoins:["Activité intense"],gabarit:"Toutes",
+ formatKg:null,prixSac:null,prixKg:null,proteines:29,matieresGrasses:15,fibres:2.5,humidite:8,cendres:7.5,glucides:38,
+ calcium:1.5,phosphore:1,magnesium:0.22,sodium:0.36,omega3:null,omega6:null,energie:3870,energieMethode:"NRC 2006",taurine:null,
+ premierIngredient:"Viande 40 % (viande déshydratée 30 %, poulet frais 10 % avant extrusion)",
+ compositionComplete:"Viande 40 % (viande déshydratée 30 %, poulet frais 10 % avant extrusion), blé complet (12 %), graisse de poulet, riz complet (12 %), orge complet (8 %), maïs complet (8 %), son de blé (4 %), caroube (2 %), pomme (1 %), huile de saumon, graines de lin (1 %), pulpe de betterave, FOS, MOS, levure de bière (0,5 %), plantes aromatiques (fenouil, échinacée, thym), yucca schidigera.",
+ additifs:"Vitamine A 18 000 UI/kg; vitamine D3 1 500 UI/kg; vitamine E 90 UI/kg; vitamine C 100 mg/kg; cuivre 4 mg/kg; manganèse 38 mg/kg; zinc 100 mg/kg + chélate de zinc 7,5 mg/kg; fer 30 mg/kg; iode 3 mg/kg; sélénium 0,2 mg/kg.",
+ sourceFabricant:"https://www.ownat.com/classic-energy-chien",sourceDocumentFabricant:"https://www.ownat.com/cdnassets/pdf/Classic/ownat-new-classic-fr-pdf.pdf",
+ verificationFabricant:"confirmée",dateVerificationFabricant:"2026-11-06",
+ statutDonnees:"Fiche officielle OWNAT Classic Energy vérifiée : protéines 29 %, matières grasses 15 %, fibres 2,5 %, cendres 7,5 %, humidité 8 %, calcium 1,5 %, phosphore 1 % et énergie 3 870 kcal/kg. Sodium et magnésium issus du tableau analytique officiel. Glucides 38 % calculés par différence. Composition et additifs repris de la fiche fabricant."
+},
+{
+ id:"ownat-cat-classic-kitten",espece:"chat",marque:"Ownat",recette:"Classic Kitten",age:"Junior",besoins:["Croissance"],gabarit:"Toutes",
+ formatKg:null,prixSac:null,prixKg:null,proteines:34,matieresGrasses:15,fibres:2,humidite:8,cendres:8,glucides:33,
+ calcium:1.4,phosphore:1,magnesium:0.15,sodium:0.45,omega3:null,omega6:null,energie:3900,energieMethode:"NRC 2006",taurine:1300,
+ premierIngredient:"Viande 38 % (viande déshydratée 28 %, poulet frais 10 % avant extrusion)",
+ compositionComplete:"Viande 38 % (viande déshydratée 28 %, poulet frais 10 % avant extrusion), riz complet (15 %), graisse de poulet, orge complet (9 %), maïs complet (7 %), protéines de maïs, pois (4 %), poisson déshydraté, levures de bière inactivées (1,5 %), protéines de poulet hydrolysées, œuf entier déshydraté (1 %), pomme (1 %), huile de saumon, pulpe de betterave, FOS, MOS, plantes aromatiques (fenouil, camomille, anis vert), yucca schidigera.",
+ additifs:"Taurine 1 300 mg/kg; vitamine A 22 000 UI/kg; vitamine D3 1 500 UI/kg; vitamine E 350 UI/kg; vitamine C 100 mg/kg; cuivre 5 mg/kg; manganèse 40 mg/kg; zinc 100 mg/kg + chélate de zinc 7 mg/kg; fer 50 mg/kg; iode 3 mg/kg; sélénium 0,2 mg/kg.",
+ sourceFabricant:"https://www.ownat.com/classic-kitten-chat",sourceDocumentFabricant:"https://www.ownat.com/cdnassets/pdf/Classic/ownat-new-classic-fr-pdf.pdf",
+ verificationFabricant:"confirmée",dateVerificationFabricant:"2026-11-06",
+ statutDonnees:"Fiche officielle OWNAT Classic Kitten vérifiée : protéines 34 %, matières grasses 15 %, fibres 2 %, cendres 8 %, humidité 8 %, calcium 1,4 %, phosphore 1 %, énergie 3 900 kcal/kg et taurine 1 300 mg/kg. Sodium et magnésium issus du tableau analytique officiel. Glucides 33 % calculés par différence. Composition et additifs détaillés selon le fabricant."
+},
+{
+ id:"ownat-cat-classic-hairball",espece:"chat",marque:"Ownat",recette:"Classic Hairball",age:"Adulte",besoins:["Boules de poils"],gabarit:"Toutes",
+ formatKg:null,prixSac:null,prixKg:null,proteines:30,matieresGrasses:14,fibres:2.5,humidite:8,cendres:8,glucides:37.5,
+ calcium:1.4,phosphore:1,magnesium:0.15,sodium:0.4,omega3:null,omega6:null,energie:3785,energieMethode:"NRC 2006",taurine:1000,
+ premierIngredient:"Viande 37 % (viande déshydratée 27 %, poulet frais 10 % avant extrusion)",
+ compositionComplete:"Viande 37 % (viande déshydratée 27 %, poulet frais 10 % avant extrusion), blé complet (19 %), graisse de poulet, maïs complet (8 %), pois (7 %), orge complet (5 %), riz complet (5 %), protéines de maïs, levures de bière inactivées (1,5 %), pulpe de betterave, protéines de poulet hydrolysées, poisson déshydraté, pomme (1 %), huile de saumon, extrait de malt, FOS, MOS, plantes aromatiques (fenouil, camomille, anis vert), yucca schidigera.",
+ additifs:"Taurine 1 000 mg/kg; vitamine A 15 000 UI/kg; vitamine D3 1 500 UI/kg; vitamine E 100 UI/kg; vitamine C 100 mg/kg; cuivre 5 mg/kg; manganèse 30 mg/kg; zinc 100 mg/kg + chélate de zinc 7 mg/kg; fer 30 mg/kg; iode 2 mg/kg; sélénium 0,1 mg/kg.",
+ sourceFabricant:"https://www.ownat.com/classic-hairball-chat",sourceDocumentFabricant:"https://www.ownat.com/cdnassets/pdf/Classic/ownat-new-classic-fr-pdf.pdf",
+ verificationFabricant:"confirmée",dateVerificationFabricant:"2026-11-06",
+ statutDonnees:"Fiche officielle OWNAT Classic Hairball vérifiée : protéines 30 %, matières grasses 14 %, fibres 2,5 %, cendres 8 %, humidité 8 %, calcium 1,4 %, phosphore 1 %, énergie 3 785 kcal/kg et taurine 1 000 mg/kg. Sodium et magnésium issus du tableau analytique officiel. Glucides 37,5 % calculés par différence. Extrait de malt et fibres végétales présents dans la composition."
+},
+{
+ id:"ownat-cat-classic-fish",espece:"chat",marque:"Ownat",recette:"Classic Fish",age:"Adulte",besoins:["Adulte","Peau et pelage"],gabarit:"Toutes",
+ formatKg:null,prixSac:null,prixKg:null,proteines:30,matieresGrasses:14,fibres:2,humidite:8,cendres:8,glucides:38,
+ calcium:1.4,phosphore:1,magnesium:0.15,sodium:0.4,omega3:null,omega6:null,energie:3790,energieMethode:"NRC 2006",taurine:1000,
+ premierIngredient:"Viande déshydratée (22 %) et poisson (15 %, dont poisson frais 10 %)",
+ compositionComplete:"Viande déshydratée (22 %), poisson 15 % (poisson frais 10 % avant extrusion, poisson déshydraté 5 %), blé (15 %), graisse de poulet, orge (9 %), maïs (9 %), riz (6 %), pois (3 %), protéines de maïs, levures de bière inactivées (2 %), protéines de poulet hydrolysées, pomme (1 %), huile de saumon, pulpe de betterave, FOS, MOS, plantes aromatiques (fenouil, camomille, anis vert), yucca schidigera.",
+ additifs:"Taurine 1 000 mg/kg; vitamine A 15 000 UI/kg; vitamine D3 1 500 UI/kg; vitamine E 100 UI/kg; vitamine C 100 mg/kg; cuivre 5 mg/kg; manganèse 30 mg/kg; zinc 100 mg/kg + chélate de zinc 7 mg/kg; fer 30 mg/kg; iode 2 mg/kg; sélénium 0,1 mg/kg.",
+ sourceFabricant:"https://www.ownat.com/classic-fish-chat",sourceDocumentFabricant:"https://www.ownat.com/cdnassets/pdf/Classic/ownat-new-classic-fr-pdf.pdf",
+ verificationFabricant:"confirmée",dateVerificationFabricant:"2026-11-06",
+ statutDonnees:"Fiche officielle OWNAT Classic Fish chat vérifiée : protéines 30 %, matières grasses 14 %, fibres 2 %, cendres 8 %, humidité 8 %, calcium 1,4 %, phosphore 1 %, énergie 3 790 kcal/kg et taurine 1 000 mg/kg. Sodium et magnésium issus du tableau analytique officiel. Glucides 38 % calculés par différence. Le fabricant décrit un apport additionnel d’oméga-3 et 6 sans publier de pourcentages sur cette fiche : valeurs non chiffrées laissées vides."
+}
+);
