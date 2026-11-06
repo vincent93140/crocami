@@ -468,3 +468,25 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiYarrahUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* APPLAWS : enrichissement des analyses de la recette chien et vérification de la recette poisson du chat. */
+const crocamiApplawsUpdates = {
+ "mq-dog-028": {
+  proteines:37, matieresGrasses:20, fibres:4.5, cendres:8.5, calcium:1.6, phosphore:1.33, taurine:1000, energie:3700,
+  sourceRevendeur:"https://www.zooplus.fr/shop/chiens/croquettes_chien/applaws/naturelles/354867",
+  sourceComplementaire:"https://capitaine-croquettes.fr/croquettes/Chien/applaws-adult-small-medium-breed-poulet",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"recoupée_revendeur",
+  statutDonnees:"Recette Adult Small & Medium Breed Poulet recoupée chez Zooplus : protéines 37 %, matières grasses 20 %, fibres 4,5 %, cendres 8,5 %, calcium 1,6 %, phosphore 1,33 % et taurine 1 000 mg/kg. Énergie 3 700 kcal/kg indiquée par Capitaine-Croquettes. Composition concordante : poulet déshydraté 66 %, poulet haché 8 %, amidon de pomme de terre 6 %, petits pois 8 %."
+ },
+ "mq-cat-022": {
+  sourceFabricant:"https://applaws.com/uk/products/ocean-fish-with-salmon-adult-dry-cat-food/",
+  sourceRevendeur:"https://www.petloverscentre.com/products/ocean-fish-with-salmon-for-adult-cat-1-8kg",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_actuelle_différente",
+  statutDonnees:"La fiche revendeur correspondant à l'ancienne composition Macroquette (poisson blanc frais 18 %, hareng 12 %, saumon frais 8 %, farine de poisson 5 %) confirme protéines 34 %, matières grasses 15 %, fibres 6 %, cendres 10 %, oméga-3 1,2 %, oméga-6 3 % et taurine 2 000 mg/kg. La fiche officielle Applaws actuelle présente une formulation différente (huile de saumon 5 %, pommes de terre et petits pois) : ses valeurs ne sont pas fusionnées avec l'ancienne recette."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiApplawsUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
