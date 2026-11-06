@@ -12,10 +12,10 @@ Comparateur de croquettes pour chiens et chats : recherche, filtres, comparaison
 - Les données absentes restent non communiquées : aucune valeur nutritionnelle ni aucun prix ne sont inventés.
 
 ## Catalogue
-- 228 références : 40 références de départ, 8 références issues de Chronovet, 170 références issues de Macroquette et 10 références Veterinary HPM de Virbac.
+- 220 références présentes dans `catalogue.js` : 40 références de départ, 170 références issues de Macroquette et 10 références Veterinary HPM de Virbac. Le total de 228 indiqué dans une version précédente était erroné et a été corrigé après comptage des identifiants uniques.
 - Les 10 références Virbac ajoutées sont canines : 7 physiologiques et 3 diététiques.
 - La fiche Animalis `mq-dog-026` (chien de grande taille au poulet), dont la photo exacte n'était pas disponible, a été retirée du catalogue à la demande de l'utilisateur.
-- Les 228 fiches disposent d'une image produit déclarée. La présence d'une URL ne vaut toutefois pas validation visuelle manuelle de chaque image distante.
+- Les 220 fiches disposent d'une image produit déclarée. La présence d'une URL ne vaut toutefois pas validation visuelle ni contrôle de disponibilité de chaque image distante.
 
 ## Méthode de notation Crocami
 La note Crocami est un indice comparatif propre au site, distinct de la note Macroquette. Elle est recalculée à partir des données effectivement disponibles sur chaque fiche.
@@ -43,6 +43,7 @@ La note Crocami est un indice comparatif propre au site, distinct de la note Mac
 - Huit liens génériques Macroquette menant seulement à une page générale d'analyses ou à une recette différente ont été retirés; deux produits ont retrouvé leur fiche individuelle exacte au lieu d'être présentés comme des fiches produit.
 
 ## État des données Macroquette — audit du 6 novembre 2026
+Le catalogue contient 220 références au total (40 références de départ + 170 Macroquette + 10 Virbac). Les 170 fiches Macroquette ont chacune une composition complète, les protéines, matières grasses, fibres, cendres et une URL d'image déclarée. Les autres données ne sont pas toutes publiées ou vérifiées et restent absentes lorsqu'elles ne sont pas sourcées.
 Sur les 170 fiches Macroquette :
 - Composition complète : 170/170.
 - Protéines, matières grasses, fibres et cendres : 170/170.
