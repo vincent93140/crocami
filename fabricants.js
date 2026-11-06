@@ -174,8 +174,10 @@ window.CROCamiManufacturerData = {
   d16: {
     imageProduit:"https://www.pets-lifestyle.com/cdn/shop/products/RoyalCaninPetFood_3_75cf7c64-9949-4cee-83f5-eaf4cf81a706.png?v=1755786277",
     verificationFabricant:"confirmée_partielle",
-    sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001",
+    sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/small-adult-3001",
     proteines:27, matieresGrasses:16, fibres:1.4, cendres:6.7, energie:3916,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, énergie (3 916 kcal/kg), composition, additifs et ration confirmés sur la fiche officielle Royal Canin Mini Adult. La page ne publie pas le calcium, le phosphore ni la taurine.",
     compositionComplete:"Farine de blé, protéines de volaille déshydratées, farine de maïs, graisses animales, protéines animales hydrolysées, protéines de porc déshydratées, maïs, orge, blé, gluten de maïs, protéine de pois, substances minérales, pulpe de betterave, huile de soja, produits de levures, fructo-oligosaccharides, huile de poissons, huile d’algues Schizochytrium sp.",
     additifs:"Vitamine A 15 800 UI/kg ; D3 1 000 UI/kg ; fer 34 mg/kg ; iode 3,4 mg/kg ; cuivre 10,5 mg/kg ; manganèse 44 mg/kg ; zinc 125 mg/kg ; sélénium 0,09 mg/kg ; conservateurs et antioxygènes."
   },
@@ -183,7 +185,10 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://www-leshop-ch-cld-res.cloudinary.com/image/upload/w_1000%2Ch_1000%2Cc_pad%2Cg_center%2Cfl_lossy%2Cb_rgb%3Afff/f_auto/e_unsharp_mask%3A100/q_auto/v2/prod/catalog/product/product-3614577.png",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/proplan-croquettes-adulte-mini-poulet",
-    proteines:28, matieresGrasses:17, fibres:2, cendres:7.5, energie:3950,
+    proteines:28, matieresGrasses:17, fibres:2, cendres:7.5, humiditeFabricant:8, humidite:8, calcium:1.43, phosphore:0.98, sodium:0.51, potassium:0.68, magnesium:0.11, omega3:0.3, omega6:2.2, dha:0.07, epaDha:0.17, energie:3949, taurine:948,
+    dateVerificationFabricant:"2026-11-06",
+    sourceComplementaire:"https://vetcenter.purina.fr/products/purina-pro-plan-small-mini-adult-1-everyday-nutrition-riche-en-poulet",
+    noteFabricant:"Composition et valeurs moyennes recoupées avec la fiche technique Purina Pro Plan Small & Mini Adult : humidité 8 %, calcium 1,43 %, phosphore 0,98 %, magnésium 0,11 %, sodium 0,51 %, potassium 0,68 %, oméga-3 0,30 %, oméga-6 2,20 %, DHA 0,07 %, EPA+DHA 0,17 % et taurine 948 mg/kg. Énergie métabolisable calculée : 3 738 kcal/kg selon Atwater ou 3 949 kcal/kg selon NRC 2006 ; la valeur NRC est retenue ici pour le RPC.",
     compositionComplete:"Poulet de haute qualité 20 % (dont dos et coffre), blé, protéines de volaille déshydratées, maïs, riz 7 %, graisses animales, farine de soja, pulpe de betterave déshydratée, farine de protéines de maïs, gluten de blé, substances minérales, œufs déshydratés, huile de poisson, hydrolysat, levures.",
     additifs:"Vitamine A 34 000 UI/kg ; D3 1 100 UI/kg ; E 550 UI/kg ; vitamine C 140 mg/kg ; fer 130 mg/kg ; iode, cuivre, manganèse, zinc et sélénium selon la fiche fabricant.",
     ration:"Apport calorique fabricant : 395 kcal/100 g. Ration détaillée selon poids et activité sur le guide fabricant."
@@ -191,7 +196,9 @@ window.CROCamiManufacturerData = {
   d19: {
     imageProduit:"https://ahlanpet.ae/images/josera-minwell-10kg-50012748-1741790453.webp",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-miniwell.html",
-    proteines:27, matieresGrasses:16, fibres:2, cendres:7.2, calcium:1.5, phosphore:1.15, sodium:0.4, energie:3872,
+    proteines:27, matieresGrasses:16, fibres:2, cendres:7.2, calcium:1.5, phosphore:1.2, sodium:0.4, magnesium:0.1, energie:3872,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, calcium, phosphore, sodium, magnésium, énergie (3 872 kcal/kg), composition et ration confirmés sur la fiche technique officielle Josera Miniwell datée de juin 2023. La fiche ne publie pas les oméga ni une teneur chiffrée en taurine.",
     compositionComplete:"Protéines de volaille déshydratées 31 % (dont poulet 40 %), grains de maïs entier, riz 15 %, graisse de volailles, pulpe de betterave, protéines de volaille hydrolysées, substances minérales (tripolyphosphate de sodium 0,35 %), protéines animales hydrolysées, levure, poudre de chicorée.",
     additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 220 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; fer 110 mg/kg ; zinc 130 mg/kg ; manganèse 9 mg/kg ; cuivre 12 mg/kg ; iode 1,4 mg/kg ; sélénium 0,10 mg/kg."
   },
@@ -201,7 +208,7 @@ window.CROCamiManufacturerData = {
     sourceFabricant:"https://www.advance-affinity.com/fr/chien/nourriture-chien/adult-mini-1000404.html",
     proteines:26, matieresGrasses:17, fibres:3, cendres:6.5, omega3:0.3, omega6:3.1,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Composition, additifs, constituants analytiques (protéines 26 %, matières grasses 17 %, fibres 3 %, cendres 6,5 %, oméga-3 0,3 %, oméga-6 3,1 %) et ration recoupés avec la fiche officielle Advance. Énergie métabolisable, calcium et phosphore non publiés sur la fiche consultée.",
+    noteFabricant:"Composition, additifs, constituants analytiques (protéines 26 %, matières grasses 17 %, fibres 3 %, cendres 6,5 %, oméga-3 0,3 %, oméga-6 3,1 %) et ration recoupés avec la fiche officielle Advance Adult Mini. Énergie métabolisable, calcium, phosphore et teneur chiffrée en taurine non publiés sur la fiche consultée.",
     compositionComplete:"Poulet 20 %, protéines déshydratées de volaille, blé complet 10 %, riz 10 %, maïs complet, graisse de volaille, pois déshydratés 4 %, farine de maïs, protéines déshydratées de porc, protéine de maïs, protéines animales hydrolysées (volaille, porc, poisson), pulpe de betterave 2 %, fibre de pois, farines basses de blé, inuline de chicorée 0,8 %, substances minérales, protéines plasmatiques de porc 0,4 %.",
     additifs:"Vitamine A 27 000 UI/kg ; D3 1 200 UI/kg ; E 500 mg/kg ; C 70 mg/kg ; fer 86 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 148 mg/kg ; sélénium 0,1 mg/kg ; Bacillus velezensis DSM 1 1×10⁹ ; antioxygènes.",
     ration:"1 kg : 25/30/40 g ; 3 kg : 55/65/90 g ; 5 kg : 80/100/130 g ; 7 kg : 105/125/165 g ; 10 kg : 135/165/215 g/jour selon activité (+/++/+++)."
@@ -266,7 +273,7 @@ window.CROCamiManufacturerData = {
     additifs:"Vitamine A 27 000 UI/kg ; D3 1 700 UI/kg ; E 600 mg/kg ; C 175 mg/kg ; taurine 1 000 mg/kg ; cuivre 5,5 mg/kg ; zinc 120 mg/kg ; manganèse 12 mg/kg ; iode 3,5 mg/kg ; fer 75 mg/kg ; sélénium 0,25 mg/kg ; antioxygènes.",
     noteFabricant:"La fiche officielle actuelle confirme la nouvelle recette au poulet frais 40 % et patate douce 13,2 %, mais les constituants analytiques chiffrés ne sont pas visibles dans le texte de sa page. Les valeurs analytiques, l’énergie (3 711 kcal/kg) et les additifs détaillés ci-dessus proviennent d’une fiche revendeur correspondant à cette nouvelle formule ; à confirmer sur l’étiquette du sac français avant validation fabricant définitive.",
     ration:"Guide fabricant petites croquettes : 0–5 kg 14–77 g/jour ; 5–10 kg 77–129 g/jour. La quantité varie selon le poids et l’activité.",
-    noteFabricant:"La fiche officielle actuelle ne publie pas les constituants analytiques dans le texte consulté. Les valeurs analytiques déjà présentes dans Crocami restent celles du relevé tiers et ne sont pas validées par le fabricant."
+    // La provenance des valeurs analytiques et additifs est précisée dans la note de vérification précédente.
   },
   c01: {
     imageProduit:"https://static.ticimax.cloud/cdn-cgi/image/width%3D0%2Cquality%3D90/14166/uploads/urunresimleri/buyuk/royal-canin-fhn-sterilised-37-kisirlasti-5f7a.jpg",
