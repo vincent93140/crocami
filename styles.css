@@ -309,3 +309,38 @@ footer .brand img{background:#fffdf8;border:2px solid #f39a24}
  .topbar nav{color:#fff}
  .how-grid article{padding:16px}
 }
+
+/* Fond général bleu profond et orange — blanc réservé aux contenus */
+:root{--ink:#173653;--muted:#55718b;--cream:#f7ead5;--paper:#fffaf1;--green:#1266ad;--green2:#dcecf9;--orange:#f39a24;--line:#b9d1e4}
+body{background:#0e4778;color:#fff}main{background:#0e4778}
+.topbar{background:#083d6c;border-bottom:3px solid #f39a24}
+.intro-compact{background:linear-gradient(115deg,#0b4d83 0%,#1266ad 68%,#e98b19 68%,#f39a24 100%);color:#fff}
+.search-section{background:#145b94;color:#fff}
+.section-heading h2,.section-heading>p,.section-heading .eyebrow{color:#fff}
+.finder{background:#f7ead5;border:1px solid #f39a24;color:#173653;box-shadow:0 12px 28px #052d4d55}
+.finder label,.finder .field-label,.finder p{color:#173653}
+.finder input,.finder select,.sort-control select{background:#fffaf1;color:#173653;border-color:#e8b56f}
+.finder-tip{background:#ffe0ae;border-color:#f39a24;color:#643c12}
+.trust-strip{background:#083d6c;color:#fff;border-block:4px solid #f39a24}
+.understand-section{background:#0e4778;color:#fff}
+.understand-section h2,.understand-section p,.understand-section .eyebrow{color:#fff}
+.need-card,.species-note,.weight-guide{background:#f7ead5;color:#173653;border-color:#e7b66f}
+.need-card h3,.need-card p,.species-note p,.weight-guide p{color:#173653}
+.pets-section{background:#145b94;color:#fff}
+.pets-section h2,.pets-section p,.pets-section .eyebrow{color:#fff}
+.pet-card-copy{background:#f7ead5;color:#173653}
+.pet-card-copy h3,.pet-card-copy p{color:#173653}
+.how-section{background:#083d6c;color:#fff;border-block:4px solid #f39a24}
+.promise{background:#f7ead5;color:#173653;border-block:5px solid #f39a24}
+.promise h2,.promise p,.promise .eyebrow{color:#173653}
+.promise-art{background:linear-gradient(135deg,#0b4d83 0%,#1266ad 58%,#f39a24 58%,#f39a24 100%)}
+.results-section,.catalog-section{background:#0e4778;color:#fff}
+.results-section h2,.catalog-section h2,.results-section p,.catalog-section p{color:#fff}
+.product-card,.comparison-wrap,.global-score-detail{background:#fffaf1;color:#173653;border-color:#f0c98f}
+.product-card h3,.product-card p,.product-card label,.comparison-wrap td,.comparison-wrap th{color:#173653}
+.compare-toolbar{background:#083d6c;color:#fff;border-left:5px solid #f39a24}
+.sort-control{color:#fff}
+footer{background:#083d6c;color:#fff;border-top:4px solid #f39a24}
+footer p,footer>span{color:#fff}
+.topbar .brand img,footer .brand img{background:#fffaf1;border:2px solid #f39a24;border-radius:12px;object-fit:contain;object-position:center;padding:4px}
+@media(max-width:700px){.search-section,.pets-section{background:#145b94}.finder{background:#f7ead5}}
