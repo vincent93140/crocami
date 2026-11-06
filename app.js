@@ -66,14 +66,14 @@ function scoreStackMarkup(p){
 function macroquetteScoreMarkup(p){
  if(p.scoreMacroquette!=null){
   const link=p.sourceMacroquette?'<a href="'+p.sourceMacroquette+'" target="_blank" rel="noopener">Voir la fiche Macroquette</a>':"";
-  return '<div class="external-score-card"><div><span>NOTE EXTERNE · MACROQUETTE</span><b>'+fmt(p.scoreMacroquette)+' /100</b></div><small>Note moyenne publiée sur la fiche Macroquette; elle peut différer de la note obtenue avec leur outil personnalisé. '+link+'</small></div>';
+  const warning=p.noteMacroquetteAvertissement?'<p class="external-score-warning">'+p.noteMacroquetteAvertissement+'</p>':"";
+  return '<div class="external-score-card"><div><span>NOTE EXTERNE · MACROQUETTE</span><b>'+fmt(p.scoreMacroquette)+' /100</b></div><div class="external-score-copy"><small>Note moyenne publiée sur la fiche Macroquette; elle peut différer de la note obtenue avec leur outil personnalisé. '+link+'</small>'+warning+'</div></div>';
  }
  if(p.noteMacroquetteStatut){
   return '<div class="external-score-card missing"><div><span>NOTE EXTERNE · MACROQUETTE</span><b>Non disponible</b></div><small>'+p.noteMacroquetteStatut+'</small></div>';
  }
  return "";
 }
-
 function globalScoreMarkup(p,compact=false){
  const a=globalNutritionScore(p),cls=a.score==null?"missing":a.score>=80?"good":a.score>=60?"medium":"watch",score=a.score==null?"—":a.score;
  if(compact)return '<div class="global-score-card '+cls+'"><div class="global-score-number"><strong>'+score+'</strong><span>/100</span></div><div class="global-score-copy"><b>Note Crocami</b><small>Couverture des critères : '+a.confidence+' % · fiabilité '+a.reliability.toLowerCase()+'</small></div></div>';
