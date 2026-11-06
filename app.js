@@ -66,8 +66,9 @@ function scoreStackMarkup(p){
 function macroquetteScoreMarkup(p){
  if(p.scoreMacroquette!=null){
   const link=p.sourceMacroquette?'<a href="'+p.sourceMacroquette+'" target="_blank" rel="noopener">Voir la fiche Macroquette</a>':"";
+  const date=p.dateScoreMacroquette?' Relevée le '+p.dateScoreMacroquette.split("-").reverse().join("/")+'.':"";
   const warning=p.noteMacroquetteAvertissement?'<p class="external-score-warning">'+p.noteMacroquetteAvertissement+'</p>':"";
-  return '<div class="external-score-card"><div><span>NOTE EXTERNE · MACROQUETTE</span><b>'+fmt(p.scoreMacroquette)+' /100</b></div><div class="external-score-copy"><small>Note moyenne publiée sur la fiche Macroquette; elle peut différer de la note obtenue avec leur outil personnalisé. '+link+'</small>'+warning+'</div></div>';
+  return '<div class="external-score-card"><div><span>NOTE EXTERNE · MACROQUETTE</span><b>'+fmt(p.scoreMacroquette)+' /100</b></div><div class="external-score-copy"><small>Note moyenne publiée sur la fiche Macroquette; elle peut différer de la note obtenue avec leur outil personnalisé.'+date+' '+link+'</small>'+warning+'</div></div>';
  }
  if(p.noteMacroquetteStatut){
   return '<div class="external-score-card missing"><div><span>NOTE EXTERNE · MACROQUETTE</span><b>Non disponible</b></div><small>'+p.noteMacroquetteStatut+'</small></div>';
