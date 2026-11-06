@@ -740,3 +740,84 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiRoyalCaninVariantUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* AUDIT FORMULES ACTUELLES — ACANA ET ADVANCE (06/11/2026).
+   Les liens fabricant sont corrigés. Les données actuelles sont consignées en note
+   lorsqu'elles ne correspondent pas à la formule historique : aucune fusion de variantes. */
+const crocamiBrandFormulaReview20261106 = {
+  "mq-dog-007": {
+    "sourceFabricant": "https://emea.acana.com/fr-BE/pour-chiens/eu-aca-classicred.html",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La fiche officielle ACANA Classics Red Meat actuelle a été retrouvée. Elle décrit une formule différente de la recette historique « Classics Classic Red » du catalogue : bœuf cru 16 %, agneau déshydraté 15 %, orge, pois et porc, contre une ancienne composition dominée par l’agneau déshydraté et l’avoine. La formule actuelle publie 27 % protéines, 16 % matières grasses, 5 % fibres, 8 % cendres, 12 % humidité, calcium 1,6 %, phosphore 1,1 %, oméga-3 0,3 %, oméga-6 2,2 % et énergie 3 425 kcal/kg. Ces valeurs ne sont pas transférées à la fiche historique.",
+    "statutDonnees": "Ancienne formule distincte de la recette officielle actuelle Classics Red Meat. Valeurs nutritionnelles actuelles consultables sur le fabricant mais non fusionnées avec la référence historique."
+  },
+  "mq-dog-008": {
+    "sourceFabricant": "https://emea.acana.com/fr-FR/pour-chiens/eu-aca-adult.html",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La page officielle actuelle ACANA Adult Dog Recipe a été identifiée, mais sa composition (poulet frais et déshydraté, lentilles, pois chiches, hareng) diffère de la formule historique « Heritage Adult » enregistrée. Analyse actuelle : 29 % protéines, 17 % matières grasses, 5 % fibres, 7 % cendres, humidité 12 %, calcium 1,3 %, phosphore 1 %, oméga-3 1 %, oméga-6 2,6 % et énergie 3 510 kcal/kg. Aucune de ces valeurs n’est fusionnée dans l’ancienne fiche.",
+    "statutDonnees": "La formule officielle actuelle Adult Dog Recipe ne correspond pas à la composition historique Heritage Adult. Données actuelles conservées en note uniquement."
+  },
+  "mq-dog-009": {
+    "sourceFabricant": "https://emea.acana.com/fr-FR/pour-chiens/eu-aca-adult-large.html",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La page officielle actuelle ACANA Adult Large Breed a été identifiée, mais sa composition diffère de l’ancienne recette Heritage Adult Large Breed du catalogue. Analyse actuelle : 31 % protéines, 15 % matières grasses, 6 % fibres, 7 % cendres, humidité 12 %, calcium 1,4 %, phosphore 1,1 %, oméga-3 1,2 %, oméga-6 2,4 % et énergie 3 375 kcal/kg. Ces valeurs ne sont pas transférées à la fiche historique.",
+    "statutDonnees": "Formule actuelle Adult Large Breed différente de l’ancienne Heritage Adult Large Breed. Valeurs fabricant actuelles non fusionnées."
+  },
+  "mq-dog-010": {
+    "sourceFabricant": "https://emea.acana.com/fr-FR/pour-chiens/eu-aca-light-fit.html",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La page officielle ACANA Light & Fit actuelle a été identifiée. La recette actuelle utilise notamment 20,5 % de poulet frais et 20 % de poulet déshydraté, contre une ancienne composition différente dans la fiche historique. Analyse actuelle : 35 % protéines, 11 % matières grasses, 8 % fibres, 7 % cendres, humidité 12 %, calcium 1,7 %, phosphore 1,1 %, oméga-3 0,9 %, oméga-6 2,2 % et énergie 3 070 kcal/kg. Valeurs non fusionnées avec l’ancienne formule.",
+    "statutDonnees": "Formule actuelle Light & Fit différente de la composition historique enregistrée. Les valeurs fabricant actuelles restent séparées."
+  },
+  "mq-dog-011": {
+    "sourceFabricant": "https://emea.acana.com/fr-FR/pour-chiens/eu-aca-puppy-junior.html",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La page officielle actuelle ACANA Puppy Recipe (ancien nom commercial Puppy & Junior) a été retrouvée. La recette actuelle contient 18 % de poulet frais et 18 % de poulet déshydraté, alors que la composition historique du catalogue présente d’autres proportions et ingrédients. Analyse actuelle : 33 % protéines, 20 % matières grasses, 5 % fibres, 7 % cendres, humidité 12 %, calcium 1,5 %, phosphore 1,1 %, oméga-6 2,7 % et énergie 3 660 kcal/kg. La valeur oméga-3 est publiée à 1 % sur la fiche actuelle. Aucun chiffre n’est transféré à la fiche historique.",
+    "statutDonnees": "Puppy Recipe est la formule actuelle renommée et reformulée par rapport à l’ancienne référence Puppy & Junior. Données actuelles non fusionnées."
+  },
+  "mq-dog-013": {
+    "sourceFabricant": "https://emea.acana.com/fr-BE/pour-chiens/eu-aca-pacifica.html",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La page officielle ACANA Pacifica actuelle a été retrouvée. Sa composition actuelle (hareng, saumon, flet, huiles de poisson, etc.) diffère de la formule historique Pacifica du catalogue. Analyse actuelle : 35 % protéines, 17 % matières grasses, 6 % fibres, 7 % cendres, humidité 12 %, calcium 1,3 %, phosphore 1 %, oméga-3 2 %, oméga-6 2 % et énergie 3 850 kcal/kg. Valeurs conservées en note uniquement, sans mise à jour des champs de la formule historique.",
+    "statutDonnees": "La formule officielle actuelle Pacifica diffère de l’ancienne composition enregistrée. Valeurs actuelles non fusionnées."
+  },
+  "mq-dog-015": {
+    "sourceFabricant": "https://www.advance-affinity.com/fr/chien/nourriture-chien/adult-maxi-1000419.html",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "Fiche officielle Advance Adult Maxi consultée. La recette actuelle (poulet 16 %, blé complet 15 %, riz 10 %, pois, etc.) diffère de la composition historique du catalogue. Analyse actuelle : protéines 25 %, matières grasses 14,2 %, fibres 3 %, cendres 6,5 %, oméga-3 0,25 %, oméga-6 2,7 % ; taurine ajoutée 1 200 mg/kg. L’énergie, le calcium et le phosphore ne sont pas publiés sur cette page. Aucune valeur actuelle n’est fusionnée dans l’ancienne fiche.",
+    "statutDonnees": "La formule officielle Adult Maxi actuelle est différente de la composition historique enregistrée. Données actuelles laissées en note, sans fusion."
+  },
+  "mq-dog-016": {
+    "sourceFabricant": "https://www.advance-affinity.com/fr/chien/nourriture-chien/adult-medium-1000414.html",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "Fiche officielle Advance Adult Medium consultée. La recette actuelle (poulet 20 %, blé complet 17 %, riz 10 %, pois, etc.) diffère de la composition historique du catalogue. Analyse actuelle : protéines 25 %, matières grasses 16 %, fibres 3 %, cendres 7 %, oméga-3 0,3 % et oméga-6 2,9 %. Énergie, calcium et phosphore non publiés sur cette page. Valeurs actuelles non fusionnées avec la fiche historique.",
+    "statutDonnees": "La formule officielle Adult Medium actuelle est différente de la composition historique enregistrée. Valeurs actuelles conservées séparément."
+  },
+  "mq-dog-017": {
+    "sourceFabricant": "https://www.advance-affinity.com/fr/chien/nourriture-chien/adult-mini-1000404.html",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "Fiche officielle Advance Adult Mini consultée. La recette actuelle (poulet 20 %, blé complet 10 %, riz 10 %, pois, etc.) diffère de la composition historique du catalogue. Analyse actuelle : protéines 26 %, matières grasses 17 %, fibres 3 %, cendres 6,5 %, oméga-3 0,3 % et oméga-6 3,1 %. Énergie, calcium et phosphore non publiés sur cette page. Valeurs actuelles non fusionnées avec la fiche historique.",
+    "statutDonnees": "La formule officielle Adult Mini actuelle est différente de la composition historique enregistrée. Valeurs actuelles conservées séparément."
+  },
+  "mq-dog-018": {
+    "sourceFabricant": "https://www.advance-affinity.com/en/dog/food-dog/adult-sensitive-care-lamb-1000428.html",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "Fiche officielle Advance Adult Sensitive Care Lamb consultée. La recette actuelle (agneau 17 %, protéine de maïs, maïs entier, riz 14 %, etc.) diffère de la composition historique enregistrée. Analyse actuelle : protéines 25 %, matières grasses 17 %, fibres 2,7 %, cendres 7,2 %, oméga-3 0,45 % et oméga-6 2,7 %. Énergie, calcium et phosphore non publiés sur cette page. Aucune donnée actuelle n’est fusionnée dans l’ancienne fiche.",
+    "statutDonnees": "La formule officielle Adult Sensitive Care Lamb actuelle diffère de l’ancienne référence Sensitive Adult Agneau/Riz. Valeurs actuelles conservées séparément."
+  }
+};
+window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
+ const update = crocamiBrandFormulaReview20261106[p.id];
+ return update ? {...p, ...update} : p;
+});
