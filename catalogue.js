@@ -444,3 +444,27 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiAllevaUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* YARRAH : liens officiels ajoutés et changements de recette identifiés ; aucune analyse actuelle n'est fusionnée avec les anciennes fiches Macroquette lorsque la composition diffère. */
+const crocamiYarrahUpdates = {
+ "mq-dog-095": {
+  sourceFabricant:"https://www.yarrah.com/fr/croquettes-biologiques-sans-cereales-10kg/17164/",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_différente",
+  statutDonnees:"La fiche officielle Yarrah Grain Free actuelle indique 18 % de farine de poulet, avec une recette et des constituants analytiques différents de l'ancienne composition Macroquette (poulet séché 6 %). Les valeurs de la formule actuelle ne sont pas fusionnées avec cette ancienne fiche."
+ },
+ "mq-dog-096": {
+  sourceFabricant:"https://www.yarrah.com/fr/croquettes-biologiques-pour-chien-senior/",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_à_confirmer",
+  statutDonnees:"La fiche officielle Yarrah Senior actuelle publie protéines 25 %, matières grasses 10 %, fibres 3 %, cendres 6,3 %, humidité 8 %, calcium 1,2 %, phosphore 0,9 %, taurine 1 088 mg/kg et énergie 3 480 kcal/kg. La liste d'ingrédients a évolué par rapport à la fiche Macroquette (17 % poulet séché) : les données actuelles sont signalées mais non fusionnées sans confirmation de l'étiquette."
+ },
+ "mq-cat-076": {
+  sourceFabricant:"https://www.yarrah.com/fr/croquettes-biologiques-sans-cereales-pour-chat-sterilise-6kg/17109/",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_différente",
+  statutDonnees:"La recette officielle actuelle pour chat stérilisé est à 18 % de farine de poulet et publie protéines 35 %, matières grasses 11 %, fibres 5 %, cendres 8 %, humidité 8 %, calcium 1,2 %, phosphore 1 %, taurine 2 600 mg/kg et énergie 3 530 kcal/kg. La fiche Macroquette décrit une ancienne formule (poulet séché 21 %, 33 % protéines et 10 % matières grasses) : aucune donnée actuelle n'est mélangée à l'ancienne recette."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiYarrahUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
