@@ -519,3 +519,36 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiCarniloveUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* CONCEPT FOR LIFE, FRANKLIN ET GOLDEN EAGLE : enrichissement par formule exacte, sans fusionner les recettes récentes et historiques. */
+const crocamiNextBrandUpdates = {
+ "mq-dog-049": {
+  proteines:26, matieresGrasses:17, fibres:2, cendres:6.8, calcium:1.15, phosphore:0.95, sodium:0.35,
+  omega3:1, omega6:3.9, energie:3964,
+  sourceRevendeur:"https://www.zooplus.ch/fr/shop/chien/croquettes_chien/concept_for_life/concept_for_life_large/1215791",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée_partielle",
+  compositionComplete:"Protéines de volaille (23,5 %, en partie séchées et hydrolysées à 14 %), viande fraîche de poulet (20 %), riz, maïs, graisse de volaille, farine de riz, pulpe de betterave séchée, graines de lin, protéines de maïs, lignocellulose, phosphate monocalcique, huile de saumon (0,4 %), œuf en poudre, chlorure de sodium, chlorure de potassium, huile de tournesol (0,3 %), levure de bière déshydratée, inuline de chicorée (0,1 %), glucosamine (0,04 %) et sulfate de chondroïtine (0,02 %).",
+  additifs:"Vitamine A 12 000 UI/kg ; vitamine D3 1 400 UI/kg ; vitamine E 300 UI/kg ; vitamine C 300 mg/kg ; vitamine B1 12 mg/kg ; B2 12 mg/kg ; B6 8 mg/kg ; B12 180 µg/kg ; niacine 35 mg/kg ; pantothénate de calcium 35 mg/kg ; acide folique 1,2 mg/kg ; biotine 300 µg/kg ; choline 2 500 mg/kg ; cuivre 12,5 mg/kg ; zinc 160 mg/kg au total ; fer 250 mg/kg ; manganèse 30 mg/kg ; iode 2,2 mg/kg ; sélénium 0,40 mg/kg.",
+  statutDonnees:"Fiche Zooplus de la recette Concept for Life Large Adult recoupée : protéines 26 %, matières grasses 17 %, fibres 2 %, cendres 6,8 %, calcium 1,15 %, phosphore 0,95 %, sodium 0,35 %, oméga-3 1 %, oméga-6 3,9 % et énergie 3 964 kcal/kg. Composition et additifs détaillés repris de la même fiche. La marque est une marque propre Zooplus ; aucune source fabricant indépendante n'est publiée."
+ },
+ "mq-dog-053": {
+  proteines:27, matieresGrasses:9, fibres:3.5, cendres:8.5, humidite:8, calcium:1.7, phosphore:1.1,
+  omega3:1, omega6:1.8,
+  sourceRevendeur:"https://www.jaiplusdecroquettes.com/shop/14489-25941-chien-light-dinde-patates-douces-et-canneberge-12-kg",
+  sourceComplementaire:"https://www.wouafmiaou.com/franklin-light-dinde-patate-douce-canneberge-2046.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"recoupée_revendeur",
+  compositionComplete:"Dinde 50 % (27 % de dinde fraîchement préparée, 21 % de dinde séchée et 2 % de bouillon de dinde), patate douce (16 %), pommes de terre, petits pois, pulpe de betterave, graines de lin, supplément d'oméga-3, vitamines et minéraux, bouillon de légumes, canneberges (équivalent de 7,5 g/kg), glucosamine (170 mg/kg), méthylsulfonylméthane (170 mg/kg), sulfate de chondroïtine (125 mg/kg), FOS (92 mg/kg) et MOS (23 mg/kg).",
+  additifs:"Vitamine A 15 000 UI/kg ; vitamine D3 2 250 UI/kg ; fer 160 mg/kg ; iode 1,58 mg/kg ; cuivre 60 mg/kg ; manganèse 110 mg/kg ; zinc 130 mg/kg ; sélénium 0,60 mg/kg ; L-carnitine 450 mg/kg.",
+  statutDonnees:"Ancienne recette Franklin Dinde, patate douce et canneberge recoupée chez deux revendeurs : protéines 27 %, matières grasses 9 %, fibres 3,5 %, cendres 8,5 %, humidité 8 %, calcium 1,7 %, phosphore 1,1 %, oméga-3 1 % et oméga-6 1,8 %. La fiche officielle Franklin actuelle présente une recette différente (dinde 63 %, patate douce 18 %, courge et épinards) : ses valeurs ne sont pas fusionnées avec cette ancienne recette. Énergie non retenue faute de confirmation pour cette version exacte."
+ },
+ "mq-dog-054": {
+  sourceFabricant:"https://www.goldeneaglepetfoods.com/products/lg-adult-holistic/",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_actuelle_à_confirmer",
+  statutDonnees:"La fiche officielle Golden Eagle Holistic Large Breed Adult confirme une recette très proche (farine de poulet >24 %, riz brun >19 %, riz blanc >18 %) mais publie des analyses actuelles différentes : protéines 25 %, matières grasses 12 %, fibres 3,5 %, cendres 9 %, humidité 8 %, calcium 1,3 %, phosphore 1,1 %, oméga-3 0,7 % et oméga-6 2,8 %. La fiche Macroquette décrit une formule/étiquette antérieure (24 % protéines, 14 % matières grasses, 3,6 % fibres, 9,5 % cendres) : les valeurs actuelles ne sont pas fusionnées tant que l'identité de version du sac n'est pas confirmée."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiNextBrandUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
