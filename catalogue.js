@@ -936,3 +936,33 @@ window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
  const update = crocamiBrandFormulaReview20261106d[p.id];
  return update ? {...p, ...update} : p;
 });
+
+
+/* DONNEES STRUCTUREES DES FORMULES FABRICANT ACTUELLES — 06/11/2026.
+   Ces valeurs restent dans un bloc distinct lorsque la formule diffère de la référence historique Crocami.
+   Ne pas les utiliser pour calculer la note ou le RPC de la fiche historique. */
+const crocamiCurrentManufacturerSheets20261106 = {
+ "mq-dog-001": {formule:"1st Choice Puppy Toy & Small Breeds — formule actuelle",proteines:30,matieresGrasses:18,energie:3737,calciumMinimum:1.25,phosphoreMinimum:1,dhaMinimum:0.03},
+ "mq-dog-002": {formule:"1st Choice Hypoallergène Canard — formule actuelle",proteines:22,matieresGrasses:12,energie:3325,calciumMinimum:1.3,phosphoreMinimum:0.9},
+ "mq-dog-003": {formule:"1st Choice Contrôle du poids — formule actuelle",proteines:24,matieresGrasses:9,energie:3275,calciumMinimum:1.1,phosphoreMinimum:0.8},
+ "mq-dog-004": {formule:"1st Choice Adulte Moyennes et Grandes races — formule actuelle",proteines:24,matieresGrasses:14,energie:3495,calciumMinimum:1,phosphoreMinimum:0.75},
+ "mq-dog-007": {formule:"ACANA Classics Red Meat — formule actuelle",proteines:27,matieresGrasses:16,fibres:5,cendres:8,humidite:12,calcium:1.6,phosphore:1.1,omega3:0.3,omega6:2.2,energie:3425},
+ "mq-dog-008": {formule:"ACANA Adult Dog Recipe — formule actuelle",proteines:29,matieresGrasses:17,fibres:5,cendres:7,humidite:12,calcium:1.3,phosphore:1,omega3:1,omega6:2.6,energie:3510},
+ "mq-dog-009": {formule:"ACANA Adult Large Breed — formule actuelle",proteines:31,matieresGrasses:15,fibres:6,cendres:7,humidite:12,calcium:1.4,phosphore:1.1,omega3:1.2,omega6:2.4,energie:3375},
+ "mq-dog-010": {formule:"ACANA Light & Fit — formule actuelle",proteines:35,matieresGrasses:11,fibres:8,cendres:7,humidite:12,calcium:1.7,phosphore:1.1,omega3:0.9,omega6:2.2,energie:3070},
+ "mq-dog-011": {formule:"ACANA Puppy Recipe — formule actuelle",proteines:33,matieresGrasses:20,fibres:5,cendres:7,humidite:12,calcium:1.5,phosphore:1.1,omega3:1,omega6:2.7,energie:3660},
+ "mq-dog-013": {formule:"ACANA Pacifica — formule actuelle",proteines:35,matieresGrasses:17,fibres:6,cendres:7,humidite:12,calcium:1.3,phosphore:1,omega3:2,omega6:2,energie:3850},
+ "mq-dog-015": {formule:"Advance Adult Maxi — formule actuelle",proteines:25,matieresGrasses:14.2,fibres:3,cendres:6.5,omega3:0.25,omega6:2.7,taurine:1200},
+ "mq-dog-016": {formule:"Advance Adult Medium — formule actuelle",proteines:25,matieresGrasses:16,fibres:3,cendres:7,omega3:0.3,omega6:2.9},
+ "mq-dog-017": {formule:"Advance Adult Mini — formule actuelle",proteines:26,matieresGrasses:17,fibres:3,cendres:6.5,omega3:0.3,omega6:3.1},
+ "mq-dog-018": {formule:"Advance Adult Sensitive Care Lamb — formule actuelle",proteines:25,matieresGrasses:17,fibres:2.7,cendres:7.2,omega3:0.45,omega6:2.7},
+ "mq-dog-019": {formule:"Alleva Holistic Adult Venison & Lamb Medium/Maxi — formule actuelle",proteines:35,matieresGrasses:18,fibres:3,cendres:8.6,humidite:9,calcium:1.5,phosphore:1.2,omega3:1.3,omega6:2.3,energie:3851},
+ "mq-dog-020": {formule:"Alleva Natural Adult Chicken & Pumpkin Maxi — formule actuelle",energie:3920},
+ "mq-cat-010": {formule:"Alleva Holistic Adult & Neutered Chicken & Duck — formule actuelle",proteines:42,matieresGrasses:18,fibres:2,cendres:8.3,humidite:7,calcium:1.5,phosphore:1.2,omega3:1.2,omega6:4,energie:4045},
+ "mq-cat-011": {formule:"Alleva Holistic Kitten Chicken & Duck — formule actuelle",proteines:44,matieresGrasses:20,fibres:1.4,cendres:8.4,humidite:7,calcium:1.6,phosphore:1.3,omega3:1.3,omega6:4.3,dha:0.7,epa:0.4,energie:4174},
+ "mq-cat-013": {formule:"Almo Nature Sterilised with Fresh Salmon — formule actuelle",proteines:33,matieresGrasses:11,fibres:3,cendres:7.9,humidite:9,calcium:1.7,phosphore:1.2,omega3:1.2,omega6:2.3,energie:3622,taurine:710}
+};
+for (const product of window.CROCamiCatalog) {
+ const current = crocamiCurrentManufacturerSheets20261106[product.id];
+ if (current) product.donneesFabricantActuelles = current;
+}
