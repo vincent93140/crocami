@@ -444,9 +444,10 @@ window.CROCamiManufacturerData = {
   c10: {
     imageProduit:"https://www.purina.fr/sites/default/files/2022-01/PURINA%20CAT%20CHOW%C2%AE%20ADULT%20-%20Croquettes%20pour%20chats%20adultes_4.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chat/alimentation/cat-chow-adulte-poulet",
-    proteines:32, matieresGrasses:11, fibres:2.5, cendres:8,
+    sourceRevendeur:"https://www.zooplus.fr/shop/chats/croquettes_chat/croquettes_cat_chow/adult/573928",
+    proteines:32, matieresGrasses:11, fibres:2.5, cendres:8, taurine:800,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Protéines, matières grasses, fibres, cendres, composition, additifs et ration vérifiés sur la fiche officielle Purina CAT CHOW Adult riche en poulet. La fiche consultée ne publie pas l’énergie métabolisable, le calcium, le phosphore ni la taurine.",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, composition, additifs et ration vérifiés sur la fiche officielle Purina CAT CHOW Adult riche en poulet. Taurine 800 mg/kg ajoutée depuis Zooplus pour cette même recette. Énergie métabolisable, calcium et phosphore non publiés sur les sources consultées.",
     compositionComplete:"Céréales (céréales complètes 48 %), viandes et sous-produits animaux 25 % (dont poulet 14 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 2 %, carottes et pois séchés), substances minérales, levures 0,3 %.",
     additifs:"Vitamine A 18 200 UI/kg ; D3 1 060 UI/kg ; E 85 UI/kg ; fer 230 mg/kg ; iode 2,8 mg/kg ; cuivre 33 mg/kg ; manganèse 17 mg/kg ; zinc 305 mg/kg ; sélénium 0,40 mg/kg ; antioxygènes.",
     ration:"2–4 kg : 30–60 g ; 4–6 kg : 60–90 g/jour."
