@@ -336,3 +336,43 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiManufacturerSync[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* ADVANCE : recoupement des anciennes recettes Macroquette avec les fiches revendeurs encore disponibles. Les pages officielles actuelles sont signalées lorsqu'elles décrivent une nouvelle formule. */
+const crocamiAdvanceUpdates = {
+ "mq-dog-015": {
+  proteines:27, matieresGrasses:15, fibres:2.5, cendres:7, humidite:9, calcium:1.1, phosphore:1, taurine:1200,
+  sourceRevendeur:"https://www.veto-plus.fr/alimentation/1605-2737-advance-maxi-adult-poulet-chien.html",
+  sourceComplementaire:"https://www.polytrans.fr/croquettes-advance-pour-chiens-maxi-adult-sac-14-kg.html",
+  dateVerificationFabricant:"2026-11-06",
+  statutDonnees:"Ancienne recette Adult Maxi recoupée chez Veto-Plus : protéines 27 %, matières grasses 15 %, fibres 2,5 %, cendres 7 %, humidité 9 %, calcium 1,1 %, phosphore 1 % et taurine 1 200 mg/kg. Les pages d'autres revendeurs présentent des analyses différentes pour des recettes plus récentes ; énergie non reprise faute de concordance certaine de formule."
+ },
+ "mq-dog-016": {
+  proteines:27, matieresGrasses:18.5, fibres:2, cendres:6.5, humidite:9, calcium:1.3, phosphore:1, taurine:1200,
+  sourceFabricant:"https://www.advance-affinity.com/fr/chien/nourriture-chien/adult-medium-1000414.html",
+  sourceRevendeur:"https://www.truffaut.com/croquettes-chien-adult-medium-advance.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_historique_recoupée_revendeur",
+  additifs:"Vitamine A 27 000 UI/kg ; vitamine D3 1 800 UI/kg ; vitamine E 670 mg/kg ; vitamine C 500 mg/kg ; taurine 1 200 mg/kg ; fer 85 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 144 mg/kg ; sélénium 0,11 mg/kg.",
+  statutDonnees:"L'ancienne recette Macroquette (poulet 20 %, riz 15 %) correspond à la fiche revendeur Truffaut : protéines 27 %, matières grasses 18,5 %, fibres 2 %, cendres 6,5 %, humidité 9 %, calcium 1,3 %, phosphore 1 % et taurine 1 200 mg/kg. La fiche officielle Advance actuelle décrit une formule modifiée (blé complet 17 %, riz 10 %, 25 % protéines et 16 % matières grasses) : ses valeurs ne sont pas mélangées avec l'ancienne recette."
+ },
+ "mq-dog-017": {
+  proteines:28, matieresGrasses:19, fibres:2, cendres:6.5, humidite:9, calcium:1.3, phosphore:1, taurine:1200,
+  sourceFabricant:"https://www.advance-affinity.com/fr/chien/nourriture-chien/adult-mini-1000404.html",
+  sourceRevendeur:"https://www.truffaut.com/croquettes-chien-adult-mini-advance.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_historique_recoupée_revendeur",
+  additifs:"Vitamine A 27 000 UI/kg ; vitamine D3 1 800 UI/kg ; vitamine E 670 mg/kg ; vitamine C 500 mg/kg ; taurine 1 200 mg/kg ; fer 85 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 144 mg/kg ; sélénium 0,11 mg/kg.",
+  statutDonnees:"L'ancienne recette Macroquette (poulet 20 %, riz 15 %) est recoupée chez Truffaut : protéines 28 %, matières grasses 19 %, fibres 2 %, cendres 6,5 %, humidité 9 %, calcium 1,3 %, phosphore 1 % et taurine 1 200 mg/kg. La fiche officielle Advance actuelle décrit une formule différente (blé complet 10 %, riz 10 %, 26 % protéines et 17 % matières grasses) : valeurs actuelles non fusionnées."
+ },
+ "mq-dog-018": {
+  proteines:26, matieresGrasses:17, fibres:2, cendres:7, omega3:0.3, omega6:2.8,
+  sourceRevendeur:"https://jmt-alimentation-animale.com/produits/advance-chien-agneau-riz/",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée_partielle",
+  compositionComplete:"Agneau (17 %), maïs, protéine de maïs, riz (14 %), graisse animale stabilisée avec un mélange de tocophérols d’origine naturelle, protéines déshydratées d’agneau, farine de maïs, pulpe de betterave, arôme hypoallergénique, huile de poisson, chlorure de potassium, fructo-oligosaccharides, sel, polyphénols naturels (0,01 %).",
+  additifs:"Vitamine A 27 000 UI/kg ; vitamine D3 1 800 UI/kg ; vitamine E 500 mg/kg ; biotine 0,3 mg/kg ; fer 86 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 148 mg/kg ; sélénium 0,1 mg/kg ; antioxygènes naturels.",
+  statutDonnees:"Composition de l'ancienne recette (agneau 17 %, riz 14 %) recoupée chez JMT. Les analyses du revendeur consulté sont 26 % protéines, 17 % matières grasses, 2 % fibres, 7 % cendres, oméga-3 0,3 % et oméga-6 2,8 %. Macroquette publie 28/18/2/7 : l'écart est signalé, les valeurs de la fiche revendeur sont retenues pour cette composition. Calcium, phosphore et énergie non publiés dans cette source."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiAdvanceUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
