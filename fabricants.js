@@ -24,7 +24,7 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-kids.html",
     proteines:25, matieresGrasses:12, fibres:2.3, cendres:6.7, calcium:1.3, phosphore:1, sodium:0.4, magnesium:0.1, taurine:1000, energie:3675,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Taurine (1 000 mg/kg) confirmée sur la fiche officielle Josera ; les oméga-3 sont mentionnés qualitativement, sans quantité chiffrée publiée."
+    noteFabricant:"Taurine (1 000 mg/kg) confirmée sur la fiche officielle Josera ; les oméga-3 sont mentionnés qualitativement, sans quantité chiffrée publiée.",
     compositionComplete:"Protéines de volaille déshydratées 27,5 % (dont poulet 40 %), grains de maïs entier, riz 25 %, pulpe de betterave, graisse de volailles, protéines de volaille hydrolysées, substances minérales, huile de saumon 0,8 %, levure, poudre de chicorée, chair séchée de moule verte de Nouvelle-Zélande.",
     additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 220 mg/kg ; C 200 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; L-carnitine 250 mg/kg ; fer 120 mg/kg ; zinc 140 mg/kg ; manganèse 10 mg/kg ; cuivre 14 mg/kg ; iode 1,6 mg/kg ; sélénium 0,10 mg/kg.",
     noteFabricant:"Énergie métabolisable : 15,4 MJ/kg, soit 3 675 kcal/kg."
@@ -90,7 +90,7 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-light-vital.html",
     proteines:29, matieresGrasses:7.5, fibres:7, cendres:6.7, calcium:1.3, phosphore:0.9, sodium:0.35, taurine:1500, energie:3162,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Taurine (1 500 mg/kg) confirmée sur la fiche officielle Josera. Le magnésium n'est pas indiqué dans la fiche produit actuellement publiée ; il reste non renseigné."
+    noteFabricant:"Taurine (1 500 mg/kg) confirmée sur la fiche officielle Josera. Le magnésium n'est pas indiqué dans la fiche produit actuellement publiée ; il reste non renseigné.",
     compositionComplete:"Protéines de volaille déshydratées 29 % (dont poulet 40 %), farine de pois, orge complète, lignocellulose, pulpe de betterave, protéines de volaille hydrolysées, graisse de volailles, caroube moulue déshydratée, levure partiellement hydrolysée, substances minérales, fines herbes, fruits, psyllium, chair séchée de moule verte de Nouvelle-Zélande.",
     additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 400 mg/kg ; C 150 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; L-carnitine 500 mg/kg ; fer 110 mg/kg ; zinc 120 mg/kg ; manganèse 9 mg/kg ; cuivre 12 mg/kg ; iode 1,4 mg/kg ; sélénium 0,10 mg/kg."
   },
