@@ -1083,3 +1083,43 @@ window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
   const update = crocamiCarniloveCurrent20261106[p.id];
   return update ? {...p, ...update} : p;
 });
+
+
+/* AUDIT FABRICANT — 1ST CHOICE CHAT (06/11/2026).
+   Les garanties sont conservées comme minima/maxima, sans les assimiler à des valeurs mesurées. */
+const crocamiFirstChoiceCat20261106 = {
+  "mq-cat-001": {
+    sourceFabricant: "https://www.1stchoice.ca/en-ca/products/1st/cat/adult/all-breeds/chicken/weight-control/",
+    verificationFabricant: "confirmée_partielle",
+    dateVerificationFabricant: "2026-11-06",
+    noteFabricant: "Fiche officielle 1st Choice Weight Control Cat consultée. Valeurs confirmées : protéines 29 % min., matières grasses 10 % min., énergie métabolisable 3 187 kcal/kg, taurine 2 100 mg/kg. Garanties complémentaires : fibres 6 % max., humidité 10 % max., cendres 9 % max., calcium 1 % min., phosphore 0,8 % min., magnésium 0,1 % max. La page ne donne pas de valeurs chiffrées oméga. Les minima/maxima garantis ne sont pas des valeurs analytiques mesurées.",
+    statutDonnees: "Fiche fabricant actuelle retrouvée ; valeurs garanties et énergie structurées sans transformer les minima/maxima en valeurs mesurées.",
+    donneesFabricantActuelles: {
+      formule: "1st Choice Weight Control Cat — formule actuelle",
+      proteinesMinimum: 29, matieresGrassesMinimum: 10,
+      fibresMaximum: 6, humiditeMaximum: 10, cendresMaximum: 9,
+      calciumMinimum: 1, phosphoreMinimum: 0.8, magnesiumMaximum: 0.1,
+      energie: 3187, taurine: 2100
+    }
+  },
+  "mq-cat-003": {
+    sourceFabricant: "https://www.1stchoice.ca/en-ca/products/1st/cat/adult/all-breeds/chicken/indoor-vitality/",
+    verificationFabricant: "confirmée_partielle",
+    dateVerificationFabricant: "2026-11-06",
+    noteFabricant: "Fiche officielle 1st Choice Indoor Vitality Cat consultée. Analyse garantie : protéines 28 % min., matières grasses 18 % min., fibres 3 % max., humidité 10 % max., cendres 8,5 % max., calcium 1,1 % min., phosphore 0,9 % min., magnésium 0,1 % max. Énergie métabolisable : 3 685 kcal/kg. Taurine 2 100 mg/kg ; mannan-oligosaccharides 1 000 mg/kg et fructo-oligosaccharides 500 mg/kg. Les valeurs garanties restent identifiées comme minima/maxima.",
+    statutDonnees: "Fiche fabricant actuelle consultée ; analyse garantie, énergie et additifs structurés. Oméga chiffrés non publiés sur cette page.",
+    donneesFabricantActuelles: {
+      formule: "1st Choice Indoor Vitality Cat — formule actuelle",
+      proteinesMinimum: 28, matieresGrassesMinimum: 18,
+      fibresMaximum: 3, humiditeMaximum: 10, cendresMaximum: 8.5,
+      calciumMinimum: 1.1, phosphoreMinimum: 0.9, magnesiumMaximum: 0.1,
+      energie: 3685, taurine: 2100,
+      mannanOligosaccharides: 1000, fructoOligosaccharides: 500
+    }
+  }
+};
+window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
+  const update = crocamiFirstChoiceCat20261106[p.id];
+  if (!update) return p;
+  return {...p, ...update};
+});
