@@ -290,6 +290,9 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://www.ultima-affinity.com/dw/image/v2/BDGX_PRD/on/demandware.static/-/Sites-ULTIMA-m-catalog/default/dwbd2bc51a/images/catalog/3700260417774/3d-Pack/largeImage.png?q=100",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.ultima-affinity.com/fr/fr/chat/nourriture-chat/seche-sterilise-adult-poulet-1000260.html",
+    taurine:1100,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Composition et ration vérifiées sur la fiche officielle Ultima. La page fabricant ne publie pas les constituants analytiques chiffrés ; la taurine à 1 100 mg/kg est relevée chez le revendeur Match pour la même référence (EAN 8410650162065). Les autres valeurs analytiques ne sont pas ajoutées faute de données suffisamment visibles et vérifiables.",
     compositionComplete:"Poulet 17 % (dont os, viande, peau), protéine de maïs, blé complet 13 %, pois déshydratés 11 %, protéines déshydratées de volaille, orge complète 6 %, protéines animales hydrolysées (volaille, porc, poisson), maïs complet 4 %, protéines déshydratées de porc, graisse animale (volaille, porc), protéines déshydratées de bœuf, substances minérales, poudre de cellulose, fibre de pois, pulpe de betterave.",
     ration:"2–4 kg : 30–50 g (activité +) ou 35–60 g (activité ++) ; 4–6 kg : 50–65 ou 60–75 g ; 6–8 kg : 65–75 ou 75–90 g/jour.",
     noteFabricant:"La fiche officielle consultée fournit la composition et la ration, mais ne publie pas les constituants analytiques dans la page récupérée."
@@ -325,6 +328,8 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.whiskas.fr/nos-produits/croquettes/classique/whiskas-croquettes-au-poulet-pour-chat-adulte-3-8kg-7kg",
     proteines:30, matieresGrasses:12.4, fibres:1.8, cendres:8.2, omega6:2.6,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, oméga-6, composition et taurine (1 850 mg/kg) confirmés sur la fiche officielle Whiskas Croquettes au poulet pour chat adulte. La page ne publie pas l’énergie métabolisable, le calcium ni le phosphore.",
     compositionComplete:"Céréales, viandes et sous-produits animaux 29 % (dont poulet 4 % dans les croquettes marron clair), huiles et graisses, sous-produits d’origine végétale, substances minérales, extraits de protéines végétales, légumes (carottes déshydratées 0,5 % et petits pois déshydratés 1 % dans certaines croquettes).",
     additifs:"Vitamine A 4 910 UI/kg ; D3 542 UI/kg ; E 97,2 mg/kg ; taurine 1 850 mg/kg ; cuivre 4 mg/kg ; iode 1 mg/kg ; manganèse 21,6 mg/kg ; sélénium 0,18 mg/kg ; zinc 61,1 mg/kg ; antioxygènes et colorants.",
     ration:"3 kg : 35 g ; 4 kg : 45 g ; 5 kg : 55 g par jour (croquettes seules)."
@@ -391,6 +396,8 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://www.purina.fr/sites/default/files/2022-01/PURINA%20CAT%20CHOW%C2%AE%20ADULT%20-%20Croquettes%20pour%20chats%20adultes_4.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chat/alimentation/cat-chow-adulte-poulet",
     proteines:32, matieresGrasses:11, fibres:2.5, cendres:8,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, composition, additifs et ration vérifiés sur la fiche officielle Purina CAT CHOW Adult riche en poulet. La fiche consultée ne publie pas l’énergie métabolisable, le calcium, le phosphore ni la taurine.",
     compositionComplete:"Céréales (céréales complètes 48 %), viandes et sous-produits animaux 25 % (dont poulet 14 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 2 %, carottes et pois séchés), substances minérales, levures 0,3 %.",
     additifs:"Vitamine A 18 200 UI/kg ; D3 1 060 UI/kg ; E 85 UI/kg ; fer 230 mg/kg ; iode 2,8 mg/kg ; cuivre 33 mg/kg ; manganèse 17 mg/kg ; zinc 305 mg/kg ; sélénium 0,40 mg/kg ; antioxygènes.",
     ration:"2–4 kg : 30–60 g ; 4–6 kg : 60–90 g/jour."
