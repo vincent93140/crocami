@@ -298,6 +298,8 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://media.zooplus.com/bilder/4/800/382910_pla_perfectfit_sterile_1plus_reichhuhn_hs_01_4.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.perfect-fit.fr/products/cat-dry/perfect-fit-adult-1-croquettes-riche-en-poulet-chat-adulte-sterilise-28kg",
     proteines:34, matieresGrasses:14.5, fibres:3, cendres:8, calcium:0.88, phosphore:0.88, energie:3860,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, cellulose, cendres, calcium, phosphore, énergie (386 kcal/100 g) et taurine (950 mg/kg) confirmés sur la fiche officielle Perfect Fit Adult 1+ Sterilised Chicken.",
     compositionComplete:"Viandes et sous-produits animaux (dont poulet 14 %), blé, maïs, extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, substances minérales, levures (dont levure de bière naturelle 0,2 %).",
     additifs:"Vitamines B1 13,5 mg/kg ; B2 23,1 mg/kg ; B6 6 mg/kg ; C 210 mg/kg ; D3 750 UI/kg ; E 100 mg/kg ; taurine 950 mg/kg ; cuivre 1,7 mg/kg ; iode 0,41 mg/kg ; fer 37,5 mg/kg ; manganèse 24,8 mg/kg ; sélénium 0,18 mg/kg ; zinc 70,1 mg/kg ; antioxygènes et colorants."
   },
@@ -312,6 +314,8 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://www.purina.rs/sites/default/files/2026-01/7613033923586_friskies_pisica_pui_1.5kg_1.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chat/alimentation/friskies-croquettes-adulte-poulet",
     proteines:30, matieresGrasses:11, fibres:3, cendres:7.5,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, composition, additifs et taurine (870 mg/kg) vérifiés sur la fiche officielle Purina FRISKIES Adulte poulet et légumes. La fiche consultée ne publie pas l’énergie métabolisable, le calcium ni le phosphore.",
     compositionComplete:"Céréales, viandes et sous-produits animaux (dont poulet 3 % et lapin 1 % dans certaines croquettes ; teneur totale du produit : poulet 2,4 % et lapin 0,8 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, substances minérales, légumes (pois et carottes séchés), levures.",
     additifs:"Vitamine A 12 500 UI/kg ; D3 1 000 UI/kg ; E 89 UI/kg ; fer 47 mg/kg ; iode 1,5 mg/kg ; cuivre 8,9 mg/kg ; manganèse 5,1 mg/kg ; zinc 66 mg/kg ; sélénium 0,10 mg/kg ; taurine 870 mg/kg.",
     ration:"3 kg : 45 g ; 4 kg : 60 g ; 5 kg : 75 g/jour."
@@ -377,6 +381,8 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://i.ebayimg.com/images/g/9XoAAOSw2ktj5OTy/s-l1200.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.bosch-tiernahrung.de/bosch_de_en/adult-huhn-blaubeeren.html",
     proteines:31, matieresGrasses:16, fibres:2, cendres:6.9, humiditeFabricant:10, humidite:10, calcium:1.15, phosphore:1, sodium:0.4, potassium:0.5, magnesium:0.07, energie:3910,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Valeurs analytiques, humidité, énergie (391 kcal/100 g), calcium, phosphore, sodium, potassium, magnésium et taurine (2 000 mg/kg) vérifiés sur la fiche officielle Bosch Sanabelle Adult Huhn. La page actuelle ne publie pas de valeurs chiffrées pour les oméga.",
     compositionComplete:"Viande fraîche de poulet 25 %, maïs, orge, protéines de volaille (déshydratées), graisse animale, protéines de maïs, hydrolysat de protéines, graines de lin, carbonate de calcium, riz 1 %, farine de foie, pois séchés 0,4 %, airelles 0,1 %, myrtilles 0,1 %, persil séché 0,1 %, levure séchée 0,1 %, chlorure de potassium, fleurs de souci 0,05 %.",
     additifs:"Vitamine A 17 000 UI/kg ; D3 1 500 UI/kg ; B1 20 mg/kg ; B2 20 mg/kg ; B6 20 mg/kg ; B12 40 µg/kg ; biotine 275 µg/kg ; acide pantothénique 20 mg/kg ; niacine 80 mg/kg ; taurine 2 000 mg/kg ; acide folique 2 mg/kg ; choline 2 450 mg/kg ; E 150 mg/kg ; zinc 40 mg/kg (chélate) et 30 mg/kg (oxyde) ; cuivre 10 mg/kg ; iode 2 mg/kg ; sélénium 0,2 mg/kg.",
     ration:"2–3 kg : 40–55 g ; 4–5 kg : 65–75 g ; 6–7 kg : 85–95 g ; 8 kg : 105 g/jour."
