@@ -49,19 +49,19 @@ Sur les 170 fiches Macroquette, après les enrichissements du 6 novembre 2026 :
 - Composition complète : 170/170.
 - Protéines, matières grasses, fibres et cendres : 170/170.
 - Glucides estimés : 163/170.
-- Humidité : 13/170.
-- Calcium et phosphore individuels : 20/170; une fiche supplémentaire publie seulement le ratio Ca/P (1,11:1).
+- Humidité : 15/170.
+- Calcium et phosphore individuels : 22/170; une fiche supplémentaire publie seulement le ratio Ca/P (1,11:1).
 - Magnésium : 10/170.
-- Sodium : 8/170.
-- Énergie métabolisable issue d'une source fabricant : 15/170; 155 restent non renseignées faute de valeur fabricant vérifiée pour la formulation exacte.
-- Oméga 3 et oméga 6 : 17/170.
-- Taurine : 13/170.
+- Sodium : 9/170.
+- Énergie métabolisable issue d'une source fabricant : 17/170; 153 restent non renseignées faute de valeur fabricant vérifiée pour la formulation exacte.
+- Oméga 3 et oméga 6 : 18/170.
+- Taurine : 14/170.
 - Additifs : 7/170.
 - Rations journalières : 3/170.
-- Lien fabricant enregistré : 21/170.
-- RPC exploitable : 167/170 (15 calculés avec l'énergie fabricant, 152 publiés par Macroquette); 3 fiches restent sans RPC vérifiable.
+- Lien fabricant enregistré : 23/170.
+- RPC exploitable : 167/170 (17 calculés avec l'énergie fabricant, 150 publiés par Macroquette); 3 fiches restent sans RPC vérifiable.
 - Notes Crocami contrôlées : 169/170 calculables; 1 fiche n'atteint pas le seuil minimal de couverture. Aucun score invalide détecté.
-- Couverture moyenne des critères : 54,3 %; fiabilité affichée pour chaque fiche.
+- Couverture moyenne des critères : 54,8 %; fiabilité affichée pour chaque fiche.
 
 Les données publiées par les fabricants priment lorsqu'une fiche officielle actuelle et identifiable est disponible. Lorsqu'une donnée n'est publiée que par un revendeur, la fiche le précise. Les variantes de formule et les écarts entre sources sont signalés; ils ne sont pas fusionnés silencieusement.
 
