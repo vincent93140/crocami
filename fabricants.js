@@ -201,8 +201,8 @@ window.CROCamiManufacturerData = {
   },
   d19: {
     imageProduit:"https://ahlanpet.ae/images/josera-minwell-10kg-50012748-1741790453.webp",
-    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-miniwell.html",
-    proteines:27, matieresGrasses:16, fibres:2, cendres:7.2, calcium:1.5, phosphore:1.2, sodium:0.4, magnesium:0.1, energie:3872,
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-miniwell.html", sourceComplementaire:"https://www.josera.fr/media/datatransfer/import/product/images/Mini_Adult_withChickenRice_14042025_FR.pdf",
+    proteines:27, matieresGrasses:16, fibres:2, cendres:7.2, calcium:1.5, phosphore:1.15, sodium:0.4, magnesium:0.1, energie:3872,
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Josera indique que Miniwell a été renommé Mini Chicken & Rice avec recette identique. La fiche officielle actuelle confirme protéines 27 %, matières grasses 16 %, fibres 2 %, cendres 7,2 %, calcium 1,5 %, phosphore 1,15 %, sodium 0,4 % et énergie 3 872 kcal/kg ; le magnésium 0,1 % provient de la fiche technique précédente. Oméga et taurine chiffrée non publiés.",
     compositionComplete:"Protéines de volaille déshydratées 31 % (dont poulet 40 %), grains de maïs entier, riz 15 %, graisse de volailles, pulpe de betterave, protéines de volaille hydrolysées, substances minérales (tripolyphosphate de sodium 0,35 %), protéines animales hydrolysées, levure, poudre de chicorée.",
