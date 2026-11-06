@@ -252,10 +252,11 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://images.onlinepets.com/product-images/catalog/67n3MHdapWYeLS4fltMYAzIN7PRujd-metaQXBwbGF3cy1LYXQtLS1TZW5pb3ItS2F0LUtpcC00MDAtZ3IuanBn-.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://applaws.com/uk/products/chicken-senior-dry-cat-food-3/",
+    sourceComplementaire:"https://www.petfriends.ch/fr/applaws-senior-chicken-croquettes-pour-chats-ages-7-5-kg",
     proteines:36.5, matieresGrasses:14.5, fibres:2, cendres:8, omega3:0.4, omega6:3.05, calcium:1.8, phosphore:1.2, energie:3952,
     taurine:1000,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Constituants analytiques, oméga-3/6, calcium, phosphore, énergie (3 952 kcal/kg) et taurine (1 000 mg/kg) vérifiés sur la fiche officielle Applaws Senior Chicken. La page fabricant consultée est la version britannique ; la correspondance avec le sac vendu en France reste à confirmer sur l’étiquette.",
+    noteFabricant:"Constituants analytiques, oméga-3/6, calcium, phosphore, énergie (3 952 kcal/kg) et taurine (1 000 mg/kg) vérifiés sur la fiche officielle Applaws Senior Chicken. Les mêmes valeurs analytiques et énergétiques sont recoupées chez un distributeur francophone (Petfriends) ; la référence fabricant consultée reste la page britannique.",
     compositionComplete:"Poulet 48 % (farine de poulet 45 %, poulet fraîchement préparé 3 %), pomme de terre, graisse de volaille 6 %, pulpe de betterave, levure de bière séchée, vitamines et minéraux, jus de volaille 1,5 %, poudre d’œuf, huile de saumon, extrait de chicorée 0,2 % (source de FOS), algues, extrait de yucca.",
     additifs:"Vitamine A 29 000 UI/kg ; D3 1 000 UI/kg ; E 640 mg/kg ; taurine 1 000 mg/kg ; DL-méthionine 250 mg/kg ; iode 1 mg/kg ; fer 50 mg/kg ; zinc 100 mg/kg ; manganèse 50 mg/kg ; cuivre 5 mg/kg ; antioxydants (extraits de tocophérols) ; sépiolite 300 mg/kg ; extrait de romarin."
   },
