@@ -419,9 +419,10 @@ window.CROCamiManufacturerData = {
   c18: {
     imageProduit:"https://www.cdiscount.com/pdt2/4/0/6/1/700x700/aabux67406/rw/croquettes-pour-chat-adulte.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://eukanuba.eu/fr-fr/chat/croquettes/chat-sans-cereales-adulte",
-    proteines:38, matieresGrasses:14, fibres:2.5, cendres:7, calcium:1.3, phosphore:1.1, magnesium:0.08, omega3:1.04, omega6:2.58, taurine:2100,
+    sourceRevendeur:"https://myfusion.eu/en/261089/dry-food-for-cats-eukanuba-cat-adult-grain-free-salmon-2-kg",
+    proteines:38, matieresGrasses:14, fibres:2.5, cendres:7, calcium:1.3, phosphore:1.1, magnesium:0.08, omega3:1.04, omega6:2.58, taurine:2100, energie:3902,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Protéines, matières grasses, fibres, cendres, calcium, phosphore, magnésium, oméga-3/6, taurine (0,21 % = 2 100 mg/kg), composition et ration vérifiés sur la fiche officielle Eukanuba Grain Free Adulte au saumon. L’énergie métabolisable n’est pas publiée sur la page consultée.",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, calcium, phosphore, magnésium, oméga-3/6, taurine (0,21 % = 2 100 mg/kg), composition et ration vérifiés sur la fiche officielle Eukanuba Grain Free Adulte au saumon. Énergie métabolisable 3 902 kcal/kg ajoutée depuis la fiche revendeur MyFusion, même référence EAN 8710255189291.",
     compositionComplete:"Poulet et dinde déshydratés 33 % (poulet 20 %), saumon frais congelé 20 %, pomme de terre, pois entiers, graisse de volaille, pulpe de betterave déshydratée 1,7 %, jus au poulet, fructo-oligosaccharides 0,65 %, levure de bière déshydratée.",
     additifs:"Vitamine A 50 000 UI/kg ; D3 1 438 UI/kg ; E 124 mg/kg ; cuivre 7,7 mg/kg ; iode 1 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; taurine 0,21 %.",
     ration:"2 kg : 25–40 g ; 4 kg : 55–75 g ; 6 kg : 80–115 g ; 8 kg : 100–150 g ; 10 kg : 135–190 g/jour."
