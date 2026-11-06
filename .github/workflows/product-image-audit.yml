@@ -10,6 +10,10 @@ on:
       - "scripts/audit-product-images.mjs"
   workflow_dispatch:
 
+concurrency:
+  group: crocami-product-image-audit
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
