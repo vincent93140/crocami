@@ -159,8 +159,10 @@ window.CROCamiManufacturerData = {
   d15: {
     imageProduit:"https://www.petscience.ca/img/product/121-63535_2-Z.jpg?fv=13AF6E296C43D8EDA6C293ACA4C8DF0E",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://eukanuba.eu/fr-fr/chien/croquettes/adulte-grandes-races-poulet-frais",
-    proteines:24, matieresGrasses:13, fibres:2.1, cendres:6.3, calcium:1.25, phosphore:1.04, omega3:0.35, omega6:2.9,
-    compositionComplete:"Poulet frais 18 %, poulet et dinde déshydratés 18 % (dont poulet 11 %), maïs, blé, avoine, orge, sorgho, graisse de volaille, pulpe de betterave déshydratée 2,5 %, jus au poulet, gruau de maïs, substances minérales (dont hexamétaphosphate de sodium 0,34 %), farine de poisson, œuf entier en poudre, FOS 0,25 %, levure de bière déshydratée, glucosamine 0,04 %.",
+    proteines:24, matieresGrasses:13, fibres:2.4, cendres:6.2, calcium:1.2, phosphore:1, omega3:0.29, omega6:2.11,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Formule officielle actuelle vérifiée : poulet frais 20 % et poulet/dinde déshydratés 19 %. Les valeurs précédemment enregistrées (18 % et 18 %) ainsi que les constituants analytiques associés correspondaient à une ancienne formule et ont été remplacés. La fiche actuelle ne publie pas l’énergie métabolisable ; la taurine est mentionnée comme naturellement présente dans les protéines animales mais sans quantité chiffrée.",
+    compositionComplete:"Poulet frais 20 %, poulet et dinde déshydratés 19 % (dont poulet 13 %, source naturelle de glucosamine, chondroïtine et taurine), maïs, blé, orge, avoine, sorgho, graisse de volaille, pulpe de betterave déshydratée 2,5 %, jus de poulet, gruau de maïs, substances minérales (dont hexamétaphosphate de sodium 0,34 %), FOS 0,25 %, œuf entier en poudre, levure de bière déshydratée, glucosamine 0,04 %.",
     additifs:"Vitamine A 47 360 UI/kg ; C 59 mg/kg ; D3 1 571 UI/kg ; E 263 mg/kg ; bêta-carotène 5,2 mg/kg ; L-carnitine 50 mg/kg ; cuivre 8 mg/kg ; iode 1 mg/kg ; manganèse 3,6 mg/kg ; zinc 89 mg/kg ; sélénium 0,07 mg/kg ; antioxydants naturels, romarin et extrait de thé."
   },
   d16: {
@@ -192,6 +194,8 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.advance-affinity.com/fr/chien/nourriture-chien/adult-mini-1000404.html",
     proteines:26, matieresGrasses:17, fibres:3, cendres:6.5, omega3:0.3, omega6:3.1,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Composition, additifs, constituants analytiques (protéines 26 %, matières grasses 17 %, fibres 3 %, cendres 6,5 %, oméga-3 0,3 %, oméga-6 3,1 %) et ration recoupés avec la fiche officielle Advance. Énergie métabolisable, calcium et phosphore non publiés sur la fiche consultée.",
     compositionComplete:"Poulet 20 %, protéines déshydratées de volaille, blé complet 10 %, riz 10 %, maïs complet, graisse de volaille, pois déshydratés 4 %, farine de maïs, protéines déshydratées de porc, protéine de maïs, protéines animales hydrolysées (volaille, porc, poisson), pulpe de betterave 2 %, fibre de pois, farines basses de blé, inuline de chicorée 0,8 %, substances minérales, protéines plasmatiques de porc 0,4 %.",
     additifs:"Vitamine A 27 000 UI/kg ; D3 1 200 UI/kg ; E 500 mg/kg ; C 70 mg/kg ; fer 86 mg/kg ; iode 1,4 mg/kg ; cuivre 8,8 mg/kg ; manganèse 40 mg/kg ; zinc 148 mg/kg ; sélénium 0,1 mg/kg ; Bacillus velezensis DSM 1 1×10⁹ ; antioxygènes.",
     ration:"1 kg : 25/30/40 g ; 3 kg : 55/65/90 g ; 5 kg : 80/100/130 g ; 7 kg : 105/125/165 g ; 10 kg : 135/165/215 g/jour selon activité (+/++/+++)."
@@ -240,7 +244,11 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202604/15/00149510063594____10__1200x1200.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.edgardcooper.com/fr/products/dog-dry-food-chicken/",
-    compositionComplete:"Liste visible sur la fiche officielle actuelle : poulet frais 40 %, patate douce séchée 13,2 %, pommes de terre séchées, protéine de pois, pois séchés, graisse de poulet, protéine de pomme de terre, sauce de poulet. La liste complète doit être relevée sur l’étiquette du sac correspondant au lot.",
+    proteines:25, matieresGrasses:15, fibres:3.5, cendres:8.2, calcium:1.3, phosphore:0.8, omega3:0.9, omega6:2.5, energie:3711,
+    dateVerificationFabricant:"2026-11-06",
+    compositionComplete:"Poulet frais 40 %, patate douce séchée 13,2 %, pommes de terre séchées, protéine de pois, pois séchés, graisse de poulet, protéine de pomme de terre, sauce au poulet, graine de lin 2 %, pulpe de betterave séchée, substances minérales, levures séchées 1,2 %, marc de tomate, chicorée séchée 0,5 %, huile de saumon 0,4 %, citrouille séchée 0,2 %, chou frisé séché 0,2 %, myrtilles séchées 0,05 %, pomme séchée 0,05 %, persil séché 0,02 %, cynorhodon séché 0,02 %, glucosamine 0,02 %, sulfate de chondroïtine 0,02 %.",
+    additifs:"Vitamine A 27 000 UI/kg ; D3 1 700 UI/kg ; E 600 mg/kg ; C 175 mg/kg ; taurine 1 000 mg/kg ; cuivre 5,5 mg/kg ; zinc 120 mg/kg ; manganèse 12 mg/kg ; iode 3,5 mg/kg ; fer 75 mg/kg ; sélénium 0,25 mg/kg ; antioxygènes.",
+    noteFabricant:"La fiche officielle actuelle confirme la nouvelle recette au poulet frais 40 % et patate douce 13,2 %, mais les constituants analytiques chiffrés ne sont pas visibles dans le texte de sa page. Les valeurs analytiques, l’énergie (3 711 kcal/kg) et les additifs détaillés ci-dessus proviennent d’une fiche revendeur correspondant à cette nouvelle formule ; à confirmer sur l’étiquette du sac français avant validation fabricant définitive.",
     ration:"Guide fabricant petites croquettes : 0–5 kg 14–77 g/jour ; 5–10 kg 77–129 g/jour. La quantité varie selon le poids et l’activité.",
     noteFabricant:"La fiche officielle actuelle ne publie pas les constituants analytiques dans le texte consulté. Les valeurs analytiques déjà présentes dans Crocami restent celles du relevé tiers et ne sont pas validées par le fabricant."
   },
