@@ -275,3 +275,56 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiRoyalCaninUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* ACANA : ajout des données fabricant pour les recettes concordantes et signalement explicite des changements de formule, sans fusionner les anciennes analyses Macroquette avec les nouvelles recettes. Vérification du 06/11/2026. */
+const crocamiAcanaUpdates = {
+ "d04": {
+  proteines:33, matieresGrasses:20, fibres:5, cendres:7, humidite:12, calcium:1.5, phosphore:1.1,
+  omega3:1, omega6:2.7, dha:0.3, epa:0.3, energie:3660,
+  sourceFabricant:"https://emea.acana.com/fr-FR/pour-chiens/eu-aca-puppy-junior.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée",
+  compositionComplete:"Poulet frais (18 %), poulet déshydraté (18 %), lentilles rouges entières, petits pois entiers, abats de poulet frais (foie, cœur) (7 %), gras de poulet (7 %), dinde déshydratée (4 %), œufs (4 %), plie crue (4 %), hareng déshydraté (4 %), huile de poisson (3 %), lentilles vertes entières, pois chiches entiers, pois jaunes entiers, fibres de pois, amidon de pois, foie de dinde cru (1 %), sel, varech séché, citrouille entière fraîche, courge musquée entière fraîche, carottes entières fraîches, pommes entières fraîches, poires entières fraîches, courgettes entières fraîches, racine de chicorée, chou frisé frais, épinards frais, feuilles de navet fraîches, feuilles de betteraves fraîches, canneberges entières fraîches, myrtilles entières fraîches, baies de Saskatoon entières fraîches, curcuma, racine de curcuma, chardon marie, lavande, racine de guimauve, fruits de l’églantier.",
+  additifs:"Tocophérols d’huiles végétales 121 mg/kg ; acide citrique 40 mg/kg ; extrait de romarin 80 mg/kg ; chlorure de choline 700 mg/kg ; zinc 112,5 mg/kg ; cuivre 11 mg/kg ; vitamine B1 25 mg/kg ; vitamine B5 8 mg/kg ; vitamine B6 7,5 mg/kg ; vitamine A 7 500 UI/kg ; vitamine D3 1 000 UI/kg ; vitamine E 100 UI/kg ; Enterococcus faecium NCIMB 10415 2,2×10^6 UFC/kg.",
+  statutDonnees:"Recette Puppy & Junior concordante avec la fiche fabricant actuelle. Protéines, lipides, fibres, cendres, humidité, calcium, phosphore, oméga-3/6, DHA/EPA et énergie 3 660 kcal/kg vérifiés chez ACANA."
+ },
+ "mq-dog-007": {
+  sourceFabricant:"https://emea.acana.com/fr-BE/pour-chiens/eu-aca-classicred.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_différente",
+  statutDonnees:"La recette fabricant actuellement publiée sous le nom Classics Red Meat présente une composition et des garanties différentes de la fiche Macroquette (notamment bœuf cru en premier ingrédient au lieu d’agneau déshydraté à 23 %). Aucune valeur de la formule actuelle n’est fusionnée avec l’ancienne fiche. Vérifier l’étiquette du sac avant actualisation."
+ },
+ "mq-dog-008": {
+  sourceFabricant:"https://emea.acana.com/fr-FR/pour-chiens/eu-aca-adult.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_différente",
+  statutDonnees:"La recette Adult Dog actuelle (14 % poulet frais et 14 % poulet déshydraté) ne correspond pas à la composition Macroquette historique (11 % poulet frais, 10 % poulet déshydraté et 10 % dinde déshydratée). Données actuelles non fusionnées avec l’ancienne formule."
+ },
+ "mq-dog-009": {
+  sourceFabricant:"https://emea.acana.com/fr-FR/pour-chiens/eu-aca-adult-large.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_différente",
+  statutDonnees:"La formule Adult Large Breed actuellement publiée (16 % poulet frais et 16 % poulet déshydraté) diffère de la composition Macroquette historique (13 % et 12 %). Les valeurs actuelles ne sont pas fusionnées avec cette ancienne formule."
+ },
+ "mq-dog-010": {
+  sourceFabricant:"https://emea.acana.com/fr-FR/pour-chiens/eu-aca-light-fit.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_différente",
+  statutDonnees:"La formule Light & Fit actuelle (20,5 % poulet frais et 20 % poulet déshydraté) diffère de la composition Macroquette historique (16 % poulet frais, 14 % poulet déshydraté et 14 % dinde déshydratée). Les valeurs fabricant actuelles ne sont pas fusionnées avec l’ancienne formule."
+ },
+ "mq-dog-011": {
+  sourceFabricant:"https://emea.acana.com/fr-FR/pour-chiens/eu-aca-puppy-junior.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_différente",
+  statutDonnees:"La formule Puppy actuelle (18 % poulet frais et 18 % poulet déshydraté) diffère de la composition Macroquette historique (16 % poulet frais, 13 % poulet déshydraté et 13 % dinde déshydratée). Ne pas mélanger les analyses des deux recettes."
+ },
+ "mq-dog-013": {
+  sourceFabricant:"https://emea.acana.com/fr-FR/pour-chiens/eu-aca-pacifica.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_différente",
+  statutDonnees:"La composition Pacifica actuellement publiée (hareng, maquereau et plie en tête) ne correspond pas à la composition Macroquette historique (hareng, sardines et plie). Les données actuelles ne sont pas fusionnées avec l’ancienne recette."
+ },
+ "mq-cat-006": {
+  sourceFabricant:"https://emea.acana.com/fr-FR/cats/cat-food/eu-aca-pacifica-new-cat.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_différente",
+  statutDonnees:"La recette Pacifica Cat actuellement publiée présente une composition différente de la fiche Macroquette historique. Les valeurs nutritionnelles actuelles ne sont pas fusionnées avec l’ancienne formule ; vérifier le sac exact avant mise à jour."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiAcanaUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
