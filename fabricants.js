@@ -311,10 +311,11 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://dam.elcorteingles.es/producto/www-001021910301981-00.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chat/alimentation/purina-one-sterilise-poulet",
-    proteines:37, matieresGrasses:13, fibres:4, cendres:7.5, omega3:0.1, omega6:2,
+    sourceRevendeur:"https://capitaine-croquettes.fr/croquettes/Chat/purina-one-chat-sterilise-poulet",
+    proteines:37, matieresGrasses:13, fibres:4, cendres:7.5, omega3:0.1, omega6:2, energie:3400,
     taurine:700,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Protéines, matières grasses, fibres, cendres, oméga-3, oméga-6, composition, additifs et ration vérifiés sur la fiche officielle Purina ONE Chat Stérilisé au Poulet. La page ne publie pas l’énergie métabolisable, le calcium ni le phosphore.",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, oméga-3 (0,1 %), oméga-6 (2 %), taurine (700 mg/kg), composition et ration vérifiés sur la fiche officielle Purina ONE Chat Stérilisé au Poulet. Énergie de 3 400 kcal/kg relevée sur Capitaine Croquettes pour cette référence ; calcium et phosphore non publiés.",
     compositionComplete:"Poulet 17 % (dont os, viande, peau), protéines de volaille déshydratées, blé 15 %, farine de soja, maïs, farine de protéines de maïs, gluten de blé, graisses animales, pulpe de betterave déshydratée, racine de chicorée séchée 2 %, fibres végétales séchées, substances minérales, hydrolysat avec Lactobacillus delbrueckii et fermentum traités thermiquement, levures déshydratées.",
     additifs:"Vitamine A 34 000 UI/kg ; D3 1 100 UI/kg ; E 400 UI/kg ; C 140 mg/kg ; taurine 700 mg/kg ; fer 110 mg/kg ; iode 1,7 mg/kg ; cuivre 11 mg/kg ; manganèse 40 mg/kg ; zinc 100 mg/kg ; sélénium 0,12 mg/kg.",
     ration:"2–4 kg : 30–60 g ; 4–6 kg : 60–85 g ; 6–8 kg : 85–115 g par jour."
