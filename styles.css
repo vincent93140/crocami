@@ -167,3 +167,16 @@
 
 .external-score-copy{flex:1;min-width:0}
 .external-score-warning{margin:7px 0 0;padding-left:9px;border-left:2px solid #d5c9a8;font:500 9px/1.5 "DM Sans",sans-serif;color:#777d72}
+
+
+/* Comparateur : repérage immédiat des valeurs les plus favorables */
+.comparison-legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 12px;color:#687365;font-size:10px;line-height:1.5}
+.comparison-legend>span{display:inline-flex;align-items:center;gap:6px}
+.comparison-key{display:inline-block;width:11px;height:11px;border-radius:3px;background:#e1f2e3;border:1px solid #a8d5ae}
+.comparison-key.neutral{background:#f1f2ed;border-color:#e0e2d9}
+.comparison tbody td{position:relative;line-height:1.5}
+.comparison tbody td.comparison-best{background:#e5f4e7;color:#205d32;font-weight:800;box-shadow:inset 0 0 0 1px #b8dfbd}
+.comparison-best-label{display:inline-block;margin:0 5px 4px 0;padding:2px 5px;border-radius:4px;background:#c9e8ce;color:#205d32;font:800 7px/1.3 'DM Sans',sans-serif;letter-spacing:.45px;vertical-align:middle}
+.comparison-row-hint{display:block;margin-top:3px;color:#81877b;font-size:8px;font-weight:500;line-height:1.35}
+.comparison-neutral-row th{color:#666d62}
+@media(max-width:600px){.comparison-legend{font-size:9px;gap:5px 10px}.comparison-row-hint{font-size:7px}.comparison-best-label{font-size:6px;padding:2px 3px}}
