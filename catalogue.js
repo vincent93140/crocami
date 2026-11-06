@@ -1025,3 +1025,23 @@ for (const product of window.CROCamiCatalog) {
     };
   }
 }
+
+
+/* DÉTAILS FABRICANT COMPLÉMENTAIRES — ADVANCE SENSITIVE CARE LAMB.
+   Analyse actuelle confirmée sur la page officielle ; les autres champs absents
+   (calcium, phosphore, humidité, énergie) ne sont pas publiés sur cette fiche. */
+for (const product of window.CROCamiCatalog) {
+  if (product.id === "mq-dog-018") {
+    product.sourceFabricant = "https://www.advance-affinity.com/en/dog/food-dog/adult-sensitive-care-lamb-1000428.html";
+    product.verificationFabricant = "formule_actuelle_différente";
+    product.dateVerificationFabricant = "2026-11-06";
+    product.noteFabricant = "Fiche officielle Advance Adult Sensitive Care Lamb. Composition actuelle : agneau 17 %, protéines de maïs, maïs complet, riz 14 %, saindoux, protéines d’agneau déshydratées, pois déshydratés, farine de maïs, levure hydrolysée, minéraux, pulpe de betterave, lignocellulose, huile de poisson et inuline de chicorée 0,4 %. Constituants analytiques : protéines 25 %, matières grasses 17 %, fibres 2,7 %, cendres 7,2 %, oméga-3 0,45 %, oméga-6 2,7 %. Additifs publiés : vitamines A 27 000 UI/kg, D3 1 200 UI/kg, E 500 mg/kg, C 70 mg/kg, biotine 0,35 mg/kg, fer 86 mg/kg, iode 1,4 mg/kg, cuivre 8,8 mg/kg, manganèse 40 mg/kg, zinc 158 mg/kg, sélénium 0,1 mg/kg et Bacillus velezensis DSM 15544 à 1×10⁹. La page ne publie pas calcium, phosphore, humidité ni énergie métabolisable ; ces champs restent non renseignés.";
+    product.statutDonnees = "Analyse et composition actuelles confirmées sur le site fabricant. Calcium, phosphore, humidité et énergie non publiés sur la page officielle consultée.";
+    product.donneesFabricantActuelles = {
+      ...(product.donneesFabricantActuelles || {}),
+      formule: "Advance Adult Sensitive Care Lamb — formule actuelle",
+      proteines: 25, matieresGrasses: 17, fibres: 2.7, cendres: 7.2,
+      omega3: 0.45, omega6: 2.7
+    };
+  }
+}
