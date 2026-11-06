@@ -464,3 +464,8 @@ footer .brand img{background:transparent!important;border:0!important}
   .results-head h3{color:#fff!important}
   .product-card{background:#fffaf1!important}
 }
+
+/* Logo Croc’Ami : fichier source réparé, sans déformation */
+.topbar .brand{display:flex;align-items:center;flex:0 0 auto}
+.topbar .brand img{display:block;width:104px;height:62px;object-fit:contain;object-position:left center;background:transparent;border:0;border-radius:0;padding:0;box-shadow:none}
+footer .brand img{display:block;max-width:150px;height:auto;object-fit:contain;background:transparent;border:0;padding:0;box-shadow:none}
