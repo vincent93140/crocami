@@ -1,0 +1,39 @@
+name: Audit des images produits Croc’Ami
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "catalogue.js"
+      - "fabricants.js"
+      - ".github/workflows/product-image-audit.yml"
+      - "scripts/audit-product-images.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+      - name: Configurer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Tester chaque image
+        run: node scripts/audit-product-images.mjs
+      - name: Publier le rapport dans le dépôt
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/product-image-audit.csv reports/product-image-audit-summary.json
+          if git diff --cached --quiet; then
+            echo "Le rapport n'a pas changé."
+            exit 0
+          fi
+          git commit -m "Rapport de vérification des images Croc’Ami"
+          git push
