@@ -340,7 +340,7 @@ window.CROCamiManufacturerData = {
     proteines:34, matieresGrasses:14.5, fibres:3, cendres:8, calcium:0.88, phosphore:0.88, energie:3860,
     taurine:950,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Protéines, matières grasses, cellulose, cendres, calcium, phosphore, énergie (386 kcal/100 g) et taurine (950 mg/kg) confirmés sur la fiche officielle Perfect Fit Adult 1+ Sterilised Chicken.",
+    noteFabricant:"Fiche officielle Perfect Fit Adult 1+ Sterilised Chicken : protéines 34 %, matières grasses 14,5 %, fibres 3 %, cendres 8 %, calcium 0,88 %, phosphore 0,88 %, énergie 386 kcal/100 g (3 860 kcal/kg) et taurine 950 mg/kg. Valeurs analytiques complètes désormais confirmées par le fabricant.",
     compositionComplete:"Viandes et sous-produits animaux (dont poulet 14 %), blé, maïs, extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, substances minérales, levures (dont levure de bière naturelle 0,2 %).",
     additifs:"Vitamines B1 13,5 mg/kg ; B2 23,1 mg/kg ; B6 6 mg/kg ; C 210 mg/kg ; D3 750 UI/kg ; E 100 mg/kg ; taurine 950 mg/kg ; cuivre 1,7 mg/kg ; iode 0,41 mg/kg ; fer 37,5 mg/kg ; manganèse 24,8 mg/kg ; sélénium 0,18 mg/kg ; zinc 70,1 mg/kg ; antioxygènes et colorants."
   },
