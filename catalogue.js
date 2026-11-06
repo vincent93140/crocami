@@ -411,3 +411,36 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiBritCareUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* ALLEVA : recoupement des anciennes recettes et des fiches actuelles. Les changements de formulation sont explicitement signalés. */
+const crocamiAllevaUpdates = {
+ "mq-dog-019": {
+  sourceRevendeur:"https://waggy.fr/products/alleva-holistic-cerf-et-agneau-12kg-medium-maxi",
+  sourceComplementaire:"https://www.chienavis.com/aliments/croquettes-alleva.html",
+  dateVerificationFabricant:"2026-11-06",
+  statutDonnees:"La composition historique Macroquette (agneau déshydraté 35 %, agneau frais 20 %, cerf déshydraté 15 %) est recoupée chez Waggy. ChienAvis retrouve le profil analytique déjà présent : protéines 34 %, matières grasses 16 %, fibres 3 %, cendres 8,5 %. Les pages de revendeurs plus récentes décrivent une formule modifiée (30 % agneau déshydraté et 10 % cerf) : ne pas importer leurs minéraux ni leur énergie dans cette fiche historique."
+ },
+ "mq-dog-020": {
+  sourceFabricant:"https://allevastore.com/en/products/crocchette-per-cani-natural-adult-mini-pollo-zucca-2-kg",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_différente",
+  statutDonnees:"La fiche officielle Alleva Natural actuelle décline la recette par taille : Adult Maxi avec 32 % de poulet déshydraté, 20 % de poulet frais et 20 % de riz brun. La fiche Macroquette historique indique 38 % de poulet déshydraté et ne mentionne pas de poulet frais. Formules différentes : les valeurs actuelles ne sont pas fusionnées."
+ },
+ "mq-cat-010": {
+  calcium:1.6, phosphore:1.3, taurine:1000,
+  sourceFabricant:"https://allevastore.com/en/fr-fr/products/crocchette-per-gatti-holistic-hairball-pollo-e-anatra-1-5-kg",
+  sourceComplementaire:"https://pacta.com/petfood/petfood-score/croquettes-chats/alleva-holistic-adult-chicken-duck.php",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée_partielle",
+  statutDonnees:"La fiche complémentaire portant exactement la composition Macroquette (45 % poulet déshydraté, 25 % poulet frais, 15 % canard déshydraté) publie calcium 1,6 %, phosphore 1,3 % et taurine 1 000 mg/kg : ces valeurs sont ajoutées. La page Alleva actuelle décrit une autre version (42 % poulet déshydraté, 20 % frais, 12 % canard et fibres de canne à sucre) ; ses valeurs ne sont pas mélangées à l'ancienne recette."
+ },
+ "mq-cat-011": {
+  calcium:1.6, phosphore:1.3, taurine:1000,
+  sourceComplementaire:"https://capitaine-croquettes.fr/croquettes/Chat/alleva-holistic-kitten-chicken-duck",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"recoupée_source_complémentaire",
+  statutDonnees:"La fiche complémentaire de la recette Holistic Kitten reprenant la composition Macroquette (45 % poulet déshydraté, 25 % poulet frais, 15 % canard déshydraté) fournit calcium 1,6 %, phosphore 1,3 % et taurine 1 000 mg/kg. Énergie et autres minéraux non ajoutés faute de source concordante pour cette formule précise."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiAllevaUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
