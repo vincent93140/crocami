@@ -513,3 +513,9 @@ footer .brand img{width:120px;height:auto;max-height:82px;object-fit:contain;bac
  .search-section{background:#e4edf6}
  .finder{background:#fff7eb}
 }
+
+/* Sources nutritionnelles consultables depuis chaque fiche */
+.product-sources{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:8px 0 2px;padding-top:7px;border-top:1px solid #cbdbea;font-size:11px;color:#536b80}
+.product-sources small{font-weight:700;color:#536b80}
+.product-sources a{color:#1769a8;font-weight:700;text-decoration:underline;text-underline-offset:2px}
+.product-sources a:hover{color:#f39a24}
