@@ -38,19 +38,32 @@ async function check(item) {
   let response, method = "HEAD", error = "";
   try {
     response = await fetch(item.url, { method, redirect: "follow", signal: controller.signal, headers: { "User-Agent": "CrocAmi-ImageAudit/1.0" } });
-    if ([403, 405, 501].includes(response.status)) {
+    let type = response.headers.get("content-type") || "";
+    if ([403, 405, 429, 501].includes(response.status) ||
+        (response.status >= 200 && response.status < 300 && !type.toLowerCase().startsWith("image/"))) {
       await response.body?.cancel();
       method = "GET";
-      response = await fetch(item.url, { method, redirect: "follow", signal: controller.signal, headers: { "User-Agent": "CrocAmi-ImageAudit/1.0", "Range": "bytes=0-1023" } });
+      response = await fetch(item.url, { method, redirect: "follow", signal: controller.signal, headers: { "User-Agent": "CrocAmi-ImageAudit/1.0", "Range": "bytes=0-63" } });
+      type = response.headers.get("content-type") || "";
     }
-    const type = response.headers.get("content-type") || "";
     const status = response.status;
-    let verdict = status >= 200 && status < 300 && type.toLowerCase().startsWith("image/") ? "OK" :
+    let signatureIsImage = false;
+    if (method === "GET" && status >= 200 && status < 300) {
+      const bytes = new Uint8Array(await response.arrayBuffer());
+      const ascii = String.fromCharCode(...bytes.slice(0, 16));
+      signatureIsImage = (bytes[0] === 0x89 && ascii.slice(1, 4) === "PNG") ||
+        (bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff) ||
+        ascii.startsWith("GIF87a") || ascii.startsWith("GIF89a") ||
+        (ascii.startsWith("RIFF") && ascii.slice(8, 12) === "WEBP") ||
+        ascii.startsWith("<svg") || ascii.startsWith("<?xml");
+    }
+    const imageType = type.toLowerCase().startsWith("image/") || signatureIsImage;
+    let verdict = status >= 200 && status < 300 && imageType ? "OK" :
       status === 404 || status === 410 ? "LIEN_MORT" :
       status >= 200 && status < 300 ? "TYPE_NON_IMAGE" :
       status === 403 || status === 429 ? "BLOQUE_A_VERIFIER" : "ERREUR_HTTP";
-    results[item.index] = { url: item.url, ids: [...item.ids].join("; "), status, contentType: type, finalUrl: response.url, method, verdict, error };
-    await response.body?.cancel();
+    results[item.index] = { url: item.url, ids: [...item.ids].join("; "), status, contentType: type || (signatureIsImage ? "image/* (signature)" : ""), finalUrl: response.url, method, verdict, error };
+    if (method !== "GET") await response.body?.cancel();
   } catch (e) {
     error = e?.name === "AbortError" ? "timeout" : String(e?.message || e);
     results[item.index] = { url: item.url, ids: [...item.ids].join("; "), status: "", contentType: "", finalUrl: "", method, verdict: "NON_VERIFIE", error };
