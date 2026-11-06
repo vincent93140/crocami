@@ -138,11 +138,11 @@ window.CROCamiManufacturerData = {
   d12: {
     imageProduit:"https://a.allegroimg.com/original/1107dc/4c2de32247479c03604d7014db35/PURINA-Dog-Chow-Adult-Lamb-2-5kg",
     verificationFabricant:"confirmée_partielle",
-    sourceFabricant:"https://www.purina.fr/chien/alimentation/dog-chow-adult-agneau",
+    sourceFabricant:"https://www.purina.fr/chien/alimentation/dog-chow-complet-agneau",
     proteines:20, matieresGrasses:10, fibres:3, cendres:8,
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Correction après contrôle de la fiche officielle française Purina DOG CHOW Adult à l’agneau : la recette actuelle publie protéines 20 %, matières grasses 10 %, cellulose 3 % et cendres 8 %. Les anciennes valeurs 25/12/3,5 % ne correspondent pas à la formule française actuelle et ont été retirées. La fiche actuelle ne publie pas l’énergie métabolisable, le calcium, le phosphore ni les oméga chiffrés.",
-    compositionComplete:"Céréales (céréales complètes 48 %), viandes et sous-produits animaux (20 %, dont agneau 4 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 1,1 %, pois séchés 0,08 %, carottes séchées 0,08 %), substances minérales."
+    compositionComplete:"Céréales ; viandes et sous-produits animaux 16 % (dont agneau 4 %) ; sous-produits d’origine végétale (dont pulpe de betterave déshydratée 1,5 %) ; huiles et graisses ; substances minérales ; extraits de protéines végétales."
   },
   d13: {
     imageProduit:"https://media.zooplus.com/bilder/4/400/391896_pla_ultima_medium_maxiadult_huhnreis_6kg_hs_01_4.jpg",
