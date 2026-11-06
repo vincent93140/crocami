@@ -2,8 +2,8 @@ const tabs=[...document.querySelectorAll(".animal-tab")];let animal="chien";let 
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const data=window.CROCamiCatalog||[];
 const yearNode=$("#year");if(yearNode)yearNode.textContent=new Date().getFullYear();
-const fmt=n=>n==null?"Non communiqué":String(n).replace(".",",");
-const fmtRatio=n=>n==null?"Non communiqué":Number(n).toFixed(2).replace(".",",");
+const fmt=n=>{if(n==null)return "Non communiqué";const value=typeof n==="number"?n:Number(String(n).trim().replace(/\\s/g,"").replace(",", "."));return Number.isFinite(value)?new Intl.NumberFormat("fr-FR",{maximumFractionDigits:2,useGrouping:false}).format(value):String(n).replace(".",",");};
+const fmtRatio=n=>n==null?"Non communiqué":new Intl.NumberFormat("fr-FR",{maximumFractionDigits:2,useGrouping:false}).format(Number(n));
 function extractTaurine(p){
  if(p.taurine!=null)return p.taurine;
  const match=String(p.additifs||"").match(/taurine\s*([\d\s,\.]+)\s*(mg\s*\/\s*kg|%)/i);
