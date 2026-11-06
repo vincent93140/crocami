@@ -142,7 +142,7 @@ window.CROCamiManufacturerData = {
     proteines:25, matieresGrasses:12, fibres:3.5, cendres:8, omega3:0.1, omega6:1.8,
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Correction après relecture de la fiche officielle française Purina DOG CHOW Adult à l’agneau : elle publie protéines 25 %, matières grasses 12 %, cellulose 3,5 %, cendres 8 %, oméga-3 0,1 % et oméga-6 1,8 %. Les valeurs 20/10/3 précédemment saisies provenaient d’une mauvaise lecture et sont remplacées. La fiche ne publie pas l’énergie métabolisable, le calcium ni le phosphore.",
-    compositionComplete:"Céréales ; viandes et sous-produits animaux 16 % (dont agneau 4 %) ; sous-produits d’origine végétale (dont pulpe de betterave déshydratée 1,5 %) ; huiles et graisses ; substances minérales ; extraits de protéines végétales."
+    compositionComplete:"Céréales (céréales complètes 48 %) ; viandes et sous-produits animaux (20 %, dont agneau 4 %) ; extraits de protéines végétales ; huiles et graisses ; sous-produits d’origine végétale ; légumes (1,1 % de racine de chicorée séchée, 0,08 % de pois séchés et 0,08 % de carottes séchées) ; substances minérales."
   },
   d13: {
     imageProduit:"https://media.zooplus.com/bilder/4/400/391896_pla_ultima_medium_maxiadult_huhnreis_6kg_hs_01_4.jpg",
