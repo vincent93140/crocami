@@ -616,3 +616,23 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiNextAuditUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* OPTI LIFE ET ORIJEN : énergie revendeur vérifiée et changement de formule identifié. */
+const crocamiNextVerificationUpdates = {
+ "mq-dog-065": {
+  energie:4100,
+  sourceComplementaire:"https://www.terranimo.fr/versele-laga-opti-life-adult-medium-1551357.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée_partielle",
+  statutDonnees:"Fiche officielle Versele-Laga confirmée pour la composition, les analyses, calcium 1,1 %, phosphore 0,8 % et les additifs. Énergie de 410 kcal/100 g (4 100 kcal/kg) ajoutée depuis Terranimo, qui référence le même EAN 5410340311431. Humidité non publiée. La taurine varie selon les fiches consultées (500 à 550 mg/kg) : la valeur reste à confirmer sur le sac et n'est pas recalée."
+ },
+ "mq-dog-066": {
+  sourceFabricant:"https://emea.orijenpetfoods.com/fr-FR/dogs/dog-food/eu-ori-ns-ori-original.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_actuelle_différente",
+  statutDonnees:"La fiche officielle ORIJEN Original actuelle confirme une analyse de 38 % protéines, 18 % matières grasses, 5 % fibres, 9 % cendres, humidité 12 %, calcium 1,4 %, phosphore 1,1 %, oméga-3 1 %, oméga-6 3 %, DHA 0,3 %, EPA 0,2 % et énergie 3 860 kcal/kg. Mais la composition actuelle (poulet frais 25 %, dinde crue 8 %, abats frais, hareng, merlu et œufs) diffère nettement de l'ancienne fiche Macroquette (poulet frais 13 %, dinde fraîche 7 %, autres ingrédients et proportions différents). Les valeurs actuelles ne sont pas fusionnées dans la fiche historique."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiNextVerificationUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
