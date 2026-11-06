@@ -552,3 +552,37 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiNextBrandUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* GOSBI, HUSSE ET ISEGRIM : vérification des trois références suivantes. */
+const crocamiFollowingBrandUpdates = {
+ "mq-dog-055": {
+  proteines:27, matieresGrasses:18, fibres:2.5, cendres:7, humidite:8.5,
+  calcium:1.3, phosphore:0.9, sodium:0.4, potassium:0.6, magnesium:0.1,
+  omega3:0.8, omega6:2.5, energie:3953,
+  sourceFabricant:"https://gosbi.com/en/exclusive-ads/",
+  sourceRevendeur:"https://www.lil-tierbedarf.com/en/shop/00929-gosbi-exclusive-chicken-medium-12-kg-112",
+  sourceComplementaire:"https://www.dogandcatetoiles.com/en/products/croquettes-chien-poulet-gosbi-exclusive",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée_partielle",
+  compositionComplete:"Viande de poulet déshydratée (30 %), riz (17 %), graisse de poulet conservée avec des tocophérols, lentilles (8 %), poisson déshydraté (8 %), pomme déshydratée (6 %), huile de saumon, fruits et légumes (5 %), petits pois (5 %), agneau déshydraté (3 %), huile de lin, œufs déshydratés (1 %), levure de bière, chlorure de potassium et formule ProVital (2 %) : huile d'olive, krill, moules vertes, glucosamine, chondroïtine, épinards, luzerne, algues, brocoli, plantes, FOS et MOS.",
+  statutDonnees:"Gosbi Exclusive Chicken Medium : formule et composition concordantes avec la référence Macroquette. Deux revendeurs donnent protéines 27 %, matières grasses 18 %, fibres 2,5 %, cendres 7 %, calcium 1,3 %, phosphore 0,9 %, sodium 0,4 %, potassium 0,6 %, magnésium 0,1 %, oméga-3 0,8 % et oméga-6 2,5 %. Énergie 3 953 kcal/kg confirmée par les fiches revendeur. Humidité 8,5 % relevée chez L.I.L. Les valeurs divergentes d'un autre revendeur (28 % protéines, 10 % humidité) ne sont pas retenues."
+ },
+ "mq-dog-056": {
+  sourceFabricant:"https://magento-wales.husse.com/optimal-sensitive",
+  sourceComplementaire:"https://www.husse.jp/optimal-sensitive",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_actuelle_différente",
+  statutDonnees:"La fiche officielle Husse Optimal Sensitive actuelle publie protéines 26 %, matières grasses 16 %, cendres 7 %, fibres 2 %, calcium 1,3 %, phosphore 0,85 %, oméga-3 1,2 % et oméga-6 1,7 %. La fiche officielle japonaise ajoute humidité ≤9 %, magnésium 0,09 %, taurine 1 000 mg/kg et énergie 4 080 kcal/kg. La composition officielle actuelle (riz, farine de riz, huile de saumon, FOS, etc.) diffère de la fiche Macroquette historique : ces valeurs ne sont pas fusionnées dans l'analyse historique."
+ },
+ "mq-dog-057": {
+  proteines:34, matieresGrasses:15, fibres:2, cendres:8.3, calcium:1.3, phosphore:1, energie:3790,
+  sourceFabricant:"https://www.isegrim-petfood.com/product/salmon-berries-wild-herbs-adult/",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée_partielle",
+  compositionComplete:"Saumon frais (32 %), saumon séché (25 %), pommes de terre (16 %), graisse de volaille conservée avec des tocophérols et de l'extrait de romarin (8 %), pois (3 %), baies (myrtilles, canneberges et framboises) (4 %), pommes (3 %), carottes (2 %), huile de saumon (3 %), foie de poulet hydrolysé (2 %), protéine de pomme de terre (1 %), glucosamine, mannan-oligosaccharides, sulfate de chondroïtine, fructo-oligosaccharides, mélange d'herbes (0,01 %) et yucca schidigera.",
+  additifs:"Vitamine A 20 000 UI/kg ; vitamine D3 1 400 UI/kg ; vitamine E 350 mg/kg ; zinc 80 mg/kg ; fer 65 mg/kg ; magnésium 36 mg/kg ; iode 0,6 mg/kg ; cuivre 16 mg/kg ; sélénium 0,20 mg/kg.",
+  statutDonnees:"Fiche officielle Isegrim Adult River Salmon & Berries vérifiée : la composition correspond exactement à la référence Macroquette. Analyses confirmées : protéines 34 %, matières grasses 15 %, fibres 2 %, cendres 8,3 %, calcium 1,3 %, phosphore 1 % et énergie 3 790 kcal/kg. Magnésium indiqué uniquement dans les additifs à 36 mg/kg ; aucune teneur analytique en oméga n'est publiée sur cette fiche."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiFollowingBrandUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
