@@ -287,10 +287,10 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/--2537",
     sourceComplementaire:"https://macroquette.com/avis-royal-canin-sterilised-37-chat/",
-    proteines:37, matieresGrasses:12, fibres:6.2, cendres:8.2, calcium:1.11, phosphore:1, magnesium:0.08, omega3:0.49, omega6:2.95,
+    proteines:37, matieresGrasses:12, fibres:6.2, cendres:8.2, calcium:1.11, phosphore:1, magnesium:0.08, omega3:0.49, omega6:2.95, energie:3640,
     sourceRevendeur:"https://www.zooplus.com/shop/cats/dry_cat_food/royal_canin/adult/126952",
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Fiche officielle Royal Canin Sterilised 37 : protéines 37 %, matières grasses 12 %, fibres 6,2 %, cendres 8,2 %. Macroquette indique 37/12/6/8 ; l’écart léger sur fibres et cendres est conservé. Calcium 1,11 %, phosphore 1 %, magnésium 0,08 %, oméga-3 0,49 % et oméga-6 2,95 % ajoutés depuis la fiche Zooplus correspondant à la référence. La taurine indiquée par ce revendeur présente une unité ambiguë et n’est pas reprise.",
+    noteFabricant:"Fiche officielle Royal Canin Sterilised 37 : protéines 37 %, matières grasses 12 %, fibres 6,2 %, cendres 8,2 %. Macroquette indique 37/12/6/8 ; l’écart léger sur fibres et cendres est conservé. Calcium 1,11 %, phosphore 1 %, magnésium 0,08 %, oméga-3 0,49 %, oméga-6 2,95 % et énergie 3 640 kcal/kg (3,64 kcal/g) ajoutés depuis la fiche Zooplus correspondant à la référence. La taurine indiquée par ce revendeur présente une unité ambiguë et n’est pas reprise.",
     compositionComplete:"Protéines de volaille déshydratées, maïs, isolat de protéines végétales, fibres végétales, graisses animales, hydrolysat de protéines animales, riz, blé, pulpe de betterave, gluten de maïs, levures et composants de levures, sels minéraux, huile de poisson, fructo-oligosaccharides, huile de soja.",
     additifs:"Vitamine A 19 000 UI/kg ; D3 1 000 UI/kg ; fer 31 mg/kg ; iode 3,1 mg/kg ; cuivre 10 mg/kg ; manganèse 41 mg/kg ; zinc 122 mg/kg ; sélénium 0,05 mg/kg ; L-carnitine 100 mg/kg ; clinoptilolite 10 g/kg ; chlorure d’ammonium 5 g/kg ; conservateurs et antioxygènes.",
     ration:"Poids idéal : 3 kg 47 g, 4 kg 57 g, 5 kg 67 g, 6 kg 76 g/jour. Embonpoint : 3 kg 37 g, 4 kg 46 g, 5 kg 54 g, 6 kg 61 g/jour."
