@@ -76,7 +76,9 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Poulet de haute qualité 15 % (dont dos et coffre), blé, protéines de volaille déshydratées, maïs, riz 9 %, pulpe de betterave déshydratée, farine de soja, hydrolysat, farine de protéines de maïs, gruau de maïs, gluten de blé, substances minérales, huile de poisson, graisses animales.",
     additifs:"Vitamine A 23 179 UI/kg ; D3 1 246 UI/kg ; E 474 UI/kg ; K 0,20 mg/kg ; C 60 mg/kg ; B1 35 mg/kg ; B2 16 mg/kg ; B3 190 mg/kg ; B5 55 mg/kg ; B6 19 mg/kg ; B8 0,22 mg/kg ; B9 5,61 mg/kg ; B12 0,31 mg/kg ; choline 2 075 mg/kg ; taurine 1 430 mg/kg ; minéraux : fer, zinc, cuivre, manganèse, iode et sélénium selon la fiche technique.",
     ration:"Maintien / stérilisé / perte de poids : 10 kg 185/165/140 g ; 25 kg 345/300/260 g ; 35 kg 435/380/325 g ; 45 kg 515/445/385 g ; 70 kg 690/600/515 g par jour.",
-    noteFabricant:"Énergie calculée : 3,47 kcal/g. Données minérales et vitaminiques issues de la fiche technique Purina (2024)."
+    taurine:1430,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Fiche officielle Purina et fiche technique vétérinaire vérifiées : taurine 1 430 mg/kg, calcium 1,36 %, phosphore 0,91 %, magnésium 0,13 %, oméga-3 0,3 %, oméga-6 1,5 %, DHA 0,10 %, EPA+DHA 0,23 % et énergie 3 470 kcal/kg. Les valeurs analytiques principales sont également confirmées."
   },
   d08: {
     imageProduit:"https://media.zooplus.com/bilder/1/800/105933_pla_hill_s_scienceplan_adult_small_min_perfectweight_chicken_6kg_hs_01_1.jpg",
@@ -86,10 +88,13 @@ window.CROCamiManufacturerData = {
     compositionComplete:"Froment, farine de protéines de maïs, protéines déshydratées de poulet et de dinde (poulet 9 %, volaille totale 14 %), farine de son de pois, maïs, hydrolysat, marc de tomate déshydraté, cellulose, graines de lin, graisses animales, pulpe de betterave séchée, huile de noix de coco, matières minérales, carottes déshydratées.",
     additifs:"Vitamine A 10 014 UI/kg ; vitamine D3 714 UI/kg ; vitamine E 730 mg/kg ; vitamine C 121 mg/kg ; bêta-carotène 1,6 mg/kg ; fer 75,2 mg/kg ; iode 1,9 mg/kg ; cuivre 7,4 mg/kg ; manganèse 7,8 mg/kg ; zinc 132 mg/kg ; sélénium 0,2 mg/kg ; antioxydant naturel.",
     humiditeFabricant:8,
+    humidite:8,
     glucides:37.3,
     omega3:0.67,
     omega6:2.11,
-    energie:3159
+    energie:3159,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Fiche officielle Hill’s Science Plan Perfect Weight Small & Mini vérifiée : énergie 3 159 kcal/kg, humidité 8 %, oméga-3 0,67 % et oméga-6 2,11 %. Les valeurs de calcium, phosphore, magnésium et constituants analytiques sont publiées. La taurine n’est pas indiquée sur cette fiche."
   },
   d09: {
     imageProduit:"https://media.zooplus.com/bilder/4/800/607617_pla_josera_adult_lightvital_900g_4.jpg",
@@ -103,13 +108,16 @@ window.CROCamiManufacturerData = {
   d10: {
     imageProduit:"https://images.onlinepets.com/product-images/catalog/ogS9mM14IlvbFyti3vR4LrWuuOr7TC-metaMTJrZy13ZWlnaHQtbG9zcy5qcGc%3D-.jpg",
     verificationFabricant:"confirmée_partielle",
-    sourceFabricant:"https://brit-petfood.com/en/brit-care-dog-hypoallergenic-2022",
+    sourceFabricant:"https://brit-petfood.com/fr/node/991648",
     proteines:27, matieresGrasses:9, fibres:9.5, cendres:5.5, humiditeFabricant:10, humidite:10, calcium:1.2, phosphore:0.8, sodium:0.3, omega3:0.3, omega6:1.5, energie:3110,
     compositionComplete:"Lapin déshydraté 36 %, riz 35 %, pulpe de pomme séchée 12 %, lignocellulose 10 %, graisse de poulet, arôme naturel, levure de bière, huile de saumon 1 %, téguments et graines de psyllium 0,5 %, farine de pois, glucosamine 300 mg/kg, FOS 230 mg/kg, chondroïtine 230 mg/kg, MOS 180 mg/kg, yucca 180 mg/kg, chardon-marie 110 mg/kg, bêta-glucanes 60 mg/kg, agripaume 60 mg/kg, argousier 60 mg/kg, Lactobacillus helveticus HA-122 inactivé.",
     additifs:"Vitamine A 23 000 UI/kg ; D3 1 700 UI/kg ; E 550 mg/kg ; C 350 mg/kg ; taurine 1 500 mg/kg ; choline 1 800 mg/kg ; L-carnitine 300 mg/kg ; vitamines B1, B2, B6, B12, biotine, acide folique, acide pantothénique et niacinamide ; fer 88 mg/kg ; iode 0,9 mg/kg ; zinc 100 mg/kg ; manganèse 45 mg/kg ; cuivre 20 mg/kg ; sélénium 0,18 mg/kg ; antioxydants (tocophérols, palmitate d’ascorbyle, romarin).",
     ration:"Perte de poids / maintien : 5 kg 80/90 g ; 10 kg 130/160 g ; 15 kg 180/210 g ; 20 kg 220/260 g ; 25 kg 260/310 g ; 30 kg 310/350 g ; 40 kg 380/430 g ; 50 kg 450/510 g ; 60 kg 510/580 g ; 70 kg 570/660 g ; 80 kg 630/720 g ; 90 kg 690/790 g par jour.",
     epa:0.02,
-    dha:0.05
+    dha:0.05,
+    taurine:1500,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Fiche officielle Brit Care vérifiée : énergie 3 110 kcal/kg, protéines 27 %, matières grasses 9 %, fibres 9,5 %, humidité 10 %, calcium 1,2 %, phosphore 0,8 %, oméga-3 0,3 %, oméga-6 1,5 %, EPA 0,02 %, DHA 0,05 % et taurine 1 500 mg/kg."
   },
   d11: {
     imageProduit:"https://cdn.shopify.com/s/files/1/0485/8576/9112/products/pedigree-adult-dry-dog-food-real-beef-and-vegies_580x.png?v=1678211551",
