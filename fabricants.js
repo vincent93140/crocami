@@ -55,21 +55,23 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://www.purina.fr/sites/default/files/2022-04/07613034487919_C1N1_44108853_0.png",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/dog-chow-junior-large-breed-dinde",
+    sourceComplementaire:"https://macroquette.com/avis-purina-dog-chow-large-breed-puppy-a-la-dinde-chien/",
     proteines:28, matieresGrasses:12, fibres:3, cendres:7.5, omega3:null, dha:0.05,
     compositionComplete:"Céréales (céréales complètes 46 %), viandes et sous-produits animaux (25 %, dont dinde 4 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 1,1 %, pois séchés 0,08 %, carottes séchées 0,08 %), substances minérales.",
     additifs:"Vitamine A 22 600 UI/kg ; vitamine D3 1 300 UI/kg ; vitamine E 100 UI/kg ; fer 93 mg/kg ; iode 2,3 mg/kg ; cuivre 10 mg/kg ; manganèse 7,1 mg/kg ; zinc 130 mg/kg ; sélénium 0,22 mg/kg.",
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Fiche officielle Purina vérifiée : protéines 28 %, matières grasses 12 %, cendres 7,5 %, cellulose 3 % et DHA 0,05 %. Le fabricant ne publie pas sur cette page l'énergie métabolisable, le calcium, le phosphore, le magnésium, les oméga ni la taurine."
+    noteFabricant:"Fiche officielle Purina vérifiée : protéines 28 %, matières grasses 12 %, cendres 7,5 %, cellulose 3 % et DHA 0,05 %. Macroquette indique une ancienne analyse différente pour les fibres (2 %) et les cendres (7 %) ; les chiffres fabricant actuels sont conservés. Le fabricant ne publie pas l’énergie, calcium, phosphore, magnésium, oméga ni taurine."
   },
   d06: {
     imageProduit:"https://petsi.eu/cdn/shop/files/00117526.jpg?crop=center&v=1746465700&width=600",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/sterilised-medium-3034",
+    sourceComplementaire:"https://macroquette.com/avis-Royal-Canin-sterilised-medium-chien/",
     proteines:28, matieresGrasses:13, fibres:6.4, cendres:4.9,
     compositionComplete:"Maïs, protéines de volaille déshydratées, blé, fibres végétales, protéines animales hydrolysées, graisses animales, gluten de maïs, gluten de blé, pulpe de betterave, produits de levures, huile de poissons, huile de soja, sels minéraux, téguments et graines de psyllium, fructo-oligosaccharides, levures (source de MOS), huile de bourrache, farine de tagète.",
     additifs:"Vitamine A 21 000 UI/kg ; vitamine D3 1 000 UI/kg ; fer 37 mg/kg ; iode 3,7 mg/kg ; cuivre 11 mg/kg ; manganèse 48 mg/kg ; zinc 135 mg/kg ; sélénium 0,06 mg/kg ; L-carnitine 200 mg/kg ; clinoptilolite 5 g/kg.",
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Fiche officielle Royal Canin vérifiée : protéines 28 %, matières grasses 13 %, cellulose 6,4 %, cendres 4,9 %. L'énergie métabolisable, calcium, phosphore, magnésium, oméga et taurine ne sont pas publiés sur cette fiche."
+    noteFabricant:"Fiche officielle Royal Canin vérifiée : protéines 28 %, matières grasses 13 %, cellulose 6,4 %, cendres 4,9 %. Macroquette donne 28/13/6/4 ; les écarts sur fibres et cendres sont conservés comme comparaison d’une analyse différente, sans remplacer les valeurs fabricant. Énergie, calcium, phosphore, magnésium, oméga et taurine non publiés sur la fiche fabricant."
   },
   d07: {
     imageProduit:"https://static.petness.pt/media/10/photos/products/504956/07613035123779-C1N1-44152684-63eea322a6f4c.jpg",
@@ -145,6 +147,7 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://media.zooplus.com/bilder/4/400/391896_pla_ultima_medium_maxiadult_huhnreis_6kg_hs_01_4.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.ultima-affinity.com/fr/fr/chien/nourriture-chien/seche-medium-maxi-adult-poulet-1000297.html",
+    sourceComplementaire:"https://macroquette.com/avis-ultima-medium-maxi-poulet-riz-chien/",
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Composition et ration recoupées avec la fiche officielle Ultima. La page officielle actuelle consultée ne publie pas les constituants analytiques chiffrés, l’énergie, le calcium, le phosphore ni les oméga. Macroquette référence une ancienne formule (26 % protéines, 17 % matières grasses) dont la composition diffère de la fiche fabricant actuelle : valeurs non reprises pour éviter de mélanger deux recettes.",
     compositionComplete:"Poulet 18 % (dont os, viande, peau), blé complet 15 %, maïs complet 11 %, protéines déshydratées de porc, pois déshydratés 9 %, farines basses de blé, graisse animale (volaille, porc), protéines animales hydrolysées (volaille, porc, poisson), orge complète 4 %, protéines déshydratées de volaille, pulpe de betterave 2,1 %, substances minérales.",
@@ -155,9 +158,10 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://shop-cdn-m.mediazs.com/bilder/purina/one/mediummaxi/adult/beef/rice/0/400/253397_pla_nestle_purinaone_mediummaxi_adult_rindreis_7kg_hs_01_0.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/purina-one-medium-maxi-adult-boeuf",
+    sourceComplementaire:"https://macroquette.com/avis-purina-one-medium-maxi-adulte-poulez-riz-chien/",
     proteines:25, matieresGrasses:15, fibres:2.5, cendres:7, omega3:0.2, omega6:2.5,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Protéines, matières grasses, cellulose, cendres et oméga-3/oméga-6 vérifiés sur la fiche officielle Purina ONE de la recette bœuf. La page ne publie pas l’énergie métabolisable, le calcium ni le phosphore. Macroquette confirme les taux principaux mais sa composition détaillée diffère légèrement de la formulation officielle actuelle ; priorité donnée à la fiche fabricant.",
+    noteFabricant:"Protéines, matières grasses, cellulose, cendres et oméga-3/oméga-6 vérifiés sur la fiche officielle Purina ONE de la recette bœuf. Macroquette indique 25 % protéines, 15 % matières grasses, 2 % fibres et 7 % cendres ; les fibres diffèrent de la fiche fabricant actuelle (2,5 %), donc les valeurs officielles sont conservées. Énergie, calcium et phosphore non publiés par le fabricant.",
     compositionComplete:"Abats de bœuf 17 %, maïs 16,5 %, protéines de volaille déshydratées, blé 16 %, graisses animales, gruau de maïs, riz 4,6 %, pulpe de betterave à sucre déshydratée 4,5 %, gluten de blé, hydrolysat, substances minérales, glycérol, farine de protéines de maïs, farine de malt torréfiée, huile de poisson.",
     additifs:"Vitamine A 18 200 UI/kg ; D3 590 UI/kg ; E 520 UI/kg ; C 140 mg/kg ; fer 90 mg/kg ; iode 1,5 mg/kg ; cuivre 10 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; sélénium 0,10 mg/kg.",
     ration:"10–15 kg : 170–225 g ; 15–25 kg : 225–315 g ; 25–35 kg : 315–400 g ; 35–45 kg : 400–470 g ; 45–55 kg : 470–540 g/jour."
@@ -293,9 +297,10 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chat/alimentation/proplan-croquette-adulte-dinde",
     sourceComplementaire:"https://vetcenter.purina.fr/sites/default/files/vet_materials/gamme_pro_plan_chat.pdf",
+    sourceMacroquette:"https://macroquette.com/avis-purina-pro-plan-sterilised-adult-dinde-chat/",
     proteines:41, matieresGrasses:12, fibres:4, cendres:7.5, humiditeFabricant:6,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Protéines, matières grasses, fibres, cendres, composition, additifs et ration vérifiés sur la fiche officielle Purina PRO PLAN Sterilised Adult riche en dinde. La page fabricant ne publie pas l’énergie métabolisable, le calcium, le phosphore ni une teneur chiffrée en taurine.",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, composition, additifs et ration vérifiés sur la fiche officielle Purina PRO PLAN Sterilised Adult riche en dinde. Macroquette confirme 41 % de protéines et 12 % de matières grasses mais indique fibres 5 % et cendres 7 % ; les valeurs fabricant (4 % et 7,5 %) sont conservées. Énergie, calcium, phosphore et taurine chiffrée non publiés par le fabricant.",
     compositionComplete:"Dinde de haute qualité 20 % (dont dos et coffre), protéines de volaille déshydratées, riz, farine de protéines de maïs, maïs, gluten de blé, farine basse de blé, fibres végétales séchées, œufs déshydratés, substances minérales, huile de poisson, graisses animales, hydrolysat, levure.",
     additifs:"Vitamine A 32 000 UI/kg ; D3 1 000 UI/kg ; E 670 UI/kg ; C 140 mg/kg ; fer 120 mg/kg ; iode 1,9 mg/kg ; cuivre 13 mg/kg ; manganèse 45 mg/kg ; zinc 110 mg/kg ; sélénium 0,13 mg/kg.",
     ration:"Guide fabricant : ration adaptée au poids, à l’âge, à l’activité et à la condition corporelle ; tableau à consulter sur la fiche officielle."
