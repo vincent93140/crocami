@@ -262,9 +262,10 @@ window.CROCamiManufacturerData = {
   c16: {
     imageProduit:"https://www.petsense.com/cdn/shop/products/12213-1533068253_2000x.png?v=1739292710",
     verificationFabricant:"à recouper", sourceFabricant:"https://www.tasteofthewild.com.au/portfolio-view/rocky-mountain/",
+    sourceComplementaire:"https://animaux.miscota.fr/chats/taste-of-the-wild/rocky-mountain",
     proteines:42, matieresGrasses:18, fibres:3, cendres:8.3, humiditeFabricant:10, humidite:10, calcium:1.9, phosphore:1.2, omega3:0.3, omega6:2.8, energie:3745, taurine:1500,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Fiche officielle Taste of the Wild Rocky Mountain Feline consultée pour le marché australien : énergie 3 745 kcal/kg, taurine minimum 0,15 % (1 500 mg/kg), calcium 1,9 %, phosphore 1,2 %, oméga-3 0,3 % et oméga-6 2,8 %. Ces données ne valident pas le sac commercialisé en France ; vérifier l’étiquette française.",
+    noteFabricant:"Fiche officielle Taste of the Wild Rocky Mountain Feline (marché australien) : énergie 3 745 kcal/kg, taurine minimum 0,15 % (1 500 mg/kg), calcium 1,9 %, phosphore 1,2 %, oméga-3 0,3 % et oméga-6 2,8 %. Les valeurs principales sont recoupées avec la fiche d’un distributeur français (Miscota), mais l’étiquette du sac vendu en France reste à contrôler avant validation définitive.",
     compositionComplete:"Formule féline Rocky Mountain : cerf rôti et saumon fumé. La page officielle consultée concerne le marché australien ; la composition détaillée et les valeurs doivent être recoupées avec le sac vendu en France.",
     // La réserve sur le marché australien est regroupée dans la note de vérification précédente.
     additifs:"Vitamine A 10 000 UI/kg ; D 750 UI/kg ; E 150 UI/kg ; taurine minimum 0,15 % ; fer, cuivre, iode, manganèse, zinc et sélénium selon l’étiquette fabricant.",
