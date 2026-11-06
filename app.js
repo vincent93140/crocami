@@ -200,6 +200,7 @@ function render(){let rows=filtered();$("#resultCount").textContent=rows.length+
 function renderCompare(){
  let ps=data.filter(p=>selected.has(p.id));
  $("#compareCount").textContent=ps.length+"/4 sélectionnées";
+ const clearButton=$("#clearCompare");if(clearButton)clearButton.disabled=ps.length===0;
  $("#comparison").hidden=ps.length<2;
  const comparisonRows=[
   {label:"Note Crocami",value:p=>globalNutritionScore(p).score,display:p=>{const n=globalNutritionScore(p);return n.score==null?"Données insuffisantes":n.score+"/100 · couverture "+n.confidence+" %";},better:"high"},
@@ -243,4 +244,6 @@ $(".filter-row select, #sortBy, #maxPriceKg, #minScore, #dataQuality").forEach(s
 $("#resetFilters")?.addEventListener("click",()=>{$("#search").value="";["age","size","brand","need","sortBy","maxPriceKg","minScore","dataQuality"].forEach(id=>{const el=$("#"+id);if(el)el.value=id==="sortBy"?"note-desc":"";});render();});
 $$("[data-jump-animal]").forEach(a=>a.addEventListener("click",()=>setAnimal(a.dataset.jumpAnimal)));
 const brands=[...new Set(data.map(p=>p.marque))].sort();$("#brand").innerHTML='<option value="">Toutes les marques</option>'+brands.map(b=>'<option>'+b+'</option>').join("");
+const needs=[...new Set(data.flatMap(p=>p.besoins||[]))].sort((a,b)=>a.localeCompare(b,"fr"));$("#need").innerHTML='<option value="">Tous les besoins</option>'+needs.map(n=>'<option>'+n+'</option>').join("");
+$("#clearCompare")?.addEventListener("click",()=>{selected.clear();render();});
 render();
