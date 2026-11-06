@@ -1216,3 +1216,83 @@ window.CROCamiCatalog.push(
  statutDonnees:"Fiche officielle OWNAT Classic Fish chat vérifiée : protéines 30 %, matières grasses 14 %, fibres 2 %, cendres 8 %, humidité 8 %, calcium 1,4 %, phosphore 1 %, énergie 3 790 kcal/kg et taurine 1 000 mg/kg. Sodium et magnésium issus du tableau analytique officiel. Glucides 38 % calculés par différence. Le fabricant décrit un apport additionnel d’oméga-3 et 6 sans publier de pourcentages sur cette fiche : valeurs non chiffrées laissées vides."
 }
 );
+
+/* Enrichissement Ownat : visuels officiels, descriptifs, formats et additifs fabricant (06/11/2026). */
+{
+ const ownatUpdates = {
+  "mq-dog-067": {
+    "imageProduit": "https://www.ownat.com/cdnassets/LambRice-1328x1500px_l.webp",
+    "descriptionFabricant": "Recette pour chiens adultes utilisant l’agneau comme source alternative de protéines et le riz comme première source de glucides, avec une orientation vers la tolérance digestive.",
+    "formatsDisponibles": "4 kg, 12 kg et 20 kg",
+    "additifs": "Vitamine A 18 000 UI/kg; vitamine D3 1 500 UI/kg; vitamine E 90 UI/kg; vitamine C 100 mg/kg; cuivre 4 mg/kg; manganèse 38 mg/kg; zinc 100 mg/kg + chélate de zinc 7,5 mg/kg; fer 30 mg/kg; iode 3 mg/kg; sélénium 0,2 mg/kg.",
+    "sourceFabricant": "https://www.ownat.com/classic-lambrice-chien",
+    "verificationFabricant": "confirmée",
+    "dateVerificationFabricant": "2026-11-06",
+    "statutDonnees": "Fiche officielle OWNAT Classic Lamb & Rice vérifiée : protéines 25 %, matières grasses 14 %, fibres 3 %, cendres 7,5 %, humidité 8 %, calcium 1,5 %, phosphore 1,1 % et énergie 3 795 kcal/kg. Sodium et magnésium issus du tableau analytique officiel. Composition et additifs repris de la fiche fabricant."
+  },
+  "mq-dog-068": {
+    "imageProduit": "https://www.ownat.com/cdnassets/ow-just-grain-free-adult-chicken-dog-saco-front_l.jpg",
+    "descriptionFabricant": "Recette sans céréales pour chiens adultes de toutes races, élaborée avec au moins 20 % de poulet frais avant extrusion et une forte proportion d’ingrédients d’origine animale.",
+    "formatsDisponibles": "3 kg et 14 kg",
+    "sourceFabricant": "https://www.ownat.com/gf-just-adult-chicken-chien",
+    "verificationFabricant": "confirmée",
+    "dateVerificationFabricant": "2026-11-06",
+    "additifs": "Vitamine A 22 000 UI/kg; vitamine D3 1 500 UI/kg; vitamine E 350 UI/kg; vitamine C 100 mg/kg; taurine 1 100 mg/kg; L-carnitine 200 mg/kg; cuivre sulfate 5 mg/kg + cuivre chélaté 5 mg/kg; manganèse 50 mg/kg; zinc oxyde 100 mg/kg + zinc chélaté 10 mg/kg; fer 50 mg/kg; iode 4 mg/kg; sélénium 0,3 mg/kg.",
+    "statutDonnees": "Fiche officielle OWNAT Just Grain Free Adult Chicken vérifiée : protéines 40 %, matières grasses 20 %, fibres 3 %, cendres 9 %, humidité 8 %, oméga-6 3 %, oméga-3 0,5 %, calcium 1,5 %, phosphore 1 %, énergie 4 080 kcal/kg et taurine 1 100 mg/kg. Composition et additifs recopiés de la fiche fabricant."
+  },
+  "mq-cat-051": {
+    "imageProduit": "https://www.ownat.com/cdnassets/Daily-Care-1328x1500px_l.webp",
+    "descriptionFabricant": "Aliment complet pour chats adultes de toutes races ayant un niveau d’activité normal, avec viande fraîche et une recette équilibrée pour l’entretien quotidien.",
+    "formatsDisponibles": "1,5 kg, 4 kg et 15 kg",
+    "additifs": "Vitamine A 15 000 UI/kg; vitamine D3 1 500 UI/kg; vitamine E 100 UI/kg; vitamine C 100 mg/kg; taurine 1 000 mg/kg; cuivre 5 mg/kg; manganèse 30 mg/kg; zinc 100 mg/kg + chélate de zinc 7 mg/kg; fer 30 mg/kg; iode 2 mg/kg; sélénium 0,1 mg/kg.",
+    "sourceFabricant": "https://www.ownat.com/classic-daily-care-chat",
+    "verificationFabricant": "confirmée",
+    "dateVerificationFabricant": "2026-11-06",
+    "statutDonnees": "Fiche officielle OWNAT Classic Daily Care vérifiée : protéines 30 %, matières grasses 14 %, fibres 2,2 %, cendres 7,5 %, humidité 8 %, calcium 1,4 %, phosphore 1,1 % et énergie 3 800 kcal/kg. Taurine 1 000 mg/kg publiée dans les additifs. Sodium et magnésium repris du tableau analytique officiel."
+  },
+  "mq-cat-052": {
+    "imageProduit": "https://www.ownat.com/cdnassets/Sterilized-1328x1500px_l.webp",
+    "descriptionFabricant": "Recette destinée aux chats stérilisés : teneur réduite en matières grasses pour limiter l’apport calorique, compensée par une teneur élevée en protéines pour contribuer au maintien musculaire.",
+    "formatsDisponibles": "1,5 kg, 4 kg et 15 kg",
+    "additifs": "Vitamine A 15 000 UI/kg; vitamine D3 1 500 UI/kg; vitamine E 100 UI/kg; vitamine C 100 mg/kg; taurine 1 000 mg/kg; cuivre 5 mg/kg; manganèse 30 mg/kg; zinc 100 mg/kg + chélate de zinc 7 mg/kg; fer 30 mg/kg; iode 2 mg/kg; sélénium 0,1 mg/kg.",
+    "sourceFabricant": "https://www.ownat.com/classic-sterilized-fr-chat",
+    "verificationFabricant": "confirmée",
+    "dateVerificationFabricant": "2026-11-06",
+    "statutDonnees": "Fiche officielle OWNAT Classic Sterilized vérifiée : protéines 33 %, matières grasses 12 %, fibres 4 %, cendres 8 %, humidité 8 %, calcium 1,3 %, phosphore 1 %, énergie 3 590 kcal/kg et taurine 1 000 mg/kg. Sodium et magnésium repris du tableau analytique officiel."
+  },
+  "ownat-dog-classic-complet": {
+    "imageProduit": "https://www.ownat.com/cdnassets/Complet-1328x1500px_l.webp",
+    "descriptionFabricant": "Aliment complet et équilibré pour chiens adultes de toutes races et tailles ayant un niveau d’activité normal.",
+    "formatsDisponibles": "4 kg, 12 kg et 20 kg"
+  },
+  "ownat-dog-classic-junior": {
+    "imageProduit": "https://www.ownat.com/cdnassets/Junior-1328x1500px_l.webp",
+    "descriptionFabricant": "Aliment pour chiots de toutes races, du sevrage jusqu’à l’âge adulte, avec un apport énergétique et protéique élevé et un enrichissement en calcium et vitamine E.",
+    "formatsDisponibles": "4 kg et 12 kg"
+  },
+  "ownat-dog-classic-energy": {
+    "imageProduit": "https://www.ownat.com/cdnassets/Energy-1328x1500px_l.webp",
+    "descriptionFabricant": "Recette destinée aux chiens adultes très actifs, de travail ou sportifs, avec davantage de matières grasses pour fournir une énergie concentrée et des protéines pour soutenir la musculature.",
+    "formatsDisponibles": "4 kg, 12 kg et 20 kg"
+  },
+  "ownat-cat-classic-kitten": {
+    "imageProduit": "https://www.ownat.com/cdnassets/Kitten-1328x1500px_l.webp",
+    "descriptionFabricant": "Aliment pour chatons de 1 à 12 mois, formulé avec une teneur élevée en énergie et en protéines pour accompagner la croissance et avec des prébiotiques pour l’équilibre intestinal.",
+    "formatsDisponibles": "1,5 kg et 4 kg"
+  },
+  "ownat-cat-classic-hairball": {
+    "imageProduit": "https://www.ownat.com/cdnassets/Hairball-1328x1500px_l.webp",
+    "descriptionFabricant": "Recette pour chats adultes intégrant de l’extrait de malt et des fibres végétales pour favoriser l’évacuation des poils ingérés et limiter la formation de boules de poils.",
+    "formatsDisponibles": "1,5 kg et 4 kg"
+  },
+  "ownat-cat-classic-fish": {
+    "imageProduit": "https://www.ownat.com/cdnassets/Fish-cat-1328x1500px_l.webp",
+    "descriptionFabricant": "Recette pour chats adultes de toutes races élaborée avec du poisson frais et un apport supplémentaire en oméga-3 et oméga-6 pour la peau et la qualité du pelage.",
+    "formatsDisponibles": "1,5 kg et 4 kg"
+  }
+};
+ for (const product of window.CROCamiCatalog) {
+   const update = ownatUpdates[product.id];
+   if (update) Object.assign(product, update);
+ }
+}
