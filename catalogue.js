@@ -714,3 +714,29 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiNextThreeUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* ROYAL CANIN : vérification séparée des variantes Maxi, Mini et Sterilised Medium. */
+const crocamiRoyalCaninVariantUpdates = {
+ "mq-dog-077": {
+  sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/maxi-adult-3007",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_actuelle_à_confirmer",
+  statutDonnees:"La fiche officielle Maxi Adult actuelle confirme protéines 26 %, matières grasses 17 %, fibres 1,3 %, cendres 7,5 % et énergie 3 937 kcal/kg. La composition actuelle comprend notamment orge, protéines de pois et huile d'algues, absentes de la composition historique Macroquette : les valeurs de la nouvelle fiche ne sont pas fusionnées dans l'ancienne référence."
+ },
+ "mq-dog-078": {
+  proteines:27, matieresGrasses:16, fibres:1.5, cendres:6.3, energie:3923,
+  sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/small-adult-3001",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée_partielle",
+  statutDonnees:"Fiche officielle Royal Canin Mini Adult vérifiée : protéines 27 %, matières grasses 16 %, fibres 1,5 %, cendres 6,3 % et énergie 3 923 kcal/kg. Les protéines et matières grasses correspondent à la référence Macroquette ; les valeurs fibres et cendres sont actualisées depuis la fiche fabricant. Calcium et phosphore ne sont pas publiés sur cette fiche."
+ },
+ "mq-dog-079": {
+  fibres:6.4, cendres:4.9,
+  sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/sterilised-medium-3034",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée_partielle",
+  statutDonnees:"Fiche officielle Royal Canin Medium Sterilised vérifiée : protéines 28 %, matières grasses 13 %, fibres 6,4 % et cendres 4,9 %. Les protéines et matières grasses concordent avec la référence Macroquette ; fibres et cendres sont actualisées depuis le fabricant. La composition officielle confirme maïs, protéines de volaille déshydratées, blé, fibres végétales, hydrolysats, graisses animales, pulpe de betterave, psyllium, FOS et MOS. Calcium, phosphore et énergie ne sont pas publiés sur la fiche consultée."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiRoyalCaninVariantUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
