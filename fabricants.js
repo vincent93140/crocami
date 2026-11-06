@@ -327,8 +327,10 @@ window.CROCamiManufacturerData = {
   },
   c20: {
     imageProduit:"https://www.vetzoo.no/dw/image/v2/BLRV_PRD/on/demandware.static/-/Sites-musti-master-catalog/default/dw7af4aa3e/images/products/P216129/shared/216129_Carnilove_Cat_Adult_Active_Salmon_%26_Turkey_6kg.jpg",
-    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://carnilove.com/en/products/active-dry-food-made-with-salmon-and-turkey-for-adult-cats",
+    verificationFabricant:"confirmée_partielle", sourceFabricant:"https://carnilove.com/fr/produits/active-dry-food-made-with-salmon-and-turkey-for-adult-cats",
     energie:3875,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Composition, constituants analytiques, minéraux, oméga-3/6, taurine (2 500 mg/kg), énergie (3 875 kcal/kg) et ration vérifiés sur la fiche officielle française Carnilove ACTIVE saumon & dinde adulte.",
     compositionComplete:"Saumon frais 26 %, protéines de dinde 24 %, pois jaunes, protéines de dinde hydrolysées 12 %, graisse de bœuf 8 %, foie hydrolysé 4 %, pois chiches, protéine de pois, citrouille, graines de lin, huile de saumon 1 %, chlorure de potassium, farine de pois, carottes, argousier séché 0,1 %, gingembre 0,05 %, myrtilles 0,05 %, romarin 0,05 %, canneberges 0,05 %, thym 0,05 %, levure de bière, racine de chicorée et yucca.",
     ration:"2–3 kg : 40–45 g ; 3–5 kg : 50–70 g ; 5–7 kg : 70–85 g ; 7–9 kg : 85–100 g/jour.",
     noteFabricant:"Énergie métabolisable annoncée : 3 875 kcal/kg. Les constituants analytiques complets doivent encore être recoupés avec l’étiquette du lot commercialisé en France.",
@@ -348,6 +350,8 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://d3nyg2dwdichmn.cloudfront.net/production/files/public/media/0e/f5/b1/1713551580/688614.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.farmina.com/ch_fr/eshop/alimentation-pour-chat/n%26d-prime-chats/145-prime-poulet-%26-grenade-chat-adulte.html",
     proteines:44, matieresGrasses:20, fibres:1.8, cendres:8.5, humiditeFabricant:8, humidite:8, calcium:1.1, phosphore:0.9, magnesium:0.08, omega3:0.9, omega6:3.3, dha:0.5, epa:0.3, energie:4204,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Valeurs analytiques, humidité, calcium, phosphore, magnésium, oméga-3/6, DHA, EPA, taurine (4 000 mg/kg) et énergie (4 204 kcal/kg) confirmés sur la fiche officielle Farmina N&D Prime Chicken & Pomegranate Adult.",
     compositionComplete:"Poulet désossé 30 %, protéine de poulet déshydratée 28 %, patate douce, graisse de poulet, œuf séché, hareng, protéine de hareng déshydratée, huile de poisson (hareng), fibre de pois, carotte séchée, farine de luzerne, inuline, FOS, extrait de levure (MOS), grenade séchée 0,5 %, pomme séchée, épinard séché, psyllium 0,3 %, orange douce séchée, myrtille séchée, chlorure de sodium, levure de bière séchée, curcuma 0,2 %, extrait d’aloe vera.",
     additifs:"Vitamine A 18 000 UI/kg ; D3 1 200 UI/kg ; E 600 mg/kg ; C 300 mg/kg ; niacine 150 mg/kg ; pantothénate de calcium 50 mg/kg ; B2 20 mg/kg ; B6 8,1 mg/kg ; B1 10 mg/kg ; biotine 1,5 mg/kg ; acide folique 1,5 mg/kg ; B12 0,1 mg/kg ; choline 2 500 mg/kg ; bêta-carotène 1,5 mg/kg ; zinc 163,8 mg/kg ; manganèse 64,6 mg/kg ; fer 58,3 mg/kg ; cuivre 15,8 mg/kg ; DL-méthionine 5 000 mg/kg ; taurine 4 000 mg/kg ; L-carnitine 300 mg/kg ; extrait de thé vert, romarin et tocophérols."
   },
@@ -356,6 +360,8 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://applaws.com/uk/products/chicken-adult-dry-cat-food-4/",
     proteines:37, matieresGrasses:16.5, fibres:2, cendres:8, omega3:0.5, omega6:3.85, calcium:2.2, phosphore:1.4, energie:4046,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Composition, additifs, taurine (1 000 mg/kg), constituants analytiques, calcium, phosphore, oméga-3/6 et énergie (4 046 kcal/kg) vérifiés sur la fiche officielle Applaws Chicken Adult. La page consultée est la version britannique ; vérifier l’étiquette du sac vendu en France avant de considérer la correspondance comme définitive.",
     compositionComplete:"Poulet 49,5 % (farine de poulet 46 %, poulet fraîchement préparé 3,5 %), pomme de terre, graisse de volaille 8 %, pulpe de betterave, levure de bière séchée, vitamines et minéraux, jus de volaille 1,5 %, huile de saumon, poudre d’œuf, extrait de chicorée 0,2 % (source de FOS), algues, extrait de yucca, poudre de canneberge.",
     additifs:"Vitamine A 29 000 UI/kg ; D3 1 000 UI/kg ; E 640 mg/kg ; taurine 1 000 mg/kg ; DL-méthionine 250 mg/kg ; iode 1 mg/kg ; fer 50 mg/kg ; zinc 100 mg/kg ; manganèse 50 mg/kg ; cuivre 5 mg/kg ; antioxydants (extraits de tocophérols) ; sépiolite 300 mg/kg ; extrait de romarin."
   },
