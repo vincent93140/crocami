@@ -686,3 +686,31 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiFurtherBrandUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* PURIZON, REAL NATURE ET ROYAL CANIN : contrôle des recettes actuelles. */
+const crocamiNextThreeUpdates = {
+ "mq-dog-074": {
+  energie:3971, taurine:1500,
+  sourceRevendeur:"https://www.zooplus.be/shop/p/974637?activeVariant=974637.2",
+  sourceComplementaire:"https://www.bitiba.fr/shop/chiens/croquettes/croquettes_chien_purizon/adulte/999555?activeVariant=999555.0",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée_partielle",
+  additifs:"Vitamine A 18 000 UI/kg ; vitamine D3 1 500 UI/kg ; vitamine E 180 UI/kg ; vitamine C 140 mg/kg ; vitamines B1 8 mg/kg, B2 8 mg/kg, B6 6 mg/kg, B12 30 µg/kg ; biotine 250 µg/kg ; choline 1 200 mg/kg ; acide folique 0,8 mg/kg ; niacine 50 mg/kg ; pantothénate de calcium 24 mg/kg ; taurine 1 500 mg/kg ; zinc 100 mg/kg ; manganèse 10 mg/kg ; cuivre 8 mg/kg ; iode 2,6 mg/kg ; DL-méthionine 1 000 mg/kg.",
+  statutDonnees:"Purizon Adult Agneau & Saumon : fiche Zooplus/Bitiba actuelle correspondant à la composition et aux analyses de la référence. Énergie 3 971 kcal/kg et taurine 1 500 mg/kg ajoutées. Les valeurs protéines 39 %, matières grasses 19 %, fibres 2,5 %, cendres 8,9 %, calcium 1,9 %, phosphore 1,25 %, oméga-3 0,5 % et oméga-6 2 % sont confirmées. Humidité non publiée."
+ },
+ "mq-dog-075": {
+  sourceFabricant:"https://www.real-nature.com/en-ir/products/p/real-nature-real-nature-wilderness-black-earth-adult-maxi-beef-with-ostrich-und-buffalo-dogs-dry-food",
+  sourceRevendeur:"https://www.maxizoo.fr/p/real-nature-wilderness-croquettes-pour-chien-adulte-black-earth-buf-avec-autruche-et-buffle-1-kg-1083996009/",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_actuelle_différente",
+  statutDonnees:"La fiche actuelle REAL NATURE WILDERNESS Black Earth Adult (format standard) décrit une formule différente : bœuf frais 26 %, protéines de bœuf 16 %, pois 12 %, protéines de buffle 10 %, patate douce 9 %, autruche 6 %. Analyses actuelles relevées : protéines 30 %, matières grasses 17 %, cendres 7 %, fibres 2,8 %, calcium 1,6 %, phosphore 1,2 %. La fiche Macroquette historique parle de farine de bœuf 30 %, farine d'autruche 16 %, farine de buffle 10 % et affiche 31/16/2/8 : les deux versions ne sont pas fusionnées. La variante Maxi 12 kg est également différente et n'est pas utilisée."
+ },
+ "mq-dog-076": {
+  sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/vet-products/adult-3705",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_actuelle_différente",
+  statutDonnees:"La fiche officielle Royal Canin consultée pour Medium Adult publie une analyse actuelle différente de la référence Macroquette : protéines 23 %, matières grasses 16 %, cendres 6,1 %, fibres 1,4 %, oméga-6 3,4 %, oméga-3 0,64 %, EPA/DHA 0,29 % et taurine 0,19 %. La fiche historique affiche 25 % protéines, 14 % matières grasses, 1 % fibres et 6 % cendres : aucune donnée actuelle n'est fusionnée sans confirmation de l'identité de la recette et de son étiquette."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiNextThreeUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
