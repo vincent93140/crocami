@@ -821,3 +821,49 @@ window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
  const update = crocamiBrandFormulaReview20261106[p.id];
  return update ? {...p, ...update} : p;
 });
+
+
+/* AUDIT FORMULATIONS ACTUELLES — 1ST CHOICE ET AATU (06/11/2026).
+   Les anciennes formules ne sont jamais remplacées par des données de recettes reformulées. */
+const crocamiBrandFormulaReview20261106b = {
+  "mq-dog-001": {
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La page officielle 1st Choice Puppy Toy & Small Breeds actuelle a été vérifiée. Elle affiche 30 % de protéines, 18 % de matières grasses, énergie 3 737 kcal/kg, calcium minimum 1,25 %, phosphore minimum 1 % et DHA minimum 0,03 %. Sa liste d’ingrédients actuelle ne correspond pas à la composition historique du catalogue (notamment poulet déshydraté 36 % et céréales). Les minima garantis ne permettent pas de calculer un ratio Ca/P exact. Aucune valeur actuelle n’est transférée à l’ancienne fiche.",
+    "statutDonnees": "Formule officielle actuelle différente de la composition historique enregistrée. Valeurs fabricant actuelles consignées séparément, sans fusion."
+  },
+  "mq-dog-002": {
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La page officielle 1st Choice Hypoallergène Canard actuelle a été vérifiée. Elle affiche 22 % de protéines, 12 % de matières grasses, énergie 3 325 kcal/kg, calcium minimum 1,3 % et phosphore minimum 0,9 %. La composition actuelle (canard, lentilles, pois et patates douces) diffère de la fiche historique qui mentionne notamment 46 % de pommes de terre déshydratées et 15 % de canard frais. Les teneurs min/max garanties ne sont pas utilisées pour calculer Ca/P. Aucune donnée actuelle n’est fusionnée.",
+    "statutDonnees": "Formule actuelle différente de l’ancienne recette Hypoallergène. Données fabricant actuelles conservées en note uniquement."
+  },
+  "mq-dog-003": {
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La page officielle 1st Choice Contrôle du poids actuelle a été vérifiée. Elle affiche 24 % de protéines, 9 % de matières grasses, énergie 3 275 kcal/kg, calcium minimum 1,1 % et phosphore minimum 0,8 %. Sa composition actuelle (farine de poulet, orge, avoine, riz brun et millet) et ses garanties analytiques diffèrent de la formule historique du catalogue. Les minima Ca/P ne permettent pas de calculer un ratio exact. Valeurs actuelles non fusionnées.",
+    "statutDonnees": "La recette officielle actuelle Contrôle du poids ne correspond pas à la formule historique. Valeurs actuelles non fusionnées."
+  },
+  "mq-dog-004": {
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "La page officielle 1st Choice Adulte Moyennes et Grandes races actuelle a été vérifiée. Elle affiche 24 % de protéines, 14 % de matières grasses, énergie 3 495 kcal/kg, calcium minimum 1 % et phosphore minimum 0,75 %. La composition actuelle (farine de poulet, orge, avoine, pois) diffère de la recette historique du catalogue (notamment riz de brasserie et poulet déshydraté 26 %). Les valeurs minimales Ca/P ne permettent pas de calculer un ratio exact. Aucune donnée actuelle n’est fusionnée.",
+    "statutDonnees": "Formule officielle actuelle différente de la composition historique. Valeurs fabricant actuelles consignées séparément."
+  },
+  "mq-dog-005": {
+    "verificationFabricant": "confirmée_partielle",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "Fiche officielle AATU Free Run Chicken vérifiée : composition identique à la référence enregistrée (poulet 66 %, poulet déshydraté 14 %, patate douce, tapioca, pomme, pois chiches, pois et huile de saumon). Analyses concordantes : protéines 32 %, matières grasses 18 %, fibres 2 %, cendres 7,6 %, oméga-6 3,5 % et oméga-3 0,4 %. La page officielle consultée ne publie pas l’énergie métabolisable, le calcium ni le phosphore.",
+    "statutDonnees": "Formule et analyses concordantes avec la fiche officielle AATU. Énergie, calcium et phosphore non publiés sur la page consultée."
+  },
+  "mq-dog-006": {
+    "verificationFabricant": "confirmée_partielle",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "Fiche officielle AATU Free Run Duck vérifiée : composition identique à la référence enregistrée (canard 66 %, canard déshydraté 14 %, pois, patate douce, pomme, pois chiches et huile de saumon). Analyses concordantes : protéines 33 %, matières grasses 19 %, fibres 2,8 %, cendres 9 %, oméga-6 3 % et oméga-3 0,7 %. La page officielle consultée ne publie pas l’énergie métabolisable, le calcium ni le phosphore.",
+    "statutDonnees": "Formule et analyses concordantes avec la fiche officielle AATU. Énergie, calcium et phosphore non publiés sur la page consultée."
+  }
+};
+window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
+ const update = crocamiBrandFormulaReview20261106b[p.id];
+ return update ? {...p, ...update} : p;
+});
