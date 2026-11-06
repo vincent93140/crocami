@@ -1001,28 +1001,27 @@ for (const product of window.CROCamiCatalog) {
 }
 
 
-/* COMPLÉMENT FABRICANT — ALLEVA NATURAL ADULT CHICKEN & PUMPKIN MAXI (06/11/2026).
-   Valeurs analytiques de la formule actuelle ; ne pas fusionner avec la recette historique. */
+/* RECTIFICATION — ALLEVA NATURAL ADULT CHICKEN & PUMPKIN MAXI (06/11/2026).
+   La page officielle affiche un placeholder erroné (protéines min. 2 %, humidité max. 8 %).
+   Seules les données lisibles et attribuables à la formule Maxi sont conservées ici.
+   Ne pas reprendre l'analyse du revendeur comme donnée fabricant. */
 const crocamiAllevaNaturalMaxi20261106 = {
   "mq-dog-020": {
-    sourceFabricant: "https://allevastore.com/en/products/crocchette-per-cani-natural-adult-mini-pollo-zucca-2-kg",
-    verificationFabricant: "formule_actuelle_différente",
+    sourceFabricant: "https://allevastore.com/en/fr-fr/products/crocchette-per-cani-natural-adult-mini-pollo-zucca-2-kg",
+    verificationFabricant: "confirmée_partielle",
     dateVerificationFabricant: "2026-11-06",
-    noteFabricant: "Fiche officielle Alleva Natural Adult Chicken & Pumpkin consultée. Composition Maxi actuelle : poulet déshydraté 32 %, poulet frais désossé 20 %, riz brun 20 %, potiron séché 5 %. Analyse actuelle : protéines 28 %, matières grasses 17 %, fibres 2 %, cendres 6,5 %, humidité 9 %, calcium 1,4 %, phosphore 0,9 %, oméga-6 4,3 %, oméga-3 0,6 %, énergie métabolisable 3 930 kcal/kg. Additifs : taurine 1 000 mg/kg, L-carnitine 500 mg/kg, glucosamine 1 000 mg/kg et chondroïtine 800 mg/kg. Données de la formule actuelle, distinctes de l'analyse historique Crocami.",
-    statutDonnees: "Analyse complète de la formule fabricant actuelle retrouvée. Composition Maxi actuelle différente de la référence historique ; valeurs conservées séparément, sans recalcul de la fiche historique."
+    noteFabricant: "Fiche officielle Alleva Natural Adult Chicken & Pumpkin consultée ; la variante Maxi est explicitement disponible et sa composition est publiée : poulet déshydraté 32 %, poulet frais désossé 20 %, riz brun 20 %, potiron séché 5 %. Énergie métabolisable annoncée : 3 920 kcal/kg. Additifs par kg : taurine 1 000 mg et L-carnitine 500 mg. Glucosamine et chondroïtine sont mentionnées dans la composition mais sans dosage officiel sur cette page. Les lignes « protéines min. 2 % » et « humidité max. 8 % » sont manifestement des placeholders et sont exclues. Calcium, phosphore, oméga et analyse garantie complète non publiés de façon exploitable sur la page fabricant.",
+    statutDonnees: "Formule actuelle Maxi identifiée. Données fabricant exploitables ajoutées ; analyse complète non publiée/illisible, aucune valeur de revendeur transférée dans les champs fabricant."
   }
 };
 for (const product of window.CROCamiCatalog) {
-  const current = crocamiAllevaNaturalMaxi20261106[product.id];
-  if (current) Object.assign(product, current);
   if (product.id === "mq-dog-020") {
+    Object.assign(product, crocamiAllevaNaturalMaxi20261106[product.id]);
     product.donneesFabricantActuelles = {
-      ...(product.donneesFabricantActuelles || {}),
       formule: "Alleva Natural Adult Chicken & Pumpkin Maxi — formule actuelle",
-      proteines: 28, matieresGrasses: 17, fibres: 2, cendres: 6.5,
-      humidite: 9, calcium: 1.4, phosphore: 0.9,
-      omega3: 0.6, omega6: 4.3, energie: 3930,
-      glucosamine: 1000, chondroitine: 800, taurine: 1000, lCarnitine: 500
+      energie: 3920,
+      taurine: 1000,
+      lCarnitine: 500
     };
   }
 }
