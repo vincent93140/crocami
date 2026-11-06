@@ -240,7 +240,7 @@ function renderCompare(){
 }
 tabs.forEach(t=>t.addEventListener("click",()=>setAnimal(t.dataset.animal)));
 $("#searchBtn").addEventListener("click",render);$("#search").addEventListener("input",render);$("#search").addEventListener("keydown",e=>{if(e.key==="Enter")render();});
-$(".filter-row select, #sortBy, #maxPriceKg, #minScore, #dataQuality").forEach(s=>s.addEventListener("change",render));
+Array.from(document.querySelectorAll(".filter-row select, #sortBy, #maxPriceKg, #minScore, #dataQuality")).forEach(s=>s.addEventListener("change",render));
 $("#resetFilters")?.addEventListener("click",()=>{$("#search").value="";["age","size","brand","need","sortBy","maxPriceKg","minScore","dataQuality"].forEach(id=>{const el=$("#"+id);if(el)el.value=id==="sortBy"?"note-desc":"";});render();});
 $$("[data-jump-animal]").forEach(a=>a.addEventListener("click",()=>setAnimal(a.dataset.jumpAnimal)));
 const brands=[...new Set(data.map(p=>p.marque))].sort();$("#brand").innerHTML='<option value="">Toutes les marques</option>'+brands.map(b=>'<option>'+b+'</option>').join("");
