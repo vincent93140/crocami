@@ -174,12 +174,21 @@ function cardMetricsMarkup(p){
  }).join("")+'</div>';
 }function sourcesMarkup(p){
  const links=[];
- if(p.sourceFabricant)links.push('<a href="'+p.sourceFabricant+'" target="_blank" rel="noopener noreferrer">Fabricant</a>');
+ const different=p.verificationFabricant==="formule_actuelle_différente";
+ if(p.sourceFabricant)links.push('<a href="'+p.sourceFabricant+'" target="_blank" rel="noopener noreferrer">'+(different?"Fabricant · formule actuelle":"Fabricant")+'</a>');
  if(p.sourceDocumentFabricant)links.push('<a href="'+p.sourceDocumentFabricant+'" target="_blank" rel="noopener noreferrer">Fiche technique</a>');
  if(p.sourceRevendeur)links.push('<a href="'+p.sourceRevendeur+'" target="_blank" rel="noopener noreferrer">Revendeur</a>');
  if(p.sourceMacroquette)links.push('<a href="'+p.sourceMacroquette+'" target="_blank" rel="noopener noreferrer">Macroquette</a>');
  if(p.sourceComplementaire && p.sourceComplementaire!==p.sourceMacroquette && p.sourceComplementaire!==p.sourceRevendeur)links.push('<a href="'+p.sourceComplementaire+'" target="_blank" rel="noopener noreferrer">Source complémentaire</a>');
- return links.length?'<div class="product-sources"><small>Sources</small>'+links.join("")+'</div>':"";
+ const labels={
+  "formule_actuelle_différente":"Formule fabricant actuelle différente — valeurs non fusionnées",
+  "confirmée_partielle":"Composition et analyses confirmées partiellement par le fabricant",
+  "reference_historique_non_retrouvee":"Référence historique non retrouvée chez le fabricant"
+ };
+ const label=labels[p.verificationFabricant]||"";
+ const note=p.noteFabricant?String(p.noteFabricant).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"):"";
+ const review=label?'<details class="product-source-review"><summary>'+label+'</summary>'+(note?'<p>'+note+'</p>':"")+'</details>':"";
+ return links.length||review?'<div class="product-sources"><small>Sources</small>'+links.join("")+review+'</div>':"";
 }
 function card(p){let checked=selected.has(p.id);const pack=p.imageProduit?'<img src="'+p.imageProduit+'" alt="Sac de '+p.marque+' — '+p.recette+'" loading="lazy" onerror="this.remove();this.parentElement.classList.add(\'pack-missing\')">':'<span class="pack-fallback">'+(p.espece==="chien"?"🐶":"🐱")+'</span>';return `<article class="product-card"><div class="product-top"><span class="product-animal">${p.espece==="chien"?"🐶 CHIEN":"🐱 CHAT"}</span><label class="compare-check"><input type="checkbox" data-compare="${p.id}" ${checked?"checked":""}> Comparer</label></div><div class="product-identity"><div class="product-visual">${pack}</div><div class="product-names"><div class="product-name-copy"><p class="product-brand">${p.marque}</p><h3>${p.recette}</h3></div>${scoreStackMarkup(p)}</div></div>${cardMetricsMarkup(p)}${sourcesMarkup(p)}<div class="product-price"><strong>${p.prixSac!=null?fmt(p.prixSac)+" €":p.prixKg!=null?fmt(p.prixKg)+" €/kg":"Prix non communiqué"}</strong><span>${p.prixSac!=null?(p.formatKg!=null?fmt(p.formatKg)+" kg · ":"")+"Prix au kg : "+fmt(p.prixKg)+" €/kg":p.prixKg!=null?"Prix moyen indicatif au kg":"Prix non communiqué"}</span></div></article>`;}
 function render(){let rows=filtered();$("#resultCount").textContent=rows.length+" références";$("#emptyState").hidden=rows.length>0;$("#results").innerHTML=rows.map(card).join("");$("#results").querySelectorAll("[data-compare]").forEach(el=>el.addEventListener("change",()=>{if(el.checked){if(selected.size>=4){el.checked=false;alert("Vous pouvez comparer 4 produits maximum.");return;}selected.add(el.dataset.compare);}else selected.delete(el.dataset.compare);renderCompare();}));renderCompare();}
