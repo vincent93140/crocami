@@ -158,10 +158,11 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://shop-cdn-m.mediazs.com/bilder/purina/one/mediummaxi/adult/beef/rice/0/400/253397_pla_nestle_purinaone_mediummaxi_adult_rindreis_7kg_hs_01_0.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/purina-one-medium-maxi-adult-boeuf",
+    sourceRevendeur:"https://capitaine-croquettes.fr/croquettes/Chien/purina-one-medium-maxi-10kg-adult-riche-en-boeuf-avec-du-riz",
     sourceComplementaire:"https://macroquette.com/avis-purina-one-medium-maxi-adulte-poulez-riz-chien/",
-    proteines:25, matieresGrasses:15, fibres:2.5, cendres:7, omega3:0.2, omega6:2.5,
+    proteines:25, matieresGrasses:15, fibres:2.5, cendres:7, omega3:0.2, omega6:2.5, energie:3570,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Protéines, matières grasses, cellulose, cendres et oméga-3/oméga-6 vérifiés sur la fiche officielle Purina ONE de la recette bœuf. Macroquette indique 25 % protéines, 15 % matières grasses, 2 % fibres et 7 % cendres ; les fibres diffèrent de la fiche fabricant actuelle (2,5 %), donc les valeurs officielles sont conservées. Énergie, calcium et phosphore non publiés par le fabricant.",
+    noteFabricant:"Protéines, matières grasses, cellulose, cendres et oméga-3/oméga-6 vérifiés sur la fiche officielle Purina ONE de la recette bœuf. Énergie de 3 570 kcal/kg ajoutée depuis Capitaine Croquettes pour cette référence. Macroquette indique 25 % protéines, 15 % matières grasses, 2 % fibres et 7 % cendres ; les fibres diffèrent de la fiche fabricant actuelle (2,5 %), donc les valeurs officielles sont conservées. Calcium et phosphore non publiés.",
     compositionComplete:"Abats de bœuf 17 %, maïs 16,5 %, protéines de volaille déshydratées, blé 16 %, graisses animales, gruau de maïs, riz 4,6 %, pulpe de betterave à sucre déshydratée 4,5 %, gluten de blé, hydrolysat, substances minérales, glycérol, farine de protéines de maïs, farine de malt torréfiée, huile de poisson.",
     additifs:"Vitamine A 18 200 UI/kg ; D3 590 UI/kg ; E 520 UI/kg ; C 140 mg/kg ; fer 90 mg/kg ; iode 1,5 mg/kg ; cuivre 10 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; sélénium 0,10 mg/kg.",
     ration:"10–15 kg : 170–225 g ; 15–25 kg : 225–315 g ; 25–35 kg : 315–400 g ; 35–45 kg : 400–470 g ; 45–55 kg : 470–540 g/jour."
