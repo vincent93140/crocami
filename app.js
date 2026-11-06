@@ -26,10 +26,10 @@ function globalNutritionScore(p){
   const v=proteinPhosphorus>=35?100:proteinPhosphorus>=30?90:proteinPhosphorus>=25?80:proteinPhosphorus>=20?65:proteinPhosphorus>=15?45:20;
   add("Indice protéines / phosphore",v,20,"Indice de lecture calculé à partir des valeurs publiées; il ne permet pas à lui seul de juger la digestibilité ni l’origine des protéines.");
  }
- const caP=p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null;
+ const caP=p.ratioCalciumPhosphore>0?Number(p.ratioCalciumPhosphore):(p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null);
  if(caP!=null){
   const v=caP>=1.2&&caP<=1.8?100:caP>=1&&caP<=2?85:caP>=0.8&&caP<=2.2?55:20;
-  add("Ratio calcium / phosphore",v,15,"Rapport calculé lorsque calcium et phosphore sont tous deux communiqués.");
+  add("Ratio calcium / phosphore",v,15,p.ratioCalciumPhosphore>0?"Ratio Ca/P publié directement par le fabricant.":"Rapport calculé lorsque calcium et phosphore sont tous deux communiqués.");
  }
  const omega=p.omega3>0&&p.omega6!=null?p.omega6/p.omega3:null;
  if(omega!=null){
@@ -114,9 +114,9 @@ function globalScoreMarkup(p,compact=false){
  add("Glucides estimés",carbs==null?null:Math.round(carbs*10)/10,"% matière sèche","Repère comparatif indicatif",carbs==null?"missing":carbs<15?"good":"watch","Glucides estimés ramenés à la matière sèche lorsque l’humidité est connue.");
  const fiber=dry(p.fibres);
  add("Fibres",fiber==null?null:Math.round(fiber*10)/10,"% matière sèche","Repère indicatif : 1,5 à 5 % MS",fiber==null?"missing":fiber<=5?"good":"watch","Le type de fibres et la tolérance digestive doivent aussi être pris en compte.");
- const ca=dry(p.calcium),ratio=p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null;
+ const ca=dry(p.calcium),ratio=p.ratioCalciumPhosphore>0?Number(p.ratioCalciumPhosphore):(p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null);
  const mineralOk=ca!=null&&ratio!=null&&ca>=1&&ca<=1.7&&ratio>=1&&ratio<=2;
- add("Équilibre minéral Ca/P",ratio,"ratio","Ca : 1–1,7 % MS ; Ca/P : 1–2",ratio==null||ca==null?"missing":mineralOk?"good":"bad","Rapport calculé; les teneurs absolues doivent aussi être interprétées selon l’âge.");
+ add("Équilibre minéral Ca/P",ratio,"ratio","Ca : 1–1,7 % MS ; Ca/P : 1–2",ratio==null?"missing":ratio>=1&&ratio<=2?"good":"bad",p.ratioCalciumPhosphore>0?"Ratio Ca/P directement publié par le fabricant; les teneurs individuelles Ca et P ne sont pas communiquées.":"Rapport calculé; les teneurs absolues doivent aussi être interprétées selon l’âge.");
  const omega=p.omega3>0&&p.omega6!=null?p.omega6/p.omega3:null;
  add("Rapport oméga 6 / 3",omega,"ratio","Repère indicatif : 5 à 10",omega==null?"missing":omega>=5&&omega<=10?"good":"watch","Les deux valeurs doivent être publiées pour calculer ce rapport.");
  const proteinPhosphorus=p.proteines>0&&p.phosphore>0?p.proteines/p.phosphore:null;
@@ -157,7 +157,7 @@ function cardMetricsMarkup(p){
  const rpcMin=dog?(junior?62.5:52):(junior?95:83);
  const fat=dog?(junior?[13,20]:weight?[7,12]:[10,16]):(sterilised?[10,16]:[12,18]);
  const fiber=dog?(weight?[3,10]:[1,4]):[2,5];
- const caP=p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null;
+ const caP=p.ratioCalciumPhosphore>0?Number(p.ratioCalciumPhosphore):(p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null);
  const omega=p.omega3>0&&p.omega6!=null?p.omega6/p.omega3:null;
  const items=[
   {name:"Protéines",raw:p.proteines,unit:"%",target:rpc!=null?"couleur basée sur le RPC (≥ "+fmt(rpcMin)+" g/Mcal)":(dog?"repère sans RPC : ≥ 28 %":"repère sans RPC : ≥ "+(junior?35:30)+" %"),status:rpc!=null?metricStatus(rpc,rpcMin,null):metricStatus(p.proteines,dog?28:(junior?35:30),null)},
@@ -192,7 +192,7 @@ function renderCompare(){
   {label:"Humidité",value:p=>p.humidite,display:p=>p.humidite==null?"Non communiqué":fmt(p.humidite)+" %",better:"neutral"},
   {label:"Cendres",value:p=>p.cendres,display:p=>p.cendres==null?"Non communiqué":fmt(p.cendres)+" %",better:"neutral"},
   {label:"Glucides",value:p=>p.glucides,display:p=>p.glucides==null?"Non communiqué":fmt(p.glucides)+" %",better:"low"},
-  {label:"Calcium / phosphore",value:p=>p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null,display:p=>p.calcium==null||p.phosphore==null?"Non communiqué":fmt(p.calcium)+" / "+fmt(p.phosphore),better:"range",min:1,max:2},
+  {label:"Calcium / phosphore",value:p=>p.ratioCalciumPhosphore>0?Number(p.ratioCalciumPhosphore):(p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null),display:p=>p.ratioCalciumPhosphore>0?fmt(p.ratioCalciumPhosphore)+" : 1 (fabricant)":p.calcium==null||p.phosphore==null?"Non communiqué":fmt(p.calcium)+" / "+fmt(p.phosphore),better:"range",min:1,max:2},
   {label:"Énergie",value:p=>p.energie,display:p=>p.energie==null?"Non communiqué":fmt(p.energie)+" kcal/kg",better:"neutral"},
   {label:"Premier ingrédient",value:p=>p.premierIngredient,display:p=>p.premierIngredient||"Non communiqué",better:"neutral"},
   {label:"Note source /5",value:p=>p.noteComposition,display:p=>p.noteComposition==null?"Non communiqué":fmt(p.noteComposition)+"/5",better:"high"}
