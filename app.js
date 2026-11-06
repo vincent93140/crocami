@@ -4,6 +4,13 @@ const data=window.CROCamiCatalog||[];
 const yearNode=$("#year");if(yearNode)yearNode.textContent=new Date().getFullYear();
 const fmt=n=>n==null?"Non communiqué":String(n).replace(".",",");
 const fmtRatio=n=>n==null?"Non communiqué":Number(n).toFixed(2).replace(".",",");
+function extractTaurine(p){
+ if(p.taurine!=null)return p.taurine;
+ const match=String(p.additifs||"").match(/taurine\s*([\d\s,\.]+)\s*(mg\s*\/\s*kg|%)/i);
+ if(!match)return null;
+ const amount=Number(match[1].replace(/\s/g,"").replace(",","."));
+ return Number.isFinite(amount)?(match[2].includes("%")?amount*10000:amount):null;
+}
 function globalNutritionScore(p){
  const dog=p.espece==="chien",junior=p.age==="Junior";
  const criteria=[];
@@ -38,15 +45,16 @@ function globalNutritionScore(p){
   const v=p.fibres>=1.5&&p.fibres<=5?100:p.fibres>=1&&p.fibres<=7?80:p.fibres>=0.5&&p.fibres<=9?55:25;
   add("Fibres",v,5,"Repère comparatif indicatif; le type de fibres et la tolérance digestive comptent aussi.");
  }
- if(!dog&&p.taurine!=null){
-  const v=p.taurine>=1000?100:p.taurine>=800?80:p.taurine>=500?60:25;
+ const taurine=!dog?extractTaurine(p):null;
+ if(taurine!=null){
+  const v=taurine>=1000?100:taurine>=800?80:taurine>=500?60:25;
   add("Taurine",v,5,"Nutriment essentiel chez le chat; valeur retenue uniquement lorsqu’elle est publiée.");
  }
  const coverage=criteria.reduce((s,x)=>s+x.weight,0);
  const raw=coverage?criteria.reduce((s,x)=>s+x.value*x.weight,0)/coverage:null;
  const score=raw==null||coverage<20?null:Math.round(raw);
  const reliability=coverage>=70?"Bonne":coverage>=45?"Moyenne":"Limitée";
- return {score,confidence:coverage,reliability,criteria,rpc,proteinPhosphorus,caP,omega};
+ return {score,confidence:coverage,reliability,criteria,rpc,proteinPhosphorus,caP,omega,taurine};
 }function scoreBubbleMarkup(p){
  const n=globalNutritionScore(p),score=n.score;
  const hue=score==null?0:Math.round(score*1.2),background=score==null?"#85877f":`hsl(${hue} 68% 42%)`;
@@ -78,7 +86,7 @@ function globalScoreMarkup(p,compact=false){
   "Rapport oméga 6 / 3":a.omega==null?null:fmtRatio(a.omega),
   "Glucides estimés":p.glucides==null?null:fmt(p.glucides)+" %",
   "Fibres":p.fibres==null?null:fmt(p.fibres)+" %",
-  "Taurine":p.taurine==null?null:fmt(p.taurine)+" mg/kg"
+  "Taurine":a.taurine==null?null:fmt(a.taurine)+" mg/kg"
  };
  const targets={
   "Rapport protido-calorique":"≥ "+fmt(rpcMin)+" g/Mcal",
@@ -119,7 +127,7 @@ function globalScoreMarkup(p,compact=false){
  const label=a.known===0?"Analyse incomplète":a.bad?"Points à surveiller":a.missing?"Bilan partiel":"Repères couverts";
  const cls=a.bad?"watch":a.known===0?"missing":a.missing?"partial":"good";
  if(compact)return `<div class="audit-summary ${cls}"><b>${label}</b><span>${a.good} repères satisfaisants · ${a.bad} à surveiller · ${a.missing} données manquantes</span></div>`;
- return `<section class="nutrition-audit"><div class="audit-heading"><div><b>Analyse nutritionnelle Crocami</b><small>Comparaison indicative à des repères de lecture, pas un diagnostic vétérinaire.</small></div><strong class="audit-status ${cls}">${label}</strong></div><div class="audit-list">${a.rows.map(x=>`<div class="audit-row"><div class="audit-row-main"><b>${x.name}</b><span class="audit-value ${x.status}">${x.value==null?"Donnée manquante":(x.unit==="ratio"?fmtRatio(x.value):x.value)+" "+x.unit}</span></div><small>Repère : ${x.reference}</small><p>${x.detail}</p><em class="audit-tag ${x.status}">${x.status==="good"?"SATISFAISANT":x.status==="bad"?"NON SATISFAISANT":x.status==="watch"?"À SURVEILLER":x.status==="info"?"INDICATEUR À INTERPRÉTER":"DONNÉE MANQUANTE"}</em></div>`).join("")}</div><p class="audit-foot">Calculs établis uniquement à partir des données disponibles sur cette fiche. Les seuils sont des repères de comparaison inspirés des critères décrits par Macroquette ; ils ne reproduisent pas son algorithme propriétaire. Les besoins réels varient selon le poids, l’activité, l’état physiologique et la santé du chien.</p></section>`;
+ return `<section class="nutrition-audit"><div class="audit-heading"><div><b>Analyse nutritionnelle Crocami</b><small>Comparaison indicative à des repères de lecture, pas un diagnostic vétérinaire.</small></div><strong class="audit-status ${cls}">${label}</strong></div><div class="audit-list">${a.rows.map(x=>`<div class="audit-row"><div class="audit-row-main"><b>${x.name}</b><span class="audit-value ${x.status}">${x.value==null?"Donnée manquante":(x.unit==="ratio"?fmtRatio(x.value):x.value)+" "+x.unit}</span></div><small>Repère : ${x.reference}</small><p>${x.detail}</p><em class="audit-tag ${x.status}">${x.status==="good"?"SATISFAISANT":x.status==="bad"?"NON SATISFAISANT":x.status==="watch"?"À SURVEILLER":x.status==="info"?"INDICATEUR À INTERPRÉTER":"DONNÉE MANQUANTE"}</em></div>`).join("")}</div><p class="audit-foot">Calculs établis uniquement à partir des données disponibles sur cette fiche. Les repères Crocami sont comparatifs et non diagnostiques; ils ne reproduisent pas l’algorithme Macroquette. Les besoins réels varient selon le poids, l’activité, l’état physiologique et la santé du chien.</p></section>`;
 }
 function setAnimal(v){animal=v;tabs.forEach(t=>t.classList.toggle("active",t.dataset.animal===v));$("#resultsTitle").textContent=v==="chien"?"Les croquettes pour chien":"Les croquettes pour chat";$("#search").placeholder=v==="chien"?"Ex. : saumon, digestion sensible, marque…":"Ex. : chat stérilisé, saumon, digestion…";
  if(v==="chat"){$("#size").innerHTML='<option value="">Tous les gabarits</option><option value="Toutes">Toutes les tailles</option>';$("#sizeField").querySelector("span")?.remove();$("#sizeHelp").textContent="Les gabarits sont peu discriminants chez le chat ; privilégiez âge et besoins.";}
@@ -158,7 +166,7 @@ function cardMetricsMarkup(p){
   {name:"Ratio calcium / phosphore",raw:caP,unit:"ratio",target:dog?"1–2":"1–1,5",status:metricStatus(caP,1,dog?2:1.5)},
   {name:"Oméga 6 / 3",raw:omega,unit:"ratio",target:"5–10",status:metricStatus(omega,5,10)}
  ];
- if(!dog)items.push({name:"Taurine",raw:p.taurine,unit:"mg/kg",target:"≥ 1 000 mg/kg",status:metricStatus(p.taurine,1000,null)});
+ if(!dog){const taurine=extractTaurine(p);items.push({name:"Taurine",raw:taurine,unit:"mg/kg",target:"≥ 1 000 mg/kg",status:metricStatus(taurine,1000,null)});}
  return '<div class="product-metrics">'+items.map(x=>{
   const value=x.raw==null?null:(x.unit==="ratio"?fmtRatio(x.raw):fmt(x.raw))+(x.unit==="%"?" %":x.unit==="g/Mcal"?" g/Mcal":x.unit==="mg/kg"?" mg/kg":"");
   return '<div class="metric-'+x.status+'"><small>'+x.name+'</small><b>'+(value||"Non communiqué")+'</b><span>'+(x.name==="Protéines"?"Lecture : "+x.target:"Attendu : "+x.target)+'</span></div>';
