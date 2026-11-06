@@ -51,7 +51,7 @@ Sur les 170 fiches Macroquette, après les enrichissements du 6 novembre 2026 :
 - Glucides estimés : 163/170.
 - Humidité : 13/170.
 - Calcium et phosphore individuels : 20/170; une fiche supplémentaire publie seulement le ratio Ca/P (1,11:1).
-- Magnésium : 5/170.
+- Magnésium : 7/170.
 - Énergie métabolisable issue d'une source fabricant : 15/170; 155 restent non renseignées faute de valeur fabricant vérifiée pour la formulation exacte.
 - Oméga 3 et oméga 6 : 16/170.
 - Taurine : 13/170.
