@@ -636,3 +636,31 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiNextVerificationUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* OWNAT, PEDIGREE ET PLATINUM : recoupement fabricant et contrôle des versions. */
+const crocamiMoreBrandUpdates = {
+ "mq-dog-068": {
+  sourceFabricant:"https://www.ownat.com/cdnassets/pdf/grain-free-eng-pdf.pdf",
+  sourceRevendeur:"https://www.rivada.fr/ownat-just-grain-free-adult-chicken-pour-chiens/",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée",
+  statutDonnees:"Fiche technique officielle OWNAT Just Grain Free Adult Chicken et revendeur recoupés : composition (poulet déshydraté 30 %, poulet frais minimum 20 %) et valeurs analytiques concordantes. Protéines 40 %, matières grasses 20 %, fibres 3 %, cendres 9 %, humidité 8 %, calcium 1,5 %, phosphore 1 %, oméga-3 0,5 %, oméga-6 3 %, énergie 4 080 kcal/kg et taurine 1 100 mg/kg. Les additifs nutritionnels sont également détaillés sur la fiche revendeur."
+ },
+ "mq-dog-069": {
+  sourceFabricant:"https://www.pedigree.fr/nourriture-pour-chien/croquettes-pour-adulte-chien/pedigree-professional-nutrition-croquettes-au-boeuf-et-aux-legumes-pour-chien-adulte-12kg",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_actuelle_différente",
+  statutDonnees:"La fiche officielle Pedigree actuelle confirme protéines 20 %, matières grasses 9 %, fibres 2,9 %, cendres 7 %, calcium 1,2 % et phosphore 0,74 %. La recette actuelle indique blé complet 47 %, bœuf 4 % et pulpe de betterave 3 %. La fiche Macroquette historique présente 21 % protéines, 13 % matières grasses, 1 % fibres et une composition différente : les valeurs actuelles ne sont pas fusionnées dans cette ancienne fiche."
+ },
+ "mq-dog-070": {
+  proteines:23, matieresGrasses:14, fibres:2, cendres:7.8, humidite:19, calcium:1.6, phosphore:1, energie:3548,
+  sourceFabricant:"https://www.platinum.com/en/Dog/Products/Dry-Dog-Food/Adult-Iberico.html",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée",
+  compositionComplete:"Porc frais ibérique (70 %), pommes de terre, poisson, levure de bière, pulpe de pomme, huile de saumon, extrait de yucca, huile de lin, huile d'olive, extrait de moule verte, carottes, tomates, tagète, pissenlit, brocoli, thé vert, camomille, origan, chardon-Marie, graines de canneberge, algues et chlorure de potassium.",
+  additifs:"Vitamine A 10 000 UI/kg ; vitamine D3 1 600 UI/kg ; vitamine E 150 mg/kg ; fer 75 mg/kg ; iode 3 mg/kg ; cuivre 19 mg/kg ; manganèse 40 mg/kg ; zinc 150 mg/kg ; sélénium 0,2 mg/kg.",
+  statutDonnees:"Fiche officielle PLATINUM Adult Iberico : composition identique à la référence Macroquette (70 % de porc ibérique frais) et analyses confirmées : protéines 23 %, matières grasses 14 %, fibres 2 %, cendres 7,8 %, humidité 19 %, calcium 1,6 %, phosphore 1 % et énergie 354,8 kcal/100 g (3 548 kcal/kg). L'humidité élevée est celle déclarée par le fabricant pour cette recette Fleischsaftgarung."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiMoreBrandUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
