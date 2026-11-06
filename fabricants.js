@@ -143,7 +143,7 @@ window.CROCamiManufacturerData = {
     noteFabricant:"Composition et ration recoupées avec la fiche officielle Ultima. La page officielle actuelle consultée ne publie pas les constituants analytiques chiffrés, l’énergie, le calcium, le phosphore ni les oméga. Macroquette référence une ancienne formule (26 % protéines, 17 % matières grasses) dont la composition diffère de la fiche fabricant actuelle : valeurs non reprises pour éviter de mélanger deux recettes.",
     compositionComplete:"Poulet 18 % (dont os, viande, peau), blé complet 15 %, maïs complet 11 %, protéines déshydratées de porc, pois déshydratés 9 %, farines basses de blé, graisse animale (volaille, porc), protéines animales hydrolysées (volaille, porc, poisson), orge complète 4 %, protéines déshydratées de volaille, pulpe de betterave 2,1 %, substances minérales.",
     ration:"10–20 kg : 140–240 g (activité +) ou 175–290 g (activité ++) ; 20–30 kg : 240–325 ou 290–395 g ; 30–40 kg : 325–405 ou 395–490 g ; 40–55 kg : 405–515 ou 490–625 g/jour.",
-    noteFabricant:"La fiche officielle consultée publie la composition et le guide de ration, mais pas les constituants analytiques détaillés."
+    // Les constituants analytiques chiffrés ne sont pas publiés sur la page fabricant actuelle.
   },
   d14: {
     imageProduit:"https://shop-cdn-m.mediazs.com/bilder/purina/one/mediummaxi/adult/beef/rice/0/400/253397_pla_nestle_purinaone_mediummaxi_adult_rindreis_7kg_hs_01_0.jpg",
