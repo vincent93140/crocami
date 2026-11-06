@@ -28,6 +28,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Vérifier la syntaxe des scripts du site
+        run: node --check app.js && node --check catalogue.js && node --check fabricants.js
       - name: Tester chaque image
         run: node scripts/audit-product-images.mjs
       - name: Publier le rapport dans le dépôt
