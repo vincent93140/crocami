@@ -15,11 +15,11 @@ function globalNutritionScore(p){
  const dog=p.espece==="chien",junior=p.age==="Junior";
  const criteria=[];
  const add=(name,value,weight,detail)=>{if(value!=null&&Number.isFinite(value))criteria.push({name,value:Math.max(0,Math.min(100,value)),weight,detail});};
- const rpc=p.energie>0&&p.proteines!=null?p.proteines*10000/p.energie:null;
+ const rpc=p.energie>0&&p.proteines!=null?p.proteines*10000/p.energie:(p.rpcMacroquette>0?p.rpcMacroquette:null);
  const rpcMinimum=dog?(junior?62.5:52):(junior?95:83);
  if(rpc!=null){
   const rpcScore=rpc>=rpcMinimum+20?100:rpc>=rpcMinimum?70+(rpc-rpcMinimum)*1.5:Math.max(0,70*rpc/rpcMinimum);
-  add("Rapport protido-calorique",rpcScore,30,"RPC calculé uniquement avec les protéines et l’énergie métabolisable publiées. Une teneur élevée en protéines n’est pas pénalisée isolément.");
+  add("Rapport protido-calorique",rpcScore,30,p.energie>0?"RPC calculé avec les protéines et l’énergie métabolisable de la fiche. Une teneur élevée en protéines n’est pas pénalisée isolément.":"RPC publié par Macroquette ; énergie fabricant non vérifiée pour cette formulation.");
  }
  const proteinPhosphorus=p.proteines>0&&p.phosphore>0?p.proteines/p.phosphore:null;
  if(proteinPhosphorus!=null){
@@ -99,16 +99,16 @@ function globalScoreMarkup(p,compact=false){
   "Taurine":"repère chat : ≥ 1 000 mg/kg"
  };
  const criteria=a.criteria.map(x=>'<div><span>'+x.name+'</span><b>'+(actual[x.name]||"Non communiqué")+'</b><small>Repère : '+targets[x.name]+' · poids '+x.weight+' %</small></div>').join("");
- return '<section class="global-score-detail"><div class="global-score-top"><div><span>NOTE CROCAMI</span><div class="global-score-big">'+score+'<small>/100</small></div></div><div class="global-score-reliability"><b>Fiabilité : '+a.reliability+'</b><span>Couverture : '+a.confidence+' %</span></div></div><div class="global-score-criteria">'+criteria+'</div><p class="global-score-foot">Indice comparatif Crocami. Les critères absents sont exclus du calcul et réduisent la couverture. La protéine brute seule n’est jamais pénalisée; le RPC est calculé uniquement si énergie et protéines sont connues. Ce score n’est pas un avis vétérinaire.</p></section>';
+ return '<section class="global-score-detail"><div class="global-score-top"><div><span>NOTE CROCAMI</span><div class="global-score-big">'+score+'<small>/100</small></div></div><div class="global-score-reliability"><b>Fiabilité : '+a.reliability+'</b><span>Couverture : '+a.confidence+' %</span></div></div><div class="global-score-criteria">'+criteria+'</div><p class="global-score-foot">Indice comparatif Crocami. Les critères absents sont exclus du calcul et réduisent la couverture. La protéine brute seule n’est jamais pénalisée; le RPC est calculé depuis l’énergie lorsqu’elle est publiée; à défaut, le RPC Macroquette est affiché séparément et sourcé. Ce score n’est pas un avis vétérinaire.</p></section>';
 }function nutritionAudit(p){
  if(p.espece!=="chien")return null;
  const dm=p.humidite==null?null:100-p.humidite;
  const dry=v=>v==null||dm==null||dm<=0?null:v/dm*100;
- const rpc=p.energie>0&&p.proteines!=null?p.proteines*10000/p.energie:null;
+ const rpc=p.energie>0&&p.proteines!=null?p.proteines*10000/p.energie:(p.rpcMacroquette>0?p.rpcMacroquette:null);
  const rows=[];
  const add=(name,value,unit,reference,status,detail)=>rows.push({name,value,unit,reference,status,detail});
  const adult=p.age!=="Junior",rpcMin=adult?52:62.5;
- add("Rapport protido-calorique",rpc==null?null:Math.round(rpc),"g/Mcal",`≥ ${rpcMin} g/Mcal (repère indicatif ${adult?"adulte":"croissance"})`,rpc==null?"missing":rpc>=rpcMin?"good":"bad","RPC calculé à partir des protéines et de l’énergie métabolisable publiées.");
+ add("Rapport protido-calorique",rpc==null?null:Math.round(rpc),"g/Mcal",`≥ ${rpcMin} g/Mcal (repère indicatif ${adult?"adulte":"croissance"})`,rpc==null?"missing":rpc>=rpcMin?"good":"bad",p.energie>0?"RPC calculé à partir des protéines et de l’énergie métabolisable publiées.":p.rpcMacroquette>0?"RPC publié par Macroquette ; l’énergie fabricant reste non communiquée.":"RPC non calculable faute de données.");
  add("Protéines brutes",p.proteines,"% aliment","Aucun seuil isolé : lire avec le RPC","info","Le pourcentage de protéines n’est pas noté seul; il doit être interprété avec la densité énergétique et les autres indicateurs.");
  const carbs=dry(p.glucides);
  add("Glucides estimés",carbs==null?null:Math.round(carbs*10)/10,"% matière sèche","Repère comparatif indicatif",carbs==null?"missing":carbs<15?"good":"watch","Glucides estimés ramenés à la matière sèche lorsque l’humidité est connue.");
@@ -153,7 +153,7 @@ function metricStatus(value,min,max){
 }
 function cardMetricsMarkup(p){
  const dog=p.espece==="chien",junior=p.age==="Junior",weight=(p.besoins||[]).includes("Contrôle du poids"),sterilised=(p.besoins||[]).includes("Stérilisé");
- const rpc=p.energie>0&&p.proteines!=null?p.proteines*10000/p.energie:null;
+ const rpc=p.energie>0&&p.proteines!=null?p.proteines*10000/p.energie:(p.rpcMacroquette>0?p.rpcMacroquette:null);
  const rpcMin=dog?(junior?62.5:52):(junior?95:83);
  const fat=dog?(junior?[13,20]:weight?[7,12]:[10,16]):(sterilised?[10,16]:[12,18]);
  const fiber=dog?(weight?[3,10]:[1,4]):[2,5];
