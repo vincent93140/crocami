@@ -370,3 +370,97 @@ footer .brand img{display:block;width:112px;height:62px;object-fit:contain;paddi
 footer a:hover{
   color:#ffad35!important;
 }
+
+
+/* Harmonisation globale finale — palette Croc’Ami bleu / orange / ivoire */
+:root{
+  --ink:#153a59;
+  --muted:#55718a;
+  --cream:#fff3df;
+  --paper:#fffaf1;
+  --green:#1266a6;
+  --green2:#dcecf8;
+  --orange:#f39a24;
+  --line:#d9c6a8;
+}
+html{scroll-behavior:smooth}
+body{background:#0b416d!important;color:#fff}
+.topbar{background:#07375e!important;border-bottom:3px solid #f39a24!important}
+.topbar nav a{color:#f8f4ec}
+.topbar nav a:hover,.topbar nav a.active{color:#ffb347}
+.topbar .nav-cta{background:#f39a24!important;color:#173b59!important}
+.intro-compact{background:linear-gradient(110deg,#0a4778 0%,#1266a6 72%,#e98919 72%,#f39a24 100%)!important}
+.intro-compact h1,.intro-compact>div>p:not(.eyebrow){color:#fff!important}
+.intro-compact h1 em,.intro-compact .eyebrow{color:#ffb347!important}
+.search-section{background:#10558d!important;color:#fff}
+.search-section .section-heading h2,.search-section .section-heading>p{color:#fff!important}
+.search-section .section-heading .eyebrow,.search-section .section-heading h2 em{color:#ffb347!important}
+.finder{background:#fff3df!important;color:#173b59!important;border:1px solid #f39a24!important}
+.finder .field-label,.finder label,.finder p{color:#173b59}
+.finder input,.finder select{background:#fffaf1!important;color:#173b59!important;border-color:#d8b98b!important}
+.animal-tab{background:#e3edf5!important;color:#164b76!important;border-color:#b7cee0!important}
+.animal-tab.active,.animal-tab[aria-pressed=true]{background:#1266a6!important;color:#fff!important;border-color:#f39a24!important}
+.search-row button,.primary-btn{background:#f39a24!important;color:#173b59!important}
+.search-row button:hover,.primary-btn:hover{background:#ffb347!important}
+.finder-tip{background:#ffe3b8!important;border-color:#f39a24!important;color:#604019!important}
+.finder-tip b{color:#8b4c08!important}
+.compare-toolbar{background:#07375e!important;color:#fff!important;border-left:5px solid #f39a24!important}
+.results-head h3{color:#fff!important}
+.results-head .eyebrow{color:#ffb347!important}
+.results-tools,.result-count,.sort-control{color:#fff!important}
+.sort-control select{background:#fffaf1!important;color:#173b59!important;border-color:#f39a24!important}
+#results{color:#173b59}
+.product-card{background:#fffaf1!important;color:#173b59!important;border:1px solid #e8c99c!important;box-shadow:0 10px 25px #052e4c40!important}
+.product-card h3,.product-card p,.product-card label,.product-card span{color:inherit}
+.product-brand{color:#1266a6!important}
+.product-price strong{color:#d87912!important}
+.product-visual{background:#fff3df!important;border-color:#e8c99c!important}
+.product-metrics>div{background:#f4e7d2!important;border-color:#e5cfad!important}
+.product-metrics b{color:#173b59!important}
+.product-metrics small{color:#64788a!important}
+.score-bubble{border-color:#fffaf1}
+.global-score-card,.global-score-detail,.nutrition-audit,.external-score-card{background:#f5ead9!important;color:#173b59!important;border-color:#e5cba7!important}
+.global-score-card p,.global-score-detail p,.nutrition-audit p,.external-score-card p{color:#425d73!important}
+.global-score-number,.global-score-big{color:#1266a6!important}
+.global-score-copy b,.audit-heading>div>b{color:#173b59!important}
+.audit-row,.global-score-criteria>div{border-color:#dfc9a8!important}
+.comparison{background:#fff3df!important;border-color:#f39a24!important;color:#173b59!important}
+.comparison .results-head h3,.comparison th,.comparison td{color:#173b59!important}
+.comparison thead th{background:#e5eff6!important}
+.comparison tbody tr:nth-child(even){background:#fffaf1!important}
+.catalog-attribution{color:#d9e8f4!important}
+.catalog-attribution a{color:#ffb347!important}
+.trust-strip{background:#07375e!important;color:#fff!important;border-block:4px solid #f39a24!important}
+.trust-strip strong{color:#ffb347!important}
+.understand-section{background:#0b416d!important;color:#fff!important}
+.understand-section .need-card,.understand-section .species-note,.understand-section .weight-guide{background:#fff3df!important;color:#173b59!important;border:1px solid #e7c89c!important}
+.need-card h3,.need-card p,.need-card>span,.species-note p,.weight-guide h3,.weight-guide p,.weight-scale b,.weight-scale strong,.weight-scale small{color:#173b59!important}
+.need-card .need-icon,.weight-paw{color:#e98919!important}
+.species-note-title{color:#1266a6!important}
+.weight-guide .eyebrow{color:#c87512!important}
+.pets-section{background:#10558d!important;color:#fff!important}
+.pets-heading h2,.pets-heading>p{color:#fff!important}
+.pets-heading .eyebrow,.pets-heading h2 em{color:#ffb347!important}
+.pet-card-copy{background:#fff3df!important;color:#173b59!important}
+.pet-card-copy h3,.pet-card-copy p{color:#173b59!important}
+.pet-card-copy>span,.pet-card-copy a{color:#1266a6!important}
+.pet-card-copy a{border-color:#f39a24!important}
+.dog-art{background:#f8e3c4!important}
+.cat-art{background:#dcecf8!important}
+.how-section{background:#07375e!important;color:#fff!important;border-block:4px solid #f39a24!important}
+.how-intro h2,.how-grid h3,.how-grid p{color:#fff!important}
+.how-section .eyebrow,.how-intro h2 em,.how-grid .step,.how-icon{color:#ffb347!important}
+.how-grid article{background:#10558d!important;border:1px solid #4381ad!important}
+.promise{background:#fff3df!important;color:#173b59!important;border-block:5px solid #f39a24!important}
+.promise-copy h2,.promise-copy p{color:#173b59!important}
+.promise-copy .eyebrow,.promise-copy h2 em,.promise-copy a{color:#1266a6!important}
+.promise-art{background:linear-gradient(135deg,#0b4778 0%,#1266a6 58%,#f39a24 58%,#f39a24 100%)!important}
+.promise-label{color:#fff!important}
+footer{background:#07375e!important;color:#fff!important;border-top:4px solid #f39a24!important}
+footer p,footer>span{color:#f8f4ec!important}
+footer .brand img{background:transparent!important;border:0!important}
+@media(max-width:700px){
+  .intro-compact{background:linear-gradient(145deg,#0a4778 0%,#1266a6 76%,#f39a24 76%,#f39a24 100%)!important}
+  .results-head h3{color:#fff!important}
+  .product-card{background:#fffaf1!important}
+}
