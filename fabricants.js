@@ -28,10 +28,10 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-kids.html",
     proteines:25, matieresGrasses:12, fibres:2.3, cendres:6.7, calcium:1.3, phosphore:1, sodium:0.4, magnesium:0.1, taurine:1000, energie:3675,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Taurine (1 000 mg/kg) confirmée sur la fiche officielle Josera ; les oméga-3 sont mentionnés qualitativement, sans quantité chiffrée publiée.",
+    noteFabricant:"Taurine (1 000 mg/kg) et énergie métabolisable (15,4 MJ/kg, soit 3 675 kcal/kg) confirmées sur la fiche officielle Josera. Les oméga-3 sont mentionnés qualitativement, sans quantité chiffrée publiée.",
     compositionComplete:"Protéines de volaille déshydratées 27,5 % (dont poulet 40 %), grains de maïs entier, riz 25 %, pulpe de betterave, graisse de volailles, protéines de volaille hydrolysées, substances minérales, huile de saumon 0,8 %, levure, poudre de chicorée, chair séchée de moule verte de Nouvelle-Zélande.",
     additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 220 mg/kg ; C 200 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; L-carnitine 250 mg/kg ; fer 120 mg/kg ; zinc 140 mg/kg ; manganèse 10 mg/kg ; cuivre 14 mg/kg ; iode 1,6 mg/kg ; sélénium 0,10 mg/kg.",
-    noteFabricant:"Énergie métabolisable : 15,4 MJ/kg, soit 3 675 kcal/kg."
+    // L’énergie est intégrée dans la note de vérification ci-dessus.
   },
   d04: {
     imageProduit:"https://cdn11.bigcommerce.com/s-iakwzr7rs7/images/stencil/1280x1280/attribute_rule_images/16974_source_1633534467.jpg",
@@ -40,7 +40,7 @@ window.CROCamiManufacturerData = {
     proteines:33, matieresGrasses:20, fibres:5, cendres:7, energie:3660, glucides:22,
     compositionComplete:"Poulet frais 18 %, poulet déshydraté 18 %, lentilles rouges entières, petits pois entiers, abats de poulet frais (foie, cœur) 7 %, gras de poulet 7 %, dinde déshydratée 4 %, œufs 4 %, plie crue 4 %, hareng déshydraté 4 %, huile de poisson 3 %, lentilles vertes entières, pois chiches entiers, pois jaunes entiers, fibres de pois, amidon de pois, foie de dinde cru 1 %, sel, varech, citrouille, courge musquée, carottes, pommes, poires, courgettes, racine de chicorée, chou frisé, épinards, feuilles de navet et de betterave, canneberges, myrtilles, baies de Saskatoon, curcuma, chardon-marie, lavande, racine de guimauve et églantier.",
     additifs:"Chlorure de choline 700 mg/kg ; zinc 112,5 mg/kg ; cuivre 11 mg/kg ; vitamine B1 25 mg/kg ; B5 8 mg/kg ; B6 7,5 mg/kg ; vitamine A 7 500 UI/kg ; D3 1 000 UI/kg ; E 100 UI/kg ; Enterococcus faecium NCIMB 10415 2,2×10⁶ UFC/kg ; tocophérols, acide citrique et extrait de romarin.",
-    noteFabricant:"Énergie : 32 % des calories issues des protéines, 46 % des matières grasses et 22 % des glucides, selon le fabricant.",
+    noteFabricant:"Énergie métabolisable : 3 660 kcal/kg. Répartition énergétique annoncée par le fabricant : 32 % protéines, 46 % matières grasses et 22 % glucides. Humidité 12 %, calcium 1,5 %, phosphore 1,1 %, oméga-3 1 %, oméga-6 2,7 %, DHA 0,3 % et EPA 0,3 % ; aucun taux de taurine publié.",
     humiditeFabricant:12,
     calcium:1.5,
     phosphore:1.1,
@@ -49,7 +49,7 @@ window.CROCamiManufacturerData = {
     dha:0.3,
     epa:0.3,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Fiche officielle ACANA vérifiée : énergie métabolisable 3 660 kcal/kg ; humidité 12 %, calcium 1,5 %, phosphore 1,1 %, oméga-3 1 %, oméga-6 2,7 %, DHA 0,3 % et EPA 0,3 %. Aucun taux de taurine n'est publié sur cette fiche."
+    // Les valeurs nutritionnelles et l’absence de taurine chiffrée sont regroupées dans la note de vérification ci-dessus.
   },
   d05: {
     imageProduit:"https://www.purina.fr/sites/default/files/2022-04/07613034487919_C1N1_44108853_0.png",
@@ -257,9 +257,9 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"à recouper", sourceFabricant:"https://www.tasteofthewild.com.au/portfolio-view/rocky-mountain/",
     proteines:42, matieresGrasses:18, fibres:3, cendres:8.3, humiditeFabricant:10, humidite:10, calcium:1.9, phosphore:1.2, omega3:0.3, omega6:2.8, energie:3745, taurine:1500,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Toutes les valeurs sont recoupées avec la fiche officielle Taste of the Wild Rocky Mountain Feline pour le marché australien : énergie 3 745 kcal/kg, taurine minimum 0,15 % (1 500 mg/kg), calcium 1,9 %, phosphore 1,2 %, oméga-3 0,3 % et oméga-6 2,8 %. La recette et l’étiquetage australiens ne constituent pas une validation du sac commercialisé en France.",
+    noteFabricant:"Fiche officielle Taste of the Wild Rocky Mountain Feline consultée pour le marché australien : énergie 3 745 kcal/kg, taurine minimum 0,15 % (1 500 mg/kg), calcium 1,9 %, phosphore 1,2 %, oméga-3 0,3 % et oméga-6 2,8 %. Ces données ne valident pas le sac commercialisé en France ; vérifier l’étiquette française.",
     compositionComplete:"Formule féline Rocky Mountain : cerf rôti et saumon fumé. La page officielle consultée concerne le marché australien ; la composition détaillée et les valeurs doivent être recoupées avec le sac vendu en France.",
-    noteFabricant:"Données de référence marché australien uniquement : ne pas considérer comme validées pour un sac vendu en France.",
+    // La réserve sur le marché australien est regroupée dans la note de vérification précédente.
     additifs:"Vitamine A 10 000 UI/kg ; D 750 UI/kg ; E 150 UI/kg ; taurine minimum 0,15 % ; fer, cuivre, iode, manganèse, zinc et sélénium selon l’étiquette fabricant.",
     ration:"Chat adulte : 1–2,25 kg 35–53 g ; 2,25–4,5 kg 53–70 g ; 4,5–6,8 kg 70–106 g ; 6,8–9 kg 106–133 g/jour."
   },
@@ -315,10 +315,10 @@ window.CROCamiManufacturerData = {
     sourceFabricant:"https://www.ultima-affinity.com/fr/fr/chat/nourriture-chat/seche-sterilise-adult-poulet-1000260.html",
     taurine:1100,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Composition et ration vérifiées sur la fiche officielle Ultima. La page fabricant ne publie pas les constituants analytiques chiffrés ; la taurine à 1 100 mg/kg est relevée chez le revendeur Match pour la même référence (EAN 8410650162065). Les autres valeurs analytiques ne sont pas ajoutées faute de données suffisamment visibles et vérifiables.",
+    noteFabricant:"Composition et ration vérifiées sur la fiche officielle Ultima. La page fabricant ne publie pas les constituants analytiques chiffrés ; taurine à 1 100 mg/kg relevée chez Match pour la même référence (EAN 8410650162065). Les autres valeurs ne sont pas ajoutées faute de données suffisamment vérifiables.",
     compositionComplete:"Poulet 17 % (dont os, viande, peau), protéine de maïs, blé complet 13 %, pois déshydratés 11 %, protéines déshydratées de volaille, orge complète 6 %, protéines animales hydrolysées (volaille, porc, poisson), maïs complet 4 %, protéines déshydratées de porc, graisse animale (volaille, porc), protéines déshydratées de bœuf, substances minérales, poudre de cellulose, fibre de pois, pulpe de betterave.",
     ration:"2–4 kg : 30–50 g (activité +) ou 35–60 g (activité ++) ; 4–6 kg : 50–65 ou 60–75 g ; 6–8 kg : 65–75 ou 75–90 g/jour.",
-    noteFabricant:"La fiche officielle consultée fournit la composition et la ration, mais ne publie pas les constituants analytiques dans la page récupérée."
+    // La provenance des valeurs et les limites de publication sont précisées dans la note de vérification précédente.
   },
   c05: {
     imageProduit:"https://media.zooplus.com/bilder/4/800/382910_pla_perfectfit_sterile_1plus_reichhuhn_hs_01_4.jpg",
@@ -364,10 +364,10 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://carnilove.com/fr/produits/active-dry-food-made-with-salmon-and-turkey-for-adult-cats",
     energie:3875,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Composition, constituants analytiques, minéraux, oméga-3/6, taurine (2 500 mg/kg), énergie (3 875 kcal/kg) et ration vérifiés sur la fiche officielle française Carnilove ACTIVE saumon & dinde adulte.",
+    noteFabricant:"Fiche officielle française Carnilove ACTIVE saumon & dinde adulte : composition, constituants analytiques, minéraux, oméga-3/6, taurine (2 500 mg/kg), énergie (3 875 kcal/kg) et ration confirmés.",
     compositionComplete:"Saumon frais 26 %, protéines de dinde 24 %, pois jaunes, protéines de dinde hydrolysées 12 %, graisse de bœuf 8 %, foie hydrolysé 4 %, pois chiches, protéine de pois, citrouille, graines de lin, huile de saumon 1 %, chlorure de potassium, farine de pois, carottes, argousier séché 0,1 %, gingembre 0,05 %, myrtilles 0,05 %, romarin 0,05 %, canneberges 0,05 %, thym 0,05 %, levure de bière, racine de chicorée et yucca.",
     ration:"2–3 kg : 40–45 g ; 3–5 kg : 50–70 g ; 5–7 kg : 70–85 g ; 7–9 kg : 85–100 g/jour.",
-    noteFabricant:"Énergie métabolisable annoncée : 3 875 kcal/kg. Les constituants analytiques complets doivent encore être recoupés avec l’étiquette du lot commercialisé en France.",
+    // La valeur énergétique et la validation de l’étiquette sont précisées dans la note de vérification précédente.
     proteines:37,
     matieresGrasses:17,
     fibres:2.2,
