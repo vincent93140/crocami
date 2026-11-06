@@ -664,3 +664,25 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiMoreBrandUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* PORTA 21 ET PRO-NUTRITION FLATAZOR : séparation des anciennes et nouvelles formules. */
+const crocamiFurtherBrandUpdates = {
+ "mq-dog-071": {
+  sourceComplementaire:"https://www.japag-distribuciones.com/porta21.pdf",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"formule_historique_non_confirmée",
+  statutDonnees:"La documentation distributeur Porta 21 retrouvée décrit une autre version Canine Finest Low Fat : protéines 20 %, matières grasses 9 %, fibres 4 %, cendres 6 % et humidité 8 %, avec une composition différente (riz moulu, volaille 18,5 %, avoine 8,8 %). La référence Macroquette présente fibres 3,5 %, cendres 5,5 % et une liste d'ingrédients différente. Aucun fabricant actuel ni étiquette correspondant exactement à cette fiche historique n'a été retrouvé : aucune valeur n'est fusionnée."
+ },
+ "mq-dog-072": {
+  proteines:26, matieresGrasses:15, fibres:3, cendres:6, calcium:1.2, phosphore:0.8,
+  sodium:0.21, potassium:0.49, magnesium:0.12, omega3:1.21, omega6:2.36, energie:4030,
+  sourceFabricant:"https://www.pro-nutrition.flatazor.com/media/productPDF/201810_-_FT_Elite_Adult_Maxi_GB.pdf",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée_formule_historique",
+  additifs:"Cuivre 20 mg/kg ; zinc 196 mg/kg (dont chélaté 72 mg/kg) ; manganèse 77 mg/kg ; iode 2,7 mg/kg ; sélénium 0,6 mg/kg (dont organique 0,18 mg/kg) ; vitamine A 14 000 UI/kg ; vitamine D3 1 000 UI/kg ; vitamine E 160 UI/kg ; vitamine B1 47 mg/kg ; B2 13 mg/kg ; acide pantothénique 34 mg/kg ; B6 13 mg/kg ; B12 0,26 mg/kg ; vitamine PP 29 mg/kg ; biotine 0,9 mg/kg ; acide folique 3,2 mg/kg ; choline 1 800 mg/kg ; Enterococcus faecium 1×10⁹ UFC/kg.",
+  statutDonnees:"Fiche technique officielle Flatazor Elite Adult Maxi (PDF fabricant, version 2018) correspondant exactement à la composition Macroquette et à ses analyses 26/15/3/6. Ajouts : calcium 1,2 %, phosphore 0,8 %, sodium 0,21 %, potassium 0,49 %, magnésium 0,12 %, acide linoléique (oméga-6) 23,6 g/kg, acide alpha-linolénique (oméga-3) 12,1 g/kg, EPA+DHA 0,2 g/kg et énergie 4 030 kcal/kg. Les valeurs en oméga sont converties en pourcentage sur produit (2,36 % et 1,21 %). La page fabricant actuelle Adult Large Breed est une nouvelle formule (31 % protéines, 16 % matières grasses) et n'est pas mélangée à cette ancienne référence."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiFurtherBrandUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
