@@ -122,7 +122,9 @@ window.CROCamiManufacturerData = {
   d11: {
     imageProduit:"https://cdn.shopify.com/s/files/1/0485/8576/9112/products/pedigree-adult-dry-dog-food-real-beef-and-vegies_580x.png?v=1678211551",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.pedigree.fr/nourriture-pour-chien/croquettes-pour-adulte-chien/pedigree-professional-nutrition-croquettes-au-boeuf-et-aux-legumes-pour-chien-adulte-12kg",
-    proteines:20, matieresGrasses:9, fibres:2.9, cendres:7, calcium:1.2, phosphore:0.74,
+    proteines:20, matieresGrasses:9, fibres:2.9, cendres:7, calcium:1.2, phosphore:0.74, energie:3530,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, calcium et phosphore confirmés sur la fiche officielle Pedigree. Énergie métabolisable de 3 530 kcal/kg relevée chez un revendeur pour cette référence ; elle n’est pas affichée sur la page fabricant. La fiche Macroquette consultée présente une ancienne analyse différente (21 % protéines, 13 % matières grasses) : ces chiffres ne sont pas mélangés à la formule officielle actuelle.",
     compositionComplete:"Céréales (dont blé complet 47 %), viandes et sous-produits animaux (dont bœuf 4 %), huiles et graisses, sous-produits d’origine végétale (dont pulpe de betterave déshydratée 3 %), substances minérales, légumes (mélange de petits pois et carottes déshydratés 0,7 %), levure (dont levure de bière 0,4 %).",
     additifs:"Vitamine B1 9,4 mg/kg ; B2 16 mg/kg ; D3 1 406 UI/kg ; E 100 mg/kg ; biotine 0,22 mg/kg ; cuivre 3,9 mg/kg ; iode 0,98 mg/kg ; manganèse 20,3 mg/kg ; méthionine 1,5 g/kg ; sélénium 0,33 mg/kg ; zinc 57,4 mg/kg ; antioxygènes."
   },
@@ -137,6 +139,8 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://media.zooplus.com/bilder/4/400/391896_pla_ultima_medium_maxiadult_huhnreis_6kg_hs_01_4.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.ultima-affinity.com/fr/fr/chien/nourriture-chien/seche-medium-maxi-adult-poulet-1000297.html",
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Composition et ration recoupées avec la fiche officielle Ultima. La page officielle actuelle consultée ne publie pas les constituants analytiques chiffrés, l’énergie, le calcium, le phosphore ni les oméga. Macroquette référence une ancienne formule (26 % protéines, 17 % matières grasses) dont la composition diffère de la fiche fabricant actuelle : valeurs non reprises pour éviter de mélanger deux recettes.",
     compositionComplete:"Poulet 18 % (dont os, viande, peau), blé complet 15 %, maïs complet 11 %, protéines déshydratées de porc, pois déshydratés 9 %, farines basses de blé, graisse animale (volaille, porc), protéines animales hydrolysées (volaille, porc, poisson), orge complète 4 %, protéines déshydratées de volaille, pulpe de betterave 2,1 %, substances minérales.",
     ration:"10–20 kg : 140–240 g (activité +) ou 175–290 g (activité ++) ; 20–30 kg : 240–325 ou 290–395 g ; 30–40 kg : 325–405 ou 395–490 g ; 40–55 kg : 405–515 ou 490–625 g/jour.",
     noteFabricant:"La fiche officielle consultée publie la composition et le guide de ration, mais pas les constituants analytiques détaillés."
@@ -146,6 +150,8 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/purina-one-medium-maxi-adult-boeuf",
     proteines:25, matieresGrasses:15, fibres:2.5, cendres:7, omega3:0.2, omega6:2.5,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, cellulose, cendres et oméga-3/oméga-6 vérifiés sur la fiche officielle Purina ONE de la recette bœuf. La page ne publie pas l’énergie métabolisable, le calcium ni le phosphore. Macroquette confirme les taux principaux mais sa composition détaillée diffère légèrement de la formulation officielle actuelle ; priorité donnée à la fiche fabricant.",
     compositionComplete:"Abats de bœuf 17 %, maïs 16,5 %, protéines de volaille déshydratées, blé 16 %, graisses animales, gruau de maïs, riz 4,6 %, pulpe de betterave à sucre déshydratée 4,5 %, gluten de blé, hydrolysat, substances minérales, glycérol, farine de protéines de maïs, farine de malt torréfiée, huile de poisson.",
     additifs:"Vitamine A 18 200 UI/kg ; D3 590 UI/kg ; E 520 UI/kg ; C 140 mg/kg ; fer 90 mg/kg ; iode 1,5 mg/kg ; cuivre 10 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; sélénium 0,10 mg/kg.",
     ration:"10–15 kg : 170–225 g ; 15–25 kg : 225–315 g ; 25–35 kg : 315–400 g ; 35–45 kg : 400–470 g ; 45–55 kg : 470–540 g/jour."
