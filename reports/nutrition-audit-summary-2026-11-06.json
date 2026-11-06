@@ -4,20 +4,21 @@
   "energyKnown": 15,
   "energyMissing": 155,
   "rpcFromManufacturer": 15,
-  "rpcFromMacroquette": 151,
-  "rpcUnavailable": 4,
+  "rpcFromMacroquette": 152,
+  "rpcUnavailable": 3,
   "scored": 169,
   "reliability": {
-    "bonne": 18,
-    "moyenne": 151,
+    "bonne": 19,
+    "moyenne": 150,
     "limitee": 1
   },
   "invalid": 0,
-  "avgCoverage": 54.1,
+  "avgCoverage": 54.3,
   "taurineKnown": 13,
+  "omega3Known": 17,
+  "omega6Known": 17,
   "energyMissingNoRpc": [
     "mq-dog-050",
-    "mq-dog-088",
     "mq-cat-041",
     "mq-cat-054"
   ]
