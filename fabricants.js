@@ -5,8 +5,10 @@ window.CROCamiManufacturerData = {
   d01: {
     imageProduit:"https://www.brekz.fr/66550/large_default.jpg",
     verificationFabricant:"confirmée_partielle",
-    sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003",
+    sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-3003",
     proteines:32, matieresGrasses:20.4, fibres:1.6, cendres:8.3, energie:4125, omega3:0.18,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, oméga-3 (DHA) et énergie (4 125 kcal/kg) vérifiés sur la fiche officielle Royal Canin Medium Puppy. La page ne publie pas le calcium, le phosphore ni le magnésium.",
     compositionComplete:"Protéines de volaille déshydratées, graisses animales, maïs, gluten de blé, pulpe de betterave, protéines de porc déshydratées, gluten de maïs, riz, farine de blé, protéines animales hydrolysées, blé, farine de maïs, sels minéraux, huile de soja, produits de levures, huile de poisson, fructo-oligosaccharides, levures hydrolysées (MOS et bêta-glucanes), huile d’algues Schizochytrium sp., jus de Yucca schidigera, farine de tagète.",
     additifs:"Vitamine A 15 500 UI/kg ; vitamine D3 1 000 UI/kg ; fer 38 mg/kg ; iode 3,8 mg/kg ; cuivre 12 mg/kg ; manganèse 50 mg/kg ; zinc 132 mg/kg ; sélénium 0,06 mg/kg ; clinoptilolite 10 g/kg ; vitamine E 510 mg/kg ; vitamine C 400 mg/kg.",
     ration:"Tableau fabricant selon le poids adulte estimé et l’âge du chiot (2 à 14 mois)."
@@ -14,7 +16,9 @@ window.CROCamiManufacturerData = {
   d02: {
     imageProduit:"https://www.purina.fr/sites/default/files/styles/nppe_article_listing_home_930/public/2026-01/07613035114869_c1n1_44365895.jpg?itok=b97PHIbd",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.purina.fr/chien/alimentation/proplan-croquettes-chiot-medium", sourceComplementaire:"https://eleveurs.chiens-de-france.com/media/purina/2023-gamme-proplan-chiens.pdf",
-    proteines:30, matieresGrasses:19, fibres:2, cendres:7.5, humiditeFabricant:8, humidite:8, glucides:33.5, calcium:1.5, phosphore:1.02, sodium:0.39, potassium:0.69, magnesium:0.13, omega3:0.3, omega6:2.3, dha:0.07, epaDha:0.17, energie:3838,
+    proteines:30, matieresGrasses:19, fibres:2, cendres:7.5, humiditeFabricant:8, humidite:8, glucides:33.5, calcium:1.5, phosphore:1.02, sodium:0.39, potassium:0.69, magnesium:0.13, omega3:0.3, omega6:2.3, dha:0.07, epaDha:0.17, energie:4050, taurine:913,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Composition, protéines, matières grasses, fibres, cendres, humidité, minéraux, oméga-3/6, DHA, EPA+DHA et taurine (913 mg/kg) recoupés avec la fiche technique officielle Purina Pro Plan Medium Puppy. Énergie actualisée à 405 kcal/100 g (4 050 kcal/kg) selon la fiche produit officielle actuelle, calcul CEN ; cette valeur diffère de l’ancienne estimation de 3 838 kcal/kg précédemment enregistrée.",
     compositionComplete:"Poulet de haute qualité 20 % (dont dos et coffre), blé, protéines de volaille déshydratées, graisses animales, riz 8 %, farine de soja, farine de protéines de maïs, maïs, hydrolysat, pulpe de betterave déshydratée, huile de poisson, œufs déshydratés, substances minérales, colostrum déshydraté 0,1 %.",
     additifs:"Vitamine A 18 129 UI/kg ; D3 1 037 UI/kg ; E 207 UI/kg ; K 0,15 mg/kg ; C 60 mg/kg ; B1 27 mg/kg ; B2 14 mg/kg ; B3 162 mg/kg ; B5 45 mg/kg ; B6 16 mg/kg ; B8 0,22 mg/kg ; B9 4,56 mg/kg ; B12 0,25 mg/kg ; choline 2 016 mg/kg ; taurine 913 mg/kg ; fer 25,7 mg/100 g ; zinc 17,2 mg/100 g ; cuivre 2,1 mg/100 g ; manganèse 6,2 mg/100 g ; iode 0,256 mg/100 g ; sélénium 0,041 mg/100 g.",
     ration:"Tableau fabricant selon poids adulte attendu et âge du chiot, de 1,5 à 24 mois ; voir la fiche technique liée."
@@ -133,6 +137,8 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chien/alimentation/dog-chow-adult-agneau",
     proteines:25, matieresGrasses:12, fibres:3.5, cendres:8, omega3:0.1, omega6:1.8,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, oméga-3/6, composition, additifs et ration vérifiés sur la fiche officielle Purina DOG CHOW Adult à l’agneau. La fiche ne publie pas l’énergie métabolisable, le calcium ni le phosphore.",
     compositionComplete:"Céréales (céréales complètes 48 %), viandes et sous-produits animaux (20 %, dont agneau 4 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 1,1 %, pois séchés 0,08 %, carottes séchées 0,08 %), substances minérales."
   },
   d13: {
