@@ -519,3 +519,10 @@ footer .brand img{width:120px;height:auto;max-height:82px;object-fit:contain;bac
 .product-sources small{font-weight:700;color:#536b80}
 .product-sources a{color:#1769a8;font-weight:700;text-decoration:underline;text-underline-offset:2px}
 .product-sources a:hover{color:#f39a24}
+
+
+/* Correctif définitif du logo : règle prioritaire après les anciens styles */
+.topbar .brand{display:flex!important;align-items:center!important;justify-content:flex-start!important;flex:0 0 140px!important;width:140px!important;min-width:140px!important;height:100%!important;overflow:visible!important}
+.topbar .brand img{display:block!important;width:132px!important;height:66px!important;max-width:none!important;max-height:none!important;object-fit:contain!important;object-position:left center!important;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important}
+footer .brand img{display:block!important;width:120px!important;height:72px!important;max-width:none!important;object-fit:contain!important;object-position:left center!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important}
+@media(max-width:700px){.topbar .brand{flex-basis:108px!important;width:108px!important;min-width:108px!important}.topbar .brand img{width:102px!important;height:56px!important}}
