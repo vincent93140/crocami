@@ -5,7 +5,7 @@ window.CROCamiManufacturerData = {
   d01: {
     imageProduit:"https://www.brekz.fr/66550/large_default.jpg",
     verificationFabricant:"confirmée_partielle",
-    sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-3003",
+    sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003",
     proteines:32, matieresGrasses:20.4, fibres:1.6, cendres:8.3, energie:4125, omega3:0.18,
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Protéines, matières grasses, fibres, cendres, oméga-3 (DHA) et énergie (4 125 kcal/kg) vérifiés sur la fiche officielle Royal Canin Medium Puppy. La page ne publie pas le calcium, le phosphore ni le magnésium.",
@@ -203,7 +203,7 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://www.josera.fr/josera-miniwell.html",
     proteines:27, matieresGrasses:16, fibres:2, cendres:7.2, calcium:1.5, phosphore:1.2, sodium:0.4, magnesium:0.1, energie:3872,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Protéines, matières grasses, fibres, cendres, calcium, phosphore, sodium, magnésium, énergie (3 872 kcal/kg), composition et ration confirmés sur la fiche technique officielle Josera Miniwell datée de juin 2023. La fiche ne publie pas les oméga ni une teneur chiffrée en taurine.",
+    noteFabricant:"Josera indique que Miniwell a été renommé Mini Chicken & Rice avec recette identique. La fiche officielle actuelle confirme protéines 27 %, matières grasses 16 %, fibres 2 %, cendres 7,2 %, calcium 1,5 %, phosphore 1,15 %, sodium 0,4 % et énergie 3 872 kcal/kg ; le magnésium 0,1 % provient de la fiche technique précédente. Oméga et taurine chiffrée non publiés.",
     compositionComplete:"Protéines de volaille déshydratées 31 % (dont poulet 40 %), grains de maïs entier, riz 15 %, graisse de volailles, pulpe de betterave, protéines de volaille hydrolysées, substances minérales (tripolyphosphate de sodium 0,35 %), protéines animales hydrolysées, levure, poudre de chicorée.",
     additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 220 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; fer 110 mg/kg ; zinc 130 mg/kg ; manganèse 9 mg/kg ; cuivre 12 mg/kg ; iode 1,4 mg/kg ; sélénium 0,10 mg/kg."
   },
