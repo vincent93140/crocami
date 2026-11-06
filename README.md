@@ -54,14 +54,14 @@ Sur les 170 fiches Macroquette, après les enrichissements du 6 novembre 2026 :
 - Magnésium : 10/170.
 - Sodium : 8/170.
 - Énergie métabolisable issue d'une source fabricant : 15/170; 155 restent non renseignées faute de valeur fabricant vérifiée pour la formulation exacte.
-- Oméga 3 et oméga 6 : 16/170.
+- Oméga 3 et oméga 6 : 17/170.
 - Taurine : 13/170.
 - Additifs : 7/170.
 - Rations journalières : 3/170.
 - Lien fabricant enregistré : 21/170.
-- RPC exploitable : 166/170 (15 calculés avec l'énergie fabricant, 151 publiés par Macroquette); 4 fiches restent sans RPC vérifiable.
+- RPC exploitable : 167/170 (15 calculés avec l'énergie fabricant, 152 publiés par Macroquette); 3 fiches restent sans RPC vérifiable.
 - Notes Crocami contrôlées : 169/170 calculables; 1 fiche n'atteint pas le seuil minimal de couverture. Aucun score invalide détecté.
-- Couverture moyenne des critères : 54,1 %; fiabilité affichée pour chaque fiche.
+- Couverture moyenne des critères : 54,3 %; fiabilité affichée pour chaque fiche.
 
 Les données publiées par les fabricants priment lorsqu'une fiche officielle actuelle et identifiable est disponible. Lorsqu'une donnée n'est publiée que par un revendeur, la fiche le précise. Les variantes de formule et les écarts entre sources sont signalés; ils ne sont pas fusionnés silencieusement.
 
