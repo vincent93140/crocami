@@ -319,8 +319,10 @@ window.CROCamiManufacturerData = {
   c06: {
     imageProduit:"https://cdn.manomano.com/images/images_products/2800851/P/135091511_1.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://iams.eu/fr-fr/chat/croquettes/aliments-secs-au-poulet-frais-adultes",
-    proteines:35, matieresGrasses:14, fibres:1.9, cendres:6.7, calcium:1.3, phosphore:1.1, magnesium:0.096, omega3:0.29, omega6:2.8,
-    compositionComplete:"Poulet et dinde déshydratés 38 % (poulet 23 %), maïs, poulet frais 10 %, sorgho, graisse de porc, pulpe de betterave déshydratée 1,6 %, jus au poulet, fructo-oligosaccharides 0,67 %, huile de poisson, chlorure de potassium.",
+    proteines:35, matieresGrasses:14, fibres:1.9, cendres:6.7, calcium:1.3, phosphore:1.1, magnesium:0.096, omega3:0.29, omega6:2.8, taurine:2000,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, calcium, phosphore, magnésium, oméga-3/6, taurine (0,2 % = 2 000 mg/kg), composition et ration confirmés sur la fiche officielle IAMS Adult au poulet frais. L’énergie métabolisable n’est pas publiée sur la page consultée.",
+    compositionComplete:"Poulet et dinde déshydratés 38 % (poulet 23 %, source naturelle de taurine), maïs, poulet frais 10 %, sorgho, graisse de porc, pulpe de betterave déshydratée 1,6 %, jus au poulet, fructo-oligosaccharides 0,67 %, huile de poisson, chlorure de potassium.",
     ration:"2 kg : 30–40 g ; 3 kg : 40–55 g ; 4 kg : 50–65 g ; 5 kg : 55–75 g ; 6 kg : 65–85 g ; 7 kg : 70–95 g/jour."
   },
   c07: {
@@ -387,7 +389,9 @@ window.CROCamiManufacturerData = {
   c18: {
     imageProduit:"https://www.cdiscount.com/pdt2/4/0/6/1/700x700/aabux67406/rw/croquettes-pour-chat-adulte.jpg",
     verificationFabricant:"confirmée_partielle", sourceFabricant:"https://eukanuba.eu/fr-fr/chat/croquettes/chat-sans-cereales-adulte",
-    proteines:38, matieresGrasses:14, fibres:2.5, cendres:7, calcium:1.3, phosphore:1.1, magnesium:0.08, omega3:1.04, omega6:2.58,
+    proteines:38, matieresGrasses:14, fibres:2.5, cendres:7, calcium:1.3, phosphore:1.1, magnesium:0.08, omega3:1.04, omega6:2.58, taurine:2100,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, calcium, phosphore, magnésium, oméga-3/6, taurine (0,21 % = 2 100 mg/kg), composition et ration vérifiés sur la fiche officielle Eukanuba Grain Free Adulte au saumon. L’énergie métabolisable n’est pas publiée sur la page consultée.",
     compositionComplete:"Poulet et dinde déshydratés 33 % (poulet 20 %), saumon frais congelé 20 %, pomme de terre, pois entiers, graisse de volaille, pulpe de betterave déshydratée 1,7 %, jus au poulet, fructo-oligosaccharides 0,65 %, levure de bière déshydratée.",
     additifs:"Vitamine A 50 000 UI/kg ; D3 1 438 UI/kg ; E 124 mg/kg ; cuivre 7,7 mg/kg ; iode 1 mg/kg ; manganèse 35 mg/kg ; zinc 88 mg/kg ; taurine 0,21 %.",
     ration:"2 kg : 25–40 g ; 4 kg : 55–75 g ; 6 kg : 80–115 g ; 8 kg : 100–150 g ; 10 kg : 135–190 g/jour."
