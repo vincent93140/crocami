@@ -351,3 +351,22 @@ footer p,footer>span{color:#fff}
 .topbar .brand img{display:block;width:122px;height:66px;max-width:none;object-fit:contain;object-position:left center;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important;image-rendering:auto}
 footer .brand img{display:block;width:112px;height:62px;object-fit:contain;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important}
 @media(max-width:700px){.topbar .brand{min-width:92px}.topbar .brand img{width:90px;height:52px}}
+
+
+/* Lisibilité : accents orange pour les textes qui reposent sur les fonds bleus */
+.intro-compact .eyebrow,
+.search-section .section-heading .eyebrow,
+.search-section .section-heading h2 em,
+.results-section .results-head .eyebrow,
+.results-section .section-heading h2 em,
+.catalog-section .section-heading .eyebrow,
+.catalog-section .section-heading h2 em,
+.understand-section .eyebrow,
+.understand-section h2 em,
+.pets-section .eyebrow,
+.pets-section h2 em,
+.how-section .eyebrow,
+.how-section h2 em,
+footer a:hover{
+  color:#ffad35!important;
+}
