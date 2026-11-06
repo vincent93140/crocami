@@ -144,7 +144,7 @@ function metricStatus(value,min,max){
  if(value==null||!Number.isFinite(value))return "unknown";
  if(min!=null&&max!=null){
   if(value>=min&&value<=max)return "good";
-  const tolerance=(max-min)*0.10;
+  const tolerance=(max-min)*0.35;
   return value<min?(min-value<=tolerance?"near":"poor"):(value-max<=tolerance?"near":"poor");
  }
  if(min!=null)return value>=min?"good":(min-value<=min*0.10?"near":"poor");
