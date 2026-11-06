@@ -13,12 +13,14 @@ on:
       - "scripts/audit-product-images.mjs"
   workflow_dispatch:
 
+# Les audits sont mis en file d'attente au lieu d'annuler les précédents.
 concurrency:
   group: crocami-product-image-audit
-  cancel-in-progress: true
+  cancel-in-progress: false
 
+# L'audit ne modifie plus la branche main.
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   audit:
@@ -26,23 +28,26 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: Récupérer le dépôt
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+
       - name: Configurer Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
+
       - name: Vérifier la syntaxe des scripts du site
         run: node --check app.js && node --check catalogue.js && node --check fabricants.js
+
       - name: Tester chaque image
         run: node scripts/audit-product-images.mjs
-      - name: Publier le rapport dans le dépôt
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/product-image-audit.csv reports/product-image-audit-summary.json
-          if git diff --cached --quiet; then
-            echo "Le rapport n'a pas changé."
-            exit 0
-          fi
-          git commit -m "Rapport de vérification des images Croc’Ami"
-          git push
+
+      - name: Archiver les rapports de contrôle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crocami-audit-images
+          path: |
+            reports/product-image-audit.csv
+            reports/product-image-audit-summary.json
+          if-no-files-found: warn
+          retention-days: 14
