@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-06",
+  "references": 170,
+  "energyKnown": 15,
+  "energyMissing": 155,
+  "rpcFromManufacturer": 15,
+  "rpcFromMacroquette": 151,
+  "rpcUnavailable": 4,
+  "scored": 169,
+  "reliability": {
+    "bonne": 18,
+    "moyenne": 150,
+    "limitee": 2
+  },
+  "invalid": 0,
+  "avgCoverage": 53.9,
+  "energyMissingNoRpc": [
+    "mq-dog-050",
+    "mq-dog-088",
+    "mq-cat-041",
+    "mq-cat-054"
+  ]
+}
