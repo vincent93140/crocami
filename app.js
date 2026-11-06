@@ -160,7 +160,7 @@ function cardMetricsMarkup(p){
  const caP=p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null;
  const omega=p.omega3>0&&p.omega6!=null?p.omega6/p.omega3:null;
  const items=[
-  {name:"Protéines",raw:p.proteines,unit:"%",target:"à lire avec le RPC",status:"unknown"},
+  {name:"Protéines",raw:p.proteines,unit:"%",target:"à interpréter avec le RPC",status:"info"},
   {name:"RPC",raw:rpc,unit:"g/Mcal",target:"≥ "+fmt(rpcMin)+" g/Mcal",status:metricStatus(rpc,rpcMin,null)},
   {name:"Matières grasses",raw:p.matieresGrasses,unit:"%",target:fmt(fat[0])+"–"+fmt(fat[1])+" %",status:metricStatus(p.matieresGrasses,fat[0],fat[1])},
   {name:"Fibres",raw:p.fibres,unit:"%",target:fmt(fiber[0])+"–"+fmt(fiber[1])+" %",status:metricStatus(p.fibres,fiber[0],fiber[1])},
