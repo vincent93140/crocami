@@ -867,3 +867,41 @@ window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
  const update = crocamiBrandFormulaReview20261106b[p.id];
  return update ? {...p, ...update} : p;
 });
+
+
+/* AUDIT FORMULATIONS ACTUELLES — ALLEVA (06/11/2026).
+   Sources officielles corrigées ; les recettes reformulées restent distinctes des fiches historiques. */
+const crocamiBrandFormulaReview20261106c = {
+  "mq-dog-019": {
+    "sourceFabricant": "https://allevastore.com/en/collections/alleva-holistic/products/crocchette-per-cani-holistic-adult-mini-cervo-agnello-2-kg",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "Fiche officielle Alleva Holistic Adult Venison & Lamb consultée. La variante Medium/Maxi actuelle contient 30 % d’agneau déshydraté, 20 % d’agneau frais et 10 % de cerf déshydraté, contre 35 %, 20 % et 15 % dans la fiche historique. Analyse actuelle : protéines 35 %, matières grasses 18 %, fibres 3 %, cendres 8,6 %, humidité 9 %, calcium 1,5 %, phosphore 1,2 %, oméga-6 2,3 %, oméga-3 1,3 %, énergie 3 851 kcal/kg. Valeurs non fusionnées avec l’ancienne recette.",
+    "statutDonnees": "Formule officielle actuelle différente de la composition historique. Analyse actuelle enregistrée en note, sans mélange des variantes."
+  },
+  "mq-dog-020": {
+    "sourceFabricant": "https://allevastore.com/en/fr-fr/products/crocchette-per-cani-natural-adult-mini-pollo-zucca-2-kg",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "Fiche officielle Alleva Natural Adult Chicken & Pumpkin consultée. La variante Maxi actuelle contient 32 % de poulet déshydraté, 20 % de poulet frais désossé, 20 % de riz brun et 5 % de potiron séché, alors que la fiche historique indique 38 % de poulet déshydraté et ne mentionne pas de poulet frais. L’énergie publiée pour la gamme actuelle est 3 920 kcal/kg. Les analyses complètes calcium/phosphore et les constituants analytiques ne sont pas clairement publiés sur la page consultée. Aucune donnée actuelle n’est fusionnée.",
+    "statutDonnees": "Formule officielle actuelle reformulée par rapport à la référence historique. Énergie actuelle notée séparément ; analyses incomplètes."
+  },
+  "mq-cat-010": {
+    "sourceFabricant": "https://allevastore.com/en/collections/alleva-holistic/products/crocchette-per-gatti-holistic-adult-pollo-anatra-aloe-vera-ginseng-5-kg",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "Fiche officielle Alleva Holistic Adult & Neutered Chicken & Duck consultée. La composition actuelle (42 % poulet déshydraté, 20 % poulet frais, 12 % canard déshydraté) diffère de la fiche historique (45 %, 25 %, 15 %). Analyse actuelle : protéines 42 %, matières grasses 18 %, fibres 2 %, cendres 8,3 %, humidité 7 %, calcium 1,5 %, phosphore 1,2 %, oméga-6 4 %, oméga-3 1,2 %, énergie 4 045 kcal/kg. Ces valeurs ne sont pas transférées à la formule historique.",
+    "statutDonnees": "Formule actuelle Adult & Neutered différente de la composition historique. Valeurs actuelles conservées en note."
+  },
+  "mq-cat-011": {
+    "sourceFabricant": "https://allevastore.com/en/collections/alleva-holistic/products/alleva-holistic-kitten-pollo-anatra-aloe-vera-ginseng-kg-10",
+    "verificationFabricant": "formule_actuelle_différente",
+    "dateVerificationFabricant": "2026-11-06",
+    "noteFabricant": "Fiche officielle Alleva Holistic Kitten Chicken & Duck consultée. La composition actuelle contient 45 % de poulet déshydraté, 20 % de poulet frais et 12 % de canard déshydraté ; la fiche historique indique 45 %, 25 % et 15 %. Analyse actuelle : protéines 44 %, matières grasses 20 %, fibres 1,4 %, cendres 8,4 %, humidité 7 %, calcium 1,6 %, phosphore 1,3 %, oméga-6 4,3 %, oméga-3 1,3 %, DHA 0,7 %, EPA 0,4 %, énergie 4 174 kcal/kg. Aucune valeur n’est fusionnée dans l’ancienne fiche.",
+    "statutDonnees": "Formule actuelle Kitten différente de la composition historique enregistrée. Données fabricant actuelles conservées séparément."
+  }
+};
+window.CROCamiCatalog = window.CROCamiCatalog.map(p => {
+ const update = crocamiBrandFormulaReview20261106c[p.id];
+ return update ? {...p, ...update} : p;
+});
