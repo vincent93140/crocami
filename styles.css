@@ -186,3 +186,56 @@
 .topbar .brand{min-width:112px;justify-content:flex-start}
 .topbar .brand img{width:104px;height:72px;object-fit:contain;object-position:left center}
 @media(max-width:600px){.topbar .brand{min-width:88px}.topbar .brand img{width:84px;height:64px}}
+
+
+/* Identité visuelle Croc’Ami — bleu, orange et crème du logo */
+:root{
+  --ink:#20334b;
+  --muted:#68788a;
+  --cream:#fff9ef;
+  --paper:#ffffff;
+  --green:#1768b3;
+  --green2:#eaf3fc;
+  --orange:#f39a24;
+  --line:#e4eaf0;
+}
+body{background:var(--cream);color:var(--ink)}
+.topbar{background:rgba(255,249,239,.96);border-bottom-color:#e8edf2}
+.topbar nav{color:#52677f}
+.topbar nav a:hover,.eyebrow,.pet-card-copy>span{color:#1768b3}
+.eyebrow-dot{background:#f39a24}
+.nav-cta,.primary-btn,.search-row button{background:#1768b3;box-shadow:0 8px 20px #1768b326}
+.nav-cta:hover,.primary-btn:hover,.search-row button:hover{background:#105895}
+.hero h1 em,.section-heading h2 em,.pets-heading h2 em,.how-intro h2 em,.promise h2 em{color:#1768b3}
+.trust-strip,.compare-toolbar{background:#eaf3fc;color:#315d86}
+.trust-strip i{background:#c9dced}
+.finder-tip,.comparison thead th{background:#eaf3fc}
+.finder-tip{border-color:#d8e8f6}
+.finder-tip b,.comparison thead th{color:#1768b3}
+.pet-card-copy a,.merchant-link,.source-line a,.catalog-attribution a,.promise-copy a{color:#1768b3}
+.pet-card-copy a{border-color:#a9c9e5}
+.weight-paw,.promise-paw{color:#f39a24}
+.sort-control{color:#315d86}
+.sort-control select{border-color:#d6e5f2;background:#f7fbff;color:#1768b3}
+.sort-control select:focus{outline-color:#8dbce4}
+.animal-tab.active,.animal-tab[aria-pressed=true]{background:#eaf3fc;color:#1768b3;border-color:#b8d6ef}
+.pet-card.pet-illustration{border-color:#d8e6f1}
+.dog-art:before{background:#fff2df}
+.cat-art:before{background:#edf5ff}
+.promise-art{background:linear-gradient(145deg,#fff0d9,#eaf3fc)}
+.promise-label{color:#315d86}
+.global-score-copy b,.audit-heading>div>b{color:#315d86}
+.global-score-detail{border-color:#dce9f4}
+.global-score-big{color:#1768b3}
+.global-score-criteria>div{border-color:#e1ebf3}
+footer{background:#f2f7fc;border-top:1px solid #e1eaf2}
+footer .brand img{width:94px;height:62px;object-fit:contain;padding:3px 7px;background:#fff9ef;border:1px solid #f0e4d2;border-radius:12px}
+footer .brand{height:auto}
+.topbar .brand{min-width:112px;justify-content:flex-start}
+.topbar .brand img{width:100px;height:68px;object-fit:contain;object-position:center;padding:3px 7px;background:#fff9ef;border:1px solid #f0e4d2;border-radius:12px;image-rendering:auto;filter:none}
+@media(max-width:600px){
+  .topbar .brand{min-width:88px}
+  .topbar .brand img{width:82px;height:60px;padding:3px 5px}
+  footer .brand img{width:82px;height:56px}
+}
+/* Fin de l’identité visuelle Croc’Ami */
