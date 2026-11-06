@@ -43,7 +43,9 @@ window.CROCamiManufacturerData = {
     omega3:1,
     omega6:2.7,
     dha:0.3,
-    epa:0.3
+    epa:0.3,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Fiche officielle ACANA vérifiée : énergie métabolisable 3 660 kcal/kg ; humidité 12 %, calcium 1,5 %, phosphore 1,1 %, oméga-3 1 %, oméga-6 2,7 %, DHA 0,3 % et EPA 0,3 %. Aucun taux de taurine n'est publié sur cette fiche."
   },
   d05: {
     imageProduit:"https://www.purina.fr/sites/default/files/2022-04/07613034487919_C1N1_44108853_0.png",
@@ -51,7 +53,9 @@ window.CROCamiManufacturerData = {
     sourceFabricant:"https://www.purina.fr/chien/alimentation/dog-chow-junior-large-breed-dinde",
     proteines:28, matieresGrasses:12, fibres:3, cendres:7.5, omega3:null, dha:0.05,
     compositionComplete:"Céréales (céréales complètes 46 %), viandes et sous-produits animaux (25 %, dont dinde 4 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 1,1 %, pois séchés 0,08 %, carottes séchées 0,08 %), substances minérales.",
-    additifs:"Vitamine A 22 600 UI/kg ; vitamine D3 1 300 UI/kg ; vitamine E 100 UI/kg ; fer 93 mg/kg ; iode 2,3 mg/kg ; cuivre 10 mg/kg ; manganèse 7,1 mg/kg ; zinc 130 mg/kg ; sélénium 0,22 mg/kg."
+    additifs:"Vitamine A 22 600 UI/kg ; vitamine D3 1 300 UI/kg ; vitamine E 100 UI/kg ; fer 93 mg/kg ; iode 2,3 mg/kg ; cuivre 10 mg/kg ; manganèse 7,1 mg/kg ; zinc 130 mg/kg ; sélénium 0,22 mg/kg.",
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Fiche officielle Purina vérifiée : protéines 28 %, matières grasses 12 %, cendres 7,5 %, cellulose 3 % et DHA 0,05 %. Le fabricant ne publie pas sur cette page l'énergie métabolisable, le calcium, le phosphore, le magnésium, les oméga ni la taurine."
   },
   d06: {
     imageProduit:"https://petsi.eu/cdn/shop/files/00117526.jpg?crop=center&v=1746465700&width=600",
@@ -59,7 +63,9 @@ window.CROCamiManufacturerData = {
     sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/sterilised-medium-3034",
     proteines:28, matieresGrasses:13, fibres:6.4, cendres:4.9,
     compositionComplete:"Maïs, protéines de volaille déshydratées, blé, fibres végétales, protéines animales hydrolysées, graisses animales, gluten de maïs, gluten de blé, pulpe de betterave, produits de levures, huile de poissons, huile de soja, sels minéraux, téguments et graines de psyllium, fructo-oligosaccharides, levures (source de MOS), huile de bourrache, farine de tagète.",
-    additifs:"Vitamine A 21 000 UI/kg ; vitamine D3 1 000 UI/kg ; fer 37 mg/kg ; iode 3,7 mg/kg ; cuivre 11 mg/kg ; manganèse 48 mg/kg ; zinc 135 mg/kg ; sélénium 0,06 mg/kg ; L-carnitine 200 mg/kg ; clinoptilolite 5 g/kg."
+    additifs:"Vitamine A 21 000 UI/kg ; vitamine D3 1 000 UI/kg ; fer 37 mg/kg ; iode 3,7 mg/kg ; cuivre 11 mg/kg ; manganèse 48 mg/kg ; zinc 135 mg/kg ; sélénium 0,06 mg/kg ; L-carnitine 200 mg/kg ; clinoptilolite 5 g/kg.",
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Fiche officielle Royal Canin vérifiée : protéines 28 %, matières grasses 13 %, cellulose 6,4 %, cendres 4,9 %. L'énergie métabolisable, calcium, phosphore, magnésium, oméga et taurine ne sont pas publiés sur cette fiche."
   },
   d07: {
     imageProduit:"https://static.petness.pt/media/10/photos/products/504956/07613035123779-C1N1-44152684-63eea322a6f4c.jpg",
