@@ -622,3 +622,7 @@ footer .brand img{display:block!important;width:120px!important;height:72px!impo
 .detail-muted{font-size:11px;color:var(--muted);line-height:1.6}
 .detail-back-bottom{margin-top:22px}
 @media(max-width:760px){.product-detail-page{padding:0 12px;margin-top:15px}.detail-hero{grid-template-columns:112px minmax(0,1fr);gap:13px;padding:15px}.detail-product-image{height:145px}.detail-brand{font-size:19px}.detail-heading h1{font-size:14px}.detail-price-line strong{font-size:19px}.detail-score{grid-column:1/-1;border-left:0;border-top:1px solid var(--line);padding-top:12px;display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap}.detail-score-circle{width:48px;height:48px;margin:0;font-size:19px}.detail-score>b,.detail-score>span{font-size:9px}.detail-section{padding:16px;margin-top:14px}.detail-data-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.detail-two-columns{grid-template-columns:1fr}.detail-meta-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.detail-criteria{grid-template-columns:1fr}}
+
+
+/* Descriptif fabricant sur les fiches produits */
+.detail-description{max-width:760px;margin:10px 0 14px;color:var(--muted,#64748b);font-size:.96rem;line-height:1.6}
