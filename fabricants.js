@@ -263,6 +263,8 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/--2537",
     proteines:37, matieresGrasses:12, fibres:6.2, cendres:8.2,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, composition, additifs et ration vérifiés sur la fiche officielle Royal Canin Sterilised 37. La page fabricant ne publie pas l’énergie métabolisable, le calcium, le phosphore ni la taurine.",
     compositionComplete:"Protéines de volaille déshydratées, maïs, isolat de protéines végétales, fibres végétales, graisses animales, hydrolysat de protéines animales, riz, blé, pulpe de betterave, gluten de maïs, levures et composants de levures, sels minéraux, huile de poisson, fructo-oligosaccharides, huile de soja.",
     additifs:"Vitamine A 19 000 UI/kg ; D3 1 000 UI/kg ; fer 31 mg/kg ; iode 3,1 mg/kg ; cuivre 10 mg/kg ; manganèse 41 mg/kg ; zinc 122 mg/kg ; sélénium 0,05 mg/kg ; L-carnitine 100 mg/kg ; clinoptilolite 10 g/kg ; chlorure d’ammonium 5 g/kg ; conservateurs et antioxygènes.",
     ration:"Poids idéal : 3 kg 47 g, 4 kg 57 g, 5 kg 67 g, 6 kg 76 g/jour. Embonpoint : 3 kg 37 g, 4 kg 46 g, 5 kg 54 g, 6 kg 61 g/jour."
@@ -273,6 +275,8 @@ window.CROCamiManufacturerData = {
     sourceFabricant:"https://www.purina.fr/chat/alimentation/proplan-croquette-adulte-dinde",
     sourceComplementaire:"https://vetcenter.purina.fr/sites/default/files/vet_materials/gamme_pro_plan_chat.pdf",
     proteines:41, matieresGrasses:12, fibres:4, cendres:7.5, humiditeFabricant:6,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, composition, additifs et ration vérifiés sur la fiche officielle Purina PRO PLAN Sterilised Adult riche en dinde. La page fabricant ne publie pas l’énergie métabolisable, le calcium, le phosphore ni une teneur chiffrée en taurine.",
     compositionComplete:"Dinde de haute qualité 20 % (dont dos et coffre), protéines de volaille déshydratées, riz, farine de protéines de maïs, maïs, gluten de blé, farine basse de blé, fibres végétales séchées, œufs déshydratés, substances minérales, huile de poisson, graisses animales, hydrolysat, levure.",
     additifs:"Vitamine A 32 000 UI/kg ; D3 1 000 UI/kg ; E 670 UI/kg ; C 140 mg/kg ; fer 120 mg/kg ; iode 1,9 mg/kg ; cuivre 13 mg/kg ; manganèse 45 mg/kg ; zinc 110 mg/kg ; sélénium 0,13 mg/kg.",
     ration:"Guide fabricant : ration adaptée au poids, à l’âge, à l’activité et à la condition corporelle ; tableau à consulter sur la fiche officielle."
@@ -282,6 +286,8 @@ window.CROCamiManufacturerData = {
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.purina.fr/chat/alimentation/purina-one-sterilise-poulet",
     proteines:37, matieresGrasses:13, fibres:4, cendres:7.5, omega3:0.1, omega6:2,
+    dateVerificationFabricant:"2026-11-06",
+    noteFabricant:"Protéines, matières grasses, fibres, cendres, oméga-3, oméga-6, composition, additifs et ration vérifiés sur la fiche officielle Purina ONE Chat Stérilisé au Poulet. La page ne publie pas l’énergie métabolisable, le calcium ni le phosphore.",
     compositionComplete:"Poulet 17 % (dont os, viande, peau), protéines de volaille déshydratées, blé 15 %, farine de soja, maïs, farine de protéines de maïs, gluten de blé, graisses animales, pulpe de betterave déshydratée, racine de chicorée séchée 2 %, fibres végétales séchées, substances minérales, hydrolysat avec Lactobacillus delbrueckii et fermentum traités thermiquement, levures déshydratées.",
     additifs:"Vitamine A 34 000 UI/kg ; D3 1 100 UI/kg ; E 400 UI/kg ; C 140 mg/kg ; taurine 700 mg/kg ; fer 110 mg/kg ; iode 1,7 mg/kg ; cuivre 11 mg/kg ; manganèse 40 mg/kg ; zinc 100 mg/kg ; sélénium 0,12 mg/kg.",
     ration:"2–4 kg : 30–60 g ; 4–6 kg : 60–85 g ; 6–8 kg : 85–115 g par jour."
