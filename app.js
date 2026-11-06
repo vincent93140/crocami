@@ -178,15 +178,40 @@ function renderCompare(){
  let ps=data.filter(p=>selected.has(p.id));
  $("#compareCount").textContent=ps.length+"/4 sélectionnées";
  $("#comparison").hidden=ps.length<2;
- $("#comparisonTable").innerHTML=ps.length<2?"":`<div class="comparison-scroll"><table><thead><tr><th>Critère</th>${ps.map(p=>`<th><span class="compare-brand">${p.marque}</span><br><small class="compare-recipe">${p.recette}</small><button data-remove="${p.id}" aria-label="Retirer">×</button></th>`).join("")}</tr></thead><tbody>${[
- ["Note Crocami",p=>{const n=globalNutritionScore(p);return n.score==null?"Données insuffisantes":n.score+"/100 · couverture "+n.confidence+" %";}],
- ["Note Macroquette (externe)",p=>p.scoreMacroquette==null?"Non disponible":fmt(p.scoreMacroquette)+"/100"],
- ["RPC calculé Crocami",p=>p.energie>0&&p.proteines!=null?fmtRatio(p.proteines*10000/p.energie)+" g/Mcal":"Non communiqué"],
- ["Prix du sac",p=>fmt(p.prixSac)+" €"],["Format",p=>fmt(p.formatKg)+" kg"],["Prix au kg",p=>fmt(p.prixKg)+" €/kg"],
- ["Protéines",p=>fmt(p.proteines)+" %"],["Protéines sur matière sèche",p=>fmt(p.proteinesMS)+" %"],["Matières grasses",p=>fmt(p.matieresGrasses)+" %"],
- ["Fibres",p=>fmt(p.fibres)+" %"],["Humidité",p=>fmt(p.humidite)+" %"],["Cendres",p=>fmt(p.cendres)+" %"],["Glucides",p=>fmt(p.glucides)+" %"],
- ["Calcium / phosphore",p=>fmt(p.calcium)+" / "+fmt(p.phosphore)],["Énergie",p=>fmt(p.energie)+" kcal/kg"],["Premier ingrédient",p=>p.premierIngredient],["Note source /5",p=>fmt(p.noteComposition)]
- ].map(([k,f])=>`<tr><th>${k}</th>${ps.map(p=>`<td>${f(p)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+ const comparisonRows=[
+  {label:"Note Crocami",value:p=>globalNutritionScore(p).score,display:p=>{const n=globalNutritionScore(p);return n.score==null?"Données insuffisantes":n.score+"/100 · couverture "+n.confidence+" %";},better:"high"},
+  {label:"Note Macroquette (externe)",value:p=>p.scoreMacroquette,display:p=>p.scoreMacroquette==null?"Non disponible":fmt(p.scoreMacroquette)+"/100",better:"high"},
+  {label:"RPC calculé Crocami",value:p=>p.energie>0&&p.proteines!=null?p.proteines*10000/p.energie:null,display:p=>p.energie>0&&p.proteines!=null?fmtRatio(p.proteines*10000/p.energie)+" g/Mcal":"Non communiqué",better:"high"},
+  {label:"Prix du sac",value:p=>p.prixSac,display:p=>p.prixSac==null?"Non communiqué":fmt(p.prixSac)+" €",better:"low"},
+  {label:"Format",value:p=>p.formatKg,display:p=>p.formatKg==null?"Non communiqué":fmt(p.formatKg)+" kg",better:"neutral"},
+  {label:"Prix au kg",value:p=>p.prixKg,display:p=>p.prixKg==null?"Non communiqué":fmt(p.prixKg)+" €/kg",better:"low"},
+  {label:"Protéines",value:p=>p.proteines,display:p=>p.proteines==null?"Non communiqué":fmt(p.proteines)+" %",better:"neutral"},
+  {label:"Protéines sur matière sèche",value:p=>p.proteinesMS,display:p=>p.proteinesMS==null?"Non communiqué":fmt(p.proteinesMS)+" %",better:"neutral"},
+  {label:"Matières grasses",value:p=>p.matieresGrasses,display:p=>p.matieresGrasses==null?"Non communiqué":fmt(p.matieresGrasses)+" %",better:"neutral"},
+  {label:"Fibres",value:p=>p.fibres,display:p=>p.fibres==null?"Non communiqué":fmt(p.fibres)+" %",better:"neutral"},
+  {label:"Humidité",value:p=>p.humidite,display:p=>p.humidite==null?"Non communiqué":fmt(p.humidite)+" %",better:"neutral"},
+  {label:"Cendres",value:p=>p.cendres,display:p=>p.cendres==null?"Non communiqué":fmt(p.cendres)+" %",better:"neutral"},
+  {label:"Glucides",value:p=>p.glucides,display:p=>p.glucides==null?"Non communiqué":fmt(p.glucides)+" %",better:"low"},
+  {label:"Calcium / phosphore",value:p=>p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null,display:p=>p.calcium==null||p.phosphore==null?"Non communiqué":fmt(p.calcium)+" / "+fmt(p.phosphore),better:"range",min:1,max:2},
+  {label:"Énergie",value:p=>p.energie,display:p=>p.energie==null?"Non communiqué":fmt(p.energie)+" kcal/kg",better:"neutral"},
+  {label:"Premier ingrédient",value:p=>p.premierIngredient,display:p=>p.premierIngredient||"Non communiqué",better:"neutral"},
+  {label:"Note source /5",value:p=>p.noteComposition,display:p=>p.noteComposition==null?"Non communiqué":fmt(p.noteComposition)+"/5",better:"high"}
+ ];
+ const scoreValue=(row,p)=>{
+  const v=row.value(p);if(typeof v!=="number"||!Number.isFinite(v))return null;
+  if(row.better==="range")return v>=row.min&&v<=row.max?100:Math.max(0,100-Math.min(Math.abs(v-row.min),Math.abs(v-row.max))*100);
+  return v;
+ };
+ const html=ps.length<2?"":'<div class="comparison-legend"><span><i class="comparison-key best"></i> Meilleure valeur parmi les produits sélectionnés</span><span><i class="comparison-key neutral"></i> Valeur informative, sans classement automatique</span></div><div class="comparison-scroll"><table><thead><tr><th>Critère</th>'+ps.map(p=>'<th><span class="compare-brand">'+p.marque+'</span><br><small class="compare-recipe">'+p.recette+'</small><button data-remove="'+p.id+'" aria-label="Retirer">×</button></th>').join("")+'</tr></thead><tbody>'+comparisonRows.map(row=>{
+  const values=ps.map(p=>scoreValue(row,p));
+  const valid=values.filter(v=>v!=null);
+  const best=row.better==="neutral"||!valid.length?null:row.better==="low"?Math.min(...valid):Math.max(...valid);
+  return '<tr class="'+(best==null?"comparison-neutral-row":"comparison-ranked-row")+'"><th>'+row.label+(best==null?'<small class="comparison-row-hint">Comparaison informative</small>':'<small class="comparison-row-hint">Valeur la plus favorable</small>')+'</th>'+ps.map((p,i)=>{
+   const v=values[i],isBest=best!=null&&v!=null&&Math.abs(v-best)<0.000001;
+   return '<td class="'+(isBest?"comparison-best":"")+'">'+(isBest?'<span class="comparison-best-label">MEILLEUR</span>':"")+row.display(p)+'</td>';
+  }).join("")+'</tr>';
+ }).join("")+'</tbody></table></div>';
+ $("#comparisonTable").innerHTML=html;
  $$("[data-remove]").forEach(b=>b.addEventListener("click",()=>{selected.delete(b.dataset.remove);render();}));
 }
 tabs.forEach(t=>t.addEventListener("click",()=>setAnimal(t.dataset.animal)));
