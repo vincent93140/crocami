@@ -344,3 +344,10 @@ footer{background:#083d6c;color:#fff;border-top:4px solid #f39a24}
 footer p,footer>span{color:#fff}
 .topbar .brand img,footer .brand img{background:#fffaf1;border:2px solid #f39a24;border-radius:12px;object-fit:contain;object-position:center;padding:4px}
 @media(max-width:700px){.search-section,.pets-section{background:#145b94}.finder{background:#f7ead5}}
+
+
+/* Logo officiel transmis : image d'origine, sans filtre ni cadre ajouté */
+.topbar .brand{display:flex;align-items:center;justify-content:flex-start;min-width:126px;height:auto}
+.topbar .brand img{display:block;width:122px;height:66px;max-width:none;object-fit:contain;object-position:left center;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important;image-rendering:auto}
+footer .brand img{display:block;width:112px;height:62px;object-fit:contain;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important}
+@media(max-width:700px){.topbar .brand{min-width:92px}.topbar .brand img{width:90px;height:52px}}
