@@ -376,3 +376,38 @@ for (const product of window.CROCamiCatalog) {
  const update = crocamiAdvanceUpdates[product.id];
  if (update) Object.assign(product, update);
 }
+
+
+/* BRIT CARE : données fabricant et revendeurs recoupées pour trois recettes ; attention aux recettes historiques/discontinuées. */
+const crocamiBritCareUpdates = {
+ "mq-dog-044": {
+  proteines:26, matieresGrasses:15, fibres:2.5, cendres:7.5, humidite:10, calcium:1.2, phosphore:1,
+  omega3:0.7, omega6:2.1, energie:3760,
+  sourceRevendeur:"https://targapetshop.com/products/brit-care-grain-free-adult-salmon-potato",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"recoupée_revendeur",
+  statutDonnees:"Recette Grain-Free Adult Salmon & Potato recoupée chez un revendeur : saumon séché 35 %, pommes de terre 34 %, protéines de saumon 10 % ; protéines 26 %, matières grasses 15 %, fibres 2,5 %, cendres 7,5 %, humidité 10 %, calcium 1,2 %, phosphore 1 %, oméga-3 0,7 %, oméga-6 2,1 % et énergie 3 760 kcal/kg. Une ancienne fiche PDF Brit présente des valeurs analytiques différentes : la version du produit doit être contrôlée sur le sac."
+ },
+ "mq-dog-045": {
+  proteines:27, matieresGrasses:9, fibres:9.5, cendres:5.5, humidite:10, calcium:1.2, phosphore:0.8, sodium:0.3,
+  omega3:0.3, omega6:1.5, epa:0.02, dha:0.05, energie:3110, taurine:1500,
+  sourceFabricant:"https://brit-petfood.com/fr/node/991648",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"confirmée",
+  compositionComplete:"Lapin déshydraté (36 %), riz (35 %), pulpe de pomme séchée (12 %), lignocellulose (10 %), graisse de poulet, arôme naturel, levure de bière, huile de saumon (1 %), psyllium (0,5 %), farine de pois, glucosamine (300 mg/kg), fructo-oligosaccharides (230 mg/kg), sulfate de chondroïtine (230 mg/kg), mannan-oligosaccharides (180 mg/kg), yucca (180 mg/kg), chardon-Marie (110 mg/kg), bêta-glucanes (60 mg/kg), agripaume séchée (60 mg/kg), argousier séché (60 mg/kg), Lactobacillus helveticus HA-122 inactivé (15×10⁹ cellules/kg).",
+  additifs:"Vitamine A 23 000 UI/kg ; vitamine D3 1 700 UI/kg ; vitamine E 550 mg/kg ; vitamine C 350 mg/kg ; taurine 1 500 mg/kg ; chlorure de choline 1 800 mg/kg ; L-carnitine 300 mg/kg ; vitamine B1 3 mg/kg ; vitamine B2 11 mg/kg ; biotine 4 mg/kg ; acide folique 1,4 mg/kg ; vitamine B6 3 mg/kg ; pantothénate de calcium 30 mg/kg ; niacinamide 38 mg/kg ; vitamine B12 0,12 mg/kg ; iode 0,9 mg/kg ; zinc organique 100 mg/kg ; manganèse organique 45 mg/kg ; cuivre organique 20 mg/kg ; fer organique 88 mg/kg ; sélénium organique 0,18 mg/kg.",
+  statutDonnees:"Données reprises de la fiche fabricant Brit Care Weight Loss Rabbit & Rice : énergie 3 110 kcal/kg, calcium/phosphore, sodium, oméga, EPA/DHA et taurine inclus. Recette et constituants analytiques concordent avec la fiche officielle."
+ },
+ "mq-cat-031": {
+  proteines:34, matieresGrasses:12, fibres:5.2, cendres:6.8, humidite:10, calcium:0.8, phosphore:0.6, sodium:0.75, magnesium:0.042,
+  omega3:0.27, omega6:1.45, energie:3700, taurine:2300,
+  sourceRevendeur:"https://www.ksenukai.lv/p/sausa-kaku-bariba-brit-care-7-kg/hgd6",
+  sourceComplementaire:"https://www.brit.com.hk/pdf_files/New_Brit_Care_Cat.pdf",
+  dateVerificationFabricant:"2026-11-06", verificationFabricant:"recoupée_revendeur",
+  compositionComplete:"Poulet déshydraté (18 %), riz, poulet désossé (15 %), dinde déshydratée (12 %), graisse de poulet conservée par des tocophérols, pommes séchées, son de riz, levure de bière, foie de poulet (2 %), huile de saumon, sulfate de glucosamine (260 mg/kg), sulfate de chondroïtine (160 mg/kg), mannan-oligosaccharides (155 mg/kg), fructo-oligosaccharides (125 mg/kg), extrait de yucca schidigera (85 mg/kg), argousier (50 mg/kg).",
+  additifs:"Vitamine A 22 500 UI/kg ; vitamine D3 900 UI/kg ; vitamine E 650 mg/kg ; vitamine C 300 mg/kg ; taurine 2 300 mg/kg ; chlorure de choline 2 100 mg/kg ; L-carnitine 65 mg/kg ; niacine 40 mg/kg ; biotine 1,8 mg/kg ; zinc 150 mg/kg ; manganèse 56 mg/kg ; fer 47 mg/kg ; cuivre 11 mg/kg ; iode 3,7 mg/kg ; sélénium 0,23 mg/kg ; DL-méthionine 13 mg/kg ; arginine 11 mg/kg ; L-lysine 9 mg/kg ; hexamétaphosphate de sodium 710 mg/kg.",
+  statutDonnees:"Fiche senior historique recoupée chez Ksenukai et dans la documentation Brit : protéines 34 %, matières grasses 12 %, fibres 5,2 %, cendres 6,8 %, humidité 10 %, calcium 0,8 %, phosphore 0,6 %, sodium 0,75 %, magnésium 0,042 %, taurine 2 300 mg/kg, oméga-3 0,27 %, oméga-6 1,45 % et énergie 3 700 kcal/kg. Produit désormais discontinué/remplacé : ces valeurs ne doivent pas être attribuées au produit de remplacement."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiBritCareUpdates[product.id];
+ if (update) Object.assign(product, update);
+}
