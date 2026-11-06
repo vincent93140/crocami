@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T15:21:30.103Z",
+  "checkedAt": "2026-11-06T15:23:23.295Z",
   "uniqueImageUrls": 227,
-  "ok": 223,
-  "deadLinks": 2,
-  "nonImageResponses": 1,
-  "blockedOrRateLimited": 1,
+  "ok": 226,
+  "deadLinks": 1,
+  "nonImageResponses": 0,
+  "blockedOrRateLimited": 0,
   "httpErrors": 0,
   "notVerified": 0
 }
