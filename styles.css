@@ -531,3 +531,12 @@ footer .brand img{display:block!important;width:120px!important;height:72px!impo
 .product-source-review summary{cursor:pointer;font-weight:700;color:#8a5a18;text-decoration:underline;text-underline-offset:2px}
 .product-source-review[open] summary{margin-bottom:5px}
 .product-source-review p{margin:4px 0 2px;line-height:1.55;color:var(--muted)}
+
+
+/* Lecture des analyses fabricant actuelles, conservées à part des anciennes recettes */
+.product-current-formula{padding:7px 9px;border-left:2px solid #d8a14c;background:rgba(216,161,76,.07);border-radius:5px}
+.current-formula-values{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 12px;margin:7px 0}
+.current-formula-values>div{display:flex;justify-content:space-between;gap:8px;padding:3px 0;border-bottom:1px solid rgba(120,130,140,.16)}
+.current-formula-values span{color:var(--muted)}
+.current-formula-values b{white-space:nowrap;color:var(--text)}
+@media(max-width:420px){.current-formula-values{grid-template-columns:1fr}}
