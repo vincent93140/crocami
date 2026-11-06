@@ -987,3 +987,15 @@ for (const product of window.CROCamiCatalog) {
  if (extra && product.donneesFabricantActuelles) Object.assign(product.donneesFabricantActuelles, extra);
  if (product.id === "mq-cat-010") product.sourceFabricant = "https://allevastore.com/en/products/crocchette-per-gatti-holistic-adult-pollo-anatra-aloe-vera-ginseng-5-kg?variant=54046068179273";
 }
+
+
+/* Corrections de libellés et précision de la formule Alleva adulte — 06/11/2026. */
+for (const product of window.CROCamiCatalog) {
+ if (product.donneesFabricantActuelles) {
+  delete product.donneesFabricantActuelles.proteinesMinimum;
+  delete product.donneesFabricantActuelles.matieresGrassesMinimum;
+ }
+ if (product.id === "mq-cat-010") {
+  product.noteFabricant = "Fiche officielle Alleva Holistic Adult Chicken & Duck consultée : la recette actuelle est composée de poulet déshydraté (44 %), poulet frais désossé (20 %) et canard déshydraté (12 %), contre 45 %, 25 % et 15 % dans la fiche historique. Analyses actuelles : protéines 42 %, matières grasses 18 %, fibres 2 %, cendres 8,3 %, humidité 7 %, amidon 19 %, calcium 1,5 %, phosphore 1,2 %, sodium 0,55 %, magnésium 0,09 %, oméga-6 4 %, oméga-3 1,2 %, DHA 0,6 %, EPA 0,4 %, énergie 4 045 kcal/kg. Taurine ajoutée 4 000 mg/kg. Valeurs actuelles conservées séparément de la recette historique.";
+ }
+}
