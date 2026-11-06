@@ -66,12 +66,13 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://petsi.eu/cdn/shop/files/00117526.jpg?crop=center&v=1746465700&width=600",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/dogs/products/retail-products/sterilised-medium-3034",
+    sourceRevendeur:"https://www.zooplus.fr/shop/chiens/croquettes_chien/royal_canin_care_nutrition/sterilised/248434",
     sourceComplementaire:"https://macroquette.com/avis-Royal-Canin-sterilised-medium-chien/",
-    proteines:28, matieresGrasses:13, fibres:6.4, cendres:4.9,
+    proteines:28, matieresGrasses:13, fibres:6.4, cendres:4.9, energie:3477,
     compositionComplete:"Maïs, protéines de volaille déshydratées, blé, fibres végétales, protéines animales hydrolysées, graisses animales, gluten de maïs, gluten de blé, pulpe de betterave, produits de levures, huile de poissons, huile de soja, sels minéraux, téguments et graines de psyllium, fructo-oligosaccharides, levures (source de MOS), huile de bourrache, farine de tagète.",
     additifs:"Vitamine A 21 000 UI/kg ; vitamine D3 1 000 UI/kg ; fer 37 mg/kg ; iode 3,7 mg/kg ; cuivre 11 mg/kg ; manganèse 48 mg/kg ; zinc 135 mg/kg ; sélénium 0,06 mg/kg ; L-carnitine 200 mg/kg ; clinoptilolite 5 g/kg.",
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Fiche officielle Royal Canin vérifiée : protéines 28 %, matières grasses 13 %, cellulose 6,4 %, cendres 4,9 %. Macroquette donne 28/13/6/4 ; les écarts sur fibres et cendres sont conservés comme comparaison d’une analyse différente, sans remplacer les valeurs fabricant. Énergie, calcium, phosphore, magnésium, oméga et taurine non publiés sur la fiche fabricant."
+    noteFabricant:"Fiche officielle Royal Canin : protéines 28 %, matières grasses 13 %, cellulose 6,4 %, cendres 4,9 %. Énergie métabolisable 3 477 kcal/kg ajoutée depuis Zooplus pour cette même référence. Macroquette donne 28/13/6/4 ; les écarts sur fibres et cendres sont conservés comme comparaison d’une analyse différente, sans remplacer les valeurs fabricant. Calcium, phosphore, magnésium, oméga et taurine non publiés."
   },
   d07: {
     imageProduit:"https://static.petness.pt/media/10/photos/products/504956/07613035123779-C1N1-44152684-63eea322a6f4c.jpg",
