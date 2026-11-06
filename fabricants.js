@@ -285,9 +285,10 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://static.ticimax.cloud/cdn-cgi/image/width%3D0%2Cquality%3D90/14166/uploads/urunresimleri/buyuk/royal-canin-fhn-sterilised-37-kisirlasti-5f7a.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/--2537",
+    sourceComplementaire:"https://macroquette.com/avis-royal-canin-sterilised-37-chat/",
     proteines:37, matieresGrasses:12, fibres:6.2, cendres:8.2,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Protéines, matières grasses, fibres, cendres, composition, additifs et ration vérifiés sur la fiche officielle Royal Canin Sterilised 37. La page fabricant ne publie pas l’énergie métabolisable, le calcium, le phosphore ni la taurine.",
+    noteFabricant:"Fiche officielle Royal Canin Sterilised 37 : protéines 37 %, matières grasses 12 %, fibres 6,2 %, cendres 8,2 %. Macroquette indique 37/12/6/8 ; l’écart léger sur fibres et cendres est conservé, les valeurs officielles restant prioritaires. Énergie, calcium, phosphore et taurine chiffrée non publiés sur la fiche consultée.",
     compositionComplete:"Protéines de volaille déshydratées, maïs, isolat de protéines végétales, fibres végétales, graisses animales, hydrolysat de protéines animales, riz, blé, pulpe de betterave, gluten de maïs, levures et composants de levures, sels minéraux, huile de poisson, fructo-oligosaccharides, huile de soja.",
     additifs:"Vitamine A 19 000 UI/kg ; D3 1 000 UI/kg ; fer 31 mg/kg ; iode 3,1 mg/kg ; cuivre 10 mg/kg ; manganèse 41 mg/kg ; zinc 122 mg/kg ; sélénium 0,05 mg/kg ; L-carnitine 100 mg/kg ; clinoptilolite 10 g/kg ; chlorure d’ammonium 5 g/kg ; conservateurs et antioxygènes.",
     ration:"Poids idéal : 3 kg 47 g, 4 kg 57 g, 5 kg 67 g, 6 kg 76 g/jour. Embonpoint : 3 kg 37 g, 4 kg 46 g, 5 kg 54 g, 6 kg 61 g/jour."
@@ -448,9 +449,10 @@ window.CROCamiManufacturerData = {
     imageProduit:"https://www.kiwoko.pt/on/demandware.static/-/Sites-kiwoko-master-catalog/default/dw6c9447fc/images/pienso_gatos_royal_canin_sterilised_7%2B_ROYR445049.jpg",
     verificationFabricant:"confirmée_partielle",
     sourceFabricant:"https://www.royalcanin.com/fr/cats/products/retail-products/castrados-7%2B-2560",
+    sourceComplementaire:"https://macroquette.com/avis-royal-canin-sterilised-7-ans-et-plus-chat/",
     proteines:36, matieresGrasses:12, fibres:5.3, cendres:8, phosphore:0.7, epaDha:0.3,
     dateVerificationFabricant:"2026-11-06",
-    noteFabricant:"Protéines, matières grasses, fibres, cendres, phosphore (0,7 %), EPA/DHA (0,3 %), composition, additifs et ration confirmés sur la fiche officielle Royal Canin Sterilised 7+. La page ne publie pas l’énergie métabolisable, le calcium ni le magnésium.",
+    noteFabricant:"Fiche officielle Royal Canin Sterilised 7+ : protéines 36 %, matières grasses 12 %, fibres 5,3 %, cendres 8 %, phosphore 0,7 % et EPA/DHA 0,3 %. Macroquette indique 36/12/5/7 ; les écarts sur fibres et cendres sont signalés sans remplacer les chiffres fabricant. Énergie, calcium et magnésium non publiés.",
     compositionComplete:"Maïs, gluten de blé, protéines de volaille déshydratées, protéines animales hydrolysées, gluten de maïs, fibres végétales, graisses animales, blé, riz, substances minérales, produits de levures, pulpe de betterave, huile de poissons, fructo-oligosaccharides, psyllium, huile de soja, glucosamine issue de la fermentation, farine de tagète, cartilage hydrolysé (source de chondroïtine).",
     additifs:"Vitamine A 18 000 UI/kg ; D3 950 UI/kg ; C 190 mg/kg ; fer 37 mg/kg ; iode 3,7 mg/kg ; cuivre 11 mg/kg ; manganèse 48 mg/kg ; zinc 142 mg/kg ; sélénium 0,06 mg/kg ; clinoptilolite 10 g/kg ; antioxygènes.",
     ration:"Poids idéal : 3 kg 46 g, 4 kg 56 g, 5 kg 66 g, 6 kg 75 g/jour. Embonpoint : 3 kg 37 g, 4 kg 45 g, 5 kg 53 g, 6 kg 60 g/jour."
