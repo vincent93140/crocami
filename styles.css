@@ -637,3 +637,31 @@ footer .brand img{display:block!important;width:120px!important;height:72px!impo
 .topbar .brand img{display:block!important;width:100px!important;height:78px!important;max-width:100px!important;max-height:78px!important;object-fit:contain!important;object-position:left center!important;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important;image-rendering:auto!important}
 footer .brand img{display:block!important;width:100px!important;height:83px!important;max-width:100px!important;max-height:83px!important;object-fit:contain!important;object-position:center!important;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important}
 @media(max-width:700px){.topbar .brand{flex-basis:88px!important;width:88px!important;min-width:88px!important}.topbar .brand img{width:78px!important;height:66px!important;max-width:78px!important;max-height:66px!important}}
+
+
+/* Harmonisation chromatique des fiches détaillées avec l'accueil Croc'Ami */
+.product-detail-page{color:#183653}
+.detail-back{color:#1266ad}.detail-back:hover{color:#0d4e85}
+.detail-hero,.detail-section{background:#fffdf8;border-color:#cbddec;box-shadow:0 9px 24px #174e7812}
+.detail-product-image{background:#eaf3fc;border-color:#d5e6f4}
+.detail-heading .eyebrow,.detail-section-heading .eyebrow{color:#1266ad}
+.detail-brand{color:#1266ad}.detail-heading h1{color:#536d84}
+.detail-chip{background:#e2effa;color:#125d9d;border:1px solid #cbddec}
+.detail-price-line strong{color:#1266ad}
+.detail-price-line span,.detail-score>span{color:#536d84}
+.detail-score{border-left-color:#cbddec}
+.detail-score-circle{background:#1266ad;color:#fff;box-shadow:inset 0 0 0 4px #ffffff30}
+.detail-score>b{color:#183653}
+.detail-section-heading h2,.detail-two-columns h3{color:#1266ad}
+.detail-section-heading p:not(.eyebrow){color:#536d84}
+.detail-data-row{background:#f2f7fc;border-color:#dce9f4}
+.detail-data-row span{color:#536d84}.detail-data-row b{color:#183653}
+.detail-two-columns article,.detail-criteria>div{background:#f2f7fc;border-color:#dce9f4}
+.detail-two-columns p{color:#183653}
+.detail-meta-grid>div{background:#fffaf1;border-color:#eadfcf}
+.detail-meta-grid span{color:#68788a}.detail-meta-grid b{color:#183653}
+.detail-criteria b{color:#1266ad}
+.detail-criteria small,.detail-muted{color:#68788a}
+.detail-source-links a{background:#e2effa;color:#1266ad;border:1px solid #cbddec}
+.detail-source-links a:hover{background:#1266ad;color:#fff;border-color:#1266ad}
+@media(max-width:760px){.detail-score{border-top-color:#cbddec}}
