@@ -13,6 +13,7 @@ Comparateur de croquettes pour chiens et chats : recherche, filtres, comparaison
 
 ## Catalogue
 - 234 références présentes dans `catalogue.js` : 40 références de départ, 170 références issues de Macroquette, 10 références Virbac, 8 références SPECIFIC / Hill’s et 6 références Ownat. Le comptage du catalogue donne 131 références chien et 103 références chat; les 234 identifiants sont uniques.
+- Complément du 7 novembre 2026 : tables de rations fabricant ajoutées aux fiches d03, d05, d06, d09, d11, d12, d15, d16, d19 et c19. Les nutriments non publiés par les sources restent non communiqués.
 - Les 10 références Virbac ajoutées sont canines : 7 physiologiques et 3 diététiques.
 - La fiche Animalis `mq-dog-026` (chien de grande taille au poulet), dont la photo exacte n'était pas disponible, a été retirée du catalogue à la demande de l'utilisateur.
 - Audit automatisé des images : 226 URL distinctes contrôlées individuellement par requête HTTP et type MIME; 226 images valides, aucun lien mort. Une fiche Virbac D1 reste sans packshot validé et utilise le visuel de secours. Ce contrôle vérifie l'accessibilité technique, pas la correspondance visuelle manuelle de chaque variante.

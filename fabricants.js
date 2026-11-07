@@ -31,7 +31,8 @@ window.CROCamiManufacturerData = {
     noteFabricant:"Taurine (1 000 mg/kg) et énergie métabolisable (15,4 MJ/kg, soit 3 675 kcal/kg) confirmées sur la fiche officielle Josera. Les oméga-3 sont mentionnés qualitativement, sans quantité chiffrée publiée.",
     compositionComplete:"Protéines de volaille déshydratées 27,5 % (dont poulet 40 %), grains de maïs entier, riz 25 %, pulpe de betterave, graisse de volailles, protéines de volaille hydrolysées, substances minérales, huile de saumon 0,8 %, levure, poudre de chicorée, chair séchée de moule verte de Nouvelle-Zélande.",
     additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 220 mg/kg ; C 200 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; L-carnitine 250 mg/kg ; fer 120 mg/kg ; zinc 140 mg/kg ; manganèse 10 mg/kg ; cuivre 14 mg/kg ; iode 1,6 mg/kg ; sélénium 0,10 mg/kg.",
-    // L’énergie est intégrée dans la note de vérification ci-dessus.
+    ration:"Rations Josera Kids par jour selon le poids adulte estimé et l’âge du chiot : 10 kg — 105–130 g (1,5–2 mois), 140–165 g (3 mois), 150–175 g (4 mois), 160–185 g (5–12 mois) ; 20 kg — 160–185, 225–265, 245–290, 265–310, 270–310 g aux mêmes périodes ; 30 kg — 205–240, 295–345, 325–380, 355–415, 360–425, 360–435 g (jusqu’à 20 mois) ; 40 kg — 255–300, 365–430, 405–475, 440–515, 450–530, 450–475 g ; 60 kg — 265–310, 445–520, 510–600, 575–675, 595–725, 610–645 g ; 80 kg — 330–385, 550–650, 630–745, 715–840, 735–900, 755–800 g.",
+    dateVerificationFabricant:"2026-11-07"
   },
   d04: {
     imageProduit:"https://cdn11.bigcommerce.com/s-iakwzr7rs7/images/stencil/1280x1280/attribute_rule_images/16974_source_1633534467.jpg",
@@ -59,7 +60,8 @@ window.CROCamiManufacturerData = {
     proteines:28, matieresGrasses:12, fibres:3, cendres:7.5, omega3:null, dha:0.05,
     compositionComplete:"Céréales (céréales complètes 46 %), viandes et sous-produits animaux (25 %, dont dinde 4 %), extraits de protéines végétales, huiles et graisses, sous-produits d’origine végétale, légumes (racine de chicorée séchée 1,1 %, pois séchés 0,08 %, carottes séchées 0,08 %), substances minérales.",
     additifs:"Vitamine A 22 600 UI/kg ; vitamine D3 1 300 UI/kg ; vitamine E 100 UI/kg ; fer 93 mg/kg ; iode 2,3 mg/kg ; cuivre 10 mg/kg ; manganèse 7,1 mg/kg ; zinc 130 mg/kg ; sélénium 0,22 mg/kg.",
-    dateVerificationFabricant:"2026-11-06",
+    ration:"Rations fabricant (poids adulte estimé / âge du chiot en mois) : 25 kg — 115–330 g (1,5–3 mois), 330–425 g (3–5), 425–440 g (5–8), 440–365 g (8–12), 365 g/adulte (12–24) ; 35 kg — 205–340, 340–460, 460–545, 545–460, 460–455 g ; 45 kg — 220–335, 335–480, 480–555, 555–505, 505–520 g ; 60 kg — 275–445, 445–595, 595–725, 725–640, 640–635 g ; 70 kg — 305–490, 490–660, 660–805, 805–710, 710–705 g. Chiots <3 mois : 3–4 repas ; 3–6 mois : 3 repas ; 6–12 mois : 2 repas.",
+    dateVerificationFabricant:"2026-11-07",
     noteFabricant:"Fiche officielle Purina vérifiée : protéines 28 %, matières grasses 12 %, cendres 7,5 %, cellulose 3 % et DHA 0,05 %. Macroquette indique une ancienne analyse différente pour les fibres (2 %) et les cendres (7 %) ; les chiffres fabricant actuels sont conservés. Le fabricant ne publie pas l’énergie, calcium, phosphore, magnésium, oméga ni taurine."
   },
   d06: {
@@ -71,7 +73,8 @@ window.CROCamiManufacturerData = {
     proteines:28, matieresGrasses:13, fibres:6.4, cendres:4.9, energie:3477,
     compositionComplete:"Maïs, protéines de volaille déshydratées, blé, fibres végétales, protéines animales hydrolysées, graisses animales, gluten de maïs, gluten de blé, pulpe de betterave, produits de levures, huile de poissons, huile de soja, sels minéraux, téguments et graines de psyllium, fructo-oligosaccharides, levures (source de MOS), huile de bourrache, farine de tagète.",
     additifs:"Vitamine A 21 000 UI/kg ; vitamine D3 1 000 UI/kg ; fer 37 mg/kg ; iode 3,7 mg/kg ; cuivre 11 mg/kg ; manganèse 48 mg/kg ; zinc 135 mg/kg ; sélénium 0,06 mg/kg ; L-carnitine 200 mg/kg ; clinoptilolite 5 g/kg.",
-    dateVerificationFabricant:"2026-11-06",
+    ration:"Rations fabricant pour aliment sec / alimentation mixte : 11 kg 140/119 g (sans exercice), 166/146 g (activité normale), 193/172 g (très actif) ; 15 kg 177/156, 210/189, 243/222 g ; 20 kg 219/199, 260/240, 301/281 g ; 25 kg 259/239, 308/287, 356/336 g.",
+    dateVerificationFabricant:"2026-11-07",
     noteFabricant:"Fiche officielle Royal Canin : protéines 28 %, matières grasses 13 %, cellulose 6,4 %, cendres 4,9 %. Énergie métabolisable 3 477 kcal/kg ajoutée depuis Zooplus pour cette même référence. Macroquette donne 28/13/6/4 ; les écarts sur fibres et cendres sont conservés comme comparaison d’une analyse différente, sans remplacer les valeurs fabricant. Calcium, phosphore, magnésium, oméga et taurine non publiés."
   },
   d07: {
@@ -110,7 +113,9 @@ window.CROCamiManufacturerData = {
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Fiche officielle Josera Light & Vital et fiche technique fabricant 2025 recoupées : protéines 29 %, matières grasses 7,5 %, fibres 7 %, cendres 6,7 %, calcium 1,30 %, phosphore 0,90 %, sodium 0,35 %, magnésium 0,10 %, taurine 1 500 mg/kg et énergie 3 162 kcal/kg. Les oméga ne sont pas publiés en quantité chiffrée.",
     compositionComplete:"Protéines de volaille déshydratées 29 % (dont poulet 40 %), farine de pois, orge complète, lignocellulose, pulpe de betterave, protéines de volaille hydrolysées, graisse de volailles, caroube moulue déshydratée, levure partiellement hydrolysée, substances minérales, fines herbes, fruits, psyllium, chair séchée de moule verte de Nouvelle-Zélande.",
-    additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 400 mg/kg ; C 150 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; L-carnitine 500 mg/kg ; fer 110 mg/kg ; zinc 120 mg/kg ; manganèse 9 mg/kg ; cuivre 12 mg/kg ; iode 1,4 mg/kg ; sélénium 0,10 mg/kg."
+    additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 400 mg/kg ; C 150 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; L-carnitine 500 mg/kg ; fer 110 mg/kg ; zinc 120 mg/kg ; manganèse 9 mg/kg ; cuivre 12 mg/kg ; iode 1,4 mg/kg ; sélénium 0,10 mg/kg.",
+    ration:"Rations Josera Light & Vital pour un chien adulte : 5 kg 100/115 g ; 10 kg 170/195 g ; 20 kg 285/330 g ; 30 kg 385/445 g ; 40 kg 480/555 g ; 60 kg 650/750 g ; 80 kg 805/930 g. Les deux valeurs correspondent à une activité quotidienne allant jusqu’à 1 h / jusqu’à 3 h. Pour la perte de poids, le fabricant recommande de nourrir jusqu’à 30 % de moins que la ration de maintien, idéalement avec avis professionnel.",
+    dateVerificationFabricant:"2026-11-07"
   },
   d10: {
     imageProduit:"https://images.onlinepets.com/product-images/catalog/ogS9mM14IlvbFyti3vR4LrWuuOr7TC-metaMTJrZy13ZWlnaHQtbG9zcy5qcGc%3D-.jpg",
@@ -133,7 +138,9 @@ window.CROCamiManufacturerData = {
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Protéines, matières grasses, fibres, cendres, calcium et phosphore confirmés sur la fiche officielle Pedigree. Énergie métabolisable de 3 530 kcal/kg relevée chez un revendeur pour cette référence ; elle n’est pas affichée sur la page fabricant. La fiche Macroquette consultée présente une ancienne analyse différente (21 % protéines, 13 % matières grasses) : ces chiffres ne sont pas mélangés à la formule officielle actuelle.",
     compositionComplete:"Céréales (dont blé complet 47 %), viandes et sous-produits animaux (dont bœuf 4 %), huiles et graisses, sous-produits d’origine végétale (dont pulpe de betterave déshydratée 3 %), substances minérales, légumes (mélange de petits pois et carottes déshydratés 0,7 %), levure (dont levure de bière 0,4 %).",
-    additifs:"Vitamine B1 9,4 mg/kg ; B2 16 mg/kg ; D3 1 406 UI/kg ; E 100 mg/kg ; biotine 0,22 mg/kg ; cuivre 3,9 mg/kg ; iode 0,98 mg/kg ; manganèse 20,3 mg/kg ; méthionine 1,5 g/kg ; sélénium 0,33 mg/kg ; zinc 57,4 mg/kg ; antioxygènes."
+    additifs:"Vitamine B1 9,4 mg/kg ; B2 16 mg/kg ; D3 1 406 UI/kg ; E 100 mg/kg ; biotine 0,22 mg/kg ; cuivre 3,9 mg/kg ; iode 0,98 mg/kg ; manganèse 20,3 mg/kg ; méthionine 1,5 g/kg ; sélénium 0,33 mg/kg ; zinc 57,4 mg/kg ; antioxygènes.",
+    ration:"Rations journalières recommandées par le fabricant (croquettes seules) : 10 kg 150–170 g ; 20 kg 255–280 g ; 30 kg 350–380 g ; 40 kg 430–475 g ; 50 kg 510–560 g. Le fabricant indique qu’une boîte de 400 g de pâtée peut remplacer 100 g de croquettes.",
+    dateVerificationFabricant:"2026-11-07"
   },
   d12: {
     imageProduit:"https://a.allegroimg.com/original/1107dc/4c2de32247479c03604d7014db35/PURINA-Dog-Chow-Adult-Lamb-2-5kg",
@@ -142,7 +149,10 @@ window.CROCamiManufacturerData = {
     proteines:25, matieresGrasses:12, fibres:3.5, cendres:8, omega3:0.1, omega6:1.8,
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Correction après relecture de la fiche officielle française Purina DOG CHOW Adult à l’agneau : elle publie protéines 25 %, matières grasses 12 %, cellulose 3,5 %, cendres 8 %, oméga-3 0,1 % et oméga-6 1,8 %. Les valeurs 20/10/3 précédemment saisies provenaient d’une mauvaise lecture et sont remplacées. La fiche ne publie pas l’énergie métabolisable, le calcium ni le phosphore.",
-    compositionComplete:"Céréales (céréales complètes 48 %) ; viandes et sous-produits animaux (20 %, dont agneau 4 %) ; extraits de protéines végétales ; huiles et graisses ; sous-produits d’origine végétale ; légumes (1,1 % de racine de chicorée séchée, 0,08 % de pois séchés et 0,08 % de carottes séchées) ; substances minérales."
+    compositionComplete:"Céréales (céréales complètes 48 %) ; viandes et sous-produits animaux (20 %, dont agneau 4 %) ; extraits de protéines végétales ; huiles et graisses ; sous-produits d’origine végétale ; légumes (1,1 % de racine de chicorée séchée, 0,08 % de pois séchés et 0,08 % de carottes séchées) ; substances minérales.",
+    additifs:"Vitamine A 21 000 UI/kg ; vitamine D3 1 200 UI/kg ; vitamine E 100 UI/kg ; fer 87 mg/kg ; iode 2,1 mg/kg ; cuivre 9,6 mg/kg ; manganèse 6,6 mg/kg ; zinc 120 mg/kg ; sélénium 0,21 mg/kg ; antioxydants.",
+    ration:"Rations journalières fabricant, activité normale / activité élevée : 10 kg 180/210 g ; 15 kg 240/275 g ; 20 kg 290/330 g ; 25 kg 335/385 g. Valeurs indicatives à adapter au niveau d’activité et à la condition corporelle.",
+    dateVerificationFabricant:"2026-11-07"
   },
   d13: {
     imageProduit:"https://media.zooplus.com/bilder/4/400/391896_pla_ultima_medium_maxiadult_huhnreis_6kg_hs_01_4.jpg",
@@ -175,7 +185,9 @@ window.CROCamiManufacturerData = {
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Fiche officielle actuelle EUKANUBA Adulte Grandes Races Poulet frais : poulet frais 20 %, poulet et dinde déshydratés 19 % (dont poulet 13 %), protéines 24 %, matières grasses 13 %, fibres 2,4 %, cendres 6,2 %, calcium 1,2 %, phosphore 1 %, oméga-3 0,29 % et oméga-6 2,11 %. La fiche mentionne la taurine naturellement présente dans les protéines animales sans quantité chiffrée. Énergie métabolisable non publiée. Les anciennes valeurs 18 %/18 % et leurs analyses associées sont remplacées car elles correspondent à l’ancienne formulation.",
     compositionComplete:"Poulet frais 20 %, poulet et dinde déshydratés 19 % (dont poulet 13 %, source naturelle de glucosamine, chondroïtine et taurine), maïs, blé, orge, avoine, sorgho, graisse de volaille, pulpe de betterave déshydratée 2,5 %, jus de poulet, gruau de maïs, substances minérales (dont hexamétaphosphate de sodium 0,34 %), fructo-oligosaccharides 0,25 %, œuf entier en poudre, levure de bière déshydratée, glucosamine 0,04 %.",
-    additifs:"Vitamine A 47 360 UI/kg ; C 59 mg/kg ; D3 1 571 UI/kg ; E 263 mg/kg ; bêta-carotène 5,2 mg/kg ; L-carnitine 50 mg/kg ; cuivre 8 mg/kg ; iode 1 mg/kg ; manganèse 3,6 mg/kg ; zinc 89 mg/kg ; sélénium 0,07 mg/kg ; antioxydants naturels, romarin et extrait de thé."
+    additifs:"Vitamine A 47 360 UI/kg ; C 59 mg/kg ; D3 1 571 UI/kg ; E 263 mg/kg ; bêta-carotène 5,2 mg/kg ; L-carnitine 50 mg/kg ; cuivre 8 mg/kg ; iode 1 mg/kg ; manganèse 3,6 mg/kg ; zinc 89 mg/kg ; sélénium 0,07 mg/kg ; antioxydants naturels, romarin et extrait de thé.",
+    ration:"Rations journalières indicatives du fabricant : 25 kg 285–330 g ; 30 kg 325–380 g ; 35 kg 365–425 g ; 40 kg 405–470 g ; 50 kg 480–555 g ; 70 kg 615–715 g ; 90 kg 745–860 g.",
+    dateVerificationFabricant:"2026-11-07"
   },
   d16: {
     imageProduit:"https://www.pets-lifestyle.com/cdn/shop/products/RoyalCaninPetFood_3_75cf7c64-9949-4cee-83f5-eaf4cf81a706.png?v=1755786277",
@@ -185,7 +197,9 @@ window.CROCamiManufacturerData = {
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Protéines, matières grasses, fibres, cendres, énergie (3 916 kcal/kg), composition, additifs et ration confirmés sur la fiche officielle Royal Canin Mini Adult. La page ne publie pas le calcium, le phosphore ni la taurine.",
     compositionComplete:"Farine de blé, protéines de volaille déshydratées, farine de maïs, graisses animales, protéines animales hydrolysées, protéines de porc déshydratées, maïs, orge, blé, gluten de maïs, protéine de pois, substances minérales, pulpe de betterave, huile de soja, produits de levures, fructo-oligosaccharides, huile de poissons, huile d’algues Schizochytrium sp.",
-    additifs:"Vitamine A 15 800 UI/kg ; D3 1 000 UI/kg ; fer 34 mg/kg ; iode 3,4 mg/kg ; cuivre 10,5 mg/kg ; manganèse 44 mg/kg ; zinc 125 mg/kg ; sélénium 0,09 mg/kg ; conservateurs et antioxygènes."
+    additifs:"Vitamine A 15 800 UI/kg ; D3 1 000 UI/kg ; fer 34 mg/kg ; iode 3,4 mg/kg ; cuivre 10,5 mg/kg ; manganèse 44 mg/kg ; zinc 125 mg/kg ; sélénium 0,09 mg/kg ; conservateurs et antioxygènes.",
+    ration:"Rations journalières fabricant pour aliment sec, vie à l’intérieur sans exercice / activité normale / chien très actif : 2 kg 41/47/54 g ; 4 kg 69/80/90 g ; 6 kg 93/108/122 g ; 8 kg 116/134/152 g ; 10 kg 137/158/180 g.",
+    dateVerificationFabricant:"2026-11-07"
   },
   d17: {
     imageProduit:"https://www-leshop-ch-cld-res.cloudinary.com/image/upload/w_1000%2Ch_1000%2Cc_pad%2Cg_center%2Cfl_lossy%2Cb_rgb%3Afff/f_auto/e_unsharp_mask%3A100/q_auto/v2/prod/catalog/product/product-3614577.png",
@@ -206,7 +220,9 @@ window.CROCamiManufacturerData = {
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Josera indique que Miniwell a été renommé Mini Chicken & Rice avec recette identique. La fiche officielle actuelle confirme protéines 27 %, matières grasses 16 %, fibres 2 %, cendres 7,2 %, calcium 1,5 %, phosphore 1,15 %, sodium 0,4 % et énergie 3 872 kcal/kg ; le magnésium 0,1 % provient de la fiche technique précédente. Oméga et taurine chiffrée non publiés.",
     compositionComplete:"Protéines de volaille déshydratées 31 % (dont poulet 40 %), grains de maïs entier, riz 15 %, graisse de volailles, pulpe de betterave, protéines de volaille hydrolysées, substances minérales (tripolyphosphate de sodium 0,35 %), protéines animales hydrolysées, levure, poudre de chicorée.",
-    additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 220 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; fer 110 mg/kg ; zinc 130 mg/kg ; manganèse 9 mg/kg ; cuivre 12 mg/kg ; iode 1,4 mg/kg ; sélénium 0,10 mg/kg."
+    additifs:"Vitamine A 24 000 UI/kg ; D3 1 800 UI/kg ; E 220 mg/kg ; vitamines B1, B2, B6, B12, B5, B3, B9 et biotine ; fer 110 mg/kg ; zinc 130 mg/kg ; manganèse 9 mg/kg ; cuivre 12 mg/kg ; iode 1,4 mg/kg ; sélénium 0,10 mg/kg.",
+    ration:"Rations fabricant Mini Chicken & Rice (ancienne recette Miniwell), pour un chien adulte : 2 kg 40/50 g ; 4 kg 70/80 g ; 6 kg 95/110 g ; 8 kg 115/135 g ; 10 kg 140/160 g. Les colonnes indiquent une activité quotidienne allant jusqu’à 1 h / jusqu’à 3 h.",
+    dateVerificationFabricant:"2026-11-07"
   },
   d18: {
     imageProduit:"https://a2.soysuper.com/2d26dba3224adcefd5d218e1c341a7eb.1200.0.0.0.wmark.7c32ec08.jpg",
@@ -409,7 +425,9 @@ window.CROCamiManufacturerData = {
     dateVerificationFabricant:"2026-11-06",
     noteFabricant:"Valeurs analytiques, humidité, calcium, phosphore, magnésium, oméga-3/6, DHA, EPA, taurine (4 000 mg/kg) et énergie (4 204 kcal/kg) confirmés sur la fiche officielle Farmina N&D Prime Chicken & Pomegranate Adult.",
     compositionComplete:"Poulet désossé 30 %, protéine de poulet déshydratée 28 %, patate douce, graisse de poulet, œuf séché, hareng, protéine de hareng déshydratée, huile de poisson (hareng), fibre de pois, carotte séchée, farine de luzerne, inuline, FOS, extrait de levure (MOS), grenade séchée 0,5 %, pomme séchée, épinard séché, psyllium 0,3 %, orange douce séchée, myrtille séchée, chlorure de sodium, levure de bière séchée, curcuma 0,2 %, extrait d’aloe vera.",
-    additifs:"Vitamine A 18 000 UI/kg ; D3 1 200 UI/kg ; E 600 mg/kg ; C 300 mg/kg ; niacine 150 mg/kg ; pantothénate de calcium 50 mg/kg ; B2 20 mg/kg ; B6 8,1 mg/kg ; B1 10 mg/kg ; biotine 1,5 mg/kg ; acide folique 1,5 mg/kg ; B12 0,1 mg/kg ; choline 2 500 mg/kg ; bêta-carotène 1,5 mg/kg ; zinc 163,8 mg/kg ; manganèse 64,6 mg/kg ; fer 58,3 mg/kg ; cuivre 15,8 mg/kg ; DL-méthionine 5 000 mg/kg ; taurine 4 000 mg/kg ; L-carnitine 300 mg/kg ; extrait de thé vert, romarin et tocophérols."
+    additifs:"Vitamine A 18 000 UI/kg ; D3 1 200 UI/kg ; E 600 mg/kg ; C 300 mg/kg ; niacine 150 mg/kg ; pantothénate de calcium 50 mg/kg ; B2 20 mg/kg ; B6 8,1 mg/kg ; B1 10 mg/kg ; biotine 1,5 mg/kg ; acide folique 1,5 mg/kg ; B12 0,1 mg/kg ; choline 2 500 mg/kg ; bêta-carotène 1,5 mg/kg ; zinc 163,8 mg/kg ; manganèse 64,6 mg/kg ; fer 58,3 mg/kg ; cuivre 15,8 mg/kg ; DL-méthionine 5 000 mg/kg ; taurine 4 000 mg/kg ; L-carnitine 300 mg/kg ; extrait de thé vert, romarin et tocophérols.",
+    ration:"Table fabricant Farmina N&D Prime poulet & grenade, quantité journalière de croquettes : poids du chat 2 kg 22–36 g ; 2,5 kg 25–42 g ; 3 kg 28–48 g ; 3,5 kg 32–52 g ; 4 kg 35–58 g ; 4,5 kg 38–62 g ; 5 kg 40–66 g ; 5,5 kg 42–70 g ; 6 kg 45–75 g ; 6,5 kg 48–80 g.",
+    dateVerificationFabricant:"2026-11-07"
   },
   c17: {
     imageProduit:"https://media.farmaciatei.ro/gallery/121297/medium_2x/hrana-uscata-cu-pui-pentru-pisici-2-kg-applaws-1432.jpg",
