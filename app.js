@@ -157,11 +157,11 @@ function setAnimal(v){animal=v;tabs.forEach(t=>t.classList.toggle("active",t.dat
  selected.clear();render();}
 function normalizeSearchText(value){return String(value??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLocaleLowerCase("fr").trim();}
 function filtered(){
- const query=normalizeSearchText($("#search").value).split(/\s+/).filter(Boolean),age=$("#age").value,need=$("#need").value,size=$("#size").value,brand=$("#brand")?.value||"",sort=$("#sortBy")?.value||"note-desc",maxKg=Number($("#maxPriceKg")?.value)||null,minScore=Number($("#minScore")?.value)||null,quality=$("#dataQuality")?.value||"";
+ const query=normalizeSearchText($("#search").value).split(/\s+/).filter(Boolean),age=$("#age").value,need=$("#need").value,size=$("#size").value,brand=$("#brand")?.value||"",sort=$("#sortBy")?.value||"note-desc",maxKg=Number($("#maxPriceKg")?.value)||null,minScore=Number($("#minScore")?.value)||null;
  const score=p=>globalNutritionScore(p).score;
  const rows=data.filter(p=>{
   const searchable=normalizeSearchText([p.marque,p.recette,p.premierIngredient,(p.besoins||[]).join(" "),p.composition||"",p.compositionComplete||"",p.descriptionFabricant||""].join(" "));
-  return p.espece===animal&&query.every(term=>searchable.includes(term))&&(!age||p.age===age)&&(!need||(p.besoins||[]).includes(need))&&(!size||p.gabarit==="Toutes"||(p.gabarit||"").split("|").includes(size))&&(!brand||p.marque===brand)&&(!maxKg||(p.prixKg!=null&&p.prixKg<=maxKg))&&(!minScore||(score(p)!=null&&score(p)>=minScore))&&(!quality||(quality==="prix"?p.prixKg!=null:quality==="note"?score(p)!=null:quality==="fabricant"?!!p.sourceFabricant:false));
+  return p.espece===animal&&query.every(term=>searchable.includes(term))&&(!age||p.age===age)&&(!need||(p.besoins||[]).includes(need))&&(!size||p.gabarit==="Toutes"||(p.gabarit||"").split("|").includes(size))&&(!brand||p.marque===brand)&&(!maxKg||(p.prixKg!=null&&p.prixKg<=maxKg))&&(!minScore||(score(p)!=null&&score(p)>=minScore));
  });
  const keys={"prix-asc":p=>p.prixSac,"prix-desc":p=>p.prixSac,"kg-asc":p=>p.prixKg,"kg-desc":p=>p.prixKg,"note-desc":score,"note-asc":score,"marque":p=>p.marque};
  const key=keys[sort];if(key)rows.sort((x,y)=>{const a=key(x),b=key(y);if(a==null&&b==null)return 0;if(a==null)return 1;if(b==null)return -1;const cmp=typeof a==="string"?a.localeCompare(b,"fr"):a-b;return sort.endsWith("desc")?-cmp:cmp;});
@@ -298,8 +298,8 @@ function renderCompare(){
 }
 tabs.forEach(t=>t.addEventListener("click",()=>setAnimal(t.dataset.animal)));
 $("#searchBtn").addEventListener("click",render);$("#search").addEventListener("input",render);$("#search").addEventListener("keydown",e=>{if(e.key==="Enter")render();});
-Array.from(document.querySelectorAll(".filter-row select, #sortBy, #maxPriceKg, #minScore, #dataQuality")).forEach(s=>s.addEventListener("change",render));
-$("#resetFilters")?.addEventListener("click",()=>{$("#search").value="";["age","size","brand","need","sortBy","maxPriceKg","minScore","dataQuality"].forEach(id=>{const el=$("#"+id);if(el)el.value=id==="sortBy"?"note-desc":"";});render();});
+Array.from(document.querySelectorAll(".filter-row select, #sortBy, #maxPriceKg, #minScore")).forEach(s=>s.addEventListener("change",render));
+$("#resetFilters")?.addEventListener("click",()=>{$("#search").value="";["age","size","brand","need","sortBy","maxPriceKg","minScore"].forEach(id=>{const el=$("#"+id);if(el)el.value=id==="sortBy"?"note-desc":"";});render();});
 $$("[data-jump-animal]").forEach(a=>a.addEventListener("click",()=>setAnimal(a.dataset.jumpAnimal)));
 const brands=[...new Set(data.map(p=>p.marque))].sort();$("#brand").innerHTML='<option value="">Toutes les marques</option>'+brands.map(b=>'<option>'+b+'</option>').join("");
 const needs=[...new Set(data.flatMap(p=>p.besoins||[]))].sort((a,b)=>a.localeCompare(b,"fr"));$("#need").innerHTML='<option value="">Tous les besoins</option>'+needs.map(n=>'<option>'+n+'</option>').join("");
