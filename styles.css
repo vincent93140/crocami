@@ -696,3 +696,25 @@ footer .brand img{display:block!important;width:100px!important;height:83px!impo
 .advisor-cautions{color:#536d84}
 .advisor-match{border-color:#dce9f4}
 .advisor-disclaimer,.advisor-empty{background:#f2f7fc;border-color:#dce9f4;color:#536d84}
+
+
+/* Contraste du libellé d'ouverture de fiche au survol du sac */
+.product-card .product-image-link .image-open-hint{
+  display:block!important;
+  color:#fff!important;
+  background:rgba(24,54,83,.94)!important;
+  font-size:10px!important;
+  line-height:1.25!important;
+  font-weight:800!important;
+  text-shadow:none!important;
+  z-index:4!important;
+  opacity:0;
+  visibility:hidden;
+  padding:7px 4px!important;
+  border:1px solid rgba(255,255,255,.35);
+}
+.product-card .product-image-link:hover .image-open-hint,
+.product-card .product-image-link:focus-visible .image-open-hint{
+  opacity:1;
+  visibility:visible;
+}
