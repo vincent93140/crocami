@@ -63,18 +63,6 @@ function globalNutritionScore(p){
 function scoreStackMarkup(p){
  return '<div class="score-stack">'+scoreBubbleMarkup(p)+'</div>';
 }
-function macroquetteScoreMarkup(p){
- if(p.scoreMacroquette!=null){
-  const link=p.sourceMacroquette?'<a href="'+p.sourceMacroquette+'" target="_blank" rel="noopener">Voir la fiche Macroquette</a>':"";
-  const date=p.dateScoreMacroquette?' Relevée le '+p.dateScoreMacroquette.split("-").reverse().join("/")+'.':"";
-  const warning=p.noteMacroquetteAvertissement?'<p class="external-score-warning">'+p.noteMacroquetteAvertissement+'</p>':"";
-  return '<div class="external-score-card"><div><span>NOTE EXTERNE · MACROQUETTE</span><b>'+fmt(p.scoreMacroquette)+' /100</b></div><div class="external-score-copy"><small>Note moyenne publiée sur la fiche Macroquette; elle peut différer de la note obtenue avec leur outil personnalisé.'+date+' '+link+'</small>'+warning+'</div></div>';
- }
- if(p.noteMacroquetteStatut){
-  return '<div class="external-score-card missing"><div><span>NOTE EXTERNE · MACROQUETTE</span><b>Non disponible</b></div><small>'+p.noteMacroquetteStatut+'</small></div>';
- }
- return "";
-}
 function globalScoreMarkup(p,compact=false){
  const a=globalNutritionScore(p),cls=a.score==null?"missing":a.score>=80?"good":a.score>=60?"medium":"watch",score=a.score==null?"—":a.score;
  if(compact)return '<div class="global-score-card '+cls+'"><div class="global-score-number"><strong>'+score+'</strong><span>/100</span></div><div class="global-score-copy"><b>Note Crocami</b><small>Couverture des critères : '+a.confidence+' % · fiabilité '+a.reliability.toLowerCase()+'</small></div></div>';
@@ -275,7 +263,6 @@ function renderCompare(){
  $("#comparison").hidden=ps.length<2;
  const comparisonRows=[
   {label:"Note Crocami",value:p=>globalNutritionScore(p).score,display:p=>{const n=globalNutritionScore(p);return n.score==null?"Données insuffisantes":n.score+"/100 · couverture "+n.confidence+" %";},better:"high"},
-  {label:"Note Macroquette (externe)",value:p=>p.scoreMacroquette,display:p=>p.scoreMacroquette==null?"Non disponible":fmt(p.scoreMacroquette)+"/100",better:"high"},
   {label:"RPC (énergie fabricant ou Macroquette)",value:p=>p.energie>0&&p.proteines!=null?p.proteines*10000/p.energie:(p.rpcMacroquette>0?p.rpcMacroquette:null),display:p=>p.energie>0&&p.proteines!=null?fmtRatio(p.proteines*10000/p.energie)+" g/Mcal":p.rpcMacroquette>0?fmtRatio(p.rpcMacroquette)+" g/Mcal (Macroquette)":"Non communiqué",better:"high"},
   {label:"Prix du sac",value:p=>p.prixSac,display:p=>p.prixSac==null?"Non communiqué":fmt(p.prixSac)+" €",better:"low"},
   {label:"Format",value:p=>p.formatKg,display:p=>p.formatKg==null?"Non communiqué":fmt(p.formatKg)+" kg",better:"neutral"},
