@@ -130,7 +130,58 @@ function globalScoreMarkup(p,compact=false){
  if(compact)return `<div class="audit-summary ${cls}"><b>${label}</b><span>${a.good} repères satisfaisants · ${a.bad} à surveiller · ${a.missing} données manquantes</span></div>`;
  return `<section class="nutrition-audit"><div class="audit-heading"><div><b>Analyse nutritionnelle Crocami</b><small>Comparaison indicative à des repères de lecture, pas un diagnostic vétérinaire.</small></div><strong class="audit-status ${cls}">${label}</strong></div><div class="audit-list">${a.rows.map(x=>`<div class="audit-row"><div class="audit-row-main"><b>${x.name}</b><span class="audit-value ${x.status}">${x.value==null?"Donnée manquante":(x.unit==="ratio"?fmtRatio(x.value):x.value)+" "+x.unit}</span></div><small>Repère : ${x.reference}</small><p>${x.detail}</p><em class="audit-tag ${x.status}">${x.status==="good"?"SATISFAISANT":x.status==="bad"?"NON SATISFAISANT":x.status==="watch"?"À SURVEILLER":x.status==="info"?"INDICATEUR À INTERPRÉTER":"DONNÉE MANQUANTE"}</em></div>`).join("")}</div><p class="audit-foot">Calculs établis uniquement à partir des données disponibles sur cette fiche. Les repères Crocami sont comparatifs et non diagnostiques; ils ne reproduisent pas l’algorithme Macroquette. Les besoins réels varient selon le poids, l’activité, l’état physiologique et la santé du chien.</p></section>`;
 }
-function setAnimal(v){animal=v;tabs.forEach(t=>t.classList.toggle("active",t.dataset.animal===v));$("#resultsTitle").textContent=v==="chien"?"Les croquettes pour chien":"Les croquettes pour chat";$("#search").placeholder=v==="chien"?"Ex. : saumon, digestion sensible, marque…":"Ex. : chat stérilisé, saumon, digestion…";
+
+function initNutritionAdvisor(){
+ const animalButtons=$("[data-advisor-animal]");
+ const needSelect=$("#advisorNeed");
+ let advisorAnimal="chien";
+ function updateAdvisorNeeds(){
+  const needs=[...new Set(data.filter(p=>p.espece===advisorAnimal).flatMap(p=>p.besoins||[]))].sort((a,b)=>a.localeCompare(b,"fr"));
+  needSelect.innerHTML='<option value="">Aucun besoin particulier</option>'+needs.map(n=>'<option value="'+escapeProductText(n)+'">'+escapeProductText(n)+'</option>').join("");
+  animalButtons.forEach(b=>b.classList.toggle("active",b.dataset.advisorAnimal===advisorAnimal));
+ }
+ function recommend(){
+  const age=$("#advisorAge").value,weight=Number($("#advisorWeight").value)||null,sterilized=$("#advisorSterilized").value,activity=$("#advisorActivity").value,need=$("#advisorNeed").value,budget=Number($("#advisorBudget").value)||null;
+  const candidates=data.filter(p=>p.espece===advisorAnimal);
+  const ranked=candidates.map(p=>{
+   const n=globalNutritionScore(p),reasons=[],cautions=[];
+   let fit=0;
+   if(p.age===age){fit+=28;reasons.push("âge correspondant");}
+   else if(p.age==="Adulte"&&age==="Senior"){fit+=8;cautions.push("recette adulte, pas spécifiquement senior");}
+   else{fit-=35;cautions.push("stade de vie différent");}
+   if(need){
+    if((p.besoins||[]).includes(need)){fit+=25;reasons.push("besoin « "+need.toLowerCase()+" » pris en compte");}
+    else{fit-=14;cautions.push("besoin principal non ciblé");}
+   }
+   if(weight&&advisorAnimal==="chien"){
+    const size=weight<10?"Petite":weight<25?"Moyenne":weight<45?"Grande":"Géante";
+    if(p.gabarit==="Toutes"||(p.gabarit||"").split("|").includes(size)){fit+=12;reasons.push("gabarit compatible");}
+    else{fit-=12;cautions.push("gabarit non ciblé par la recette");}
+   }
+   if(sterilized==="oui"){
+    if((p.besoins||[]).includes("Stérilisé")){fit+=14;reasons.push("recette indiquée pour animal stérilisé");}
+    else{fit-=5;cautions.push("pas spécifiquement formulée pour la stérilisation");}
+   }
+   if(activity==="active"&&/Energy|Sport|Active|Performance/i.test(p.recette)){fit+=8;reasons.push("recette orientée activité");}
+   if(activity==="calm"&&(p.besoins||[]).some(x=>/poids|light|stérilisé/i.test(x))){fit+=7;reasons.push("profil pouvant convenir à une activité réduite");}
+   if(budget){
+    if(p.prixKg!=null&&p.prixKg<=budget){fit+=10;reasons.push("dans votre budget");}
+    else if(p.prixKg!=null){fit-=16;cautions.push("au-dessus du budget indiqué");}
+    else cautions.push("prix au kilo indisponible");
+   }
+   const total=Math.max(0,Math.min(100,Math.round((n.score??50)*0.65+Math.max(0,Math.min(100,50+fit))*0.35)));
+   return {p,n,total,reasons,cautions};
+  }).filter(x=>x.total>=35).sort((a,b)=>b.total-a.total||(b.n.score??0)-(a.n.score??0));
+  const results=$("#advisorResults");results.hidden=false;
+  if(!ranked.length){results.innerHTML='<div class="advisor-empty"><b>Aucune recette suffisamment proche de ce profil.</b><p>Essayez d’élargir le budget ou de retirer le besoin principal. Le catalogue ne contient peut-être pas encore la recette recherchée.</p></div>';return;}
+  const html=ranked.slice(0,5).map((x,i)=>'<article class="advisor-result-card"><div class="advisor-result-rank">#'+(i+1)+'</div><div class="advisor-result-main"><p class="advisor-result-brand">'+escapeProductText(x.p.marque)+'</p><h3>'+escapeProductText(x.p.recette)+'</h3><div class="advisor-result-meta">'+(x.p.prixKg!=null?fmt(x.p.prixKg)+' €/kg':'Prix non communiqué')+' · '+(x.n.score!=null?'Note Crocami '+x.n.score+'/100':'Note non calculable')+' · couverture '+x.n.confidence+' %</div><p class="advisor-reasons">'+(x.reasons.length?x.reasons.map(escapeProductText).join(' · '):'Correspondance générale avec le profil')+'</p>'+(x.cautions.length?'<p class="advisor-cautions">À vérifier : '+x.cautions.map(escapeProductText).join(' · ')+'</p>':'')+'<a href="#produit/'+encodeURIComponent(x.p.id)+'">Voir la fiche complète →</a></div><div class="advisor-match"><strong>'+x.total+'</strong><span>correspondance</span></div></article>').join("");
+  results.innerHTML='<div class="advisor-results-heading"><div><p class="eyebrow">VOTRE SÉLECTION</p><h3>Les recettes les plus proches de son profil</h3></div><span>'+Math.min(5,ranked.length)+' suggestions sur '+candidates.length+' références</span></div>'+html+'<p class="advisor-disclaimer">Cette sélection est une aide au tri, pas une prescription vétérinaire. Le poids seul ne permet pas d’évaluer l’état corporel. En cas de maladie, allergie suspectée, surpoids important ou régime thérapeutique, demandez conseil à votre vétérinaire. Une recette avec peu de données disponibles peut être moins bien classée sans être nécessairement de moins bonne qualité.</p>';
+ }
+ animalButtons.forEach(b=>b.addEventListener("click",()=>{advisorAnimal=b.dataset.advisorAnimal;updateAdvisorNeeds();$("#advisorResults").hidden=true;}));
+ $("#advisorSubmit").addEventListener("click",recommend);
+ updateAdvisorNeeds();
+}
+\nfunction setAnimal(v){animal=v;tabs.forEach(t=>t.classList.toggle("active",t.dataset.animal===v));$("#resultsTitle").textContent=v==="chien"?"Les croquettes pour chien":"Les croquettes pour chat";$("#search").placeholder=v==="chien"?"Ex. : saumon, digestion sensible, marque…":"Ex. : chat stérilisé, saumon, digestion…";
  if(v==="chat"){$("#size").innerHTML='<option value="">Tous les gabarits</option><option value="Toutes">Toutes les tailles</option>';$("#sizeField").querySelector("span")?.remove();$("#sizeHelp").textContent="Les gabarits sont peu discriminants chez le chat ; privilégiez âge et besoins.";}
  else{$("#size").innerHTML='<option value="">Toutes les tailles</option><option value="Petite">Petit</option><option value="Moyenne">Moyen</option><option value="Grande">Grand</option><option value="Géante">Géant</option>';$("#sizeHelp").textContent="Repère basé sur le poids adulte idéal.";}
  selected.clear();render();}
