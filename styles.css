@@ -151,10 +151,9 @@
  .result-count{font-size:11px}
 }
 
-/* Notes comparées : la bulle reste dédiée à Crocami, la note Macroquette est une référence externe. */
+/* La bulle de chaque carte affiche uniquement la note Crocami et sa couverture. */
 .score-stack{flex:0 0 62px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-width:62px}
 .score-stack .score-bubble{position:static;flex:0 0 54px;width:54px;height:54px;margin:0}
-.external-score-mini{display:block;font:700 8px/1.2 "DM Sans",sans-serif;color:#777d72;text-align:center;white-space:nowrap}
 .score-coverage-mini{display:block;max-width:74px;font:700 7px/1.15 "DM Sans",sans-serif;color:#536d84;text-align:center;white-space:normal}
 .external-score-card{margin:14px 0 10px;padding:12px 14px;border:1px solid #e5e5dc;border-radius:10px;background:#fbfaf6;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .external-score-card>div{display:flex;flex-direction:column;gap:4px;flex:0 0 auto}

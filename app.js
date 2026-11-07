@@ -61,7 +61,7 @@ function globalNutritionScore(p){
  return '<div class="score-bubble" style="--score-color:'+background+'" role="img" aria-label="Note Crocami '+(score==null?"non calculable":score+" sur 100")+' · couverture '+n.confidence+' % · fiabilité '+n.reliability+'" title="Note Crocami : '+(score==null?"non calculable":score+"/100")+' · Couverture : '+n.confidence+' % · Fiabilité : '+n.reliability+'"><strong>'+(score==null?"—":score)+'</strong><small>/100</small></div><small class="score-coverage-mini">'+n.confidence+' % de couverture</small>';
 }
 function scoreStackMarkup(p){
- return '<div class="score-stack">'+scoreBubbleMarkup(p)+(p.scoreMacroquette!=null?'<small class="external-score-mini">Macroquette '+fmt(p.scoreMacroquette)+'/100</small>':"")+'</div>';
+ return '<div class="score-stack">'+scoreBubbleMarkup(p)+'</div>';
 }
 function macroquetteScoreMarkup(p){
  if(p.scoreMacroquette!=null){
