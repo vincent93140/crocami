@@ -679,3 +679,20 @@ footer .brand img{display:block!important;width:100px!important;height:83px!impo
 .compare-product-head .compare-recipe{display:inline-block;white-space:normal;line-height:1.4;color:#536d84;margin:4px 0 8px}
 .compare-product-head button{display:block;margin:5px auto 0}
 @media(max-width:700px){.comparison-scroll th.compare-product-head{min-width:150px}.compare-product-pack{height:112px}}
+
+
+/* Harmonisation visuelle du conseiller nutritionnel */
+.advisor-section{color:#183653}
+.advisor-heading h2 em{color:#1266ad}
+.advisor-panel,.advisor-result-card{background:#fffdf8;border-color:#cbddec;box-shadow:0 8px 24px rgba(24,54,83,.06)}
+.advisor-animal{background:#f2f7fc;border-color:#cbddec;color:#183653}
+.advisor-animal.active{background:#1266ad;border-color:#1266ad;color:#fff}
+.advisor-fields label{color:#183653}
+.advisor-fields select,.advisor-fields input{background:#fff;border-color:#cbddec;color:#183653}
+.advisor-actions button{background:#f39a24;color:#183653}
+.advisor-result-rank{background:#dcecf9;color:#1266ad}
+.advisor-result-brand,.advisor-result-main>a,.advisor-match strong{color:#1266ad}
+.advisor-reasons{color:#1266ad}
+.advisor-cautions{color:#536d84}
+.advisor-match{border-color:#dce9f4}
+.advisor-disclaimer,.advisor-empty{background:#f2f7fc;border-color:#dce9f4;color:#536d84}
