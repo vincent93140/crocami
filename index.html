@@ -30,7 +30,26 @@
       <div class="intro-pets"><span>🐶</span><span>🐱</span></div>
     </section>
 
-<section id="productDetail" class="product-detail-page" hidden aria-live="polite"></section>
+<section class="advisor-section" id="conseiller">
+  <div class="advisor-heading"><div><p class="eyebrow">LE CONSEILLER CROCAMI</p><h2>Trouvez les croquettes<br><em>adaptées à votre compagnon.</em></h2></div><p>Décrivez votre animal : Crocami recherche dans le catalogue les recettes qui correspondent le mieux à son profil et explique ses recommandations.</p></div>
+  <div class="advisor-panel">
+    <div class="advisor-animal-choice" role="group" aria-label="Espèce">
+      <button type="button" class="advisor-animal active" data-advisor-animal="chien">🐶 Chien</button>
+      <button type="button" class="advisor-animal" data-advisor-animal="chat">🐱 Chat</button>
+    </div>
+    <div class="advisor-fields">
+      <label>Âge de votre animal<select id="advisorAge"><option value="Adulte">Adulte</option><option value="Junior">Chiot / chaton</option><option value="Senior">Senior</option></select></label>
+      <label>Poids actuel (kg)<input id="advisorWeight" type="number" min="0.2" max="150" step="0.1" placeholder="Ex. : 12"></label>
+      <label>Stérilisation<select id="advisorSterilized"><option value="">Indifférent / non précisé</option><option value="oui">Stérilisé</option><option value="non">Non stérilisé</option></select></label>
+      <label>Activité<select id="advisorActivity"><option value="">Activité normale</option><option value="active">Très actif</option><option value="calm">Peu actif</option></select></label>
+      <label>Besoin principal<select id="advisorNeed"><option value="">Aucun besoin particulier</option></select></label>
+      <label>Budget maximum au kg (€)<input id="advisorBudget" type="number" min="0" step="0.10" placeholder="Ex. : 8,50"></label>
+    </div>
+    <div class="advisor-actions"><p>Les recommandations sont établies à partir des données disponibles, de la note Crocami et de la correspondance avec le profil renseigné.</p><button type="button" id="advisorSubmit">Trouver les croquettes adaptées <span>→</span></button></div>
+  </div>
+  <div id="advisorResults" class="advisor-results" aria-live="polite" hidden></div>
+</section>
+\n<section id="productDetail" class="product-detail-page" hidden aria-live="polite"></section>
           <section class="search-section" id="comparateur">
       <div class="section-heading"><div><p class="eyebrow">MAINTENANT, PLACE AU COMPARATEUR</p><h2>Trouvons la recette<br><em>adaptée à son profil.</em></h2></div><p>Indiquez quelques informations sur votre compagnon. Les résultats devront ensuite être comparés selon ses besoins, pas uniquement selon le marketing des emballages.</p></div>
       <div class="finder">
