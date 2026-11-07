@@ -1011,6 +1011,7 @@ for (const product of window.CROCamiCatalog) {
  product.verificationFabricant = "formule_actuelle_différente";
  product.dateVerificationFabricant = "2026-11-07";
  product.statutDonnees = "Données de la formule actuelle relevées sur la source fabricant ou revendeur liée et structurées séparément. La recette historique du catalogue reste inchangée; les valeurs actuelles ne participent pas à sa note ni à son RPC. Les champs non publiés restent non renseignés.";
+ if (product.id === "mq-dog-075") product.sourceFabricant = "https://www.real-nature.com/fr-lu/produits/p/real-nature-real-nature-wilderness-black-earth-adult-b%C5%93uf%2C-autruche-et-buffle-chien-nourriture-s%C3%A8che";
 }
 /* La taurine d’Applaws ci-dessous provient du revendeur de l’ancienne recette, pas de la formule actuelle du fabricant. */
 const crocamiVerifiedHistoricalRetailerComplements20261107 = {"mq-cat-022": {taurine:2000}};
