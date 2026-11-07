@@ -2,7 +2,7 @@ const tabs=[...document.querySelectorAll(".animal-tab")];let animal="chien";let 
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const data=window.CROCamiCatalog||[];
 const yearNode=$("#year");if(yearNode)yearNode.textContent=new Date().getFullYear();
-const fmt=n=>{if(n==null)return "Non communiqué";const value=typeof n==="number"?n:Number(String(n).trim().replace(/\\s/g,"").replace(",", "."));return Number.isFinite(value)?new Intl.NumberFormat("fr-FR",{maximumFractionDigits:2,useGrouping:false}).format(value):String(n).replace(".",",");};
+const fmt=n=>{if(n==null)return "Non communiqué";const value=typeof n==="number"?n:Number(String(n).trim().replace(/\s/g,"").replace(",", "."));return Number.isFinite(value)?new Intl.NumberFormat("fr-FR",{maximumFractionDigits:2,useGrouping:false}).format(value):String(n).replace(".",",");};
 const fmtRatio=n=>n==null?"Non communiqué":new Intl.NumberFormat("fr-FR",{maximumFractionDigits:2,useGrouping:false}).format(Number(n));
 function extractTaurine(p){
  if(p.taurine!=null)return p.taurine;
@@ -58,7 +58,7 @@ function globalNutritionScore(p){
 }function scoreBubbleMarkup(p){
  const n=globalNutritionScore(p),score=n.score;
  const hue=score==null?0:Math.round(score*1.2),background=score==null?"#85877f":`hsl(${hue} 68% 42%)`;
- return '<div class="score-bubble" style="--score-color:'+background+'" title="Note nutritionnelle Crocami : '+(score==null?"non calculable":score+"/100")+' · Fiabilité : '+n.reliability+'"><strong>'+(score==null?"—":score)+'</strong><small>/100</small></div>';
+ return '<div class="score-bubble" style="--score-color:'+background+'" role="img" aria-label="Note Crocami '+(score==null?"non calculable":score+" sur 100")+' · couverture '+n.confidence+' % · fiabilité '+n.reliability+'" title="Note Crocami : '+(score==null?"non calculable":score+"/100")+' · Couverture : '+n.confidence+' % · Fiabilité : '+n.reliability+'"><strong>'+(score==null?"—":score)+'</strong><small>/100</small></div><small class="score-coverage-mini">'+n.confidence+' % de couverture</small>';
 }
 function scoreStackMarkup(p){
  return '<div class="score-stack">'+scoreBubbleMarkup(p)+(p.scoreMacroquette!=null?'<small class="external-score-mini">Macroquette '+fmt(p.scoreMacroquette)+'/100</small>':"")+'</div>';
@@ -167,9 +167,9 @@ function setAnimal(v){animal=v;tabs.forEach(t=>t.classList.toggle("active",t.dat
  if(v==="chat"){$("#size").innerHTML='<option value="">Tous les gabarits</option><option value="Toutes">Toutes les tailles</option>';$("#sizeField").querySelector("span")?.remove();$("#sizeHelp").textContent="Les gabarits sont peu discriminants chez le chat ; privilégiez âge et besoins.";}
  else{$("#size").innerHTML='<option value="">Toutes les tailles</option><option value="Petite">Petit</option><option value="Moyenne">Moyen</option><option value="Grande">Grand</option><option value="Géante">Géant</option>';$("#sizeHelp").textContent="Repère basé sur le poids adulte idéal.";}
  selected.clear();render();}
-function normalizeSearchText(value){return String(value??"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLocaleLowerCase("fr").trim();}
+function normalizeSearchText(value){return String(value??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLocaleLowerCase("fr").trim();}
 function filtered(){
- const query=normalizeSearchText($("#search").value).split(/\\s+/).filter(Boolean),age=$("#age").value,need=$("#need").value,size=$("#size").value,brand=$("#brand")?.value||"",sort=$("#sortBy")?.value||"note-desc",maxKg=Number($("#maxPriceKg")?.value)||null,minScore=Number($("#minScore")?.value)||null,quality=$("#dataQuality")?.value||"";
+ const query=normalizeSearchText($("#search").value).split(/\s+/).filter(Boolean),age=$("#age").value,need=$("#need").value,size=$("#size").value,brand=$("#brand")?.value||"",sort=$("#sortBy")?.value||"note-desc",maxKg=Number($("#maxPriceKg")?.value)||null,minScore=Number($("#minScore")?.value)||null,quality=$("#dataQuality")?.value||"";
  const score=p=>globalNutritionScore(p).score;
  const rows=data.filter(p=>{
   const searchable=normalizeSearchText([p.marque,p.recette,p.premierIngredient,(p.besoins||[]).join(" "),p.composition||"",p.compositionComplete||"",p.descriptionFabricant||""].join(" "));
