@@ -316,5 +316,4 @@ const brands=[...new Set(data.map(p=>p.marque))].sort();$("#brand").innerHTML='<
 const needs=[...new Set(data.flatMap(p=>p.besoins||[]))].sort((a,b)=>a.localeCompare(b,"fr"));$("#need").innerHTML='<option value="">Tous les besoins</option>'+needs.map(n=>'<option>'+n+'</option>').join("");
 $("#clearCompare")?.addEventListener("click",()=>{selected.clear();render();});
 render();
-initNutritionAdvisor();
 routeProductDetail();
