@@ -630,3 +630,10 @@ footer .brand img{display:block!important;width:120px!important;height:72px!impo
 
 /* Marque et nom du produit ouvrent la fiche complète */
 .product-name-link{display:block;color:inherit;text-decoration:none;cursor:pointer}.product-name-link:hover .product-brand,.product-name-link:focus-visible .product-brand,.product-name-link:hover h3,.product-name-link:focus-visible h3{text-decoration:underline;text-underline-offset:3px}.product-name-link:focus-visible{outline:2px solid var(--green);outline-offset:4px;border-radius:3px}
+
+
+/* Correctif final du logo : respecter le ratio natif du fichier 100 × 83 px */
+.topbar .brand{display:flex!important;align-items:center!important;justify-content:flex-start!important;flex:0 0 116px!important;width:116px!important;min-width:116px!important;height:100%!important;overflow:visible!important}
+.topbar .brand img{display:block!important;width:100px!important;height:78px!important;max-width:100px!important;max-height:78px!important;object-fit:contain!important;object-position:left center!important;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important;image-rendering:auto!important}
+footer .brand img{display:block!important;width:100px!important;height:83px!important;max-width:100px!important;max-height:83px!important;object-fit:contain!important;object-position:center!important;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important}
+@media(max-width:700px){.topbar .brand{flex-basis:88px!important;width:88px!important;min-width:88px!important}.topbar .brand img{width:78px!important;height:66px!important;max-width:78px!important;max-height:66px!important}}
