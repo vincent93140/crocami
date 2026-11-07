@@ -947,9 +947,9 @@ const crocamiCurrentManufacturerSheets20261106 = {
  "mq-dog-003": {formule:"1st Choice Contrôle du poids — formule actuelle",proteines:24,matieresGrasses:9,energie:3275,calciumMinimum:1.1,phosphoreMinimum:0.8},
  "mq-dog-004": {formule:"1st Choice Adulte Moyennes et Grandes races — formule actuelle",proteines:24,matieresGrasses:14,energie:3495,calciumMinimum:1,phosphoreMinimum:0.75},
  "mq-dog-007": {formule:"ACANA Classics Red Meat — formule actuelle",proteines:27,matieresGrasses:16,fibres:5,cendres:8,humidite:12,calcium:1.6,phosphore:1.1,omega3:0.3,omega6:2.2,energie:3425},
- "mq-dog-008": {formule:"ACANA Adult Dog Recipe — formule actuelle",proteines:29,matieresGrasses:17,fibres:5,cendres:7,humidite:12,calcium:1.3,phosphore:1,omega3:1,omega6:2.6,energie:3510},
+ "mq-dog-008": {formule:"ACANA Adult Dog Recipe — formule actuelle",proteines:29,matieresGrasses:17,fibres:5,cendres:7,humidite:12,calcium:1.3,phosphore:1,omega3:1,omega6:2.6,energie:3510,composition:"Poulet frais (14 %), poulet déshydraté (14 %), lentilles rouges entières, pois entiers, lentilles vertes, pois chiches, lentilles jaunes, fibres de pois, gras de poulet (3 %), abats de poulet frais (foie, cœur) (3 %), hareng déshydraté (3 %), huile de poisson (3 %), œufs (3 %), plie crue (3 %), foie de dinde cru (1 %), varech séché, citrouille, courge, carottes, pommes, poires, courgettes, chicorée, chou frisé, épinards, feuilles de navet, betteraves, canneberges, myrtilles, curcuma, chardon-marie, lavande, guimauve et églantier.",additifs:"Chlorure de choline 700 mg/kg ; zinc 75 mg/kg ; cuivre 11 mg/kg ; vitamine B1 25 mg/kg ; B5 8 mg/kg ; B6 7,5 mg/kg ; vitamine A 1 875 UI/kg ; D3 250 UI/kg ; E 115 UI/kg. Antioxydants naturels."},
  "mq-dog-009": {formule:"ACANA Adult Large Breed — formule actuelle",proteines:31,matieresGrasses:15,fibres:6,cendres:7,humidite:12,calcium:1.4,phosphore:1.1,omega3:1.2,omega6:2.4,energie:3375},
- "mq-dog-010": {formule:"ACANA Light & Fit — formule actuelle",proteines:35,matieresGrasses:11,fibres:8,cendres:7,humidite:12,calcium:1.7,phosphore:1.1,omega3:0.9,omega6:2.2,energie:3070},
+ "mq-dog-010": {formule:"ACANA Light & Fit — formule actuelle",proteines:35,matieresGrasses:11,fibres:8,cendres:7,humidite:12,calcium:1.7,phosphore:1.1,omega3:0.9,omega6:2.2,energie:3070,dha:0.3,epa:0.3,composition:"Poulet frais (20,5 %), poulet déshydraté (20 %), lentilles rouges, pois, fibres de pois, abats de poulet frais (foie, cœur) (5 %), dinde déshydratée (5 %), hareng déshydraté (4 %), œufs (4 %), plie crue (4 %), pois chiches, lentilles vertes et jaunes, amidon de pois, gras de poulet, huile de poisson, foie de dinde cru, varech, citrouille, courge, carottes, pommes, poires, courgettes, chicorée, chou frisé, épinards, betteraves, canneberges, myrtilles, curcuma, chardon-marie, lavande, guimauve et églantier.",additifs:"Tocophérols naturels 121 mg/kg ; acide citrique 40 mg/kg ; extrait de romarin 80 mg/kg ; chlorure de choline 700 mg/kg ; zinc 112,5 mg/kg ; cuivre 11 mg/kg ; vitamines B1 25 mg/kg, B5 8 mg/kg, B6 7,5 mg/kg, A 7 500 UI/kg, D3 1 000 UI/kg, E 100 UI/kg ; Enterococcus faecium 2,2 × 10⁶ UFC/kg."},
  "mq-dog-011": {formule:"ACANA Puppy Recipe — formule actuelle",proteines:33,matieresGrasses:20,fibres:5,cendres:7,humidite:12,calcium:1.5,phosphore:1.1,omega3:1,omega6:2.7,energie:3660},
  "mq-dog-013": {formule:"ACANA Pacifica — formule actuelle",proteines:35,matieresGrasses:17,fibres:6,cendres:7,humidite:12,calcium:1.3,phosphore:1,omega3:2,omega6:2,energie:3850},
  "mq-dog-015": {formule:"Advance Adult Maxi — formule actuelle",proteines:25,matieresGrasses:14.2,fibres:3,cendres:6.5,omega3:0.25,omega6:2.7,taurine:1200},
@@ -960,7 +960,7 @@ const crocamiCurrentManufacturerSheets20261106 = {
  "mq-dog-020": {formule:"Alleva Natural Adult Chicken & Pumpkin Maxi — formule actuelle",energie:3920},
  "mq-cat-010": {formule:"Alleva Holistic Adult & Neutered Chicken & Duck — formule actuelle",proteines:42,matieresGrasses:18,fibres:2,cendres:8.3,humidite:7,calcium:1.5,phosphore:1.2,omega3:1.2,omega6:4,energie:4045},
  "mq-cat-011": {formule:"Alleva Holistic Kitten Chicken & Duck — formule actuelle",proteines:44,matieresGrasses:20,fibres:1.4,cendres:8.4,humidite:7,calcium:1.6,phosphore:1.3,omega3:1.3,omega6:4.3,dha:0.7,epa:0.4,energie:4174},
- "mq-cat-013": {formule:"Almo Nature Sterilised with Fresh Salmon — formule actuelle",proteines:33,matieresGrasses:11,fibres:3,cendres:7.9,humidite:9,calcium:1.7,phosphore:1.2,omega3:1.2,omega6:2.3,energie:3622,taurine:710}
+ "mq-cat-013": {formule:"Almo Nature Sterilised with Fresh Salmon — formule actuelle",proteines:33,matieresGrasses:11,fibres:3,cendres:7.9,humidite:9,calcium:1.7,phosphore:1.2,omega3:1.2,omega6:2.3,energie:3622,taurine:710}, "mq-cat-006": {formule:"ACANA Pacifica Cat — formule fabricant",proteines:37,matieresGrasses:18,fibres:3,cendres:9,humidite:10,calcium:1.2,phosphore:0.9,magnesium:0.1,taurine:1000,taurineAjoutee:400,omega3:2.2,omega6:2,dha:1,epa:0.8,energie:3930,composition:"Hareng cru entier du Pacifique (14 %), maquereau cru entier du Pacifique (13 %), merlu entier cru (9 %), hareng déshydraté (8 %), merlan bleu déshydraté (8 %), maquereau déshydraté (8 %), haricots Pinto, pois, plie sauvage crue (5 %), huile de goberge (5 %), lentilles rouges, pois chiches, lentilles vertes, sébaste cru (4 %), huile de tournesol, fibres de lentilles, foie de morue lyophilisé (1 %), varech, citrouille, courge, chou frisé, épinards, feuilles de navet, carottes, pommes, poires, canneberges, myrtilles, chicorée, curcuma, chardon-marie, lavande, guimauve et églantier.",additifs:"Chlorure de choline 1 200 mg/kg ; taurine ajoutée 400 mg/kg ; zinc 150 mg/kg ; vitamines B1 12,5 mg/kg, B2 6 mg/kg, niacine 50 mg/kg, B5 8 mg/kg, B6 6,5 mg/kg, A 3 750 UI/kg, E 230 UI/kg, K3 0,5 mg/kg ; acide folique 0,75 mg/kg ; biotine 0,125 mg/kg ; cuivre 11 mg/kg ; DL-méthionine 99 mg/kg ; Enterococcus faecium 600 × 10⁶ UFC/kg. Antioxydants naturels."}
 };
 for (const product of window.CROCamiCatalog) {
  const current = crocamiCurrentManufacturerSheets20261106[product.id];
@@ -986,6 +986,37 @@ for (const product of window.CROCamiCatalog) {
  const extra = crocamiCurrentManufacturerComplements20261106[product.id];
  if (extra && product.donneesFabricantActuelles) Object.assign(product.donneesFabricantActuelles, extra);
  if (product.id === "mq-cat-010") product.sourceFabricant = "https://allevastore.com/en/products/crocchette-per-gatti-holistic-adult-pollo-anatra-aloe-vera-ginseng-5-kg?variant=54046068179273";
+}
+
+/* COMPLÉMENTS FABRICANTS — données actuelles séparées des anciennes étiquettes (07/11/2026). */
+const crocamiCurrentManufacturerFollowup20261107 = {
+ "mq-dog-063": {formule:"Nutrivet Inne Dog Balance — formulation actuelle Zooplus",proteines:35,matieresGrasses:15,fibres:3,cendres:7},
+ "mq-dog-047": {formule:"Carnilove ACTIVE Adult Lamb & Wild Boar — formule actuelle",proteines:35,matieresGrasses:18,fibres:3.6,cendres:8.4,humidite:10,calcium:1.4,phosphore:1.2,sodium:0.2,omega3:0.2,omega6:3.4,energie:3790,taurine:1500},
+ "mq-dog-048": {formule:"Carnilove ACTIVE Adult Salmon — formule actuelle",proteines:34,matieresGrasses:15,fibres:2.8,cendres:8.7,humidite:10,calcium:1.5,phosphore:1.2,sodium:0.5,omega3:1.1,omega6:1.9,energie:3700,taurineAjoutee:1500},
+ "mq-dog-054": {formule:"Golden Eagle Holistic Large Breed Adult — formule actuelle",proteines:25,matieresGrasses:12,fibres:3.5,cendres:9,humidite:8,calcium:1.3,phosphore:1.1,omega3:0.7,omega6:2.8},
+ "mq-dog-056": {formule:"Husse Optimal Sensitive — formule actuelle",proteines:26,matieresGrasses:16,fibres:2,cendres:7,calcium:1.3,phosphore:0.85,omega3:1.2,omega6:1.7,humiditeMaximum:9,magnesium:0.09,taurine:1000,energie:4080},
+ "mq-dog-058": {formule:"James Wellbeloved Adult Lamb & Rice — formule actuelle",proteines:22.7,matieresGrasses:11.6,fibres:3,cendres:5.9,omega3:1.2,omega6:3,energie:3640},
+ "mq-dog-066": {formule:"ORIJEN Original Dog — formule actuelle",proteines:38,matieresGrasses:18,fibres:5,cendres:9,humidite:12,calcium:1.4,phosphore:1.1,omega3:1,omega6:3,dha:0.3,epa:0.2,energie:3860},
+ "mq-dog-069": {formule:"Pedigree Professional Nutrition Bœuf & Légumes — formule actuelle",proteines:20,matieresGrasses:9,fibres:2.9,cendres:7,calcium:1.2,phosphore:0.74},
+ "mq-dog-076": {formule:"Royal Canin Medium Adult — formule actuelle",proteines:23,matieresGrasses:16,fibres:1.4,cendres:6.1,omega3:0.64,omega6:3.4,taurine:1900},
+ "mq-dog-077": {formule:"Royal Canin Maxi Adult — formule actuelle",proteines:26,matieresGrasses:17,fibres:1.3,cendres:7.5,energie:3937},
+ "mq-dog-075": {formule:"REAL NATURE WILDERNESS Black Earth Adult — formule actuelle, format standard",proteines:30,matieresGrasses:17,fibres:2.8,cendres:7,calcium:1.6,phosphore:1.2},
+ "mq-dog-096": {formule:"Yarrah Senior chien — formule actuelle",proteines:25,matieresGrasses:10,fibres:3,cendres:6.3,humidite:8,calcium:1.2,phosphore:0.9,taurine:1088,energie:3480},
+ "mq-cat-076": {formule:"Yarrah chat stérilisé — formule actuelle",proteines:35,matieresGrasses:11,fibres:5,cendres:8,humidite:8,calcium:1.2,phosphore:1,taurine:2600,energie:3530}
+};
+for (const product of window.CROCamiCatalog) {
+ const current = crocamiCurrentManufacturerFollowup20261107[product.id];
+ if (!current) continue;
+ product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+ product.verificationFabricant = "formule_actuelle_différente";
+ product.dateVerificationFabricant = "2026-11-07";
+ product.statutDonnees = "Données de la formule actuelle relevées sur la source fabricant ou revendeur liée et structurées séparément. La recette historique du catalogue reste inchangée; les valeurs actuelles ne participent pas à sa note ni à son RPC. Les champs non publiés restent non renseignés.";
+}
+/* La taurine d’Applaws ci-dessous provient du revendeur de l’ancienne recette, pas de la formule actuelle du fabricant. */
+const crocamiVerifiedHistoricalRetailerComplements20261107 = {"mq-cat-022": {taurine:2000}};
+for (const product of window.CROCamiCatalog) {
+ const verified = crocamiVerifiedHistoricalRetailerComplements20261107[product.id];
+ if (verified) Object.assign(product, verified);
 }
 
 
