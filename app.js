@@ -151,7 +151,24 @@ function initNutritionAdvisor(){
  animalButtons.forEach(b=>b.addEventListener("click",()=>{advisorAnimal=b.dataset.advisorAnimal;updateAdvisorAnimal();$("#advisorResults").hidden=true;}));
  $("#advisorSubmit").addEventListener("click",recommend);updateAdvisorAnimal();
 }
-function setAnimal(v){animal=v;tabs.forEach(t=>t.classList.toggle("active",t.dataset.animal===v));$("#resultsTitle").textContent=v==="chien"?"Les croquettes pour chien":"Les croquettes pour chat";$("#search").placeholder=v==="chien"?"Ex. : saumon, digestion sensible, marque…":"Ex. : chat stérilisé, saumon, digestion…";
+const needGroups={
+ "Étape de vie":["Croissance","Adulte","Senior"],
+ "Digestion et sensibilités":["Sensibilité digestive","Sensibilité alimentaire"],
+ "Poids et mode de vie":["Contrôle du poids","Activité intense","Stérilisé"],
+ "Confort et santé":["Soutien articulaire","Soutien peau et pelage","Peau et pelage","Boules de poils","Santé urinaire"]
+};
+function renderNeedOptions(species){
+ const select=$("#need"),field=$("#needField"),speciesLabel=species==="chien"?"chien":"chat";
+ const previous=select.value;
+ const available=new Set(data.filter(p=>p.espece===species).flatMap(p=>p.besoins||[]));
+ const groups=Object.entries(needGroups).map(([label,values])=>[label,values.filter(value=>available.has(value))]).filter(([,values])=>values.length);
+ const display=value=>value==="Stérilisé"?"Stérilisation":value==="Soutien articulaire"?"Articulations":value==="Soutien peau et pelage"?"Peau et pelage":value==="Sensibilité digestive"?"Digestion sensible":value==="Sensibilité alimentaire"?"Sensibilité alimentaire":value;
+ select.innerHTML='<option value="">Tous les besoins du '+speciesLabel+'</option>'+groups.map(([label,values])=>'<optgroup label="'+label+'">'+values.map(value=>'<option value="'+value+'">'+display(value)+'</option>').join("")+'</optgroup>').join("");
+ field.firstChild.textContent="Besoin du "+speciesLabel;
+ $("#needHelp").textContent="Catégories adaptées aux "+speciesLabel+"s présents dans le catalogue.";
+ if(available.has(previous))select.value=previous;
+}
+function setAnimal(v){animal=v;renderNeedOptions(v);tabs.forEach(t=>t.classList.toggle("active",t.dataset.animal===v));$("#resultsTitle").textContent=v==="chien"?"Les croquettes pour chien":"Les croquettes pour chat";$("#search").placeholder=v==="chien"?"Ex. : saumon, digestion sensible, marque…":"Ex. : chat stérilisé, saumon, digestion…";
  if(v==="chat"){$("#size").innerHTML='<option value="">Tous les gabarits</option><option value="Toutes">Toutes les tailles</option>';$("#sizeField").querySelector("span")?.remove();$("#sizeHelp").textContent="Les gabarits sont peu discriminants chez le chat ; privilégiez âge et besoins.";}
  else{$("#size").innerHTML='<option value="">Toutes les tailles</option><option value="Petite">Petit</option><option value="Moyenne">Moyen</option><option value="Grande">Grand</option><option value="Géante">Géant</option>';$("#sizeHelp").textContent="Repère basé sur le poids adulte idéal.";}
  selected.clear();render();}
@@ -310,7 +327,8 @@ $("#resetFilters")?.addEventListener("click",()=>{$("#search").value="";["age","
 $$("[data-jump-animal]").forEach(a=>a.addEventListener("click",()=>setAnimal(a.dataset.jumpAnimal)));
 const brandLabels=new Map();for(const p of data){const key=normalizeBrandKey(p.marque);if(!brandLabels.has(key))brandLabels.set(key,p.marque);}
 const brands=[...brandLabels.entries()].sort((a,b)=>a[1].localeCompare(b[1],"fr"));$("#brand").innerHTML='<option value="">Toutes les marques</option>'+brands.map(([key,label])=>'<option value="'+key+'">'+label+'</option>').join("");
-const needs=[...new Set(data.flatMap(p=>p.besoins||[]))].sort((a,b)=>a.localeCompare(b,"fr"));$("#need").innerHTML='<option value="">Tous les besoins</option>'+needs.map(n=>'<option>'+n+'</option>').join("");
+renderNeedOptions(animal);
 $("#clearCompare")?.addEventListener("click",()=>{selected.clear();render();});
 render();
 routeProductDetail();
+
