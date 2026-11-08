@@ -2017,3 +2017,212 @@ for (const product of window.CROCamiCatalog) {
  Object.assign(product, update);
  if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
 }
+
+/* FORMULE ACTUELLE ULTIMA MEDIUM-MAXI ADULTE POULET (09/11/2026).
+   La composition et la ration ont changé par rapport au relevé historique du catalogue;
+   ne pas mélanger ces générations ni inventer les analyses absentes de la fiche officielle. */
+const crocamiUltimaMediumMaxiCurrent20261109 = {
+ "d13": {
+  sourceFabricant:"https://www.ultima-affinity.com/fr/fr/chien/nourriture-chien/seche-medium-maxi-adult-poulet-repas-1000295.html",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche officielle actuelle Ultima Medium-Maxi Adulte avec du Poulet présente une composition différente de la recette historique du catalogue : 4 % de protéines déshydratées de poulet, céréales complètes, pulpe de betterave 2 %, légumes, huiles et minéraux. Formats affichés : 2 kg et 7,5 kg. Ration recommandée : 145–245 g/170–285 g pour 10–20 kg; 245–335 g/285–385 g pour 20–30 kg; 335–415 g/385–480 g pour 30–40 kg; 415–525 g/480–610 g pour 40–55 kg, selon les deux niveaux d’activité publiés. La page ne fournit pas d’analyse chiffrée, énergie, calcium, phosphore, humidité ni additifs quantifiés. La fiche actuelle est conservée séparément et n’écrase pas les données historiques.",
+  statutDonnees:"Composition, formats et ration de la fiche officielle actuelle ajoutés dans un profil séparé; aucun profil nutritionnel numérique actuel publié sur la page.",
+  donneesFabricantActuelles:{
+   formule:"Ultima Medium-Maxi Adulte avec du Poulet — fiche officielle actuelle",
+   composition:"Céréales (10 % blé complet; 4 % maïs complet; riz présent selon la variante), protéines déshydratées de poulet (4 %), pulpe de betterave (2 %), huiles et graisses, extraits de protéines végétales, légumes, minéraux.",
+   formatsDisponibles:"2 kg et 7,5 kg",
+   ration:"10–20 kg : 145–245 g (activité +) ou 170–285 g (activité ++); 20–30 kg : 245–335 ou 285–385 g; 30–40 kg : 335–415 ou 385–480 g; 40–55 kg : 415–525 ou 480–610 g/jour."
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiUltimaMediumMaxiCurrent20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+}
+
+/* PROFIL ACTUEL VETERINARY HPM ADULT LARGE & MEDIUM (09/11/2026). */
+const crocamiVirbacAdultLargeMediumCurrent20261109 = {
+ "mq-dog-091": {
+  sourceFabricant:"https://fr.virbac.com/home/veterinary-hpm/croquette-grand-chien-adulte.html",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La page officielle Virbac Adult Large & Medium donne une formule de référence actuelle distincte des valeurs historiques conservées dans la fiche Macroquette. Analyse fabricant actuelle : humidité 9 %, protéines 34 %, matières grasses 17 %, minéraux 7,5 %, cellulose 5 %, fibres alimentaires totales 8,5 %, ENA/glucides assimilables 27,5 %, amidon 21 %, calcium 1,3 %, phosphore 1 %, sodium 0,5 %, oméga-6 3,7 %, oméga-3 0,8 %. Énergie métabolisable : 3 700 kcal/kg calculée et 3 610 kcal/kg mesurée in vivo. Taurine 1 500 mg/kg; bentonite 0,5 %, lactobacilles tués 7 mg/kg et L-carnitine 330 mg/kg. Rapport calcium/phosphore calculé : 1,3, identique à celui affiché par le fabricant. Les anciennes données ne sont pas écrasées.",
+  statutDonnees:"Profil de référence actuel vérifié sur la page officielle Virbac et séparé des valeurs historiques Macroquette.",
+  donneesFabricantActuelles:{
+   formule:"VETERINARY HPM Adult Large & Medium — fiche officielle française actuelle",
+   proteines:34,matieresGrasses:17,fibres:5,fibresAlimentairesTotales:8.5,cendres:7.5,humidite:9,glucides:27.5,
+   calcium:1.3,phosphore:1,ratioCalciumPhosphore:1.3,sodium:0.5,
+   omega3:0.8,omega6:3.7,energie:3700,energieMesureeInVivo:3610,
+   taurine:1500,lCarnitine:330,
+   composition:"Protéines déshydratées de volaille, riz, graisses de volaille, pois, protéines de porc et de volaille hydrolysées, fibres végétales, minéraux, pulpe de betterave, lin, FOS, psyllium et levure de bière.",
+   formatsDisponibles:"3 kg, 7 kg, 12 kg et 16 kg",
+   imageProduit:"https://fr.virbac.com/files/live/sites/virbac-fr/files/predefined-files/Veterinary%20HPM/Revamping%20physio%202025/Chien/Packshot_HPM_Adult-L-M-Dog_3kg_210.png",
+   additifs:"Taurine 1 500 mg/kg; bentonite 0,5 %; lactobacilles tués 7 mg/kg; L-carnitine 330 mg/kg; vitamines A 11 000 UI/kg, D3 1 100 UI/kg, E 590 mg/kg; choline 3 000 mg/kg; oligo-éléments détaillés sur la fiche officielle."
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiVirbacAdultLargeMediumCurrent20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+}
+
+/* PROFILS ACTUELS CONFIRMÉS SUR LES FICHES PRODUIT (09/11/2026). */
+const crocamiCurrentSourceProfiles20261109 = {
+ "mq-cat-009": {
+  sourceFabricant:"https://www.advance-affinity.com/en/adult-sterilized-1000389.html",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La page officielle Advance Sterilized Adult présente la recette actuelle à la dinde avec 15 % de dinde (contre 16 % dans la recette historique du catalogue) et une liste d’ingrédients réordonnée. Les analyses actuellement publiées sont : protéines 37 %, matières grasses 11 %, fibres 4,1 %, cendres 7 %, oméga-3 0,45 %, oméga-6 2,2 %, énergie 3 740 kcal/kg et taurine 1 200 mg/kg. La ration et les formats sont également affichés sur la page. Humidité, calcium, phosphore et magnésium ne sont pas chiffrés sur cette page. La formule actuelle reste séparée de l’analyse historique.",
+  statutDonnees:"Fiche officielle actuelle consultée; analyse et recette séparées des données historiques car la composition diffère.",
+  donneesFabricantActuelles:{
+   formule:"Advance Sterilized Adult Turkey — fiche fabricant actuelle",
+   proteines:37,matieresGrasses:11,fibres:4.1,cendres:7,omega3:0.45,omega6:2.2,
+   energie:3740,taurine:1200,
+   composition:"Dinde (15 %), protéines de maïs, maïs complet, protéines déshydratées de volaille et de porc, blé et orge complets (8 % chacun), pois déshydratés (4 %), fibres de pois, protéines hydrolysées, minéraux, graisse, pulpe de betterave et huile de poisson.",
+   formatsDisponibles:"0,4 kg, 1,5 kg, 3 kg, 6 kg et 10 kg",
+   ration:"2 kg : 30/35 g; 4 kg : 45/60 g; 6 kg : 60/75 g; 8 kg : 75/90 g par jour (activité +/++).",
+   additifs:"Taurine 1 200 mg/kg; chlorure d’ammonium 5 g/kg; vitamines A, D3, E et C; fer, iode, cuivre, manganèse, zinc et sélénium (doses fabricant publiées)."
+  }
+ },
+ "mq-cat-012": {
+  sourceRevendeur:"https://www.ptitpere.fr/products/croquettes-holistic-almo-nature-chat-poulet",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche revendeur actuelle P’tit Père pour Almo Nature Holistic au Poulet décrit la même composition distinctive que la recette historique du catalogue (poulet 46 %, dont 26 % frais et 20 % déshydraté; maïs, riz et farine de riz). Elle publie également humidité 9 %, énergie 3 940 kcal/kg, fibres 1,5 % et cendres 7,2 %, valeurs absentes ou différentes dans la fiche historique. Ces chiffres sont conservés dans le profil actuel séparé; aucun calcium ni phosphore n’est ajouté car cette fiche ne les publie pas.",
+  statutDonnees:"Fiche revendeur actuelle concordante avec les ingrédients distinctifs; les chiffres divergents de l’historique sont conservés à part.",
+  donneesFabricantActuelles:{
+   formule:"Almo Nature Holistic au Poulet — valeurs de la fiche revendeur actuelle",
+   proteines:32,matieresGrasses:16,fibres:1.5,cendres:7.2,humidite:9,energie:3940,
+   composition:"Poulet 46 % (26 % frais et 20 % déshydraté), maïs, riz, farine de riz complet, protéines animales hydrolysées, graisse de poulet, minéraux, MOS et inuline de chicorée.",
+   formatsDisponibles:"2 kg"
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiCurrentSourceProfiles20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+}
+
+/* PROFIL ACTUEL BAB'IN CHAT STÉRILISÉ SAUMON (09/11/2026). */
+const crocamiBabinCatSalmonCurrent20261109 = {
+ "mq-cat-026": {
+  sourceFabricant:"https://www.babin-nutrition.com/signature/273-611-chat-sans-cereales-saumon.html",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche officielle Bab’in actuelle décrit « Chat Adulte Stérilisé Sans Céréales – Saumon », une recette différente de la fiche historique (notamment saumon déshydraté 25 % et formulation sans céréales). Valeurs actuelles : protéines 37 %, matières grasses 14 %, cellulose 3,8 %, cendres 7,4 %, humidité 6 %, ENA 31,8 %, amidon 19 %, calcium 1,2 %, phosphore 0,9 %, magnésium 0,14 %, sodium 0,79 %, oméga-3 1 %, oméga-6 1,54 %, EPA+DHA 0,6 %. L’énergie publiée est 383,5 kcal/100 g (soit 3 835 kcal/kg); le RPC fabricant publié est 96,5 g/Mcal. Calcium/phosphore calculé à partir des deux analyses : 1,33. Taurine ajoutée : 2 000 mg/kg; glucosamine + chondroïtine : 330 mg/kg; L-carnitine : 300 mg/kg. Les formats actuels sont 1,5, 3 et 6 kg. Cette formule actuelle et sa photo officielle restent séparées des données historiques.",
+  statutDonnees:"Profil actuel issu de la fiche fabricant; l’analyse et la photo ne remplacent pas la recette historique différente.",
+  donneesFabricantActuelles:{
+   formule:"BAB’IN Signature Chat Adulte Stérilisé Sans Céréales — Saumon, fiche actuelle",
+   proteines:37,matieresGrasses:14,fibres:3.8,cendres:7.4,humidite:6,glucides:31.8,amidon:19,
+   calcium:1.2,phosphore:0.9,ratioCalciumPhosphore:1.3333333333,magnesium:0.14,sodium:0.79,
+   omega3:1,omega6:1.54,epaDha:0.6,rpc:96.5,energie:3835,
+   taurineAjoutee:2000,glucosamineChondroitine:330,lCarnitine:300,
+   composition:"Protéines de saumon déshydratées (25 %), pois jaune, fécule de pomme de terre, graisse de canard, protéines hydrolysées de poisson, truite, levure, hydrolysat de poulet, lignocellulose, plantes et prébiotiques.",
+   formatsDisponibles:"1,5 kg, 3 kg et 6 kg",
+   imageProduit:"https://www.babin-nutrition.com/1643-small_default/chat-sans-cereales-saumon.webp",
+   additifs:"Taurine 2 000 mg/kg; glucosamine + sulfate de chondroïtine 330 mg/kg; L-carnitine 300 mg/kg; DL-méthionine 4 000 mg/kg; vitamines et oligo-éléments détaillés sur la fiche fabricant."
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiBabinCatSalmonCurrent20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+}
+
+/* COMPLÉMENT REVENDEUR — ANIMALIS CHATON AU POULET, RÉFÉRENCE ARRÊTÉE (09/11/2026). */
+const crocamiAnimalisKittenRetailer20261109 = {
+ "mq-cat-017": {
+  sourceRevendeur:"https://www.houra.fr/animalis-aliments-pour-chatons-croquettes-au-poulet-2kg/1366997/",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  calcium:1,phosphore:0.8,magnesium:0.09,taurine:1000,omega3:0.14,omega6:6.43,
+  additifs:"Taurine 1 000 mg/kg; vitamine A 32 652 UI/kg, D3 1 754 UI/kg, E 190 mg/kg, PP 94 mg/kg, B1 13 mg/kg, B5 11 mg/kg, B2 8 mg/kg, K 3 mg/kg, acide folique 2,6 mg/kg, B12 0,34 mg/kg, biotine 0,175 mg/kg; plusieurs minéraux et oligo-éléments également listés par le revendeur.",
+  noteFabricant:"Fiche Houra du produit Animalis Chaton au Poulet 2 kg, désormais indiqué comme arrêté. La composition et l’analyse de base concordent avec la référence historique du catalogue (protéines 34 %, matières grasses 15 %, cendres 6,5 %, fibres 1,8 %). Compléments publiés par le revendeur : calcium 1 %, phosphore 0,8 %, magnésium 0,9 g/kg (converti en 0,09 %), taurine 1 000 mg/kg, oméga-3 0,14 % et oméga-6 6,43 %. Le rapport Ca/P calculé est 1,25. La page ne donne ni humidité ni énergie; ces champs restent non renseignés.",
+  statutDonnees:"Référence historique confirmée partiellement par une fiche revendeur concordante; article arrêté. Humidité et énergie non publiées."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiAnimalisKittenRetailer20261109[product.id];
+ if (update) Object.assign(product, update);
+}
+
+/* COMPLÉMENT FABRICANT — BRAVERY CHICKEN ADULT CAT (09/11/2026). */
+const crocamiBraveryAdultCat20261109 = {
+ "mq-cat-030": {
+  sourceFabricant:"https://www.braverypetfood.com/producto/bravery-chicken-adult-cat/",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  humidite:8,calcium:1.3,phosphore:1.1,sodium:0.7,magnesium:0.09,epaDha:0.38,taurine:2000,
+  additifs:"Taurine 2 000 mg/kg; glucosamine hydrochloride 300 mg/kg; sulfate de chondroïtine 220 mg/kg; vitamines A 28 000 UI/kg, D3 1 600 UI/kg, E 600 mg/kg, C 300 mg/kg; L-carnitine 120 mg/kg; oligo-éléments détaillés sur la fiche fabricant.",
+  noteFabricant:"La page officielle Bravery Chicken Adult Cat concorde avec la composition et l’analyse déjà présentes : protéines 32 %, matières grasses 16 %, fibres 3,7 % et cendres 8,2 %. Elle complète la fiche avec humidité 8 %, calcium 1,3 %, phosphore 1,1 %, sodium 0,7 %, magnésium 0,09 %, EPA+DHA 0,38 %, taurine 2 000 mg/kg, glucosamine 300 mg/kg et chondroïtine 220 mg/kg. Aucun pourcentage d’oméga-3 ou d’oméga-6 ni énergie chiffrée n’est publié sur cette page.",
+  statutDonnees:"Analyse et composition concordantes avec la fiche officielle Bravery; énergie et omégas séparés non publiés."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiBraveryAdultCat20261109[product.id];
+ if (update) Object.assign(product, update);
+}
+
+/* PROFIL ACTUEL FARMINA N&D PRIME CHAT POULET-GRENADE (09/11/2026).
+   Les seuils garantis restent distingués des valeurs mesurées du relevé historique. */
+const crocamiFarminaPrimeCatCurrent20261109 = {
+ "mq-cat-034": {
+  sourceFabricant:"https://www.farmina.com/fr/eshop/alimentation-pour-chat/n%26d-prime-chats/145-e_poulet-%26-grenade-adulte.html",
+  sourceComplementaire:"https://www.farmina.com/us/eshop/cat-food/n%26d-prime-feline/145-chicken-%26-pomegranate-adult.html",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche officielle française Farmina confirme la recette actuelle N&D Prime Poulet & Grenade adulte et sa composition (poulet désossé 30 %, poulet déshydraté 28 % et autres ingrédients déjà concordants avec la référence). Les garanties nutritionnelles consultées sur la page officielle US sont conservées comme seuils, pas comme mesures : protéines ≥44 %, matières grasses ≥20 %, fibres ≤1,8 %, humidité ≤8 %, cendres ≤8,5 %, calcium ≥1,1 %, phosphore ≥0,9 %, magnésium ≥0,08 %, oméga-6 ≥3,3 %, oméga-3 ≥0,9 %, DHA ≥0,5 %, EPA ≥0,3 %, taurine ≥4 000 mg/kg. L’énergie de la fiche US, 1 907 kcal/lb, est convertie en environ 4 204 kcal/kg. La fiche française liste les formats 300 g, 1,5 kg, 5 kg et 10 kg. Les seuils garantis sont présentés séparément de l’analyse historique.",
+  statutDonnees:"Fiche fabricant actuelle consultée; analyses garanties/min-max et énergie séparées des valeurs historiques.",
+  donneesFabricantActuelles:{
+   formule:"N&D Prime Feline Poulet & Grenade Adulte — fiche officielle Farmina actuelle",
+   proteinesMinimum:44,matieresGrassesMinimum:20,fibresMaximum:1.8,humiditeMaximum:8,cendresMaximum:8.5,
+   calciumMinimum:1.1,phosphoreMinimum:0.9,magnesiumMinimum:0.08,
+   omega6Minimum:3.3,omega3Minimum:0.9,dhaMinimum:0.5,epaMinimum:0.3,
+   taurineMinimum:4000,energie:4204,
+   composition:"Poulet désossé (30 %), poulet déshydraté (28 %), patate douce, graisse de poulet, œuf, hareng, huile de poisson, fibres végétales, carotte, luzerne, prébiotiques, grenade, fruits et plantes.",
+   formatsDisponibles:"300 g, 1,5 kg, 5 kg et 10 kg",
+   imageProduit:"https://www.farmina.com/fotoprodotti/145_48_nd-prime-adult-chicken-pomegranate-%5B400x600pxl%5D%40img_farmina_site.png"
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiFarminaPrimeCatCurrent20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+}
+
+/* PROFIL ACTUEL MONGE NATURAL SUPERPREMIUM MONOPROTEIN SAUMON (09/11/2026). */
+const crocamiMongeCatSalmonCurrent20261109 = {
+ "mq-cat-044": {
+  sourceFabricant:"https://www.monge.it/en/product/adult-salmon/",
+  sourceComplementaire:"https://www.monge.it/wp-content/uploads/2018/10/monge_cat_dry_croquettes_adult_salmon_GB.pdf",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche officielle Monge actuellement publiée présente Natural Superpremium Monoprotein Adult Cat Salmon : poisson (saumon séché 26 %, saumon frais 10 %), riz, maïs, huile de poulet et prébiotiques. La recette historique du catalogue indiquait du poulet frais (minimum 10 %) et n’est pas fusionnée avec cette formule. Analyse actuelle fabricant : protéines 33 %, matières grasses 15 %, fibres 1,4 %, cendres 6 %, calcium 1,6 %, phosphore 1,1 %, oméga-3 0,6 %, oméga-6 3,85 %, énergie 4 230 kcal/kg, taurine 1 200 mg/kg. La fiche officielle actuelle et des revendeurs concordent sur l’oméga-3 à 0,6 %; un ancien PDF officiel indiquait 4,5 %, valeur écartée pour la formule actuelle. Humidité non publiée sur la page actuelle.",
+  statutDonnees:"Recette actuelle distincte de la composition historique; valeurs actuelles recoupées sur le site officiel et fiche revendeur.",
+  donneesFabricantActuelles:{
+   formule:"Monge Natural Superpremium Monoprotein Adult Cat Salmon — fiche officielle actuelle",
+   proteines:33,matieresGrasses:15,fibres:1.4,cendres:6,calcium:1.6,phosphore:1.1,
+   omega3:0.6,omega6:3.85,energie:4230,taurine:1200,
+   composition:"Poisson (26 % saumon séché et 10 % saumon frais), riz, maïs, huile de poulet, protéines hydrolysées, levure, huile de saumon, minéraux, MOS, XOS, yucca et églantier.",
+   additifs:"Taurine 1 200 mg/kg; vitamine A 30 700 UI/kg, D3 1 610 UI/kg, E 72 mg/kg; DL-méthionine 1 000 mg/kg; autres oligo-éléments listés sur la fiche fabricant.",
+   imageProduit:"https://www.monge.it/wp-content/uploads/2018/10/ADULT-MONO-salmone_15KG_8009470005517.jpg"
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiMongeCatSalmonCurrent20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+}
