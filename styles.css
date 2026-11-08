@@ -526,6 +526,7 @@ footer .brand img{display:block!important;width:120px!important;height:72px!impo
 .current-formula-values>div{display:flex;justify-content:space-between;gap:8px;padding:3px 0;border-bottom:1px solid rgba(120,130,140,.16)}
 .current-formula-values span{color:var(--muted)}
 .current-formula-values b{white-space:nowrap;color:var(--text)}
+.current-formula-image{display:block;width:min(100%,150px);max-height:170px;object-fit:contain;margin:6px 0 8px;padding:5px;background:#fff;border-radius:6px}
 @media(max-width:420px){.current-formula-values{grid-template-columns:1fr}}
 
 
@@ -705,35 +706,3 @@ footer .brand img{display:block!important;width:100px!important;height:83px!impo
   opacity:1;
   visibility:visible;
 }
-
-/* Restauration des couleurs par statut nutritionnel des statistiques produits.
-   Les règles génériques de la palette finale ne doivent pas écraser ces états. */
-.product-metrics>div.metric-good{background:#e8f4e9!important;border-color:#b9ddbf!important}
-.product-metrics>div.metric-good b{color:#24763b!important}
-.product-metrics>div.metric-near{background:#fff3df!important;border-color:#f0d29c!important}
-.product-metrics>div.metric-near b{color:#a96808!important}
-.product-metrics>div.metric-poor{background:#fbe9e7!important;border-color:#edb9b4!important}
-.product-metrics>div.metric-poor b{color:#b3261e!important}
-.product-metrics>div.metric-info{background:#eaf1f8!important;border-color:#c5d8eb!important}
-.product-metrics>div.metric-info b{color:#315f89!important}
-.product-metrics>div.metric-unknown{background:#f1f2ed!important;border-color:#e3e5dc!important}
-.product-metrics>div.metric-unknown b{color:#777d72!important}
-
-
-/* Parcours d'achat Crocami : liens marchands et transparence affiliation */
-.purchase-section{border-color:#b9d4e9;background:linear-gradient(135deg,#f7fbff,#fffdf8)}
-.purchase-offer{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:15px;background:#fff;border:1px solid #dce9f4;border-radius:12px}
-.purchase-offer>div{display:flex;flex-direction:column;gap:4px;min-width:0}
-.purchase-offer>div b{color:#183653;font-size:14px}
-.purchase-offer>div span,.purchase-disclosure{color:#68788a;font-size:11px;line-height:1.5}
-.purchase-cta{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 16px;border-radius:10px;background:#f39a24;color:#183653;font-size:12px;font-weight:800;text-decoration:none;white-space:nowrap}
-.purchase-cta:hover{filter:brightness(.96);transform:translateY(-1px)}
-.purchase-unavailable{color:#68788a;font-size:11px}
-.purchase-disclosure{margin:10px 0 0}
-@media(max-width:600px){.purchase-offer{align-items:stretch;flex-direction:column}.purchase-cta{width:100%;box-sizing:border-box}}
-
-/* Présentation des deux boutiques Crocami */
-.purchase-offers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.purchase-offers .purchase-offer{min-width:0}
-.purchase-offers .purchase-cta{max-width:100%;box-sizing:border-box}
-@media(max-width:650px){.purchase-offers{grid-template-columns:1fr}}
