@@ -11,6 +11,7 @@ on:
       - "index.html"
       - ".github/workflows/product-image-audit.yml"
       - "scripts/audit-product-images.mjs"
+      - "scripts/audit-catalogue.mjs"
   workflow_dispatch:
 
 # Les audits sont mis en file d'attente au lieu d'annuler les précédents.
@@ -37,6 +38,9 @@ jobs:
 
       - name: Vérifier la syntaxe des scripts du site
         run: node --check app.js && node --check catalogue.js && node --check fabricants.js
+
+      - name: Contrôler la cohérence du catalogue
+        run: node scripts/audit-catalogue.mjs
 
       - name: Tester chaque image
         run: node scripts/audit-product-images.mjs
