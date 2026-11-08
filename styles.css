@@ -705,3 +705,16 @@ footer .brand img{display:block!important;width:100px!important;height:83px!impo
   opacity:1;
   visibility:visible;
 }
+
+/* Restauration des couleurs par statut nutritionnel des statistiques produits.
+   Les règles génériques de la palette finale ne doivent pas écraser ces états. */
+.product-metrics>div.metric-good{background:#e8f4e9!important;border-color:#b9ddbf!important}
+.product-metrics>div.metric-good b{color:#24763b!important}
+.product-metrics>div.metric-near{background:#fff3df!important;border-color:#f0d29c!important}
+.product-metrics>div.metric-near b{color:#a96808!important}
+.product-metrics>div.metric-poor{background:#fbe9e7!important;border-color:#edb9b4!important}
+.product-metrics>div.metric-poor b{color:#b3261e!important}
+.product-metrics>div.metric-info{background:#eaf1f8!important;border-color:#c5d8eb!important}
+.product-metrics>div.metric-info b{color:#315f89!important}
+.product-metrics>div.metric-unknown{background:#f1f2ed!important;border-color:#e3e5dc!important}
+.product-metrics>div.metric-unknown b{color:#777d72!important}
