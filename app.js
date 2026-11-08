@@ -152,7 +152,6 @@ function initNutritionAdvisor(){
  $("#advisorSubmit").addEventListener("click",recommend);updateAdvisorAnimal();
 }
 const needGroups={
- "Étape de vie":["Croissance","Adulte","Senior"],
  "Digestion et sensibilités":["Sensibilité digestive","Sensibilité alimentaire"],
  "Poids et mode de vie":["Contrôle du poids","Activité intense","Stérilisé"],
  "Confort et santé":["Soutien articulaire","Soutien peau et pelage","Peau et pelage","Boules de poils","Santé urinaire"]
