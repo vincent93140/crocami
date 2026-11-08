@@ -230,11 +230,17 @@ function card(p){let checked=selected.has(p.id);const pack=p.imageProduit?'<img 
 function escapeProductText(value){return String(value??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");}
 function detailValue(value,unit=""){return value==null||value===""?"Non communiqué":escapeProductText(typeof value==="number"?fmt(value):value)+(unit?" "+unit:"");}
 function purchaseSectionMarkup(p){
- const offer=window.CROCamiGetAffiliateOffer?window.CROCamiGetAffiliateOffer(p):null;
- if(!offer)return '';
- const link=offer.url?'<a class="purchase-cta" href="'+escapeProductText(offer.url)+'" target="_blank" rel="'+(offer.isAffiliate?'sponsored noopener noreferrer':'noopener noreferrer')+'" data-affiliate-click data-product-id="'+escapeProductText(p.id)+'" data-merchant="'+escapeProductText(offer.key||'')+'" data-affiliate="'+(offer.isAffiliate?'true':'false')+'">'+(offer.isAffiliate?'Voir le prix chez '+escapeProductText(offer.name):'Consulter '+escapeProductText(offer.name))+' <span>↗</span></a>':'<span class="purchase-unavailable">Lien marchand non disponible pour cette référence.</span>';
- const note=offer.isAffiliate?'Lien partenaire : Crocami peut percevoir une commission, sans surcoût pour vous.':'Partenariat en préparation : ce lien ne génère pas encore de commission pour Crocami.';
- return '<section class="detail-section purchase-section"><div class="detail-section-heading"><p class="eyebrow">ACHETER CETTE RECETTE</p><h2>Où acheter ?</h2><p>Vérifiez le format, le prix et les frais de livraison sur la boutique avant de commander.</p></div><div class="purchase-offer"><div><b>'+escapeProductText(offer.name)+'</b><span>'+(offer.isAffiliate?'Boutique partenaire':'Boutique actuellement référencée')+'</span></div>'+link+'</div><p class="purchase-disclosure">'+note+'</p></section>';
+ const offers=window.CROCamiGetAffiliateOffers?window.CROCamiGetAffiliateOffers(p):[];
+ if(!offers.length)return '';
+ const cards=offers.map(offer=>{
+  const affiliate=offer.isAffiliate===true;
+  const label=affiliate?'Acheter chez '+escapeProductText(offer.name):'Voir le catalogue '+escapeProductText(offer.name);
+  const badge=affiliate?'Lien affilié actif':'Lien boutique';
+  return '<article class="purchase-offer"><div><b>'+escapeProductText(offer.name)+'</b><span>'+badge+' · '+escapeProductText(offer.network)+'</span></div><a class="purchase-cta" href="'+escapeProductText(offer.url)+'" target="_blank" rel="'+(affiliate?'sponsored noopener noreferrer':'noopener noreferrer')+'" data-affiliate-click data-product-id="'+escapeProductText(p.id)+'" data-merchant="'+escapeProductText(offer.key)+'" data-affiliate="'+(affiliate?'true':'false')+'">'+label+' <span>↗</span></a></article>';
+ }).join('');
+ const hasAffiliate=offers.some(x=>x.isAffiliate);
+ const note=hasAffiliate?'Certains liens sont affiliés : Crocami peut percevoir une commission, sans surcoût pour vous.':'Les liens vers les boutiques ne sont pas encore rémunérés. Crocami ne perçoit aucune commission tant que les partenariats ne sont pas validés et les liens de tracking activés.';
+ return '<section class="detail-section purchase-section"><div class="detail-section-heading"><p class="eyebrow">ACHETER CETTE RECETTE</p><h2>Comparer les boutiques</h2><p>Consultez les offres chez nos marchands partenaires. Vérifiez le produit, le format, le prix et les frais de livraison avant de commander.</p></div><div class="purchase-offers">'+cards+'</div><p class="purchase-disclosure">'+note+'</p></section>';
 }
 function trackAffiliateClick(event){
  const link=event.target.closest('[data-affiliate-click]');
