@@ -718,3 +718,16 @@ footer .brand img{display:block!important;width:100px!important;height:83px!impo
 .product-metrics>div.metric-info b{color:#315f89!important}
 .product-metrics>div.metric-unknown{background:#f1f2ed!important;border-color:#e3e5dc!important}
 .product-metrics>div.metric-unknown b{color:#777d72!important}
+
+
+/* Parcours d'achat Crocami : liens marchands et transparence affiliation */
+.purchase-section{border-color:#b9d4e9;background:linear-gradient(135deg,#f7fbff,#fffdf8)}
+.purchase-offer{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:15px;background:#fff;border:1px solid #dce9f4;border-radius:12px}
+.purchase-offer>div{display:flex;flex-direction:column;gap:4px;min-width:0}
+.purchase-offer>div b{color:#183653;font-size:14px}
+.purchase-offer>div span,.purchase-disclosure{color:#68788a;font-size:11px;line-height:1.5}
+.purchase-cta{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 16px;border-radius:10px;background:#f39a24;color:#183653;font-size:12px;font-weight:800;text-decoration:none;white-space:nowrap}
+.purchase-cta:hover{filter:brightness(.96);transform:translateY(-1px)}
+.purchase-unavailable{color:#68788a;font-size:11px}
+.purchase-disclosure{margin:10px 0 0}
+@media(max-width:600px){.purchase-offer{align-items:stretch;flex-direction:column}.purchase-cta{width:100%;box-sizing:border-box}}
