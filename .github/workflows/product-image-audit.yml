@@ -7,6 +7,7 @@ on:
       - "catalogue.js"
       - "fabricants.js"
       - "app.js"
+      - "affiliate.js"
       - "styles.css"
       - "index.html"
       - ".github/workflows/product-image-audit.yml"
@@ -37,7 +38,7 @@ jobs:
           node-version: 24
 
       - name: Vérifier la syntaxe des scripts du site
-        run: node --check app.js && node --check catalogue.js && node --check fabricants.js
+        run: node --check app.js && node --check catalogue.js && node --check fabricants.js && node --check affiliate.js
 
       - name: Contrôler la cohérence du catalogue
         run: node scripts/audit-catalogue.mjs
