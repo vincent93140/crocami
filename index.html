@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="styles.css?v=20261109-current-profile-image">
   <script src="fabricants.js?v=20261107-24-official-feeding-guides" defer></script>
   <script src="catalogue.js?v=20261109-current-source-profiles" defer></script>
-  <script src="app.js?v=20261109-price-sort-labels" defer></script>
+  <script src="app.js?v=20261109-species-needs-groups" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -46,7 +46,7 @@
           <label>Âge<select id="age"><option value="">Tous les âges</option><option>Junior</option><option>Adulte</option><option>Senior</option></select></label>
           <label id="sizeField">Taille / poids adulte<select id="size"><option value="">Toutes les tailles</option><option value="Petite">Petit · moins de 10 kg</option><option value="Moyenne">Moyen · 10 à 25 kg</option><option value="Grande">Grand · 25 à 45 kg</option><option value="Géante">Géant · plus de 45 kg</option></select><small id="sizeHelp">Repère basé sur le poids adulte idéal.</small></label>
           <label>Marque<select id="brand"><option value="">Toutes les marques</option></select></label>
-          <label>Besoin<select id="need"><option value="">Tous les besoins</option></select></label>
+          <label id="needField">Besoin du chien<select id="need" aria-describedby="needHelp"><option value="">Tous les besoins du chien</option></select><small id="needHelp">Les besoins proposés correspondent aux chiens du catalogue.</small></label>
           <label>Prix maximum au kg (€)<input id="maxPriceKg" type="number" min="0" step="0.10" inputmode="decimal" placeholder="Ex. : 8,50"></label>
           <label>Qualité nutritionnelle<select id="scoreCategory"><option value="">Toutes les catégories</option><option value="green">🟢 Vert · meilleure (80–100)</option><option value="orange">🟠 Orange · intermédiaire (60–79)</option><option value="red">🔴 Rouge · moins bonne (&lt;60)</option></select></label>
         </div>
@@ -128,3 +128,4 @@
   <footer><a class="brand" href="#" aria-label="Crocami, accueil"><img src="crocami-logo-header-clean.png?v=20261107-o-counter-transparent-2" alt="Croc’Ami — chien et chat"></a><p>Bien choisir aujourd'hui, pour leurs beaux jours.</p><span>© <span id="year"></span> Crocami</span></footer>
 </body>
 </html>
+
