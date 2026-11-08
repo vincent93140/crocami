@@ -75,3 +75,14 @@ Les clics sont émis sous l'événement \`crocami_affiliate_click\` dans \`dataL
 - Ne pas laisser la commission influencer la note Crocami, les seuils ou l'ordre des recommandations.
 - Vérifier les obligations légales applicables au statut de l'éditeur et la politique de confidentialité/cookies avant d'activer un outil de mesure d'audience.
 - Vérifier les conditions de chaque marchand avant de promouvoir ses produits.
+
+
+## Partenaires prioritaires : Zooplus et Zoomalia
+
+Les deux marchands sont préparés dans `affiliate.js` :
+- Zooplus — réseau Awin, annonceur 7334. Commission affichée dans le compte : 3 % sur les trois premières commandes éligibles, puis 1 % ; cookie 30 jours.
+- Zoomalia — réseau Affilae. Taux annoncé : 6 % nouveaux clients / 3 % anciens clients ; cookie annoncé 30 jours, à confirmer dans la fiche du programme.
+
+Les fiches Crocami affichent désormais les deux boutiques. Tant que le statut reste `pending`, les boutons dirigent vers les boutiques officielles sans rémunération et la mention de transparence le précise. Après acceptation, il faudra remplacer les URLs ordinaires par les liens de tracking/deep links fournis par Awin et Affilae, passer le marchand en `approved`, puis renseigner les liens par identifiant produit dans `productLinks`. Ne jamais fabriquer de paramètres de tracking.
+
+Les clics remontent dans `dataLayer` si celui-ci est installé, et dans GA4 si `gtag` est configuré. Les clics ordinaires et affiliés sont distingués.
