@@ -731,3 +731,9 @@ footer .brand img{display:block!important;width:100px!important;height:83px!impo
 .purchase-unavailable{color:#68788a;font-size:11px}
 .purchase-disclosure{margin:10px 0 0}
 @media(max-width:600px){.purchase-offer{align-items:stretch;flex-direction:column}.purchase-cta{width:100%;box-sizing:border-box}}
+
+/* Présentation des deux boutiques Crocami */
+.purchase-offers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.purchase-offers .purchase-offer{min-width:0}
+.purchase-offers .purchase-cta{max-width:100%;box-sizing:border-box}
+@media(max-width:650px){.purchase-offers{grid-template-columns:1fr}}
