@@ -172,6 +172,8 @@ window.CROCamiCatalog.push(
  statutDonnees:"Valeurs nutritionnelles, ingrédients et rations recoupés avec la fiche fabricant.",
  ration:"Rations fabricant (maigre / normal / surpoids) : 1 kg 30/20/15 g ; 2 kg 45/35/25 g ; 3 kg 60/45/35 g ; 4 kg 70/55/45 g ; 5 kg 85/60/50 g ; 6 kg 95/70/55 g ; 7 kg 105/80/60 g ; 8 kg 115/85/70 g ; 9 kg 125/90/75 g ; 10 kg 130/100/80 g ; 11 kg 140/105/85 g ; 12 kg 150/110/90 g.",
 }
+
+
 );
 
 /* Références découvertes dans l'index public Macroquette. Import des noms uniquement : aucune note, analyse ou valeur nutritionnelle propriétaire n'est recopiée. Crocami calcule sa propre note lorsque les données fabricant vérifiées seront ajoutées. */
@@ -1327,4 +1329,691 @@ window.CROCamiCatalog.push(
    const update = ownatUpdates[product.id];
    if (update) Object.assign(product, update);
  }
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 1 (08/11/2026). */
+const crocamiManufacturerBatch20261108a = {
+ "mq-dog-022": {
+  sourceRevendeur:"https://oracan.es/producto/alpha-spirit-the-only-one-multiprotein",
+  verificationFabricant:"formule_actuelle_différente", dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche revendeur actuelle Alpha Spirit The Only One Multiprotein décrit une recette différente de la fiche historique (poulet frais 35 %, poisson entier frais 20 %, porc frais 15 %, canard frais 10 %, foie de porc frais 5 %). Constituants actuels publiés : protéines 30,5 %, matières grasses 16 %, fibres 2 %, cendres 8 %, humidité 16 %, calcium 1,5 %, phosphore 1,2 %, taurine 3 000 mg/kg, glucosamine 4 400 mg/kg et énergie 3 663 kcal/kg. Le revendeur indique EPA+DHA combinés à 2 000 mg/kg sans répartir les deux valeurs; elles ne sont donc pas séparées en oméga-3 dans le catalogue.",
+  statutDonnees:"La formule actuelle et ses constituants sont structurés séparément de l’ancienne fiche Macroquette; les acides gras EPA et DHA sont publiés ensemble, sans ventilation.",
+  donneesFabricantActuelles:{formule:"Alpha Spirit The Only One Multiprotein — fiche revendeur actuelle",proteines:30.5,matieresGrasses:16,fibres:2,cendres:8,humidite:16,calcium:1.5,phosphore:1.2,energie:3663,taurine:3000,glucosamine:4400,composition:"Poulet frais (35 %), poisson entier frais (20 %), porc frais (15 %), canard frais (10 %), foie de porc frais (5 %), amidon hydrolysé, œufs, pulpe de betterave, levure de bière, citrouille, banane, ananas, cumin, sauge, gingembre et curcuma."}
+ },
+ "mq-dog-023": {
+  sourceFabricant:"https://www.aspiritpetfood.store/en/collections/perros-1/products/pack-the-only-one-pato-12kg",
+  verificationFabricant:"formule_actuelle_différente", dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La boutique Alpha Spirit publie une formule The Only One Duck actuelle différente de la recette historique du catalogue : canard frais 45 %, poulet frais 20 % et poisson entier frais 20 %. Constituants publiés : protéines 31,5 %, matières grasses 17 %, fibres 2 %, cendres 8 %, humidité 16 %, calcium 1,5 %, phosphore 1,2 %, taurine 3 000 mg/kg, glucosamine 4 400 mg/kg et énergie non affichée sur cette page. EPA+DHA sont indiqués ensemble à 2 000 mg/kg. Les valeurs historiques restent intactes.",
+  statutDonnees:"La composition et les constituants de la formule actuelle fabricant sont conservés séparément; l’énergie n’est pas publiée sur la page ouverte.",
+  donneesFabricantActuelles:{formule:"Alpha Spirit The Only One Duck — formule fabricant actuelle",proteines:31.5,matieresGrasses:17,fibres:2,cendres:8,humidite:16,calcium:1.5,phosphore:1.2,taurine:3000,glucosamine:4400,composition:"Canard frais (45 %), poulet frais (20 %), poisson entier frais (20 %), amidon hydrolysé, œufs, pulpe de betterave, levure de bière, poire, ananas, chicorée, banane et herbes."}
+ },
+ "mq-dog-024": {
+  sourceFabricant:"https://amitypetfood.com/producto/lamb-rice-15-3-kg/",
+  verificationFabricant:"confirmée_partielle", dateVerificationFabricant:"2026-11-08",
+  humidite:10,
+  additifs:"Vitamine A 17 500 UI/kg, vitamine D3 1 000 UI/kg, vitamine E 100 mg/kg, fer 125 mg/kg, cuivre 10 mg/kg, manganèse 9 mg/kg, zinc 110 mg/kg, iode 1,75 mg/kg et sélénium 0,25 mg/kg; antioxydants.",
+  noteFabricant:"La fiche officielle Amity Lamb & Rice 15/3 kg correspond à la composition déjà enregistrée (protéines de viande déshydratées 30 %, dont agneau 4 %; blé; pulpe de betterave 1,5 %; graisse de volaille; riz 4 %; orge). Elle publie aussi une humidité de 10 % et les additifs détaillés ajoutés ici. Calcium, phosphore, magnésium et énergie ne sont pas chiffrés pour cette référence exacte et restent non communiqués.",
+  statutDonnees:"Composition historique recoupée avec la fiche fabricant correspondante; humidité et additifs publiés ajoutés. Aucun chiffre emprunté à la variante Adult Lamb 14/4 kg."
+ },
+ "mq-dog-025": {
+  sourceFabricant:"https://www.anifit.ch/fr/shop/catalog/article/dog-dry-nature-boeuf",
+  verificationFabricant:"confirmée_partielle", dateVerificationFabricant:"2026-11-08",
+  proteines:24.6,matieresGrasses:9.4,fibres:4.6,cendres:6.95,humidite:9,glucides:45.45,calcium:1.34,phosphore:1.06,magnesium:0.09,energie:3600,
+  additifs:"Antioxydants : extraits de tocophérols naturels. Additifs nutritionnels par kg : vitamine A 10 000 UI, vitamine D3 1 000 UI, vitamine E 200 mg, B1 3,5 mg, B2 7 mg, B6 4,2 mg, B12 42 µg, acide folique 0,35 mg, vitamine C 140 mg, acide pantothénique 7 mg, niacinamide 21 mg, biotine 210 µg, chlorure de choline 2 000 mg, zinc 62,5 mg, manganèse 52 mg, cuivre 16 mg, iode 0,3 mg et sélénium 150 µg.",
+  noteFabricant:"La fiche officielle ANiFiT Dog Dry Nature Bœuf correspond à la référence et publie protéines 24,6 %, matières grasses 9,4 %, cellulose 4,6 %, cendres 6,95 %, humidité 9 %, glucides NFE 45,45 %, calcium 1,34 %, phosphore 1,06 %, magnésium 0,09 % et énergie 360 kcal/100 g (3 600 kcal/kg). Les oméga et la taurine ne sont pas chiffrés sur la page consultée. Les valeurs analytiques sont recopiées dans la fiche; le glucide NFE est une valeur publiée, pas un calcul ajouté.",
+  statutDonnees:"Valeurs et additifs publiés par le fabricant et concordants avec cette référence; les oméga et la taurine restent non renseignés faute de teneur publiée."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108a[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 2 (08/11/2026). */
+const crocamiManufacturerBatch20261108b = {
+ "mq-cat-019": {
+  sourceFabricant:"https://old.animonda.de/preview/de/vom-feinsten-deluxe-adult-250-g/",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  humidite:8,calcium:0.9,phosphore:0.7,magnesium:0.08,omega3:3.5,omega6:3,taurine:2400,energie:4040,
+  additifs:"Additifs nutritionnels publiés par Animonda : iode 1,7 mg/kg, cuivre 5 mg/kg, zinc 66 mg/kg, vitamine A 15 000 UI/kg, vitamine D3 1 500 UI/kg, vitamine C 125 mg/kg et L-carnitine 1 000 mg/kg.",
+  noteFabricant:"La fiche fabricant Animonda Vom Feinsten Deluxe Adult reprend la composition enregistrée et publie humidité 8 %, calcium 0,9 %, phosphore 0,7 %, magnésium 0,08 %, oméga-6 3 %, taurine 2 400 mg/kg et énergie 1,69 MJ/100 g (conversion d’unité : 4 040 kcal/kg). La même fiche indique oméga-3 3,5 %; cette valeur est transcrite telle qu’affichée par le fabricant et mérite une vérification sur l’emballage en raison de son niveau inhabituel.",
+  statutDonnees:"Fiche officielle correspondant à la recette; données ajoutées. L’oméga-3 est conservé comme valeur fabricant publiée avec une remarque de relecture de l’étiquette."
+ },
+ "mq-cat-020": {
+  sourceFabricant:"https://annamaet.com/products/grain-free-cat-food/",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle Annamaet Grain Free Feline publie des minima/maxima garantis : protéines min. 44 %, matières grasses min. 20 %, fibres max. 3 %, humidité max. 10 %, EPA min. 0,3 %, DHA min. 0,3 %, oméga-6 min. 3,75 % et oméga-3 min. 0,9 %. Elle distingue aussi une analyse moyenne issue de quatre laboratoires et d’un modèle informatique : protéines 44,55 %, matières grasses 20,09 %, fibres 1,85 %, cendres 7,49 %, humidité 7,43 %, calcium 1,56 %, phosphore 1,29 %, magnésium 0,15 %, sodium 0,42 %, EPA 0,34 %, DHA 0,31 %, oméga-3 0,96 %, oméga-6 3,85 % et taurine 0,22 % (2 200 mg/kg). Les garanties et les moyennes sont séparées dans la fiche; énergie non publiée.",
+  statutDonnees:"Garanties fabricant et analyse moyenne structurées dans le panneau de la source actuelle; les moyennes ne remplacent pas les garanties et ne modifient pas la note ou le RPC historiques.",
+  donneesFabricantActuelles:{formule:"Annamaet Grain Free Feline — moyennes fabricant et garanties distinctes",proteines:44.55,proteinesMinimum:44,matieresGrasses:20.09,matieresGrassesMinimum:20,fibres:1.85,fibresMaximum:3,cendres:7.49,humidite:7.43,humiditeMaximum:10,calcium:1.56,phosphore:1.29,magnesium:0.15,sodium:0.42,omega3:0.96,omega3Minimum:0.9,omega6:3.85,omega6Minimum:3.75,dha:0.31,dhaMinimum:0.3,epa:0.34,epaMinimum:0.3,taurine:2200,composition:"Farine de poulet, farine de poisson blanc, pois verts, graisse de poulet conservée aux tocophérols, œufs séchés, tapioca, isolat de protéines de pois, arôme naturel, levure de bière, huile de menhaden, pommes séchées, chicorée séchée, DL-méthionine, myrtilles et canneberges séchées, taurine, chlorure de potassium, huile de microalgues, chlorure de choline, L-lysine, sel, phosphate monosodique, vitamine C, vitamines et minéraux chélatés, et cultures probiotiques."}
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108b[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 3 (08/11/2026). */
+const crocamiManufacturerBatch20261108c = {
+ "mq-dog-032": {
+  sourceFabricant:"https://shop.atavik.fr/592-croquettes-francaises-chien-poulet.html",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  proteines:35,humidite:10,calcium:1.6,phosphore:1,omega3:0.4,omega6:1.6,energie:3603,taurine:1000,
+  additifs:"Vitamine A 15 000 UI/kg, D3 1 100 UI/kg, E 100 mg/kg, cuivre 10 mg/kg, fer 50 mg/kg, manganèse 5 mg/kg, zinc 62,5 mg/kg, iode 1,5 mg/kg, sélénium 0,15 mg/kg, taurine 1 000 mg/kg, bentonite 5 000 mg/kg et Enterococcus faecium 10⁹ UFC/kg."
+ },
+ "mq-cat-025": {
+  sourceFabricant:"https://shop.atavik.fr/597-croquettes-francaises-chat-saumon.html",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  proteines:38,humidite:10,calcium:1.4,phosphore:1.2,omega3:0.8,omega6:2,energie:3709,taurine:2000,
+  additifs:"Vitamine A 33 000 UI/kg, D3 1 700 UI/kg, E 450 mg/kg, cuivre 5 mg/kg, manganèse 7,5 mg/kg, zinc 50 mg/kg, iode 1,5 mg/kg, sélénium 0,15 mg/kg, taurine 2 000 mg/kg et L-carnitine 100 mg/kg.",
+  noteFabricant:"La fiche officielle Atavik Croquettes françaises chat saumon correspond à la composition enregistrée (saumon frais 26 %, saumon déshydraté 14 %, poissons déshydratés 11 %). Elle confirme protéines 38 %, matières grasses 15 %, humidité 10 %, cendres 8 %, fibres 4 %, calcium 1,4 %, phosphore 1,2 %, oméga-3 0,8 %, oméga-6 2 %, taurine 2 000 mg/kg et énergie 3 709 kcal/kg. Ces données complètent la fiche sans changer sa formule.",
+  statutDonnees:"Composition, analyse et additifs vérifiés sur la fiche officielle Atavik correspondante."
+ },
+ "mq-dog-033": {
+  sourceRevendeur:"https://www.croquettes-des-volcans.fr/chiens/975-bab-in-croquettes-canard-races-signature-12-kg.html",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"Le revendeur Bab’in Signature décrit une composition actuelle différente de la fiche historique : protéines de canard déshydratées 25 %, maïs, riz blanc de Camargue, protéines de poulet déshydratées 9 %, graisse de canard, œuf 4 %, farine de saumon 2 % et huile de poissons 1,2 %. Constituants publiés : protéines 32 %, matières grasses 16 %, fibres 2,6 %, cendres 7,4 %, humidité 8,5 %, calcium 1,6 %, phosphore 1 %, oméga-3 0,55 % et oméga-6 2,2 %. Glucosamine et chondroïtine sont publiées ensemble à 550 mg/kg, sans ventilation; aucune quantité séparée n’est inscrite.",
+  statutDonnees:"Analyse actuelle du revendeur structurée séparément de la composition historique; glucosamine et chondroïtine sont un total combiné non ventilé.",
+  donneesFabricantActuelles:{formule:"Bab’in Signature Adulte Canard — étiquette actuelle du revendeur",proteines:32,matieresGrasses:16,fibres:2.6,cendres:7.4,humidite:8.5,calcium:1.6,phosphore:1,omega3:0.55,omega6:2.2,composition:"Protéines de canard déshydratées (25 %), maïs, riz blanc de Camargue, protéines de poulet déshydratées (9 %), graisse de canard, poudre d’œuf (4 %), levure de bière (3,3 %), protéine de maïs, pulpe de betterave, farine de saumon (2 %), hydrolysat de protéines animales (2 %), lignocellulose, huile d’anchois et sardines sauvages (1,2 %), graines de chia, glucosamine et chondroïtine."}
+ },
+ "mq-dog-036": {
+  sourceFabricant:"https://www.belcando.de/belcando-adult-gf-beef",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  proteines:23.5,humidite:10,calcium:1.3,phosphore:1,sodium:0.35,energie:3590,taurine:500,
+  additifs:"Vitamine A 13 000 UI/kg, vitamine D3 1 300 UI/kg, vitamine E 130 mg/kg, taurine 500 mg/kg, cuivre 12,5 mg/kg, fer 200 mg/kg, manganèse 40 mg/kg, zinc 125 mg/kg, iode 2 mg/kg et sélénium 0,05 mg/kg; antioxydants naturels aux tocophérols.",
+  noteFabricant:"La fiche officielle BELCANDO Adult GF Beef correspond à la composition enregistrée (bœuf frais 40 %, amarante 18 %, protéines de bœuf 12,5 %, farine de poissons 2,5 %, krill 2,5 %). Elle publie protéines 23,5 %, matières grasses 13 %, fibres 3,5 %, cendres 7 %, humidité 10 %, calcium 1,3 %, phosphore 1 %, sodium 0,35 %, taurine 500 mg/kg et énergie 3 590 kcal/kg. Aucun chiffre oméga ou magnésium n’est publié sur la page; ces champs restent vides.",
+  statutDonnees:"Composition et constituants du fabricant ajoutés pour la même recette. Les oméga et le magnésium ne sont pas communiqués dans la source ouverte."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108c[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 4 (08/11/2026). */
+const crocamiManufacturerBatch20261108d = {
+ "mq-dog-030": {
+  sourceRevendeur:"https://www.anipro-distri.com/products-1/arion-adult-medium-chicken-20-kg",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  calcium:1.5,phosphore:0.9,
+  noteFabricant:"La fiche du distributeur ANIPRO reprend la composition ARION Original Adult Medium Chicken & Rice déjà enregistrée et confirme protéines 26 %, matières grasses 16 %, fibres 2 % et cendres 7 %, ainsi que calcium 1,5 % et phosphore 0,9 %. L’humidité, les oméga, la taurine et l’énergie ne sont pas indiqués dans cette fiche; ils restent non communiqués.",
+  statutDonnees:"Composition et analyse partielle recoupées avec la fiche distributeur de cette référence; les valeurs absentes restent non renseignées."
+ },
+ "mq-dog-031": {
+  sourceFabricant:"https://arquivet.com/en/products/fresh-meat-adult-lamb-rice-dog",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  proteines:27,matieresGrasses:17,fibres:2.9,cendres:7.9,humidite:9,calcium:1.55,phosphore:1.15,omega3:0.3,omega6:3,taurine:470,glucides:36.2,
+  noteFabricant:"La fiche officielle Arquivet Super Premium Lamb & Rice reprend la composition enregistrée et publie protéines 27 %, matières grasses 17 %, fibres 2,9 %, cendres 7,9 %, humidité 9 %, calcium 1,55 %, phosphore 1,15 %, oméga-3 0,3 %, oméga-6 3 %, taurine 470 mg/kg et L-carnitine 40 mg/kg. Les glucides à 36,2 % sont calculés par différence (100 − protéines − matières grasses − fibres − cendres − humidité); ils ne sont pas présentés comme une valeur mesurée par Arquivet. L’énergie n’est pas affichée.",
+  additifs:"Vitamine A 16 000 UI/kg, D3 1 800 UI/kg, E 200 mg/kg, C 75 mg/kg, fer 75 mg/kg, iode 3,5 mg/kg, cuivre 10 mg/kg, manganèse 7,5 mg/kg, zinc 150 mg/kg, sélénium 0,2 mg/kg, taurine 470 mg/kg et L-carnitine 40 mg/kg; antioxydants naturels riches en tocophérols.",
+  statutDonnees:"Composition et constituants publiés par Arquivet; glucides recalculés par différence après correction de la fibre à la valeur fabricant. Énergie non publiée."
+ },
+ "mq-dog-038": {
+  sourceFabricant:"https://bfpetfood.nl/products/geperst-adult",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche actuelle du fabricant BF Petfood Geperst Adult indique bœuf, poulet et poisson (30 % au total), blé, maïs, pulpe de betterave, levure et échinacée. Cette liste ne correspond pas à la composition détaillée historique de Crocami (notamment sanglier 9 % et farine de poisson 8 %). Les données actuelles sont donc conservées séparément sans remplacer l’ancienne recette.",
+  statutDonnees:"La fiche fabricant actuelle confirme une recette de la gamme pressée, mais les ingrédients diffèrent de la référence historique; ne pas fusionner les compositions.",
+  donneesFabricantActuelles:{formule:"BF Petfood Geperst Adult — fiche fabricant actuelle",proteines:25,matieresGrasses:8,fibres:2.5,cendres:7,calcium:1.7,phosphore:1.1,energie:3650,composition:"Bœuf, poulet et poisson (30 % au total, dont huile de saumon et graisse de poulet), blé, remoulage de blé, maïs, pulpe de betterave, levure de bière, minéraux et échinacée."}
+ },
+ "mq-dog-039": {
+  sourceFabricant:"https://shop.blackcanyon.de/311/black-canyon-buffalo-creek-makrele-bueffel?c=35",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche fabricant actuelle BLACK CANYON Buffalo Creek publie maquereau frais 30 %, protéines animales séchées de buffle et porc 26 % au total, pois 15 %, pommes de terre 14 % et graisse de poulet 9 %. Elle ne ventile pas les 26 % entre buffle et porc, contrairement aux parts historiques enregistrées (18 % et 8 %). L’analyse actuelle est également distincte et reste dans son propre panneau.",
+  statutDonnees:"Composition actuelle du fabricant conservée séparément; la répartition entre buffle et porc n’est pas précisée et ne doit pas être déduite.",
+  donneesFabricantActuelles:{formule:"BLACK CANYON Buffalo Creek — fiche fabricant actuelle",proteines:30,matieresGrasses:18,fibres:2.4,cendres:8.5,humidite:8,calcium:1.55,phosphore:1.3,energie:3950,composition:"Maquereau frais (30 %), protéines animales séchées (buffle et porc, 26 % au total, répartition non indiquée), pois pelés (15 %), pommes de terre (14 %), graisse de poulet (9 %), fèves, graines de lin (2 %), pulpe de betterave, levure de bière, algues, prébiotiques FOS et MOS, yucca, pissenlit, grenade et ananas."}
+ },
+ "mq-dog-040": {
+  sourceFabricant:"https://www.bosch-tiernahrung.de/bosch_de_en/hpc-adult-lamm-reis.html",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle Bosch Adult with Lamb & Rice décrit une formule actuelle différente de la composition historique du catalogue : volaille fraîche 20 %, riz 16 %, orge, maïs, mil, protéines de volaille déshydratées et protéines d’agneau 4 %. Les valeurs fabricant sont enregistrées dans le panneau distinct; l’humidité n’est pas chiffrée sur la page.",
+  statutDonnees:"Formule et données analytiques actuelles du fabricant séparées de la fiche historique; humidité non communiquée.",
+  donneesFabricantActuelles:{formule:"Bosch HPC Adult Lamb & Rice — fiche fabricant actuelle",proteines:21.5,matieresGrasses:10.5,fibres:2.5,cendres:5.8,calcium:1.1,phosphore:0.8,magnesium:0.1,sodium:0.3,potassium:0.5,energie:3630,composition:"Volaille fraîche (20 %), riz (16 %), orge, maïs, millet, protéines de volaille déshydratées, protéines d’agneau déshydratées (4 %), huile de poisson (2 %), pulpe de betterave, hydrolysat de protéines, graisse de volaille, levure, sel, chlorure de potassium, moule verte et chicorée."}
+ },
+ "mq-dog-043": {
+  sourceFabricant:"https://brit-petfood.com/en/products/dogs/275658-brit-fresh-turkey-with-pea-adult-fit-and-slim",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  humidite:10,calcium:1.6,phosphore:1.1,omega3:0.7,omega6:0.85,energie:3460,glucosamine:1700,chondroitine:1300,
+  noteFabricant:"La fiche officielle Brit Fresh Turkey with Pea Adult Fit & Slim correspond à la dinde et aux pois de la fiche. Elle complète l’analyse avec humidité 10 %, oméga-3 0,7 %, oméga-6 0,85 %, EPA 0,2 %, DHA 0,4 %, calcium 1,6 %, phosphore 1,1 % et énergie 3 460 kcal/kg. La formule détaille glucosamine 1 700 mg/kg et chondroïtine 1 300 mg/kg.",
+  additifs:"Glucosamine 1 700 mg/kg, sulfate de chondroïtine 1 300 mg/kg, FOS 220 mg/kg, bêta-glucanes 200 mg/kg, MOS 180 mg/kg, yucca 150 mg/kg, moule verte 100 mg/kg et probiotiques Enterococcus faecium 10⁹ UFC/kg; vitamines A 22 000 UI, D3 1 800 UI, E 600 mg, C 500 mg, L-carnitine 550 mg, choline 750 mg, biotine 0,9 mg, B1 7 mg, B2 9 mg, niacinamide 42 mg, acide pantothénique 22 mg, B6 8 mg, acide folique 1 mg, B12 0,06 mg, zinc 120 mg, fer 95 mg, manganèse 50 mg, iode 0,9 mg, cuivre 20 mg et sélénium 0,2 mg par kg.",
+  statutDonnees:"Composition, analyse et additifs recoupés avec la page officielle Brit Fresh correspondant à cette recette."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108d[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 5 (08/11/2026). */
+const crocamiManufacturerBatch20261108e = {
+ "mq-dog-046": {
+  sourceFabricant:"https://canagan.sk/canagan-free-range-chicken-for-dogs",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La page Canagan Free-Range Chicken reprend la composition de la fiche historique mais publie une analyse différente : protéines 33 %, matières grasses 17 %, fibres 3,5 %, cendres 9 %, humidité 8,5 %, calcium 1,86 %, phosphore 1,42 %, oméga-6 2,8 % et oméga-3 0,9 %. Elle ajoute glucosamine 1 000 mg/kg, MSM 1 000 mg/kg et chondroïtine 700 mg/kg. Ces chiffres sont conservés comme données de la fiche fabricant consultée, séparément des chiffres historiques du catalogue.",
+  statutDonnees:"Composition reconnue; analyse de la page fabricant distincte de l’analyse historique conservée dans la fiche.",
+  donneesFabricantActuelles:{formule:"Canagan Free-Range Chicken — fiche fabricant consultée",proteines:33,matieresGrasses:17,fibres:3.5,cendres:9,humidite:8.5,calcium:1.86,phosphore:1.42,omega3:0.9,omega6:2.8,glucosamine:1000,chondroitine:700,composition:"Poulet désossé élevé en plein air et fraîchement préparé (26 %), poulet déshydraté (25 %), patate douce, pois, pomme de terre, protéine de pois, luzerne, graisse de poulet (3,1 %), œuf déshydraté (3,1 %), sauce au poulet (1,6 %), huile de saumon (1,2 %), minéraux, vitamines, glucosamine (1 000 mg/kg), MSM (1 000 mg/kg), pomme, carotte, épinards, psyllium, algues, FOS, chondroïtine (700 mg/kg) et plantes."}
+ },
+ "mq-dog-051": {
+  sourceFabricant:"https://www.eukanuba.eu/dog/dry-food/life-care/adult-large-breed-rich-in-fresh-chicken",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche EUKANUBA actuelle Adult Large Breed Rich in Fresh Chicken présente une formule modifiée par rapport à la composition historique du catalogue : poulet frais 20 %, dinde et poulet séchés 19 % (dont poulet 13 %), puis maïs, blé, orge, avoine et sorgho. La page actuelle publie protéines 24 %, matières grasses 13 %, fibres 2,4 %, cendres 6,2 %, calcium 1,2 %, phosphore 1 %, oméga-6 2,11 %, oméga-3 0,29 %, glucosamine 0,04 % (400 mg/kg) et L-carnitine 50 mg/kg. L’humidité, l’énergie et une teneur chiffrée en taurine ne sont pas publiées.",
+  statutDonnees:"Formule et valeurs fabricant actuelles séparées de la fiche historique; humidité, énergie et taurine chiffrée non publiées.",
+  donneesFabricantActuelles:{formule:"EUKANUBA Adult Large Breed Rich in Fresh Chicken — formule fabricant actuelle",proteines:24,matieresGrasses:13,fibres:2.4,cendres:6.2,calcium:1.2,phosphore:1,omega3:0.29,omega6:2.11,glucosamine:400,lCarnitineMinimum:50,composition:"Poulet frais (20 %), poulet et dinde séchés (19 %, dont poulet 13 %), maïs, blé, orge, avoine, sorgho, graisse de volaille, pulpe de betterave (2,5 %), sauce au poulet, gruau de maïs, minéraux dont hexamétaphosphate de sodium (0,34 %), FOS (0,25 %), œuf entier séché, levure de bière et glucosamine (0,04 %)."}
+ },
+ "mq-dog-052": {
+  sourceFabricant:"https://www.farmina.com/sa/eshop/dog-food/n%26d-prime-canine/588-chicken-%26-pomegranate-adult-medium-%26-maxi.html",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle Farmina N&D Prime Chicken & Pomegranate Adult Medium & Maxi reprend la recette du catalogue. Elle publie des seuils garantis, conservés comme tels dans le panneau distinct : protéines min. 34 %, matières grasses min. 18 %, fibres max. 2,6 %, humidité max. 9 %, cendres max. 7,8 %, calcium min. 1 %, phosphore min. 0,8 %, oméga-6 min. 3,3 %, oméga-3 min. 0,9 %, DHA min. 0,5 %, EPA min. 0,3 %, glucosamine min. 1 000 mg/kg et chondroïtine min. 700 mg/kg. Énergie métabolisable : 3 999 kcal/kg. Taurine ajoutée : 1 000 mg/kg. Il s’agit de garanties minimales/maximales, pas de valeurs moyennes.",
+  statutDonnees:"Valeurs garanties et additifs publiés par Farmina présentés séparément de l’analyse historique; énergie fabricant vérifiée.",
+  donneesFabricantActuelles:{formule:"Farmina N&D Prime Chicken & Pomegranate Adult Medium & Maxi — garanties fabricant",proteinesMinimum:34,matieresGrassesMinimum:18,fibresMaximum:2.6,cendresMaximum:7.8,humiditeMaximum:9,calciumMinimum:1,phosphoreMinimum:0.8,omega6Minimum:3.3,omega3Minimum:0.9,dhaMinimum:0.5,epaMinimum:0.3,glucosamineMinimum:1000,chondroitineMinimum:700,energie:3999,taurineAjoutee:1000}
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108e[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 6 (08/11/2026). */
+const crocamiManufacturerBatch20261108f = {
+ "mq-dog-041": {
+  sourceRevendeur:"https://www.hondenvoertekoop.com/bozita-bozita-original-grain-free/",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  humidite:10,calcium:1.4,phosphore:1.1,omega3:0.5,omega6:2.8,
+  noteFabricant:"La fiche revendeur Bozita Original Grain Free reprend la formule poulet 39 % déjà enregistrée (poulet séché 24 %, frais 15 %). Elle confirme protéines 26 %, matières grasses 16 %, fibres 3 %, cendres 7,5 %, humidité 10 %, calcium 1,4 %, phosphore 1,1 %, oméga-6 2,8 % et oméga-3 0,5 %. L’énergie affichée par des revendeurs varie; elle reste vide sans valeur fabricant vérifiée pour cette recette exacte.",
+  statutDonnees:"Composition et analyse concordantes avec la fiche revendeur Bozita Original Grain Free; énergie omise car les pages consultées ne concordent pas."
+ },
+ "mq-dog-042": {
+  sourceFabricant:"https://www.braverypetfood.com/producto/bravery-dog-chicken-adult-large-medium-breeds/",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  humidite:9,calcium:1.6,phosphore:0.95,epaDha:0.56,taurine:1200,glucosamine:380,chondroitine:240,
+  noteFabricant:"La fiche officielle BRAVERY Chicken Adult Dog (Medium/Large) confirme les protéines 26 %, matières grasses 15 %, fibres 2,5 % et cendres 7,9 % de la fiche, et publie humidité 9 %, calcium 1,6 %, phosphore 0,95 %, EPA+DHA combinés 0,56 %, glucosamine 380 mg/kg, chondroïtine 240 mg/kg et taurine 1 200 mg/kg. EPA et DHA ne sont pas séparés et ne sont pas enregistrés séparément.",
+  additifs:"Vitamine A 22 000 UI/kg, D3 1 600 UI/kg, E 460 mg/kg, C 200 mg/kg, biotine 2 000 µg/kg, L-carnitine 60 mg/kg, chlorure de choline 1 800 mg/kg, taurine 1 200 mg/kg, fer 72 mg/kg au total, cuivre 8,9 mg/kg au total, manganèse 50 mg/kg au total, zinc 122 mg/kg au total, iode 2 mg/kg, sélénium 0,22 mg/kg; glucosamine 380 mg/kg, chondroïtine 240 mg/kg. EPA+DHA 0,56 % combinés.",
+  statutDonnees:"Valeurs analytiques et additifs vérifiés sur la page officielle Bravery; EPA et DHA ne sont publiés qu’en valeur combinée."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108f[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 7 (08/11/2026). */
+const crocamiManufacturerBatch20261108g = {
+ "mq-cat-038": {
+  sourceFabricant:"https://gosbi.com/en/ES/product/gosbi-original-cat-sterilized-with-chicken/126",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  energie:3617,taurine:1200,
+  noteFabricant:"La fiche officielle Gosbi Original Cat Sterilized with Chicken correspond à la composition et aux valeurs déjà enregistrées (protéines 31 %, matières grasses 10 %, cendres 8 %, fibres 3 %). Elle publie énergie 3 617 kcal/kg et taurine 1 200 mg/kg, ajoutées ici. La page consultée ne chiffre ni humidité, ni calcium, phosphore, magnésium ou oméga.",
+  additifs:"Vitamine A 22 000 UI/kg, D3 1 500 UI/kg, E 120 mg/kg, taurine 1 200 mg/kg, fer 320 mg/kg, iode 0,5 mg/kg, cuivre 8 mg/kg, manganèse 6 mg/kg, zinc 145 mg/kg, sélénium 0,2 mg/kg et DL-méthionine 1 400 mg/kg.",
+  statutDonnees:"Composition et analyse partielle recoupées avec la fiche officielle Gosbi; humidité, minéraux et oméga non publiés sur la page."
+ },
+ "mq-cat-041": {
+  sourceFabricant:"https://iams.eu/en-gb/cat/dry-food/dry-food-adult-fresh-chicken",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle IAMS Advanced Nutrition Adult Fresh Chicken correspond à la composition de cette référence et confirme protéines 35 %, matières grasses 14 %, fibres 1,9 %, cendres 6,7 %, calcium 1,3 %, phosphore 1,1 %, magnésium 0,096 %, oméga-6 2,8 %, oméga-3 0,29 % et taurine 0,2 % (2 000 mg/kg). L’humidité et l’énergie ne sont pas publiées sur la page consultée.",
+  statutDonnees:"Composition et valeurs analytiques recoupées avec la fiche officielle IAMS; humidité et énergie non communiquées."
+ },
+ "d09": {
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  sodium:0.35,
+  noteFabricant:"La fiche officielle Josera Light & Vital confirme la composition et les valeurs de la fiche : protéines 29 %, matières grasses 7,5 %, fibres 7 %, cendres 6,7 %, calcium 1,3 %, phosphore 0,9 %, sodium 0,35 %, taurine 1 500 mg/kg et énergie 3 162 kcal/kg. L’humidité et les oméga ne sont pas publiés sur cette page.",
+  additifs:"Vitamine A 24 000 UI/kg, D3 1 800 UI/kg, E 400 mg/kg, C 150 mg/kg, B1 15 mg/kg, B2 20 mg/kg, B6 20 mg/kg, B12 100 µg/kg, pantothénate de calcium 50 mg/kg, niacinamide 90 mg/kg, acide folique 5 mg/kg, biotine 1 000 µg/kg, L-carnitine 500 mg/kg, fer 110 mg/kg, zinc 120 mg/kg, manganèse 9 mg/kg, cuivre 12 mg/kg, iode 1,4 mg/kg et sélénium 0,1 mg/kg.",
+  statutDonnees:"Fiche officielle Josera consultée : teneurs déjà présentes confirmées et sodium/additifs précisés. Humidité et oméga non publiés."
+ },
+ "mq-dog-059": {
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  sodium:0.35,
+  noteFabricant:"La fiche officielle Josera Light & Vital confirme la composition et les valeurs de cette référence : protéines 29 %, matières grasses 7,5 %, fibres 7 %, cendres 6,7 %, calcium 1,3 %, phosphore 0,9 %, sodium 0,35 %, taurine 1 500 mg/kg et énergie 3 162 kcal/kg. L’humidité et les oméga ne sont pas publiés sur cette page.",
+  additifs:"Vitamine A 24 000 UI/kg, D3 1 800 UI/kg, E 400 mg/kg, C 150 mg/kg, B1 15 mg/kg, B2 20 mg/kg, B6 20 mg/kg, B12 100 µg/kg, pantothénate de calcium 50 mg/kg, niacinamide 90 mg/kg, acide folique 5 mg/kg, biotine 1 000 µg/kg, L-carnitine 500 mg/kg, fer 110 mg/kg, zinc 120 mg/kg, manganèse 9 mg/kg, cuivre 12 mg/kg, iode 1,4 mg/kg et sélénium 0,1 mg/kg.",
+  statutDonnees:"Fiche officielle Josera consultée : teneurs confirmées et sodium/additifs précisés. Humidité et oméga non publiés."
+ },
+ "c06": {
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle IAMS Advanced Nutrition Adult Fresh Chicken correspond à la composition de cette référence. Elle publie protéines 35 %, matières grasses 14 %, fibres 1,9 %, cendres 6,7 %, calcium 1,3 %, phosphore 1,1 %, magnésium 0,096 %, oméga-6 2,8 %, oméga-3 0,29 % et taurine 0,2 % (2 000 mg/kg). Humidité et énergie non publiées.",
+  statutDonnees:"Composition et analyse recoupées avec la fiche officielle IAMS; humidité et énergie non communiquées."
+ },
+ "c12": {
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle IAMS Advanced Nutrition Senior 7+ Fresh Chicken déjà liée à cette référence publie protéines 35 %, matières grasses 12,5 %, fibres 2 %, cendres 6,8 %, calcium 1,3 %, phosphore 1,1 %, magnésium 0,098 %, oméga-6 2,67 %, oméga-3 0,27 % et taurine 0,2 % (2 000 mg/kg). Humidité et énergie non publiées.",
+  statutDonnees:"Valeurs confirmées sur la fiche officielle IAMS Senior déjà associée; humidité et énergie restent non communiquées."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108g[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 8 (08/11/2026). */
+const crocamiManufacturerBatch20261108h = {
+ "mq-cat-040": {
+  sourceFabricant:"https://www.hillspet.fr/cat-food/science-plan-adult-chicken-dry",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle Hill’s Science Plan Adult Chicken consultée publie une recette et une analyse actuelles. La composition actuelle indique poulet et dinde déshydratés (volaille totale 26 %, dont poulet 16 %), blé, maïs, graisses animales, protéines de maïs, brisures de riz, betterave, huile de poisson, huile végétale, son d’avoine et FOS. Les résultats actuels (protéines 31,9 %, matières grasses 19,7 %, fibres 1,4 %, cendres 5,5 %, humidité 4 %, calcium 0,75 %, phosphore 0,74 %, sodium 0,42 %, potassium 0,8 %, magnésium 0,082 %, oméga-3 0,42 %, oméga-6 3,04 %, taurine 1 945 mg/kg et énergie 4 161 kcal/kg) sont conservés à part de la fiche de départ.",
+  statutDonnees:"Formule et analyse actuelles Hill’s conservées séparément de la fiche historique; valeurs manquantes de l’étiquette non inventées.",
+  donneesFabricantActuelles:{formule:"Hill’s Science Plan Adult Chicken — page fabricant France consultée",proteines:31.9,matieresGrasses:19.7,fibres:1.4,cendres:5.5,humidite:4,calcium:0.75,phosphore:0.74,sodium:0.42,potassium:0.8,magnesium:0.082,omega3:0.42,omega6:3.04,taurine:1945,energie:4161,composition:"Protéines déshydratées de poulet et de dinde (poulet 16 %, volaille totale 26 %), froment, maïs, graisses animales, protéines déshydratées de maïs, brisures de riz, hydrolysat, matières minérales, pulpe de betterave séchée, huile de poisson, huile végétale, son d’avoine et FOS (mélange ActivBiome+ 0,6 %)."}
+ },
+ "mq-dog-082": {
+  sourceFabricant:"https://www.specific-diets.fr/archive/archive-alimentation-quotidienne-1/adult-medium-breed-cxd-m-fr",
+  verificationFabricant:"formule_source_archivee",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La page fabricant SPECIFIC CXD-M est conservée dans la rubrique archive. Elle publie pour sa formule archivée : protéines 22,6 %, matières grasses 11,3 %, fibres 2,1 %, ENA 50,6 %, calcium 0,7 %, phosphore 0,62 %, sodium 0,23 %, eau 8,5 %, oméga-3 0,62 %, EPA 0,21 %, DHA 0,22 % et énergie 373 kcal/100 g. Les données de cette page archivée sont séparées des valeurs Macroquette et ne sont pas présentées comme l’étiquette actuelle.",
+  statutDonnees:"Source fabricant archivée; composition et résultats historiques conservés dans un panneau séparé, sans les confondre avec les données du catalogue.",
+  donneesFabricantActuelles:{formule:"SPECIFIC CXD-M Adult Medium Breed — fiche fabricant archivée",proteines:22.6,matieresGrasses:11.3,fibres:2.1,glucides:50.6,humidite:8.5,calcium:0.7,phosphore:0.62,sodium:0.23,omega3:0.62,epa:0.21,dha:0.22,energie:3730}
+ },
+ "mq-cat-061": {
+  sourceFabricant:"https://www.specific-diets.fr/chat/alimentation-quotidienne/fxd-adult",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle SPECIFIC FXD Adult fournit l’analyse actuelle complète : protéines 32 %, matières grasses 9,4 %, cellulose 5 %, ENA 40,3 %, calcium 0,73 %, phosphore 0,63 %, magnésium 0,06 %, sodium 0,33 %, oméga-3 0,54 %, EPA 0,17 %, DHA 0,18 %, humidité 7,5 % et énergie 355 kcal/100 g. Comme certains chiffres diffèrent des anciennes données de départ, ils sont présentés séparément et ne remplacent pas l’analyse historique.",
+  statutDonnees:"Composition et valeurs actuelles fabricant structurées séparément de la fiche de départ; la source ne fournit pas l’oméga-6.",
+  donneesFabricantActuelles:{formule:"SPECIFIC FXD Adult — analyse fabricant actuelle",proteines:32,matieresGrasses:9.4,fibres:5,glucides:40.3,calcium:0.73,phosphore:0.63,magnesium:0.06,sodium:0.33,omega3:0.54,epa:0.17,dha:0.18,humidite:7.5,energie:3550}
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108h[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 9 (08/11/2026). */
+const crocamiManufacturerBatch20261108i = {
+ "mq-dog-029": {
+  sourceFabricant:"https://www.ardengrange.com/arden-grange-adult-with-fresh-lamb-rice-dry-food-2-x-14-kg.html",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La page fabricant Arden Grange Adult with Fresh Lamb & Rice décrit la recette du même nom, mais son analyse diffère de la fiche historique : protéines 25 %, matières grasses 15 %, cendres 7 %, fibres 2,5 %, calcium 1,2 %, phosphore 0,75 %, oméga-3 0,85 % et oméga-6 3,1 %. Les données actuelles sont conservées à part; elles ne complètent pas rétroactivement l’ancienne formule. Humidité et énergie non publiées sur la source ouverte.",
+  statutDonnees:"Formule fabricant consultée distincte de l’enregistrement historique; les deux profils sont séparés.",
+  donneesFabricantActuelles:{formule:"Arden Grange Adult with Fresh Lamb & Rice — fiche fabricant consultée",proteines:25,matieresGrasses:15,fibres:2.5,cendres:7,calcium:1.2,phosphore:0.75,omega3:0.85,omega6:3.1,composition:"Agneau (farine de viande d’agneau 29 %, agneau frais 5 %), riz 26 %, maïs, huile de poulet raffinée, pulpe de betterave, œuf entier séché, digest de poulet, levure, lin, krill, minéraux, FOS, MOS, yucca, glucosamine, MSM, chondroïtine, canneberges et nucléotides."}
+ },
+ "mq-dog-037": {
+  sourceFabricant:"https://www.belcando.de/belcando-adult-light",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  proteines:19.8,matieresGrasses:9,fibres:5,cendres:6.5,humidite:10,calcium:1,phosphore:0.8,sodium:0.25,taurine:500,energie:3330,
+  noteFabricant:"La composition de la fiche BELCANDO Adult Light concorde avec la recette fabricant : volaille fraîche 30 %, farine d’avoine 17,5 %, protéine de volaille 10 %, poisson de mer 2,5 % et chia 1,5 %. L’analyse officielle précise protéines 19,8 %, matières grasses 9 %, fibres 5 %, cendres 6,5 %, humidité 10 %, calcium 1 %, phosphore 0,8 %, sodium 0,25 %, taurine 500 mg/kg et énergie 3 330 kcal/kg. Les glucides restent un calcul par différence, non une valeur fabricant publiée.",
+  additifs:"Vitamine A 15 000 UI/kg, D3 1 500 UI/kg, E 150 mg/kg, taurine 500 mg/kg, L-carnitine 200 mg/kg, cuivre 12,5 mg/kg, fer 200 mg/kg, manganèse 40 mg/kg, zinc 125 mg/kg, iode 2 mg/kg et sélénium 0,05 mg/kg; extraits de tocophérols d’huiles végétales.",
+    statutDonnees:"Recette et analyse fabricant concordantes; données analytiques manquantes complétées, glucides calculés par différence à 49,7 % (non publiés comme tels par le fabricant)."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108i[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+// Vérifications complémentaires des marques demandées, 8 novembre 2026.
+const crocamiManufacturerBatch20261108k = {
+ "mq-dog-037": { glucides:49.7 },
+ "mq-dog-080": {
+   sourceFabricant:"https://www.maxizoo.fr/p/select-gold-complete-croquettes-chien-adulte-medium-poulet-4-kg-1001478007/",
+   verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+   humidite:10,cendres:7.2,calcium:1.25,phosphore:0.86,glucides:42.3,
+   premierIngredient:"Viande fraîche de poulet (20 %)",
+   compositionComplete:"Viande fraîche de poulet (20 %), protéines de poulet (20 %), maïs (17,5 %), farine de maïs (17,5 %), riz (6,8 %), sorgho (4 %), protéines de poulet hydrolysées (3 %), pulpe de betterave déshydratée (3 %), huiles et graisses (2,1 %), lignocellulose (1,8 %), graines de lin (0,5 %), chlorure de sodium (0,4 %), parois cellulaires de levure (0,4 %), carbonate de calcium (0,35 %), chlorure de potassium (0,3 %), inuline de chicorée (0,2 %).",
+   noteFabricant:"La fiche Maxi Zoo France correspondant à cette recette confirme protéines 25 %, matières grasses 12 %, cendres 7,2 %, fibres 3,5 %, calcium 1,25 %, phosphore 0,86 %, humidité 10 % et additifs. Les glucides 42,3 % sont calculés par différence à partir de ces constituants, pas une valeur publiée par le distributeur. L’énergie et les oméga ne sont pas publiés sur la page consultée.",
+   additifs:"Vitamine A 12 000 UI/kg, vitamine D3 1 600 UI/kg, cuivre 12,5 mg/kg, fer 250 mg/kg, iode 2 mg/kg, manganèse 30 mg/kg, sélénium 0,35 mg/kg et zinc 140 mg/kg.",
+   statutDonnees:"Recette et constituants recoupés sur la fiche Maxi Zoo France de la référence exacte; glucides calculés par différence."
+ },
+ "mq-dog-081": {
+   sourceFabricant:"https://www.simpsonspremium.com/collections/adult-dog-food/products/adult-sensitive-salmon-potato",
+   verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+   calcium:1.12,phosphore:0.7,omega3:1.18,omega6:4.34,
+   noteFabricant:"La fiche fabricant Simpsons Premium Adult Sensitive Salmon & Potato confirme la recette au saumon (minimum 45 %) et les valeurs déjà affichées : protéines 25 %, matières grasses 14 %, fibres 3 %, cendres 8 %. Elle publie également calcium 1,12 %, phosphore 0,7 %, oméga-6 4,34 % et oméga-3 1,18 %. Humidité, énergie, taurine et glucides ne sont pas chiffrés sur la fiche; ils ne sont pas déduits sans base complète.",
+   statutDonnees:"Valeurs publiées fabricant ajoutées; humidité, énergie, taurine et glucides restent non communiqués."
+ },
+ "mq-dog-093": {
+   sourceFabricant:"https://www.zooplus.co.uk/shop/dogs/dry_dog_food/wolf_of_wilderness/dry/480825?activeVariant=480825.1",
+   verificationFabricant:"formule_historique_et_actuelle_distinguees",dateVerificationFabricant:"2026-11-08",
+   noteFabricant:"La fiche Zooplus identifie l’ancienne recette Green Fields Lamb (poulet frais 41 %, protéines 25 %, matières grasses 14 %, cendres 7,9 %, fibres 2,5 %, calcium 1,2 %, phosphore 0,95 %, énergie 3 780 kcal/kg) et affiche aussi une recette actuelle distincte, avec poulet frais 25 %. L’analyse historique concordante reste celle de la fiche de départ; la nouvelle liste d’ingrédients n’est pas fusionnée dans cette ancienne fiche.",
+   donneesFabricantActuelles:{formule:"Wolf of Wilderness Adult Green Fields Lamb — nouvelle recette Zooplus",composition:"Poulet frais 25 %, flocons de pomme de terre, protéines de volaille 12,5 %, pois, graisse de volaille, amidon de pomme de terre, protéines d’agneau 4 %, pulpe de betterave, protéines de pois, pulpe de pomme, lin, levure, phosphate monocalcique, sel, huile de saumon, baies, parois de levure, huile de tournesol, inuline et herbes.",energie:3710},
+   statutDonnees:"Les analyses disponibles pour l’ancienne formule sont distinguées de la recette actuelle publiée par le revendeur."
+ },
+ "mq-dog-094": {
+   sourceFabricant:"https://www.wolfood.fr/produit/adult-fish/",
+   verificationFabricant:"formule_actuelle_confirmee_partiellement",dateVerificationFabricant:"2026-11-08",
+   noteFabricant:"La fiche officielle Wolfood Fish & Rice décrit la formule actuelle : saumon déshydraté 30 %, riz 26 %, saumon frais 15 %, huile de poisson 8,5 % et poisson hydrolysé 3 %. Elle publie protéines 33 %, matières grasses 15 %, matières minérales 7,7 %, cellulose 2,5 %, calcium 1,4 %, phosphore 1,1 %, oméga-6 2,5 %, oméga-3 2,2 %, taurine 500 mg/kg et énergie 382 kcal/100 g. Ces données actuelles divergent de la fiche d’origine (matières grasses 16 %, oméga-3 1,5 %); les formules sont conservées séparément.",
+   donneesFabricantActuelles:{formule:"Wolfood Fish & Rice / Adult Fish — fiche officielle actuelle",proteines:33,matieresGrasses:15,fibres:2.5,cendres:7.7,calcium:1.4,phosphore:1.1,omega3:2.2,omega6:2.5,taurine:500,energie:3820,composition:"Saumon déshydraté 30 %, riz 26 %, saumon fraîchement préparé 15 %, huile de poisson 8,5 %, pulpe de pomme déshydratée, protéine de fermentation, poisson hydrolysé 3 %, avoine, orge, pulpe de betterave, protéine de riz, minéraux, glucosamine, chondroïtine, inuline, spiruline, paroi de levure et yucca.",additifs:"Vitamine A 12 500 UI/kg, D3 1 250 UI/kg, E 600 mg/kg, fer 75 mg/kg, manganèse 7,5 mg/kg, cuivre 10 mg/kg, zinc 120 mg/kg, iode 3,5 mg/kg, sélénium 0,12 mg/kg, taurine 500 mg/kg et L-carnitine 250 mg/kg."},
+   statutDonnees:"Formule actuelle documentée séparément de la composition initialement cataloguée; étiquetage ne fournit pas humidité ni glucides."
+ },
+ "mq-dog-092": {
+   sourceFabricant:"https://www.wellnesspetfood.com/product-catalog/wellness-core-grain-free-original-turkey-chicken/",
+   verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+   noteFabricant:"La fiche officielle Wellness CORE Original Turkey & Chicken confirme l’identité de la recette, mais ses garanties actuelles diffèrent de la fiche de départ. Les valeurs fabricant sont donc isolées ci-dessous : protéines 34 % minimum, matières grasses 15 % minimum, fibres 4,5 % maximum, humidité 10 % maximum, calcium 1,5 % minimum, phosphore 1 % minimum, taurine 2 000 mg/kg minimum, oméga-6 3,5 % minimum et oméga-3 0,5 % minimum.",
+   donneesFabricantActuelles:{formule:"Wellness CORE Original Turkey & Chicken — garanties fabricant actuelles",proteinesMinimum:34,matieresGrassesMinimum:15,fibresMaximum:4.5,humiditeMaximum:10,calciumMinimum:1.5,phosphoreMinimum:1,omega6Minimum:3.5,omega3Minimum:0.5,taurine:2000,glucosamineMinimum:1200,chondroitineMinimum:700,composition:"Dinde désossée, farine de dinde, farine de poulet, lentilles, levure, pommes de terre, pois, graisse de poulet, pulpe de betterave, graines de lin, arôme naturel, chicorée, huile de saumon, taurine, vitamines, minéraux, légumes, fruits, probiotiques, romarin, thé vert et menthe."},
+   statutDonnees:"Garanties actuelles du fabricant affichées séparément, en précisant les minima et maxima publiés."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108k[product.id];
+ if (update) Object.assign(product, update);
+}
+
+const crocamiManufacturerBatch20261108l = {
+ "mq-cat-059": {
+   sourceFabricant:"https://www.select-gold.com/en-ir/products-cat/p/select-gold-digestion-adult-poultry-with-rice-bag-dry-food",
+   verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+   noteFabricant:"La fiche officielle SELECT GOLD Sensitive Digestion Adult Poultry with Rice confirme l’identité de la recette, mais les proportions de viande, riz et matières grasses sont actualisées par rapport à la fiche historique. Les données affichées par le fabricant sont isolées ci-dessous. Il publie protéines 34 %, matières grasses 22 %, fibres 5 %, cendres 7 %, calcium 1,3 %, phosphore 1 %, oméga-6 4,6 %, oméga-3 1,01 %, taurine 2 000 mg/kg et DL-méthionine 2 500 mg/kg. Humidité et énergie non indiquées dans la fiche consultée.",
+   donneesFabricantActuelles:{formule:"SELECT GOLD Sensitive Digestion Adult Poultry with Rice — recette officielle actuelle",proteines:34,matieresGrasses:22,fibres:5,cendres:7,calcium:1.3,phosphore:1,omega6:4.6,omega3:1.01,taurine:2000,composition:"Protéines de volaille 33,5 % (dont poulet 28 %), riz 20 %, poulet frais 16 %, graisse de volaille 9,8 %, lignocellulose 4,9 %, pulpe de betterave 3 %, protéines de volaille hydrolysées 3 %, graines de lin 2 %, huile de saumon 1 %, foie de volaille hydrolysé 1 %, levure de bière 1 %, huile de tournesol 0,7 %, sel, poudre d’œuf, chlorure de potassium, inuline de chicorée, canneberges et psyllium.",additifs:"Vitamine A 16 000 UI/kg, D3 1 600 UI/kg, taurine 2 000 mg/kg, cuivre 15 mg/kg, fer 250 mg/kg, iode 1,7 mg/kg, manganèse 35 mg/kg, sélénium 0,4 mg/kg, zinc 150 mg/kg et DL-méthionine 2 500 mg/kg."},
+   statutDonnees:"Analyse de la formule fabricant actuelle distinguée de la fiche historique; humidité et énergie non communiquées."
+ },
+ "mq-cat-050": {
+   sourceFabricant:"https://www.orijenpetfoods.com/en-US/cats/cat-food/original-cat/ds-ori-cat-kitten.html",
+   verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+   noteFabricant:"La page officielle ORIJEN Original Cat fournit les garanties actuelles (protéines 40 % minimum, matières grasses 20 % minimum, fibres 3 % maximum, humidité 10 % maximum, calcium 1,4 % minimum, phosphore 1 % minimum, magnésium 0,1 % minimum, taurine 0,2 % minimum, oméga-6 3,5 % minimum, oméga-3 0,8 % minimum, DHA et EPA 0,2 % minimum, énergie 4 120 kcal/kg). Elles sont affichées à part car elles ne sont pas identiques aux données d’origine de la référence Cat & Kitten.",
+   donneesFabricantActuelles:{formule:"ORIJEN Original Cat — garanties fabricant actuelles",proteinesMinimum:40,matieresGrassesMinimum:20,fibresMaximum:3,humiditeMaximum:10,calciumMinimum:1.4,phosphoreMinimum:1,magnesiumMinimum:0.1,omega6Minimum:3.5,omega3Minimum:0.8,dhaMinimum:0.2,epaMinimum:0.2,taurineMinimum:2000,energie:4120},
+   statutDonnees:"Seuils minimum et maximum du fabricant présentés séparément de l’analyse historique du catalogue."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108l[product.id];
+ if (update) Object.assign(product, update);
+}
+
+const crocamiManufacturerBatch20261108m = {
+ "mq-dog-063": {
+   sourceFabricant:"https://www.nutrivet.fr/produit/croquettes-chien-balance/",
+   verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+   noteFabricant:"La fiche officielle Nutrivet identifie bien la gamme INNE Balance au poulet, sans céréales, pour chiens stérilisés ou en surpoids. Elle publie les additifs nutritionnels (A 28 800 UI/kg, D 1 440 UI/kg, fer 105 mg/kg, cuivre 12 mg/kg, manganèse 44 mg/kg, zinc 152 mg/kg, sélénium 0,2 mg/kg), mais la page consultée ne donne pas le tableau analytique ni le détail complet des ingrédients. Les valeurs non affichées ne sont donc pas complétées.",
+   donneesFabricantActuelles:{formule:"Nutrivet INNE Balance poulet — fiche officielle consultée",additifs:"Vitamine A 28 800 UI/kg, vitamine D 1 440 UI/kg, fer 105 mg/kg, cuivre 12 mg/kg, manganèse 44 mg/kg, zinc 152 mg/kg et sélénium 0,2 mg/kg."},
+   statutDonnees:"Additifs vérifiés sur la page officielle; analyse détaillée et composition complète non publiées sur cette page."
+ },
+ "mq-dog-083": {
+   sourceFabricant:"https://www.tasteofthewildpetfood.com/dog/grain-free/pacific-stream-with-smoke-flavored-salmon/",
+   verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+   noteFabricant:"La page officielle Taste of the Wild Pacific Stream confirme la référence au saumon, mais présente une formule actuelle différente de l’analyse du catalogue. Ses garanties actuelles sont conservées séparément : protéines 25 % minimum, matières grasses 15 % minimum, fibres 5 % maximum, humidité 10 % maximum, taurine 0,12 % minimum, oméga-6 2,4 % minimum, oméga-3 0,3 % minimum et énergie 3 600 kcal/kg. La page ne publie pas de calcium ni phosphore garantis.",
+   donneesFabricantActuelles:{formule:"Taste of the Wild Pacific Stream Canine — garanties officielles actuelles",proteinesMinimum:25,matieresGrassesMinimum:15,fibresMaximum:5,humiditeMaximum:10,taurineMinimum:1200,omega6Minimum:2.4,omega3Minimum:0.3,energie:3600},
+   statutDonnees:"Garanties actuelles du fabricant séparées de l’analyse historique; calcium et phosphore non publiés sur la page."
+ },
+ "mq-cat-045": {
+   sourceFabricant:"https://naturalgreatness.com/en/alimentacion-para-gatos/Wild-instinct",
+   verificationFabricant:"formule_actuelle_confirmee_partiellement",dateVerificationFabricant:"2026-11-08",
+   noteFabricant:"La fiche officielle Natural Greatness Wild Instinct Cat correspond à cette recette (poulet frais 40 %, viandes déshydratées de poulet et dinde 30 %). Le fabricant publie protéines 41 %, matières grasses 21 %, fibres 1,5 %, cendres 7,2 %, glucides 20,6 %, calcium 1,4 %, phosphore 1,1 %, magnésium 0,1 %, oméga-3 0,5 %, oméga-6 3,6 %, taurine 2 500 mg/kg, méthionine 2 400 mg/kg et énergie 4 100 kcal/kg. Ces détails actuels sont séparés des anciennes valeurs du catalogue.",
+   donneesFabricantActuelles:{formule:"Natural Greatness Wild Instinct Cat — fiche officielle actuelle",proteines:41,matieresGrasses:21,fibres:1.5,cendres:7.2,glucides:20.6,calcium:1.4,phosphore:1.1,magnesium:0.1,omega3:0.5,omega6:3.6,taurine:2500,energie:4100,composition:"Poulet frais 40 %, viandes déshydratées de poulet et de dinde 30 %, pommes de terre, huile de poulet 7,5 %, foie de poulet hydrolysé 5 %, pois, saumon déshydraté 2,5 %, pulpe de betterave, huile de saumon 0,8 %, levures, œuf déshydraté 0,5 %, chicorée, minéraux, extrait de malt, FOS, MOS, extraits d’agrumes, yucca, romarin, glucosamine et chondroïtine."},
+   statutDonnees:"Analyse officielle actuelle détaillée affichée séparément de la fiche historique."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108m[product.id];
+ if (update) Object.assign(product, update);
+}
+
+const crocamiManufacturerBatch20261108n = {
+ "mq-cat-073": {
+   sourceFabricant:"https://www.zooplus.co.uk/shop/cats/dry_cat_food/wild_freedom/adult/649066?activeVariant=649066.1",
+   verificationFabricant:"formule_actuelle_confirmee_partiellement",dateVerificationFabricant:"2026-11-08",
+   noteFabricant:"La fiche Zooplus Adult Cold River Salmon correspond à la recette de la fiche Crocami : 40 % de volaille fraîche, protéines 32 %, matières grasses 18 %, fibres 2 %, humidité 10 %, calcium 1,2 %, phosphore 0,8 %, taurine 1 400 mg/kg et énergie 3 950 kcal/kg. L’analyse indique aussi cendres 7,8 %, différente des 7 % de la donnée d’origine; elle est présentée séparément ci-dessous au lieu de remplacer l’historique. La page ne publie pas les oméga.",
+   donneesFabricantActuelles:{formule:"Wild Freedom Adult Cold River Salmon — formule Zooplus actuelle",proteines:32,matieresGrasses:18,fibres:2,cendres:7.8,humidite:10,calcium:1.2,phosphore:0.8,taurine:1400,energie:3950,additifs:"Vitamine A 15 000 UI/kg, D3 1 500 UI/kg, E 150 mg/kg, B1 12 mg/kg, B2 22 mg/kg, B6 12 mg/kg, B12 100 µg/kg, C 55 mg/kg, taurine 1 400 mg/kg, niacine 130 mg/kg, choline 2 000 mg/kg, cuivre 15 mg/kg, fer 200 mg/kg, manganèse 50 mg/kg, zinc 150 mg/kg, iode 2,5 mg/kg et sélénium 0,15 mg/kg."},
+   statutDonnees:"Analyse actuelle du distributeur affichée séparément; différence de cendres conservée, oméga non communiqués."
+ },
+ "mq-cat-074": {
+   sourceFabricant:"https://www.winnerplus.eu/ip/en/cat-feed/super-premium-dry-feed/dry-feed-for-cats/winner-plus-kittencat-new-recipe.html",
+   verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+   noteFabricant:"La fiche fabricant WINNER PLUS Kittencat « New recipe » présente une composition actuelle à base de dinde (21 %) et une analyse différente de la recette d’origine de Crocami. Les valeurs actuelles restent distinctes : protéines 34 %, matières grasses 22 %, fibres 2 %, cendres 6,5 %, calcium 1,4 %, phosphore 0,8 %, oméga-3 0,6 %, oméga-6 4 %, taurine 1 000 mg/kg et énergie 4 115 kcal/kg. Humidité non publiée sur la fiche consultée.",
+   donneesFabricantActuelles:{formule:"WINNER PLUS Kittencat — nouvelle recette fabricant",proteines:34,matieresGrasses:22,fibres:2,cendres:6.5,calcium:1.4,phosphore:0.8,omega3:0.6,omega6:4,taurine:1000,energie:4115,composition:"Dinde déshydratée 21 %, maïs, graisses animales, riz, extrait de protéines animales, poisson déshydraté 4 %, poulet déshydraté 4 %, levure de bière, pulpe de betterave, œuf déshydraté, fibres végétales, huile de saumon, inuline et huile de lin."},
+   statutDonnees:"Nouvelle recette et valeurs fabricant maintenues séparément de la fiche historique; humidité non publiée."
+ },
+ "mq-dog-074": {
+   sourceFabricant:"https://www.zooplus.fi/shop/koirat/kuivaruoka/purizon/purizon_adult/975091",
+   verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+   omega3:0.5,omega6:2,
+   compositionComplete:"Agneau frais (22 %), saumon frais (19 %), poulet déshydraté (12 %), agneau déshydraté (8 %), saumon déshydraté (8 %), pommes de terre, patates douces, graisse de volaille (6 %), protéines de volaille hydrolysées (4 %), pois, huile de saumon (1 %), fibres végétales, graines de lin, psyllium, pomme, carottes, canneberges, herbes et inuline de chicorée.",
+   noteFabricant:"La fiche Zooplus Purizon Adult Lamb & Salmon correspond aux proportions de recette de la fiche (agneau frais 22 %, saumon frais 19 %) et confirme protéines 39 %, matières grasses 19 %, fibres 2,5 %, cendres 8,9 %, calcium 1,9 %, phosphore 1,25 %, oméga-3 0,5 % et oméga-6 2 %. La page ne donne pas humidité, énergie ni taurine chiffrée; ces champs restent non communiqués.",
+   statutDonnees:"Recette et analyse recoupées sur la fiche exacte du distributeur; humidité, énergie et taurine non publiées."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108n[product.id];
+ if (update) Object.assign(product, update);
+}
+
+const crocamiManufacturerBatch20261108o = {
+ "mq-cat-032": {
+   sourceFabricant:"https://brit-petfood.com/fr/produits/chats/773599-brit-premium-by-nature-cat-adult-chicken",
+   verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+   noteFabricant:"La fiche officielle Brit Premium by Nature Cat Adult Chicken confirme la référence, mais son analyse actuelle diffère légèrement de la donnée d’origine. Les données fabricant sont conservées à part : poulet déshydraté 40 %, protéines 36 %, matières grasses 16 %, fibres 3,1 %, cendres 7,9 %, humidité 10 %, calcium 1,5 %, phosphore 1 %, sodium 0,3 %, magnésium 0,1 %, oméga-3 0,2 %, oméga-6 2,25 %, taurine 2 150 mg/kg et énergie 3 800 kcal/kg.",
+   donneesFabricantActuelles:{formule:"Brit Premium by Nature Cat Adult Chicken — recette officielle actuelle",proteines:36,matieresGrasses:16,fibres:3.1,cendres:7.9,humidite:10,calcium:1.5,phosphore:1,sodium:0.3,magnesium:0.1,omega3:0.2,omega6:2.25,taurine:2150,energie:3800,composition:"Poulet déshydraté 40 %, riz, graisse de poulet, pois, pulpe de pomme, foie de poulet hydrolysé 2 %, huile de saumon 1 %, épinards 0,5 %, MOS, FOS, yucca et plantes aromatiques.",additifs:"Vitamine A 20 000 UI/kg, D3 850 UI/kg, E 600 mg/kg, C 250 mg/kg, taurine 2 150 mg/kg, biotine 1,7 mg/kg, zinc 140 mg/kg, manganèse 50 mg/kg, fer 50 mg/kg, cuivre 10 mg/kg, iode 3,5 mg/kg, sélénium 0,16 mg/kg et L-méthionine 4 000 mg/kg."},
+   statutDonnees:"Recette actuelle et analyse officielle détaillées séparément de la fiche historique."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108o[product.id];
+ if (update) Object.assign(product, update);
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 10 (08/11/2026). */
+const crocamiManufacturerBatch20261108j = {
+ "mq-dog-027": {
+  sourceRevendeur:"https://www.tomandco.com/fr-fr/appetite-croquettes-sans-cereales-a-l-agneau-et-au-poulet-chien-adulte-tous-3kg.html",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche Tom&Co de la marque Appetite reprend exactement cette recette à l’agneau frais et poulet; elle confirme protéines 34 %, matières grasses 16 %, fibres 4 %, cendres 8,5 % et glucides 27 %. Les additifs nutritionnels et technologiques sont détaillés ci-dessous. La page consultée ne publie pas d’humidité, de calcium, de phosphore, d’oméga, d’énergie ni de taurine chiffrée; ces champs restent vides.",
+  additifs:"Vitamine A 15 000 UI/kg, D3 1 100 UI/kg, E 110 mg/kg, fer 50 mg/kg, iode 1,5 mg/kg, cuivre 10 mg/kg, manganèse 5 mg/kg, zinc 62,5 mg/kg et sélénium 0,15 mg/kg; sépiolite E562 1 260 mg/kg; antioxydants; Enterococcus faecium 10⁹ UFC/kg.",
+  statutDonnees:"Composition, analyse disponible et additifs concordants avec la fiche produit de la marque chez Tom&Co; nutriments non publiés laissés vides."
+ },
+ "mq-cat-021": {
+  sourceRevendeur:"https://www.tomandco.com/fr-fr/appetite-croquettes-sans-cereales-sterilise-au-poulet-chat-adulte-1-75kg.html",
+  verificationFabricant:"confirmée_partielle",dateVerificationFabricant:"2026-11-08",
+  calcium:1.3,phosphore:1,taurine:2000,energie:3703,
+  noteFabricant:"La fiche Tom&Co Appetite Stérilisé au Poulet correspond à la recette de la fiche. Elle confirme protéines 41 %, matières grasses 15 %, cendres 8 %, cellulose 4,5 %, glucides 21,5 %, calcium 1,3 %, phosphore 1 %, taurine 2 000 mg/kg, L-carnitine 100 mg/kg et énergie 3 703 kcal/kg. L’humidité, le magnésium et les oméga ne sont pas chiffrés sur la page consultée.",
+  additifs:"Vitamine A 33 000 UI/kg, D3 1 700 UI/kg, E 450 mg/kg, C 350 mg/kg, taurine 2 000 mg/kg, L-carnitine 100 mg/kg, iode 1,5 mg/kg, cuivre 5 mg/kg, manganèse 7,5 mg/kg, zinc 50 mg/kg, sélénium 0,15 mg/kg et sépiolite E562 1 260 mg/kg; antioxydants.",
+  statutDonnees:"Données produit et additifs concordants avec la fiche Appetite distribuée par Tom&Co; humidité, magnésium et oméga non publiés."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108j[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 11 (08/11/2026). */
+const crocamiManufacturerBatch20261108p = {
+ "mq-dog-086": {
+  sourceFabricant:"https://www.tonivet.fr/croquettes-chiens-gamme-physio/92-adulte-medium.html",
+  verificationFabricant:"formule_actuelle_confirmee_partiellement",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle TONIVET Physio Adulte Medium donne une formule et une analyse plus détaillées que la fiche historique Crocami. Les garanties actuelles sont affichées séparément : protéines 32 %, matières grasses 16 %, fibres 2,7 %, cendres 6,6 %, humidité 8,5 %, glucides assimilables 34,2 %, calcium 1,3 %, phosphore 0,88 %, magnésium 0,15 %, sodium 0,23 %, oméga-3 0,55 %, oméga-6 2,2 %, taurine 500 mg/kg et énergie NRC 2006 de 3 878 kcal/kg. Le RPC fabricant indiqué est 85,5 g/Mcal. Les différences ne sont pas fusionnées avec les valeurs historiques.",
+  donneesFabricantActuelles:{formule:"TONIVET Physio Adulte Medium — données officielles actuelles",proteines:32,matieresGrasses:16,fibres:2.7,cendres:6.6,humidite:8.5,glucides:34.2,calcium:1.3,phosphore:0.88,magnesium:0.15,sodium:0.23,omega3:0.55,omega6:2.2,taurine:500,energie:3878,energieMethode:"NRC 2006",rpc:85.5,composition:"Protéines de poulet déshydratées 31 %, maïs, riz blanc de Camargue, graisse de canard, poudre d’œuf 4 %, levure de bière 3,3 %, protéine de maïs, pulpe de betterave, farine de saumon 2 %, hydrolysat de protéines animales 2 %, lignocellulose, huile d’anchois et sardines sauvages 1,2 %, graines de chia, glucosamine, chondroïtine, prébiotiques et yucca.",additifs:"Vitamine A 22 000 UI/kg, D3 1 800 UI/kg, E 500 mg/kg, taurine 500 mg/kg, L-carnitine 40 mg/kg, glucosamine et sulfate de chondroïtine 550 mg/kg combinés."},
+  statutDonnees:"Analyse officielle actuelle affichée séparément de l’ancienne fiche; différences conservées et champs non publiés laissés vides."
+ },
+ "mq-dog-039": {
+  sourceFabricant:"https://shop.blackcanyon.de/en/for-dogs/dry-food/adult/311/black-canyon-buffalo-creek-makrele-bueffel",
+  verificationFabricant:"formule_actuelle_confirmee_partiellement",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle BLACK CANYON Buffalo Creek pour chien adulte confirme la recette au maquereau et buffle du catalogue. Elle publie protéines 30 %, matières grasses 18 %, fibres 2,4 %, cendres 8,5 %, humidité 8 %, calcium 1,55 %, phosphore 1,30 % et énergie utilisable 3 950 kcal/kg. Les glucides par différence sont de 33,1 % à partir de ces valeurs; ce calcul n’est pas une garantie publiée par la marque.",
+  proteines:30,matieresGrasses:18,fibres:2.4,cendres:8.5,humidite:8,calcium:1.55,phosphore:1.3,energie:3950,
+  compositionComplete:"Maquereau frais (30 %), protéines animales séchées (buffle et porc, 26 %), pois écossés (15 %), pommes de terre (14 %), graisse de poulet (9 %), fèves, graines de lin (2 %), pulpe de betterave séchée, levure de bière, farine d’algues (0,3 %), FOS (0,2 %), MOS (0,2 %), yucca (0,03 %), racine de pissenlit (0,02 %), écorce de grenade (0,02 %) et ananas séché (0,02 %).",
+  additifs:"Vitamine A 21 000 UI/kg, D3 1 400 UI/kg, E 180 mg/kg, cuivre 15 mg/kg, fer 30 mg/kg, manganèse 60 mg/kg, zinc 68 mg/kg, iode 3,7 mg/kg et sélénium 0,16 mg/kg.",
+  statutDonnees:"Composition et analyse issues de la page officielle; glucides calculés par différence et non déclarés."
+ },
+ "mq-cat-029": {
+  sourceFabricant:"https://bozita.com/cat-food/bozita-indoor-sterilised-chicken/",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La page officielle Bozita Indoor & Sterilised Chicken confirme le nom de la recette, mais la formulation actuellement publiée diffère de la composition historique du catalogue (28 % de poulet déclaré, dont 24 % de protéines de poulet séchées et 4 % de poulet frais). Les valeurs fabricant actuelles sont séparées : protéines 32 %, matières grasses 14 %, fibres 3,5 %, cendres 7 %, humidité 9 %, calcium 1,2 %, phosphore 1,1 %, magnésium 0,08 %, oméga-6 2 %, oméga-3 0,3 %, taurine ajoutée 2 000 mg/kg et énergie 3 723 kcal/kg. Elles ne remplacent pas les données de l’ancienne formule.",
+  donneesFabricantActuelles:{formule:"Bozita Indoor & Sterilised Chicken — formule officielle actuellement publiée",proteines:32,matieresGrasses:14,fibres:3.5,cendres:7,humidite:9,calcium:1.2,phosphore:1.1,magnesium:0.08,omega6:2,omega3:0.3,taurine:2000,energie:3723,composition:"Poulet 28 % (protéines de poulet séchées 24 %, poulet frais 4 %), farine de blé, maïs, graisse osseuse 5 %, protéines de porc séchées 4 %, riz, lignocellulose 4 %, farine de poisson 2 %, pulpe de betterave, minéraux, œufs séchés 2 %, protéines hydrolysées et levure.",additifs:"Vitamine A 25 000 UI/kg, D3 1 800 UI/kg, E 650 mg/kg, L-carnitine 50 mg/kg, taurine 2 000 mg/kg, DL-méthionine 2 000 mg/kg."},
+  statutDonnees:"Formule actuelle du fabricant séparée de la formule historique; valeurs non publiées non renseignées."
+ },
+ "mq-cat-008": {
+  sourceFabricant:"https://www.advance-affinity.com/en/adult-sterilized-1000389.html",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle Advance Sterilized Adult présente une recette actuelle à base de dinde et une analyse différente des données enregistrées. Les chiffres actuels sont montrés à part : protéines 37 %, matières grasses 11 %, fibres 4,1 %, cendres 7 %, oméga-3 0,45 %, oméga-6 2,2 %, taurine 1 200 mg/kg et énergie 3 740 kcal/kg. La page consultée ne publie pas humidité, calcium, phosphore ni magnésium garantis. La formule actuelle commence par 15 % de dinde; elle n’est pas fusionnée aux données historiques.",
+  donneesFabricantActuelles:{formule:"Advance Sterilized Adult — garanties officielles actuelles",proteines:37,matieresGrasses:11,fibres:4.1,cendres:7,omega3:0.45,omega6:2.2,taurine:1200,energie:3740,composition:"Dinde 15 %, protéines de maïs, maïs, protéines déshydratées de volaille et de porc, blé, orge, pois déshydratés, protéines de blé, protéines animales hydrolysées, fibre de pois, minéraux, saindoux, pulpe de betterave, huile de poisson et inuline de chicorée."},
+  statutDonnees:"Nouvelle formulation et garanties officielles séparées des anciennes données du catalogue."
+ },
+ "mq-cat-039": {
+  sourceFiche:"https://pacta.com/petfood/petfood-score/croquettes-chats/granatapet-symphonie-n-1-thon.php",
+  verificationFabricant:"donnees_fabricant_reprises_par_source_tierce",dateVerificationFabricant:"2026-11-08",
+  proteines:31,matieresGrasses:20,fibres:4.5,cendres:7.8,humidite:8,glucides:28.7,calcium:1.35,phosphore:1.1,energie:3960,
+  noteFabricant:"La fiche Pacta, qui indique reprendre les informations communiquées par le fabricant, correspond à Symphonie N°1 Thon. Elle précise humidité 8 %, calcium 1,35 %, phosphore 1,1 % et énergie estimée à 396 kcal/100 g. Protéines, matières grasses, fibres, cendres et glucides concordent avec la fiche existante. Aucun oméga n’y est déclaré. La source est tierce et n’est pas présentée comme une page officielle GranataPet.",
+  statutDonnees:"Analyse recoupée avec une source tierce rapportant les données fabricant; oméga non communiqués."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108p[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 12 (08/11/2026). */
+const crocamiManufacturerBatch20261108q = {
+ "mq-dog-084": {
+  sourceFabricant:"https://www.terracanis.com/fr-fr/croquettes-poulet-1554.html",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La page officielle Terra Canis Canireo Poulet confirme les 64 % de viande musculaire fraîche, mais la composition et les analyses actuellement publiées diffèrent de la fiche historique : protéines 28 %, matières grasses 14 %, fibres 4 %, cendres 5,5 %, humidité 8,5 % et énergie 3 680 kcal/kg. Ces données actuelles sont présentées séparément; calcium, phosphore et glucides ne sont pas communiqués sur cette page.",
+  donneesFabricantActuelles:{formule:"Terra Canis Canireo Poulet — déclaration officielle actuelle",proteines:28,matieresGrasses:14,fibres:4,cendres:5.5,humidite:8.5,energie:3680,composition:"Viande musculaire fraîche de poulet 64 %, flocons de pomme de terre 12 %, farine de noix de coco 4 %, lupin doux, abricot 1,5 %, carotte 1,4 %, courgette 1,4 %, céleri 1,1 %, foie de volaille frais 1 %, levure de bière 1 %, graines de lin 1 %, pomme 0,8 %, potiron 0,7 %, panais 0,7 %, poudre de coquille d’œuf 0,7 %, betterave 0,5 %, argile, herbes et minéraux."},
+  statutDonnees:"Formule officielle actuelle distincte de la fiche historique; Ca/P et glucides non communiqués."
+ },
+ "mq-cat-066": {
+  sourceRevendeur:"https://www.cyno-pro.com/produits/croquettes-pour-chat-dinde-et-gibier-14-tundra-163",
+  verificationFabricant:"confirmee_revendeur",dateVerificationFabricant:"2026-11-08",
+  proteines:39,matieresGrasses:17,cendres:8.8,fibres:2,humidite:8,calcium:1.8,phosphore:1.4,omega3:0.7,omega6:2,
+  noteFabricant:"La fiche revendeur Tundra Dinde & Gibier pour chat reprend la formule du catalogue et confirme l’analyse : protéines 39 %, matières grasses 17 %, cendres 8,8 %, fibres 2 %, humidité 8 %, calcium 1,8 %, phosphore 1,4 %, oméga-3 0,7 % et oméga-6 2 %. Glucides par différence : 25,2 %; le fabricant ne les déclare pas comme garantie distincte.",
+  statutDonnees:"Composition et analyse concordantes avec la fiche revendeur; glucides calculés par différence."
+ },
+ "mq-cat-043": {
+  sourceRevendeur:"https://pawfessionals.ipn.co.uk/collections/all-products/products/paw-lickin-chicken-dry-food",
+  verificationFabricant:"confirmee_revendeur",dateVerificationFabricant:"2026-11-08",
+  omega6:2.8,omega3:0.9,taurine:1000,
+  noteFabricant:"La fiche distributeur Meowing Heads Paw Lickin’ Chicken correspond à la recette : 70 % poulet, poisson et œuf (poulet 27 %, poulet séché 20 %, poisson séché 12 %, œuf 11 %). Elle confirme protéines 37 %, matières grasses 18 %, fibres 2,75 %, cendres 8,5 %, oméga-6 2,8 %, oméga-3 0,9 % et taurine ajoutée 1 000 mg/kg. La valeur de fibres du catalogue (2,8 %) est arrondie à un chiffre après la virgule. Humidité, calcium, phosphore et énergie non publiés sur cette page.",
+  additifs:"Taurine 1 000 mg/kg; vitamines A 25 644 UI/kg, D3 1 744 UI/kg et E 192 mg/kg; fer 77 mg/kg, zinc 72 mg/kg, manganèse 9,6 mg/kg, cuivre 5,8 mg/kg, iode 1,4 mg/kg et sélénium 0,05 mg/kg.",
+  statutDonnees:"Composition et constituants confirmés par distributeur; nutriments non publiés laissés vides."
+ },
+ "mq-cat-063": {
+  sourceFabricant:"https://thrivepetfoods.com/collections/hypoallergenic-cat-food/products/thrive-premiumplus-chicken-complete-dry-cat-food",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche officielle Thrive PremiumPlus Chicken confirme la recette, mais ses garanties actuelles diffèrent des données historiques : protéines 54 %, matières grasses 18 %, fibres 1,5 %, cendres 10 %, humidité 7 %, glucides déclarés 9,5 %, calcium 1,6 %, phosphore 1,3 %, potassium 0,71 %, sodium 0,38 %, taurine 2 385 mg/kg et énergie 4 090 kcal/kg. La formule actuelle indique 90 % de poulet. Ces valeurs sont conservées à part; ne pas les mélanger au profil historique du catalogue.",
+  donneesFabricantActuelles:{formule:"Thrive PremiumPlus Chicken — profil officiel actuel",proteines:54,matieresGrasses:18,fibres:1.5,cendres:10,humidite:7,glucides:9.5,calcium:1.6,phosphore:1.3,potassium:0.71,sodium:0.38,taurine:2385,energie:4090,composition:"Viande de poulet séchée 64,5 %, poulet frais 16,5 %, graisse de poulet 6 %, patate douce, pomme de terre, jus de poulet 3 %, vitamines et minéraux, huile de saumon."},
+  statutDonnees:"Données actuelles fabricant séparées des anciennes valeurs; formulation et garanties changées."
+ },
+ "mq-cat-053": {
+  sourceFabricant:"https://www.perfect-fit.fr/products/cat-dry/perfect-fit-senior-7-croquettes-riche-en-poulet-pour-chat-senior-sterilise-14kg",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La page officielle française Perfect Fit Senior 7+ Poulet désigne bien la gamme, mais les informations accessibles ne permettent pas de confirmer que son étiquette correspond à la formule historique (protéines 38 %, matières grasses 13 %, fibres 1 %, cendres 8 %). Une fiche officielle britannique pour Senior 7+ Chicken publie une formule actuelle différente : protéines 37 %, matières grasses 12 %, fibres 3,7 %, cendres 8,9 %, calcium 1,1 %, phosphore 0,95 % et énergie 3 700 kcal/kg. Elle est signalée séparément, car l’étiquette britannique n’établit pas la correspondance avec le sac français.",
+  donneesFabricantActuelles:{formule:"Perfect Fit Senior 7+ Chicken — page officielle britannique, non confirmée pour la version française",proteines:37,matieresGrasses:12,fibres:3.7,cendres:8.9,calcium:1.1,phosphore:0.95,energie:3700},
+  statutDonnees:"Source officielle UK seulement; correspondance avec l’étiquette vendue en France non vérifiée."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108q[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 13 (08/11/2026). */
+const crocamiManufacturerBatch20261108r = {
+ "mq-cat-048": {
+  sourceFabricant:"https://nutram.com/products/t24-nutram-total-grain-free",
+  verificationFabricant:"confirmee_partiellement",dateVerificationFabricant:"2026-11-08",
+  humidite:10,calcium:1.3,phosphore:0.9,omega3:1.2,omega6:2.6,energie:3740,
+  noteFabricant:"La fiche officielle Nutram T24 Trout & Salmon correspond au produit. Elle confirme les minima de protéines 36 %, matières grasses 17 %, fibres 6 %, humidité maximale 10 %, calcium minimal 1,3 %, phosphore minimal 0,9 %, oméga-3 minimal 1,2 %, oméga-6 minimal 2,6 % et énergie calculée 3 740 kcal/kg. Les valeurs calcium/phosphore/oméga sont des minimums garantis, pas des mesures réelles. La page ne chiffre pas le magnésium ni la taurine.",
+  compositionComplete:"Truite désarêtée, farine de saumon, farine de poisson menhaden, pois, lentilles, pois chiches, huile de colza, saumon désarêté, huile de saumon, arôme naturel, carottes, pommes, courge, quinoa, canneberges, myrtilles, mûres, chou kale, chicorée, vitamines et minéraux, taurine, yucca et plantes.",
+  statutDonnees:"Garantie fabricant actuelle; valeurs Ca/P/oméga indiquées comme minima garantis."
+ },
+ "mq-dog-090": {
+  sourceRevendeur:"https://www.santediscount.be/vetonut-chien-adulte-2-5kg.html",
+  verificationFabricant:"confirmee_revendeur",dateVerificationFabricant:"2026-11-08",
+  proteines:26,matieresGrasses:14,fibres:3,cendres:6.5,calcium:1.5,phosphore:1,sodium:0.4,omega6:2.8,omega3:0.3,energie:3730,
+  noteFabricant:"La fiche revendeur VetoNUT Chien Adulte confirme la recette du catalogue : protéines 26 %, matières grasses 14 %, fibres 3 %, cendres 6,5 %, calcium 1,5 %, phosphore 1 %, sodium 0,4 %, oméga-6 2,8 %, oméga-3 0,3 % et énergie métabolisable 3 730 kcal/kg. L’humidité et la taurine chiffrée ne sont pas publiées.",
+  compositionComplete:"Maïs, protéines de volaille, graisse de volaille, farine de riz, protéines de pomme de terre, farine de saumon, farine de poisson, protéines d’agneau, huile de tournesol, pulpe de betterave, moût de pomme, huile de colza, œuf entier séché, sel, levure, chlorure de potassium, algues, graines de lin, moule verte et plantes.",
+  statutDonnees:"Composition et analyse recoupées sur fiche de revendeur; humidité et taurine non publiées."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108r[product.id];
+ if (update) Object.assign(product, update);
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 14 (08/11/2026). */
+const crocamiManufacturerBatch20261108s = {
+ "mq-dog-064": {
+  sourceFiche:"https://pacta.com/petfood/petfood-score/croquettes-chiens/nutro-grain-free-chien-adulte-agneau.php",
+  verificationFabricant:"donnees_fabricant_reprises_par_source_tierce",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche tierce Pacta consacrée à Nutro Grain Free Adulte Agneau reprend les constituants indiqués par le fabricant et correspond aux valeurs déjà inscrites : protéines 35,2 %, matières grasses 17,6 %, cendres 9,5 %, fibres 1,9 %, humidité 10 % et glucides estimés par différence 25,8 %. Il s’agit d’une source de données fabricant relayée par un site tiers, pas d’une page officielle Nutro. Aucun calcium, phosphore ou oméga vérifié dans la fiche consultée.",
+  statutDonnees:"Données analytiques corroborées par une source tierce citant le fabricant; minéraux non publiés."
+ },
+ "mq-cat-064": {
+  sourceFiche:"https://pacta.com/petfood/petfood-score/croquettes-chats/tom-co-adult-lapin-et-dinde.php",
+  verificationFabricant:"donnees_fabricant_reprises_par_source_tierce",dateVerificationFabricant:"2026-11-08",
+  humidite:8,
+  noteFabricant:"La fiche tierce rapporte les données fabricant de Tom&Co Adult Lapin et Dinde. Elle confirme protéines 30 %, matières grasses 10 %, fibres 3,5 %, cendres 8,5 %, humidité 8 % et glucides calculés estimés 40 %. La recette précise une composition différente selon le mélange de croquettes : 15 % de croquettes au lapin contenant 4 % de lapin déshydraté et 45 % de croquettes à la dinde contenant 4 % de dinde fraîche. Calcium, phosphore, oméga et énergie ne sont pas indiqués.",
+  statutDonnees:"Données fabricant rapportées par une source tierce; valeurs minérales et oméga non publiées."
+ },
+ "mq-cat-046": {
+  sourceFabricant:"https://nestorbio.fr/products/croquettes-bio-chat-sans-cereales-volaille-1kg",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La page officielle Nestor Bio présente une formule bio récente sans céréales, distincte de l’ancienne recette du catalogue (qui comprend notamment céréales). Les garanties actuelles sont affichées séparément : protéines 30 %, matières grasses 14,5 %, cellulose 3 %, cendres 6,5 %, humidité 10 %, calcium 1,2 %, phosphore 0,98 %, sodium 0,5 %, potassium 0,9 %, magnésium 0,12 %, oméga-3 0,5 %, oméga-6 2,7 %, taurine 2 000 mg/kg, glucides digestibles 23 % et énergie 3 520 kcal/kg. Elles ne remplacent pas les données de l’ancienne formule.",
+  donneesFabricantActuelles:{formule:"Nestor Bio Chat Adulte Volaille Bio sans céréales — formule officielle actuelle",proteines:30,matieresGrasses:14.5,fibres:3,cendres:6.5,humidite:10,glucides:23,calcium:1.2,phosphore:0.98,sodium:0.5,potassium:0.9,magnesium:0.12,omega3:0.5,omega6:2.7,taurine:2000,energie:3520,composition:"Protéines de volailles déshydratées, tourteau de soja, pois, amidon de tapioca, tourteau de lin, graisse de volaille, protéines de pois, amidon de pomme de terre, fibres de pommes, levure, plantes et légumes issus de l’agriculture biologique."},
+  statutDonnees:"Formule officielle actuelle séparée de l’ancienne recette; champs non publiés non complétés."
+ },
+ "mq-cat-069": {
+  sourceRevendeur:"https://catfoodcentral.co/dry-cat-food/vigor-sage-ginseng-well-being-adult/",
+  verificationFabricant:"confirmee_revendeur",dateVerificationFabricant:"2026-11-08",
+  humidite:8,calcium:1.5,phosphore:1.2,taurine:1000,
+  noteFabricant:"La fiche Cat Food Central sur Vigor & Sage Ginseng Well-Being Adult rapporte les valeurs garanties fabricant concordantes avec la recette : protéines 30 %, matières grasses 16 %, fibres 4,5 %, cendres 8 %, humidité 8 %, calcium 1,5 %, phosphore 1,2 % et taurine 1 000 mg/kg. L’énergie n’est pas chiffrée dans la fiche consultée. Comme la source est tierce, la correspondance avec l’étiquette du sac reste à confirmer à l’achat.",
+  statutDonnees:"Garanties fabricant relayées par une source tierce; énergie et autres minéraux non communiqués."
+ },
+ "mq-cat-055": {
+  sourceRevendeur:"https://eerlijkdierenvoer.nl/shop/power-of-nature-active-cat-cookies-choice-2-kg/",
+  verificationFabricant:"donnees_revendeur_concordantes",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche revendeur Power of Nature Cookies Choice confirme une version de la recette à 35 % de protéines, 25 % de matières grasses, 2 % de fibres, 8 % de cendres, calcium 1,91 %, phosphore 1,52 %, oméga-6 3,54 %, oméga-3 1,35 % et 4 120 kcal/kg. D’autres bases secondaires publient des protéines/lipides plus élevés (38,5/27,5 %), donc les valeurs contradictoires ne sont pas fusionnées; vérifier le sac exact. Humidité signalée à 8 % par certains revendeurs et 7 % par d’autres, elle reste non renseignée.",
+  donneesFabricantActuelles:{formule:"Power of Nature Cookies Choice — fiche revendeur consultée",proteines:35,matieresGrasses:25,fibres:2,cendres:8,calcium:1.91,phosphore:1.52,omega6:3.54,omega3:1.35,energie:4120},
+  statutDonnees:"Données revendeur présentées séparément en raison de divergences entre bases; humidité non renseignée."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108s[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
+}
+
+/* VÉRIFICATIONS DE SOURCES — LOT 15 (08/11/2026). */
+const crocamiManufacturerBatch20261108t = {
+ "mq-cat-007": {
+  sourceFiche:"https://capitaine-croquettes.fr/croquettes/Chat/acti-croq-anti-hairball",
+  verificationFabricant:"sources_secondaires_contradictoires",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"Une seconde analyse indépendante d’Acti-Croq Anti Hairball publie des chiffres différents de la fiche Macroquette conservée au catalogue : protéines 33,3 %, matières grasses 11,1 %, fibres 3,3 %, cendres 9,4 %, calcium 1,5 %, phosphore 0,9 % et énergie 325 kcal/100 g. La page montre aussi d’autres chiffres différents dans sa section d’évaluation, ce qui rend la donnée ambiguë. Les valeurs ne sont pas fusionnées; l’étiquette exacte reste à vérifier. Aucun profil officiel fabricant trouvé pour départager ces chiffres.",
+  statutDonnees:"Deux sources secondaires divergent; nutriments contradictoires conservés comme non résolus."
+ },
+ "mq-cat-018": {
+  sourceFiche:"https://pacta.com/petfood/petfood-score/demo/application/croquettes-chats/A/ANIMASTER-Adulte-Supreme-de-Volaille.html",
+  verificationFabricant:"donnees_fabricant_reprises_par_source_tierce",dateVerificationFabricant:"2026-11-08",
+  humidite:8,omega6:2.6,omega3:0.3,taurine:1000,
+  noteFabricant:"La fiche Pacta rapporte les données fabricant d’Animaster Adulte Suprême de Volaille et confirme la composition déjà enregistrée. Elle détaille les additifs dont taurine 1 000 mg/kg et publie les oméga-6 2,6 % et oméga-3 0,3 %. Les analyses reprises sont protéines 34 %, matières grasses 14 %, fibres 2 %, cendres 7,5 % et humidité 8 %. Le calcium et le phosphore ne sont pas communiqués. La page Capitaine Croquettes calcule des valeurs différentes sur matière sèche; elle ne remplace pas les valeurs brutes fabricant.",
+  statutDonnees:"Valeurs brutes fabricant relayées par Pacta; autre site publie aussi une présentation sur matière sèche. Ca/P non communiqués."
+ },
+ "mq-cat-035": {
+  sourceRevendeur:"https://www.zooplus.ch/fr/shop/chat/croquettes/feringa/feringa_adult/1590317",
+  verificationFabricant:"formule_actuelle_différente",dateVerificationFabricant:"2026-11-08",
+  noteFabricant:"La fiche Zooplus Feringa Adult Duo Poulet et Agneau présente la recette actuelle avec poulet frais 23 %, flocons de pomme de terre 21 %, poulet déshydraté 17 % et agneau déshydraté 12 %, différente de la formule historique du catalogue. Les valeurs actuelles restent séparées : protéines 31 %, matières grasses 18 %, fibres 2,5 %, cendres 8 %, calcium 1,5 %, phosphore 1,1 %, taurine 1 500 mg/kg et énergie 4 019 kcal/kg. La page présente aussi une ancienne version avec énergie et additifs distincts; ne pas fusionner les générations de recette.",
+  donneesFabricantActuelles:{formule:"Feringa Adult Duo Poulet et Agneau — fiche Zooplus actuelle",proteines:31,matieresGrasses:18,fibres:2.5,cendres:8,calcium:1.5,phosphore:1.1,taurine:1500,energie:4019,composition:"Poulet frais 23 %, flocons de pommes de terre 21 %, poulet déshydraté 17 %, agneau déshydraté 12 %, graisse de poulet 7 %, pois verts 6 %, patates douces, carottes déshydratées, pulpe de betterave, foie de poulet hydrolysé, chicorée, huile de saumon, œuf, minéraux et pissenlit."},
+  statutDonnees:"Recette et analyses actuelles séparées de la génération de formule historique."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiManufacturerBatch20261108t[product.id];
+ if (!update) continue;
+ const current = update.donneesFabricantActuelles;
+ Object.assign(product, update);
+ if (current) product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...current};
 }
