@@ -63,7 +63,7 @@ function globalNutritionScore(p){
  return {score,confidence:coverage,reliability,criteria,rpc,proteinPhosphorus,caP,omega,taurine};
 }function scoreBubbleMarkup(p){
  const n=globalNutritionScore(p),score=n.score;
- const hue=score==null?0:Math.round(score*1.2),background=score==null?"#85877f":`hsl(${hue} 68% 42%)`;
+ const hue=score==null?0:Math.round(score*1.2),background=score==null?"#5c665d":`hsl(${hue} 68% 28%)`;
  return '<div class="score-bubble" style="--score-color:'+background+'" role="img" aria-label="Note Crocami '+(score==null?"non calculable":score+" sur 100")+' · couverture '+n.confidence+' % · fiabilité '+n.reliability+'" title="Note Crocami : '+(score==null?"non calculable":score+"/100")+' · Couverture : '+n.confidence+' % · Fiabilité : '+n.reliability+'"><strong>'+(score==null?"—":score)+'</strong><small>/100</small></div><small class="score-coverage-mini">'+n.confidence+' % de couverture</small>';
 }
 function scoreStackMarkup(p){
@@ -173,7 +173,7 @@ function renderNeedOptions(species){
  $("#needHelp").textContent="Catégories adaptées aux "+speciesLabel+"s présents dans le catalogue.";
  if(available.has(previous))select.value=previous;
 }
-function setAnimal(v){animal=v;renderNeedOptions(v);tabs.forEach(t=>t.classList.toggle("active",t.dataset.animal===v));$("#resultsTitle").textContent=v==="chien"?"Les croquettes pour chien":"Les croquettes pour chat";$("#search").placeholder=v==="chien"?"Ex. : saumon, digestion sensible, marque…":"Ex. : chat stérilisé, saumon, digestion…";
+function setAnimal(v){animal=v;renderNeedOptions(v);tabs.forEach(t=>t.classList.toggle("active",t.dataset.animal===v));$("#resultsTitle").textContent=v==="chien"?"Les croquettes pour chien":"Les croquettes pour chat";$("#search").placeholder=v==="chien"?"Ex. : saumon ou digestion…":"Ex. : stérilisé ou saumon…";
  if(v==="chat"){$("#size").innerHTML='<option value="">Tous les gabarits</option><option value="Toutes">Toutes les tailles</option>';$("#sizeField").querySelector("span")?.remove();$("#sizeHelp").textContent="Les gabarits sont peu discriminants chez le chat ; privilégiez âge et besoins.";}
  else{$("#size").innerHTML='<option value="">Toutes les tailles</option><option value="Petite">Petit</option><option value="Moyenne">Moyen</option><option value="Grande">Grand</option><option value="Géante">Géant</option>';$("#sizeHelp").textContent="Repère basé sur le poids adulte idéal.";}
  selected.clear();render();}
