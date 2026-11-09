@@ -2662,3 +2662,26 @@ for (const product of window.CROCamiCatalog) {
   product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
  }
 }
+
+const crocamiArchivedManufacturerData = {
+ "d06": {
+  titre:"ROYAL CANIN MEDIUM Sterilised — fiche technique fabricant",
+  date:"2015",
+  source:"https://my.royalcanin.be/_filelib/misc/15FT%20MED%20Sterilised%20FR.pdf",
+  note:"La fiche datée de 2015 correspond au produit Medium Sterilised et reprend les constituants principaux présents dans la fiche actuelle. Ses valeurs minérales et autres nutriments sont conservés comme archive; la fiche actuelle du fabricant ne les republie pas.",
+  valeurs:[["Calcium",0.72,"%"],["Phosphore",0.70,"%"],["Rapport Ca/P calculé",1.03,""],["Sodium",0.30,"%"],["Chlorure",0.48,"%"],["Potassium",0.70,"%"],["Magnésium",0.08,"%"],["Taurine",0.11,"%"],["Oméga-6",2.91,"%"],["Oméga-3",0.60,"%"],["EPA + DHA",0.31,"%"],["Amidon",29.30,"%"],["Énergie métabolisable · NRC 85",3422,"kcal/kg"],["Énergie métabolisable · NRC 2006",3477,"kcal/kg"]]
+ },
+ "d16": {
+  titre:"ROYAL CANIN MINI Adult — fiche technique fabricant",
+  date:"2015",
+  source:"https://my.royalcanin.be/_filelib/misc/15FT%20MINI%20Ad%20FR.pdf",
+  note:"Cette fiche fabricant datée de 2015 est distincte de l’analyse actuelle affichée sur la fiche produit. Les valeurs ci-dessous sont conservées à titre d’archive et ne remplacent pas les valeurs actuelles.",
+  valeurs:[["Calcium",0.91,"%"],["Phosphore",0.80,"%"],["Rapport Ca/P calculé",1.14,""],["Sodium",0.40,"%"],["Chlorure",0.75,"%"],["Potassium",0.70,"%"],["Magnésium",0.13,"%"],["Taurine",0.13,"%"],["Oméga-6",3.31,"%"],["Oméga-3",0.66,"%"],["EPA + DHA",0.25,"%"],["Fibres alimentaires totales",6.50,"%"],["Amidon",35.40,"%"],["Énergie métabolisable · NRC 85",3726,"kcal/kg"],["Énergie métabolisable · NRC 2006",3963,"kcal/kg"]]
+ }
+};
+for (const [id,archive] of Object.entries(crocamiArchivedManufacturerData)) {
+ const product=window.CROCamiCatalog.find(item=>item.id===id);
+ if (product) product.donneesFabricantArchivees=[archive];
+}
+const mediumSterilisedDuplicate=window.CROCamiCatalog.find(item=>item.id==="mq-dog-079");
+if (mediumSterilisedDuplicate) mediumSterilisedDuplicate.donneesFabricantArchivees=[crocamiArchivedManufacturerData.d06];
