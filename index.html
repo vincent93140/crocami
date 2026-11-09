@@ -24,7 +24,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=20261109-seo-complet">
   <script src="catalogue-leger.js?v=20261109-manufacturer-research" defer></script>
-  <script src="app.js?v=20261110-comparison-links" defer></script>
+  <script src="app.js?v=20261110-size-labels-v2" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -54,7 +54,7 @@
         <div class="search-row"><span class="search-icon">⌕</span><input id="search" type="search" placeholder="Ex. : saumon ou digestion…"><button id="searchBtn" type="button">Rechercher <span>→</span></button></div>
         <div class="filter-row">
           <label>Âge<select id="age"><option value="">Tous les âges</option><option>Junior</option><option>Adulte</option><option>Senior</option></select></label>
-          <label id="sizeField">Gabarit<select id="size"><option value="">Toutes les tailles</option><option value="Petite">Petit</option><option value="Moyenne">Moyen</option><option value="Grande">Grand</option><option value="Géante">Géant</option></select><small id="sizeHelp">Repère basé sur le poids adulte idéal.</small></label>
+          <label id="sizeField">Taille / poids adulte<select id="size"><option value="">Toutes les tailles</option><option value="Petite">Petit · moins de 10 kg</option><option value="Moyenne">Moyen · 10 à moins de 25 kg</option><option value="Grande">Grand · 25 à moins de 45 kg</option><option value="Géante">Géant · 45 kg et plus</option></select><small id="sizeHelp">Repère basé sur le poids adulte idéal.</small></label>
           <label>Marque<select id="brand"><option value="">Toutes les marques</option></select></label>
           <label id="needField">Besoin du chien<select id="need" aria-describedby="needHelp"><option value="">Tous les besoins du chien</option></select><small id="needHelp">Les besoins proposés correspondent aux chiens du catalogue.</small></label>
           <label>Prix maximum au kg (€)<input id="maxPriceKg" type="number" min="0" step="0.10" inputmode="decimal" placeholder="Ex. : 8,50"></label>
