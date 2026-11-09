@@ -899,3 +899,9 @@ main{max-width:1280px;margin-inline:auto}
 .seo-category-nav a{padding:10px 14px;background:var(--surface-soft);border:1px solid var(--surface-border);border-radius:8px;font-size:14px}
 .product-reading p{line-height:1.75;font-size:14px}
 @media(max-width:700px){.seo-category-grid{grid-template-columns:1fr}.seo-category-grid article{padding:16px}.seo-category-nav a{width:100%}}
+
+/* Open product sheets directly from the comparison header. */
+.compare-product-name-link{display:block;text-decoration:none;color:inherit}
+.compare-product-name-link:hover .compare-brand,.compare-product-name-link:hover .compare-recipe{text-decoration:underline}
+.compare-product-link:focus-visible{outline:3px solid #f6a11a;outline-offset:3px;border-radius:8px}
+a.compare-product-pack:hover{border-color:#f6a11a}
