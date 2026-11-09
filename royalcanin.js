@@ -25,7 +25,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 3755,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": 15,
       "presentationProduit": "Recette pour les chats adultes sujets aux boules de poils. Royal Canin met en avant des fibres, dont le psyllium, pour accompagner l’élimination des poils ingérés.",
@@ -286,7 +286,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -315,7 +315,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 3745,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Aliment pour les chats adultes de un à sept ans vivant à l’intérieur. Le fabricant met en avant un apport calorique modéré, la digestion et l’élimination des poils ingérés.",
@@ -562,7 +562,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -593,7 +593,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 4083,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Aliment destiné à la deuxième phase de croissance du chaton, jusqu’à douze mois. Les bénéfices annoncés portent sur le DHA, les défenses naturelles et le soutien du microbiote.",
@@ -1019,7 +1019,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -1050,7 +1050,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 3937,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Aliment pour les chiens adultes de 26 à 44 kg à partir de quinze mois. Les bénéfices annoncés concernent la digestion, les os et les articulations, avec une taille de croquette adaptée.",
@@ -1417,7 +1417,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -1446,7 +1446,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 3791,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Aliment de croissance destiné aux chiots dont le poids adulte sera compris entre 26 et 44 kg. Le fabricant met en avant le DHA, les vitamines C et E et le soutien du microbiote.",
@@ -4077,7 +4077,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -4108,7 +4108,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 3837,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Recette pour les chiens de taille moyenne à partir de sept ans. Royal Canin met en avant le maintien musculaire, les défenses naturelles et la vitalité des chiens matures.",
@@ -4617,7 +4617,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -4648,7 +4648,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 3840,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Recette pour les chiens adultes de 11 à 25 kg à partir de douze mois. Le fabricant présente une formule destinée au maintien musculaire, aux défenses naturelles et adaptée à la taille de la mâchoire.",
@@ -5157,7 +5157,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -5188,7 +5188,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 4125,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Croquettes pour la croissance des chiens de taille moyenne. La formule officielle associe une densité énergétique adaptée, du DHA et des nutriments destinés au microbiote et aux défenses naturelles.",
@@ -7485,7 +7485,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -7517,7 +7517,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 3451,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Aliment pour les chiens stérilisés de 11 à 25 kg, dès douze mois. La formule publiée contient 28 % de protéines et 13 % de matières grasses ; le fabricant la destine au contrôle du poids.",
@@ -7916,7 +7916,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -7948,7 +7948,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 3916,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Recette pour les petits chiens adultes à partir de dix mois. Les bénéfices annoncés concernent le maintien du poids, les os, la digestibilité et l’appétence des croquettes.",
@@ -8445,7 +8445,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -8474,7 +8474,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 4072,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Recette pour les chiots de petit gabarit pendant leur croissance. Royal Canin met en avant le DHA, des vitamines C et E et une association de prébiotiques et de protéines digestibles.",
@@ -10339,7 +10339,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -10368,7 +10368,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 4467,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Recette pour les chats adultes présentant une sensibilité digestive. Le fabricant décrit des prébiotiques, dont les FOS, une énergie concentrée et trois formes de croquettes destinées à favoriser l’appétence.",
@@ -10615,7 +10615,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -10647,7 +10647,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 3629,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Recette pour les chats stérilisés de un à sept ans. Le fabricant met en avant la maîtrise de la prise de poids, le maintien musculaire, la santé urinaire et l’ajout de L-carnitine.",
@@ -10913,7 +10913,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   },
@@ -10944,7 +10944,7 @@ window.CROCamiRoyalCaninOfficial = [
       "amidon": null,
       "energie": 3685,
       "taurine": null,
-      "rpcMacroquette": null,
+      
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
       "presentationProduit": "Recette pour les chats stérilisés de sept à douze ans. Royal Canin annonce un accompagnement de la vitalité, du poids et des fonctions urinaires et rénales.",
@@ -11194,7 +11194,7 @@ window.CROCamiRoyalCaninOfficial = [
       "donneesFabricantActuelles": null,
       "sourceDocumentFabricant": null,
       "noteComposition": null,
-      "sourceMacroquette": null,
+      
       "sourceComplementaire": null
     }
   }

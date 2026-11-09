@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-09T22:49:57.131Z",
+  "checkedAt": "2026-11-09T23:55:08.347Z",
   "sitemapPages": 252,
   "productPages": 236,
   "scoresAndNutritionPreserved": 236,
@@ -8,9 +8,9 @@
     "catalogue-leger.js",
     "app.js"
   ],
-  "homepageDecodedBytes": 250870,
+  "homepageDecodedBytes": 226905,
   "previousHomepageDecodedBytes": 2271043,
-  "scriptReductionPercent": 89,
+  "scriptReductionPercent": 90,
   "minimumIncomingPages": 3,
   "maximumIncomingPages": 11,
   "titlesOver70": 0,

@@ -1,19 +1,5 @@
 /* Sources, prix et visuels vérifiés le 9 novembre 2026. Aucune valeur nutritionnelle remplacée. */
 window.CROCamiSourceComplements={
-  "mq-cat-016": {
-    "id": "mq-cat-016",
-    "sourceFiche": "https://macroquette.com/avis-animalis-adulte-au-boeuf-chat/",
-    "sourceMacroquette": "https://macroquette.com/avis-animalis-adulte-au-boeuf-chat/",
-    "sourceNote": "Analyse externe de la recette Animalis adulte au bœuf : les principaux constituants et le RPC correspondent à la fiche. Le prix moyen publié par cette source n’est pas daté et ne devient pas un tarif marchand vérifié.",
-    "dateConsultationSources": "2026-11-09"
-  },
-  "mq-cat-028": {
-    "id": "mq-cat-028",
-    "sourceFiche": "https://macroquette.com/avis-black-canyon-saddle-dale-chat/",
-    "sourceMacroquette": "https://macroquette.com/avis-black-canyon-saddle-dale-chat/",
-    "sourceNote": "Analyse externe de Black Canyon Saddle Dale : protéines 32 %, matières grasses 16 %, fibres 2,8 % et cendres 7,9 %. La recette n’a pas été retrouvée dans le catalogue actuel de la marque : aucun prix d’une autre recette ne lui est attribué.",
-    "dateConsultationSources": "2026-11-09"
-  },
   "mq-dog-028": {
     "id": "mq-dog-028",
     "sourceFabricant": "https://applaws.com/uk/dog/products/small-medium-breeds-chicken-adult-dry-dog-food/",

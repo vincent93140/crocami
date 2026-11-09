@@ -2,7 +2,6 @@
 
 ## Sources
 
-Les sources détaillées d’Animalis adulte au bœuf et de Black Canyon Saddle Dale sont désormais liées à leurs analyses externes Macroquette. Les constituants et le RPC correspondent aux références existantes. Les prix moyens non datés de ces analyses ne sont pas présentés comme des offres marchandes actuelles.
 
 21 fiches supplémentaires disposent d’un lien de marque ou de fabricant : recettes identifiées dans des pages produit, documents techniques ou catalogues officiels. Les liens de marques distribuées par une enseigne sont identifiés comme tels ; ils ne prétendent pas identifier une usine. Les différences entre documents anciens et formulations actuelles sont signalées et ne remplacent aucune valeur nutritionnelle principale ni note Crocami.
 

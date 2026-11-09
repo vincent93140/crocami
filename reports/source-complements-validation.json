@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-09T22:49:51.235Z",
+  "checkedAt": "2026-11-09T23:55:08.797Z",
   "distinctProductPages": 236,
   "manufacturerLinksAdded": 25,
-  "detailedMissingSourcesResolved": 2,
+  "detailedMissingSourcesResolved": 0,
   "pendingManufacturer": [
     {
       "id": "mq-dog-041",
@@ -52,7 +52,7 @@
     {
       "id": "mq-cat-028",
       "name": "Black Canyon Saddle Dale",
-      "reason": "Ancienne recette dinde et hareng documentée par Macroquette. Saddle Dale n’a pas été retrouvée dans le catalogue actuel Black Canyon ; aucune équivalence avec une nouvelle recette présumée."
+      "reason": "Saddle Dale n’a pas été retrouvée dans le catalogue actuel Black Canyon ; aucune équivalence avec une nouvelle recette présumée."
     }
   ],
   "productsWithoutAvailableRegularOffer": 83,
