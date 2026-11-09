@@ -1,7 +1,7 @@
 {
   "key": "mini-puppy",
   "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy-mini-3000",
-  "checkedAt": "2026-11-09T17:55:05.553Z",
+  "checkedAt": "2026-11-09T18:05:53.083Z",
   "ids": [],
   "age": "Junior",
   "gabarit": "Petite",
@@ -15,6 +15,24 @@
     "description": "Les croquettes ROYAL CANIN® Mini Puppy sont spécialement formulées pour répondre aux besoins nutritionnels des chiots de petites races. Cette formule convient aux chiots âgés de 2 à 10 mois qui devraient atteindre un poids adulte compris entre 1 et 10 kg. \n\nLa teneur en énergie de cette formule a été élaborée de façon optimale pour satisfaire les besoins énergétiques des chiots de petites races en pleine croissance. \n\nGrâce à une combinaison de prébiotiques bénéfiques (tels que les FOS et les MOS) et de protéines hautement digestibles, l’aliment sec ROYAL CANIN® Mini Puppy soutient le développement du microbiote intestinal de votre chiot et favorise son équilibre pour lui assurer une bonne santé digestive. \n\nLes croquettes ROYAL CANIN® Mini Puppy sont enrichies en nutriments tels que la vitamine C et E pour aider les chiots à soutenir leurs défenses naturelles et favoriser le bon développement de leur système immunitaire encore immature. \n\nCette formule est enrichie en acides gras oméga-3 (dont le DHA), scientifiquement prouvés pour contribuer au bon développement cérébral et à la santé visuelle des chiots. \n\nLa taille et la forme des croquettes ROYAL CANIN® Mini Puppy ont été spécialement conçues pour la petite mâchoire de votre chiot afin de lui permettre de les saisir et de les mastiquer facilement. De plus, elles favorisent un brossage mécanique de ses dents pour une meilleure hygiène et santé bucco-dentaire. \n\nÀ l’âge de 10 mois, vos chiots auront besoin d'une alimentation spécialement adaptée leur permettant de répondre aux besoins nutritionnels de chien adulte. À ce stade, vous pouvez commencer la transition vers les aliments ROYAL CANIN® Mini Adult, disponibles sous forme de croquettes ou en aliment humide en sauce. \n\nTous les aliments secs de notre gamme croissance contiennent des antioxydants d’origine naturelle, et sont formulés sans colorants ni arômes artificiels.",
     "image": "https://cdn.royalcanin-weshare-online.io/CrlMsW4B2t6cTeuUXR7F/v12/jack-russel-terrier-puppy-vet-vhn"
   },
+  "benefits": [
+    {
+      "description": "Enrichi en acide gras oméga-3 (DHA), qui est scientifiquement prouvé pour soutenir le développement cérébral et promouvoir l’apprentissage du chiot lors de son éducation précoce.",
+      "label": "Développement cérébral"
+    },
+    {
+      "description": "Formulé pour répondre aux besoins énergétiques élevés des chiots de petites races durant leur courte période de croissance, jusqu'à 10 mois.\n",
+      "label": "Teneur en énergie optimale"
+    },
+    {
+      "description": "Aide à soutenir le développement du système immunitaire du chiot grâce à la présence d’un complexe scientifiquement prouvé, comprenant les vitamines E et C. \n\n\n\n",
+      "label": "Système immunitaire fort"
+    },
+    {
+      "description": "Une combinaison de prébiotiques (MOS) et de protéines hautement digestibles pour favoriser l’équilibre du microbiote intestinal pour une santé digestive optimale.\n\n\n\n",
+      "label": "Soutien du microbiome"
+    }
+  ],
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, riz, graisses animales, gluten de blé*, maïs, pulpe de betterave, farine de maïs, protéines animales hydrolysées, gluten de maïs, sels minéraux, huile de soja, huile de poisson, fructo-oligosaccharides, levures hydrolysées (source de mannan-oligosaccharides et de bêta-glucanes) (0,30 %), huile d’algues Schizochytrium sp. (source de DHA), jus de Yucca schidigera, farine de tagète.\n* L.I.P. : protéine sélectionnée pour sa très haute digestibilité\n\n",

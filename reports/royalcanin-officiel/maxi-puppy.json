@@ -1,7 +1,7 @@
 {
   "key": "maxi-puppy",
   "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy---maxi-3006",
-  "checkedAt": "2026-11-09T17:55:01.409Z",
+  "checkedAt": "2026-11-09T18:05:53.100Z",
   "ids": [],
   "age": "Junior",
   "gabarit": "Grande",
@@ -15,6 +15,24 @@
     "description": "\nLes croquettes ROYAL CANIN® Maxi Puppy sont spécialement formulées pour répondre aux besoins nutritionnels des chiots de grandes races. Cette formule convient aux chiots de grandes races âgés de 2 à 15 mois qui devraient atteindre un poids adulte compris entre 26 et 44 kg.\n\nLa teneur en énergie de cette formule été élaborée de façon optimale pour satisfaire les besoins énergétiques élevés des chiots de grandes races en pleine croissance.\n\nGrâce à une combinaison de prébiotiques bénéfiques (tels que les FOS et les MOS) et de protéines hautement digestibles, l’aliment sec ROYAL CANIN® Maxi Puppy soutient le développement du microbiote intestinal de votre chiot et favorise son équilibre pour lui assurer une bonne santé digestive.\n\nLes croquettes ROYAL CANIN® Maxi Puppy sont enrichies en nutriments tels que la vitamine C et E pour aider les chiots à soutenir leurs défenses naturelles et favoriser le bon développement de leur système immunitaire encore immature.\nCette formule est enrichie en acides gras oméga-3 (dont le DHA), scientifiquement prouvés pour contribuer au bon développement cérébral et à la santé visuelle des chiots.\n\nLes croquettes ROYAL CANIN® Maxi Puppy ont été spécialement conçues pour la mâchoire des chiots de grandes races. Leur taille et leur forme permettent de réguler la vitesse d’ingestion. De plus, elles favorisent un brossage mécanique de ses dents pour une meilleure hygiène et santé bucco-dentaire.\n\nÀ l’âge de 15 mois, vos chiots auront besoin d'une alimentation spécialement adaptée leur permettant de répondre aux besoins nutritionnels de chien adulte. À ce stade, vous pouvez commencer la transition vers les aliments ROYAL CANIN® Maxi Adult, disponibles sous forme de croquettes ou en aliment humide en sauce.\n\nTous les aliments secs de notre gamme croissance contiennent des antioxydants d’origine naturelle, et sont formulés sans colorants ni arômes artificiels.\n\n",
     "image": "https://cdn.royalcanin-weshare-online.io/4_kva2QBIYfdNSoCAf5X/v32/german-shepherd-puppy-brand-breed-emblematic"
   },
+  "benefits": [
+    {
+      "description": "Aide à soutenir le développement du système immunitaire du chiot grâce à la présence d’un complexe scientifiquement prouvé, comprenant les vitamines E et C.",
+      "label": "Système immunitaire fort"
+    },
+    {
+      "description": "Enrichi en acide gras oméga-3 (DHA), qui est scientifiquement prouvé pour soutenir le développement cérébral et promouvoir l’apprentissage du chiot lors de son éducation précoce.",
+      "label": "Développement cérébral"
+    },
+    {
+      "description": "Une combinaison de prébiotiques (MOS) et de protéines hautement digestibles pour favoriser l’équilibre du microbiote intestinal pour une santé digestive optimale.\n",
+      "label": "Soutien du microbiome"
+    },
+    {
+      "description": "Formulé pour répondre aux besoins énergétiques modérés des chiots de grandes races durant leur longue période de croissance, jusqu' à 15 mois.\n",
+      "label": "Teneur en énergie optimale"
+    }
+  ],
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, farine de maïs, riz, protéines de porc déshydratées*, graisses animales, maïs, gluten de blé*, farine de blé, protéines animales hydrolysées, sels minéraux, pulpe de betterave, gluten de maïs, fibres végétales, huile de soja, huile de poisson, fructo-oligosaccharides, téguments et graines de psyllium, levures hydrolysées (source de mannan-oligosaccharides et de bêta-glucanes) (0,30 %), huile d’algues Schizochytrium sp. (source de DHA), jus de Yucca schidigera, farine de tagète, glucosamine issue de la fermentation, cartilage hydrolysé (source de chondroïtine). \n* L.I.P. : protéine sélectionnée pour sa très haute digestibilité\n\nMODE D’EMPLOI : voir tableau. Numéro de lot, Numéro d’identifiant usine, à utiliser de préférence avant : voir sur l’emballage. À conserver dans un endroit sec et frais.  De l'eau fraîche doit être disponible en permanence.",

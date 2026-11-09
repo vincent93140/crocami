@@ -28,6 +28,136 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": 15,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 24000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 940,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 30,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 3,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 9,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 39,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 130,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.04,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "VOTRE CHAT EST-IL SUJET À LA FORMATION DE BOULES DE POILS ? ",
+        "AIDE À RÉDUIRE LA FORMATION DE BOULES DE POILS",
+        "RÉSULTATS PROUVÉS",
+        "PROGRAMME HAIRBALL CARE ",
+        "SANTÉ URINAIRE"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "400 g",
+          "ean": "3182550721394"
+        },
+        {
+          "format": "2 kg",
+          "ean": "3182550721400"
+        },
+        {
+          "format": "4 kg",
+          "ean": "3182550721417"
+        },
+        {
+          "format": "10 kg",
+          "ean": "3182550721424"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "400 g",
+          "formatKg": 0.4,
+          "prixSac": 7.69,
+          "prixKg": 19.23,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/hairball-care-2534?ean=1-3182550721394",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/hairball-care-2534",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "2 kg",
+          "formatKg": 2,
+          "prixSac": 32.49,
+          "prixKg": 16.25,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/hairball-care-2534?ean=1-3182550721400",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/hairball-care-2534",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 55.39,
+          "prixKg": 13.85,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/hairball-care-2534?ean=1-3182550721417",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/hairball-care-2534",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "10 kg",
+          "formatKg": 10,
+          "prixSac": 110.39,
+          "prixKg": 11.04,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/hairball-care-2534?ean=1-3182550721424",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/hairball-care-2534",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Hairball Care",
       "espece": "chat",
       "age": "Adulte",
@@ -185,6 +315,118 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 13500,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 700,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 42,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 4.2,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 13,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 55,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 164,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.09,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "Réduction des odeurs de selles",
+        "Teneur modérée en calories",
+        "Réduction des boules de poils",
+        "Santé urinaire"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "2 kg",
+          "ean": "3182550704625"
+        },
+        {
+          "format": "4 kg",
+          "ean": "3182550706933"
+        },
+        {
+          "format": "10 kg",
+          "ean": "3182550706940"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "2 kg",
+          "formatKg": 2,
+          "prixSac": 26.99,
+          "prixKg": 13.5,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/fhn--2529?ean=1-3182550704625",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/fhn--2529",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 45.89,
+          "prixKg": 11.47,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/fhn--2529?ean=1-3182550706933",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/fhn--2529",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "10 kg",
+          "formatKg": 10,
+          "prixSac": 91.49,
+          "prixKg": 9.15,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/fhn--2529?ean=1-3182550706940",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/fhn--2529",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Indoor 27",
       "espece": "chat",
       "age": "Adulte",
@@ -348,6 +590,147 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 21000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 800,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine E",
+          "valeur": 500,
+          "unite": "mg/kg",
+          "nature": "Teneur analytique publiée"
+        },
+        {
+          "nom": "Vitamine C",
+          "valeur": 200,
+          "unite": "mg/kg",
+          "nature": "Teneur analytique publiée"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 32,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 3.2,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 10,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 42,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 126,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.05,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "Nutrition adaptée à la deuxième phase de croissance",
+        "Système immunitaire fort",
+        "Développement cérébral",
+        "Soutien du microbiome"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "400 g",
+          "ean": "3182550702379"
+        },
+        {
+          "format": "2 kg",
+          "ean": "3182550702423"
+        },
+        {
+          "format": "4 kg",
+          "ean": "3182550702447"
+        },
+        {
+          "format": "10 kg",
+          "ean": "3182550702973"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "400 g",
+          "formatKg": 0.4,
+          "prixSac": 10,
+          "prixKg": 25,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/kitten-2522?ean=1-3182550702379",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/kitten-2522",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "2 kg",
+          "formatKg": 2,
+          "prixSac": 31.29,
+          "prixKg": 15.65,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/kitten-2522?ean=1-3182550702423",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/kitten-2522",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 53.29,
+          "prixKg": 13.32,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/kitten-2522?ean=1-3182550702447",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/kitten-2522",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "10 kg",
+          "formatKg": 10,
+          "prixSac": 106.29,
+          "prixKg": 10.63,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/kitten-2522?ean=1-3182550702973",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/kitten-2522",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Kitten",
       "espece": "chat",
       "age": "Junior",
@@ -661,6 +1044,118 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 15800,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 1000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 33,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 3.3,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 10,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 42,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 125,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.05,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "SANTÉ DIGESTIVE",
+        "SOUTIEN DES OS ET DES ARTICULATIONS",
+        "SOUTIEN OPTIMAL DE LA SANTÉ",
+        "TAILLE DE CROQUETTE ADAPTÉE"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "4 kg",
+          "ean": "3182551055894"
+        },
+        {
+          "format": "10 kg",
+          "ean": "3182551055931"
+        },
+        {
+          "format": "15 kg",
+          "ean": "3182551055955"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 28.69,
+          "prixKg": 7.17,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/maxi-adult-3007?ean=1-3182551055894",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/maxi-adult-3007",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "10 kg",
+          "formatKg": 10,
+          "prixSac": 55.19,
+          "prixKg": 5.52,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/maxi-adult-3007?ean=1-3182551055931",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/maxi-adult-3007",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "15 kg",
+          "formatKg": 15,
+          "prixSac": 82.79,
+          "prixKg": 5.52,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/maxi-adult-3007?ean=1-3182551055955",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/maxi-adult-3007",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Maxi Adult",
       "espece": "chien",
       "age": "Adulte",
@@ -942,6 +1437,130 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 15500,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 1000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine E",
+          "valeur": 480,
+          "unite": "mg/kg",
+          "nature": "Teneur analytique publiée"
+        },
+        {
+          "nom": "Vitamine C",
+          "valeur": 390,
+          "unite": "mg/kg",
+          "nature": "Teneur analytique publiée"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 42,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 4.2,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 13,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 54,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 136,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.07,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "Système immunitaire fort",
+        "Développement cérébral",
+        "Soutien du microbiome",
+        "Teneur en énergie optimale"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "4 kg",
+          "ean": "3182550402149"
+        },
+        {
+          "format": "10 kg",
+          "ean": "3182550778305"
+        },
+        {
+          "format": "15 kg",
+          "ean": "3182550402163"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 32.49,
+          "prixKg": 8.12,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy---maxi-3006?ean=1-3182550402149",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy---maxi-3006",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "10 kg",
+          "formatKg": 10,
+          "prixSac": 62.49,
+          "prixKg": 6.25,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy---maxi-3006?ean=1-3182550778305",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy---maxi-3006",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "15 kg",
+          "formatKg": 15,
+          "prixSac": 87.17,
+          "prixKg": 5.81,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy---maxi-3006?ean=1-3182550402163",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy---maxi-3006",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": null,
       "recette": "Maxi Puppy",
       "espece": "chien",
       "age": "Junior",
@@ -3477,6 +4096,130 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 21900,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 1000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine E",
+          "valeur": 500,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine C",
+          "valeur": 200,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 37,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 3.7,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 12,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 49,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 132,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.09,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "SOUTIEN DE LA MASSE MUSCULAIRE",
+        "DÉFENSES NATURELLES",
+        "SOUTIEN OPTIMAL DE LA VITALITÉ",
+        "TAILLE DE CROQUETTE ADAPTÉE"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "4 kg",
+          "ean": "3182550708203"
+        },
+        {
+          "format": "10 kg",
+          "ean": "3182550774550"
+        },
+        {
+          "format": "15 kg",
+          "ean": "3182550402286"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 30.09,
+          "prixKg": 7.52,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-7%2b-3005?ean=1-3182550708203",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-7%2b-3005",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "10 kg",
+          "formatKg": 10,
+          "prixSac": 57.89,
+          "prixKg": 5.79,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-7%2b-3005?ean=1-3182550774550",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-7%2b-3005",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "15 kg",
+          "formatKg": 15,
+          "prixSac": 86.89,
+          "prixKg": 5.79,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-7%2b-3005?ean=1-3182550402286",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-7%2b-3005",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Medium Adult 7+",
       "espece": "chien",
       "age": "Senior",
@@ -3890,6 +4633,130 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 14200,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 900,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine E",
+          "valeur": 500,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine C",
+          "valeur": 120,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 41,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 4.1,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 13,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 54,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 128,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.1,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "SOUTIEN DE LA MASSE MUSCULAIRE",
+        "DÉFENSES NATURELLES",
+        "SOUTIEN OPTIMAL DE LA SANTÉ",
+        "TAILLE DE CROQUETTE ADAPTÉE"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "4 kg",
+          "ean": "3182551055788"
+        },
+        {
+          "format": "10 kg",
+          "ean": "3182551055825"
+        },
+        {
+          "format": "15 kg",
+          "ean": "3182551055849"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 28.69,
+          "prixKg": 7.17,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-3004?ean=1-3182551055788",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-3004",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "10 kg",
+          "formatKg": 10,
+          "prixSac": 55.19,
+          "prixKg": 5.52,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-3004?ean=1-3182551055825",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-3004",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "15 kg",
+          "formatKg": 15,
+          "prixSac": 82.79,
+          "prixKg": 5.52,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-3004?ean=1-3182551055849",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-3004",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Medium Adult",
       "espece": "chien",
       "age": "Adulte",
@@ -4303,6 +5170,130 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 15500,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 1000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine E",
+          "valeur": 510,
+          "unite": "mg/kg",
+          "nature": "Teneur analytique publiée"
+        },
+        {
+          "nom": "Vitamine C",
+          "valeur": 400,
+          "unite": "mg/kg",
+          "nature": "Teneur analytique publiée"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 38,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 3.8,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 12,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 50,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 132,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.06,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "Teneur en énergie optimale",
+        "Soutien du microbiome",
+        "Développement cérébral",
+        "Système immunitaire fort"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "4 kg",
+          "ean": "3182550708180"
+        },
+        {
+          "format": "10 kg",
+          "ean": "3182550778077"
+        },
+        {
+          "format": "15 kg",
+          "ean": "3182550402132"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 32.49,
+          "prixKg": 8.12,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003?ean=1-3182550708180",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "10 kg",
+          "formatKg": 10,
+          "prixSac": 62.49,
+          "prixKg": 6.25,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003?ean=1-3182550778077",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "15 kg",
+          "formatKg": 15,
+          "prixSac": 87.17,
+          "prixKg": 5.81,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003?ean=1-3182550402132",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Medium Puppy",
       "espece": "chien",
       "age": "Junior",
@@ -6505,6 +7496,106 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 21000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 1000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 37,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 3.7,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 11,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 48,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 135,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.06,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "L-carnitine",
+          "valeur": 200,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "Résultats prouvés",
+        "Aide à maintenir un poids idéal",
+        "Comment pouvez-vous aider votre chien?"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "3 kg",
+          "ean": "3182550903653"
+        },
+        {
+          "format": "12 kg",
+          "ean": "3182550928724"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "3 kg",
+          "formatKg": 3,
+          "prixSac": 26.19,
+          "prixKg": 8.73,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/sterilised-medium-3034?ean=1-3182550903653",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/sterilised-medium-3034",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "12 kg",
+          "formatKg": 12,
+          "prixSac": 76.99,
+          "prixKg": 6.42,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/sterilised-medium-3034?ean=1-3182550928724",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/sterilised-medium-3034",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Medium Sterilised",
       "espece": "chien",
       "age": "Adulte",
@@ -6833,6 +7924,118 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 15800,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 1000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 34,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 3.4,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 10.5,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 44,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 125,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.09,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "MAINTIEN DU POIDS",
+        "DES OS FORTS ET SAINS",
+        "SOUTIEN OPTIMAL DE LA SANTÉ",
+        "APPÉTENCE RENFORCÉE"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "2 kg",
+          "ean": "3182551055672"
+        },
+        {
+          "format": "4 kg",
+          "ean": "3182551055719"
+        },
+        {
+          "format": "8 kg",
+          "ean": "3182551055740"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "2 kg",
+          "formatKg": 2,
+          "prixSac": 21.38,
+          "prixKg": 10.69,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001?ean=1-3182551055672",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 27.59,
+          "prixKg": 6.9,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001?ean=1-3182551055719",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "8 kg",
+          "formatKg": 8,
+          "prixSac": 52.59,
+          "prixKg": 6.57,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001?ean=1-3182551055740",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Mini Adult",
       "espece": "chien",
       "age": "Adulte",
@@ -7244,6 +8447,130 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 21500,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 1000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine E",
+          "valeur": 500,
+          "unite": "mg/kg",
+          "nature": "Teneur analytique publiée"
+        },
+        {
+          "nom": "Vitamine C",
+          "valeur": 400,
+          "unite": "mg/kg",
+          "nature": "Teneur analytique publiée"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 38,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 3.8,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 12,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 50,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 128,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.06,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "Développement cérébral",
+        "Teneur en énergie optimale",
+        "Système immunitaire fort",
+        "Soutien du microbiome"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "2 kg",
+          "ean": "3182550793001"
+        },
+        {
+          "format": "4 kg",
+          "ean": "3182550793032"
+        },
+        {
+          "format": "8 kg",
+          "ean": "3182550793049"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "2 kg",
+          "formatKg": 2,
+          "prixSac": 19.49,
+          "prixKg": 9.74,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy-mini-3000?ean=1-3182550793001",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy-mini-3000",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 31.29,
+          "prixKg": 7.82,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy-mini-3000?ean=1-3182550793032",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy-mini-3000",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "8 kg",
+          "formatKg": 8,
+          "prixSac": 58.2,
+          "prixKg": 7.28,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy-mini-3000?ean=1-3182550793049",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy-mini-3000",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Mini Puppy",
       "espece": "chien",
       "age": "Junior",
@@ -9011,6 +10338,118 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 19000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 1008,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 39,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 3.9,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 12,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 50,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 111,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.1,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "Santé digestive optimale",
+        "Haute appétence",
+        "Énergie concentrée",
+        "Santé urinaire"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "2 kg",
+          "ean": "3182550702317"
+        },
+        {
+          "format": "4 kg",
+          "ean": "3182550702331"
+        },
+        {
+          "format": "10 kg",
+          "ean": "3182550702355"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "2 kg",
+          "formatKg": 2,
+          "prixSac": 26.39,
+          "prixKg": 13.2,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sensible-33-2521?ean=1-3182550702317",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/sensible-33-2521",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 44.99,
+          "prixKg": 11.25,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sensible-33-2521?ean=1-3182550702331",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/sensible-33-2521",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "10 kg",
+          "formatKg": 10,
+          "prixSac": 89.69,
+          "prixKg": 8.97,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sensible-33-2521?ean=1-3182550702355",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/sensible-33-2521",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": null,
       "recette": "Sensible 33",
       "espece": "chat",
       "age": "Adulte",
@@ -9175,6 +10614,141 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 19000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 1000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 31,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 3.1,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 10,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 41,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 122,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.05,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "L-carnitine",
+          "valeur": 100,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "Contrôle de la prise de poids",
+        "Santé urinaire",
+        "Teneur élevée en protéines",
+        "Enrichi en L-carnitine"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "2 kg",
+          "ean": "3182550737593"
+        },
+        {
+          "format": "4 kg",
+          "ean": "3182550737616"
+        },
+        {
+          "format": "10 kg",
+          "ean": "3182550737623"
+        },
+        {
+          "format": "15 kg",
+          "ean": "3182550777308"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "2 kg",
+          "formatKg": 2,
+          "prixSac": 26.39,
+          "prixKg": 13.2,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-37-2537?ean=1-3182550737593",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-37-2537",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "4 kg",
+          "formatKg": 4,
+          "prixSac": 44.99,
+          "prixKg": 11.25,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-37-2537?ean=1-3182550737616",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-37-2537",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "10 kg",
+          "formatKg": 10,
+          "prixSac": 89.69,
+          "prixKg": 8.97,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-37-2537?ean=1-3182550737623",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-37-2537",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "15 kg",
+          "formatKg": 15,
+          "prixSac": 109,
+          "prixKg": 7.27,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-37-2537?ean=1-3182550777308",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-37-2537",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Sterilised 37",
       "espece": "chat",
       "age": "Adulte",
@@ -9334,6 +10908,124 @@ window.CROCamiRoyalCaninOfficial = [
       "rpcMacroquette": null,
       "ratioCalciumPhosphore": null,
       "fibresAlimentairesTotales": null,
+      "micronutrimentsFabricant": [
+        {
+          "nom": "Vitamine A",
+          "valeur": 18000,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine D3",
+          "valeur": 950,
+          "unite": "UI/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Vitamine C",
+          "valeur": 190,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Fer",
+          "valeur": 37,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Iode",
+          "valeur": 3.7,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Cuivre",
+          "valeur": 11,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Manganèse",
+          "valeur": 48,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Zinc",
+          "valeur": 142,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        },
+        {
+          "nom": "Sélénium",
+          "valeur": 0.06,
+          "unite": "mg/kg",
+          "nature": "Additif nutritionnel ajouté"
+        }
+      ],
+      "beneficesFabricant": [
+        "COMPLEXE VITALITÉ",
+        "CONTRÔLE DE LA PRISE DE POIDS",
+        "SANTÉ URINAIRE",
+        "SANTÉ RÉNALE"
+      ],
+      "referencesFabricant": [
+        {
+          "format": "1.5 kg",
+          "ean": "3182550784566"
+        },
+        {
+          "format": "3.5 kg",
+          "ean": "3182550784580"
+        },
+        {
+          "format": "10 kg",
+          "ean": "3182550805629"
+        }
+      ],
+      "offresFabricant": [
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "1.5 kg",
+          "formatKg": 1.5,
+          "prixSac": 21.79,
+          "prixKg": 14.53,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2b-2560?ean=1-3182550784566",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2b-2560",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "3.5 kg",
+          "formatKg": 3.5,
+          "prixSac": 41.49,
+          "prixKg": 11.85,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2b-2560?ean=1-3182550784580",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2b-2560",
+          "condition": null
+        },
+        {
+          "marchand": "Royal Canin",
+          "vendeur": "Royal Canin",
+          "format": "10 kg",
+          "formatKg": 10,
+          "prixSac": 98.69,
+          "prixKg": 9.87,
+          "disponible": true,
+          "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2b-2560?ean=1-3182550805629",
+          "datePrix": "2026-11-09",
+          "sourceReleve": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2b-2560",
+          "condition": null
+        }
+      ],
+      "consignesFabricant": "Conserver le sac au sec et au frais. Consulter l’emballage pour la date de durabilité, le numéro de lot et les consignes propres au produit. Garder de l’eau fraîche à disposition.",
       "recette": "Sterilised 7+",
       "espece": "chat",
       "age": "Senior",
@@ -9471,7 +11163,11 @@ for(const entry of window.CROCamiRoyalCaninOfficial){
   const product=window.CROCamiCatalog.find(p=>p.id===id);
   if(!product)throw new Error('Royal Canin reference missing: '+id);
   Object.assign(product,entry.product);
+  product.offres=[...(product.offres||[]).filter(o=>o.marchand!=='Royal Canin'),...(entry.product.offresFabricant||[])];
   product.relevesRevendeurs=(product.relevesRevendeurs||[]).map(r=>({...r,ecarts:Object.entries(r.valeurs||{}).filter(([field,value])=>product[field]!=null&&Math.abs(product[field]-value)>.051).map(([field,value])=>({champ:field,catalogue:product[field],revendeur:value}))}));
  }
- if(entry.newId&&!window.CROCamiCatalog.some(p=>p.id===entry.newId))window.CROCamiCatalog.push({id:entry.newId,marque:'Royal Canin',prixSac:null,prixKg:null,formatKg:null,vendeur:null,datePrix:null,offres:[],...entry.product});
+ if(entry.newId&&!window.CROCamiCatalog.some(p=>p.id===entry.newId)){
+  const offers=entry.product.offresFabricant||[],preferred=offers.filter(o=>o.disponible).sort((a,b)=>a.prixKg-b.prixKg)[0];
+  window.CROCamiCatalog.push({id:entry.newId,marque:'Royal Canin',prixSac:null,prixKg:null,formatKg:null,vendeur:null,datePrix:null,...entry.product,offres:offers,...(preferred?{prixSac:preferred.prixSac,prixKg:preferred.prixKg,formatKg:preferred.formatKg,vendeur:'Royal Canin',datePrix:preferred.datePrix,urlVendeur:preferred.url}:{})});
+ }
 }

@@ -1,7 +1,7 @@
 {
   "key": "sterilised-37",
   "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-37-2537",
-  "checkedAt": "2026-11-09T17:55:01.003Z",
+  "checkedAt": "2026-11-09T18:05:53.010Z",
   "ids": [
     "c01",
     "mq-cat-057"
@@ -18,6 +18,24 @@
     "description": "Après la stérilisation de votre chat, il peut être nécessaire d’adapter son alimentation afin de s’assurer qu’il reçoit les nutriments qui correspondent à ses besoins énergétiques quelque peu modifiés. \n \nROYAL CANIN® Sterilised 37 contient une quantité modérée de matières grasses : correctement rationné au quotidien, il aide votre chat à conserver un poids idéal après sa stérilisation.  \n \nDe plus, ROYAL CANIN® Sterilised 37 contient un mélange de minéraux soigneusement choisi pour favoriser la santé du système urinaire de votre chat et une teneur accrue en protéines pour renforcer sa masse musculaire.\n \nPour répondre aux préférences individuelles de chaque chat, ROYAL CANIN® Sterilised 37 est également disponible sous forme d’émincé en sauce, en gelée ou en mousse. Si vous envisagez une alimentation mixte, il vous suffit de suivre nos instructions pour vous assurer que votre chat reçoit la quantité de nourriture sèche et humide nécessaire pour un bénéfice optimal.\n",
     "image": "https://cdn.royalcanin-weshare-online.io/MGmkK2oBG95Xk-RBjfUX/v26/norwegian-adult-fhn-indoor-emblematic"
   },
+  "benefits": [
+    {
+      "description": "Après la stérilisation, les besoins énergétiques des chats diminuent. ROYAL CANIN® Sterilised 37 aide à limiter le risque de prise de poids excessive grâce à une teneur modérée en matières grasses et à un rationnement quotidien adapté.",
+      "label": "Contrôle de la prise de poids"
+    },
+    {
+      "description": "Favorise la bonne santé du système urinaire grâce à un apport adéquat en minéraux.",
+      "label": "Santé urinaire"
+    },
+    {
+      "description": "Aide à maintenir la masse musculaire grâce à une teneur élevée en protéines.",
+      "label": "Teneur élevée en protéines"
+    },
+    {
+      "description": "La L-carnitine contribue au métabolisme des graisses.",
+      "label": "Enrichi en L-carnitine"
+    }
+  ],
   "nutritionalInfo": [
     {
       "description": "Composition : protéines de volaille déshydratées, maïs, isolat de protéines végétales*, fibres végétales, graisses animales, hydrolysat de protéines animales, riz, blé, pulpe de betterave, gluten de maïs, levures et composants de levures, sels minéraux, huile de poisson, fructo-oligosaccharides, huile de soja.",

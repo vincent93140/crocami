@@ -1,7 +1,7 @@
 {
   "key": "indoor-27",
   "url": "https://www.royalcanin.com/fr/cats/products/retail-products/fhn--2529",
-  "checkedAt": "2026-11-09T17:55:06.127Z",
+  "checkedAt": "2026-11-09T18:05:53.108Z",
   "ids": [],
   "age": "Adulte",
   "gabarit": "Toutes",
@@ -15,6 +15,24 @@
     "description": "Les chats d’intérieur adultes comme le vôtre ont tendance à faire moins d’exercice que les chats d’extérieur, c’est pourquoi il est important qu’ils reçoivent une alimentation équilibrée et complète contenant des nutriments bénéfiques favorisant une santé optimale. \n \nROYAL CANIN® Indoor 27 contient des protéines hautement digestibles (L.I.P.) spécifiquement sélectionnées pour leur très haute digestibilité. Elles contribuent également à réduire la quantité des selles de votre chat, ainsi que l’odeur qu’elles peuvent produire lorsque les chats ont un transit intestinal moins efficace en raison du manque d’exercice. \n \nLa teneur modérée de cet aliment en matières grasses garantit que l’apport calorique de votre chat est adapté à son niveau d’activité, cet apport calorique contribuant également à maintenir son poids de forme.\n \nIl est courant que les chats d’intérieur passent de longs moments faire leur toilette. Grâce à l’ajout de fibres alimentaires spécifiques, comme le psyllium, cet aliment favorise également l’élimination des poils ingérés, réduisant ainsi considérablement la formation de boules de poils.  \n \nLa gamme ROYAL CANIN® Indoor est également disponible en fonction du mode de vie, de la morphologie et de l’âge de votre chat : Indoor Long Hair et Indoor 7+.\n \nPour répondre aux préférences individuelles de chaque chat, ROYAL CANIN® Indoor est également disponible sous forme de morceaux en sauce, en gelée ou en mousse. Si vous envisagez une alimentation mixte, il vous suffit de suivre nos instructions pour vous assurer que votre chat reçoit la quantité de nourriture sèche et humide nécessaire pour un bénéfice optimal.",
     "image": "https://cdn.royalcanin-weshare-online.io/bSEqa2QBaxEApS7LxfiO/v30/egyptian-mau-adult-fhn-indoor-emblematic"
   },
+  "benefits": [
+    {
+      "description": "Le manque d’exercice peut entraîner un ralentissement du transit intestinal qui lui-même peut donner lieu à la production de selles malodorantes. ROYAL CANIN® Indoor 27 contient des protéines hautement digestibles (L.I.P.)*, une teneur ajustée en fibres et des nutriments spécifiques pour favoriser une bonne digestion et aider à réduire le volume et les odeurs des selles. \n*L.I.P. : protéines sélectionnées pour leur très haute digestibilité.",
+      "label": "Réduction des odeurs de selles"
+    },
+    {
+      "description": "Une teneur modérée en calories, adaptée à la faible activité des chats d’intérieur, aide à maintenir le poids idéal.",
+      "label": "Teneur modérée en calories"
+    },
+    {
+      "description": "ROYAL CANIN® Indoor 27 aide à stimuler le transit intestinal et l’élimination des poils ingérés grâce à des fibres spécifiques, notamment du psyllium.",
+      "label": "Réduction des boules de poils"
+    },
+    {
+      "description": "Formulé pour contribuer à la bonne santé du système urinaire du chat adulte.",
+      "label": "Santé urinaire"
+    }
+  ],
   "nutritionalInfo": [
     {
       "description": "Composition : protéines de volaille déshydratées, riz, blé, maïs, isolat de protéines végétales*, graisses animales, hydrolysat de protéines animales, farine de blé, fibres végétales, pulpe de betterave, levures et composants de levures, huile de soja, sels minéraux, fructo-oligo-saccharides, huile de poisson, téguments et graines de psyllium (0,5 %).",

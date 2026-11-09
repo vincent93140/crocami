@@ -1,7 +1,7 @@
 {
   "key": "sensible-33",
   "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sensible-33-2521",
-  "checkedAt": "2026-11-09T17:55:05.954Z",
+  "checkedAt": "2026-11-09T18:05:53.127Z",
   "ids": [],
   "age": "Adulte",
   "gabarit": "Toutes",
@@ -15,6 +15,24 @@
     "description": "Le système digestif de certains chats peut être sensible à certains types d’aliments, et si c’est le cas pour votre animal, un changement d’alimentation peut être nécessaire afin de stabiliser son estomac. De nombreux nutriments sont susceptibles d’avoir un effet apaisant sur son système digestif. \n\nROYAL CANIN® Sensible 33 est spécialement formulé pour soutenir les chats adultes présentant des signes de sensibilité à certains aliments. Il contient un mélange exclusif d’éléments nutritifs pour offrir une sécurité digestive optimale et convient aux chats adultes âgés de 1 à 7 ans.\n \nROYAL CANIN® Sensible 33 est extrêmement savoureux et contient trois formes de croquettes différentes et des arômes soigneusement sélectionnés pour stimuler la prise de nourriture et faciliter la digestion. \n\nDe plus, ROYAL CANIN® Sensible 33 a également été conçu pour aider à renforcer le système urinaire des chats adultes comme le vôtre.\n\nUne fois que le système digestif de votre chat commence à s’améliorer, vous pouvez continuer à le nourrir avec ROYAL CANIN® Sensible 33, qui a été conçu non seulement pour favoriser la digestion, mais aussi pour l’entretenir par la suite.\n\n",
     "image": ""
   },
+  "benefits": [
+    {
+      "description": "Certains chats ont une sensibilité digestive qui conduit à la production de selles molles. Sensible 33 contient une combinaison exclusive de nutriments pour une sécurité digestive optimale (L.I.P.*) et des prébiotiques (dont des FOS) pour l’équilibre de la flore intestinale. *L.I.P. : protéines sélectionnées pour leur très haute digestibilité.",
+      "label": "Santé digestive optimale"
+    },
+    {
+      "description": "Trois formes de croquettes différentes et une formule attractive avec des arômes rigoureusement sélectionnés pour stimuler la prise alimentaire chez les chats sensibles.",
+      "label": "Haute appétence"
+    },
+    {
+      "description": "Une densité énergétique plus élevée permet des rations plus petites et réduit la charge digestive chez les chats à sensibilité digestive.",
+      "label": "Énergie concentrée"
+    },
+    {
+      "description": "Formulé pour contribuer à la bonne santé du système urinaire du chat adulte.",
+      "label": "Santé urinaire"
+    }
+  ],
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, graisses animales, riz, \nprotéines de porc déshydratées, maïs, gluten de blé*, farine de blé, protéines \nanimales hydrolysées, blé, gluten de maïs, produits de levures, pulpe de betterave, huile de poissons, substances minérales, fibres végétales, huile de soja, fructo-oligosaccharides.",

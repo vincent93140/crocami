@@ -1,7 +1,7 @@
 {
   "key": "hairball-care",
   "url": "https://www.royalcanin.com/fr/cats/products/retail-products/hairball-care-2534",
-  "checkedAt": "2026-11-09T17:55:05.737Z",
+  "checkedAt": "2026-11-09T18:05:53.115Z",
   "ids": [],
   "age": "Adulte",
   "gabarit": "Toutes",
@@ -15,6 +15,28 @@
     "description": "ROYAL CANIN® HAIRBALL CARE est une formule nutritionnelle complète et équilibrée, spécialement conçue pour contribuer à réduire la formation de boules de poils.  \n\nGrâce à une combinaison spécifique de fibres d’origine naturelle (dont du psyllium), les croquettes ROYAL CANIN® HAIRBALL CARE aident à stimuler naturellement le transit intestinal. Ainsi, les poils ingérés par votre chat peuvent être éliminés dans les selles plutôt que de s’accumuler dans l’estomac et être finalement régurgités.\n\nROYAL CANIN® HAIRBALL CARE a fait ses preuves. Notre étude* a montré que cet aliment a permis de réduire la formation de boules de poils chez les chats participants en seulement 14 jours. \n\nROYAL CANIN® HAIRBALL CARE est également disponible en 2 textures d’aliments humides différentes : sauce et gelée. L’association d’aliments humides et secs offre aux chats la variété dont ils raffolent.\n\n* Étude interne ROYAL CANIN®\n",
     "image": "https://cdn.royalcanin-weshare-online.io/RSEqa2QBaxEApS7LkfjE/v26/siberian-adult-care-emblematic"
   },
+  "benefits": [
+    {
+      "description": "Les chats passent une grande partie de leur temps à se toiletter et peuvent, par conséquent, avaler une grande quantité de poils. Ces poils ingérés peuvent s’accumuler dans le système digestif et former des boules de poils qui peuvent ensuite être régurgitées ou éliminées dans les selles. Chez certains chats, les poils accumulés provoquent de l’inconfort et des problèmes plus graves.\n\n",
+      "label": "VOTRE CHAT EST-IL SUJET À LA FORMATION DE BOULES DE POILS ? "
+    },
+    {
+      "description": "Cet aliment précisément équilibré aide à réduire naturellement la formation de boules de poils. Le complexe exclusif HAIRBALL CARE est composé d’une combinaison spécifique de fibres d’origine naturelle, dont du psyllium, pour aider à stimuler naturellement le transit intestinal. Ainsi, les poils ingérés quotidiennement peuvent être éliminés dans les selles plutôt que de s’accumuler dans l’estomac et être finalement régurgités.",
+      "label": "AIDE À RÉDUIRE LA FORMATION DE BOULES DE POILS"
+    },
+    {
+      "description": "L’utilisation exclusive de l’aliment sec ROYAL CANIN® HAIRBALL CARE réduit la formation de boules de poils en 14 jours.*\n* Étude interne Royal Canin.\n",
+      "label": "RÉSULTATS PROUVÉS"
+    },
+    {
+      "description": "1. Essayez l’aliment humide ROYAL CANIN® HAIRBALL CARE, l’association parfaite avec cet aliment sec.\n2. Brossez régulièrement votre chat afin d’enlever les surplus de poils.\n3. Bien que les boules de poils soient courantes, elles peuvent être le signe d’autres problèmes de santé. Veillez à informer votre équipe vétérinaire de la formation de boules de poils chez votre chat.\n4. Si vous avez une question ou un doute sur la santé de votre chat, veuillez consulter votre vétérinaire.\n",
+      "label": "PROGRAMME HAIRBALL CARE "
+    },
+    {
+      "description": "Formulé avec une teneur équilibrée en minéraux afin de contribuer à la bonne santé du système urinaire de votre chat adulte.\n\n\n",
+      "label": "SANTÉ URINAIRE"
+    }
+  ],
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, gluten de blé*, maïs, fibres végétales, riz, graisses animales, protéines animales hydrolysées, blé, farine de maïs, gluten de maïs, pulpe de betterave, substances minérales, produits de levures, huile de soja, huile de poissons, téguments et graines de psyllium (0,50 %), fructo-oligosaccharides. ",

@@ -1,0 +1,81 @@
+{
+  "url": "https://www.lacompagniedesanimaux.com/royal-canin-feline-care-nutrition-hairball-care-10-kg.html",
+  "date": "2026-11-09",
+  "valeurs": [
+    {
+      "nom": "Cendres brutes",
+      "valeur": 6.9,
+      "unite": "%"
+    },
+    {
+      "nom": "Calcium",
+      "valeur": 1.15,
+      "unite": "%"
+    },
+    {
+      "nom": "Cellulose brute",
+      "valeur": 6.9,
+      "unite": "%"
+    },
+    {
+      "nom": "Fibres alimentaires",
+      "valeur": 15.1,
+      "unite": "%"
+    },
+    {
+      "nom": "EPA/DHA",
+      "valeur": 0.21,
+      "unite": "%"
+    },
+    {
+      "nom": "Matière grasse",
+      "valeur": 15,
+      "unite": "%"
+    },
+    {
+      "nom": "Humidité",
+      "valeur": 5.5,
+      "unite": "%"
+    },
+    {
+      "nom": "Oméga 3",
+      "valeur": 0.68,
+      "unite": "%"
+    },
+    {
+      "nom": "Oméga 6",
+      "valeur": 3.72,
+      "unite": "%"
+    },
+    {
+      "nom": "Phosphore",
+      "valeur": 1,
+      "unite": "%"
+    },
+    {
+      "nom": "Protéine brute",
+      "valeur": 34,
+      "unite": "%"
+    },
+    {
+      "nom": "Amidon",
+      "valeur": 23.5,
+      "unite": "%"
+    },
+    {
+      "nom": "Taurine",
+      "valeur": 1400,
+      "unite": "mg/kg"
+    },
+    {
+      "nom": "Magnésium",
+      "valeur": 0.08,
+      "unite": "%"
+    },
+    {
+      "nom": "Sodium",
+      "valeur": 0.5,
+      "unite": "%"
+    }
+  ]
+}

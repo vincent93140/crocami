@@ -1,7 +1,7 @@
 {
   "key": "sterilised-7",
   "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2b-2560",
-  "checkedAt": "2026-11-09T17:55:01.173Z",
+  "checkedAt": "2026-11-09T18:05:53.025Z",
   "ids": [
     "c11"
   ],
@@ -18,6 +18,24 @@
     "description": "Bien qu’une alimentation complète et équilibrée soit importante pour les chats de tous âges, certains nutriments spécifiques contribuent au maintien d’une santé optimale chez les chats stérilisés d’un certain âge.\n \nROYAL CANIN® Sterilised 7+ est spécialement formulé pour répondre à tous les besoins nutritionnels de votre chat stérilisé de plus de 7 ans.\n \nPour l’aider à affronter les premiers signes de l’âge, ROYAL CANIN® Sterilised 7+ est enrichi en nutriments ciblés dont les polyphénols de thé vert, la vitamine C et les acides gras EPA et DHA. Ce complexe vitalité est très bénéfique pour votre chat et renforce son bon fonctionnement corporel.\n \nL’apport modéré en matières grasses de la formule ROYAL CANIN® Sterilised 7+ permet d’éviter que votre chat ne prenne trop de poids.\n \nROYAL CANIN® Sterilised 7+ contient un taux de phosphore spécialement adapté pour contribuer à renforcer la santé du système rénal de votre chat et à entretenir le bon fonctionnement de ses reins.\n \nDe plus, ROYAL CANIN® Sterilised 7+ est également spécialement formulé pour aider à maintenir la santé du système urinaire de votre chat adulte.\n",
     "image": ""
   },
+  "benefits": [
+    {
+      "description": "Pour aider les chats à faire face aux premiers signes de vieillissement et pour maintenir leur vitalité après l’âge de 7 ans, STERILISED 7+ est formulé avec une teneur adaptée en vitamines et en minéraux. Cet aliment est enrichi en nutriments spécifiques dont de la vitamine C et des acides gras EPA et DHA.",
+      "label": "COMPLEXE VITALITÉ"
+    },
+    {
+      "description": "Après la stérilisation, les besoins énergétiques des chats diminuent. STERILISED 7+ aide à limiter le risque de prise de poids excessive grâce à une teneur modérée en matières grasses et à un rationnement quotidien adapté.",
+      "label": "CONTRÔLE DE LA PRISE DE POIDS"
+    },
+    {
+      "description": "Formulé pour contribuer à la bonne santé du système urinaire du chat adulte.",
+      "label": "SANTÉ URINAIRE"
+    },
+    {
+      "description": "Le déclin de la fonction rénale est fréquent chez les chats âgés. STERILISED 7+ contient un niveau de phosphore adapté pour contribuer à la bonne santé rénale.",
+      "label": "SANTÉ RÉNALE"
+    }
+  ],
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : maïs, gluten de blé*, protéines de volaille déshydratées, protéines animales hydrolysées, gluten de maïs, fibres végétales, graisses animales, blé, riz, substances minérales, produits de levures, pulpe de betterave, huile de poissons, fructo-oligosaccharides, téguments et graines de psyllium, huile de soja, glucosamine issue de la fermentation, farine de tagète, cartilage hydrolysé (source de chondroïtine).",

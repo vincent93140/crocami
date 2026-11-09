@@ -1,7 +1,7 @@
 {
   "key": "medium-adult",
   "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-3004",
-  "checkedAt": "2026-11-09T17:55:01.024Z",
+  "checkedAt": "2026-11-09T18:05:53.039Z",
   "ids": [
     "mq-dog-076"
   ],
@@ -17,6 +17,24 @@
     "description": "ROYAL CANIN® Medium Adult est une formule nutritionnelle complète et équilibrée spécialement conçue pour répondre aux besoins spécifiques de votre chien de taille moyenne et le soutenir tout au long de sa vie adulte. Cet aliment convient aux chiens de taille moyenne pesant entre 11 et 25 kg et âgés de plus de 12 mois. \n\nLes chiens de taille moyenne ont besoin d’exercices réguliers pour assurer un bon développement musculaire. C’est pourquoi, cette formule est conçue pour les aider à maintenir leur masse musculaire grâce à sa teneur en protéines spécifiques de haute qualité. \n\nLeur mode de vie énergique peut les exposer à des facteurs environnementaux susceptibles d’affaiblir leur système immunitaire. Afin de les aider à soutenir leurs défenses naturelles, cette formule contient des prébiotiques et une combinaison de vitamines, dont des vitamines C et E. \n\nIls ont besoin de nutriments spécifiques pour contribuer à maintenir un bon état de santé général. Comprenant une combinaison équilibrée de nutriments hautement digestibles, les croquettes ROYAL CANIN® Medium Adult favorisent une digestion maximale aidant votre chien à rester en bonne santé et à profiter pleinement de la vie. \n\nLa forme et la taille des croquettes ROYAL CANIN® Medium Adult ont été spécialement adaptées à la mâchoire unique de votre chien et à son comportement alimentaire. Elles l’encouragent à bien croquer. \n\nROYAL CANIN® Medium Adult est également disponible en deux textures humides : mousse et bouchées en sauce. L’association d’aliments secs et humides apporte de la variété à l’alimentation de votre chien, rendant ses repas plus stimulants et attrayants. ",
     "image": ""
   },
+  "benefits": [
+    {
+      "description": "Contribue à maintenir la masse musculaire grâce à une teneur adaptée en protéines de haute qualité.",
+      "label": "SOUTIEN DE LA MASSE MUSCULAIRE"
+    },
+    {
+      "description": "Aide à soutenir les défenses naturelles des chiens notamment grâce à un complexe de vitamines (comprenant les vitamines C et E) et des prébiotiques.",
+      "label": "DÉFENSES NATURELLES"
+    },
+    {
+      "description": "Contient des vitamines et des nutriments hautement digestibles pour une absorption maximale.",
+      "label": "SOUTIEN OPTIMAL DE LA SANTÉ"
+    },
+    {
+      "description": "Conçue pour encourager la mastication.",
+      "label": "TAILLE DE CROQUETTE ADAPTÉE"
+    }
+  ],
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, blé, farine de maïs, farine de blé, maïs, protéines animales hydrolysées, graisses animales, protéines de porc déshydratées, orge, gluten de maïs, pulpe de betterave, substances minérales, huile de soja, produits de levures, huile de poissons, levures (source de mannan-oligosaccharides), huile d’algues Schizochytrium sp.",

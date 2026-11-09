@@ -20,7 +20,7 @@ let i=0;const output=[];
 async function worker(){while(i<targets.length){const [key,species,slug,ids,age,gabarit,besoins]=targets[i++];const url=`https://www.royalcanin.com/fr/${species}/products/retail-products/${slug}`;try{
  const r=await fetch(url,{signal:AbortSignal.timeout(45000)}),h=await r.text();const match=h.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);if(!r.ok||!match)throw Error('HTTP '+r.status);
  const p=JSON.parse(match[1]).props.pageProps.productData?.response;if(!p?.nutritionalInfo?.length)throw Error('Missing nutrition');
- const record={key,url:r.url,checkedAt:new Date().toISOString(),ids,age,gabarit,besoins,espece:species==='dogs'?'chien':'chat',title:p.title,description:p.description,details:p.details,nutritionalInfo:p.nutritionalInfo,images:p.images,packs:p.packs,category:p.categoryLabel};
+ const record={key,url:r.url,checkedAt:new Date().toISOString(),ids,age,gabarit,besoins,espece:species==='dogs'?'chien':'chat',title:p.title,description:p.description,details:p.details,benefits:p.benefits,nutritionalInfo:p.nutritionalInfo,images:p.images,packs:p.packs,category:p.categoryLabel};
  fs.writeFileSync(`reports/royalcanin-officiel/${key}.json`,JSON.stringify(record,null,2)+'\n');output.push(record);console.log(key,p.title,p.nutritionalInfo.length);
  }catch(e){console.log('ERROR',key,e.message);process.exitCode=1;}}}
 await Promise.all([worker(),worker()]);
