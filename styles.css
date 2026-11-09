@@ -740,3 +740,62 @@ footer .footer-links a:hover{color:#1266ad;text-decoration:underline;text-underl
 .detail-data-row.metric-unknown{background:#f1f2ed;border-color:#e3e5dc}
 .detail-data-row.metric-unknown b{color:#777d72}
 .retailer-copy-details{margin:16px 0;padding:12px 14px;border:1px solid #e5eae3;border-radius:10px}.retailer-copy-details summary{font-size:.95rem;font-weight:600}.retailer-copy-details p{margin:12px 0 0}
+
+/* Palette commune : navigation marine, surfaces crème, actions orange. */
+:root{
+ --brand-navy:#07375e;--brand-blue:#1266a6;--brand-orange:#f39a24;
+ --surface:#fffaf1;--surface-soft:#eaf1f8;--surface-border:#cbdbea;
+ --text:#173b59;--text-muted:#536b80;
+ --ink:var(--text);--muted:var(--text-muted);--paper:var(--surface);--line:var(--surface-border);
+}
+/* Actions de retour visibles sur le fond bleu des fiches. */
+.product-detail-page .detail-back{
+ display:inline-flex;align-items:center;justify-content:center;gap:8px;
+ min-height:46px;padding:12px 18px;border:2px solid var(--brand-orange);
+ border-radius:10px;background:var(--brand-orange);color:var(--brand-navy);
+ font-size:14px;font-weight:800;line-height:1.4;text-decoration:none;
+ box-shadow:0 4px 12px #001b3033;transition:background .15s,border-color .15s;
+}
+.product-detail-page .detail-back:hover{background:#ffb347;border-color:#ffb347;color:var(--brand-navy);text-decoration:none}
+.product-detail-page .detail-back:focus-visible{outline:3px solid white;outline-offset:4px}
+.product-detail-page .detail-back-bottom{margin-top:24px}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--brand-orange);outline-offset:3px}
+/* Les panneaux emploient la même surface sur toutes les vues. */
+.detail-hero,.detail-section,.merchant-panel,.advisor-panel,.advisor-result-card,.transparency-card{
+ background:var(--surface);color:var(--text);border-color:var(--surface-border);
+}
+.finder,.product-card,.comparison,.global-score-card,.global-score-detail,.nutrition-audit{
+ background:var(--surface)!important;border-color:var(--surface-border)!important;color:var(--text)!important;
+}
+.detail-product-image,.detail-two-columns article,.detail-criteria>div,.detail-meta-grid>div,
+.compare-product-pack,.price-data-note,.finder-tip,.advisor-disclaimer,.advisor-empty{
+ background:var(--surface-soft)!important;border-color:var(--surface-border)!important;color:var(--text-muted)!important;
+}
+.finder-tip b{color:var(--brand-blue)!important}
+.detail-brand,.detail-section-heading h2,.detail-two-columns h3,.transparency-card h3,
+.advisor-result-brand,.advisor-result-main>a,.merchant-table a,.product-sources a{color:var(--brand-blue)}
+.detail-description,.detail-muted,.detail-meta-grid span,.detail-criteria small,
+.merchant-table thead th,.merchant-table td small,.comparison-legend,.comparison-row-hint{color:var(--text-muted)}
+.detail-two-columns p,.detail-meta-grid b,.merchant-panel h3,.merchant-table tbody th{color:var(--text)}
+.detail-source-links a,.detail-chip{background:var(--surface-soft);color:var(--brand-blue);border-color:var(--surface-border)}
+.detail-source-links a:hover{background:var(--brand-blue);color:white}
+.detail-price-line strong,.product-price strong{color:var(--brand-blue)!important}
+.comparison .results-head .eyebrow{color:var(--brand-blue)!important}
+.comparison th,.comparison td{border-color:var(--surface-border)}
+.comparison thead th,.comparison tbody th{background:var(--surface-soft)!important}
+.comparison tbody td.comparison-best{color:#205d32!important}
+/* Contraste des textes placés directement sur les fonds marines. */
+.understand-heading h2,.understand-heading>p:last-child,.advisor-heading h2,
+.advisor-heading>p,.advisor-results-heading h3,.advisor-results-heading>span{color:#fff}
+.understand-heading h2 em,.understand-heading .eyebrow,.advisor-heading h2 em,
+.advisor-heading .eyebrow,.advisor-results-heading .eyebrow{color:#ffb347}
+footer .footer-links a{color:#fff}
+footer .footer-links a:hover{color:#ffb347}
+/* Le bleu signale une valeur informative ; les repères nutritionnels restent multicolores. */
+.detail-data-row.metric-info{background:#eaf1f8;border-color:#c5d8eb}
+.detail-data-row.metric-info b{color:#315f89}
+.audit-value.good,.audit-tag.good{color:#24763b}
+.audit-value.watch,.audit-tag.watch{color:#a96808}
+.audit-value.bad,.audit-tag.bad{color:#b3261e}
+.audit-value.info,.audit-tag.info{color:#315f89}
+@media(max-width:600px){.product-detail-page .detail-back{font-size:13px;min-height:46px;padding:11px 14px}}
