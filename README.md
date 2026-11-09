@@ -2,6 +2,23 @@
 
 Comparateur de croquettes pour chiens et chats : recherche, filtres, comparaison nutritionnelle et transparence des sources.
 
+## Publication et contrôles SEO
+
+L’accueil utilise `catalogue-leger.js`, généré à partir des données complètes. Les compositions et relevés détaillés restent disponibles dans les fiches HTML. Ne pas modifier ce fichier à la main.
+
+Après une mise à jour des données, du modèle HTML ou de l’application :
+
+```text
+node scripts/build-product-pages.mjs
+node scripts/build-product-pages.mjs --check
+node scripts/audit-site-seo.mjs
+node scripts/audit-seo-upgrade.mjs
+```
+
+Le contrôle compare les notes et leurs critères entre catalogue complet et allégé, les formats du balisage Product et la répartition des liens. Les prix restent des relevés datés, sans synchronisation en temps réel.
+
+La livraison SEO du 9 novembre comprend 236 fiches distinctes, sept articles et leur sommaire, quatre pages de sélection, deux pages de présentation/méthode, l’accueil et l’annuaire : 252 URL dans le sitemap. Les chiffres historiques ci-dessous décrivent les lots collectés avant fusion des références.
+
 ## Fonctionnalités
 - Catalogue chiens et chats avec recherche par marque, recette et besoin.
 - Filtres par espèce, âge, taille/gabarit et besoin.

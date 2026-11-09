@@ -884,3 +884,18 @@ main{max-width:1280px;margin-inline:auto}
 .seo-main{background:var(--page-bg)}
 
 .seo-byline{font-size:13px;color:var(--text-muted);border-top:1px solid var(--surface-border);padding-top:18px}.seo-guides-home{background:var(--surface);border-radius:16px;margin-block:30px}.seo-article a:focus-visible{outline:3px solid var(--brand-orange);outline-offset:3px}
+
+/* Prix et sélections éditoriales. */
+.price-status{margin:8px 0 0;font-size:12px;line-height:1.5;font-weight:600}
+.product-card .price-indicative,.detail-heading .price-indicative{color:#785017;background:#fff1d8;border:1px solid #e4c992;border-radius:8px;padding:8px 10px}
+.product-card .price-verified,.detail-heading .price-verified{color:var(--text-muted)}
+.seo-category-grid{list-style:none!important;padding:0!important;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.seo-category-grid li{margin:0!important;min-width:0}
+.seo-category-grid article{height:100%;padding:20px;border:1px solid var(--surface-border);border-radius:12px;background:var(--surface-soft)}
+.seo-category-grid h3{font-size:18px;line-height:1.4;margin:8px 0 12px;overflow-wrap:anywhere}
+.seo-category-grid p{font-size:14px!important;line-height:1.65!important;margin:8px 0}
+.seo-category-grid .eyebrow{font-size:11px!important}
+.seo-category-nav{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+.seo-category-nav a{padding:10px 14px;background:var(--surface-soft);border:1px solid var(--surface-border);border-radius:8px;font-size:14px}
+.product-reading p{line-height:1.75;font-size:14px}
+@media(max-width:700px){.seo-category-grid{grid-template-columns:1fr}.seo-category-grid article{padding:16px}.seo-category-nav a{width:100%}}
