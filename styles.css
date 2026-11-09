@@ -825,8 +825,8 @@ footer .footer-links a:hover{color:#ffb347}
 
 @media(max-width:760px){.score-coverage-mini{font-size:12px;line-height:1.4;max-width:82px}.score-stack{flex-basis:82px;min-width:82px}.product-price span,.product-source-review summary{font-size:12px;line-height:1.5}}
 
-/* Fond extérieur neutre sur toutes les pages, contenu central conservé. */
-:root{--page-bg:#f5f1e9}
+/* Fond extérieur marine assorti à la navigation. */
+:root{--page-bg:#173f5f}
 body{background:var(--page-bg)!important}
 main{max-width:1280px;margin-inline:auto}
 .seo-main{background:var(--page-bg)}
