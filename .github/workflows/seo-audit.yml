@@ -1,0 +1,25 @@
+name: Vérification SEO des pages publiques
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Vérifier les pages générées et les liens du sitemap
+        run: |
+          node scripts/build-product-pages.mjs --check
+          node scripts/audit-site-seo.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: seo-validation
+          path: reports/seo-validation.json
+          retention-days: 14
