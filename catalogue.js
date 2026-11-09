@@ -2604,6 +2604,9 @@ for (const product of window.CROCamiCatalog) {
 
 /* SOURCES ET PROFILS ACTUELS COMPLÉMENTAIRES (09/11/2026). */
 const crocamiFollowupSources20261109 = {
+ "mq-dog-040": {
+  imageProduit:"https://www.bosch-tiernahrung.de/media/catalog/product/b/o/bosch-hpc-adult-lamm-reis-front.png?format=jpeg"
+ },
  "mq-dog-064": {
   sourceRevendeur:"https://www.jardiland.com/p/nutro-grain-free-a-l-agneau-pour-chien-de-moyenne-taille-1574042",
   verificationFabricant:"confirmée_partielle",
