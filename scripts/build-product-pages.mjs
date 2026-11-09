@@ -55,6 +55,6 @@ for(const guide of guides){
 outputs.set('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+['/','/produits/',...guideUrls,...pages.keys()].map(url=>'  <url><loc>'+origin+escape(url)+'</loc></url>').join('\n')+'\n</urlset>\n');
 outputs.set('robots.txt','User-agent: *\nAllow: /\n\nSitemap: https://crocami.fr/sitemap.xml\n');
 outputs.set('.nojekyll','');outputs.set('reports/product-pages-manifest.json',JSON.stringify(manifest,null,2)+'\n');
-for(const[file,raw]of outputs){const html=raw.replace(/\r\n/g,'\n');if(check){assert.ok(fs.existsSync(file),'Missing '+file);assert.equal(fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n'),html,'Regenerate static pages: '+file);}else{fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,html);}}
+for(const[file,raw]of outputs){const html=raw.replace(/\r\n/g,'\n').replace(/[ \t]+$/gm,'');if(check){assert.ok(fs.existsSync(file),'Missing '+file);assert.equal(fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n'),html,'Regenerate static pages: '+file);}else{fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,html);}}
 assert.equal(new Set(manifest.map(p=>p.description)).size,manifest.length,'Duplicate page descriptions');
 console.log(JSON.stringify({mode:check?'check':'build',catalogueReferences:products.length,staticProductPages:pages.size,guidePages:guides.length,duplicateReferencesSharingOnePage:products.length-pages.size,sitemapUrls:pages.size+guideUrls.length+2,noJavaScriptRequired:true}));
