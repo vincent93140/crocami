@@ -7,8 +7,8 @@ const fmtRatio=n=>n==null?"Non communiqué":new Intl.NumberFormat("fr-FR",{maxim
 function productIdentity(p){return [p.espece,p.marque,p.recette,p.age,p.gabarit].map(x=>String(x||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()).join('|');}
 function productUrl(p){
  const canonical=data.find(q=>productIdentity(q)===productIdentity(p))||p;
- const slug=(canonical.marque+' '+canonical.recette).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
- return '/produits/'+slug+'-'+encodeURIComponent(canonical.id)+'/';
+ const slug=value=>String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+ return '/'+slug(canonical.espece)+'/'+slug(canonical.marque)+'/'+slug(canonical.recette)+'-'+encodeURIComponent(canonical.id)+'/';
 }
 function extractTaurine(p){
  if(p.taurine!=null)return p.taurine;
