@@ -2705,3 +2705,20 @@ for (const id of ["d18","mq-dog-017"]) {
  }
 }
 
+/* DÉTAILS DE COMPOSITION ET D’ADDITIFS — formules Bravery concordantes avec l’analyse publiée. */
+const crocamiBraveryDetails20261109 = {
+ "mq-dog-042": {
+  compositionComplete:"Viande de poulet déshydratée, tapioca, graisse de volaille (source d’acides gras oméga-6), pois, levure et extrait de levure Saccharomyces cerevisiae (source de MOS et de bêta-glucanes), huile de poisson (source d’EPA et de DHA), patate douce, caroube, pulpe de betterave, protéine de poulet hydrolysée, œuf entier déshydraté, foie de poulet hydrolysé, protéine de pomme de terre, inuline de chicorée (source de FOS), cellulose naturelle, minéraux, fibres solubles de Plantago ovata, huiles essentielles (origan, cannelle, clou de girofle, thym, romarin, menthe et thé vert), hydrolysat de crustacés (source de glucosamine), hydrolysat de cartilage (source de chondroïtine), yucca et concentré de jus de melon lyophilisé (source de SOD).",
+  additifs:"Vitamine A 22 000 UI/kg, vitamine D3 1 600 UI/kg, vitamine E 460 mg/kg, vitamine C 200 mg/kg, biotine 2 000 µg/kg, L-carnitine 60 mg/kg, chlorure de choline 1 800 mg/kg, taurine 1 200 mg/kg; fer 60 mg/kg sous forme de sulfate ferreux monohydraté et 12 mg/kg sous forme de chélate ferreux de glycine; cuivre 5,5 mg/kg sous forme de sulfate cuivrique pentahydraté et 3,4 mg/kg sous forme de chélate cuivrique de glycine; manganèse 38 mg/kg sous forme de sulfate manganoso monohydraté et 12 mg/kg sous forme de chélate de glycine; zinc 76 mg/kg sous forme de sulfate de zinc monohydraté et 46 mg/kg sous forme de chélate de glycine; iode 2 mg/kg; sélénium 0,11 mg/kg sous forme de sélénite de sodium et 0,11 mg/kg sous forme d’analogue hydroxylé de la sélénométhionine. Antioxydants naturels (huiles végétales riches en tocophérols)."
+ },
+ "mq-cat-030": {
+  compositionComplete:"Viande de poulet déshydratée, tapioca, graisse de volaille (source d’acides gras oméga-6), pois, protéine de poulet hydrolysée, levure et extrait de levure Saccharomyces cerevisiae (source de MOS et de bêta-glucanes), foie de poulet hydrolysé, patate douce, pulpe de betterave, caroube, protéine de pomme de terre, œuf entier déshydraté, huile de poisson (source d’EPA et de DHA), cellulose naturelle, minéraux, inuline de chicorée (source de FOS), fibres solubles de Plantago ovata, huiles essentielles (origan, cannelle, clou de girofle, thym, romarin, menthe et thé vert), yucca, hydrolysat de crustacés (source de glucosamine), hydrolysat de cartilage (source de chondroïtine) et concentré de jus de melon lyophilisé (source de SOD).",
+  additifs:"Vitamine A 28 000 UI/kg, vitamine D3 1 600 UI/kg, vitamine E 600 mg/kg, vitamine C 300 mg/kg, biotine 2 600 µg/kg, L-carnitine 120 mg/kg, chlorure de choline 3 220 mg/kg, taurine 2 000 mg/kg; fer 60 mg/kg sous forme de sulfate ferreux monohydraté et 60 mg/kg sous forme de chélate ferreux de glycine; cuivre 5 mg/kg sous forme de sulfate cuivrique pentahydraté et 8 mg/kg sous forme de chélate de cuivre; manganèse 12 mg/kg sous forme de sulfate manganoso monohydraté et 18 mg/kg sous forme de chélate; zinc 50 mg/kg sous forme de sulfate de zinc monohydraté et 70 mg/kg sous forme de chélate; iode 3,8 mg/kg; sélénium 0,05 mg/kg sous forme de sélénite de sodium et 0,20 mg/kg sous forme d’analogue hydroxylé de la sélénométhionine. Antioxydants naturels (huiles végétales riches en tocophérols)."
+ }
+};
+for (const [id,details] of Object.entries(crocamiBraveryDetails20261109)) {
+ const product=window.CROCamiCatalog.find(item=>item.id===id);
+ if (!product) continue;
+ Object.assign(product,details,{dateVerificationFabricant:"2026-11-09"});
+}
+
