@@ -1,7 +1,7 @@
 {
   "key": "medium-puppy",
   "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003",
-  "checkedAt": "2026-11-09T18:05:52.975Z",
+  "checkedAt": "2026-11-09T19:47:52.858Z",
   "ids": [
     "d01"
   ],
@@ -35,6 +35,11 @@
       "label": "Système immunitaire fort"
     }
   ],
+  "energieReference": {
+    "amount": 4095,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Crude Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, graisses animales, maïs, gluten de blé*, pulpe de betterave, protéines de porc déshydratées*, gluten de maïs, riz, farine de blé, protéines animales hydrolysées, blé, farine de maïs, sels minéraux, huile de soja, produits de levures, huile de poisson, fructo-oligosaccharides, levures hydrolysées (source de mannan-oligosaccharides et de bêta-glucanes) (0,30 %), huile d’algues Schizochytrium sp. (source de DHA), jus de Yucca schidigera, farine de tagète.\n* L.I.P. : protéine sélectionnée pour sa très haute digestibilité\n",
@@ -141,7 +146,7 @@
       "price": 62.49,
       "priceLabel": "62,49 €",
       "size": "10 kg",
-      "stock": 213,
+      "stock": 212,
       "subscriptionBasePriceLabel": "5,62 €/kg",
       "subscriptionPrice": 56.24,
       "subscriptionPriceLabel": "56,24 €",
@@ -163,7 +168,7 @@
       "price": 87.17,
       "priceLabel": "87,17 €",
       "size": "15 kg",
-      "stock": 364,
+      "stock": 354,
       "subscriptionBasePriceLabel": "5,23 €/kg",
       "subscriptionPrice": 78.45,
       "subscriptionPriceLabel": "78,45 €",

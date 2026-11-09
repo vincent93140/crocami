@@ -1,8 +1,10 @@
 {
+  "mergedDuplicates": 3,
+  "allOfficialEnergyAvailable": true,
   "date": "2026-11-09",
-  "royalCaninProductPages": 17,
-  "officialMicronutrientRows": 153,
-  "officialOfferRows": 53,
-  "distinctRetailerNutrientRows": 117,
+  "royalCaninProductPages": 14,
+  "officialMicronutrientRows": 127,
+  "officialOfferRows": 44,
+  "distinctRetailerNutrientRows": 110,
   "primaryNutritionUnchangedByRetailerData": true
 }

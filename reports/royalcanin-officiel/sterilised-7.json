@@ -1,7 +1,7 @@
 {
   "key": "sterilised-7",
   "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2b-2560",
-  "checkedAt": "2026-11-09T18:05:53.025Z",
+  "checkedAt": "2026-11-09T19:47:53.030Z",
   "ids": [
     "c11"
   ],
@@ -36,6 +36,11 @@
       "label": "SANTÉ RÉNALE"
     }
   ],
+  "energieReference": {
+    "amount": 3685,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Total Dietary Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : maïs, gluten de blé*, protéines de volaille déshydratées, protéines animales hydrolysées, gluten de maïs, fibres végétales, graisses animales, blé, riz, substances minérales, produits de levures, pulpe de betterave, huile de poissons, fructo-oligosaccharides, téguments et graines de psyllium, huile de soja, glucosamine issue de la fermentation, farine de tagète, cartilage hydrolysé (source de chondroïtine).",

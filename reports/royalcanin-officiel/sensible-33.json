@@ -1,7 +1,7 @@
 {
   "key": "sensible-33",
   "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sensible-33-2521",
-  "checkedAt": "2026-11-09T18:05:53.127Z",
+  "checkedAt": "2026-11-09T19:47:53.209Z",
   "ids": [],
   "age": "Adulte",
   "gabarit": "Toutes",
@@ -33,6 +33,11 @@
       "label": "Santé urinaire"
     }
   ],
+  "energieReference": {
+    "amount": 4467,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Total Dietary Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, graisses animales, riz, \nprotéines de porc déshydratées, maïs, gluten de blé*, farine de blé, protéines \nanimales hydrolysées, blé, gluten de maïs, produits de levures, pulpe de betterave, huile de poissons, substances minérales, fibres végétales, huile de soja, fructo-oligosaccharides.",
@@ -145,7 +150,7 @@
       "price": 89.69,
       "priceLabel": "89,69 €",
       "size": "10 kg",
-      "stock": 31,
+      "stock": 30,
       "subscriptionBasePriceLabel": "8,07 €/kg",
       "subscriptionPrice": 80.72,
       "subscriptionPriceLabel": "80,72 €",

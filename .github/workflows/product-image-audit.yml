@@ -48,6 +48,9 @@ jobs:
       - name: Contrôler la cohérence du catalogue
         run: node scripts/audit-catalogue.mjs
 
+      - name: Vérifier les fiches Royal Canin et leurs doublons
+        run: node scripts/audit-royalcanin-details.mjs
+
       - name: Vérifier les pages produits et le sitemap
         run: node scripts/build-product-pages.mjs --check
 

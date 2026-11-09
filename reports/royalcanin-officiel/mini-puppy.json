@@ -1,7 +1,7 @@
 {
   "key": "mini-puppy",
   "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy-mini-3000",
-  "checkedAt": "2026-11-09T18:05:53.083Z",
+  "checkedAt": "2026-11-09T19:47:53.129Z",
   "ids": [],
   "age": "Junior",
   "gabarit": "Petite",
@@ -33,6 +33,11 @@
       "label": "Soutien du microbiome"
     }
   ],
+  "energieReference": {
+    "amount": 4072,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Crude Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, riz, graisses animales, gluten de blé*, maïs, pulpe de betterave, farine de maïs, protéines animales hydrolysées, gluten de maïs, sels minéraux, huile de soja, huile de poisson, fructo-oligosaccharides, levures hydrolysées (source de mannan-oligosaccharides et de bêta-glucanes) (0,30 %), huile d’algues Schizochytrium sp. (source de DHA), jus de Yucca schidigera, farine de tagète.\n* L.I.P. : protéine sélectionnée pour sa très haute digestibilité\n\n",
@@ -117,7 +122,7 @@
       "price": 19.49,
       "priceLabel": "19,49 €",
       "size": "2 kg",
-      "stock": 188,
+      "stock": 187,
       "subscriptionBasePriceLabel": "8,77 €/kg",
       "subscriptionPrice": 17.54,
       "subscriptionPriceLabel": "17,54 €",

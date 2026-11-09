@@ -1,7 +1,7 @@
 {
   "key": "maxi-adult",
   "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/maxi-adult-3007",
-  "checkedAt": "2026-11-09T18:05:53.048Z",
+  "checkedAt": "2026-11-09T19:47:53.015Z",
   "ids": [
     "mq-dog-077"
   ],
@@ -35,6 +35,11 @@
       "label": "TAILLE DE CROQUETTE ADAPTÉE"
     }
   ],
+  "energieReference": {
+    "amount": 3967,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Total Dietary Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, farine de blé, maïs, graisses animales, blé, protéines animales hydrolysées, farine de maïs, protéines de porc déshydratées, orge, gluten de maïs, pulpe de betterave, protéine de pois, substances minérales, huile de soja, produits de levures, huile de poissons, huile d’algues Schizochytrium sp. , glucosamine issue de la fermentation, cartilage hydrolysé (source de chondroïtine). ",

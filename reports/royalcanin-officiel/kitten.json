@@ -1,7 +1,7 @@
 {
   "key": "kitten",
   "url": "https://www.royalcanin.com/fr/cats/products/retail-products/kitten-2522",
-  "checkedAt": "2026-11-09T18:05:53.089Z",
+  "checkedAt": "2026-11-09T19:47:53.064Z",
   "ids": [
     "zp-cat-royal-kitten"
   ],
@@ -35,6 +35,11 @@
       "label": "Soutien du microbiome"
     }
   ],
+  "energieReference": {
+    "amount": 4083,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Crude Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, riz, gluten de blé*, graisses animales, farine de maïs, protéines animales hydrolysées, farine de blé, gluten de maïs, produits de levures, pulpe de betterave, fibres végétales, sels minéraux, huile de soja, huile de poisson, téguments et graines de psyllium, fructo-oligosaccharides, levures hydrolysées (source de mannan-oligosaccharides et de bêta-glucanes) (0,29 %), huile d’algues Schizochytrium sp. (source de DHA), farine de tagète.\n* L.I.P. : protéine sélectionnée pour sa très haute digestibilité.\n\n",
@@ -145,7 +150,7 @@
       "price": 31.29,
       "priceLabel": "31,29 €",
       "size": "2 kg",
-      "stock": 597,
+      "stock": 592,
       "subscriptionBasePriceLabel": "14,08 €/kg",
       "subscriptionPrice": 28.16,
       "subscriptionPriceLabel": "28,16 €",
@@ -189,7 +194,7 @@
       "price": 106.29,
       "priceLabel": "106,29 €",
       "size": "10 kg",
-      "stock": 307,
+      "stock": 305,
       "subscriptionBasePriceLabel": "9,57 €/kg",
       "subscriptionPrice": 95.66,
       "subscriptionPriceLabel": "95,66 €",

@@ -1,7 +1,7 @@
 {
   "key": "maxi-puppy",
   "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy---maxi-3006",
-  "checkedAt": "2026-11-09T18:05:53.100Z",
+  "checkedAt": "2026-11-09T19:47:53.158Z",
   "ids": [],
   "age": "Junior",
   "gabarit": "Grande",
@@ -33,6 +33,11 @@
       "label": "Teneur en énergie optimale"
     }
   ],
+  "energieReference": {
+    "amount": 3791,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Crude Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, farine de maïs, riz, protéines de porc déshydratées*, graisses animales, maïs, gluten de blé*, farine de blé, protéines animales hydrolysées, sels minéraux, pulpe de betterave, gluten de maïs, fibres végétales, huile de soja, huile de poisson, fructo-oligosaccharides, téguments et graines de psyllium, levures hydrolysées (source de mannan-oligosaccharides et de bêta-glucanes) (0,30 %), huile d’algues Schizochytrium sp. (source de DHA), jus de Yucca schidigera, farine de tagète, glucosamine issue de la fermentation, cartilage hydrolysé (source de chondroïtine). \n* L.I.P. : protéine sélectionnée pour sa très haute digestibilité\n\nMODE D’EMPLOI : voir tableau. Numéro de lot, Numéro d’identifiant usine, à utiliser de préférence avant : voir sur l’emballage. À conserver dans un endroit sec et frais.  De l'eau fraîche doit être disponible en permanence.",
@@ -157,7 +162,7 @@
       "price": 87.17,
       "priceLabel": "87,17 €",
       "size": "15 kg",
-      "stock": 430,
+      "stock": 425,
       "subscriptionBasePriceLabel": "5,23 €/kg",
       "subscriptionPrice": 78.45,
       "subscriptionPriceLabel": "78,45 €",

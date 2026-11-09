@@ -1,7 +1,7 @@
 {
   "key": "mini-adult",
   "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001",
-  "checkedAt": "2026-11-09T18:05:52.992Z",
+  "checkedAt": "2026-11-09T19:47:52.963Z",
   "ids": [
     "d16",
     "mq-dog-078"
@@ -36,6 +36,11 @@
       "label": "APPÉTENCE RENFORCÉE"
     }
   ],
+  "energieReference": {
+    "amount": 3928,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Total Dietary Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : farine de blé, protéines de volaille déshydratées, farine de maïs, graisses animales, protéines animales hydrolysées, protéines de porc déshydratées, maïs, orge, blé, gluten de maïs, protéine de pois, substances minérales, pulpe de betterave, huile de soja, produits de levures, fructo-oligosaccharides, huile de poissons, huile d’algues Schizochytrium sp. ",

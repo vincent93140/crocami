@@ -1,7 +1,7 @@
 {
   "key": "sterilised-37",
   "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-37-2537",
-  "checkedAt": "2026-11-09T18:05:53.010Z",
+  "checkedAt": "2026-11-09T19:47:52.873Z",
   "ids": [
     "c01",
     "mq-cat-057"
@@ -36,6 +36,11 @@
       "label": "Enrichi en L-carnitine"
     }
   ],
+  "energieReference": {
+    "amount": 3629,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Crude Fibre)",
   "nutritionalInfo": [
     {
       "description": "Composition : protéines de volaille déshydratées, maïs, isolat de protéines végétales*, fibres végétales, graisses animales, hydrolysat de protéines animales, riz, blé, pulpe de betterave, gluten de maïs, levures et composants de levures, sels minéraux, huile de poisson, fructo-oligosaccharides, huile de soja.",

@@ -1,7 +1,7 @@
 {
   "key": "medium-sterilised",
   "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/sterilised-medium-3034",
-  "checkedAt": "2026-11-09T18:05:52.982Z",
+  "checkedAt": "2026-11-09T19:47:52.850Z",
   "ids": [
     "d06",
     "mq-dog-079"
@@ -32,6 +32,11 @@
       "label": "Comment pouvez-vous aider votre chien?"
     }
   ],
+  "energieReference": {
+    "amount": 3451,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Total Dietary Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : maïs, protéines de volaille déshydratées, blé, fibres végétales, protéines animales hydrolysées, graisses animales, gluten de maïs, gluten de blé*, pulpe de betterave, produits de levures, huile de poissons, huile de soja, sels minéraux, téguments et graines de psyllium, fructo-oligosaccharides, levures (source de mannan-oligosaccharides), huile de bourrache, farine de tagète. ",

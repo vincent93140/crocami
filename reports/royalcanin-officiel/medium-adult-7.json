@@ -1,7 +1,7 @@
 {
   "key": "medium-adult-7",
   "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-7%2b-3005",
-  "checkedAt": "2026-11-09T18:05:53.059Z",
+  "checkedAt": "2026-11-09T19:47:53.184Z",
   "ids": [
     "zp-dog-royal-medium-adult-7"
   ],
@@ -35,6 +35,11 @@
       "label": "TAILLE DE CROQUETTE ADAPTÉE"
     }
   ],
+  "energieReference": {
+    "amount": 3837,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Total Dietary Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, farine de blé, farine de maïs, maïs, riz, graisses animales, blé, gluten de blé, pulpe de betterave, protéines animales hydrolysées, gluten de maïs, substances minérales, huile de soja, produits de levures, huile de poissons, téguments et graines de psyllium, fructo-oligosaccharides, huile d’algues Schizochytrium sp., levures (source de mannan-oligosaccharides).",

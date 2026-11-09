@@ -1,7 +1,7 @@
 {
   "key": "medium-adult",
   "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-3004",
-  "checkedAt": "2026-11-09T18:05:53.039Z",
+  "checkedAt": "2026-11-09T19:47:52.988Z",
   "ids": [
     "mq-dog-076"
   ],
@@ -35,6 +35,11 @@
       "label": "TAILLE DE CROQUETTE ADAPTÉE"
     }
   ],
+  "energieReference": {
+    "amount": 3840,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Total Dietary Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, blé, farine de maïs, farine de blé, maïs, protéines animales hydrolysées, graisses animales, protéines de porc déshydratées, orge, gluten de maïs, pulpe de betterave, substances minérales, huile de soja, produits de levures, huile de poissons, levures (source de mannan-oligosaccharides), huile d’algues Schizochytrium sp.",

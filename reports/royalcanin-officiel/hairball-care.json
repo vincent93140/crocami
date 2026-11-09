@@ -1,7 +1,7 @@
 {
   "key": "hairball-care",
   "url": "https://www.royalcanin.com/fr/cats/products/retail-products/hairball-care-2534",
-  "checkedAt": "2026-11-09T18:05:53.115Z",
+  "checkedAt": "2026-11-09T19:47:53.226Z",
   "ids": [],
   "age": "Adulte",
   "gabarit": "Toutes",
@@ -37,6 +37,11 @@
       "label": "SANTÉ URINAIRE"
     }
   ],
+  "energieReference": {
+    "amount": 3755,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Total Dietary Fibre)",
   "nutritionalInfo": [
     {
       "description": "COMPOSITION : protéines de volaille déshydratées, gluten de blé*, maïs, fibres végétales, riz, graisses animales, protéines animales hydrolysées, blé, farine de maïs, gluten de maïs, pulpe de betterave, substances minérales, produits de levures, huile de soja, huile de poissons, téguments et graines de psyllium (0,50 %), fructo-oligosaccharides. ",

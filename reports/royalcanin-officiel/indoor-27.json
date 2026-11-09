@@ -1,7 +1,7 @@
 {
   "key": "indoor-27",
   "url": "https://www.royalcanin.com/fr/cats/products/retail-products/fhn--2529",
-  "checkedAt": "2026-11-09T18:05:53.108Z",
+  "checkedAt": "2026-11-09T19:47:53.173Z",
   "ids": [],
   "age": "Adulte",
   "gabarit": "Toutes",
@@ -33,6 +33,11 @@
       "label": "Santé urinaire"
     }
   ],
+  "energieReference": {
+    "amount": 3745,
+    "unit": "kcal/kg"
+  },
+  "methodeEnergieReference": "NRC 2006 (Crude Fibre)",
   "nutritionalInfo": [
     {
       "description": "Composition : protéines de volaille déshydratées, riz, blé, maïs, isolat de protéines végétales*, graisses animales, hydrolysat de protéines animales, farine de blé, fibres végétales, pulpe de betterave, levures et composants de levures, huile de soja, sels minéraux, fructo-oligo-saccharides, huile de poisson, téguments et graines de psyllium (0,5 %).",
