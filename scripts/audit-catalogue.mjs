@@ -1,12 +1,13 @@
 import fs from "node:fs";
 import vm from "node:vm";
+import path from "node:path";
 
 const errors = [];
 const warnings = [];
 const context = { window: {}, console };
 vm.createContext(context);
 
-for (const file of ["fabricants.js", "catalogue.js"]) {
+for (const file of ["fabricants.js", "catalogue.js", "references-complementaires.js", "marchands.js", "royalcanin.js", "royalcanin-complements.js", "complements-sources.js"]) {
   const source = fs.readFileSync(file, "utf8");
   try {
     new vm.Script(source, { filename: file });
@@ -77,6 +78,11 @@ if (!Array.isArray(products)) {
     for (const field of urlFields) {
       if (p[field] == null || p[field] === "") continue;
       try {
+        if (field === "imageProduit" && !/^https?:\/\//i.test(p[field])) {
+          const local = path.resolve(p[field]);
+          if (!local.startsWith(path.resolve("images") + path.sep) || !fs.existsSync(local) || !fs.statSync(local).isFile()) throw new Error("Photo locale absente ou hors du répertoire images");
+          continue;
+        }
         const url = new URL(p[field]);
         if (!["http:", "https:"].includes(url.protocol)) throw new Error("protocole non autorisé");
         if (field === "imageProduit" && url.protocol !== "https:") warnings.push(`${label}: image non sécurisée (HTTP).`);
@@ -90,7 +96,7 @@ if (!Array.isArray(products)) {
   }
 
   for (const id of Object.keys(manufacturers)) {
-    if (!ids.has(id)) errors.push(`Données fabricant orphelines : aucun produit catalogue avec l'identifiant ${id}.`);
+    if (!ids.has(id) && !context.window.CROCamiProductAliases?.[id]) errors.push(`Données fabricant orphelines : aucun produit catalogue avec l'identifiant ${id}.`);
   }
 
   const species = products.reduce((acc, p) => {
