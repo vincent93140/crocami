@@ -1,0 +1,12 @@
+{
+  "reviewedOn": "2026-11-09",
+  "firstCandidate": "d01 d02 d05 d06 d07 d08 d09 d10 d11 d12 d13 d14 d15 d16 d17 d18 d19 c01 c02 c03 c04 c06 c10 c11 c12 c13 c14 c15 c16 c17 c19 c20 ch-dog-specific-cad-activ ch-dog-specific-cxd-xl ch-cat-specific-fxd-adult ch-cat-specific-fcd-crystal ch-cat-specific-fcd-light mq-dog-007 mq-dog-009 mq-dog-010 mq-dog-011 mq-dog-013 mq-dog-014 mq-dog-015 mq-dog-016 mq-dog-017 mq-dog-018 mq-dog-019 mq-dog-021 mq-dog-024 mq-dog-031 mq-dog-036 mq-dog-043 mq-dog-045 mq-dog-047 mq-dog-050 mq-dog-051 mq-dog-052 mq-dog-059 mq-dog-060 mq-dog-065 mq-dog-066 mq-dog-067 mq-dog-068 mq-dog-069 mq-dog-073 mq-dog-076 mq-dog-077 mq-dog-078 mq-dog-079 mq-dog-082 mq-dog-083 mq-dog-086 mq-dog-091 mq-dog-096 mq-cat-008 mq-cat-009 mq-cat-012 mq-cat-013 mq-cat-022 mq-cat-027 mq-cat-030 mq-cat-033 mq-cat-034 mq-cat-040 mq-cat-041 mq-cat-042 mq-cat-045 mq-cat-046 mq-cat-050 mq-cat-051 mq-cat-052 mq-cat-057 mq-cat-061 mq-cat-062 mq-cat-071 mq-cat-072 mq-cat-076 vb-dog-adult-small-toy vb-dog-senior-small-toy vb-dog-adult-large-medium vb-dog-senior-large-medium vb-dog-adult-sensitive-digest vb-dog-dermatology-support vb-dog-joint-mobility ownat-dog-classic-complet ownat-dog-classic-junior ownat-dog-classic-energy ownat-cat-classic-kitten ownat-cat-classic-hairball ownat-cat-classic-fish zp-dog-royal-medium-adult-7 zm-cat-proplan-sterilised-salmon zm-cat-hills-sterilised-chicken zm-cat-hills-light-chicken",
+  "overrides": {"d04":2,"c07":3,"c08":1,"ch-dog-hills-adult-medium":1,"mq-dog-008":1,"mq-dog-020":1,"mq-dog-028":1,"mq-dog-030":1,"mq-dog-037":1,"mq-dog-092":1,"mq-cat-010":1,"mq-cat-014":1,"mq-cat-070":1,"vb-dog-adult-neutered-large-medium":1},
+  "direct": {
+    "c05":"https://www.zoomalia.com/animalerie/perfect-fit-au-poulet-pour-chat-adulte-sterilise-p-105129.html",
+    "zp-cat-royal-kitten":"https://www.zoomalia.com/animalerie/royal-canin-kitten-pour-chaton-de-4-a-12-mois-p-11568.html",
+    "zm-cat-proplan-sterilised-rabbit":"https://www.zoomalia.com/animalerie/pro-plan-sterilised-adult-renal-plus-au-lapin-pour-chat-p-33450.html"
+  },
+  "variantFilters": {"c04":{"include":"poulet","exclude":"saumon"},"d14":{"include":"bœuf|boeuf","exclude":"poulet"}},
+  "notes":"Correspondances de références commerciales relues manuellement. Les écarts entre formulations restent présentés séparément. Les correspondances incertaines, variantes médicales différentes et saveurs différentes ne sont pas publiées."
+}

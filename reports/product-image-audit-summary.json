@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-06T15:44:55.800Z",
-  "uniqueImageUrls": 226,
-  "ok": 226,
+  "checkedAt": "2026-11-09T09:22:32.065Z",
+  "uniqueImageUrls": 239,
+  "localImageFiles": 8,
+  "productCount": 240,
+  "ok": 239,
   "deadLinks": 0,
   "nonImageResponses": 0,
   "blockedOrRateLimited": 0,
   "httpErrors": 0,
   "notVerified": 0,
-  "productRecordsWithoutImage": 1,
-  "missingImageIds": [
-    "vb-dog-dermatology-support"
-  ]
+  "productRecordsWithoutImage": 0,
+  "missingImageIds": []
 }

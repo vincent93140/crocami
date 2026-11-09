@@ -1,49 +1,14 @@
 import fs from "node:fs";
+import vm from "node:vm";
+import path from "node:path";
 import { setTimeout as delay } from "node:timers/promises";
 
-const files = ["catalogue.js", "fabricants.js"];
-const records = [];
-const missingImages = [];
-for (const file of files) {
-  const source = fs.readFileSync(file, "utf8");
-  const regexes = [
-    /"id"\s*:\s*"([^"]+)"[\s\S]{0,3500}?"imageProduit"\s*:\s*"(https?:\/\/[^"]+)"/g,
-    /^\s*([a-z0-9-]+)\s*:\s*\{[\s\S]{0,2500}?imageProduit\s*:\s*"(https?:\/\/[^"]+)"/gm
-  ];
-  for (const re of regexes) {
-    for (const m of source.matchAll(re)) {
-      records.push({ id: m[1], url: m[2], file });
-    }
-  }
-  if (file === "catalogue.js") {
-    const pushes = /window\.CROCamiCatalog\.push\(\.\.\.\[([\s\S]*?)\]\);/g;
-    for (const m of source.matchAll(pushes)) {
-      try {
-        const products = JSON.parse("[" + m[1] + "]");
-        for (const product of products) {
-          if (!product.imageProduit) missingImages.push(product.id);
-        }
-      } catch (e) {
-        console.warn("Impossible d'analyser un bloc catalogue pour les images :", e.message);
-      }
-    }
-  }
-  if (file === "fabricants.js") {
-    const keys = [...source.matchAll(/^\s{2}([a-z0-9-]+)\s*:\s*\{/gm)];
-    for (let i = 0; i < keys.length; i++) {
-      const start = keys[i].index;
-      const end = i + 1 < keys.length ? keys[i + 1].index : source.length;
-      const block = source.slice(start, end);
-      if (!/imageProduit\s*:\s*"https?:\/\//.test(block)) missingImages.push(keys[i][1]);
-    }
-  }
-  const generic = /(?:imageProduit)\s*:\s*"(https?:\/\/[^"]+)"/g;
-  for (const m of source.matchAll(generic)) {
-    if (!records.some(r => r.url === m[1] && r.file === file)) {
-      records.push({ id: "id à associer", url: m[1], file });
-    }
-  }
-}
+const files = ['fabricants.js','catalogue.js','references-complementaires.js','marchands.js'];
+const context={window:{}};vm.createContext(context);
+for(const file of files)if(fs.existsSync(file))vm.runInContext(fs.readFileSync(file,'utf8'),context);
+const products=context.window.CROCamiCatalog||[];
+const missingImages=products.filter(p=>!p.imageProduit).map(p=>p.id);
+const records=products.filter(p=>p.imageProduit).map(p=>({id:p.id,url:p.imageProduit,file:'catalogue chargé'}));
 
 const byUrl = new Map();
 for (const r of records) {
@@ -60,6 +25,14 @@ async function check(item) {
   const timer = setTimeout(() => controller.abort(), 15000);
   let response, method = "HEAD", error = "";
   try {
+    if(!/^https?:\/\//i.test(item.url)){
+      const file=path.resolve(process.cwd(),item.url);
+      if(!file.startsWith(process.cwd()+path.sep))throw Error('Photo hors du site');
+      const bytes=fs.readFileSync(file);
+      const valid=bytes[0]===0xff&&bytes[1]===0xd8||bytes[0]===0x89&&bytes.subarray(1,4).toString()==='PNG';
+      results[item.index]={url:item.url,ids:[...item.ids].join('; '),status:200,contentType:bytes[0]===0xff?'image/jpeg':'image/png',finalUrl:item.url,method:'LOCAL',verdict:valid?'OK':'TYPE_NON_IMAGE',error:''};
+      return;
+    }
     response = await fetch(item.url, { method, redirect: "follow", signal: controller.signal, headers: { "User-Agent": "CrocAmi-ImageAudit/1.0" } });
     let type = response.headers.get("content-type") || "";
     if ([403, 405, 429, 501].includes(response.status) ||
@@ -113,6 +86,8 @@ fs.writeFileSync("reports/product-image-audit.csv", csv + "\n");
 const summary = {
   checkedAt: new Date().toISOString(),
   uniqueImageUrls: results.length,
+  localImageFiles: results.filter(r=>r.method==="LOCAL").length,
+  productCount: products.length,
   ok: results.filter(r => r.verdict === "OK").length,
   deadLinks: results.filter(r => r.verdict === "LIEN_MORT").length,
   nonImageResponses: results.filter(r => r.verdict === "TYPE_NON_IMAGE").length,

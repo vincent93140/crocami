@@ -1,0 +1,82 @@
+[
+  {
+    "id": "zm-cat-hills-sterilised-chicken",
+    "sourceUrl": "https://static3.zoomalia.com/cdn-cgi/image/width=800,height=800,format=auto/prod_img/30741/lm_42dbfc4ada1c146f57824627a2b34367_st3.jpg",
+    "localPath": "images/produits/zm-cat-hills-sterilised-chicken.jpg",
+    "mime": "image/jpeg",
+    "bytes": 68368,
+    "checkedAt": "2026-11-09T09:05:04.504Z",
+    "visualChecked": true,
+    "visualCheckedOn": "2026-11-09"
+  },
+  {
+    "id": "zm-cat-proplan-sterilised-salmon",
+    "sourceUrl": "https://static3.zoomalia.com/cdn-cgi/image/width=800,height=800,format=auto/prod_img/11506/lm_a1dce340170019cdc88983676004d9b0_st3.jpg",
+    "localPath": "images/produits/zm-cat-proplan-sterilised-salmon.jpg",
+    "mime": "image/jpeg",
+    "bytes": 62455,
+    "checkedAt": "2026-11-09T09:05:04.540Z",
+    "visualChecked": true,
+    "visualCheckedOn": "2026-11-09"
+  },
+  {
+    "id": "zm-cat-proplan-sterilised-rabbit",
+    "sourceUrl": "https://static3.zoomalia.com/cdn-cgi/image/width=800,height=800,format=auto/prod_img/33450/lm_77a1a6a94c3f21a3421481649ee15d79_st3.jpg",
+    "localPath": "images/produits/zm-cat-proplan-sterilised-rabbit.jpg",
+    "mime": "image/jpeg",
+    "bytes": 61577,
+    "checkedAt": "2026-11-09T09:05:04.562Z",
+    "visualChecked": true,
+    "visualCheckedOn": "2026-11-09"
+  },
+  {
+    "id": "zm-cat-hills-light-chicken",
+    "sourceUrl": "https://static3.zoomalia.com/cdn-cgi/image/width=800,height=800,format=auto/prod_img/15795/lm_2d60f9cfb4cdc4e4847b4f8a0351d293_st3.jpg",
+    "localPath": "images/produits/zm-cat-hills-light-chicken.jpg",
+    "mime": "image/jpeg",
+    "bytes": 56307,
+    "checkedAt": "2026-11-09T09:05:04.581Z",
+    "visualChecked": true,
+    "visualCheckedOn": "2026-11-09"
+  },
+  {
+    "id": "zp-dog-royal-medium-adult-7",
+    "sourceUrl": "https://media.zooplus.com/bilder/7/400/1_rc_shn_mediumadult7_mv_1_7.jpg",
+    "localPath": "images/produits/zp-dog-royal-medium-adult-7.jpg",
+    "mime": "image/jpg",
+    "bytes": 26625,
+    "checkedAt": "2026-11-09T09:05:04.615Z",
+    "visualChecked": true,
+    "visualCheckedOn": "2026-11-09"
+  },
+  {
+    "id": "zp-cat-royal-kitten",
+    "sourceUrl": "https://media.zooplus.com/bilder/5/400/252297_252596_284196_252298_royal_canin_kitten_hs_02_5.jpg",
+    "localPath": "images/produits/zp-cat-royal-kitten.jpg",
+    "mime": "image/jpeg",
+    "bytes": 20465,
+    "checkedAt": "2026-11-09T09:05:04.630Z",
+    "visualChecked": true,
+    "visualCheckedOn": "2026-11-09"
+  },
+  {
+    "id": "vb-dog-dermatology-support",
+    "sourceUrl": "https://static3.zoomalia.com/cdn-cgi/image/width=800,height=800,format=auto/prod_img/40989/lm_bd2f81726b3036d3d84865c32eab4c98_st3.jpg",
+    "localPath": "images/produits/vb-dog-dermatology-support.jpg",
+    "mime": "image/jpeg",
+    "bytes": 140872,
+    "checkedAt": "2026-11-09T09:05:04.658Z",
+    "visualChecked": true,
+    "visualCheckedOn": "2026-11-09"
+  },
+  {
+    "id": "mq-dog-040",
+    "sourceUrl": "https://media.zooplus.com/bilder/5/400/70319_pla_bosch_adult_lamm_reis_hs_01_1_5.jpg",
+    "localPath": "images/produits/mq-dog-040.jpg",
+    "mime": "image/jpeg",
+    "bytes": 19405,
+    "checkedAt": "2026-11-09T09:17:54.325Z",
+    "visualChecked": true,
+    "visualCheckedOn": "2026-11-09"
+  }
+]

@@ -1,0 +1,923 @@
+[
+  {
+    "id": "d01",
+    "name": "Royal Canin Medium Puppy pour chiot de 2 à 12 mois",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-medium-puppy-pour-chiot-de-2-a-12-mois-p-11548.html",
+    "score": 0.8214285714285714,
+    "variantFilter": null
+  },
+  {
+    "id": "d02",
+    "name": "PRO PLAN Medium Puppy Healthy Start au poulet pour chiot",
+    "url": "https://www.zoomalia.com/animalerie/pro-plan-medium-puppy-healthy-start-au-poulet-pour-chiot-p-29176.html",
+    "score": 0.9583333333333334,
+    "variantFilter": null
+  },
+  {
+    "id": "d05",
+    "name": "DOG CHOW Puppy Large Breed pour chiot",
+    "url": "https://www.zoomalia.com/animalerie/dog-chow-puppy-large-breed-pour-chiot-p-11516.html",
+    "score": 0.6666666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "d06",
+    "name": "Royal Canin Medium Sterilised pour chien moyen stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-medium-sterilised-p-15794.html",
+    "score": 0.9166666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "d07",
+    "name": "PRO PLAN All Sizes Adult Light/ Sterilised au poulet pour chien",
+    "url": "https://www.zoomalia.com/animalerie/pro-plan-all-sizes-adult-light-sterilised-au-poulet-pour-chien-p-29693.html",
+    "score": 0.9583333333333334,
+    "variantFilter": null
+  },
+  {
+    "id": "d08",
+    "name": "Hill's Science Plan Canine Perfect Weight Adult Small & Mini au poulet pour chien de petite taille",
+    "url": "https://www.zoomalia.com/animalerie/hill-s-science-plan-canine-perfect-weight-adult-small-mini-au-poulet-pour-chien-de-petite-taille-p-25282.html",
+    "score": 0.8888888888888888,
+    "variantFilter": null
+  },
+  {
+    "id": "d09",
+    "name": "JOSERA Light & Vital pour Chien Adulte en Surpoids",
+    "url": "https://www.zoomalia.com/animalerie/josera-light-vital-pour-chien-adulte-en-surpoids-p-46299.html",
+    "score": 0.9,
+    "variantFilter": null
+  },
+  {
+    "id": "d10",
+    "name": "BRIT Care Hypoallergenic Weight Loss au lapin pour chien en surpoids",
+    "url": "https://www.zoomalia.com/animalerie/brit-care-hypoallergenic-weight-loss-au-lapin-pour-chien-en-surpoids-p-141050.html",
+    "score": 0.9166666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "d11",
+    "name": "PEDIGREE Adult au Bœuf et aux légumes pour chien adulte",
+    "url": "https://www.zoomalia.com/animalerie/pedigree-adult-au-b-uf-et-aux-legumes-pour-chien-adulte-p-143580.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "d12",
+    "name": "DOG CHOW Adult agneau pour Chien",
+    "url": "https://www.zoomalia.com/animalerie/dog-chow-adult-agneau-pour-chien-p-11519.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "d13",
+    "name": "Affinity ULTIMA Medium - Maxi Adult Poulet",
+    "url": "https://www.zoomalia.com/animalerie/affinity-ultima-medium-maxi-adult-poulet-p-70231.html",
+    "score": 0.8,
+    "variantFilter": null
+  },
+  {
+    "id": "d14",
+    "name": "PURINA ONE Medium Maxi pour chien Adult",
+    "url": "https://www.zoomalia.com/animalerie/purina-one-medium-maxi-pour-chien-adult-p-71848.html",
+    "score": 0.7,
+    "variantFilter": {
+      "include": "bœuf|boeuf",
+      "exclude": "poulet"
+    }
+  },
+  {
+    "id": "d15",
+    "name": "Eukanuba Adult Large Breed Poulet frais pour chien de grande taille",
+    "url": "https://www.zoomalia.com/animalerie/eukanuba-active-adult-large-breed-pour-chien-de-grande-taille-p-13240.html",
+    "score": 0.6875,
+    "variantFilter": null
+  },
+  {
+    "id": "d16",
+    "name": "ROYAL CANIN Mini Adult pour chien de petite taille",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-mini-adult-pour-chien-de-petite-taille-p-11540.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "d17",
+    "name": "PRO PLAN Chien Small&Mini Adult Everyday Nutrition pour chien",
+    "url": "https://www.zoomalia.com/animalerie/pro-plan-chien-small-mini-adult-everyday-nutrition-pour-chien-p-29739.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "d18",
+    "name": "Advance Mini Adult au Poulet pour chien adulte de petite taille",
+    "url": "https://www.zoomalia.com/animalerie/advance-mini-adult-au-poulet-pour-chien-adulte-de-petite-taille-p-20572.html",
+    "score": 0.9,
+    "variantFilter": null
+  },
+  {
+    "id": "d19",
+    "name": "JOSERA Miniwell pour chien adulte de petite taille",
+    "url": "https://www.zoomalia.com/animalerie/josera-miniwell-pour-chien-adulte-de-petite-taille-p-109703.html",
+    "score": 0.8125,
+    "variantFilter": null
+  },
+  {
+    "id": "c01",
+    "name": "ROYAL CANIN Sterilised 37 pour chat adulte stérilisé de 1 à 7 ans",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-sterilised-37-pour-chat-adulte-sterilise-de-1-a-7-ans-p-11582.html",
+    "score": 0.8214285714285714,
+    "variantFilter": null
+  },
+  {
+    "id": "c02",
+    "name": "PRO PLAN Sterilised Adult RENAL PLUS à la dinde pour chat",
+    "url": "https://www.zoomalia.com/animalerie/pro-plan-sterilised-adult-renal-plus-a-la-dinde-pour-chat-p-11507.html",
+    "score": 0.8928571428571428,
+    "variantFilter": null
+  },
+  {
+    "id": "c03",
+    "name": "Purina One Poulet et Blé Spécial Chat Stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/purina-one-poulet-et-ble-special-chat-sterilise-p-111583.html",
+    "score": 0.9375,
+    "variantFilter": null
+  },
+  {
+    "id": "c04",
+    "name": "ULTIMA Adult Stérilisé au Poulet ou au Saumon",
+    "url": "https://www.zoomalia.com/animalerie/affinity-ultima-adult-sterilise-au-poulet-ou-au-saumon-p-54337.html",
+    "score": 0.85,
+    "variantFilter": {
+      "include": "poulet",
+      "exclude": "saumon"
+    }
+  },
+  {
+    "id": "c06",
+    "name": "IAMS Advanced Nutrition pour chat adulte au poulet frais",
+    "url": "https://www.zoomalia.com/animalerie/iams-advanced-nutrition-pour-chat-adulte-au-poulet-frais-p-147156.html",
+    "score": 0.95,
+    "variantFilter": null
+  },
+  {
+    "id": "c10",
+    "name": "CAT CHOW Adult au poulet pour chat",
+    "url": "https://www.zoomalia.com/animalerie/cat-chow-adult-au-poulet-pour-chat-p-11528.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "c11",
+    "name": "Royal Canin Sterilised 7+",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-sterilised-7-p-20227.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "c12",
+    "name": "IAMS Advanced Nutrition pour chat senior au poulet frais",
+    "url": "https://www.zoomalia.com/animalerie/iams-advanced-nutrition-pour-chat-senior-au-poulet-frais-p-147176.html",
+    "score": 0.8,
+    "variantFilter": null
+  },
+  {
+    "id": "c13",
+    "name": "ADVANCE Sterilized +10 ans au Poulet & Orge pour Chat Senior Stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/advance-sterilized-10-ans-au-poulet-orge-pour-chat-senior-sterilise-p-20489.html",
+    "score": 0.9166666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "c14",
+    "name": "JOSERA Senior pour Chat senior ou en insuffisance rénale",
+    "url": "https://www.zoomalia.com/animalerie/josera-senior-pour-chat-senior-ou-en-insuffisance-renale-p-46125.html",
+    "score": 0.8,
+    "variantFilter": null
+  },
+  {
+    "id": "c15",
+    "name": "APPLAWS Sans Céréales au Poulet pour chat senior",
+    "url": "https://www.zoomalia.com/animalerie/applaws-sans-cereales-au-poulet-pour-chat-senior-p-46686.html",
+    "score": 0.9166666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "c16",
+    "name": "TASTE OF THE WILD Rocky Mountain Sans Céréales pour chat et chaton",
+    "url": "https://www.zoomalia.com/animalerie/taste-of-the-wild-rocky-mountain-sans-cereales-pour-chat-et-chaton-p-13095.html",
+    "score": 0.425,
+    "variantFilter": null
+  },
+  {
+    "id": "c17",
+    "name": "APPLAWS Sans Céréales au Poulet pour chat adulte",
+    "url": "https://www.zoomalia.com/animalerie/applaws-sans-cereales-au-poulet-pour-chat-adulte-p-46671.html",
+    "score": 0.9166666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "c19",
+    "name": "FARMINA N&D Prime au Poulet & Grenade pour Chat Adulte",
+    "url": "https://www.zoomalia.com/animalerie/farmina-n-d-prime-au-poulet-grenade-pour-chat-adulte-p-41964.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "c20",
+    "name": "CARNILOVE Active Cat Saumon et Dinde pour chat de toutes races",
+    "url": "https://www.zoomalia.com/animalerie/carnilove-adult-cat-au-saumon-sensitive-long-hair-p-32922.html",
+    "score": 0.7125,
+    "variantFilter": null
+  },
+  {
+    "id": "ch-dog-specific-cad-activ",
+    "name": "SPECIFIC CAD Adult Active pour Chien",
+    "url": "https://www.zoomalia.com/animalerie/specific-cad-adult-active-pour-chien-p-169859.html",
+    "score": 0.3333333333333333,
+    "variantFilter": null
+  },
+  {
+    "id": "ch-dog-specific-cxd-xl",
+    "name": "SPECIFIC CXD-XL pour Chien Adulte de Grande Taille",
+    "url": "https://www.zoomalia.com/animalerie/specific-cxd-xl-pour-chien-adulte-de-grande-taille-p-42942.html",
+    "score": 0.6,
+    "variantFilter": null
+  },
+  {
+    "id": "ch-cat-specific-fxd-adult",
+    "name": "SPECIFIC FXD Adult pour Chat Adulte",
+    "url": "https://www.zoomalia.com/animalerie/specific-fxd-adult-pour-chat-adulte-p-43059.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "ch-cat-specific-fcd-crystal",
+    "name": "SPECIFIC FCD Crystal Management pour Chat Adulte",
+    "url": "https://www.zoomalia.com/animalerie/specific-fcd-crystal-management-pour-chat-adulte-p-42969.html",
+    "score": 0.9375,
+    "variantFilter": null
+  },
+  {
+    "id": "ch-cat-specific-fcd-light",
+    "name": "SPECIFIC FCD-L Crystal Management LIGHT pour Chat Adulte",
+    "url": "https://www.zoomalia.com/animalerie/specific-fcd-l-crystal-management-light-pour-chat-adulte-p-42990.html",
+    "score": 0.9583333333333334,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-007",
+    "name": "ACANA CLASSICS Red Meat Recipe pour chien et chiot",
+    "url": "https://www.zoomalia.com/animalerie/acana-classics-red-meat-recipe-pour-chien-et-chiot-p-38148.html",
+    "score": 0.6,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-009",
+    "name": "ACANA Adult Large Breed pour chien adulte de grande taille",
+    "url": "https://www.zoomalia.com/animalerie/acana-adult-large-breed-pour-chien-adulte-de-grande-taille-p-31482.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-010",
+    "name": "ACANA Light & Fit pour chien adulte en surpoids",
+    "url": "https://www.zoomalia.com/animalerie/acana-light-fit-pour-chien-adulte-en-surpoids-p-31593.html",
+    "score": 0.85,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-011",
+    "name": "ACANA Puppy & Junior pour chiot et jeune chien",
+    "url": "https://www.zoomalia.com/animalerie/acana-puppy-junior-pour-chiot-et-jeune-chien-p-13083.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-013",
+    "name": "ACANA Highest Protein Pacifica pour chien",
+    "url": "https://www.zoomalia.com/animalerie/acana-highest-protein-pacifica-pour-chien-p-34663.html",
+    "score": 0.8333333333333334,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-014",
+    "name": "ACANA Singles Grass-Fed Lamb pour chien sensible",
+    "url": "https://www.zoomalia.com/animalerie/acana-singles-grass-fed-lamb-pour-chien-sensible-p-13085.html",
+    "score": 0.95,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-015",
+    "name": "Advance Maxi Adult Poulet pour Chien Adulte de Grande Taille",
+    "url": "https://www.zoomalia.com/animalerie/advance-maxi-adult-poulet-pour-chien-adulte-de-grande-taille-p-20591.html",
+    "score": 0.85,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-016",
+    "name": "Advance Medium Adult au Poulet pour Chien Adulte de Taille Moyenne",
+    "url": "https://www.zoomalia.com/animalerie/advance-medium-adult-au-poulet-pour-chien-adulte-de-taille-moyenne-p-20584.html",
+    "score": 0.85,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-017",
+    "name": "Advance Mini Adult au Poulet pour chien adulte de petite taille",
+    "url": "https://www.zoomalia.com/animalerie/advance-mini-adult-au-poulet-pour-chien-adulte-de-petite-taille-p-20572.html",
+    "score": 0.85,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-018",
+    "name": "Advance Sensitive Lamb Agneau et Riz pour chien Adulte Sensible",
+    "url": "https://www.zoomalia.com/animalerie/advance-sensitive-lamb-agneau-et-riz-pour-chien-adulte-sensible-p-20595.html",
+    "score": 0.95,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-019",
+    "name": "ALLEVA Holistic Agneau & Cerf pour chien adulte de moyenne et grande taille",
+    "url": "https://www.zoomalia.com/animalerie/alleva-holistic-agneau-cerf-pour-chien-adulte-de-moyenne-et-grande-taille-p-70117.html",
+    "score": 0.6428571428571428,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-021",
+    "name": "ALMO NATURE Holistic Medium au poulet frais pour chien de taille moyenne",
+    "url": "https://www.zoomalia.com/animalerie/almo-nature-holistic-medium-au-poulet-frais-pour-chien-de-taille-moyenne-p-156901.html",
+    "score": 0.4583333333333333,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-024",
+    "name": "AMITY Premium Adulte Agneau & Riz pour Chien Adulte",
+    "url": "https://www.zoomalia.com/animalerie/amity-premium-adulte-agneau-riz-pour-chien-adulte-p-43233.html",
+    "score": 0.9375,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-031",
+    "name": "ARQUIVET Adult Agneau & Riz pour chien adulte sensible",
+    "url": "https://www.zoomalia.com/animalerie/arquivet-adult-agneau-riz-pour-chien-adulte-sensible-p-43140.html",
+    "score": 0.9375,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-036",
+    "name": "BELCANDO Adult GF Beef au boeuf pour chien adulte",
+    "url": "https://www.zoomalia.com/animalerie/belcando-adult-gf-beef-au-boeuf-pour-chien-adulte-p-140424.html",
+    "score": 0.9375,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-043",
+    "name": "BRIT Fresh à la Dinde fraîche et pois pour chien adulte sédentaire, en surpoids ou senior",
+    "url": "https://www.zoomalia.com/animalerie/brit-fresh-a-la-dinde-fraiche-et-pois-pour-chien-adulte-sedentaire-en-surpoids-ou-senior-p-91989.html",
+    "score": 0.3454545454545454,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-045",
+    "name": "BRIT Care Hypoallergenic Weight Loss au lapin pour chien en surpoids",
+    "url": "https://www.zoomalia.com/animalerie/brit-care-hypoallergenic-weight-loss-au-lapin-pour-chien-en-surpoids-p-141050.html",
+    "score": 0.2375,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-047",
+    "name": "CARNILOVE Active Dry Agneau et Sanglier pour chien",
+    "url": "https://www.zoomalia.com/animalerie/carnilove-adult-agneau-et-sanglier-pour-chien-p-30213.html",
+    "score": 0.625,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-050",
+    "name": "DOG CHOW adulte au Poulet pour chien",
+    "url": "https://www.zoomalia.com/animalerie/dog-chow-adulte-au-poulet-pour-chien-p-11518.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-051",
+    "name": "Eukanuba Adult Large Breed Poulet frais pour chien de grande taille",
+    "url": "https://www.zoomalia.com/animalerie/eukanuba-active-adult-large-breed-pour-chien-de-grande-taille-p-13240.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-052",
+    "name": "FARMINA N&D Prime au Poulet & Grenade pour chien adulte de taille medium/maxi",
+    "url": "https://www.zoomalia.com/animalerie/farmina-n-d-prime-au-poulet-grenade-pour-chien-adulte-de-taille-medium-maxi-p-41790.html",
+    "score": 0.9166666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-059",
+    "name": "JOSERA Light & Vital pour Chien Adulte en Surpoids",
+    "url": "https://www.zoomalia.com/animalerie/josera-light-vital-pour-chien-adulte-en-surpoids-p-46299.html",
+    "score": 0.9,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-060",
+    "name": "LILY'S KITCHEN Sans Céréales Poulet & Canard pour Chien Adulte",
+    "url": "https://www.zoomalia.com/animalerie/lily-s-kitchen-sans-cereales-poulet-canard-pour-chien-adulte-p-57565.html",
+    "score": 0.9375,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-065",
+    "name": "Opti Life Adult Medium au poulet pour chien adulte de taille moyenne",
+    "url": "https://www.zoomalia.com/animalerie/opti-life-adult-medium-au-poulet-pour-chien-adulte-de-taille-moyenne-p-24413.html",
+    "score": 0.85,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-066",
+    "name": "ORIJEN Original Sans Céréales pour chien et chiot",
+    "url": "https://www.zoomalia.com/animalerie/orijen-original-sans-cereales-pour-chien-et-chiot-p-32574.html",
+    "score": 0.8333333333333334,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-067",
+    "name": "OWNAT Classic Lamb & Rice pour chien adulte à l'agneau et au riz",
+    "url": "https://www.zoomalia.com/animalerie/ownat-classic-lamb-rice-pour-chien-adulte-a-l-agneau-et-au-riz-p-40444.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-068",
+    "name": "OWNAT Just Grain Free Adult sans céréales au poulet pour chien adulte",
+    "url": "https://www.zoomalia.com/animalerie/ownat-just-grain-free-adult-sans-cereales-au-poulet-pour-chien-adulte-p-42576.html",
+    "score": 0.9375,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-069",
+    "name": "PEDIGREE Adult au Bœuf et aux légumes pour chien adulte",
+    "url": "https://www.zoomalia.com/animalerie/pedigree-adult-au-b-uf-et-aux-legumes-pour-chien-adulte-p-143580.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-073",
+    "name": "PRO PLAN Chien Medium Adulte Everyday Nutrition",
+    "url": "https://www.zoomalia.com/animalerie/pro-plan-chien-medium-adulte-everyday-nutrition-p-29742.html",
+    "score": 0.625,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-076",
+    "name": "ROYAL CANIN Medium Adult pour chien de taille moyenne",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-medium-adult-pour-chien-de-taille-moyenne-p-11549.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-077",
+    "name": "ROYAL CANIN Maxi Adult pour chien de grande taille",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-maxi-adult-pour-chien-de-grande-taille-p-11557.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-078",
+    "name": "ROYAL CANIN Mini Adult pour chien de petite taille",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-mini-adult-pour-chien-de-petite-taille-p-11540.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-079",
+    "name": "Royal Canin Medium Sterilised pour chien moyen stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-medium-sterilised-p-15794.html",
+    "score": 0.9166666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-082",
+    "name": "SPECIFIC CXD-M pour Chien Adulte de Taille Moyenne",
+    "url": "https://www.zoomalia.com/animalerie/specific-cxd-m-pour-chien-adulte-de-taille-moyenne-p-42936.html",
+    "score": 0.7125,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-083",
+    "name": "TASTE OF THE WILD Pacific Stream au Saumon Sans Céréales pour chien",
+    "url": "https://www.zoomalia.com/animalerie/taste-of-the-wild-pacific-stream-au-saumon-sans-cereales-pour-chien-p-13087.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-086",
+    "name": "TONIVET Adulte Medium pour chien de taille moyenne",
+    "url": "https://www.zoomalia.com/animalerie/tonivet-adulte-medium-pour-chien-de-taille-moyenne-p-94733.html",
+    "score": 0.625,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-091",
+    "name": "VIRBAC Veterinary HPM Adult Large & Medium pour chien adulte",
+    "url": "https://www.zoomalia.com/animalerie/virbac-veterinary-hpm-adult-large-medium-pour-chien-adulte-p-40950.html",
+    "score": 0.95,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-096",
+    "name": "YARRAH BIO au Poulet pour chien senior",
+    "url": "https://www.zoomalia.com/animalerie/yarrah-bio-senior-au-poulet-pour-chien-senior-p-38340.html",
+    "score": 0.8333333333333334,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-008",
+    "name": "Advance Adult Poulet & riz pour Chat Adulte",
+    "url": "https://www.zoomalia.com/animalerie/advance-adult-poulet-riz-pour-chat-adulte-p-20475.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-009",
+    "name": "ADVANCE Sterilized Adult Dinde & Orge pour Chat Adulte Stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/advance-sterilized-adult-dinde-orge-pour-chat-adulte-sterilise-p-20480.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-012",
+    "name": "ALMO NATURE Holistic au Poulet & riz pour Chat adulte",
+    "url": "https://www.zoomalia.com/animalerie/almo-nature-holistic-au-poulet-riz-pour-chat-adulte-p-20785.html",
+    "score": 0.9375,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-013",
+    "name": "ALMO NATURE Holistic Sterilised au saumon frais pour chat stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/almo-nature-holistic-sterilised-au-saumon-frais-pour-chat-sterilise-p-29254.html",
+    "score": 0.75,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-022",
+    "name": "APPLAWS Sans Céréales au Poisson de mer & Saumon pour chat adulte",
+    "url": "https://www.zoomalia.com/animalerie/applaws-sans-cereales-au-poisson-de-mer-saumon-pour-chat-adulte-p-46680.html",
+    "score": 0.95,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-027",
+    "name": "BF PETFOOD - BIOFOOD Kitten au poulet pour chaton",
+    "url": "https://www.zoomalia.com/animalerie/bf-petfood-biofood-kitten-au-poulet-pour-chaton-p-47184.html",
+    "score": 0.8,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-030",
+    "name": "BRAVERY Adult Cat Sans Céréales au Poulet pour Chat Adulte",
+    "url": "https://www.zoomalia.com/animalerie/bravery-adult-cat-sans-cereales-au-poulet-pour-chat-adulte-p-43797.html",
+    "score": 0.9375,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-033",
+    "name": "CARNILOVE Active Cat Saumon et Dinde pour chat de toutes races",
+    "url": "https://www.zoomalia.com/animalerie/carnilove-adult-cat-au-saumon-sensitive-long-hair-p-32922.html",
+    "score": 0.7125,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-034",
+    "name": "FARMINA N&D Prime au Poulet & Grenade pour Chat Adulte",
+    "url": "https://www.zoomalia.com/animalerie/farmina-n-d-prime-au-poulet-grenade-pour-chat-adulte-p-41964.html",
+    "score": 0.9166666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-040",
+    "name": "HILL'S Science Plan pour Chat Adulte au Poulet",
+    "url": "https://www.zoomalia.com/animalerie/hill-s-science-plan-pour-chat-adulte-au-poulet-p-15803.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-041",
+    "name": "IAMS Advanced Nutrition pour chat adulte au poulet frais",
+    "url": "https://www.zoomalia.com/animalerie/iams-advanced-nutrition-pour-chat-adulte-au-poulet-frais-p-147156.html",
+    "score": 0.95,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-042",
+    "name": "JOSERA Senior pour Chat senior ou en insuffisance rénale",
+    "url": "https://www.zoomalia.com/animalerie/josera-senior-pour-chat-senior-ou-en-insuffisance-renale-p-46125.html",
+    "score": 0.8,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-045",
+    "name": "NATURAL GREATNESS Wild Instinct pour Chat Adulte & Chaton",
+    "url": "https://www.zoomalia.com/animalerie/natural-greatness-wild-instinct-pour-chat-adulte-chaton-p-43584.html",
+    "score": 0.5,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-046",
+    "name": "NESTOR BIO croquettes pour chat adulte",
+    "url": "https://www.zoomalia.com/animalerie/nestor-bio-pour-chat-adulte-p-34614.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-050",
+    "name": "ORIJEN Cat Sans Céréales pour chat",
+    "url": "https://www.zoomalia.com/animalerie/orijen-cat-sans-cereales-pour-chat-p-18026.html",
+    "score": 0.5,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-051",
+    "name": "OWNAT Classic Daily Care pour chat adulte",
+    "url": "https://www.zoomalia.com/animalerie/ownat-classic-daily-care-pour-chat-adulte-p-40465.html",
+    "score": 0.9375,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-052",
+    "name": "OWNAT Classic Sterilized pour chat adulte stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/ownat-classic-sterilized-pour-chat-adulte-sterilise-p-40480.html",
+    "score": 0.9166666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-057",
+    "name": "ROYAL CANIN Sterilised 37 pour chat adulte stérilisé de 1 à 7 ans",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-sterilised-37-pour-chat-adulte-sterilise-de-1-a-7-ans-p-11582.html",
+    "score": 0.8214285714285714,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-061",
+    "name": "SPECIFIC FXD Adult pour Chat Adulte",
+    "url": "https://www.zoomalia.com/animalerie/specific-fxd-adult-pour-chat-adulte-p-43059.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-062",
+    "name": "TASTE OF THE WILD Rocky Mountain Sans Céréales pour chat et chaton",
+    "url": "https://www.zoomalia.com/animalerie/taste-of-the-wild-rocky-mountain-sans-cereales-pour-chat-et-chaton-p-13095.html",
+    "score": 0.5,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-071",
+    "name": "WELLNESS CORE Ocean sans céréales Saumon/Thon pour chat",
+    "url": "https://www.zoomalia.com/animalerie/wellness-core-ocean-sans-cereales-saumon-thon-pour-chat-p-167093.html",
+    "score": 0.9375,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-072",
+    "name": "WHISKAS au poulet pour chat adulte",
+    "url": "https://www.zoomalia.com/animalerie/whiskas-au-poulet-pour-chat-adulte-p-106437.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-076",
+    "name": "YARRAH Sterilised au Poulet BIO pour chat adulte stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/yarrah-bio-sterilised-au-poulet-sans-ble-pour-chat-adulte-sterilise-p-44016.html",
+    "score": 0.8125,
+    "variantFilter": null
+  },
+  {
+    "id": "vb-dog-adult-small-toy",
+    "name": "VIRBAC Veterinary HPM Small & Toy pour chien adulte de petite taille",
+    "url": "https://www.zoomalia.com/animalerie/virbac-veterinary-hpm-small-toy-pour-chien-adulte-de-petite-taille-p-40917.html",
+    "score": 0.9285714285714286,
+    "variantFilter": null
+  },
+  {
+    "id": "vb-dog-senior-small-toy",
+    "name": "VIRBAC Veterinary HPM Small & Toy Senior pour chien senior de petite taille",
+    "url": "https://www.zoomalia.com/animalerie/virbac-veterinary-hpm-small-toy-senior-pour-chien-senior-de-petite-taille-p-40923.html",
+    "score": 0.9285714285714286,
+    "variantFilter": null
+  },
+  {
+    "id": "vb-dog-adult-large-medium",
+    "name": "VIRBAC Veterinary HPM Adult Large & Medium pour chien adulte",
+    "url": "https://www.zoomalia.com/animalerie/virbac-veterinary-hpm-adult-large-medium-pour-chien-adulte-p-40950.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "vb-dog-senior-large-medium",
+    "name": "VIRBAC Veterinary HPM Dog Large & Medium Senior pour chien senior",
+    "url": "https://www.zoomalia.com/animalerie/virbac-veterinary-hpm-dog-large-medium-senior-pour-chien-senior-p-40956.html",
+    "score": 0.9583333333333334,
+    "variantFilter": null
+  },
+  {
+    "id": "vb-dog-adult-sensitive-digest",
+    "name": "VIRBAC Veterinary HPM Sensitive Digest Large & Medium pour chien adultes",
+    "url": "https://www.zoomalia.com/animalerie/virbac-veterinary-hpm-sensitive-digest-large-medium-pour-chien-adultes-p-171518.html",
+    "score": 0.8571428571428572,
+    "variantFilter": null
+  },
+  {
+    "id": "vb-dog-dermatology-support",
+    "name": "Virbac Veterinary HPM D1 - Dermatology Support pour chien adulte",
+    "url": "https://www.zoomalia.com/animalerie/virbac-veterinary-hpm-d1-dermatology-support-pour-chien-adulte-p-40989.html",
+    "score": 0.9583333333333334,
+    "variantFilter": null
+  },
+  {
+    "id": "vb-dog-joint-mobility",
+    "name": "Virbac Veterinary HPM J1 - Joint & Mobility pour chien adulte",
+    "url": "https://www.zoomalia.com/animalerie/virbac-veterinary-hpm-j1-joint-mobility-pour-chien-adulte-p-40992.html",
+    "score": 0.9583333333333334,
+    "variantFilter": null
+  },
+  {
+    "id": "ownat-dog-classic-complet",
+    "name": "OWNAT Classic Complet pour chien adulte au poulet",
+    "url": "https://www.zoomalia.com/animalerie/ownat-classic-complet-pour-chien-adulte-au-poulet-p-40432.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "ownat-dog-classic-junior",
+    "name": "OWNAT Classic Junior pour chiot",
+    "url": "https://www.zoomalia.com/animalerie/ownat-classic-junior-pour-chiot-p-40441.html",
+    "score": 0.9166666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "ownat-dog-classic-energy",
+    "name": "OWNAT Classic Energy pour chien adulte actif au poulet",
+    "url": "https://www.zoomalia.com/animalerie/ownat-classic-energy-pour-chien-adulte-actif-au-poulet-p-40435.html",
+    "score": 0.85,
+    "variantFilter": null
+  },
+  {
+    "id": "ownat-cat-classic-kitten",
+    "name": "OWNAT Classic Kitten pour chaton",
+    "url": "https://www.zoomalia.com/animalerie/ownat-classic-kitten-pour-chaton-p-40474.html",
+    "score": 0.9166666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "ownat-cat-classic-hairball",
+    "name": "OWNAT Classic Hairball anti-boules de poils pour chat adulte",
+    "url": "https://www.zoomalia.com/animalerie/ownat-classic-hairball-anti-boules-de-poils-pour-chat-adulte-p-40471.html",
+    "score": 0.8333333333333334,
+    "variantFilter": null
+  },
+  {
+    "id": "ownat-cat-classic-fish",
+    "name": "OWNAT Classic Fish pour chat adulte au poisson",
+    "url": "https://www.zoomalia.com/animalerie/ownat-classic-fish-pour-chat-adulte-au-poisson-p-40468.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "zp-dog-royal-medium-adult-7",
+    "name": "Royal Canin Medium Adult 7 ans et plus",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-medium-adult-7-ans-et-plus-p-11550.html",
+    "score": 0.9,
+    "variantFilter": null
+  },
+  {
+    "id": "zm-cat-proplan-sterilised-salmon",
+    "name": "PRO PLAN Sterilised Adult RENAL PLUS au saumon pour chat",
+    "url": "https://www.zoomalia.com/animalerie/pro-plan-sterilised-adult-renal-plus-au-saumon-pour-chat-p-11506.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "zm-cat-hills-sterilised-chicken",
+    "name": "HILL'S Science Plan Adult Sterilised pour chat stérilisé au Poulet",
+    "url": "https://www.zoomalia.com/animalerie/hill-s-science-plan-adult-sterilised-pour-chat-sterilise-au-poulet-p-30741.html",
+    "score": 1,
+    "variantFilter": null
+  },
+  {
+    "id": "zm-cat-hills-light-chicken",
+    "name": "HILL'S Science Plan Adult Light au Poulet pour chat adulte en surpoids",
+    "url": "https://www.zoomalia.com/animalerie/hill-s-science-plan-adult-light-au-poulet-pour-chat-adulte-en-surpoids-p-15795.html",
+    "score": 0.9,
+    "variantFilter": null
+  },
+  {
+    "id": "d04",
+    "name": "ACANA Puppy & Junior pour chiot et jeune chien",
+    "url": "https://www.zoomalia.com/animalerie/acana-puppy-junior-pour-chiot-et-jeune-chien-p-13083.html",
+    "score": 0.3625,
+    "variantFilter": null
+  },
+  {
+    "id": "c07",
+    "name": "FRISKIES® Au Poulet et aux Légumes",
+    "url": "https://www.zoomalia.com/animalerie/friskies-au-poulet-et-aux-legumes-p-71659.html",
+    "score": 0.75,
+    "variantFilter": null
+  },
+  {
+    "id": "c08",
+    "name": "WHISKAS au poulet pour chat adulte",
+    "url": "https://www.zoomalia.com/animalerie/whiskas-au-poulet-pour-chat-adulte-p-106437.html",
+    "score": 0.5,
+    "variantFilter": null
+  },
+  {
+    "id": "ch-dog-hills-adult-medium",
+    "name": "HILL'S Science Plan Canine Adult Medium pour chien de taille moyenne au poulet",
+    "url": "https://www.zoomalia.com/animalerie/hill-s-science-plan-canine-adult-medium-pour-chien-de-taille-moyenne-au-poulet-p-15750.html",
+    "score": 0.875,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-008",
+    "name": "ACANA Adult Dog pour chiens adultes de toutes races",
+    "url": "https://www.zoomalia.com/animalerie/acana-adult-dog-pour-chiens-adultes-de-toutes-races-p-13081.html",
+    "score": 0.8125,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-020",
+    "name": "ALLEVA Natural Poulet & Potiron pour chien Adulte de grande taille",
+    "url": "https://www.zoomalia.com/animalerie/alleva-natural-poulet-potiron-pour-chien-adulte-de-grande-taille-p-70183.html",
+    "score": 0.7125,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-028",
+    "name": "APPLAWS Croquettes sans céréales au poulet pour chien adulte de petite et moyenne race",
+    "url": "https://www.zoomalia.com/animalerie/applaws-sans-cereales-au-poulet-pour-chien-adulte-de-petite-et-moyenne-taille-p-46728.html",
+    "score": 0.475,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-030",
+    "name": "ARION ORIGINAL Maintenance au poulet pour chien adulte de taille moyenne",
+    "url": "https://www.zoomalia.com/animalerie/arion-original-maintenance-au-poulet-pour-chien-adulte-de-taille-moyenne-p-175952.html",
+    "score": 0.5,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-037",
+    "name": "BELCANDO Adulte Light pour chien peu actif ou sujet à l'embonpoint",
+    "url": "https://www.zoomalia.com/animalerie/belcando-adulte-light-pour-chien-peu-actif-ou-sujet-a-l-embonpoint-p-17132.html",
+    "score": 0.8055555555555556,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-dog-092",
+    "name": "WELLNESS CORE Original à la dinde et au poulet pour chien adulte de taille moyenne",
+    "url": "https://www.zoomalia.com/animalerie/wellness-core-original-a-la-dinde-et-au-poulet-pour-chien-adulte-de-taille-moyenne-p-167163.html",
+    "score": 0.84375,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-010",
+    "name": "ALLEVA Holistic Poulet & Canard pour Chat Adulte entier et stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/alleva-holistic-poulet-canard-pour-chat-adulte-p-70150.html",
+    "score": 0.4666666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-014",
+    "name": "AMITY Premium Poulet & Riz pour Chat adulte stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/amity-premium-poulet-riz-pour-chat-adulte-sterilise-p-131618.html",
+    "score": 0.14999999999999997,
+    "variantFilter": null
+  },
+  {
+    "id": "mq-cat-070",
+    "name": "VIRBAC Veterinary HPM Cat Adult Neutered pour chat adulte stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/virbac-veterinary-hpm-cat-adult-neutered-pour-chat-adulte-sterilise-p-31028.html",
+    "score": 0.4666666666666666,
+    "variantFilter": null
+  },
+  {
+    "id": "vb-dog-adult-neutered-large-medium",
+    "name": "VIRBAC Veterinary HPM Neutered Large & Medium pour chien adulte stérilisé",
+    "url": "https://www.zoomalia.com/animalerie/virbac-veterinary-hpm-neutered-large-medium-pour-chien-adulte-sterilise-p-35444.html",
+    "score": 0.5142857142857142,
+    "variantFilter": null
+  },
+  {
+    "id": "c05",
+    "url": "https://www.zoomalia.com/animalerie/perfect-fit-au-poulet-pour-chat-adulte-sterilise-p-105129.html"
+  },
+  {
+    "id": "zp-cat-royal-kitten",
+    "url": "https://www.zoomalia.com/animalerie/royal-canin-kitten-pour-chaton-de-4-a-12-mois-p-11568.html"
+  },
+  {
+    "id": "zm-cat-proplan-sterilised-rabbit",
+    "url": "https://www.zoomalia.com/animalerie/pro-plan-sterilised-adult-renal-plus-au-lapin-pour-chat-p-33450.html"
+  }
+]

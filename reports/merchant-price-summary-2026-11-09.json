@@ -1,0 +1,425 @@
+{
+  "date": "2026-11-09",
+  "products": 240,
+  "searchedZooplus": 240,
+  "searchedZoomalia": 240,
+  "zoomaliaAdditionalSearches": 93,
+  "zoomaliaProductPages": 115,
+  "withOffers": 159,
+  "zooplus": 131,
+  "zoomalia": 130,
+  "offers": 841,
+  "withNutrition": 154,
+  "localPhotos": 8,
+  "unverified": [
+    {
+      "id": "mq-dog-001",
+      "nom": "1st Choice croissance miniature et petite races chiot",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-002",
+      "nom": "1st Choice hypoallergène adulte",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-003",
+      "nom": "1st Choice léger poids santé adulte",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-004",
+      "nom": "1st Choice maintenance moyenne et grande races adulte",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-005",
+      "nom": "Aatu free run chicken",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-006",
+      "nom": "Aatu free run duck",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-012",
+      "nom": "Acana regionals grasslands dog",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-023",
+      "nom": "Alpha Spirit the only one duck",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-025",
+      "nom": "Anifit dog dry nature boeuf",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-027",
+      "nom": "Appetite adult agneau et poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-029",
+      "nom": "Arden Grange adult agneau riz",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-032",
+      "nom": "Atavik adulte poulet France",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-033",
+      "nom": "Bab'in Selection adulte GF canard",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-034",
+      "nom": "Bab'in Selective adulte light poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-038",
+      "nom": "Biofood adult Pressé",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-039",
+      "nom": "Black Canyon buffalo creek",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-041",
+      "nom": "Bozita Original grain free",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-042",
+      "nom": "Bravery chicken adult dog",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-046",
+      "nom": "Canagan free run chicken",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-053",
+      "nom": "Franklin dinde patate douce canneberge",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-054",
+      "nom": "Golden Eagle Holistic adult large breed",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-055",
+      "nom": "Gosbi exclusive chicken medium",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-056",
+      "nom": "Husse optimal sensitive",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-057",
+      "nom": "Isegrim adult River saumon",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-058",
+      "nom": "James Wellbeloved adult dog agneau et riz",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-077",
+      "nom": "Natural Greatness Field et River Recipe",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-064",
+      "nom": "Nutro grain free chien adulte agneau",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-070",
+      "nom": "Platinum adult Iberico greens",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-071",
+      "nom": "Porta 21 Canine finest low fat",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-072",
+      "nom": "Pro-nutrition flatazor elite adult maxi",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-075",
+      "nom": "Real Nature wilderness black earth adult",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-080",
+      "nom": "Select Gold complete medium adult poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-084",
+      "nom": "Terra Canis canireo croquettes poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-085",
+      "nom": "Tom and co medium adult poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-087",
+      "nom": "True Instinct high meat medium maxi poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-088",
+      "nom": "Tundra adulte dinde et gibier",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-089",
+      "nom": "Ultra Premium Super Premium adult saumon et riz",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-090",
+      "nom": "Vetonut adulte",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-dog-094",
+      "nom": "Wolfood adult fish",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-001",
+      "nom": "1st Choice contrôle du poids adulte",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-002",
+      "nom": "1st Choice départ santé chaton",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-003",
+      "nom": "1st Choice intérieur vitalité adulte",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-004",
+      "nom": "Aatu free run chicken",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-005",
+      "nom": "Acana ranchlands",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-006",
+      "nom": "Acana regionals pacifica",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-007",
+      "nom": "Acti-Croq anti hairball",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-011",
+      "nom": "Alleva holistic kitten chicken and duck",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-015",
+      "nom": "Anifit cat dry",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-016",
+      "nom": "Animalis adulte au boeuf",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-017",
+      "nom": "Animalis chaton au poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-018",
+      "nom": "Animaster adulte suprême de volaille",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-019",
+      "nom": "Animonda Vom Feinsten deluxe adult",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-020",
+      "nom": "Annamaet grain free feline formula",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-021",
+      "nom": "Appetite adult stérilisé poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-023",
+      "nom": "Arden Grange kitten",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-024",
+      "nom": "Arion Original sterilized chicken",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-025",
+      "nom": "Atavik adulte made in France au saumon",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-026",
+      "nom": "Bab'in Signature chat adulte stérilisé saumon",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-028",
+      "nom": "Black Canyon Saddle Dale",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-031",
+      "nom": "Brit care Angel I'm delighted senior",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-032",
+      "nom": "Brit Premium Cat adult chicken",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-036",
+      "nom": "Franklin saumon patate douce asperge",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-037",
+      "nom": "Golden Eagle Holistic Cat adult",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-038",
+      "nom": "Gosbi original sterilized",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-039",
+      "nom": "Granatapet Symphonie N°1 thon",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-043",
+      "nom": "Meowing Heads Paw Lickin poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-044",
+      "nom": "Monge Natural Superpremium adult saumon",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-047",
+      "nom": "Now Fresh adult",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-048",
+      "nom": "Nutram GF truite et saumon",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-049",
+      "nom": "Nutro GF adult poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-055",
+      "nom": "Power Of Nature Cookies Choice poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-056",
+      "nom": "Pro-nutrition flatazor Crocktail adult sterilized au poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-059",
+      "nom": "Select Gold sensitive digestion adult volaille au riz",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-060",
+      "nom": "Simpsons chat et viande mixtes",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-064",
+      "nom": "Tom and co adult lapin et dinde",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-065",
+      "nom": "True Instinct high meat poulet",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-066",
+      "nom": "Tundra adulte dinde et gibier",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-068",
+      "nom": "Ultra Premium sterilisé Indoor adult",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-069",
+      "nom": "Vigor et Sage Ginseng Well Being chat adulte",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-074",
+      "nom": "Winner Plus kittencat",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    },
+    {
+      "id": "mq-cat-075",
+      "nom": "Wolfood adult sterilized cat",
+      "statut": "Aucune offre exacte vérifiée après recherche. Cela ne prouve pas une indisponibilité chez les marchands."
+    }
+  ],
+  "rejectedMatches": {
+    "d14": "La fiche du marchand décrit le poulet ; la référence Crocami est au bœuf.",
+    "c04": "La fiche mélange poulet et saumon ; les formats génériques ne permettent pas de rattacher la saveur avec certitude."
+  }
+}

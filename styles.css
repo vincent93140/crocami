@@ -739,4 +739,4 @@ footer .footer-links a:hover{color:#1266ad;text-decoration:underline;text-underl
 .detail-data-row.metric-poor b{color:#b3261e}
 .detail-data-row.metric-unknown{background:#f1f2ed;border-color:#e3e5dc}
 .detail-data-row.metric-unknown b{color:#777d72}
-
+.retailer-copy-details{margin:16px 0;padding:12px 14px;border:1px solid #e5eae3;border-radius:10px}.retailer-copy-details summary{font-size:.95rem;font-weight:600}.retailer-copy-details p{margin:12px 0 0}

@@ -20,11 +20,11 @@ window.CROCamiCatalog.push(...[
     "omega6": null,
     "energie": null,
     "taurine": null,
-    "premierIngredient": null,
+    "premierIngredient": "protéines de volaille (déshydratées)",
     "noteComposition": null,
     "scoreCrocami": null,
     "compositionComplete": "protéines de volaille (déshydratées), farine de blé, farine de maïs, maïs, riz, graisses animales, blé, gluten de blé, pulpe de betterave, protéines animales hydrolysées, gluten de maïs, minéraux, huile de soja, produits de levures, huile de poisson, psyllium (téguments et graines), fructo-oligosaccharides, huile d'algues Schizochytrium sp., levures (source de mannan-oligosaccharides).\n",
-    "additifs": "\nAdditifsnutritionnels :\nvitamine A (21 900 UI/kg), vitamine D3 (1 000 UI/kg), vitamine C (200 mg/kg), vitamine E (500 mg/kg), fer (37 mg/kg), iode (3,7 mg/kg), cuivre (12 mg/kg), manganèse (49 mg/kg), zinc (132 mg/kg), sélénium (0,09 mg/kg).\nAdditifstechnologiques :\nconservateurs, antioxydants.",
+    "additifs": "Additifs nutritionnels :\nvitamine A (21 900 UI/kg), vitamine D3 (1 000 UI/kg), vitamine C (200 mg/kg), vitamine E (500 mg/kg), fer (37 mg/kg), iode (3,7 mg/kg), cuivre (12 mg/kg), manganèse (49 mg/kg), zinc (132 mg/kg), sélénium (0,09 mg/kg).\n Additifs technologiques :\nconservateurs, antioxydants.",
     "ration": "Quantités recommandées :\nLes croquettes Royal Canin Medium Adult 7+ constituent un aliment complet pour chien.\n \n Poids du chien | \n Activité réduite | \n Activité normale | \n Activité élevée | \n 11 kg | \n 149 g | \n 173 g | \n 197 g | \n 14 kg | \n 179 g | \n 207 g | \n 236 g | \n 16 kg | \n 198 g | \n 229 g | \n 260 g | \n 20 kg | \n 234 g | \n 271 g | \n 308 g | \n 25 kg | \n 277 g | \n 320 g | \n 364 g | \nCes quantités recommandées sont données à titre indicatif et doivent être adaptées aux besoins individuels de votre chien.\nVeillez à toujours laisser de l'eau fraîche à la disposition de votre chien.",
     "sourceFabricant": null,
     "verificationFabricant": "à vérifier",
@@ -38,7 +38,8 @@ window.CROCamiCatalog.push(...[
     "besoins": [
       "Senior"
     ],
-    "imageProduit": "https://media.zooplus.com/bilder/7/400/1_rc_shn_mediumadult7_mv_1_7.jpg",
+    "imageProduit": "images/produits/zp-dog-royal-medium-adult-7.jpg",
+    "sourceImageProduit": "https://media.zooplus.com/bilder/7/400/1_rc_shn_mediumadult7_mv_1_7.jpg",
     "sourceRevendeur": "https://www.zooplus.fr/shop/chiens/croquettes_chien/royal_canin_size_croquettes_chien/royal_canin_size_medium_croquettes_chien/15614",
     "sourceDonnees": "Fiche produit Zooplus consultée le 9 novembre 2026",
     "statutDonnees": "Composition, analyse et ration publiées par Zooplus. Données fabricant non vérifiées séparément. Les valeurs absentes restent non communiquées."
@@ -63,11 +64,11 @@ window.CROCamiCatalog.push(...[
     "omega6": null,
     "energie": null,
     "taurine": null,
-    "premierIngredient": null,
+    "premierIngredient": "protéines de volaille déshydratées",
     "noteComposition": null,
     "scoreCrocami": null,
     "compositionComplete": "protéines de volaille déshydratées, riz, gluten de blé*, graisse animale, farine de maïs, protéines animales hydrolysées, farine de blé, gluten de maïs, levures et composants de levures, pulpe de betterave déshydratée, lignocellulose, minéraux, huile de poisson, huile de soja, psyllium (graines et téguments), fructooligosaccharides, hydrolysat de levures (source de mannooligosaccharides et de β-glucane) 0,29 %, huile d'algue Schizochytrium sp. (source de DHA), farine de roses d'Inde (source de lutéine).\n*L.I.P. : protéines sélectionnées pour leur excellente digestibilité et présentant une haute valeur.\n",
-    "additifs": "\nAdditifsnutritionnels :\nvitamine A (21 000 UI/kg), vitamine D3 (800 UI/kg), vitamine E (500 mg/kg), vitamine C (200 mg/kg), fer (32 mg/kg), E2 iode (3,2 mg/kg), cuivre (10 mg/kg), manganèse (42 mg/kg), zinc (126,5 mg/kg), sélénium (0,05 mg/kg).\nAdditifstechnologiques :\nclinoptilolite d'origine sédimentaire (10 g/kg).\nConservateurs :\nantioxydants.",
+    "additifs": "Additifs nutritionnels :\nvitamine A (21 000 UI/kg), vitamine D3 (800 UI/kg), vitamine E (500 mg/kg), vitamine C (200 mg/kg), fer (32 mg/kg), E2 iode (3,2 mg/kg), cuivre (10 mg/kg), manganèse (42 mg/kg), zinc (126,5 mg/kg), sélénium (0,05 mg/kg).\n Additifs technologiques :\nclinoptilolite d'origine sédimentaire (10 g/kg).\nConservateurs :\nantioxydants.",
     "ration": "Quantités recommandées :\nAliment complet pour les chatons de 4 à 12 mois.\n \n Âge | \n Poids du chat | \n Croquettes | \n Alimentation mixte avec 1 sachet fraîcheur Kitten en sauce | \n 1 - 2 mois | \n 0,4 kg - 1 kg | \n 29 - 48 g | \n - | \n 3 - 4 mois | \n 1,3 kg - 2 kg | \n 61 - 66 g | \n - | \n 5 - 6 mois | \n 2,3 kg - 2,9 kg | \n 69 - 67 g | \n 48 - 46 g + 1 sachet fraîcheur | \n 7 - 12 mois | \n 3,1 kg - 4 kg | \n 64 -51 g | \n 43 -29 g + 1 sachet fraîcheur | \nVeillez à toujours laisser de l'eau fraîche à la disposition de votre animal.",
     "sourceFabricant": null,
     "verificationFabricant": "à vérifier",
@@ -81,7 +82,8 @@ window.CROCamiCatalog.push(...[
     "besoins": [
       "Croissance"
     ],
-    "imageProduit": "https://media.zooplus.com/bilder/5/400/252297_252596_284196_252298_royal_canin_kitten_hs_02_5.jpg",
+    "imageProduit": "images/produits/zp-cat-royal-kitten.jpg",
+    "sourceImageProduit": "https://media.zooplus.com/bilder/5/400/252297_252596_284196_252298_royal_canin_kitten_hs_02_5.jpg",
     "sourceRevendeur": "https://www.zooplus.fr/shop/chats/croquettes_chat/royal_canin_croquettes_chat/royal_canin_chaton_croquettes_chat/15606",
     "sourceDonnees": "Fiche produit Zooplus consultée le 9 novembre 2026",
     "statutDonnees": "Composition, analyse et ration publiées par Zooplus. Données fabricant non vérifiées séparément. Les valeurs absentes restent non communiquées."
@@ -96,22 +98,22 @@ window.CROCamiCatalog.push(...[
     "matieresGrasses": 12,
     "fibres": 4,
     "cendres": 7.5,
-    "humidite": 6,
+    "humidite": null,
     "glucides": null,
-    "calcium": 1.4,
-    "phosphore": 1.1,
+    "calcium": null,
+    "phosphore": null,
     "magnesium": null,
     "sodium": null,
-    "omega3": 0.44,
-    "omega6": 1.67,
+    "omega3": null,
+    "omega6": null,
     "energie": null,
-    "taurine": 1830,
-    "premierIngredient": null,
+    "taurine": null,
+    "premierIngredient": "Saumon (20%)",
     "noteComposition": null,
     "scoreCrocami": null,
-    "compositionComplete": null,
-    "additifs": null,
-    "ration": null,
+    "compositionComplete": "Saumon (20%), Protéines de volaille déshydratées, Riz, Gluten de maïs, Maïs, Gluten de blé, Fibre de blé, Cellulose, œufs déshydratés, Substances minérales, Graisse animale, Hydrolysat, Levures, Huile de poisson.",
+    "additifs": "Manganèse (mg/kg) 36, Zinc (mg/kg) 120, Iode (mg/kg) 1.9, Selenium (mg/kg) 0.11, Cuivre (mg/kg) 12, Fer (mg/kg) 76, Vitamine A (UI/kg) 32000, Vitamine D3 (UI/kg) 1000, Vitamine C (mg/kg) 140, Vitamine E (mg/kg) 670,",
+    "ration": "Âge : Adulte - Caractéristique : Stérilisé\n2-4 kg\t4-6 kg\t6-8 kg\n30-60 gr/j\t60-90 gr/j\t90-120 gr/j",
     "sourceFabricant": null,
     "verificationFabricant": "à vérifier",
     "dateVerificationRevendeur": "2026-11-09",
@@ -124,9 +126,11 @@ window.CROCamiCatalog.push(...[
     "besoins": [
       "Stérilisé"
     ],
+    "imageProduit": "images/produits/zm-cat-proplan-sterilised-salmon.jpg",
+    "sourceImageProduit": "https://static3.zoomalia.com/cdn-cgi/image/width=800,height=800,format=auto/prod_img/11506/lm_a1dce340170019cdc88983676004d9b0_st3.jpg",
     "sourceRevendeur": "https://www.zoomalia.com/animalerie/pro-plan-sterilised-adult-renal-plus-au-saumon-pour-chat-p-11506.html",
     "sourceDonnees": "Fiche produit Zoomalia consultée le 9 novembre 2026",
-    "statutDonnees": "Valeurs publiées par Zoomalia pour cette recette. Données fabricant non vérifiées séparément. Aucune énergie ni donnée manquante n’est déduite."
+    "statutDonnees": "Valeurs publiées par Zoomalia pour cette recette. Données fabricant non vérifiées séparément. Les valeurs absentes restent non communiquées."
   },
   {
     "formatKg": null,
@@ -148,12 +152,12 @@ window.CROCamiCatalog.push(...[
     "omega6": null,
     "energie": null,
     "taurine": null,
-    "premierIngredient": null,
+    "premierIngredient": "Poulet",
     "noteComposition": null,
     "scoreCrocami": null,
     "compositionComplete": "Poulet, Protéines de volaille déshydratées, Riz, Gluten de maïs, Gluten de blé, Blé, Fibre de blé, Lapin (4%), Cellulose, Maïs, œufs déshydratés, Substances minérales, Huile de poisson, Graisse animale, Hydrolysat, Levures.",
     "additifs": "Manganèse (mg/kg) 36, Zinc (mg/kg) 120, Iode (mg/kg) 1.9, Selenium (mg/kg) 0.11, Cuivre (mg/kg) 12, Fer (mg/kg) 76, Vitamine A (UI/kg) 32000, Vitamine D3 (UI/kg) 1000, Vitamine C (mg/kg) 140, Vitamine E (mg/kg) 670,",
-    "ration": null,
+    "ration": "Âge : Adulte - Caractéristique : Stérilisé\n2-4 kg\t4-6 kg\t6-8 kg\n30-60 gr/j\t60-90 gr/j\t95-120 gr/j",
     "sourceFabricant": null,
     "verificationFabricant": "à vérifier",
     "dateVerificationRevendeur": "2026-11-09",
@@ -166,9 +170,11 @@ window.CROCamiCatalog.push(...[
     "besoins": [
       "Stérilisé"
     ],
+    "imageProduit": "images/produits/zm-cat-proplan-sterilised-rabbit.jpg",
+    "sourceImageProduit": "https://static3.zoomalia.com/cdn-cgi/image/width=800,height=800,format=auto/prod_img/33450/lm_77a1a6a94c3f21a3421481649ee15d79_st3.jpg",
     "sourceRevendeur": "https://www.zoomalia.com/animalerie/pro-plan-sterilised-adult-renal-plus-au-lapin-pour-chat-p-33450.html",
     "sourceDonnees": "Fiche produit Zoomalia consultée le 9 novembre 2026",
-    "statutDonnees": "Valeurs publiées par Zoomalia pour cette recette. Données fabricant non vérifiées séparément. Aucune énergie ni donnée manquante n’est déduite."
+    "statutDonnees": "Valeurs publiées par Zoomalia pour cette recette. Données fabricant non vérifiées séparément. Les valeurs absentes restent non communiquées."
   },
   {
     "formatKg": null,
@@ -184,21 +190,22 @@ window.CROCamiCatalog.push(...[
     "glucides": null,
     "calcium": 0.82,
     "phosphore": 0.69,
-    "magnesium": null,
-    "sodium": null,
+    "magnesium": 0.08,
+    "sodium": 0.37,
     "omega3": null,
     "omega6": null,
     "energie": null,
     "taurine": null,
-    "premierIngredient": null,
+    "premierIngredient": "Protéines déshydratées de poulet et de dinde (poulet 14%; total volaille 23%)",
     "noteComposition": null,
     "scoreCrocami": null,
     "compositionComplete": "Protéines déshydratées de poulet et de dinde (poulet 14%; total volaille 23%), maïs, brisures de riz, froment, protéines déshydratées de maïs, graisses animales, protéines de pois, matières minérales, hydrolysat, huile de poisson, huile végétale, son d'avoine, fructo-oligosaccharides. Mélange prébiotique ActivBiome+ Multi Benefit (0,6 %): Son d'avoine, fructo-oligosaccharides.",
-    "additifs": "",
-    "ration": null,
+    "additifs": "Potassium (%) 0.85, Sodium (%) 0.37, Beta-carotène (mg/kg) 1.9, Manganèse (mg/kg) 7.4, Zinc (mg/kg) 125, Iode (mg/kg) 1.8, Selenium (mg/kg) 0.2, Cuivre (mg/kg) 7, L-carnitine (mg/kg) 527, Magnesium (%) 0.08, Fer (mg/kg) 71.2, Vitamine A (UI/kg) 7584, Vitamine D3 (UI/kg) 619, Vitamine C (mg/kg) 96, Vitamine E (mg/kg) 527,",
+    "ration": "Âge : Adulte\n2 kg\t3 kg\t4 kg\t5 kg\t6 kg\n25-40 gr/j\t35-50 gr/j\t45-65 gr/j\t55-75 gr/j\t60-85 gr/j",
     "sourceFabricant": null,
     "verificationFabricant": "à vérifier",
     "dateVerificationRevendeur": "2026-11-09",
+    "potassium": 0.85,
     "id": "zm-cat-hills-sterilised-chicken",
     "marque": "Hill's Science Plan",
     "recette": "Adult Sterilised (poulet)",
@@ -208,9 +215,11 @@ window.CROCamiCatalog.push(...[
     "besoins": [
       "Stérilisé"
     ],
+    "imageProduit": "images/produits/zm-cat-hills-sterilised-chicken.jpg",
+    "sourceImageProduit": "https://static3.zoomalia.com/cdn-cgi/image/width=800,height=800,format=auto/prod_img/30741/lm_42dbfc4ada1c146f57824627a2b34367_st3.jpg",
     "sourceRevendeur": "https://www.zoomalia.com/animalerie/hill-s-science-plan-adult-sterilised-pour-chat-sterilise-au-poulet-p-30741.html",
     "sourceDonnees": "Fiche produit Zoomalia consultée le 9 novembre 2026",
-    "statutDonnees": "Valeurs publiées par Zoomalia pour cette recette. Données fabricant non vérifiées séparément. Aucune énergie ni donnée manquante n’est déduite."
+    "statutDonnees": "Valeurs publiées par Zoomalia pour cette recette. Données fabricant non vérifiées séparément. Les valeurs absentes restent non communiquées."
   },
   {
     "formatKg": null,
@@ -222,7 +231,7 @@ window.CROCamiCatalog.push(...[
     "matieresGrasses": 10.3,
     "fibres": 5.5,
     "cendres": 5.4,
-    "humidite": 6,
+    "humidite": null,
     "glucides": null,
     "calcium": 0.8,
     "phosphore": 0.66,
@@ -232,15 +241,16 @@ window.CROCamiCatalog.push(...[
     "omega6": null,
     "energie": null,
     "taurine": null,
-    "premierIngredient": null,
+    "premierIngredient": "Protéines déshydratées de poulet et de dinde (poulet 15%; total volaille 24%)",
     "noteComposition": null,
     "scoreCrocami": null,
-    "compositionComplete": null,
-    "additifs": null,
-    "ration": null,
+    "compositionComplete": "Protéines déshydratées de poulet et de dinde (poulet 15%; total volaille 24%), brisures de riz, maïs, protéines déshydratées de maïs, graisses animales, cellulose, pulpe de betterave séchée, protéines de pois, hydrolysat, farine de son de pois, matières minérales, son d'avoine, fructo-oligosaccharides. Mélange prébiotique ActivBiome+ Multi Benefit (0,6 %): Son d'avoine, fructo-oligosaccharides.",
+    "additifs": "Potassium (%) 0.76, Sodium (%) 0.27, Beta-carotène (mg/kg) 2, Manganèse (mg/kg) 7.8, Zinc (mg/kg) 132, Iode (mg/kg) 1.9, Selenium (mg/kg) 0.2, Cuivre (mg/kg) 7.4, L-carnitine (mg/kg) 572, Magnesium (%) 0.08, Fer (mg/kg) 75.3, Vitamine A (UI/kg) 8144, Vitamine D3 (UI/kg) 642, Vitamine C (mg/kg) 97, Vitamine E (mg/kg) 476,",
+    "ration": "Âge : 1-6 ans\n2 kg\t3 kg\t4 kg\t5 kg\t6 kg\n35 gr/j\t50 gr/j\t60 gr/j\t75 gr/j\t85 gr/j",
     "sourceFabricant": null,
     "verificationFabricant": "à vérifier",
     "dateVerificationRevendeur": "2026-11-09",
+    "potassium": 0.76,
     "id": "zm-cat-hills-light-chicken",
     "marque": "Hill's Science Plan",
     "recette": "Adult Light (poulet)",
@@ -250,9 +260,10 @@ window.CROCamiCatalog.push(...[
     "besoins": [
       "Contrôle du poids"
     ],
+    "imageProduit": "images/produits/zm-cat-hills-light-chicken.jpg",
+    "sourceImageProduit": "https://static3.zoomalia.com/cdn-cgi/image/width=800,height=800,format=auto/prod_img/15795/lm_2d60f9cfb4cdc4e4847b4f8a0351d293_st3.jpg",
     "sourceRevendeur": "https://www.zoomalia.com/animalerie/hill-s-science-plan-adult-light-au-poulet-pour-chat-adulte-en-surpoids-p-15795.html",
     "sourceDonnees": "Fiche produit Zoomalia consultée le 9 novembre 2026",
-    "statutDonnees": "Valeurs publiées par Zoomalia pour cette recette. Données fabricant non vérifiées séparément. Aucune énergie ni donnée manquante n’est déduite."
+    "statutDonnees": "Valeurs publiées par Zoomalia pour cette recette. Données fabricant non vérifiées séparément. Les valeurs absentes restent non communiquées."
   }
 ]);
-
