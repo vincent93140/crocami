@@ -3,7 +3,7 @@ import vm from "node:vm";
 import path from "node:path";
 import { setTimeout as delay } from "node:timers/promises";
 
-const files = ['fabricants.js','catalogue.js','references-complementaires.js','marchands.js','complements-sources.js'];
+const files = ['fabricants.js','catalogue.js','references-complementaires.js','marchands.js','royalcanin.js','royalcanin-complements.js','complements-sources.js'];
 const context={window:{}};vm.createContext(context);
 for(const file of files)if(fs.existsSync(file))vm.runInContext(fs.readFileSync(file,'utf8'),context);
 const products=context.window.CROCamiCatalog||[];
