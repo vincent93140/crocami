@@ -126,5 +126,42 @@
     "sourceFabricant": "https://www.alphaspirit.fr/chien/9-croquettes-multiproteines-pour-chien-the-only-one.html",
     "sourceFabricantLabel": "Marque — site Alpha Spirit France",
     "sourceNote": "Page française The Only One Multiprotéines. Les recettes sèches et semi-humides sont distinguées. La liste d’ingrédients actuelle peut différer de données antérieures : les analyses principales ne sont pas modifiées par ce lien."
+  },
+  {
+    "id": "mq-cat-055",
+    "sourceFabricant": "https://catscountry.de/catscountry/public/en/detail/b3c413bfd1be4d7e8a7a9c61d43a965b",
+    "sourceFabricantLabel": "Marque — Cats Country / Power of Nature",
+    "sourceNote": "Fiche de marque Active Cat Cookies Choice, référence ACATH2, poulet 54 %, œufs 8 % et matières grasses 25 %. La fiche actuelle affiche 37 % de protéines, contre 35 % dans les données historiques de Crocami : les deux formulations ne sont pas fusionnées. Les prix allemands, remises quantitatives et frais de livraison ne deviennent pas des offres françaises vérifiées."
+  },
+  {
+    "id": "mq-cat-031",
+    "sourceFabricant": "https://www.brit.com.hk/pdf_files/New_Brit_Care_Cat.pdf",
+    "sourceDocumentFabricant": "https://www.brit.com.hk/pdf_files/New_Brit_Care_Cat.pdf",
+    "sourceFabricantLabel": "Marque — ancien catalogue Brit Care (PDF)",
+    "sourceNote": "Ancien catalogue de marque hébergé sur le site régional Brit Hong Kong, page 10 : Angel I’m Delighted Senior, poulet et riz, chats de plus de 7 ans, protéines 34 % et matières grasses 12 %, formats 400 g, 2 kg et 7 kg. La date de révision du document n’est pas confirmée. Il documente cette ancienne référence et ne prouve pas sa disponibilité actuelle ; les valeurs principales ne sont pas remplacées."
+  },
+  {
+    "id": "mq-dog-087",
+    "sourceFabricant": "https://piensosguadalix.com/wp-content/uploads/2017/10/Cat%C3%A1logo-de-Productos-Affinity_2017.pdf",
+    "sourceDocumentFabricant": "https://piensosguadalix.com/wp-content/uploads/2017/10/Cat%C3%A1logo-de-Productos-Affinity_2017.pdf",
+    "sourceFabricantLabel": "Fabricant — catalogue Affinity archivé (PDF)",
+    "sourceNote": "Catalogue Affinity hébergé dans le répertoire 2017 d’un distributeur, page 4 : gamme True Instinct High Meat, Medium Adult Chicken, formats 2 kg et 12 kg. Le catalogue identifie la référence historique ; il ne confirme pas tous les ingrédients et nutriments de la fiche française Medium/Maxi. Aucun transfert automatique vers une recette actuelle Nature’s Variety ni prix actuel déduit du document."
+  },
+  {
+    "id": "mq-cat-065",
+    "sourceFabricant": "https://piensosguadalix.com/wp-content/uploads/2017/10/Cat%C3%A1logo-de-Productos-Affinity_2017.pdf",
+    "sourceDocumentFabricant": "https://piensosguadalix.com/wp-content/uploads/2017/10/Cat%C3%A1logo-de-Productos-Affinity_2017.pdf",
+    "sourceFabricantLabel": "Fabricant — catalogue Affinity archivé (PDF)",
+    "sourceNote": "Catalogue Affinity hébergé dans le répertoire 2017 d’un distributeur, page 5 : True Instinct High Meat Adult Chicken pour chat, formats 2 kg et 7 kg. Source du fabricant pour l’existence de cette ancienne référence, sans validation de l’intégralité de sa formulation française ni de sa disponibilité actuelle. La recette actuelle Nature’s Variety reste distincte."
+  },
+  {
+    "id": "mq-dog-071",
+    "sourceDocumentDistributeur": "https://japag-distribuciones.com/porta21.pdf",
+    "sourceNote": "Catalogue du distributeur JAPAG, page 4 (pagination imprimée 134) : Canine Finest Low Fat / Light, références SHB25074 (2 kg) et SHB25073 (13,6 kg), protéines 20 %, matières grasses 9 %, fibres 4 % et cendres 6 %. La composition présentée diffère dans ses pourcentages de volaille des données historiques de Crocami. Le document officiel Portapet retrouvé dans l’index renvoie actuellement une erreur 404 : aucun lien fabricant actif confirmé. Document distributeur non daté, sans prix actuel déduit."
+  },
+  {
+    "id": "mq-dog-090",
+    "sourceFiche": "https://vetofficine.com/article/fiches/alimentation-du-chien-notions-de-base",
+    "sourceNote": "Comparatif professionnel Vetofficine : VetoNUT Chien Adult, protéines 26 %, matières grasses 14 %, cellulose 3 % et matières minérales 6,5 %. Il s’agit d’une source externe, pas d’une fiche fabricant. La fiche officielle retrouvée pour chat adulte concerne un autre animal et n’est pas utilisée pour ce chien. Aucun lien fabricant exact exploitable confirmé."
   }
 ]

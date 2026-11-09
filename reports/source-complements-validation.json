@@ -1,78 +1,58 @@
 {
-  "checkedAt": "2026-11-09T22:38:18.560Z",
+  "checkedAt": "2026-11-09T22:49:51.235Z",
   "distinctProductPages": 236,
-  "manufacturerLinksAdded": 21,
+  "manufacturerLinksAdded": 25,
   "detailedMissingSourcesResolved": 2,
   "pendingManufacturer": [
     {
       "id": "mq-dog-041",
       "name": "Bozita Original grain free",
-      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+      "reason": "Recette ancienne identifiée chez un revendeur (26 % de protéines, 16 % de matières grasses) ; aucune fiche officielle exacte retrouvée. La référence Original actuelle avec céréales est distincte."
     },
     {
       "id": "mq-dog-053",
       "name": "Franklin dinde patate douce canneberge",
-      "reason": "La recette actuelle retrouvée remplace la canneberge par des épinards ; ne pas la confondre avec la recette historique."
+      "reason": "Recette historique dinde, patate douce et canneberge : la recette officielle actuelle retrouvée contient des épinards. Aucun lien officiel exact confirmé."
     },
     {
       "id": "mq-dog-064",
       "name": "Nutro grain free chien adulte agneau",
-      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+      "reason": "Recette historique avec 19 % de protéines d’agneau déshydratées. La gamme Limited Ingredient avec 27 % d’agneau et les recettes américaines ne correspondent pas."
     },
     {
       "id": "mq-dog-071",
       "name": "Porta 21 Canine finest low fat",
-      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
-    },
-    {
-      "id": "mq-dog-087",
-      "name": "True Instinct high meat medium maxi poulet",
-      "reason": "Ancienne référence True Instinct : aucune fiche officielle actuelle de même formulation confirmée."
+      "reason": "Référence Low Fat documentée dans le catalogue JAPAG ; le PDF officiel Portapet retrouvé dans l’index renvoie 404. Aucun lien fabricant actif confirmé."
     },
     {
       "id": "mq-dog-090",
       "name": "Vetonut adulte",
-      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+      "reason": "Valeurs 26 % de protéines et 14 % de matières grasses recoupées dans Vetofficine. Le PDF officiel retrouvé concerne le chat adulte ; il ne valide pas ce chien."
     },
     {
       "id": "mq-cat-007",
       "name": "Acti-Croq anti hairball",
-      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+      "reason": "ELMUBAS est mentionné dans des sources commerciales pour Acti-Croq, sans fiche fabricant exacte Anti Hairball retrouvée. Attribution fabricant non confirmée par une source primaire."
     },
     {
       "id": "mq-cat-016",
       "name": "Animalis adulte au boeuf",
-      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+      "reason": "Analyse secondaire détaillée disponible. Les résultats Animalis adulte au bœuf pour chien et les autres marques vendues par Animalis ne confirment pas cette recette chat."
     },
     {
       "id": "mq-cat-017",
       "name": "Animalis chaton au poulet",
-      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+      "reason": "Ancienne référence chaton poulet retrouvée chez Houra. Un ancien prospectus Animalis mentionne une gamme 2 kg sans composition permettant de valider exactement cette recette."
     },
     {
       "id": "mq-cat-018",
       "name": "Animaster adulte suprême de volaille",
-      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+      "reason": "Sources secondaires identifiant Adulte Suprême de Volaille ; les variantes Stérilisé et Chaton sont distinctes. Aucune fiche technique de marque exacte retrouvée."
     },
     {
       "id": "mq-cat-028",
       "name": "Black Canyon Saddle Dale",
-      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
-    },
-    {
-      "id": "mq-cat-031",
-      "name": "Brit care Angel I'm delighted senior",
-      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
-    },
-    {
-      "id": "mq-cat-055",
-      "name": "Power Of Nature Cookies Choice poulet",
-      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
-    },
-    {
-      "id": "mq-cat-065",
-      "name": "True Instinct high meat poulet",
-      "reason": "Ancienne référence True Instinct : aucune fiche officielle actuelle de même formulation confirmée."
+      "reason": "Ancienne recette dinde et hareng documentée par Macroquette. Saddle Dale n’a pas été retrouvée dans le catalogue actuel Black Canyon ; aucune équivalence avec une nouvelle recette présumée."
     }
   ],
   "productsWithoutAvailableRegularOffer": 83,

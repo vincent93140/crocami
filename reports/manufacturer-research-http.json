@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-09",
+  "results": [
+    {
+      "url": "https://catscountry.de/catscountry/public/en/detail/b3c413bfd1be4d7e8a7a9c61d43a965b",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 275904,
+      "referenceFound": true
+    },
+    {
+      "url": "https://japag-distribuciones.com/porta21.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 2382087,
+      "referenceFound": null
+    },
+    {
+      "url": "https://vetofficine.com/article/fiches/alimentation-du-chien-notions-de-base",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 114083,
+      "referenceFound": null
+    },
+    {
+      "url": "https://piensosguadalix.com/wp-content/uploads/2017/10/Cat%C3%A1logo-de-Productos-Affinity_2017.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "method": "HTTPS status check and indexed PDF text review"
+    },
+    {
+      "url": "https://www.brit.com.hk/pdf_files/New_Brit_Care_Cat.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "method": "HTTPS status check and indexed PDF text review"
+    }
+  ]
+}
