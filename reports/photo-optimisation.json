@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ch-cat-specific-fcd-light",
+    "source": "https://www.wanimo.com/cdn/shop/files/B9CAD02_01.jpg?v=1727962756&width=3840",
+    "original": "reports/photo-originals/ch-cat-specific-fcd-light.jpg",
+    "before": 200017,
+    "localPath": "images/produits/ch-cat-specific-fcd-light.jpg",
+    "after": 32383,
+    "width": 600,
+    "height": 600,
+    "visualChecked": true
+  },
+  {
+    "id": "mq-cat-054",
+    "source": "https://media.zooplus.com/bilder/7/400/29708_pla_felinefinest_adultcat_2kg_7.jpg?format=webp&width=400",
+    "original": "reports/photo-originals/mq-cat-054.webp",
+    "before": 21638,
+    "localPath": "images/produits/mq-cat-054.webp",
+    "after": 21638,
+    "width": 400,
+    "height": 400,
+    "visualChecked": true
+  },
+  {
+    "id": "mq-cat-072",
+    "source": "https://zigly.com/cdn/shop/files/OTRFO0035_c6fe199e-f93d-4215-90d3-34a5e91e00f2.jpg?format=webp&v=1775041710&width=550",
+    "original": "reports/photo-originals/mq-cat-072.jpg",
+    "before": 60046,
+    "localPath": "images/produits/mq-cat-072.jpg",
+    "after": 46688,
+    "width": 550,
+    "height": 550,
+    "visualChecked": true
+  },
+  {
+    "id": "mq-dog-060",
+    "source": "https://www.lilyskitchen.com/cdn/shop/files/ZANDDCKG12-trockenfutter-fur-ausgewachsene-hunde-mit-huhn-und-ente-12kg_main.png?v=1733152397&width=1000",
+    "original": "reports/photo-originals/mq-dog-060.png",
+    "before": 705065,
+    "localPath": "images/produits/mq-dog-060.jpg",
+    "after": 60381,
+    "width": 600,
+    "height": 600,
+    "visualChecked": true
+  },
+  {
+    "id": "mq-dog-042",
+    "source": "https://orangepet.cl/cdn/shop/files/500173_52de02fc-54c3-4449-84d8-d4670331c2ce.jpg?v=1766770270&width=3840",
+    "original": "reports/photo-originals/mq-dog-042.jpg",
+    "before": 80688,
+    "localPath": "images/produits/mq-dog-042.jpg",
+    "after": 41274,
+    "width": 600,
+    "height": 600,
+    "visualChecked": true
+  }
+]

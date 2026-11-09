@@ -1,0 +1,130 @@
+[
+  {
+    "id": "mq-cat-016",
+    "sourceFiche": "https://macroquette.com/avis-animalis-adulte-au-boeuf-chat/",
+    "sourceMacroquette": "https://macroquette.com/avis-animalis-adulte-au-boeuf-chat/",
+    "sourceNote": "Analyse externe de la recette Animalis adulte au bœuf : les principaux constituants et le RPC correspondent à la fiche. Le prix moyen publié par cette source n’est pas daté et ne devient pas un tarif marchand vérifié."
+  },
+  {
+    "id": "mq-cat-028",
+    "sourceFiche": "https://macroquette.com/avis-black-canyon-saddle-dale-chat/",
+    "sourceMacroquette": "https://macroquette.com/avis-black-canyon-saddle-dale-chat/",
+    "sourceNote": "Analyse externe de Black Canyon Saddle Dale : protéines 32 %, matières grasses 16 %, fibres 2,8 % et cendres 7,9 %. La recette n’a pas été retrouvée dans le catalogue actuel de la marque : aucun prix d’une autre recette ne lui est attribué."
+  },
+  {
+    "id": "mq-dog-028",
+    "sourceFabricant": "https://applaws.com/uk/dog/products/small-medium-breeds-chicken-adult-dry-dog-food/",
+    "sourceNote": "Fiche actuelle britannique de la recette poulet pour petits et moyens chiens adultes. La formulation publiée diffère de données anciennes : les valeurs nutritionnelles principales de Crocami ne sont pas remplacées par cette source."
+  },
+  {
+    "id": "mq-dog-030",
+    "sourceFabricant": "https://www.arionpetfood.com/product-groups/arion-original-dog-maintenance",
+    "sourceNote": "Catalogue actuel ARION Original Maintenance, rubrique Medium breed poulet et riz. La formulation actuelle indique notamment 26 % de protéines et 15 % de matières grasses ; les valeurs principales anciennes restent distinctes."
+  },
+  {
+    "id": "mq-dog-033",
+    "sourceFabricant": "https://www.babin-nutrition.com/index.php?controller=attachment&id_attachment=149",
+    "sourceDocumentFabricant": "https://www.babin-nutrition.com/index.php?controller=attachment&id_attachment=149",
+    "sourceNote": "Document technique Bab’in Sans Céréales Adulte Canard toutes races, protéines 32 % et matières grasses 16 %. Document identifié pour la recette ; la date de révision n’est pas assimilée à la date de consultation."
+  },
+  {
+    "id": "mq-dog-044",
+    "sourceFabricant": "https://brit.pet/en/products/brit-care-dog-grain-free-adult",
+    "sourceNote": "Fiche actuelle de la marque Brit Care Dog Grain-free Adult au saumon et pomme de terre. L’ancienne adresse gb/node/5043 redirige vers un accueil générique et a été remplacée par ce lien produit."
+  },
+  {
+    "id": "mq-cat-037",
+    "sourceFabricant": "https://www.goldeneaglepetfoods.com/products/",
+    "sourceNote": "La recette Holistic Adult Cat est identifiée dans le catalogue officiel Golden Eagle, rubrique For Cats. Ce lien ne constitue pas une nouvelle vérification de tous les nutriments de la fiche."
+  },
+  {
+    "id": "mq-cat-043",
+    "sourceFabricant": "https://pawfessionals.ipn.co.uk/collections/all-products/products/paw-lickin-chicken-dry-food",
+    "sourceFabricantLabel": "Marque — portail professionnel IPN",
+    "sourceNote": "Page professionnelle du groupe IPN pour Meowing Heads Paw Lickin’ Chicken Dry, aliment sec pour chat adulte. Les tarifs professionnels non accessibles sans compte ne sont pas utilisés."
+  },
+  {
+    "id": "mq-cat-066",
+    "sourceFabricant": "https://tundra-petfoods.de/en/tundra-cat/",
+    "sourceNote": "Catalogue officiel Tundra Cat, recette sèche Turkey & Game / dinde et gibier. Les informations de la recette sèche sont distinguées des pâtées présentes sur la même page."
+  },
+  {
+    "id": "mq-cat-069",
+    "sourceFabricant": "https://www.vigornsage.com/shop/ginseng-well-being-adult-complete-cat-food/",
+    "sourceNote": "Fiche officielle Ginseng Well-being Adult Complete Cat Food. La présence d’un prix ou d’une allégation commerciale sur ce site ne vaut pas validation indépendante de cette allégation par Crocami."
+  },
+  {
+    "id": "zm-cat-proplan-sterilised-salmon",
+    "sourceFabricant": "https://vetcenter.purina.fr/sites/default/files/vet_materials/gamme_pro_plan_chat.pdf",
+    "sourceDocumentFabricant": "https://vetcenter.purina.fr/sites/default/files/vet_materials/gamme_pro_plan_chat.pdf",
+    "sourceNote": "Document officiel Purina, édition 2023, relatif à Sterilised Adult Renal Plus saumon. Document identifié comme daté : les valeurs principales ne sont pas remplacées et la date du document ne devient pas une date de relevé de prix."
+  },
+  {
+    "id": "zm-cat-proplan-sterilised-rabbit",
+    "sourceFabricant": "https://vetcenter.purina.fr/sites/default/files/vet_materials/gamme_pro_plan_chat.pdf",
+    "sourceDocumentFabricant": "https://vetcenter.purina.fr/sites/default/files/vet_materials/gamme_pro_plan_chat.pdf",
+    "sourceNote": "Document officiel Purina, édition 2023, relatif à Sterilised Adult Renal Plus lapin. Document identifié comme daté : les valeurs principales ne sont pas remplacées et la date du document ne devient pas une date de relevé de prix."
+  },
+  {
+    "id": "zm-cat-hills-sterilised-chicken",
+    "sourceFabricant": "https://www.hillspet.fr/cat-food/science-plan-sterilised-cat-young-adult-chicken-dry",
+    "sourceNote": "Fiche officielle Hill’s Science Plan Sterilised Cat Adult au poulet, aliment sec. Les recettes au canard et les sachets humides sont exclus de cette correspondance."
+  },
+  {
+    "id": "zm-cat-hills-light-chicken",
+    "sourceFabricant": "https://www.hillspet.fr/cat-food/science-plan-adult-light-chicken-dry",
+    "sourceNote": "Fiche officielle Hill’s Science Plan Light Adult au poulet, aliment sec. Les sachets humides Light ne sont pas utilisés pour cette recette."
+  },
+  {
+    "id": "mq-dog-027",
+    "sourceFabricant": "https://www.tomandco.com/fr-fr/appetite-croquettes-sans-cereales-a-l-agneau-et-au-poulet-chien-adulte-tous-3kg.html",
+    "sourceFabricantLabel": "Marque — enseigne Tom&Co",
+    "sourceNote": "Page Tom&Co de la recette Appetite adulte agneau et poulet sans céréales. Source de la marque distribuée par l’enseigne, sans affirmation sur l’identité de l’usine de fabrication."
+  },
+  {
+    "id": "mq-cat-021",
+    "sourceFabricant": "https://www.tomandco.com/fr-fr/appetite-croquettes-sans-cereales-sterilise-au-poulet-chat-adulte-1-75kg.html",
+    "sourceFabricantLabel": "Marque — enseigne Tom&Co",
+    "sourceNote": "Page Tom&Co de la recette Appetite sans céréales pour chat adulte stérilisé au poulet. Les données manquantes restent non communiquées."
+  },
+  {
+    "id": "mq-dog-085",
+    "sourceFabricant": "https://www.tomandco.com/fr-fr/tom-co-medium-adult-viande-fraiche-poulet-12-5kg.html",
+    "sourceFabricantLabel": "Marque — enseigne Tom&Co",
+    "sourceNote": "Page de la marque Tom&Co Medium Adult au poulet. La source concerne l’enseigne qui commercialise la marque, sans identification supposée du fabricant industriel."
+  },
+  {
+    "id": "mq-cat-064",
+    "sourceFabricant": "https://www.tomandco.com/fr-lu/tom-co-croquettes-pour-chat-lapin-dinde-adult-2kg.html",
+    "sourceFabricantLabel": "Marque — enseigne Tom&Co (Luxembourg)",
+    "sourceNote": "Page de la marque Tom&Co pour la recette adulte lapin et dinde. Page du marché luxembourgeois, qui ne constitue pas une offre française vérifiée."
+  },
+  {
+    "id": "mq-dog-049",
+    "sourceFabricant": "https://www.zooplus.fr/shop/chiens/croquettes_chien/concept_for_life_dogs/large_grandes_tailles/559625",
+    "sourceFabricantLabel": "Marque — enseigne Zooplus",
+    "sourceNote": "Page française de Concept for Life Large Adult, marque distribuée par Zooplus. Ce lien identifie la recette et non une usine de fabrication."
+  },
+  {
+    "id": "mq-cat-035",
+    "sourceFabricant": "https://www.zooplus.fr/shop/chats/croquettes_chat/feringa/adulte/1609732",
+    "sourceFabricantLabel": "Marque — enseigne Zooplus",
+    "sourceNote": "Page française Feringa contenant la variante agneau et poulet. Les autres saveurs de la page ne concernent pas cette fiche."
+  },
+  {
+    "id": "mq-dog-021",
+    "sourceFabricant": "https://www.almonature.com/fr/produits-pour-chiens/744",
+    "sourceNote": "Fiche officielle Almo Nature Life Maintenance avec Poulet Frais M. La marque indique le changement de nom Holistic Maintenance vers Life Maintenance ; la recette et le gabarit sont identifiés, sans modification automatique des analyses principales."
+  },
+  {
+    "id": "mq-cat-012",
+    "sourceFabricant": "https://www.almonature.com/fr/produits-pour-chats/625",
+    "sourceNote": "Fiche officielle Almo Nature Life Maintenance Poulet pour chat. La composition poulet frais et déshydraté, riz et maïs correspond à la recette identifiée ; les formats de prix sont vérifiés séparément."
+  },
+  {
+    "id": "mq-dog-022",
+    "sourceFabricant": "https://www.alphaspirit.fr/chien/9-croquettes-multiproteines-pour-chien-the-only-one.html",
+    "sourceFabricantLabel": "Marque — site Alpha Spirit France",
+    "sourceNote": "Page française The Only One Multiprotéines. Les recettes sèches et semi-humides sont distinguées. La liste d’ingrédients actuelle peut différer de données antérieures : les analyses principales ne sont pas modifiées par ce lien."
+  }
+]

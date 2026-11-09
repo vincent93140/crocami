@@ -18,6 +18,7 @@ jobs:
           node scripts/build-product-pages.mjs --check
           node scripts/audit-site-seo.mjs
           node scripts/audit-seo-upgrade.mjs
+          node scripts/audit-source-complements.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -25,4 +26,5 @@ jobs:
           path: |
             reports/seo-validation.json
             reports/seo-upgrade-validation.json
+            reports/source-complements-validation.json
           retention-days: 14

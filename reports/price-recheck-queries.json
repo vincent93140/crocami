@@ -1,0 +1,509 @@
+[
+  {
+    "query": "1st Choice chien",
+    "ids": [
+      "mq-dog-001",
+      "mq-dog-002",
+      "mq-dog-003",
+      "mq-dog-004"
+    ]
+  },
+  {
+    "query": "Aatu chien",
+    "ids": [
+      "mq-dog-005",
+      "mq-dog-006"
+    ]
+  },
+  {
+    "query": "Acana chien",
+    "ids": [
+      "mq-dog-012"
+    ]
+  },
+  {
+    "query": "Alpha Spirit chien",
+    "ids": [
+      "mq-dog-023"
+    ]
+  },
+  {
+    "query": "Anifit chien",
+    "ids": [
+      "mq-dog-025"
+    ]
+  },
+  {
+    "query": "Appetite chien",
+    "ids": [
+      "mq-dog-027"
+    ]
+  },
+  {
+    "query": "Arden Grange chien",
+    "ids": [
+      "mq-dog-029"
+    ]
+  },
+  {
+    "query": "Atavik chien",
+    "ids": [
+      "mq-dog-032"
+    ]
+  },
+  {
+    "query": "Bab'in chien",
+    "ids": [
+      "mq-dog-033",
+      "mq-dog-034"
+    ]
+  },
+  {
+    "query": "Biofood chien",
+    "ids": [
+      "mq-dog-038"
+    ]
+  },
+  {
+    "query": "Black Canyon chien",
+    "ids": [
+      "mq-dog-039"
+    ]
+  },
+  {
+    "query": "Bozita chien",
+    "ids": [
+      "mq-dog-041"
+    ]
+  },
+  {
+    "query": "Bravery chien",
+    "ids": [
+      "mq-dog-042"
+    ]
+  },
+  {
+    "query": "Canagan chien",
+    "ids": [
+      "mq-dog-046"
+    ]
+  },
+  {
+    "query": "Franklin chien",
+    "ids": [
+      "mq-dog-053"
+    ]
+  },
+  {
+    "query": "Golden Eagle chien",
+    "ids": [
+      "mq-dog-054"
+    ]
+  },
+  {
+    "query": "Gosbi chien",
+    "ids": [
+      "mq-dog-055"
+    ]
+  },
+  {
+    "query": "Husse chien",
+    "ids": [
+      "mq-dog-056"
+    ]
+  },
+  {
+    "query": "Isegrim chien",
+    "ids": [
+      "mq-dog-057"
+    ]
+  },
+  {
+    "query": "James Wellbeloved chien",
+    "ids": [
+      "mq-dog-058"
+    ]
+  },
+  {
+    "query": "Natural Greatness chat",
+    "ids": [
+      "mq-cat-077"
+    ]
+  },
+  {
+    "query": "Nutro chien",
+    "ids": [
+      "mq-dog-064"
+    ]
+  },
+  {
+    "query": "Platinum chien",
+    "ids": [
+      "mq-dog-070"
+    ]
+  },
+  {
+    "query": "Porta 21 chien",
+    "ids": [
+      "mq-dog-071"
+    ]
+  },
+  {
+    "query": "Pro-nutrition flatazor chien",
+    "ids": [
+      "mq-dog-072"
+    ]
+  },
+  {
+    "query": "Real Nature chien",
+    "ids": [
+      "mq-dog-075"
+    ]
+  },
+  {
+    "query": "Select Gold chien",
+    "ids": [
+      "mq-dog-080"
+    ]
+  },
+  {
+    "query": "Terra Canis chien",
+    "ids": [
+      "mq-dog-084"
+    ]
+  },
+  {
+    "query": "Tom and co chien",
+    "ids": [
+      "mq-dog-085"
+    ]
+  },
+  {
+    "query": "True Instinct chien",
+    "ids": [
+      "mq-dog-087"
+    ]
+  },
+  {
+    "query": "Tundra chien",
+    "ids": [
+      "mq-dog-088"
+    ]
+  },
+  {
+    "query": "Ultra Premium Direct chien",
+    "ids": [
+      "mq-dog-089"
+    ]
+  },
+  {
+    "query": "Vetonut chien",
+    "ids": [
+      "mq-dog-090"
+    ]
+  },
+  {
+    "query": "Wolfood chien",
+    "ids": [
+      "mq-dog-094"
+    ]
+  },
+  {
+    "query": "1st Choice chat",
+    "ids": [
+      "mq-cat-001",
+      "mq-cat-002",
+      "mq-cat-003"
+    ]
+  },
+  {
+    "query": "Aatu chat",
+    "ids": [
+      "mq-cat-004"
+    ]
+  },
+  {
+    "query": "Acana chat",
+    "ids": [
+      "mq-cat-005",
+      "mq-cat-006"
+    ]
+  },
+  {
+    "query": "Acti-Croq chat",
+    "ids": [
+      "mq-cat-007"
+    ]
+  },
+  {
+    "query": "Alleva chat",
+    "ids": [
+      "mq-cat-011"
+    ]
+  },
+  {
+    "query": "Anifit chat",
+    "ids": [
+      "mq-cat-015"
+    ]
+  },
+  {
+    "query": "Animalis chat",
+    "ids": [
+      "mq-cat-016",
+      "mq-cat-017"
+    ]
+  },
+  {
+    "query": "Animaster chat",
+    "ids": [
+      "mq-cat-018"
+    ]
+  },
+  {
+    "query": "Animonda chat",
+    "ids": [
+      "mq-cat-019"
+    ]
+  },
+  {
+    "query": "Annamaet chat",
+    "ids": [
+      "mq-cat-020"
+    ]
+  },
+  {
+    "query": "Appetite chat",
+    "ids": [
+      "mq-cat-021"
+    ]
+  },
+  {
+    "query": "Arden Grange chat",
+    "ids": [
+      "mq-cat-023"
+    ]
+  },
+  {
+    "query": "Arion chat",
+    "ids": [
+      "mq-cat-024"
+    ]
+  },
+  {
+    "query": "Atavik chat",
+    "ids": [
+      "mq-cat-025"
+    ]
+  },
+  {
+    "query": "Bab'in chat",
+    "ids": [
+      "mq-cat-026"
+    ]
+  },
+  {
+    "query": "Black Canyon chat",
+    "ids": [
+      "mq-cat-028"
+    ]
+  },
+  {
+    "query": "Brit care chat",
+    "ids": [
+      "mq-cat-031"
+    ]
+  },
+  {
+    "query": "Brit Premium chat",
+    "ids": [
+      "mq-cat-032"
+    ]
+  },
+  {
+    "query": "Franklin chat",
+    "ids": [
+      "mq-cat-036"
+    ]
+  },
+  {
+    "query": "Golden Eagle chat",
+    "ids": [
+      "mq-cat-037"
+    ]
+  },
+  {
+    "query": "Gosbi chat",
+    "ids": [
+      "mq-cat-038"
+    ]
+  },
+  {
+    "query": "Granatapet chat",
+    "ids": [
+      "mq-cat-039"
+    ]
+  },
+  {
+    "query": "Meowing Heads chat",
+    "ids": [
+      "mq-cat-043"
+    ]
+  },
+  {
+    "query": "Monge chat",
+    "ids": [
+      "mq-cat-044"
+    ]
+  },
+  {
+    "query": "Now Fresh chat",
+    "ids": [
+      "mq-cat-047"
+    ]
+  },
+  {
+    "query": "Nutram chat",
+    "ids": [
+      "mq-cat-048"
+    ]
+  },
+  {
+    "query": "Nutro chat",
+    "ids": [
+      "mq-cat-049"
+    ]
+  },
+  {
+    "query": "Power Of Nature chat",
+    "ids": [
+      "mq-cat-055"
+    ]
+  },
+  {
+    "query": "Pro-nutrition flatazor chat",
+    "ids": [
+      "mq-cat-056"
+    ]
+  },
+  {
+    "query": "Select Gold chat",
+    "ids": [
+      "mq-cat-059"
+    ]
+  },
+  {
+    "query": "Simpsons chat",
+    "ids": [
+      "mq-cat-060"
+    ]
+  },
+  {
+    "query": "Tom and co chat",
+    "ids": [
+      "mq-cat-064"
+    ]
+  },
+  {
+    "query": "True Instinct chat",
+    "ids": [
+      "mq-cat-065"
+    ]
+  },
+  {
+    "query": "Tundra chat",
+    "ids": [
+      "mq-cat-066"
+    ]
+  },
+  {
+    "query": "Ultra Premium Direct chat",
+    "ids": [
+      "mq-cat-068"
+    ]
+  },
+  {
+    "query": "Vigor et Sage chat",
+    "ids": [
+      "mq-cat-069"
+    ]
+  },
+  {
+    "query": "Winner Plus chat",
+    "ids": [
+      "mq-cat-074"
+    ]
+  },
+  {
+    "query": "Wolfood chat",
+    "ids": [
+      "mq-cat-075"
+    ]
+  },
+  {
+    "query": "Acana Grasslands chien",
+    "ids": [
+      "mq-dog-012"
+    ]
+  },
+  {
+    "query": "Acana Ranchlands chat",
+    "ids": [
+      "mq-cat-005"
+    ]
+  },
+  {
+    "query": "Arden Grange adulte agneau riz",
+    "ids": [
+      "mq-dog-029"
+    ]
+  },
+  {
+    "query": "Golden Eagle large adulte",
+    "ids": [
+      "mq-dog-054"
+    ]
+  },
+  {
+    "query": "Monge Natural Superpremium saumon chat",
+    "ids": [
+      "mq-cat-044"
+    ]
+  },
+  {
+    "query": "Nutram T24 chat truite saumon",
+    "ids": [
+      "mq-cat-048"
+    ]
+  },
+  {
+    "query": "SPECIFIC chien",
+    "ids": [
+      "ch-dog-specific-cad-activ"
+    ]
+  },
+  {
+    "query": "Brit Fresh chien",
+    "ids": [
+      "mq-dog-043"
+    ]
+  },
+  {
+    "query": "Carnilove chien",
+    "ids": [
+      "mq-dog-048"
+    ]
+  },
+  {
+    "query": "Simpsons chien",
+    "ids": [
+      "mq-dog-081"
+    ]
+  },
+  {
+    "query": "Porta 21 chat",
+    "ids": [
+      "mq-cat-054"
+    ]
+  }
+]

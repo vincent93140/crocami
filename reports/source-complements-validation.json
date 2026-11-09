@@ -1,0 +1,504 @@
+{
+  "checkedAt": "2026-11-09T22:38:18.560Z",
+  "distinctProductPages": 236,
+  "manufacturerLinksAdded": 21,
+  "detailedMissingSourcesResolved": 2,
+  "pendingManufacturer": [
+    {
+      "id": "mq-dog-041",
+      "name": "Bozita Original grain free",
+      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+    },
+    {
+      "id": "mq-dog-053",
+      "name": "Franklin dinde patate douce canneberge",
+      "reason": "La recette actuelle retrouvée remplace la canneberge par des épinards ; ne pas la confondre avec la recette historique."
+    },
+    {
+      "id": "mq-dog-064",
+      "name": "Nutro grain free chien adulte agneau",
+      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+    },
+    {
+      "id": "mq-dog-071",
+      "name": "Porta 21 Canine finest low fat",
+      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+    },
+    {
+      "id": "mq-dog-087",
+      "name": "True Instinct high meat medium maxi poulet",
+      "reason": "Ancienne référence True Instinct : aucune fiche officielle actuelle de même formulation confirmée."
+    },
+    {
+      "id": "mq-dog-090",
+      "name": "Vetonut adulte",
+      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+    },
+    {
+      "id": "mq-cat-007",
+      "name": "Acti-Croq anti hairball",
+      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+    },
+    {
+      "id": "mq-cat-016",
+      "name": "Animalis adulte au boeuf",
+      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+    },
+    {
+      "id": "mq-cat-017",
+      "name": "Animalis chaton au poulet",
+      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+    },
+    {
+      "id": "mq-cat-018",
+      "name": "Animaster adulte suprême de volaille",
+      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+    },
+    {
+      "id": "mq-cat-028",
+      "name": "Black Canyon Saddle Dale",
+      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+    },
+    {
+      "id": "mq-cat-031",
+      "name": "Brit care Angel I'm delighted senior",
+      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+    },
+    {
+      "id": "mq-cat-055",
+      "name": "Power Of Nature Cookies Choice poulet",
+      "reason": "Aucune fiche officielle exacte et exploitable confirmée après recherche. Les sources secondaires existantes restent identifiées."
+    },
+    {
+      "id": "mq-cat-065",
+      "name": "True Instinct high meat poulet",
+      "reason": "Ancienne référence True Instinct : aucune fiche officielle actuelle de même formulation confirmée."
+    }
+  ],
+  "productsWithoutAvailableRegularOffer": 83,
+  "productsWithoutRecordedOffer": 78,
+  "pendingPrice": [
+    {
+      "id": "ch-dog-specific-cad-activ",
+      "name": "SPECIFIC CAD Activ — chien actif",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-001",
+      "name": "1st Choice croissance miniature et petite races chiot",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-002",
+      "name": "1st Choice hypoallergène adulte",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-003",
+      "name": "1st Choice léger poids santé adulte",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-004",
+      "name": "1st Choice maintenance moyenne et grande races adulte",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-005",
+      "name": "Aatu free run chicken",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-006",
+      "name": "Aatu free run duck",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-012",
+      "name": "Acana regionals grasslands dog",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-023",
+      "name": "Alpha Spirit the only one duck",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-025",
+      "name": "Anifit dog dry nature boeuf",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-027",
+      "name": "Appetite adult agneau et poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-029",
+      "name": "Arden Grange adult agneau riz",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-032",
+      "name": "Atavik adulte poulet France",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-033",
+      "name": "Bab'in Selection adulte GF canard",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-034",
+      "name": "Bab'in Selective adulte light poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-038",
+      "name": "Biofood adult Pressé",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-039",
+      "name": "Black Canyon buffalo creek",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-041",
+      "name": "Bozita Original grain free",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-042",
+      "name": "Bravery chicken adult dog",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-046",
+      "name": "Canagan free run chicken",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-048",
+      "name": "Carnilove Adult saumon",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-053",
+      "name": "Franklin dinde patate douce canneberge",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-054",
+      "name": "Golden Eagle Holistic adult large breed",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-055",
+      "name": "Gosbi exclusive chicken medium",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-056",
+      "name": "Husse optimal sensitive",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-057",
+      "name": "Isegrim adult River saumon",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-058",
+      "name": "James Wellbeloved adult dog agneau et riz",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-077",
+      "name": "Natural Greatness Field et River Recipe",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-064",
+      "name": "Nutro grain free chien adulte agneau",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-070",
+      "name": "Platinum adult Iberico greens",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-071",
+      "name": "Porta 21 Canine finest low fat",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-072",
+      "name": "Pro-nutrition flatazor elite adult maxi",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-075",
+      "name": "Real Nature wilderness black earth adult",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-080",
+      "name": "Select Gold complete medium adult poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-081",
+      "name": "Simpsons saumon et pomme de terre sensibles adulte",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-084",
+      "name": "Terra Canis canireo croquettes poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-085",
+      "name": "Tom and co medium adult poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-087",
+      "name": "True Instinct high meat medium maxi poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-088",
+      "name": "Tundra adulte dinde et gibier",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-089",
+      "name": "Ultra Premium Super Premium adult saumon et riz",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-090",
+      "name": "Vetonut adulte",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-dog-094",
+      "name": "Wolfood adult fish",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-001",
+      "name": "1st Choice contrôle du poids adulte",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-002",
+      "name": "1st Choice départ santé chaton",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-003",
+      "name": "1st Choice intérieur vitalité adulte",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-004",
+      "name": "Aatu free run chicken",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-005",
+      "name": "Acana ranchlands",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-007",
+      "name": "Acti-Croq anti hairball",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-011",
+      "name": "Alleva holistic kitten chicken and duck",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-015",
+      "name": "Anifit cat dry",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-016",
+      "name": "Animalis adulte au boeuf",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-017",
+      "name": "Animalis chaton au poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-018",
+      "name": "Animaster adulte suprême de volaille",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-019",
+      "name": "Animonda Vom Feinsten deluxe adult",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-020",
+      "name": "Annamaet grain free feline formula",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-021",
+      "name": "Appetite adult stérilisé poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-023",
+      "name": "Arden Grange kitten",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-024",
+      "name": "Arion Original sterilized chicken",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-025",
+      "name": "Atavik adulte made in France au saumon",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-026",
+      "name": "Bab'in Signature chat adulte stérilisé saumon",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-028",
+      "name": "Black Canyon Saddle Dale",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-031",
+      "name": "Brit care Angel I'm delighted senior",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-032",
+      "name": "Brit Premium Cat adult chicken",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-036",
+      "name": "Franklin saumon patate douce asperge",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-037",
+      "name": "Golden Eagle Holistic Cat adult",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-038",
+      "name": "Gosbi original sterilized",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-039",
+      "name": "Granatapet Symphonie N°1 thon",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-043",
+      "name": "Meowing Heads Paw Lickin poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-044",
+      "name": "Monge Natural Superpremium adult saumon",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-047",
+      "name": "Now Fresh adult",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-048",
+      "name": "Nutram GF truite et saumon",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-049",
+      "name": "Nutro GF adult poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-054",
+      "name": "Porta 21 Feline Finest adult Cat",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-055",
+      "name": "Power Of Nature Cookies Choice poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-056",
+      "name": "Pro-nutrition flatazor Crocktail adult sterilized au poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-059",
+      "name": "Select Gold sensitive digestion adult volaille au riz",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-064",
+      "name": "Tom and co adult lapin et dinde",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-065",
+      "name": "True Instinct high meat poulet",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-066",
+      "name": "Tundra adulte dinde et gibier",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-068",
+      "name": "Ultra Premium sterilisé Indoor adult",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-069",
+      "name": "Vigor et Sage Ginseng Well Being chat adulte",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-074",
+      "name": "Winner Plus kittencat",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    },
+    {
+      "id": "mq-cat-075",
+      "name": "Wolfood adult sterilized cat",
+      "reason": "Aucune offre exacte exploitable retrouvée dans les recherches Zoomalia/Zooplus. Cela ne démontre pas une indisponibilité commerciale."
+    }
+  ],
+  "undatedIndicativePrices": 81,
+  "additionalOffers": 5,
+  "formulationWarningOffers": 1,
+  "optimisedPhotos": 5,
+  "photoBytesBefore": 1067454,
+  "photoBytesAfter": 202364,
+  "nutritionPreserved": true
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "mq-cat-011",
+    "candidate": {
+      "title": "Alleva - Croquettes Sans Céréales Poulet & Canard pour Chaton",
+      "summary": "Croquettes Alleva Holistic Sans Céréales Poulet &amp; Canard pour Chaton",
+      "url": "https://www.zooplus.fr/shop/chats/croquettes_chat/chaton/9980012305?activeVariant=9980012305.2",
+      "species": [
+        "CATS"
+      ],
+      "format": "0,4kg",
+      "price": 7.99,
+      "priceKg": 19.98,
+      "unit": "kg",
+      "available": true,
+      "seller": "TOUTOU VERT",
+      "brands": [
+        "Alleva"
+      ],
+      "discount": null,
+      "priceType": "REGULAR"
+    }
+  },
+  {
+    "id": "mq-cat-006",
+    "candidate": {
+      "title": "ACANA Pacifica pour chat 4,5 kg",
+      "summary": "Acana pacifica est riche en harengs, sardines, flétans, cabillauds et sébastes sauvages, livrés frais ou crus de notre région, utilisés en proportions whole-prey™ dans la préparation, pour une",
+      "url": "https://www.zooplus.fr/shop/chats/croquettes_chat/acana/9980066197?activeVariant=9980066197.1",
+      "species": [
+        "CATS"
+      ],
+      "format": "ACANA Pacifica pour chat 4,5 kg",
+      "price": 74.73,
+      "priceKg": 16.61,
+      "unit": "kg",
+      "available": true,
+      "seller": "ACCESORALIA",
+      "brands": [
+        "Acana"
+      ],
+      "discount": null,
+      "priceType": "REGULAR"
+    }
+  },
+  {
+    "id": "mq-cat-044",
+    "candidate": {
+      "title": "Monge Super premium chat adulte",
+      "summary": "Aliment premium équilibré pour chats adultes à partir de 12 mois, au poulet frais, source de prébiotiques naturels & taurine, contient de la L-carnitine, sans additifs artificiels, fabriqué en Italie",
+      "url": "https://www.zooplus.fr/shop/chats/croquettes_chat/monge/1991190?activeVariant=1991190.0",
+      "species": [
+        "CATS"
+      ],
+      "format": "1,5 kg",
+      "price": 14.29,
+      "priceKg": 9.53,
+      "unit": "kg",
+      "available": true,
+      "seller": "Zooplus",
+      "brands": [
+        "Monge Superpremium Cat"
+      ],
+      "discount": null,
+      "priceType": "REGULAR"
+    }
+  },
+  {
+    "id": "mq-cat-060",
+    "candidate": {
+      "title": "Simpsons Premium Adult 90/10 pour chat",
+      "summary": "Croquettes complètes pour les chats adultes, environ 90 % d'ingrédients d'origine animale de qualité alimentaire, à base de volaille et de poisson, taurine, L-carnitine &amp; FOS, sans céréales.",
+      "url": "https://www.zooplus.fr/shop/chats/croquettes_chat/simpson_premium/1618074?activeVariant=1618074.1",
+      "species": [
+        "CATS"
+      ],
+      "format": "6 kg",
+      "price": 62.49,
+      "priceKg": 10.42,
+      "unit": "kg",
+      "available": true,
+      "seller": "Zooplus",
+      "brands": [
+        "Simpsons Premium"
+      ],
+      "discount": null,
+      "priceType": "REGULAR"
+    }
+  }
+]

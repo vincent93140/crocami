@@ -3,7 +3,7 @@ import vm from "node:vm";
 import path from "node:path";
 import { setTimeout as delay } from "node:timers/promises";
 
-const files = ['fabricants.js','catalogue.js','references-complementaires.js','marchands.js'];
+const files = ['fabricants.js','catalogue.js','references-complementaires.js','marchands.js','complements-sources.js'];
 const context={window:{}};vm.createContext(context);
 for(const file of files)if(fs.existsSync(file))vm.runInContext(fs.readFileSync(file,'utf8'),context);
 const products=context.window.CROCamiCatalog||[];
@@ -29,8 +29,9 @@ async function check(item) {
       const file=path.resolve(process.cwd(),item.url);
       if(!file.startsWith(process.cwd()+path.sep))throw Error('Photo hors du site');
       const bytes=fs.readFileSync(file);
-      const valid=bytes[0]===0xff&&bytes[1]===0xd8||bytes[0]===0x89&&bytes.subarray(1,4).toString()==='PNG';
-      results[item.index]={url:item.url,ids:[...item.ids].join('; '),status:200,contentType:bytes[0]===0xff?'image/jpeg':'image/png',finalUrl:item.url,method:'LOCAL',verdict:valid?'OK':'TYPE_NON_IMAGE',error:''};
+      const webp=bytes.subarray(0,4).toString()==='RIFF'&&bytes.subarray(8,12).toString()==='WEBP';
+      const valid=bytes[0]===0xff&&bytes[1]===0xd8||bytes[0]===0x89&&bytes.subarray(1,4).toString()==='PNG'||webp;
+      results[item.index]={url:item.url,ids:[...item.ids].join('; '),status:200,contentType:bytes[0]===0xff?'image/jpeg':webp?'image/webp':'image/png',finalUrl:item.url,method:'LOCAL',verdict:valid?'OK':'TYPE_NON_IMAGE',error:''};
       return;
     }
     response = await fetch(item.url, { method, redirect: "follow", signal: controller.signal, headers: { "User-Agent": "CrocAmi-ImageAudit/1.0" } });
