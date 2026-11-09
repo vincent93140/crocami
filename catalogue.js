@@ -2226,3 +2226,200 @@ for (const product of window.CROCamiCatalog) {
  Object.assign(product, update);
  product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
 }
+
+/* SOURCES PRODUIT ET COMPLÉMENTS ACTUELS (09/11/2026). */
+const crocamiSourceFollowup20261109 = {
+ "mq-cat-024": {
+  sourceFabricant:"https://www.arionpetfood.com/fr/product-groups/arion-original-cat-sterilized-33-12-chicken",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche officielle française confirme la recette actuelle ARION Original Sterilized 33/12 Chicken : poulet séché 16 %, riz, saumon séché, pois et pomme de terre séchée. Elle publie protéines 33 %, matières grasses 12,5 %, fibres 2,5 %, cendres 7,7 %, calcium 1,45 %, phosphore 1,15 % et énergie métabolisable 3 500 kcal/kg; emballages 2 kg et 7,5 kg. La composition diffère de la recette historique transcrite sur cette fiche; l’analyse et les additifs actuels restent dans un profil distinct. Le rapport Ca/P de 1,26 est calculé à partir des valeurs fabricant. Humidité, omégas et ration non publiés sur cette page.",
+  statutDonnees:"Fiche officielle actuelle vérifiée; formulation actuelle différente, profil séparé des données historiques.",
+  donneesFabricantActuelles:{
+   formule:"ARION Original Sterilized 33/12 Chicken — fiche officielle actuelle",
+   proteines:33,matieresGrasses:12.5,fibres:2.5,cendres:7.7,
+   calcium:1.45,phosphore:1.15,ratioCalciumPhosphore:1.2608695652,
+   energie:3500,
+   composition:"Poulet séché (16 %), riz, saumon séché, pois, pomme de terre séchée, graisse animale, pulpe de betterave, minéraux, protéines animales hydrolysées, cellulose, levure, huile de poisson, psyllium et prébiotiques.",
+   formatsDisponibles:"2 kg et 7,5 kg",
+   additifs:"Vitamine A 22 000 UI/kg, D3 1 800 UI/kg, E 250 mg/kg, L-carnitine 500 mg/kg; fer 98 mg/kg, iode 2,4 mg/kg, cuivre 10 mg/kg, manganèse 8 mg/kg, zinc 135 mg/kg, sélénium 0,1 mg/kg."
+  }
+ },
+ "mq-dog-021": {
+  sourceRevendeur:"https://www.zooplus.com/shop/dogs/dry_dog_food/almo_nature_holistic/medium/136885",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche Zooplus actuelle décrit Almo Nature Holistic/Life Maintenance Adult Medium Chicken & Rice et confirme les ingrédients repères de la référence (26 % de poulet frais et 14 % de riz). Elle donne protéines 25 %, matières grasses 15 %, fibres 2,5 %, cendres 8,5 %, humidité 9 %, calcium 1,6 %, phosphore 1,1 %, magnésium 0,12 %, oméga-3 0,25 %, oméga-6 2,6 % et énergie 3 790 kcal/kg. Les valeurs historiques de fibres et cendres diffèrent; elles ne sont pas écrasées. La page ne publie pas de glucides analytiques. Ration : 120–210 g/j pour 10–20 kg et 210–290 g/j pour 20–30 kg.",
+  statutDonnees:"Fiche revendeur actuelle concordante sur le nom et les ingrédients principaux; différences analytiques conservées dans le profil actuel séparé.",
+  donneesFabricantActuelles:{
+   formule:"Almo Nature Holistic / Life Maintenance Adult Medium Chicken & Rice — fiche Zooplus actuelle",
+   proteines:25,matieresGrasses:15,fibres:2.5,cendres:8.5,humidite:9,
+   calcium:1.6,phosphore:1.1,magnesium:0.12,omega3:0.25,omega6:2.6,energie:3790,
+   composition:"Poulet 26 % frais, riz 14 %, céréales, protéines végétales, chicorée/inuline, huiles et graisses, levures et minéraux.",
+   formatsDisponibles:"12 kg (format de la fiche consultée)",
+   ration:"10–20 kg : 120–210 g/j; 20–30 kg : 210–290 g/j.",
+   additifs:"La fiche liste notamment les vitamines A, D3, E, B1, B2, B6 et B12, la taurine, la L-carnitine, la méthionine et les oligo-éléments."
+  }
+ },
+ "mq-cat-023": {
+  sourceFabricant:"https://www.ardengrange.com/arden-grange-kitten-grain-free-with-fresh-chicken-potato-dry-food-2-kg.html",
+  sourceComplementaire:"https://www.ardengrange.com/kitten-guide/",
+  sourceRevendeur:"https://www.timeforpaws.co.uk/products/arden-grange-kitten",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche officielle Arden Grange identifie la référence actuelle Grain Free Kitten Fresh Chicken & Potato, aliment complet pour chatons jusqu’à 12 mois. Le guide fabricant confirme 30 % de farine de poulet et 26 % de poulet frais; la fiche revendeur Time for Paws donne aussi pomme de terre 26 %, protéines 34 %, matières grasses 22 %, fibres 1,6 %, cendres 7,5 %, calcium 1,6 %, phosphore 1,1 %, taurine 1 250 mg/kg, oméga-3 0,4 % et oméga-6 3,5 %. Ces données concordent avec les ingrédients et constituants déjà transcrits, sauf les champs manquants complétés dans ce profil. Humidité et magnésium non publiés sur les pages consultées. L’énergie n’est pas ajoutée : les sources consultées divergent (400 contre 421 kcal/100 g).",
+  statutDonnees:"Référence actuelle confirmée par le fabricant; compléments nutritionnels publiés par un revendeur. Énergie non reprise car les sources divergent.",
+  calcium:1.6,phosphore:1.1,ratioCalciumPhosphore:1.4545454545,
+  omega3:0.4,omega6:3.5,taurine:1250,
+  donneesFabricantActuelles:{
+   formule:"Arden Grange Grain Free Kitten Fresh Chicken & Potato — référence actuelle",
+   proteines:34,matieresGrasses:22,fibres:1.6,cendres:7.5,
+   calcium:1.6,phosphore:1.1,ratioCalciumPhosphore:1.4545454545,
+   omega3:0.4,omega6:3.5,taurine:1250,
+   composition:"Farine de poulet (30 %), poulet frais (26 %), pomme de terre (26 %), huile de poulet, œuf, krill, levure, fibres de pois, prébiotiques, cranberry, glucosamine, MSM et chondroïtine.",
+   formatsDisponibles:"2 kg (fiche fabricant consultée); le revendeur liste aussi 400 g."
+  }
+ },
+ "mq-cat-005": {
+  sourceFabricant:"https://emea.acana.com/fr-FR/cats/cat-food",
+  sourceComplementaire:"https://emea.acana.com/fr-FR/pour-chiens/eu-aca-ranchlands.html",
+  verificationFabricant:"reference_historique_non_retrouvee",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"Le catalogue officiel ACANA pour chats consulté ne liste pas Ranchlands parmi ses recettes félines actuelles; il liste sept références sèches distinctes. La page officielle ACANA Ranchlands consultée est explicitement une recette pour chiens. Cela signale une possible erreur d’espèce dans la référence historique, sans prouver que cette recette n’a jamais existé pour les chats. Les données historiques restent inchangées et aucune donnée de la formule canine n’est transférée à cette fiche chat.",
+  statutDonnees:"Référence féline historique à recouper; Ranchlands est actuellement documentée par ACANA comme recette pour chiens. Valeurs historiques conservées, aucune analyse canine transférée."
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiSourceFollowup20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ if (update.donneesFabricantActuelles) {
+  product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+ }
+}
+
+/* COMPLÉMENTS FABRICANT — RÉFÉRENCES CHAT (09/11/2026). */
+const crocamiCatManufacturerProfiles20261109 = {
+ "mq-cat-062": {
+  sourceFabricant:"https://www.tasteofthewildpetfood.com/cat/grain-free/rocky-mountain-with-roasted-venison-smoke-flavored-salmon/",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La page officielle confirme Rocky Mountain Feline pour chats, toutes étapes de vie, et les valeurs garanties suivantes : protéines ≥42 %, matières grasses ≥18 %, fibres ≤3 %, humidité ≤10 %, taurine ≥0,15 %, oméga-6 ≥2,8 %, oméga-3 ≥0,3 %; énergie métabolisable calculée 3 745 kcal/kg. Les garanties ne sont pas des résultats mesurés. Calcium, phosphore, cendres, magnésium et ration en grammes non publiés dans les sections consultées; laissés non renseignés. Les critères publiés sont isolés dans le profil fabricant actuel.",
+  statutDonnees:"Fiche officielle actuelle consultée; niveaux garantis séparés des analyses historiques.",
+  donneesFabricantActuelles:{
+   formule:"Taste of the Wild Rocky Mountain Feline Recipe — fiche officielle actuelle",
+   proteinesMinimum:42,matieresGrassesMinimum:18,fibresMaximum:3,humiditeMaximum:10,
+   taurineMinimum:1500,omega6Minimum:2.8,omega3Minimum:0.3,energie:3745,
+   composition:"Farine de poulet, pois, patate douce, graisse de poulet, protéines de pois et de pomme de terre, cerf rôti, saumon fumé, farine de poisson, chicorée, fruits et légumes.",
+   formatsDisponibles:"2,27 kg (5 lb) et 6,35 kg (14 lb)",
+   additifs:"Taurine ≥1 500 mg/kg; probiotiques Viables, au moins 80 millions d’UFC/lb; vitamines et minéraux garantis listés sur la fiche fabricant."
+  }
+ },
+ "mq-cat-075": {
+  sourceFabricant:"https://www.wolfood.fr/produit/adult-cat-sterilized/",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche officielle Wolfood décrit actuellement Adult Sterilized Cat (45 % de volailles, contrôlée en calories), une formule dont les teneurs diffèrent de la référence historique. Constituants actuels : protéines 42 %, matières grasses 12 %, matières minérales 7,4 %, cellulose 5,3 %, calcium 1,15 %, phosphore 1 %, sodium 0,53 %, magnésium 0,09 %, oméga-6 1,5 %, oméga-3 0,6 %, énergie 363,3 kcal/100 g (3 633 kcal/kg). Additifs : taurine 900 mg/kg, méthionine 6 000 mg/kg, L-carnitine 400 mg/kg, glucosamine et chondroïtine 1 000 mg/kg chacune. La composition actuelle et les valeurs restent séparées des données historiques.",
+  statutDonnees:"Fiche fabricant actuelle consultée; recette et analyses actuelles séparées de la référence historique.",
+  donneesFabricantActuelles:{
+   formule:"Wolfood Adult Sterilized Cat — fiche officielle actuelle",
+   proteines:42,matieresGrasses:12,fibres:5.3,cendres:7.4,
+   calcium:1.15,phosphore:1,ratioCalciumPhosphore:1.15,sodium:0.53,magnesium:0.09,
+   omega3:0.6,omega6:1.5,energie:3633,taurine:900,lCarnitine:400,
+   glucosamine:1000,chondroitine:1000,
+   composition:"Volaille déshydratée (45 %), patate douce (11 %), fécule de pomme de terre, poisson hydrolysé (5,9 %), pois, cellulose, huile de poisson, canneberges, krill, œuf et plantes.",
+   formatsDisponibles:"3 kg et 10 kg",
+   additifs:"Taurine 900 mg/kg; DL-méthionine 6 000 mg/kg; L-carnitine 400 mg/kg; glucosamine 1 000 mg/kg; sulfate de chondroïtine 1 000 mg/kg; vitamines et oligo-éléments publiés par le fabricant."
+  }
+ },
+ "mq-cat-049": {
+  sourceFabricant:"https://nutro.jp/products/nc_c_adult_grainfree_chicken",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La page officielle Nutro consultée concerne Natural Choice Adult Grain Free Chicken au Japon. C’est une référence adulte sèche à base de poulet, mais sa recette est celle du marché japonais et n’est pas assimilée à la formulation historique du catalogue français. Valeurs garanties actuelles : protéines ≥33 %, lipides ≥16 %, fibres ≤4 %, cendres ≤9 %, humidité ≤10 %, calcium ≥0,9 %, taurine ≥0,18 % (1 800 mg/kg), oméga-3 ≥0,3 %, oméga-6 ≥3 %; magnésium standard 0,11 %; énergie 3 750 kcal/kg. Le site n’indique pas de phosphore ni de ration chiffrée dans la fiche consultée.",
+  statutDonnees:"Données de la fiche Nutro Japon actuelle présentées à part; correspondance exacte avec l’ancienne recette européenne non confirmée.",
+  donneesFabricantActuelles:{
+   formule:"Nutro Natural Choice Cat Adult Grain Free Chicken — marché japonais",
+   proteinesMinimum:33,matieresGrassesMinimum:16,fibresMaximum:4,cendresMaximum:9,humiditeMaximum:10,
+   calciumMinimum:0.9,magnesium:0.11,taurineMinimum:1800,omega3Minimum:0.3,omega6Minimum:3,energie:3750,
+   composition:"Poulet, farine de poulet, protéines de pois, amidon de pomme de terre, graisse de poulet, pois, pomme de terre séchée, farine de poisson, pulpe de betterave, luzerne, protéines de pomme de terre, hydrolysat, huile de soja et yucca.",
+   formatsDisponibles:"400 g et 2 kg",
+   additifs:"Taurine ≥1 800 mg/kg; vitamines A, B, C, D3 et E, minéraux et méthionine selon la fiche fabricant."
+  }
+ },
+ "mq-cat-058": {
+  sourceFabricant:"https://www.bosch-tiernahrung.de/bosch_de_de/sanabelle-classic-gefluegel.html",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche officielle Bosch actuelle présente Sanabelle Classic Adult mit Geflügel en sac de 10 kg. Sa composition actuelle (protéines de volaille séchées 24 %, riz 19 %, farine de riz, etc.) diffère de la référence historique du catalogue (volaille fraîche 25 %). Analyses actuelles : énergie 3 780 kcal/kg, protéines 30 %, matières grasses 14 %, fibres 3,5 %, cendres 6,1 %, calcium 1 %, phosphore 0,8 %, sodium 0,35 %, potassium 0,6 %, magnésium 0,08 %, taurine 2 000 mg/kg. Le rapport Ca/P de 1,25 est calculé à partir des valeurs fabricant. Omégas et humidité non chiffrés sur cette page; formule actuelle gardée à part.",
+  statutDonnees:"Recette actuelle Sanabelle Classic séparée de la référence historique; données issues du fabricant Bosch.",
+  donneesFabricantActuelles:{
+   formule:"Sanabelle Classic Adult mit Geflügel — fiche officielle Bosch actuelle",
+   proteines:30,matieresGrasses:14,fibres:3.5,cendres:6.1,calcium:1,phosphore:0.8,
+   ratioCalciumPhosphore:1.25,sodium:0.35,potassium:0.6,magnesium:0.08,taurine:2000,energie:3780,
+   composition:"Protéines de volaille séchées (24 %), riz (19 %), farine de riz, graisse animale, protéines de riz, pulpe de betterave, graines de lin (5,5 %), pois et cellulose.",
+   formatsDisponibles:"10 kg",
+   ration:"2–3 kg : 40–55 g/j; 4–5 kg : 65–80 g/j; 6–7 kg : 90–95 g/j; 8 kg : 105 g/j.",
+   additifs:"Taurine 2 000 mg/kg; vitamines A, D3, E, B1, B2, B6 et B12; choline; zinc, cuivre, iode et sélénium selon le fabricant."
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiCatManufacturerProfiles20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+}
+
+/* SOURCES REVENDEUR ET FORMULES TUNDRA ACTUELLES (09/11/2026). */
+const crocamiRetailerAndTundraFollowup20261109 = {
+ "mq-dog-071": {
+  sourceRevendeur:"https://www.huellacanina.com/dog-dog-food-porta21-dog-food-porta21-dog-finest-low-fat-light-p-4986.html",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche revendeur Huella Canina identifie Porta21 Canine Finest Low Fat Light, mais sa composition ne correspond pas à la recette historique du catalogue. Elle publie une formule à base de riz moulu, viande de volaille moulue 18,5 %, avoine 8,8 % et graisse de poulet 3,7 %, avec protéines 20 %, matières grasses 9 %, fibres 4 %, cendres 6 % et humidité 8 %. Ces informations sont conservées en profil revendeur distinct. Énergie, calcium, phosphore, omégas et ration non publiés sur cette fiche.",
+  statutDonnees:"Une fiche revendeur détaillée est disponible; sa composition analytique diverge de l’historique et reste séparée.",
+  donneesFabricantActuelles:{
+   formule:"Porta21 Canine Finest Low Fat Light — fiche revendeur consultée",
+   proteines:20,matieresGrasses:9,fibres:4,cendres:6,humidite:8,
+   composition:"Riz moulu, viande de volaille moulue (18,5 %), avoine moulue (8,8 %), betterave, graisse de poulet (3,7 %), levure, poisson, œuf, lin, pois, algues, yucca, herbes et MOS.",
+   formatsDisponibles:"2 kg et 13,6 kg"
+  }
+ },
+ "mq-dog-085": {
+  sourceRevendeur:"https://www.tomandco.com/fr-fr/tom-co-medium-adult-viande-fraiche-poulet-12-5kg.html",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche Tom&Co du produit Medium Adult au poulet est conservée en ligne mais indique que l’article n’est plus disponible. La composition (14 % de poulet déshydraté et 4 % de poulet frais) et les analyses publiées concordent avec la référence du catalogue : protéines 26 %, matières grasses 14 %, fibres 3,5 %, cendres 8 %. Le revendeur publie aussi les vitamines A 16 000 UI/kg et D3 1 100 UI/kg, fer 60 mg/kg, cuivre 7 mg/kg, zinc 100 mg/kg, manganèse 6,5 mg/kg, iode 1,6 mg/kg et sélénium 0,1 mg/kg. Humidité, calcium, phosphore, omégas et énergie non publiés.",
+  statutDonnees:"Fiche du revendeur Tom&Co concordante sur la recette et les analyses; produit désormais indisponible."
+ },
+ "mq-cat-064": {
+  sourceRevendeur:"https://www.tomandco.com/fr-be/tom-co-croquettes-pour-chat-lapin-dinde-adult-2kg.html",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche Tom&Co du produit adulte Lapin & Dinde est conservée en ligne mais indique que l’article n’est plus disponible. Elle précise deux variantes : dans la variante lapin, 15 % de lapin déshydraté dont 4 % de lapin; dans la variante dinde, 45 % de viande dont 4 % de dinde fraîche. Les analyses concordent avec la référence du catalogue : protéines 30 %, matières grasses 10 %, fibres 3,5 %, cendres 8,5 %. La page liste également les vitamines A 20 000 UI/kg, D3 1 500 UI/kg, E 140 mg/kg, fer 55 mg/kg, cuivre 6,5 mg/kg, zinc 95 mg/kg, manganèse 6 mg/kg, iode 1,5 mg/kg et sélénium 0,04 mg/kg. Énergie, humidité, calcium, phosphore, omégas et taurine non publiés.",
+  statutDonnees:"Fiche du revendeur Tom&Co concordante sur l’analyse; distinguer la variante lapin de la variante dinde. Produit indisponible."
+ },
+ "mq-dog-088": {
+  sourceFabricant:"https://tundra-petfoods.de/en/tundra-dog/",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La page officielle Tundra consultée ne propose plus une recette sèche nommée « dinde et gibier ». Elle publie actuellement notamment Turkey & Chicken : 27 % de poulet séché et moulu, 25 % de dinde fraîche, 10 % de graisse de poulet et 0,4 % d’huile de saumon. Analyses : protéines 32,5 %, matières grasses 17 %, cendres 7,9 %, fibres 3,1 %, humidité 8 %, calcium 1,25 %, phosphore 1 %, oméga-3 0,5 %, oméga-6 3,1 %, énergie 3 880 kcal/kg. Cette recette actuelle est différente de la formule historique (qui mentionne aussi œuf et pois chiches); aucune de ses valeurs ne remplace les données historiques.",
+  statutDonnees:"Formule sèche actuelle Turkey & Chicken documentée par le fabricant; référence historique « dinde et gibier » conservée à part.",
+  donneesFabricantActuelles:{
+   formule:"Tundra Turkey & Chicken — fiche officielle actuelle",
+   proteines:32.5,matieresGrasses:17,fibres:3.1,cendres:7.9,humidite:8,
+   calcium:1.25,phosphore:1,ratioCalciumPhosphore:1.25,omega3:0.5,omega6:3.1,energie:3880,
+   composition:"Poulet séché et moulu (27 %), dinde fraîche (25 %), graisse de poulet (10 %), huile de saumon (0,4 %), amidon et pois, fèves, lin, levures, pulpe de betterave, algues, prébiotiques et plantes.",
+   additifs:"Vitamine A 19 000 UI/kg, D3 1 250 UI/kg, E 150 mg/kg; cuivre 14,4 mg/kg, fer 28,8 mg/kg, zinc 65,2 mg/kg, manganèse 57,6 mg/kg, iode 3,14 mg/kg, sélénium 0,15 mg/kg; glucosamine 80 mg/kg et chondroïtine 40 mg/kg."
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiRetailerAndTundraFollowup20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ if (update.donneesFabricantActuelles) {
+  product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+ }
+}
