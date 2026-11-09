@@ -2685,3 +2685,4 @@ for (const [id,archive] of Object.entries(crocamiArchivedManufacturerData)) {
 }
 const mediumSterilisedDuplicate=window.CROCamiCatalog.find(item=>item.id==="mq-dog-079");
 if (mediumSterilisedDuplicate) mediumSterilisedDuplicate.donneesFabricantArchivees=[crocamiArchivedManufacturerData.d06];
+

@@ -366,3 +366,4 @@ renderNeedOptions(animal);
 $("#clearCompare")?.addEventListener("click",()=>{selected.clear();render();});
 render();
 routeProductDetail();
+
