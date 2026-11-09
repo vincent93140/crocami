@@ -196,7 +196,7 @@ function metricStatus(value,min,max){
  if(max!=null)return value<=max?"good":(value-max<=max*0.10?"near":"poor");
  return "unknown";
 }
-function cardMetricsMarkup(p){
+function productMetricItems(p){
  const dog=p.espece==="chien",junior=p.age==="Junior",weight=(p.besoins||[]).includes("Contrôle du poids"),sterilised=(p.besoins||[]).includes("Stérilisé");
  const rpc=p.energie>0&&p.proteines!=null?p.proteines*10000/p.energie:(p.rpcMacroquette>0?p.rpcMacroquette:null);
  const rpcMin=dog?(junior?62.5:52):(junior?95:83);
@@ -213,6 +213,10 @@ function cardMetricsMarkup(p){
   {name:"Oméga 6 / 3",raw:omega,unit:"ratio",target:"5–10",status:metricStatus(omega,5,10)}
  ];
  if(!dog){const taurine=extractTaurine(p);items.push({name:"Taurine",raw:taurine,unit:"mg/kg",target:"≥ 1 000 mg/kg",status:metricStatus(taurine,1000,null)});}
+ return items;
+}
+function cardMetricsMarkup(p){
+ const items=productMetricItems(p);
  return '<div class="product-metrics">'+items.map(x=>{
   const value=x.raw==null?null:(x.unit==="ratio"?fmtRatio(x.raw):fmt(x.raw))+(x.unit==="%"?" %":x.unit==="g/Mcal"?" g/Mcal":x.unit==="mg/kg"?" mg/kg":"");
   return '<div class="metric-'+x.status+'"><small>'+x.name+'</small><b>'+(value||"Non communiqué")+'</b><span>'+(x.name==="Protéines"?"Lecture : "+x.target:"Attendu : "+x.target)+'</span></div>';
@@ -256,7 +260,12 @@ function productDetailMarkup(p){
  const rpc=score.rpc;
  const rows=[["Protéines",p.proteines,"%"],["Protéines sur matière sèche",p.proteinesMS,"%"],["Matières grasses",p.matieresGrasses,"%"],["Fibres",p.fibres,"%"],["Humidité",p.humidite,"%"],["Cendres",p.cendres,"%"],["Glucides",p.glucides,"%"],["Calcium",p.calcium,"%"],["Phosphore",p.phosphore,"%"],["Rapport calcium / phosphore",p.ratioCalciumPhosphore!=null?p.ratioCalciumPhosphore:(p.calcium!=null&&p.phosphore>0?p.calcium/p.phosphore:null),""],["Magnésium",p.magnesium,"%"],["Oméga-3",p.omega3,"%"],["Oméga-6",p.omega6,"%"],["EPA + DHA",p.epaDha,"%"],["Énergie",p.energie,"kcal/kg"],["RPC",rpc,"g/Mcal"]];
  if(!dog)rows.push(["Taurine",extractTaurine(p),"mg/kg"]);
- const analysis=rows.map(([label,value,unit])=>'<div class="detail-data-row"><span>'+label+'</span><b>'+detailValue(value,unit)+'</b></div>').join("");
+ const metricItems=productMetricItems(p);
+ const analysis=rows.map(([label,value,unit])=>{
+  const metric=metricItems.find(x=>x.name===(label==="Rapport calcium / phosphore"?"Ratio calcium / phosphore":label));
+  const status=value==null?"unknown":metric?metric.status:"info";
+  return '<div class="detail-data-row metric-'+status+'"><span>'+label+'</span><b>'+detailValue(value,unit)+'</b></div>';
+ }).join("");
  const criteria=score.criteria.length?'<div class="detail-criteria">'+score.criteria.map(x=>'<div><span>'+escapeProductText(x.name)+'</span><b>'+fmt(x.value)+'/100</b><small>'+escapeProductText(x.detail)+'</small></div>').join("")+'</div>':'<p class="detail-muted">Données insuffisantes pour calculer une note nutritionnelle.</p>';
  const needs=(p.besoins||[]).map(x=>'<span class="detail-chip">'+escapeProductText(x)+'</span>').join("");
  const comp=p.compositionComplete?'<p>'+escapeProductText(p.compositionComplete)+'</p>':'<p class="detail-muted">Composition détaillée non communiquée dans les données disponibles.</p>';

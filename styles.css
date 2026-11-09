@@ -727,3 +727,13 @@ footer .footer-links{display:flex;flex-wrap:wrap;gap:14px}
 footer .footer-links a{color:#536d84;font-size:11px;font-weight:700}
 footer .footer-links a:hover{color:#1266ad;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:760px){.transparency-section{padding:52px 18px}.transparency-grid{grid-template-columns:1fr}.transparency-card{padding:18px}.price-data-note{margin:12px 0 0}footer{flex-wrap:wrap}footer .footer-links{order:4;width:100%;gap:12px 16px}}
+
+/* Repères communs aux cartes et aux fiches détaillées. */
+.detail-data-row.metric-good{background:#e8f4e9;border-color:#b9ddbf}
+.detail-data-row.metric-good b{color:#24763b}
+.detail-data-row.metric-near{background:#fff3df;border-color:#f0d29c}
+.detail-data-row.metric-near b{color:#a96808}
+.detail-data-row.metric-poor{background:#fbe9e7;border-color:#edb9b4}
+.detail-data-row.metric-poor b{color:#b3261e}
+.detail-data-row.metric-unknown{background:#f1f2ed;border-color:#e3e5dc}
+.detail-data-row.metric-unknown b{color:#777d72}
