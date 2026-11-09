@@ -1,0 +1,107 @@
+[
+  {
+    "key": "medium-puppy",
+    "title": "Medium Puppy pour chiot",
+    "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-puppy-pour-chiot-3003",
+    "ids": [
+      "d01"
+    ]
+  },
+  {
+    "key": "mini-adult",
+    "title": "Mini Adult",
+    "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001",
+    "ids": [
+      "d16",
+      "mq-dog-078"
+    ]
+  },
+  {
+    "key": "medium-sterilised",
+    "title": "Medium Sterilised",
+    "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/sterilised-medium-3034",
+    "ids": [
+      "d06",
+      "mq-dog-079"
+    ]
+  },
+  {
+    "key": "sterilised-37",
+    "title": "Sterilised 37",
+    "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-37-2537",
+    "ids": [
+      "c01",
+      "mq-cat-057"
+    ]
+  },
+  {
+    "key": "medium-adult",
+    "title": "Medium Adult",
+    "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-3004",
+    "ids": [
+      "mq-dog-076"
+    ]
+  },
+  {
+    "key": "sterilised-7",
+    "title": "Sterilised 7+",
+    "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sterilised-7%2b-2560",
+    "ids": [
+      "c11"
+    ]
+  },
+  {
+    "key": "maxi-adult",
+    "title": "Maxi Adult ",
+    "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/maxi-adult-3007",
+    "ids": [
+      "mq-dog-077"
+    ]
+  },
+  {
+    "key": "kitten",
+    "title": "Kitten pour chaton",
+    "url": "https://www.royalcanin.com/fr/cats/products/retail-products/kitten-2522",
+    "ids": [
+      "zp-cat-royal-kitten"
+    ]
+  },
+  {
+    "key": "medium-adult-7",
+    "title": "Medium Adult 7+",
+    "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/medium-adult-7%2b-3005",
+    "ids": [
+      "zp-dog-royal-medium-adult-7"
+    ]
+  },
+  {
+    "key": "maxi-puppy",
+    "title": "Maxi Puppy pour chiot",
+    "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy---maxi-3006",
+    "ids": []
+  },
+  {
+    "key": "mini-puppy",
+    "title": "Mini Puppy pour chiot",
+    "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/puppy-mini-3000",
+    "ids": []
+  },
+  {
+    "key": "hairball-care",
+    "title": "Hairball Care",
+    "url": "https://www.royalcanin.com/fr/cats/products/retail-products/hairball-care-2534",
+    "ids": []
+  },
+  {
+    "key": "sensible-33",
+    "title": "Sensible 33",
+    "url": "https://www.royalcanin.com/fr/cats/products/retail-products/sensible-33-2521",
+    "ids": []
+  },
+  {
+    "key": "indoor-27",
+    "title": "Indoor 27",
+    "url": "https://www.royalcanin.com/fr/cats/products/retail-products/fhn--2529",
+    "ids": []
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "key": "indoor-27",
+  "url": "https://www.royalcanin.com/fr/cats/products/retail-products/fhn--2529",
+  "checkedAt": "2026-11-09T17:55:06.127Z",
+  "ids": [],
+  "age": "Adulte",
+  "gabarit": "Toutes",
+  "besoins": [
+    "Adulte"
+  ],
+  "espece": "chat",
+  "title": "Indoor 27",
+  "description": "Aliment complet et équilibré pour chats adultes (de 1 à 7 ans), vivant à l’intérieur.",
+  "details": {
+    "description": "Les chats d’intérieur adultes comme le vôtre ont tendance à faire moins d’exercice que les chats d’extérieur, c’est pourquoi il est important qu’ils reçoivent une alimentation équilibrée et complète contenant des nutriments bénéfiques favorisant une santé optimale. \n \nROYAL CANIN® Indoor 27 contient des protéines hautement digestibles (L.I.P.) spécifiquement sélectionnées pour leur très haute digestibilité. Elles contribuent également à réduire la quantité des selles de votre chat, ainsi que l’odeur qu’elles peuvent produire lorsque les chats ont un transit intestinal moins efficace en raison du manque d’exercice. \n \nLa teneur modérée de cet aliment en matières grasses garantit que l’apport calorique de votre chat est adapté à son niveau d’activité, cet apport calorique contribuant également à maintenir son poids de forme.\n \nIl est courant que les chats d’intérieur passent de longs moments faire leur toilette. Grâce à l’ajout de fibres alimentaires spécifiques, comme le psyllium, cet aliment favorise également l’élimination des poils ingérés, réduisant ainsi considérablement la formation de boules de poils.  \n \nLa gamme ROYAL CANIN® Indoor est également disponible en fonction du mode de vie, de la morphologie et de l’âge de votre chat : Indoor Long Hair et Indoor 7+.\n \nPour répondre aux préférences individuelles de chaque chat, ROYAL CANIN® Indoor est également disponible sous forme de morceaux en sauce, en gelée ou en mousse. Si vous envisagez une alimentation mixte, il vous suffit de suivre nos instructions pour vous assurer que votre chat reçoit la quantité de nourriture sèche et humide nécessaire pour un bénéfice optimal.",
+    "image": "https://cdn.royalcanin-weshare-online.io/bSEqa2QBaxEApS7LxfiO/v30/egyptian-mau-adult-fhn-indoor-emblematic"
+  },
+  "nutritionalInfo": [
+    {
+      "description": "Composition : protéines de volaille déshydratées, riz, blé, maïs, isolat de protéines végétales*, graisses animales, hydrolysat de protéines animales, farine de blé, fibres végétales, pulpe de betterave, levures et composants de levures, huile de soja, sels minéraux, fructo-oligo-saccharides, huile de poisson, téguments et graines de psyllium (0,5 %).",
+      "title": "pa.nutritionalInformation.composition"
+    },
+    {
+      "description": "Additifs (au kg) : Additifs nutritionnels : Vitamine A : 13500 UI, Vitamine D3 : 700 UI, E1 (Fer) : 42 mg, E2 (Iode) : 4,2 mg, E4 (Cuivre) : 13 mg, E5 (Manganèse) : 55 mg, E6 (Zinc) : 164 mg, E8 (Sélénium) : 0,09 mg - Additifs technologiques : Clinoptilolite d’origine sédimentaire : 10 g - Conservateurs - Antioxygènes.",
+      "title": "pa.nutritionalInformation.additives"
+    },
+    {
+      "description": "Constituants analytiques : Protéine : 27 % - Teneur en matières grasses : 13 % - Cendres brutes : 7,3 % - Cellulose brute : 4 %.",
+      "title": "pa.nutritionalInformation.analyticalConstituants"
+    },
+    {
+      "description": "Mode d'emploi : voir tableau. Numéro de lot et d’identifiant usine, à utiliser de préférence avant : voir sur l’emballage. À conserver dans un endroit sec et frais.",
+      "title": "pa.nutritionalInformation.feedingInstructions"
+    },
+    {
+      "html": "<table><thead><tr><th>Poids du chat</th><th>Poids idéal</th><th>Embonpoint</th></tr></thead><tbody><tr><td>3 kg</td><td>45 g (ou 26 g + 1 sachet)</td><td>36 g (ou 17g + 1 sachet)</td></tr><tr><td>4 kg</td><td>56 g (ou 36 g + 1 sachet)</td><td>44 g (ou 25 g + 1 sachet)</td></tr><tr><td>5 kg</td><td>65 g (ou 46 g + 1 sachet)</td><td>52 g (ou 32 g + 1 sachet)</td></tr><tr><td>6 kg</td><td>74 g (ou 55 g + 1 sachet)</td><td>59 g (ou 40 g + 1 sachet)</td></tr></tbody></table>",
+      "title": "pa.nutritionalInformation.nutritionalInformationFeedingGuide"
+    }
+  ],
+  "images": [
+    {
+      "alt": "Indoor 27",
+      "url": "https://marspetcareaprimocdn.petcare.global/6e85bfb2-2a80-4d09-800d-b3aa00a4ebfc/6e85bfb2-2a80-4d09-800d-b3aa00a4ebfc_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Indoor 27",
+      "url": "https://cdn.royalcanin-weshare-online.io/mT9MvXUBRYZmsWpcFJqv/v7/3182550704625-2"
+    },
+    {
+      "alt": "Indoor 27",
+      "url": "https://cdn.royalcanin-weshare-online.io/h7mboW4B2t6cTeuU0x36/v12/rc-fhn-indoor27-cv-eretailkit-2-fr-fr"
+    },
+    {
+      "alt": "Indoor 27",
+      "url": "https://cdn.royalcanin-weshare-online.io/mj9OvXUBRYZmsWpcbpqz/v5/3182550704625-3"
+    },
+    {
+      "alt": "Indoor 27",
+      "url": "https://cdn.royalcanin-weshare-online.io/BeeJHXkBaPOZra8q1arf/v3/rc-fhn-indoor27-cv-eretailkit-7-fr-fr"
+    },
+    {
+      "alt": "Indoor 27",
+      "url": "https://cdn.royalcanin-weshare-online.io/BueKHXkBaPOZra8qR6oX/v3/rc-fhn-indoor27-cv-eretailkit-4-fr-fr"
+    },
+    {
+      "alt": "Indoor 27",
+      "url": "https://cdn.royalcanin-weshare-online.io/BOeIHXkBaPOZra8qnKqc/v17/rc-fhn-indoor27-cv-eretailkit-3-fr-fr"
+    }
+  ],
+  "packs": [
+    {
+      "basePrice": 13.5,
+      "basePriceLabel": "13,50 €/kg",
+      "basePriceUnitCode": "KGM",
+      "basePriceUnitText": "kg",
+      "ean": "3182550704625",
+      "hasStock": true,
+      "isAddToCartEnabled": true,
+      "isBestDeal": false,
+      "isDefaultPack": false,
+      "isSubscriptionEnabled": true,
+      "packMultiplicator": 1,
+      "price": 26.99,
+      "priceLabel": "26,99 €",
+      "size": "2 kg",
+      "stock": 97,
+      "subscriptionBasePriceLabel": "12,15 €/kg",
+      "subscriptionPrice": 24.29,
+      "subscriptionPriceLabel": "24,29 €",
+      "virtualSku": "229100_1",
+      "wmsCode": "229100"
+    },
+    {
+      "basePrice": 11.47,
+      "basePriceLabel": "11,47 €/kg",
+      "basePriceUnitCode": "KGM",
+      "basePriceUnitText": "kg",
+      "ean": "3182550706933",
+      "hasStock": true,
+      "isAddToCartEnabled": true,
+      "isBestDeal": false,
+      "isDefaultPack": true,
+      "isSubscriptionEnabled": true,
+      "packMultiplicator": 1,
+      "price": 45.89,
+      "priceLabel": "45,89 €",
+      "size": "4 kg",
+      "stock": 91,
+      "subscriptionBasePriceLabel": "10,33 €/kg",
+      "subscriptionPrice": 41.3,
+      "subscriptionPriceLabel": "41,30 €",
+      "virtualSku": "229130_1",
+      "wmsCode": "229130"
+    },
+    {
+      "basePrice": 9.15,
+      "basePriceLabel": "9,15 €/kg",
+      "basePriceUnitCode": "KGM",
+      "basePriceUnitText": "kg",
+      "ean": "3182550706940",
+      "hasStock": true,
+      "isAddToCartEnabled": true,
+      "isBestDeal": true,
+      "isDefaultPack": false,
+      "isSubscriptionEnabled": true,
+      "packMultiplicator": 1,
+      "price": 91.49,
+      "priceLabel": "91,49 €",
+      "size": "10 kg",
+      "stock": 30,
+      "subscriptionBasePriceLabel": "8,23 €/kg",
+      "subscriptionPrice": 82.34,
+      "subscriptionPriceLabel": "82,34 €",
+      "virtualSku": "229150_1",
+      "wmsCode": "229150"
+    }
+  ],
+  "category": "pa.productGrid.productCategoryDryFoodForCat"
+}

@@ -1,0 +1,166 @@
+{
+  "key": "mini-adult",
+  "url": "https://www.royalcanin.com/fr/dogs/products/retail-products/mini-adult-3001",
+  "checkedAt": "2026-11-09T17:55:00.771Z",
+  "ids": [
+    "d16",
+    "mq-dog-078"
+  ],
+  "age": "Adulte",
+  "gabarit": "Petite",
+  "besoins": [
+    "Adulte"
+  ],
+  "espece": "chien",
+  "title": "Mini Adult",
+  "description": "Aliment complet pour chiens - Pour chiens adultes de petites races (jusqu’à 10 kg) - À partir de 10 mois",
+  "details": {
+    "description": "ROYAL CANIN® Mini Adult est une formule nutritionnelle complète et équilibrée spécialement conçue pour répondre aux besoins spécifiques de votre chien de petite taille et le soutenir tout au long de sa vie adulte. Cet aliment convient aux chiens de petite taille pesant jusqu’à 10 kg et âgés de plus de 10 mois. \n\nGrâce à une teneur en calories soigneusement adaptée, ces croquettes répondent aux besoins énergétiques élevés de votre chien adulte tout en l’aidant à maintenir un poids idéal. Elles contiennent également un équilibre de nutriments qui contribuent à maintenir des os forts et sains. \n\nCette formule contient une combinaison enrichie en vitamines et nutriments hautement digestibles pour favoriser une digestion maximale et un soutien optimal de la santé. \n\nLes chiens de petite taille peuvent être très exigeants en ce qui concerne leur alimentation. C’est pourquoi, ces croquettes contiennent une sélection d’arômes uniques pour stimuler leur appétit tout en étant adaptées à leurs petites mâchoires. Ainsi, même les chiens les plus difficiles bénéficient des nutriments essentiels dont ils ont besoin. \n\nROYAL CANIN® Mini Adult est également disponible en deux textures humides : mousse et morceaux en sauce. L’association d’aliments secs et humides apporte de la variété à l’alimentation de votre chien, rendant ses repas plus stimulants et attrayants.",
+    "image": ""
+  },
+  "nutritionalInfo": [
+    {
+      "description": "COMPOSITION : farine de blé, protéines de volaille déshydratées, farine de maïs, graisses animales, protéines animales hydrolysées, protéines de porc déshydratées, maïs, orge, blé, gluten de maïs, protéine de pois, substances minérales, pulpe de betterave, huile de soja, produits de levures, fructo-oligosaccharides, huile de poissons, huile d’algues Schizochytrium sp. ",
+      "title": "pa.nutritionalInformation.composition"
+    },
+    {
+      "description": "ADDITIFS (au kg) : Additifs nutritionnels : Vitamine A : 15800 UI, Vitamine D3 : 1000 UI, Fer (3b103) : 34 mg, Iode (3b201, 3b202) : 3,4 mg, Cuivre (3b405, 3b406) : 10,5 mg, Manganèse (3b502, 3b504) : 44 mg, Zinc (3b603, 3b605, 3b606) : 125 mg, Sélénium (3b801, 3b811, 3b812) : 0,09 mg - Conservateurs - Antioxygènes. ",
+      "title": "pa.nutritionalInformation.additives"
+    },
+    {
+      "description": "CONSTITUANTS ANALYTIQUES : Protéine : 27,0 % - Cellulose brute : 1,4 % - Teneur en matières grasses : 16,0 % - Cendres brutes : 6,7 % - Énergie métabolisable : 3916 kcal/kg. ",
+      "title": "pa.nutritionalInformation.analyticalConstituants"
+    },
+    {
+      "description": "For RSA: Guaranteed analysis g/kg: Crude protein (min) 250 - Moisture (max) 125 - Crude fat (min) 140 - Crude fibre (max) 24 - Crude ash (max) 74. Product registration number: XXXXXX - Act 36/1947. For Namibia: N-FF XXXX.",
+      "title": "pa.nutritionalInformation.rsaStatement"
+    },
+    {
+      "description": "MODE D’EMPLOI : voir tableau. N° de lot/N° d’identifiant usine/À utiliser de préférence avant : voir sur l’emballage. À conserver dans un endroit sec et frais.",
+      "title": "pa.nutritionalInformation.legalNotice"
+    },
+    {
+      "html": "<table style=\"width: 419px;\"><thead><tr><th>Poids du chien (kg)</th><th>Vie à l'intérieur - pas d'exercice</th><th>Activité normale<br></th><th>Chiens très actifs<br></th></tr></thead><tbody><tr><td>2</td><td>41 g (3/8 dose)</td><td>47 g (4/8 dose)</td><td>54 g (5/8 dose)</td></tr><tr><td>4</td><td>69 g (6/8 dose)</td><td>80 g (7/8 dose)</td><td>90 g (1 dose)</td></tr><tr><td>6</td><td>93 g (1 dose)</td><td>108 g (1 dose + 1/8 dose)</td><td>122 g (1 dose + 2/8 dose)</td></tr><tr><td>8</td><td>116 g (1 dose + 2/8 dose)</td><td>134 g (1 dose + 3/8 dose)</td><td>152 g (1 dose + 5/8 dose)</td></tr><tr><td>10</td><td>137 g (1 dose + 3/8 dose)</td><td>158 g (1 dose + 5/8 dose)</td><td>180 g (1 dose&nbsp;+ 7/8 dose)</td></tr></tbody></table><table style=\"width: 419px;\"><thead><tr><th>Poids du chien (kg)</th><th>POUCH</th><th>Vie à l'intérieur - pas d'exercice<br></th><th>Activité normale<br></th><th>Chiens très actifs<br></th></tr></thead><tbody><tr><td>2</td><td>1</td><td>21g (2/8 dose)</td><td>27g (2/8 dose)</td><td>34g (3/8 dose)</td></tr><tr><td>4</td><td>1</td><td>49g (4/8 dose)</td><td>59 g (5/8 dose)</td><td>70g (6/8 dose)</td></tr><tr><td>6</td><td>1</td><td>73g (6/8 dose)</td><td>88 g (7/8 dose)</td><td>102g (1 dose + 1/8 dose)</td></tr><tr><td>8</td><td>1</td><td>95g (1 dose)</td><td>114 g (1 dose + 1/8 dose)</td><td>132g (1 dose + 3/8 dose)</td></tr><tr><td>10</td><td>1</td><td>116g (1 dose + 2/8 dose)</td><td>138 g (1 dose + 3/8 dose)</td><td>160g (1 dose + 5/8 dose)</td></tr></tbody></table>",
+      "title": "pa.nutritionalInformation.nutritionalInformationFeedingGuide"
+    }
+  ],
+  "images": [
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/b58b1dc8-f69b-401a-9068-b3f600e032af/b58b1dc8-f69b-401a-9068-b3f600e032af_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/b23585c7-3070-4e6a-a2ab-b1ef00179947/b23585c7-3070-4e6a-a2ab-b1ef00179947_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/2c18efec-5d63-4711-ac8f-b1ef0016f70b/2c18efec-5d63-4711-ac8f-b1ef0016f70b_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/b546fd69-f04d-41a0-a94c-b1ef0016f716/b546fd69-f04d-41a0-a94c-b1ef0016f716_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/c5ec900a-ce3f-48e7-9d42-b1ef0016f69f/c5ec900a-ce3f-48e7-9d42-b1ef0016f69f_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/301ddb10-7bbe-4c9c-86a1-b1ef0016f8e3/301ddb10-7bbe-4c9c-86a1-b1ef0016f8e3_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/2b48b93e-2497-4761-881d-b1ef0016f86a/2b48b93e-2497-4761-881d-b1ef0016f86a_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/d1e09942-6527-4f7a-bba2-b1ef0016f856/d1e09942-6527-4f7a-bba2-b1ef0016f856_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/50b7ad37-486d-4e84-9f90-b1ef0016f78e/50b7ad37-486d-4e84-9f90-b1ef0016f78e_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/611ca1dd-08c2-4e01-9fb8-b1ef0016f751/611ca1dd-08c2-4e01-9fb8-b1ef0016f751_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/53ee02f2-c991-429e-b15c-b1ef0016f675/53ee02f2-c991-429e-b15c-b1ef0016f675_DownloadAsJpg.jpg"
+    },
+    {
+      "alt": "Mini Adult",
+      "url": "https://marspetcareaprimocdn.petcare.global/f49825a1-caa0-426f-bac4-b1ef0016f8fe/f49825a1-caa0-426f-bac4-b1ef0016f8fe_DownloadAsJpg.jpg"
+    }
+  ],
+  "packs": [
+    {
+      "basePrice": 10.69,
+      "basePriceLabel": "10,69 €/kg",
+      "basePriceUnitCode": "KGM",
+      "basePriceUnitText": "kg",
+      "ean": "3182551055672",
+      "hasStock": true,
+      "isAddToCartEnabled": true,
+      "isBestDeal": false,
+      "isDefaultPack": false,
+      "isSubscriptionEnabled": true,
+      "packMultiplicator": 1,
+      "price": 21.38,
+      "priceLabel": "21,38 €",
+      "size": "2 kg",
+      "stock": 118,
+      "subscriptionBasePriceLabel": "9,62 €/kg",
+      "subscriptionPrice": 19.24,
+      "subscriptionPriceLabel": "19,24 €",
+      "virtualSku": "422700_1",
+      "wmsCode": "422700"
+    },
+    {
+      "basePrice": 6.9,
+      "basePriceLabel": "6,90 €/kg",
+      "basePriceUnitCode": "KGM",
+      "basePriceUnitText": "kg",
+      "ean": "3182551055719",
+      "hasStock": true,
+      "isAddToCartEnabled": true,
+      "isBestDeal": false,
+      "isDefaultPack": true,
+      "isSubscriptionEnabled": true,
+      "packMultiplicator": 1,
+      "price": 27.59,
+      "priceLabel": "27,59 €",
+      "size": "4 kg",
+      "stock": 260,
+      "subscriptionBasePriceLabel": "6,21 €/kg",
+      "subscriptionPrice": 24.83,
+      "subscriptionPriceLabel": "24,83 €",
+      "virtualSku": "422720_1",
+      "wmsCode": "422720"
+    },
+    {
+      "basePrice": 6.57,
+      "basePriceLabel": "6,57 €/kg",
+      "basePriceUnitCode": "KGM",
+      "basePriceUnitText": "kg",
+      "ean": "3182551055740",
+      "hasStock": true,
+      "isAddToCartEnabled": true,
+      "isBestDeal": true,
+      "isDefaultPack": false,
+      "isSubscriptionEnabled": true,
+      "packMultiplicator": 1,
+      "price": 52.59,
+      "priceLabel": "52,59 €",
+      "size": "8 kg",
+      "stock": 228,
+      "subscriptionBasePriceLabel": "5,92 €/kg",
+      "subscriptionPrice": 47.33,
+      "subscriptionPriceLabel": "47,33 €",
+      "virtualSku": "422710_1",
+      "wmsCode": "422710"
+    }
+  ],
+  "category": "pa.productGrid.productCategoryDryFoodForDog"
+}
