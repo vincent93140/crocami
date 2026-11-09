@@ -2604,6 +2604,18 @@ for (const product of window.CROCamiCatalog) {
 
 /* SOURCES ET PROFILS ACTUELS COMPLÉMENTAIRES (09/11/2026). */
 const crocamiFollowupSources20261109 = {
+ "mq-dog-064": {
+  sourceRevendeur:"https://www.jardiland.com/p/nutro-grain-free-a-l-agneau-pour-chien-de-moyenne-taille-1574042",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche revendeur Jardiland correspond à Nutro Grain Free Adulte Agneau : elle confirme l’agneau déshydraté à 19 % en premier ingrédient, la composition complète déjà enregistrée, les additifs et le sac de 1,4 kg. La page ne publie pas de constituants analytiques. Les valeurs historiques reprises séparément dans cette fiche ne sont donc ni remplacées ni présentées comme une nouvelle analyse fabricant.",
+  donneesFabricantActuelles:{
+   formule:"Nutro Grain Free Adulte Agneau — produit listé par Jardiland",
+   composition:"Protéine d’agneau déshydratée 19 %, protéines de volaille déshydratées (poulet, dinde, oie et canard), amidon de petits pois, protéines de petits pois, graisse de volaille, amidon de tapioca, pulpe déshydratée de betterave, lentilles, hydrolysat de foie de dinde, huile de tournesol, minéraux et extrait de romarin.",
+   formatsDisponibles:"1,4 kg",
+   additifs:"Vitamine A 9 860 UI/kg, vitamine D3 1 088 UI/kg, cuivre 8,1 mg/kg, iode 2 mg/kg, manganèse 20,7 mg/kg, sélénium 0,21 mg/kg et zinc 58,7 mg/kg."
+  }
+ },
  "mq-cat-007": {
   sourceRevendeur:"https://prom.ua/ua/p2835517481-suhoj-korm-acti.html",
   dateVerificationFabricant:"2026-11-09",
