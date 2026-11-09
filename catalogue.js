@@ -2686,3 +2686,22 @@ for (const [id,archive] of Object.entries(crocamiArchivedManufacturerData)) {
 const mediumSterilisedDuplicate=window.CROCamiCatalog.find(item=>item.id==="mq-dog-079");
 if (mediumSterilisedDuplicate) mediumSterilisedDuplicate.donneesFabricantArchivees=[crocamiArchivedManufacturerData.d06];
 
+/* FICHE FABRICANT ACTUELLE — Advance Adult Mini, vérifiée le 09/11/2026.
+   Le bloc complète les détails de la formule courante; il ne modifie pas les valeurs historiques. */
+const crocamiAdvanceAdultMini20261109 = {
+ formule:"Advance Adult Mini — formule actuelle",
+ proteines:26,matieresGrasses:17,fibres:3,cendres:6.5,omega3:0.3,omega6:3.1,
+ formatsDisponibles:"0,7 kg, 3 kg et 7 kg",
+ ration:"Ration quotidienne recommandée selon l’activité :\nPoids adulte | Activité + | Activité ++ | Activité +++\n1 kg | 25 g | 30 g | 40 g\n3 kg | 55 g | 65 g | 90 g\n5 kg | 80 g | 100 g | 130 g\n7 kg | 105 g | 125 g | 165 g\n10 kg | 135 g | 165 g | 215 g",
+ composition:"Poulet (20 %), protéines déshydratées de volaille, blé complet (10 %), riz (10 %), maïs complet, graisse de volaille, pois déshydratés (4 %), farine de maïs, protéines déshydratées de porc, protéine de maïs, protéines animales hydrolysées (volaille, porc, poisson), pulpe de betterave (2 %), fibre de pois, farines basses de blé, inuline de chicorée (0,8 %), substances minérales, protéines plasmatiques de porc (source naturelle d’immunoglobulines) (0,4 %).",
+ additifs:"Vitamine A 27 000 UI; D3 1 200 UI; vitamine E 500 mg; vitamine C 70 mg; fer 86 mg; iode 1,4 mg; cuivre 8,8 mg; manganèse 40 mg; zinc 148 mg; sélénium 0,1 mg. Additif zootechnique : Bacillus velezensis DSM 1 (1 × 10⁹). Antioxydants."
+};
+for (const id of ["d18","mq-dog-017"]) {
+ const product=window.CROCamiCatalog.find(item=>item.id===id);
+ if (product) {
+  product.donneesFabricantActuelles={...(product.donneesFabricantActuelles||{}),...crocamiAdvanceAdultMini20261109};
+  product.sourceFabricant="https://www.advance-affinity.com/fr/chien/nourriture-chien/adult-mini-1000404.html";
+  product.dateVerificationFabricant="2026-11-09";
+ }
+}
+
