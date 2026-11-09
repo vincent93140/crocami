@@ -92,3 +92,9 @@ Les données publiées par les fabricants priment lorsqu'une fiche officielle ac
 ## Sources de départ et publication
 - Fiches fabricants et revendeurs citées individuellement dans les fiches produit.
 - Publication GitHub Pages : dans **Settings → Pages**, choisir **Deploy from a branch**, branche **main**, dossier **/ (root)**.
+
+## Pages produits et lisibilité mobile
+
+Les fiches statiques sont générées par `node scripts/build-product-pages.mjs` après toute modification des données ou du rendu des fiches. La commande `node scripts/build-product-pages.mjs --check` vérifie que les pages et le sitemap sont à jour. Les références identiques partagent une adresse canonique.
+
+Les pages de `produits/` contiennent leur contenu, leur titre, leur description et leur URL canonique sans dépendre de JavaScript. `sitemap.xml` et `robots.txt` sont générés dans la même opération. Les anciens liens `#produit/…` sont redirigés dans le navigateur vers la nouvelle adresse.

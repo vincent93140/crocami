@@ -5,6 +5,11 @@ on:
     branches: [main]
     paths:
       - "catalogue.js"
+      - "royalcanin*.js"
+      - "marchands.js"
+      - "references-complementaires.js"
+      - "produits/**"
+      - "scripts/build-product-pages.mjs"
       - "fabricants.js"
       - "app.js"
       - "affiliate.js"
@@ -42,6 +47,9 @@ jobs:
 
       - name: Contrôler la cohérence du catalogue
         run: node scripts/audit-catalogue.mjs
+
+      - name: Vérifier les pages produits et le sitemap
+        run: node scripts/build-product-pages.mjs --check
 
       - name: Tester chaque image
         run: node scripts/audit-product-images.mjs

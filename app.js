@@ -4,6 +4,12 @@ const data=window.CROCamiCatalog||[];
 const yearNode=$("#year");if(yearNode)yearNode.textContent=new Date().getFullYear();
 const fmt=n=>{if(n==null)return "Non communiqué";const value=typeof n==="number"?n:Number(String(n).trim().replace(/\s/g,"").replace(",", "."));return Number.isFinite(value)?new Intl.NumberFormat("fr-FR",{maximumFractionDigits:2,useGrouping:false}).format(value):String(n).replace(".",",");};
 const fmtRatio=n=>n==null?"Non communiqué":new Intl.NumberFormat("fr-FR",{maximumFractionDigits:2,useGrouping:false}).format(Number(n));
+function productIdentity(p){return [p.espece,p.marque,p.recette,p.age,p.gabarit].map(x=>String(x||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()).join('|');}
+function productUrl(p){
+ const canonical=data.find(q=>productIdentity(q)===productIdentity(p))||p;
+ const slug=(canonical.marque+' '+canonical.recette).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+ return '/produits/'+slug+'-'+encodeURIComponent(canonical.id)+'/';
+}
 function extractTaurine(p){
  if(p.taurine!=null)return p.taurine;
  const match=String(p.additifs||"").match(/taurine\s*([\d\s,\.]+)\s*(mg\s*\/\s*kg|%)/i);
@@ -145,7 +151,7 @@ function initNutritionAdvisor(){
   }).filter(x=>x.total>=35).sort((a,b)=>b.total-a.total||(b.n.score??0)-(a.n.score??0));
   const results=$("#advisorResults");results.hidden=false;
   if(!ranked.length){results.innerHTML='<div class="advisor-empty"><b>Aucune recette suffisamment proche de ce profil.</b><p>Essayez d’élargir le budget. Le catalogue ne contient peut-être pas encore la recette recherchée.</p></div>';return;}
-  const html=ranked.slice(0,5).map((x,i)=>'<article class="advisor-result-card"><div class="advisor-result-rank">#'+(i+1)+'</div><div class="advisor-result-main"><p class="advisor-result-brand">'+escapeProductText(x.p.marque)+'</p><h3>'+escapeProductText(x.p.recette)+'</h3><div class="advisor-result-meta">'+(x.p.prixKg!=null?fmt(x.p.prixKg)+' €/kg':'Prix non communiqué')+' · '+(x.n.score!=null?'Note Crocami '+x.n.score+'/100':'Note non calculable')+' · couverture '+x.n.confidence+' %</div><p class="advisor-reasons">'+(x.reasons.length?x.reasons.map(escapeProductText).join(' · '):'Correspondance générale avec le profil')+'</p>'+(x.cautions.length?'<p class="advisor-cautions">À vérifier : '+x.cautions.map(escapeProductText).join(' · ')+'</p>':'')+'<a href="#produit/'+encodeURIComponent(x.p.id)+'">Voir la fiche complète →</a></div><div class="advisor-match"><strong>'+x.total+'</strong><span>correspondance</span></div></article>').join("");
+  const html=ranked.slice(0,5).map((x,i)=>'<article class="advisor-result-card"><div class="advisor-result-rank">#'+(i+1)+'</div><div class="advisor-result-main"><p class="advisor-result-brand">'+escapeProductText(x.p.marque)+'</p><h3>'+escapeProductText(x.p.recette)+'</h3><div class="advisor-result-meta">'+(x.p.prixKg!=null?fmt(x.p.prixKg)+' €/kg':'Prix non communiqué')+' · '+(x.n.score!=null?'Note Crocami '+x.n.score+'/100':'Note non calculable')+' · couverture '+x.n.confidence+' %</div><p class="advisor-reasons">'+(x.reasons.length?x.reasons.map(escapeProductText).join(' · '):'Correspondance générale avec le profil')+'</p>'+(x.cautions.length?'<p class="advisor-cautions">À vérifier : '+x.cautions.map(escapeProductText).join(' · ')+'</p>':'')+'<a href="'+productUrl(x.p)+'">Voir la fiche complète →</a></div><div class="advisor-match"><strong>'+x.total+'</strong><span>correspondance</span></div></article>').join("");
   results.innerHTML='<div class="advisor-results-heading"><div><p class="eyebrow">VOTRE SÉLECTION</p><h3>Les recettes les plus proches de son profil</h3></div><span>'+Math.min(5,ranked.length)+' suggestions sur '+candidates.length+' références</span></div>'+html+'<p class="advisor-disclaimer">Cette sélection est une aide au tri, pas une prescription vétérinaire. Le poids seul ne permet pas d’évaluer l’état corporel. En cas de maladie, allergie suspectée, surpoids important ou régime thérapeutique, demandez conseil à votre vétérinaire.</p>';
  }
  animalButtons.forEach(b=>b.addEventListener("click",()=>{advisorAnimal=b.dataset.advisorAnimal;updateAdvisorAnimal();$("#advisorResults").hidden=true;}));
@@ -251,7 +257,7 @@ function cardMetricsMarkup(p){
  return links.length||review||currentReview||archivedReview?'<div class="product-sources"><small>Sources</small>'+links.join("")+review+currentReview+archivedReview+'</div>':"";
 }
 function imageErrorFallback(img){const holder=img.parentElement;if(!holder)return;holder.classList.add("pack-missing");const fallback=document.createElement("span");fallback.className=holder.classList.contains("compare-product-pack")?"compare-pack-fallback":"pack-fallback";fallback.textContent=img.dataset.fallback||"🐾";img.replaceWith(fallback);}
-function card(p){let checked=selected.has(p.id);const pack=p.imageProduit?'<img data-fallback="'+(p.espece==="chien"?"🐶":"🐱")+'" src="'+p.imageProduit+'" alt="Sac de '+p.marque+' — '+p.recette+'" loading="lazy" onerror="imageErrorFallback(this)">':'<span class="pack-fallback">'+(p.espece==="chien"?"🐶":"🐱")+'</span>';return `<article class="product-card"><div class="product-top"><span class="product-animal">${p.espece==="chien"?"🐶 CHIEN":"🐱 CHAT"}</span><label class="compare-check"><input type="checkbox" data-compare="${p.id}" ${checked?"checked":""}> Comparer</label></div><div class="product-identity"><a class="product-visual product-image-link" href="#produit/${encodeURIComponent(p.id)}" aria-label="Voir la fiche de ${p.marque} ${p.recette}" title="Voir la fiche produit">${pack}<span class="image-open-hint">Voir la fiche ↗</span></a><div class="product-names"><div class="product-name-copy"><a class="product-name-link" href="#produit/${encodeURIComponent(p.id)}" aria-label="Ouvrir la fiche de ${p.marque} ${p.recette}" title="Ouvrir la fiche produit"><p class="product-brand">${p.marque}</p><h3>${p.recette}</h3></a></div>${scoreStackMarkup(p)}</div></div>${cardMetricsMarkup(p)}<div class="product-price"><strong>${p.prixSac!=null?fmt(p.prixSac)+" €":"Prix du sac non communiqué"}</strong><span>${p.prixSac!=null?(p.formatKg!=null?fmt(p.formatKg)+" kg · ":"")+"Prix au kg : "+fmt(p.prixKg)+" €/kg":p.prixKg!=null?"Prix moyen indicatif au kg":"Prix non communiqué"}</span></div><a class="product-open-link" href="#produit/${encodeURIComponent(p.id)}">Voir la fiche complète <span>→</span></a></article>`;}
+function card(p){let checked=selected.has(p.id);const pack=p.imageProduit?'<img data-fallback="'+(p.espece==="chien"?"🐶":"🐱")+'" src="'+p.imageProduit+'" alt="Sac de '+p.marque+' — '+p.recette+'" loading="lazy" onerror="imageErrorFallback(this)">':'<span class="pack-fallback">'+(p.espece==="chien"?"🐶":"🐱")+'</span>';return `<article class="product-card"><div class="product-top"><span class="product-animal">${p.espece==="chien"?"🐶 CHIEN":"🐱 CHAT"}</span><label class="compare-check"><input type="checkbox" data-compare="${p.id}" ${checked?"checked":""}> Comparer</label></div><div class="product-identity"><a class="product-visual product-image-link" href="${productUrl(p)}" aria-label="Voir la fiche de ${p.marque} ${p.recette}" title="Voir la fiche produit">${pack}<span class="image-open-hint">Voir la fiche ↗</span></a><div class="product-names"><div class="product-name-copy"><a class="product-name-link" href="${productUrl(p)}" aria-label="Ouvrir la fiche de ${p.marque} ${p.recette}" title="Ouvrir la fiche produit"><p class="product-brand">${p.marque}</p><h3>${p.recette}</h3></a></div>${scoreStackMarkup(p)}</div></div>${cardMetricsMarkup(p)}<div class="product-price"><strong>${p.prixSac!=null?fmt(p.prixSac)+" €":"Prix du sac non communiqué"}</strong><span>${p.prixSac!=null?(p.formatKg!=null?fmt(p.formatKg)+" kg · ":"")+"Prix au kg : "+fmt(p.prixKg)+" €/kg":p.prixKg!=null?"Prix moyen indicatif au kg":"Prix non communiqué"}</span></div><a class="product-open-link" href="${productUrl(p)}">Voir la fiche complète <span>→</span></a></article>`;}
 
 function escapeProductText(value){return String(value??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");}
 function royalCaninDetailsMarkup(p){
@@ -324,15 +330,10 @@ function productDetailMarkup(p){
 }
 function routeProductDetail(){
  const match=location.hash.match(/^#produit\/(.+)$/);
- const section=$("#productDetail");
- if(!section)return;
- if(!match){document.body.classList.remove("product-view");section.hidden=true;document.title="Crocami — Pour leur gamelle, faites le bon choix";return;}
- const id=decodeURIComponent(match[1]),p=data.find(x=>x.id===id);
- if(!p){section.innerHTML='<p>Cette fiche produit est introuvable. <a href="#comparateur">Retour au comparateur</a></p>';section.hidden=false;document.body.classList.add("product-view");return;}
- section.innerHTML=productDetailMarkup(p);section.hidden=false;document.body.classList.add("product-view");
- document.title=p.marque+" "+p.recette+" : composition, prix et note | Crocami";
- const meta=document.querySelector('meta[name="description"]');if(meta)meta.content="Fiche Crocami de "+p.marque+" "+p.recette+" : composition, valeurs nutritionnelles disponibles, prix au kilo, sources et note indicative.";
- window.scrollTo(0,0);
+ if(!match)return;
+ let id;try{id=decodeURIComponent(match[1]);}catch{return;}
+ const p=data.find(x=>x.id===id);
+ if(p)location.replace(productUrl(p));
 }
 window.addEventListener("hashchange",routeProductDetail);
 function render(){let rows=filtered();$("#resultCount").textContent=rows.length+" / "+data.filter(p=>p.espece===animal).length+" références";$("#emptyState").hidden=rows.length>0;$("#results").innerHTML=rows.map(card).join("");$("#results").querySelectorAll("[data-compare]").forEach(el=>el.addEventListener("change",()=>{if(el.checked){if(selected.size>=4){el.checked=false;alert("Vous pouvez comparer 4 produits maximum.");return;}selected.add(el.dataset.compare);}else selected.delete(el.dataset.compare);renderCompare();}));renderCompare();}
@@ -385,5 +386,15 @@ const brandLabels=new Map();for(const p of data){const key=normalizeBrandKey(p.m
 const brands=[...brandLabels.entries()].sort((a,b)=>a[1].localeCompare(b[1],"fr"));$("#brand").innerHTML='<option value="">Toutes les marques</option>'+brands.map(([key,label])=>'<option value="'+key+'">'+label+'</option>').join("");
 renderNeedOptions(animal);
 $("#clearCompare")?.addEventListener("click",()=>{selected.clear();render();});
+// Conserver les filtres et la sélection lors de l'ouverture d'une fiche statique.
+try{
+ const saved=JSON.parse(sessionStorage.getItem('crocami-comparateur')||'null');
+ if(saved&&['chien','chat'].includes(saved.animal)){
+  setAnimal(saved.animal);
+  for(const [id,value] of Object.entries(saved.filters||{})){const field=document.getElementById(id);if(field&&['search','age','size','brand','need','sortBy','maxPriceKg','scoreCategory'].includes(id))field.value=String(value);}
+  selected=new Set((saved.selected||[]).filter(id=>data.some(p=>p.id===id)).slice(0,4));
+ }
+}catch{}
+window.addEventListener('pagehide',()=>{try{sessionStorage.setItem('crocami-comparateur',JSON.stringify({animal,selected:[...selected],filters:Object.fromEntries(['search','age','size','brand','need','sortBy','maxPriceKg','scoreCategory'].map(id=>[id,document.getElementById(id)?.value||'']))}));}catch{}});
 render();
 routeProductDetail();
