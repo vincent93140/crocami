@@ -378,7 +378,7 @@ body{background:var(--brand-background,#285c7c)!important;color:#fff}
 .topbar nav a{color:#f8f4ec}
 .topbar nav a:hover,.topbar nav a.active{color:#ffb347}
 .topbar .nav-cta{background:#f39a24!important;color:#203f58!important}
-.intro-compact{background:linear-gradient(110deg,#285c7c 0%,#285c7c 72%,#e98919 72%,#f39a24 100%)!important}
+.intro-compact{background:linear-gradient(110deg,#173f5f 0%,#173f5f 72%,#e98919 72%,#f39a24 100%)!important}
 .intro-compact h1,.intro-compact>div>p:not(.eyebrow){color:#fff!important}
 .intro-compact h1 em,.intro-compact .eyebrow{color:#ffb347!important}
 .search-section{background:#285c7c!important;color:#fff}
@@ -447,7 +447,7 @@ footer{background:#173f5f!important;color:#fff!important;border-top:4px solid #f
 footer p,footer>span{color:#f8f4ec!important}
 footer .brand img{background:transparent!important;border:0!important}
 @media(max-width:700px){
-  .intro-compact{background:linear-gradient(145deg,#285c7c 0%,#285c7c 76%,#f39a24 76%,#f39a24 100%)!important}
+  .intro-compact{background:linear-gradient(145deg,#173f5f 0%,#173f5f 76%,#f39a24 76%,#f39a24 100%)!important}
   .results-head h3{color:#fff!important}
   .product-card{background:#fffaf1!important}
 }
@@ -805,3 +805,20 @@ footer .footer-links a:hover{color:#ffb347}
 
 /* Informations Royal Canin : sources et détails nutritionnels. */
 .royal-official-details h3{color:var(--brand-blue);font-size:15px;margin:24px 0 12px}.royal-official-details .detail-data-row small{display:block;margin-top:5px;font-size:9px;line-height:1.4;color:var(--text-muted)}.royal-official-details .detail-data-row b{flex-shrink:0}.manufacturer-benefits{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:14px 0}.manufacturer-benefits li{padding:10px 13px;background:var(--surface-soft);border:1px solid var(--surface-border);border-radius:9px;color:var(--brand-blue);font-size:11px;font-weight:700}.retailer-detail-record{margin-top:18px;border-top:1px solid var(--surface-border);padding-top:16px}.retailer-detail-record summary{cursor:pointer;font-size:14px;font-weight:800;color:var(--brand-blue)}.retailer-detail-record .retailer-differences{font-size:12px;color:#78501a}.source-text-link,.royal-official-details .detail-section-heading a{color:var(--brand-blue);font-weight:700;text-decoration:underline;text-underline-offset:3px}.royal-official-details .detail-data-row{min-width:0;flex-wrap:wrap;gap:6px}.royal-official-details .feeding-table-scroll{margin-bottom:0}
+
+/* Lecture mobile : indications nutritionnelles à 12 px minimum. */
+@media(max-width:760px){
+ .product-metrics{gap:9px}.product-metrics>div{padding:12px 8px}
+ .product-metrics small,.product-metrics span{font-size:12px;line-height:1.5}
+ .product-metrics b{font-size:17px;line-height:1.4}.product-metrics .metric-unknown b{font-size:12px;line-height:1.5}
+ .product-card label,.product-date,.product-sources,.product-source-review,.product-source-review p,.product-open-link{font-size:12px;line-height:1.6}
+ .detail-data-row{min-width:0;flex-wrap:wrap;padding:12px;gap:8px}
+ .detail-data-row span,.detail-data-row b,.royal-official-details .detail-data-row small{font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+ .detail-data-row b{font-size:14px}.detail-data-row span{max-width:100%}
+ .detail-section-heading p:not(.eyebrow),.detail-muted,.detail-two-columns p,.detail-meta-grid span,.detail-meta-grid b,.detail-criteria span,.detail-criteria b,.detail-criteria small,.detail-score>b,.detail-score>span,.detail-price-line span,.detail-chip{font-size:12px;line-height:1.6}
+ .detail-hero .detail-heading h1{font-size:18px;line-height:1.4}
+ .audit-row-main>b,.audit-heading small,.audit-status,.audit-value,.audit-row>small,.audit-row p,.audit-tag,.audit-foot,.global-score-copy b,.global-score-copy small,.global-score-explain,.global-score-foot,.global-score-criteria>div>span,.global-score-criteria>div>small,.global-score-reliability span{font-size:12px;line-height:1.5}
+ .comparison table,.comparison th,.comparison td{font-size:12px!important;line-height:1.5}.comparison-legend,.comparison-row-hint{font-size:12px}.comparison-best-label{font-size:10px}
+ .merchant-table th,.merchant-table td,.merchant-table td small,.detail-source-links a,.manufacturer-benefits li{font-size:12px;line-height:1.5}
+}
+.product-directory{max-width:1100px;margin:30px auto;padding:24px;background:var(--surface);border-radius:16px;color:var(--text)}.product-directory h1,.product-directory h2{color:var(--brand-blue)}.product-directory ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;list-style:none;padding:0}.product-directory a{display:block;padding:12px;color:var(--brand-blue);text-decoration:underline;line-height:1.6}.product-directory .directory-back{display:inline-block;background:var(--brand-orange);color:var(--brand-navy);border-radius:8px;font-weight:800}@media(max-width:600px){.product-directory{margin:16px 12px;padding:18px}.product-directory ul{grid-template-columns:1fr}}
