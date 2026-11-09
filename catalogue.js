@@ -2613,7 +2613,16 @@ const crocamiFollowupSources20261109 = {
   sourceFabricant:"https://cf.franklinpetfood.com/products/saumon-courge-camomille",
   verificationFabricant:"formule_actuelle_différente",
   dateVerificationFabricant:"2026-11-09",
-  noteFabricant:"La recette Franklin actuellement publiée « Saumon, courge, camomille » est destinée aux chats adultes stérilisés et diffère de la recette historique saumon, patate douce et asperge de cette fiche. Profil fabricant actuel séparé : protéines 34 %, glucides 29 %, matières grasses 14 %, cendres 8,5 %, fibres 4 %, humidité 10 %, calcium 1,1 %, phosphore 0,8 %, rapport Ca/P publié 1,38 (calcul 1,375), oméga-6 0,8 %, oméga-3 1,2 %, énergie 3 630 kcal/kg et RPC fabricant 94 g/Mcal. La page indique magnésium 0,04 %, taurine 2 150 mg/kg et formats 1, 3 et 6 kg. Les champs historiques ne sont pas remplacés."
+  noteFabricant:"La recette Franklin actuellement publiée « Saumon, courge, camomille » est destinée aux chats adultes stérilisés et diffère de la recette historique saumon, patate douce et asperge de cette fiche. Profil fabricant actuel séparé : protéines 34 %, glucides 29 %, matières grasses 14 %, cendres 8,5 %, fibres 4 %, humidité 10 %, calcium 1,1 %, phosphore 0,8 %, rapport Ca/P publié 1,38 (calcul 1,375), oméga-6 0,8 %, oméga-3 1,2 %, énergie 3 630 kcal/kg et RPC fabricant 94 g/Mcal. La page indique magnésium 0,04 %, taurine 2 150 mg/kg et formats 1, 3 et 6 kg. Les champs historiques ne sont pas remplacés.",
+  donneesFabricantActuelles:{
+   formule:"Franklin Saumon, courge, camomille — recette actuelle pour chat adulte stérilisé",
+   proteines:34,matieresGrasses:14,fibres:4,cendres:8.5,humidite:10,glucides:29,
+   calcium:1.1,phosphore:0.8,ratioCalciumPhosphore:1.375,magnesium:0.04,
+   omega3:1.2,omega6:0.8,energie:3630,rpc:94,taurine:2150,
+   composition:"Saumon 70 % (protéines de saumon 34 %, saumon frais 14 %, protéines hydrolysées de saumon 14 %, huile de saumon 8 %), pois 12 %, pois chiches 5 %, courge 5 %, lignocellulose 2 %, psyllium 2 %, chlorure de sodium 2 %, chlorure de potassium 1 %, camomille 0,5 %, FOS, MOS, yucca et probiotiques.",
+   formatsDisponibles:"1 kg, 3 kg et 6 kg",
+   additifs:"Taurine 2 150 mg/kg; magnésium 0,04 %; FOS 120 mg/kg; MOS 140 mg/kg; yucca 80 mg/kg; vitamines et minéraux listés par le fabricant."
+  }
  },
  "mq-cat-037": {
   sourceRevendeur:"https://www.goldeneaglepetfoods.ee/toode/60?lang=en",
