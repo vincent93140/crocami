@@ -404,8 +404,8 @@ body{background:#0b416d!important;color:#fff}
 .product-brand{color:#1266a6!important}
 .product-price strong{color:#d87912!important}
 .product-visual{background:#fff3df!important;border-color:#e8c99c!important}
-.product-metrics>div{background:#f4e7d2!important;border-color:#e5cfad!important}
-.product-metrics b{color:#173b59!important}
+/* Les couleurs nutritionnelles sont définies par les classes metric-*. */
+
 .product-metrics small{color:#64788a!important}
 .score-bubble{border-color:#fffaf1}
 .global-score-card,.global-score-detail,.nutrition-audit{background:#f5ead9!important;color:#173b59!important;border-color:#e5cba7!important}
