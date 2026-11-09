@@ -2423,3 +2423,100 @@ for (const product of window.CROCamiCatalog) {
   product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
  }
 }
+
+/* SOURCES FABRICANTS ET REVENDEURS COMPLEMENTAIRES (09/11/2026). */
+const crocamiVerifiedSourceAdditions20261109 = {
+ "mq-cat-014": {
+  sourceFabricant:"https://amitypetfood.com/producto/chicken-rice-cats-sterilized-10-15-kg-500-g/",
+  sourceRevendeur:"https://zooshop.fr/produit/amity-premium-poulet-et-riz-pour-chat-adulte-sterilise/",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  humidite:8,energie:3669,taurine:1200,
+  noteFabricant:"La page officielle Amity Chicken & Rice Cats Sterilized concorde avec la référence historique sur les 40 % de viande déshydratée (dont 14 % de poulet) et les analyses protéines 35 %, matières grasses 13 %, fibres 5 %, cendres 6,9 % et humidité 8 %. Le revendeur Zooshop publie l’énergie métabolisable à 3 669 kcal/kg et confirme taurine 1 200 mg/kg. Calcium, phosphore et omégas ne sont pas chiffrés sur les sources consultées; ils restent non communiqués.",
+  statutDonnees:"Référence et principaux constituants confirmés par Amity; énergie complétée par un revendeur. Minéraux et omégas non chiffrés."
+ },
+ "mq-cat-015": {
+  sourceFabricant:"https://www.anifit.ch/fr/shop/catalog/article/cat-dry/information/datasheet",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche officielle ANiFiT porte actuellement le nom Cat Menu Dry Basic. Sa recette actuelle diffère des données historiques Crocami : l’étiquette fabricant indique notamment viande séchée/hachée 45,9 % (76 % poulet + 28 % porc), puis maïs et riz. Les constituants actuels et l’énergie sont isolés ci-dessous; ils ne remplacent pas l’historique. Le fabricant publie aussi les glucides NFE/ENA (38 %) et une ration indicative de 16 g/kg de poids corporel par jour.",
+  statutDonnees:"Fiche officielle ANiFiT actuelle documentée séparément; l’identité exacte avec la formule historique n’est pas confirmée.",
+  donneesFabricantActuelles:{
+   formule:"ANiFiT Cat Menu Dry Basic — fiche officielle actuelle",
+   proteines:31,matieresGrasses:14,fibres:1.7,cendres:6.3,humidite:9,
+   calcium:1.3,phosphore:0.9,ratioCalciumPhosphore:1.4444444444,
+   glucides:38,energie:3610,taurine:640,
+   composition:"Viande séchée et hachée 45,9 % (76 % poulet, 28 % porc selon le fabricant), maïs 21,2 %, riz 19 %, graisse animale 6,4 %, pulpe de betterave, graines de lin, protéines de petit-lait, minéraux, hémoglobine et levure.",
+   formatsDisponibles:"Sac 2 kg; lot de 3 × 2 kg",
+   ration:"16 g/kg de poids corporel par jour (repère fabricant)",
+   additifs:"Taurine 640 mg/kg; vitamines A, D3, E et oligo-éléments publiés par le fabricant."
+  }
+ },
+ "mq-cat-039": {
+  sourceFabricant:"https://www.granatapet.de/no.-1-thunfisch-6-x-300-g-4260165185783",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La page officielle GranataPet Symphonie No. 1 Thunfisch confirme les ingrédients repères et les analyses historiques de la référence : protéines 31 %, matières grasses 20 %, fibres 4,5 %, cendres 7,8 %, calcium 1,35 % et phosphore 1,1 %. Elle publie une humidité de 10 % (au lieu de 8 % dans le relevé historique), une énergie de 381 kcal/100 g (contre 396 kcal/100 g dans l’historique), taurine 2 500 mg/kg et L-carnitine 500 mg/kg. Les différences sont gardées dans le profil officiel distinct.",
+  statutDonnees:"Fiche officielle correspondant à Symphonie No. 1 au thon; écarts d’humidité et d’énergie conservés à part.",
+  donneesFabricantActuelles:{
+   formule:"GranataPet Symphonie No. 1 Thunfisch — fiche officielle actuelle",
+   proteines:31,matieresGrasses:20,fibres:4.5,cendres:7.8,humidite:10,
+   calcium:1.35,phosphore:1.1,ratioCalciumPhosphore:1.2272727273,
+   energie:3810,taurine:2500,lCarnitine:500,
+   composition:"Thon 15 %, viande de volaille séchée 15 %, graisse de volaille, pomme de terre, patate douce, pois, crevettes 5 %, graines de grenade 5 %, huile de saumon 2 %, cellulose, herbe à chat, luzerne et cranberry.",
+   formatsDisponibles:"Page fabricant consultée : lot de 6 sachets de 300 g",
+   additifs:"Taurine 2 500 mg/kg, L-carnitine 500 mg/kg, vitamines A, D3, E, cuivre, zinc, iode et manganèse selon le fabricant."
+  }
+ },
+ "mq-cat-056": {
+  sourceFabricant:"https://www.pro-nutrition.flatazor.com/media/productPDF/20170622_FT_Crocktail_st_rilis_light_GB_1.pdf",
+  sourceDocumentFabricant:"https://www.pro-nutrition.flatazor.com/media/productPDF/20170622_FT_Crocktail_st_rilis_light_GB_1.pdf",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  calcium:1.1,phosphore:0.8,ratioCalciumPhosphore:1.375,
+  sodium:0.47,potassium:0.68,magnesium:0.1,
+  omega3:0.69,omega6:2.03,epaDha:0.006,taurine:1700,lCarnitine:50,
+  noteFabricant:"La fiche technique officielle Crocktail Sterilised and/or Light consultée donne la même recette et les mêmes analyses de base que la référence Crocami : protéines 34 %, matières grasses 10 %, fibres 4,5 %, cendres 7 %, avec 28 % minimum de protéines animales déshydratées. Elle publie calcium 1,1 %, phosphore 0,8 %, sodium 0,47 %, potassium 0,68 %, magnésium 0,1 %, taurine 1 700 mg/kg et L-carnitine 50 mg/kg. Les acides linoléique (20,3 g/kg) et alpha-linolénique (6,9 g/kg) sont convertis en 2,03 % d’oméga-6 et 0,69 % d’oméga-3; EPA+DHA 0,06 g/kg est converti en 0,006 %. L’énergie n’est pas publiée dans cette fiche et reste absente.",
+  statutDonnees:"Fiche technique fabricant officielle; teneurs absentes, dont énergie, non extrapolées."
+ },
+ "mq-cat-060": {
+  sourceFabricant:"https://www.simpsonspremium.com/products/adult-cat-mixed-meat-fish",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  calcium:2.24,phosphore:1.84,ratioCalciumPhosphore:1.2173913043,
+  noteFabricant:"La page officielle Simpsons Premium Adult Cat Mixed Meat & Fish confirme la recette (poulet, hareng, saumon et dinde) et les analyses historiques de base : protéines 41 %, matières grasses 19 %, fibres 1,5 %, cendres 11,5 %. Elle donne aussi calcium 2,24 % et phosphore 1,84 %; le ratio 1,217 est calculé à partir de ces deux valeurs. La page ne chiffre ni l’énergie, ni l’humidité, ni les omégas; ces champs restent non communiqués.",
+  statutDonnees:"Fiche officielle Simpsons concordante; calcium/phosphore ajoutés et ratio calculé."
+ },
+ "mq-dog-087": {
+  sourceRevendeur:"https://zoola.fr/p/chien/alimentation-friandises-chien/croquettes-chien/true-instinct-high-meat-medium-maxi-adult-poulet/",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  fibres:2.5,omega3:0.3,omega6:2.9,
+  noteFabricant:"La fiche revendeur Zoola pour True Instinct High Meat Medium Maxi Adult Poulet reprend la même composition repère (33 % de poulet désossé et 32 % de poulet déshydraté) et les valeurs de la référence : protéines 39 %, matières grasses 21 %, fibres 2,5 %, cendres 7 %, oméga-3 0,3 % et oméga-6 2,9 %. Aucune teneur en humidité, calcium, phosphore ou énergie fabricant n’est publiée sur cette fiche; ces données restent absentes.",
+  statutDonnees:"Fiche revendeur correspondant à la recette poulet; fibres et omégas confirmés."
+ },
+ "mq-cat-068": {
+  sourceFabricant:"https://www.ultrapremiumdirect.com/produits/croquettes-sans-cereales-pour-chat-adulte-sterilise-ou-d-interieur/",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche officielle Ultra Premium Direct identifie les croquettes sans céréales pour chat adulte stérilisé ou d’intérieur. La recette actuelle publie protéines 43 %, matières grasses 15 %, fibres 2,5 %, cendres 8,5 %, humidité 8 %, calcium 1,4 %, phosphore 1 %, énergie 3 864 kcal/kg et taurine 1 500 mg/kg. Ces données actuelles sont séparées de l’historique Crocami (notamment cendres 9 % et composition différente). La fiche officielle donne également la composition, les additifs, la ration et les formats de 3 et 7 kg.",
+  statutDonnees:"Fiche officielle actuelle correspondant au profil chat stérilisé/d’intérieur; valeurs séparées des données historiques.",
+  donneesFabricantActuelles:{
+   formule:"Ultra Premium Direct Sans céréales Chat Adulte Stérilisé ou d’intérieur — fiche officielle actuelle",
+   proteines:43,matieresGrasses:15,fibres:2.5,cendres:8.5,humidite:8,
+   calcium:1.4,phosphore:1,ratioCalciumPhosphore:1.4,energie:3864,taurine:1500,lCarnitine:300,
+   composition:"Protéines de poulet déshydratées (33 %), pois (14 %), amidon de pomme de terre (12 %), protéines de porc déshydratées (7 %), protéines de poulet hydrolysées (6,5 %), graisse de poulet (6 %), protéines de saumon déshydratées (5 %), tapioca, pulpe de betterave, huile de saumon, œuf, lin, FOS, MOS, glucosamine, chondroïtine et plantes.",
+   formatsDisponibles:"3 kg et 7 kg",
+   ration:"3 kg : 40 g/j; 4 kg : 50 g/j; 5 kg : 60 g/j; 6 kg : 65 g/j; 7 kg : 70 g/j (table fabricant)",
+   additifs:"Taurine 1 500 mg/kg; L-carnitine 300 mg/kg; DL-méthionine 5 000 mg/kg; vitamines A, D3, E et oligo-éléments publiés par le fabricant."
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiVerifiedSourceAdditions20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ if (update.donneesFabricantActuelles) {
+  product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+ }
+}
