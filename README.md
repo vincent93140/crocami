@@ -90,6 +90,5 @@ Les données publiées par les fabricants priment lorsqu'une fiche officielle ac
 - `reports/product-image-audit.csv` et `reports/product-image-audit-summary.json` : contrôle technique de toutes les URL d'images.
 
 ## Sources de départ et publication
-- Jeu de données MeilleuresCroquettes publié sur data.gouv.fr, licence CC BY 4.0; relevés de prix datés du 1er novembre 2026.
 - Fiches fabricants et revendeurs citées individuellement dans les fiches produit.
 - Publication GitHub Pages : dans **Settings → Pages**, choisir **Deploy from a branch**, branche **main**, dossier **/ (root)**.

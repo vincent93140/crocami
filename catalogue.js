@@ -1,4 +1,4 @@
-/* Données de départ Crocami — source ouverte MeilleuresCroquettes, CC BY 4.0.
+/* Données de départ Crocami.
    Relevés de prix datés du 01/11/2026 (sauf mention contraire).
    Les champs non publiés dans ce jeu de données restent null : ne pas les déduire. */
 window.CROCamiCatalog = [
@@ -45,8 +45,8 @@ window.CROCamiCatalog = [
 ].map(([id,espece,marque,recette,age,besoins,gabarit,formatKg,prixSac,prixKg,proteines,matieresGrasses,fibres,humidite,premierIngredient,noteComposition])=>({
  id,espece,marque,recette,age,besoins:besoins.split("|"),gabarit,formatKg,prixSac,prixKg,proteines,proteinesMS:null,matieresGrasses,fibres,humidite,premierIngredient,noteComposition,scoreCrocami:null,
  cendres:null,glucides:null,calcium:null,phosphore:null,magnesium:null,energie:null,compositionComplete:null,additifs:null,ration:null,
- vendeur:"zooplus.fr",datePrix:"2026-11-01",sourceDonnees:"MeilleuresCroquettes — baromètre mensuel publié sur data.gouv.fr (CC BY 4.0)",sourceDataset:"https://www.data.gouv.fr/datasets/prix-au-kilo-et-composition-des-croquettes-pour-chiens-et-chats-en-france",
- sourceFiche:espece==="chien"?"https://meilleurescroquettes.com/":"https://meilleurescroquettes.com/",
+ vendeur:"zooplus.fr",datePrix:"2026-11-01",sourceDonnees:null,sourceDataset:null,
+ sourceFiche:null,
  urlVendeur:"https://www.zooplus.fr/"
 }));
 
