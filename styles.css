@@ -301,7 +301,7 @@ footer .brand img{background:#fffdf8;border:2px solid #f39a24}
 
 /* Fond général bleu profond et orange — blanc réservé aux contenus */
 :root{--ink:#173653;--muted:#55718b;--cream:#f7ead5;--paper:#fffaf1;--green:#2e6b96;--green2:#e2edf4;--orange:#f39a24;--line:#b9d1e4}
-body{background:#0e4778;color:#fff}main{background:#0e4778}
+body{background:#0e4778;color:#fff}main{background:var(--brand-background,#285c7c)}
 .topbar{background:#173f5f;border-bottom:3px solid #f39a24}
 .intro-compact{background:linear-gradient(115deg,#0b4d83 0%,#2e6b96 68%,#e98b19 68%,#f39a24 100%);color:#fff}
 .search-section{background:#285c7c;color:#fff}
@@ -373,12 +373,12 @@ footer a:hover{
   --line:#d9c6a8;
 }
 html{scroll-behavior:smooth}
-body{background:#204c6b!important;color:#fff}
+body{background:var(--brand-background,#285c7c)!important;color:#fff}
 .topbar{background:#173f5f!important;border-bottom:3px solid #f39a24!important}
 .topbar nav a{color:#f8f4ec}
 .topbar nav a:hover,.topbar nav a.active{color:#ffb347}
 .topbar .nav-cta{background:#f39a24!important;color:#203f58!important}
-.intro-compact{background:linear-gradient(110deg,#245574 0%,#2e6b96 72%,#e98919 72%,#f39a24 100%)!important}
+.intro-compact{background:linear-gradient(110deg,#285c7c 0%,#285c7c 72%,#e98919 72%,#f39a24 100%)!important}
 .intro-compact h1,.intro-compact>div>p:not(.eyebrow){color:#fff!important}
 .intro-compact h1 em,.intro-compact .eyebrow{color:#ffb347!important}
 .search-section{background:#285c7c!important;color:#fff}
@@ -447,7 +447,7 @@ footer{background:#173f5f!important;color:#fff!important;border-top:4px solid #f
 footer p,footer>span{color:#f8f4ec!important}
 footer .brand img{background:transparent!important;border:0!important}
 @media(max-width:700px){
-  .intro-compact{background:linear-gradient(145deg,#245574 0%,#2e6b96 76%,#f39a24 76%,#f39a24 100%)!important}
+  .intro-compact{background:linear-gradient(145deg,#285c7c 0%,#285c7c 76%,#f39a24 76%,#f39a24 100%)!important}
   .results-head h3{color:#fff!important}
   .product-card{background:#fffaf1!important}
 }
@@ -743,7 +743,7 @@ footer .footer-links a:hover{color:#2e6b96;text-decoration:underline;text-underl
 
 /* Palette commune : navigation marine, surfaces crème, actions orange. */
 :root{
- --brand-navy:#173f5f;--brand-blue:#2e6b96;--brand-orange:#f39a24;
+ --brand-background:#285c7c;--brand-navy:#173f5f;--brand-blue:#2e6b96;--brand-orange:#f39a24;
  --surface:#fffaf1;--surface-soft:#edf3f7;--surface-border:#cbdce7;
  --text:#203f58;--text-muted:#546e81;
  --ink:var(--text);--muted:var(--text-muted);--paper:var(--surface);--line:var(--surface-border);
