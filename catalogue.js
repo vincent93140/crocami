@@ -2520,3 +2520,121 @@ for (const product of window.CROCamiCatalog) {
   product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
  }
 }
+
+/* PROFILS FABRICANT ACTUELS POUR RÉFÉRENCES HISTORIQUES DISTINCTES (09/11/2026). */
+const crocamiCurrentProfilesFollowup20261109 = {
+ "mq-dog-034": {
+  sourceFabricant:"https://www.babin-nutrition.com/croquettes-chiens-gamme-signature/15-70-adulte-perte-de-poids-poulet.html",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche officielle BAB’IN actuelle « Adulte Perte de Poids – Poulet » est une recette distincte de l’ancienne référence Bab’in Selective light conservée dans les champs historiques : la recette actuelle commence par 39 % de protéines de poulet déshydratées (contre 28 % de protéines de volaille dans l’ancienne liste). Profil actuel publié : protéines 34 %, matières grasses 9 %, humidité 8,5 %, cendres 7,5 %, cellulose 5,4 %, fibres alimentaires totales 13 %, ENA 34,6 %, amidon 20 %, calcium 1,4 %, phosphore 1 %, sodium 0,24 %, magnésium 0,16 %, oméga-3 0,4 %, oméga-6 1,4 %, EPA+DHA 0,3 %, énergie 330,8 kcal/100 g (3 308 kcal/kg), RPC fabricant 102,8 g/Mcal, taurine 500 mg/kg, L-carnitine 400 mg/kg et glucosamine + chondroïtine 1 100 mg/kg. Formats officiels : 2 kg et 12 kg. Les anciennes analyses restent inchangées.",
+  statutDonnees:"Profil fabricant actuel ajouté séparément; ne remplace pas la référence historique Selective.",
+  donneesFabricantActuelles:{
+   formule:"BAB’IN LAB Adulte Perte de Poids – Poulet, fiche officielle actuelle",
+   proteines:34,matieresGrasses:9,fibres:5.4,fibresAlimentairesTotales:13,cendres:7.5,humidite:8.5,
+   glucides:34.6,amidon:20,calcium:1.4,phosphore:1,ratioCalciumPhosphore:1.4,
+   sodium:0.24,magnesium:0.16,omega3:0.4,omega6:1.4,epaDha:0.3,
+   energie:3308,rpc:102.8,taurine:500,lCarnitine:400,glucosamineChondroitine:1100,
+   composition:"Protéines de poulet déshydratées 39 %, riz blanc de Camargue, fécule de pomme de terre, pulpe de betterave, protéine de maïs, lignocellulose, graisse de canard, levure de bière 3 %, hydrolysat de protéines animales 2 %, huile d’anchois et sardines 1 %, glucosamine, levure Saccharomyces cerevisiae, sulfate de chondroïtine et plantes.",
+   formatsDisponibles:"2 kg et 12 kg",
+   additifs:"Taurine 500 mg/kg; L-carnitine 400 mg/kg; glucosamine + sulfate de chondroïtine 1 100 mg/kg; vitamines et oligo-éléments listés sur la fiche officielle."
+  }
+ },
+ "mq-cat-067": {
+  sourceFabricant:"https://www.ultima-affinity.com/row/en/cat/cat-food/no-grain-turkey-1000350.html",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La page officielle Affinity Ultima Nature No Grain with Turkey décrit la formule adulte actuelle à la dinde fraîche française (20 %), distincte de la fiche historique Crocami (notamment 22 % de dinde et analyses historiques différentes). Valeurs actuellement publiées : protéines 36 %, matières grasses 16 %, fibres 2,5 %, cendres 8 %, oméga-3 0,5 %, taurine ajoutée 1 200 mg/kg. Formats actuel : 1,1 kg; ration publiée : 40–65 g pour 2–4 kg, 65–85 g pour 4–6 kg, 85–100 g pour 6–8 kg. La fiche officielle ne chiffre pas humidité, calcium, phosphore, oméga-6 ni énergie; ces champs ne sont pas estimés. Les données historiques sont conservées séparément.",
+  statutDonnees:"Profil officiel actuel ajouté à part; les valeurs manquantes restent non communiquées sur la page consultée.",
+  donneesFabricantActuelles:{
+   formule:"Ultima Nature No Grain with Turkey — fiche officielle actuelle (chat adulte non stérilisé)",
+   proteines:36,matieresGrasses:16,fibres:2.5,cendres:8,omega3:0.5,taurine:1200,
+   composition:"Dinde fraîche d’origine française 20 % (os, viande et peau), protéines de porc déshydratées, protéines de volaille déshydratées, pois déshydratés 13 %, farine de pois, pomme de terre déshydratée 5 %, saindoux, protéines hydrolysées, pulpe de betterave, huile de poisson 0,6 %, carotte, pomme et minéraux.",
+   formatsDisponibles:"1,1 kg",
+   ration:"2–4 kg : 40–65 g/j; 4–6 kg : 65–85 g/j; 6–8 kg : 85–100 g/j.",
+   additifs:"Taurine 1 200 mg/kg; vitamine A 27 000 UI/kg, D3 1 200 UI/kg, E 400 mg/kg, C 70 mg/kg; chlorure d’ammonium 5 g/kg."
+  }
+ },
+ "mq-cat-072": {
+  sourceFabricant:"https://www.whiskas.co.uk/cat-food/dry-cat-food/classics/whiskas-cat-dry-chicken-adult-7kg-3-8kg-1-9kg-800g-300g",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La page officielle WHISKAS UK pour Adult with Chicken correspond au produit adulte au poulet et à la liste d’ingrédients de la fiche Crocami (dont 4 % de poulet dans les croquettes brunes et pulpe de betterave 2 %), mais publie une analyse actuelle différente de l’analyse historique conservée : protéines 30 %, matières grasses 11,5 %, fibres 1,9 %, cendres 9,1 %, calcium 1,5 %, phosphore 0,97 % (rapport Ca/P calculé : 1,55), taurine 1 090 mg/kg. Formats : 300 g, 800 g, 1,9 kg, 3,8 kg et 7 kg. Humidité et énergie ne figurent pas sur cette page; elles restent non communiquées. Le profil actuel n’écrase pas l’ancien.",
+  statutDonnees:"Profil fabricant actuel séparé des valeurs nutritionnelles historiques.",
+  donneesFabricantActuelles:{
+   formule:"WHISKAS Cat Dry with Chicken Adult — fiche officielle britannique actuelle",
+   proteines:30,matieresGrasses:11.5,fibres:1.9,cendres:9.1,calcium:1.5,phosphore:0.97,
+   ratioCalciumPhosphore:1.5463917526,taurine:1090,
+   composition:"Céréales; viandes et sous-produits animaux (dont poulet 4 % dans les croquettes brunes); huiles et graisses; sous-produits végétaux (dont pulpe de betterave déshydratée 2 %); extraits de protéines végétales; minéraux; levure; poissons et sous-produits de poissons; légumes; sucres divers.",
+   formatsDisponibles:"300 g, 800 g, 1,9 kg, 3,8 kg et 7 kg",
+   additifs:"Taurine 1 090 mg/kg; vitamines D3 750 UI/kg et E 73,9 mg/kg; oligo-éléments publiés par le fabricant."
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiCurrentProfilesFollowup20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+}
+
+/* FICHE REVENDEUR POUR TRUE INSTINCT HIGH MEAT CHAT (09/11/2026). */
+const crocamiTrueInstinctCatCurrent20261109 = {
+ "mq-cat-065": {
+  sourceRevendeur:"https://soysuper.com/p/high-meat-cat-adult-pienso-para-gatos-adultos-con-ingredientes-naturales-proteicos-bolsa-1-kg-con-pollo-pavo-y-pato-sin-cereales-true-instinct-bolsa-1-kg",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche du revendeur Soysuper « True Instinct High Meat Cat Adult au poulet » reprend la recette du catalogue, dont 33 % de poulet désossé et 33 % de poulet déshydraté. Son profil actuel indique protéines 40 %, matières grasses 21 %, fibres 2,5 %, cendres 7,5 %, oméga-3 0,3 % et oméga-6 4 %. Il ne publie pas humidité, calcium, phosphore ni énergie. Ces valeurs commerciales récentes sont affichées dans un profil distinct des données historiques; les nutriments absents ne sont pas extrapolés.",
+  statutDonnees:"Fiche de revendeur correspondant à la recette High Meat Cat Chicken; les analyses actuelles sont séparées de l’historique.",
+  donneesFabricantActuelles:{
+   formule:"True Instinct High Meat Cat Adult Chicken — valeurs de la fiche revendeur Soysuper",
+   proteines:40,matieresGrasses:21,fibres:2.5,cendres:7.5,omega3:0.3,omega6:4,
+   composition:"Poulet désossé 33 %, poulet déshydraté 33 %, pois déshydratés, farine de pois, graisse animale 6 %, pomme de terre déshydratée, hydrolysat protéique 2,5 %, chicorée, pois chiches, huile de poisson 0,5 %, minéraux, fruits, légumes et plantes.",
+   formatsDisponibles:"1 kg et 7 kg",
+   additifs:"La fiche vendeur indique vitamines A, D3, E et C ainsi que fer, iode, cuivre, manganèse, zinc et sélénium; les quantités complètes sont consultables sur sa page produit."
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiTrueInstinctCatCurrent20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+}
+
+/* SOURCES ET PROFILS ACTUELS COMPLÉMENTAIRES (09/11/2026). */
+const crocamiFollowupSources20261109 = {
+ "mq-cat-007": {
+  sourceRevendeur:"https://prom.ua/ua/p2835517481-suhoj-korm-acti.html",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"Une annonce de revendeur pour Acti-Croq Anti Hairball en sac de 2 kg confirme l’existence de cette référence commerciale, mais ne publie pas de tableau nutritionnel exploitable. Les analyses disponibles dans les fiches secondaires consultées divergent; aucune valeur n’est choisie ni complétée sans étiquette ou source fabricant concordante."
+ },
+ "mq-cat-036": {
+  sourceFabricant:"https://cf.franklinpetfood.com/products/saumon-courge-camomille",
+  verificationFabricant:"formule_actuelle_différente",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La recette Franklin actuellement publiée « Saumon, courge, camomille » est destinée aux chats adultes stérilisés et diffère de la recette historique saumon, patate douce et asperge de cette fiche. Profil fabricant actuel séparé : protéines 34 %, glucides 29 %, matières grasses 14 %, cendres 8,5 %, fibres 4 %, humidité 10 %, calcium 1,1 %, phosphore 0,8 %, rapport Ca/P publié 1,38 (calcul 1,375), oméga-6 0,8 %, oméga-3 1,2 %, énergie 3 630 kcal/kg et RPC fabricant 94 g/Mcal. La page indique magnésium 0,04 %, taurine 2 150 mg/kg et formats 1, 3 et 6 kg. Les champs historiques ne sont pas remplacés."
+ },
+ "mq-cat-037": {
+  sourceRevendeur:"https://www.goldeneaglepetfoods.ee/toode/60?lang=en",
+  verificationFabricant:"confirmée_partielle",
+  dateVerificationFabricant:"2026-11-09",
+  noteFabricant:"La fiche revendeur Golden Eagle Holistic Adult Cat reprend la référence et la composition de cette fiche. Son analyse publiée donne notamment phosphore 0,8 % et taurine 1 000 mg/kg; le phosphore diffère de 0,7 % dans l’enregistrement historique. Les valeurs de l’annonce récente sont donc présentées à part ci-dessous. La page consultée indiquait le produit indisponible; elle ne publie pas d’énergie métabolisable. Aucune énergie n’est estimée.",
+  donneesFabricantActuelles:{
+   formule:"Golden Eagle Holistic Adult Cat — analyse de la fiche revendeur",
+   proteines:32,matieresGrasses:21,fibres:2.9,cendres:7.9,humidite:7,
+   calcium:1.1,phosphore:0.8,ratioCalciumPhosphore:1.375,
+   magnesium:0.09,omega3:0.9,omega6:3.7,taurine:1000,
+   composition:"Farine de poulet, riz brun et blanc, graisse de poulet, pomme de terre, avoine, pulpe de betterave, saumon, foie, œuf, carotte, tomate, huile de saumon, lin, pois, algues, plantes et glucosamine.",
+   formatsDisponibles:"4 kg (format indiqué par le revendeur; disponibilité à vérifier)"
+  }
+ }
+};
+for (const product of window.CROCamiCatalog) {
+ const update = crocamiFollowupSources20261109[product.id];
+ if (!update) continue;
+ Object.assign(product, update);
+ if (update.donneesFabricantActuelles) {
+  product.donneesFabricantActuelles = {...(product.donneesFabricantActuelles || {}), ...update.donneesFabricantActuelles};
+ }
+}
