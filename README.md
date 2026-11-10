@@ -103,4 +103,4 @@ Les fiches statiques sont générées par `node scripts/build-product-pages.mjs`
 Les pages de `produits/` contiennent leur contenu, leur titre, leur description et leur URL canonique sans dépendre de JavaScript. `sitemap.xml` et `robots.txt` sont générés dans la même opération. Les anciens liens `#produit/…` sont redirigés dans le navigateur vers la nouvelle adresse.
 
 ## Calcul du RPC
-Le RPC est calculé uniquement lorsque les protéines et l’énergie de la même formulation sont disponibles. Sinon, il reste non communiqué et le critère est exclu de la note Crocami. Les photos du catalogue sont servies localement.
+Le RPC est calculé lorsque les protéines et l’énergie de la même formulation sont disponibles. Sinon, une valeur de référence déjà renseignée est conservée pour maintenir les notes existantes. Sans aucune valeur disponible, le critère est exclu. Les photos du catalogue sont servies localement.

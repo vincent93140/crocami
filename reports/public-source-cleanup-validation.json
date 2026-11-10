@@ -3,7 +3,8 @@
   "recordsPreserved": 242,
   "coreNutritionAndPricesPreserved": true,
   "localisedPhotos": 139,
-  "scoresRecomputed": 112,
-  "retiredExternalRpcFallback": true,
-  "publicReferencesRemaining": 0
+  "scoresRecomputed": 0,
+  "retiredExternalRpcFallback": false,
+  "publicReferencesRemaining": 0,
+  "previousScoreValuesRestored": true
 }
